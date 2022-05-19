@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/20575">Quality &amp; Quantity</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer Netherlands</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0033-5177</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-7845</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 127; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 127');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=20575&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;172 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 127</span>
+	 <a href="/scimag/?journal=20575&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Frans N. Stokman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00119505">Graph theoretical elaboration of cumulative scaling techniques</a></p>
+		<p>DOI: 10.1007/bf00119505</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;14, issue&nbsp;2 (1980)</p></td>
+	<td>690&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00119505" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00119505">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00119505">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00119505">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Tróos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00119506">On some methodological problems in selecting a locality for human migration study</a></p>
+		<p>DOI: 10.1007/bf00119506</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;14, issue&nbsp;2 (1980)</p></td>
+	<td>969&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00119506" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00119506">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00119506">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00119506">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Keith Hope</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00119507">A geometrical approach to sociological analysis</a></p>
+		<p>DOI: 10.1007/bf00119507</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;14, issue&nbsp;2 (1980)</p></td>
+	<td>1.12&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00119507" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00119507">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00119507">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00119507">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William V. Gehrlein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00119508">Inducing relations on interval ordered data from pairwise comparisons</a></p>
+		<p>DOI: 10.1007/bf00119508</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;14, issue&nbsp;2 (1980)</p></td>
+	<td>1010&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00119508" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00119508">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00119508">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00119508">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Giuseppe Gangemi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00119509">A critique of Goodman's model for the multivariate analysis of relations between qualitative variables</a></p>
+		<p>DOI: 10.1007/bf00119509</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;14, issue&nbsp;2 (1980)</p></td>
+	<td>600&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00119509" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00119509">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00119509">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00119509">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bruce Larson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00119510">An algebraic approach to qualitative knowledge</a></p>
+		<p>DOI: 10.1007/bf00119510</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;14, issue&nbsp;2 (1980)</p></td>
+	<td>462&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00119510" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00119510">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00119510">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00119510">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Fontana; Gareth Rees; Martin Bulmer; Paul Atkinson; Sara Delamont; Diana Bell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00119511">Book reviews</a></p>
+		<p>DOI: 10.1007/bf00119511</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;14, issue&nbsp;2 (1980)</p></td>
+	<td>574&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00119511" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00119511">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00119511">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00119511">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00119512">Erratum</a></p>
+		<p>DOI: 10.1007/bf00119512</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;14, issue&nbsp;2 (1980)</p></td>
+	<td>24&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00119512" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00119512">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00119512">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00119512">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00119513">Abstracts</a></p>
+		<p>DOI: 10.1007/bf00119513</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;14, issue&nbsp;2 (1980)</p></td>
+	<td>140&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00119513" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00119513">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00119513">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00119513">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gosta Carlsson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00119979">Social data and response models. The case of crime rates</a></p>
+		<p>DOI: 10.1007/bf00119979</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;9, issue&nbsp;2 (1975)</p></td>
+	<td>785&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00119979" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00119979">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00119979">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00119979">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Bibby</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00119980">Methods of measuring mobility</a></p>
+		<p>DOI: 10.1007/bf00119980</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;9, issue&nbsp;2 (1975)</p></td>
+	<td>1.68&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00119980" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00119980">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00119980">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00119980">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. K. Lindsey</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00119981">A critique of scaled “variables”</a></p>
+		<p>DOI: 10.1007/bf00119981</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;9, issue&nbsp;2 (1975)</p></td>
+	<td>452&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00119981" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00119981">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00119981">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00119981">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniel J. Brown</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00119982">A simple Markovian model for general mobility: Some preliminary considerations</a></p>
+		<p>DOI: 10.1007/bf00119982</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;9, issue&nbsp;2 (1975)</p></td>
+	<td>1.38&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00119982" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00119982">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00119982">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00119982">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dougal Hutchison</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00119983">Areas of difference: A critique of the work of Byrne and Williamson on regional inequalities in educational attainment</a></p>
+		<p>DOI: 10.1007/bf00119983</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;9, issue&nbsp;2 (1975)</p></td>
+	<td>841&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00119983" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00119983">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00119983">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00119983">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. S. Byrne</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00119984">Rejoinder to Dougal Hutchison's “Areas of difference: A critique of the work of Byrne and Williamson on regional inequalities in educational attainment”</a></p>
+		<p>DOI: 10.1007/bf00119984</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;9, issue&nbsp;2 (1975)</p></td>
+	<td>363&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00119984" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00119984">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00119984">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00119984">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00119985">Abstracts</a></p>
+		<p>DOI: 10.1007/bf00119985</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;9, issue&nbsp;2 (1975)</p></td>
+	<td>127&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00119985" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00119985">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00119985">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00119985">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zvi Maimon; Adi Raveh; Gur Mosheiov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00123082">Additional cautionary notes about the Pearson's correlation coefficient</a></p>
+		<p>DOI: 10.1007/bf00123082</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;20, issue&nbsp;4 (1986)</p></td>
+	<td>573&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00123082" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00123082">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00123082">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00123082">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kenneth D. Bailey</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00123083">Philosophical foundations of sociological measurement: a note on the three level model</a></p>
+		<p>DOI: 10.1007/bf00123083</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;20, issue&nbsp;4 (1986)</p></td>
+	<td>644&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00123083" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00123083">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00123083">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00123083">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jan-Erik Lane</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00123084">The logic of means-end analysis</a></p>
+		<p>DOI: 10.1007/bf00123084</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;20, issue&nbsp;4 (1986)</p></td>
+	<td>973&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00123084" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00123084">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00123084">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00123084">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jan Dijk</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00123085">Methods in applied social research: special characteristics and quality standards</a></p>
+		<p>DOI: 10.1007/bf00123085</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;20, issue&nbsp;4 (1986)</p></td>
+	<td>879&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00123085" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00123085">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00123085">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00123085">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard G. Niemi; Edward G. Carmines; John P. McIver</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00123086">The impact of scale length on reliability and validity</a></p>
+		<p>DOI: 10.1007/bf00123086</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;20, issue&nbsp;4 (1986)</p></td>
+	<td>294&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00123086" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00123086">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00123086">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00123086">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jules Peschar; Els Ten Vergert; Roel Popping</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00123087">From father to son and from father to daughter: educational mobility in Hungary and the Netherlands for the birth cohorts from 1925 to 1955</a></p>
+		<p>DOI: 10.1007/bf00123087</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;20, issue&nbsp;4 (1986)</p></td>
+	<td>1.26&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00123087" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00123087">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00123087">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00123087">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William P. Collins</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00123088">Does democracy inevitably imply hierarchy?</a></p>
+		<p>DOI: 10.1007/bf00123088</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;20, issue&nbsp;4 (1986)</p></td>
+	<td>718&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00123088" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00123088">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00123088">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00123088">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sven Berg; Manfred J. Holler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00123089">Randomized decision rules in voting games: a model for strict proportional power</a></p>
+		<p>DOI: 10.1007/bf00123089</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;20, issue&nbsp;4 (1986)</p></td>
+	<td>547&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00123089" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00123089">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00123089">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00123089">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Manfred J. Holler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00123090">Two concepts of monotonicity in two-person bargaining theory</a></p>
+		<p>DOI: 10.1007/bf00123090</p>	</td>
+	<td><p><a href="/scimag/journals/20575">Quality &amp; Quantity</a><p>volume&nbsp;20, issue&nbsp;4 (1986)</p></td>
+	<td>208&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00123090" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00123090">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00123090">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00123090">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;172 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 127</span>
+	 <a href="/scimag/?journal=20575&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

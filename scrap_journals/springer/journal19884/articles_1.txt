@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/19884">Positivity</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1385-1292</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-9281</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 50; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 50');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=19884&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;239 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 50</span>
+	 <a href="/scimag/?journal=19884&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Félix Cabello Sánchez; Jesús M. F. Castillo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-002-2465-y">The Long Homology Sequence for Quasi-Banach Spaces, with Applications</a></p>
+		<p>DOI: 10.1007/s11117-002-2465-y</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;8, issue&nbsp;4 (2004)</p></td>
+	<td>148&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-002-2465-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-002-2465-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-002-2465-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-002-2465-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Seung-Hyeok Kye</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-002-2470-1">Facial Structures for Decomposable Positive Linear Maps in Matrix Algebras</a></p>
+		<p>DOI: 10.1007/s11117-002-2470-1</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;9, issue&nbsp;1 (2005)</p></td>
+	<td>165&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-002-2470-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-002-2470-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-002-2470-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-002-2470-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xie Ping Ding; Jong Yeoul Park; Il Hyo Jung</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-002-6287-8">Fixed Point Theorems on Product Topological Spaces and Applications</a></p>
+		<p>DOI: 10.1007/s11117-002-6287-8</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;8, issue&nbsp;4 (2004)</p></td>
+	<td>129&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-002-6287-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-002-6287-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-002-6287-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-002-6287-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dale Alspach; Robert Judd; Edward Odell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-002-9781-0">The Szlenk index and local ℓ1-indices</a></p>
+		<p>DOI: 10.1007/s11117-002-9781-0</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;9, issue&nbsp;1 (2005)</p></td>
+	<td>418&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-002-9781-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-002-9781-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-002-9781-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-002-9781-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. E. Litvak</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-003-1979-2">On the Dual Form of ‘LowM*Estimate’ in the Quasi-convex Case</a></p>
+		<p>DOI: 10.1007/s11117-003-1979-2</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;8, issue&nbsp;4 (2004)</p></td>
+	<td>89&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-003-1979-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-003-1979-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-003-1979-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-003-1979-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Santiago Boza; Joaquim Martín</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-003-2712-x">Equality of Some Classical Lorentz Spaces</a></p>
+		<p>DOI: 10.1007/s11117-003-2712-x</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;9, issue&nbsp;2 (2005)</p></td>
+	<td>84&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-003-2712-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-003-2712-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-003-2712-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-003-2712-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Imed Bachar; Habib Mâagli</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-003-2713-9">Estimates on the Green’s Function and Existence of Positive Solutions of Nonlinear Singular Elliptic Equations in the Half Space</a></p>
+		<p>DOI: 10.1007/s11117-003-2713-9</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;9, issue&nbsp;2 (2005)</p></td>
+	<td>323&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-003-2713-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-003-2713-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-003-2713-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-003-2713-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Gonzalo; J. A. Jaramillo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-003-2714-8">Estimates of Disjoint Sequences in Banach Lattices and R.I. Function Spaces</a></p>
+		<p>DOI: 10.1007/s11117-003-2714-8</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;9, issue&nbsp;2 (2005)</p></td>
+	<td>144&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-003-2714-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-003-2714-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-003-2714-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-003-2714-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anil K. Karn</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-003-2778-5">Adjoining an Order Unit to a Matrix Ordered Space</a></p>
+		<p>DOI: 10.1007/s11117-003-2778-5</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;9, issue&nbsp;2 (2005)</p></td>
+	<td>171&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-003-2778-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-003-2778-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-003-2778-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-003-2778-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Becker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-003-2785-6">On Positive Operators on Some Ordered Banach Spaces</a></p>
+		<p>DOI: 10.1007/s11117-003-2785-6</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;9, issue&nbsp;2 (2005)</p></td>
+	<td>108&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-003-2785-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-003-2785-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-003-2785-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-003-2785-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Charles R. Johnson; Pablo Tarazaga</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-003-3881-3">On Matrices with Perron–Frobenius Properties and Some Negative Entries</a></p>
+		<p>DOI: 10.1007/s11117-003-3881-3</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;8, issue&nbsp;4 (2004)</p></td>
+	<td>125&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-003-3881-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-003-3881-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-003-3881-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-003-3881-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Razvan Anisca</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-003-3883-1">Unconditional Decompositions in Subspaces of l2(X)</a></p>
+		<p>DOI: 10.1007/s11117-003-3883-1</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;8, issue&nbsp;4 (2004)</p></td>
+	<td>195&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-003-3883-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-003-3883-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-003-3883-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-003-3883-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. J. Betancor; J. D. Betancor; J. M. R. Méndez</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-003-5370-0">Hypoelliptic Jacobi Convolution Operators on Schwartz Distributions</a></p>
+		<p>DOI: 10.1007/s11117-003-5370-0</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;8, issue&nbsp;4 (2004)</p></td>
+	<td>155&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-003-5370-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-003-5370-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-003-5370-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-003-5370-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. O. Farid</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-003-5371-z">ℓp-Diagonally Dominant Symmetric Operators</a></p>
+		<p>DOI: 10.1007/s11117-003-5371-z</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;9, issue&nbsp;1 (2005)</p></td>
+	<td>159&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-003-5371-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-003-5371-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-003-5371-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-003-5371-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Albiac; N. Kalton; C. Leránoz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-003-8542-z">Uniqueness of the Unconditional Basis of ℓ1(ℓp) and ℓp(ℓ1), 0 </a></p>
+		<p>DOI: 10.1007/s11117-003-8542-z</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;8, issue&nbsp;4 (2004)</p></td>
+	<td>140&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-003-8542-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-003-8542-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-003-8542-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-003-8542-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Isabel Garrido; Francisco Montalvo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-003-8543-y">Generation of Uniformly Closed Algebras of Functions</a></p>
+		<p>DOI: 10.1007/s11117-003-8543-y</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;9, issue&nbsp;1 (2005)</p></td>
+	<td>157&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-003-8543-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-003-8543-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-003-8543-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-003-8543-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dmitriy Bilik; Vladimir Kadets; Roman Shvidkoy; Dirk Werner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-003-9339-9">Narrow operators and the Daugavet property for ultraproducts</a></p>
+		<p>DOI: 10.1007/s11117-003-9339-9</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;9, issue&nbsp;1 (2005)</p></td>
+	<td>173&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-003-9339-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-003-9339-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-003-9339-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-003-9339-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Julio Flores</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-004-0733-8">Some Remarks on Disjointly Strictly Singular Positive Operators</a></p>
+		<p>DOI: 10.1007/s11117-004-0733-8</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;9, issue&nbsp;3 (2005)</p></td>
+	<td>128&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-004-0733-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-004-0733-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-004-0733-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-004-0733-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Elmiloud Chil</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-004-1894-1">The Dedekind Completion ofd-Algebras</a></p>
+		<p>DOI: 10.1007/s11117-004-1894-1</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;8, issue&nbsp;3 (2004)</p></td>
+	<td>95&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-004-1894-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-004-1894-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-004-1894-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-004-1894-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-004-2385-0">Positivity</a></p>
+		<p>DOI: 10.1007/s11117-004-2385-0</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;8, issue&nbsp;4 (2004)</p></td>
+	<td>136&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-004-2385-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-004-2385-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-004-2385-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-004-2385-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-004-2386-z">Author Index Volume 8 2004</a></p>
+		<p>DOI: 10.1007/s11117-004-2386-z</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;8, issue&nbsp;4 (2004)</p></td>
+	<td>21&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-004-2386-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-004-2386-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-004-2386-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-004-2386-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-004-2387-y">Keyword Index Volume 8 2004</a></p>
+		<p>DOI: 10.1007/s11117-004-2387-y</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;8, issue&nbsp;4 (2004)</p></td>
+	<td>33&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-004-2387-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-004-2387-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-004-2387-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-004-2387-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-004-2388-x">Contents to Volume 8</a></p>
+		<p>DOI: 10.1007/s11117-004-2388-x</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;8, issue&nbsp;4 (2004)</p></td>
+	<td>35&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-004-2388-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-004-2388-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-004-2388-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-004-2388-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vincent Decugis; Bernard Beauzamy</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-004-2464-2">Convergence of a Reactive Planning Algorithm</a></p>
+		<p>DOI: 10.1007/s11117-004-2464-2</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;8, issue&nbsp;3 (2004)</p></td>
+	<td>237&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-004-2464-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-004-2464-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-004-2464-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-004-2464-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vladimir G. Troitsky</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11117-004-2769-1">Martingales in Banach Lattices</a></p>
+		<p>DOI: 10.1007/s11117-004-2769-1</p>	</td>
+	<td><p><a href="/scimag/journals/19884">Positivity</a><p>volume&nbsp;9, issue&nbsp;3 (2005)</p></td>
+	<td>187&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11117-004-2769-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11117-004-2769-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11117-004-2769-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11117-004-2769-1">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;239 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 50</span>
+	 <a href="/scimag/?journal=19884&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

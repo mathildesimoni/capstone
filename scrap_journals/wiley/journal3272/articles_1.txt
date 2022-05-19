@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/3272">British Journal of Educational Technology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0007-1013</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1467-8535</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 155; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 155');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=3272&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;855 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 155</span>
+	 <a href="/scimag/?journal=3272&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Nick Rushby</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.00349.x">Editorial</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.00349.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>30&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.00349.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.00349.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.00349.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.00349.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Terry Goodison</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.00350.x">Integrating ICT in the classroom: a case study of two contrasting lessons</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.00350.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>95&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.00350.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.00350.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.00350.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.00350.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Penni Tearle</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.00351.x">ICT implementation: what makes the difference?</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.00351.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>176&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.00351.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.00351.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.00351.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.00351.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John V. Dempsey; Richard Van Eck</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.00352.x">Modality and placement of a pedagogical adviser in individual interactive learning</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.00352.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>95&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.00352.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.00352.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.00352.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.00352.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yu-Chih Sun</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.00353.x">Learning process, strategies and web-based concordancers: a case study</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.00353.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>138&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.00353.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.00353.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.00353.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.00353.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen W. Rainbow; Eugene Sadler-Smith</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.00354.x">Attitudes to computer-assisted learning amongst business and management students</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.00354.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>68&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.00354.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.00354.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.00354.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.00354.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James Aczel; Pat Fung; Richard Bornat; Martin Oliver; Tim O&#039;Shea; Bernard Sufrin</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.00355.x">Software that assists learning within a complex abstract domain: the use of constraint and consequentiality as learning mechanisms</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.00355.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>222&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.00355.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.00355.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.00355.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.00355.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Timothy J. Ellis; William Hafner</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.00356.x">Engineering an online course: applying the ‘secrets’ of computer programming to course development</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.00356.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>299&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.00356.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.00356.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.00356.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.00356.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark Stubbs; John Pal</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.00357.x">The development, design and delivery of a retail simulation</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.00357.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>177&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.00357.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.00357.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.00357.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.00357.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kevin Clark</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.00358.x">Using self-directed learning communities to bridge the digital divide</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.00358.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>34&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.00358.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.00358.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.00358.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.00358.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Russell Butson</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.00359.x">Learning objects: weapons of mass instruction</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.00359.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>39&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.00359.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.00359.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.00359.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.00359.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Myint Swe Khine; Atputhasamy Lourdusamy</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.00360.x">Blended learning approach in teacher education: combining face-to-face instruction, multimedia viewing and online discussion</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.00360.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>142&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.00360.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.00360.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.00360.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.00360.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Neil Selwyn</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.00361_1.x">Reviews: 1</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.00361_1.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.00361_1.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.00361_1.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.00361_1.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.00361_1.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Phil Race</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.t01-1-00361_2.x">Reviews: 2</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.t01-1-00361_2.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.t01-1-00361_2.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.t01-1-00361_2.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.t01-1-00361_2.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.t01-1-00361_2.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.t01-10-00361_11.x">Reviews: 11</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.t01-10-00361_11.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.t01-10-00361_11.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.t01-10-00361_11.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.t01-10-00361_11.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.t01-10-00361_11.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.t01-11-00361_12.x">Reviews: 12</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.t01-11-00361_12.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.t01-11-00361_12.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.t01-11-00361_12.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.t01-11-00361_12.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.t01-11-00361_12.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.t01-12-00361_13.x">Reviews: 13</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.t01-12-00361_13.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.t01-12-00361_13.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.t01-12-00361_13.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.t01-12-00361_13.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.t01-12-00361_13.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.t01-13-00361_14.x">Reviews: 14</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.t01-13-00361_14.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.t01-13-00361_14.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.t01-13-00361_14.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.t01-13-00361_14.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.t01-13-00361_14.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.t01-14-00361_15.x">Reviews: 15</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.t01-14-00361_15.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.t01-14-00361_15.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.t01-14-00361_15.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.t01-14-00361_15.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.t01-14-00361_15.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.t01-15-00361_16.x">Reviews: 16</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.t01-15-00361_16.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.t01-15-00361_16.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.t01-15-00361_16.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.t01-15-00361_16.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.t01-15-00361_16.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.t01-16-00361_17.x">Reviews: 17</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.t01-16-00361_17.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.t01-16-00361_17.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.t01-16-00361_17.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.t01-16-00361_17.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.t01-16-00361_17.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.t01-17-00361_18.x">Reviews: 18</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.t01-17-00361_18.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.t01-17-00361_18.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.t01-17-00361_18.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.t01-17-00361_18.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.t01-17-00361_18.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.t01-18-00361_19.x">Reviews: 19</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.t01-18-00361_19.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.t01-18-00361_19.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.t01-18-00361_19.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.t01-18-00361_19.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.t01-18-00361_19.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.t01-19-00361_20.x">Reviews: 20</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.t01-19-00361_20.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.t01-19-00361_20.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.t01-19-00361_20.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.t01-19-00361_20.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.t01-19-00361_20.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robyn Smyth</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0007-1013.2003.t01-2-00361_3.x">Reviews: 3</a></p>
+		<p>DOI: 10.1046/j.0007-1013.2003.t01-2-00361_3.x</p>	</td>
+	<td><p><a href="/scimag/journals/3272">British Journal of Educational Technology</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0007-1013.2003.t01-2-00361_3.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0007-1013.2003.t01-2-00361_3.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0007-1013.2003.t01-2-00361_3.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0007-1013.2003.t01-2-00361_3.x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;855 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 155</span>
+	 <a href="/scimag/?journal=3272&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

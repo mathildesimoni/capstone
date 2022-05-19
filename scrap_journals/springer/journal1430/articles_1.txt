@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1430">Annals of Combinatorics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0218-0006</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>0219-3094</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 36; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 36');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1430&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">884 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 36</span>
+	 <a href="/scimag/?journal=1430&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Christine Bessenrodt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608481">On hooks of Young diagrams</a></p>
+		<p>DOI: 10.1007/bf01608481</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;2, issue&nbsp;2 (1998)</p></td>
+	<td>411&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608481" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608481">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608481">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608481">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard Ehrenborg; Swapneel Mahajan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608482">Maximizing the descent statistic</a></p>
+		<p>DOI: 10.1007/bf01608482</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;2, issue&nbsp;2 (1998)</p></td>
+	<td>1.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608482" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608482">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608482">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608482">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Akira Hiraki; Jack Koolen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608483">An improvement of the Ivanov bound</a></p>
+		<p>DOI: 10.1007/bf01608483</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;2, issue&nbsp;2 (1998)</p></td>
+	<td>202&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608483" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608483">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608483">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608483">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Keiko Kotani</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608484">k-regular factors and semi-k-regular factors in bipartite graphs</a></p>
+		<p>DOI: 10.1007/bf01608484</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;2, issue&nbsp;2 (1998)</p></td>
+	<td>418&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608484" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608484">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608484">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608484">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michel Lassalle</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608485">Some combinatorial conjectures for shifted Jack polynomials</a></p>
+		<p>DOI: 10.1007/bf01608485</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;2, issue&nbsp;2 (1998)</p></td>
+	<td>826&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608485" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608485">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608485">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608485">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sheng-Chyang Liaw; Gerald J. Chang; Feng Cao; D. Frank Hsu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608486">Fault-tolerant routing in circulant networks and cycle prefix networks</a></p>
+		<p>DOI: 10.1007/bf01608486</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;2, issue&nbsp;2 (1998)</p></td>
+	<td>552&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608486" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608486">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608486">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608486">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alois Panholzer; Helmut Prodinger</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608487">An analytic approach for the analysis of rotations in fringe-balanced binary search trees</a></p>
+		<p>DOI: 10.1007/bf01608487</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;2, issue&nbsp;2 (1998)</p></td>
+	<td>527&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608487" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608487">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608487">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608487">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Doron Zeilberger</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608488">Enumeration Schemes and, more importantly, their automatic generation</a></p>
+		<p>DOI: 10.1007/bf01608488</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;2, issue&nbsp;2 (1998)</p></td>
+	<td>692&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608488" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608488">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608488">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608488">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608489">Call for papers</a></p>
+		<p>DOI: 10.1007/bf01608489</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;2, issue&nbsp;2 (1998)</p></td>
+	<td>56&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608489" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608489">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608489">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608489">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Noga Alon; Michael Krivelevich</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608526">The choice number of random bipartite graphs</a></p>
+		<p>DOI: 10.1007/bf01608526</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;2, issue&nbsp;4 (1998)</p></td>
+	<td>459&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608526" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608526">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608526">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608526">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. W. M. Dress; K. T. Huber; V. Moulton</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608527">A comparison between two distinct continuous models in projective cluster theory: The median and the tight-span construction</a></p>
+		<p>DOI: 10.1007/bf01608527</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;2, issue&nbsp;4 (1998)</p></td>
+	<td>598&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608527" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608527">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608527">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608527">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Jendrol&#039;; H. -J. Voss</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608528">Light paths with an odd number of vertices in large polyhedral maps</a></p>
+		<p>DOI: 10.1007/bf01608528</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;2, issue&nbsp;4 (1998)</p></td>
+	<td>704&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608528" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608528">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608528">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608528">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Antonio Pasini; Giustina Pica</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608529">Wrapping polygons in polygons</a></p>
+		<p>DOI: 10.1007/bf01608529</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;2, issue&nbsp;4 (1998)</p></td>
+	<td>1.65&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608529" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608529">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608529">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608529">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard P. Stanley</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608530">Spanning trees and a conjecture of Kontsevich</a></p>
+		<p>DOI: 10.1007/bf01608530</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;2, issue&nbsp;4 (1998)</p></td>
+	<td>730&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608530" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608530">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608530">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608530">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John R. Stembridge</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608531">Counting points on varieties over finite fields related to a conjecture of Kontsevich</a></p>
+		<p>DOI: 10.1007/bf01608531</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;2, issue&nbsp;4 (1998)</p></td>
+	<td>1.36&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608531" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608531">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608531">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608531">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Aviezri S. Fraenkel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608532">Heap games, numeration systems and sequences</a></p>
+		<p>DOI: 10.1007/bf01608532</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;2, issue&nbsp;3 (1998)</p></td>
+	<td>853&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608532" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608532">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608532">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608532">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexander V. Karzanov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608533">Metrics with finite sets of primitive extensions</a></p>
+		<p>DOI: 10.1007/bf01608533</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;2, issue&nbsp;3 (1998)</p></td>
+	<td>2.25&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608533" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608533">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608533">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608533">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Matteo Mainetti; Catherine Huafei Yan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608534">Graphical operations on projective spaces</a></p>
+		<p>DOI: 10.1007/bf01608534</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;2, issue&nbsp;3 (1998)</p></td>
+	<td>2.44&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608534" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608534">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608534">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608534">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. J. Guttmann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608778">On combinatorics and statistical mechanics</a></p>
+		<p>DOI: 10.1007/bf01608778</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;3, issue&nbsp;2-4 (1999)</p></td>
+	<td>150&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608778" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608778">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608778">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608778">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>George E. Andrews</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608779">Stacked lattice boxes</a></p>
+		<p>DOI: 10.1007/bf01608779</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;3, issue&nbsp;2-4 (1999)</p></td>
+	<td>583&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608779" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608779">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608779">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608779">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. -Ch. Anglès d&#039;Auriac; S. Boukraa; J. -M. Maillard</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608780">Functional relations in lattice statistical mechanics, enumerative combinatorics, and discrete dynamical systems</a></p>
+		<p>DOI: 10.1007/bf01608780</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;3, issue&nbsp;2-4 (1999)</p></td>
+	<td>1.98&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608780" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608780">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608780">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608780">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. H. Baker; P. J. Forrester</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608781">Symmetric Jack polynomials from non-symmetric theory</a></p>
+		<p>DOI: 10.1007/bf01608781</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;3, issue&nbsp;2-4 (1999)</p></td>
+	<td>641&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608781" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608781">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608781">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608781">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Barcucci; A. Lungo; E. Pergola; R. Pinzani</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608782">Some combinatorial interpretations ofq-analogs of Schröder numbers</a></p>
+		<p>DOI: 10.1007/bf01608782</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;3, issue&nbsp;2-4 (1999)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608782" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608782">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608782">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608782">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. J. Baxter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608783">Planar lattice gases with nearest-neighbor exclusion</a></p>
+		<p>DOI: 10.1007/bf01608783</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;3, issue&nbsp;2-4 (1999)</p></td>
+	<td>731&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608783" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608783">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608783">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608783">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christian Borgs; Jennifer Chayes; Remco Hofstad; Gordon Slade</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01608784">Mean-field lattice trees</a></p>
+		<p>DOI: 10.1007/bf01608784</p>	</td>
+	<td><p><a href="/scimag/journals/1430">Annals of Combinatorics</a><p>volume&nbsp;3, issue&nbsp;2-4 (1999)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01608784" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01608784">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01608784">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01608784">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">884 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 36</span>
+	 <a href="/scimag/?journal=1430&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

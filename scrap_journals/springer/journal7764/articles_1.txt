@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/7764">Formal Methods in System Design</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0925-9856</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-8102</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 27; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 27');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=7764&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">662 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 27</span>
+	 <a href="/scimag/?journal=7764&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00121124">Introduction</a></p>
+		<p>DOI: 10.1007/bf00121124</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;1, issue&nbsp;2-3 (1992)</p></td>
+	<td>187&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00121124" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00121124">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00121124">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00121124">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Aarti Gupta</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00121125">Formal hardware verification methods: A survey</a></p>
+		<p>DOI: 10.1007/bf00121125</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;1, issue&nbsp;2-3 (1992)</p></td>
+	<td>5.48&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00121125" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00121125">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00121125">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00121125">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Valérie Roy; Robert Simone</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00121126">Auto/Autograph</a></p>
+		<p>DOI: 10.1007/bf00121126</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;1, issue&nbsp;2-3 (1992)</p></td>
+	<td>625&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00121126" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00121126">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00121126">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00121126">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-Claude Fernandez; Laurent Mounier; Claude Jard; Thierry Jéron</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00121127">On-the-fly verification of finite transition systems</a></p>
+		<p>DOI: 10.1007/bf00121127</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;1, issue&nbsp;2-3 (1992)</p></td>
+	<td>1.05&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00121127" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00121127">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00121127">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00121127">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Courcoubetis; M. Vardi; P. Wolper; M. Yannakakis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00121128">Memory-efficient algorithms for the verification of temporal properties</a></p>
+		<p>DOI: 10.1007/bf00121128</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;1, issue&nbsp;2-3 (1992)</p></td>
+	<td>804&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00121128" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00121128">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00121128">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00121128">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00121260">Editorial</a></p>
+		<p>DOI: 10.1007/bf00121260</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;8, issue&nbsp;1 (1996)</p></td>
+	<td>48&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00121260" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00121260">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00121260">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00121260">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paola Inverardi; Corrado Priami</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00121261">Automatic verification of distributed systems: The process algebra approach</a></p>
+		<p>DOI: 10.1007/bf00121261</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;8, issue&nbsp;1 (1996)</p></td>
+	<td>1.83&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00121261" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00121261">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00121261">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00121261">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Doron Peled</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00121262">Combining partial order reductions with on-the-fly model-checking</a></p>
+		<p>DOI: 10.1007/bf00121262</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;8, issue&nbsp;1 (1996)</p></td>
+	<td>1.48&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00121262" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00121262">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00121262">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00121262">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tetsuya Yamada; Hiroto Yasuura</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00121263">On the computational power of binary decision diagram with redundant variables</a></p>
+		<p>DOI: 10.1007/bf00121263</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;8, issue&nbsp;1 (1996)</p></td>
+	<td>1.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00121263" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00121263">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00121263">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00121263">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jan Friso Groote</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00121264">Hiding propositional constants in BDDs</a></p>
+		<p>DOI: 10.1007/bf00121264</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;8, issue&nbsp;1 (1996)</p></td>
+	<td>250&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00121264" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00121264">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00121264">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00121264">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexandre Yakovlev; Michael Kishinevsky; Alex Kondratyev; Luciano Lavagno; Marta Pietkiewicz-Koutny</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00122082">On the models for asynchronous circuit behaviour with OR causality</a></p>
+		<p>DOI: 10.1007/bf00122082</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;9, issue&nbsp;3 (1996)</p></td>
+	<td>2.40&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00122082" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00122082">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00122082">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00122082">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Leo Marcus</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00122083">The incorporation of testing into formal verification: Direct, modular, and hierarchical correctness degrees</a></p>
+		<p>DOI: 10.1007/bf00122083</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;9, issue&nbsp;3 (1996)</p></td>
+	<td>1.39&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00122083" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00122083">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00122083">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00122083">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Bolognesi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00122084">Regrouping parallel processes</a></p>
+		<p>DOI: 10.1007/bf00122084</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;9, issue&nbsp;3 (1996)</p></td>
+	<td>2.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00122084" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00122084">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00122084">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00122084">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00122085">Call for papers</a></p>
+		<p>DOI: 10.1007/bf00122085</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;9, issue&nbsp;3 (1996)</p></td>
+	<td>91&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00122085" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00122085">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00122085">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00122085">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00122416">Preface</a></p>
+		<p>DOI: 10.1007/bf00122416</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;8, issue&nbsp;2 (1996)</p></td>
+	<td>92&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00122416" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00122416">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00122416">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00122416">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. B. Jones</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00122417">Accommodating interference in the formal design of concurrent object-based programs</a></p>
+		<p>DOI: 10.1007/bf00122417</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;8, issue&nbsp;2 (1996)</p></td>
+	<td>903&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00122417" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00122417">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00122417">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00122417">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lalita Jategaonkar Jagadeesan; Carlos Puchol; James E. Olnhausen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00122418">A formal approach to reactive systems software: A telecommunications application in Esterel</a></p>
+		<p>DOI: 10.1007/bf00122418</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;8, issue&nbsp;2 (1996)</p></td>
+	<td>1.36&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00122418" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00122418">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00122418">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00122418">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mandayam K. Srivas; Steven P. Miller</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00122419">Applying formal verification to the AAMP5 microprocessor:A case study in the industrial use of formal methods</a></p>
+		<p>DOI: 10.1007/bf00122419</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;8, issue&nbsp;2 (1996)</p></td>
+	<td>2.26&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00122419" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00122419">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00122419">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00122419">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00464354">Editorial</a></p>
+		<p>DOI: 10.1007/bf00464354</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>78&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00464354" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00464354">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00464354">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00464354">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chaochen Zhou; C. A. R. Hoare</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00464355">A model for synchronous switching circuits and its theory of correctness</a></p>
+		<p>DOI: 10.1007/bf00464355</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>1.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00464355" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00464355">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00464355">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00464355">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David L. Dill; Steven M. Nowick; Robert F. Sproull</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00464356">Specification and automatic verification of self-timed queues</a></p>
+		<p>DOI: 10.1007/bf00464356</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>1.80&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00464356" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00464356">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00464356">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00464356">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jawahar Jain; Jacob A. Abraham; James Bitner; Donald S. Fussell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00464357">Probabilistic verification of Boolean functions</a></p>
+		<p>DOI: 10.1007/bf00464357</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>3.48&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00464357" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00464357">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00464357">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00464357">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alain J. Martin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00464358">Asynchronous datapaths and the design of an asynchronous adder</a></p>
+		<p>DOI: 10.1007/bf00464358</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00464358" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00464358">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00464358">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00464358">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Allen Emerson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00625966">Editorial for special issue on symmetry in automatic verification</a></p>
+		<p>DOI: 10.1007/bf00625966</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;9, issue&nbsp;1-2 (1996)</p></td>
+	<td>119&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00625966" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00625966">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00625966">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00625966">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kurt Jensen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00625967">Condensed state spaces for symmetrical Coloured Petri Nets</a></p>
+		<p>DOI: 10.1007/bf00625967</p>	</td>
+	<td><p><a href="/scimag/journals/7764">Formal Methods in System Design</a><p>volume&nbsp;9, issue&nbsp;1-2 (1996)</p></td>
+	<td>2.12&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00625967" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00625967">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00625967">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00625967">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">662 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 27</span>
+	 <a href="/scimag/?journal=7764&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

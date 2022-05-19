@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1471">Annals of Operations Research</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer US</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0254-5330</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-9338</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 250; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 250');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1471&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">6&nbsp;233 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 250</span>
+	 <a href="/scimag/?journal=1471&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Kok Lay Teo; T. C. Edwin Cheng; Xiaoqiang Cai; Xiaoqi Yang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5021-2">Preface</a></p>
+		<p>DOI: 10.1007/s10479-004-5021-2</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>37&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5021-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5021-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5021-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5021-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Le Thi Hoai An; Pham Dinh Tao</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5022-1">The DC (Difference of Convex Functions) Programming and DCA Revisited with DC Models of Real World Nonconvex Optimization Problems</a></p>
+		<p>DOI: 10.1007/s10479-004-5022-1</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>181&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5022-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5022-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5022-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5022-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jin-Chirng Lee; Hang-Chin Lai</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5023-0">Parameter-Free Dual Models for Fractional Programming with Generalized Invexity</a></p>
+		<p>DOI: 10.1007/s10479-004-5023-0</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>123&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5023-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5023-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5023-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5023-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gui-Hua Lin; Masao Fukushima</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5024-z">A Modified Relaxation Scheme for Mathematical Programs with Complementarity Constraints</a></p>
+		<p>DOI: 10.1007/s10479-004-5024-z</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>173&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5024-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5024-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5024-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5024-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Masakazu Muramatsu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5025-y">A Unified Class of Directly Solvable Semidefinite Programming Problems</a></p>
+		<p>DOI: 10.1007/s10479-004-5025-y</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>105&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5025-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5025-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5025-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5025-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yu-Fei Yang; Liqun Qi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5026-x">Smoothing Trust Region Methods for Nonlinear Complementarity Problems withP0-Functions</a></p>
+		<p>DOI: 10.1007/s10479-004-5026-x</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>150&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5026-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5026-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5026-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5026-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zhenhua Yang; Bingsheng He</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5027-9">A Relaxed Approximate Proximal Point Algorithm</a></p>
+		<p>DOI: 10.1007/s10479-004-5027-9</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>87&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5027-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5027-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5027-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5027-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Duan Li; Xiaoling Sun; Ken McKinnon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5028-8">An Exact Solution Method for Reliability Optimization in Complex Systems</a></p>
+		<p>DOI: 10.1007/s10479-004-5028-8</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>181&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5028-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5028-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5028-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5028-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. M. T. Lin; T. C. E. Cheng</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5029-7">Two-Machine Flowshop Batching and Scheduling</a></p>
+		<p>DOI: 10.1007/s10479-004-5029-7</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>127&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5029-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5029-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5029-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5029-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. T. Ng; T. C. Edwin Cheng; Adam Janiak; Mikhail Y. Kovalyov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5030-1">Group Scheduling with Controllable Setup and Processing Times: Minimizing Total Weighted Completion Time</a></p>
+		<p>DOI: 10.1007/s10479-004-5030-1</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>135&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5030-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5030-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5030-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5030-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chung Keung Poon; Wenci Yu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5031-0">A Flexible On-line Scheduling Algorithm for Batch Machine with Infinite Capacity</a></p>
+		<p>DOI: 10.1007/s10479-004-5031-0</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>80&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5031-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5031-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5031-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5031-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Guoqing Wang; Hongyi Sun; Chengbin Chu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5032-z">Preemptive Scheduling with Availability Constraints to Minimize Total Weighted Completion Times</a></p>
+		<p>DOI: 10.1007/s10479-004-5032-z</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>97&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5032-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5032-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5032-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5032-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ming-Jong Yao</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5033-y">The Economic Lot Scheduling Problem without Capacity Constraints</a></p>
+		<p>DOI: 10.1007/s10479-004-5033-y</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>138&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5033-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5033-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5033-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5033-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hong Seo Ryoo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5034-x">Robust Metaheuristic Algorithm for Redundancy Optimization in Large-Scale Complex Systems</a></p>
+		<p>DOI: 10.1007/s10479-004-5034-x</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>267&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5034-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5034-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5034-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5034-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hao Cheng; Shu-Cherng Fang; John E. Lavery</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5035-9">A Geometric Programming Framework for Univariate CubicL1Smoothing Splines</a></p>
+		<p>DOI: 10.1007/s10479-004-5035-9</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>199&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5035-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5035-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5035-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5035-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hai Huyen Dam; Hans-Jürgen Zepernick; Sven Nordholm; Jörgen Nordberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5036-8">Spreading Code Design Using a Global Optimization Method</a></p>
+		<p>DOI: 10.1007/s10479-004-5036-8</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>203&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5036-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5036-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5036-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5036-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xiaotie Deng; Zhong Fei Li; Shouyang Wang; Hailiang Yang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5037-7">Necessary and Sufficient Conditions for Weak No-Arbitrage in Securities Markets with Frictions</a></p>
+		<p>DOI: 10.1007/s10479-004-5037-7</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>109&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5037-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5037-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5037-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5037-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Myburgh; K. H. Wong</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5038-6">Computational Control of an HIV Model</a></p>
+		<p>DOI: 10.1007/s10479-004-5038-6</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>77&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5038-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5038-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5038-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5038-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anatoli Torokhti; Phil Howlett; Charles Pearce</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5039-5">Optimal Recursive Estimation of Raw Data</a></p>
+		<p>DOI: 10.1007/s10479-004-5039-5</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>469&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5039-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5039-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5039-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5039-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jiang Qian Ying</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5040-z">Sensitivity Analysis Based Method for Optimal Road Network Pricing</a></p>
+		<p>DOI: 10.1007/s10479-004-5040-z</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>119&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5040-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5040-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5040-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5040-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zhuquan Zang; Sven Nordholm</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-004-5041-y">Design of ODMA Digital Waveforms Using Non-Convex Optimization Methods</a></p>
+		<p>DOI: 10.1007/s10479-004-5041-y</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;133, issue&nbsp;1-4 (2005)</p></td>
+	<td>147&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-004-5041-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-004-5041-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-004-5041-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-004-5041-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Oded Berman; Dmitry Krass</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-005-2036-2">An Improved IP Formulation for the Uncapacitated Facility Location Problem: Capitalizing on Objective Function Structure</a></p>
+		<p>DOI: 10.1007/s10479-005-2036-2</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;136, issue&nbsp;1 (2005)</p></td>
+	<td>190&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-005-2036-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-005-2036-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-005-2036-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-005-2036-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Frießs; K. Klamroth; M. Sprau</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-005-2037-1">A Wavefront Approach to Center Location Problems with Barriers</a></p>
+		<p>DOI: 10.1007/s10479-005-2037-1</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;136, issue&nbsp;1 (2005)</p></td>
+	<td>529&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-005-2037-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-005-2037-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-005-2037-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-005-2037-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gilbert Laporte; Juan A. Mesa; Francisco A. Ortega; Ignacio Sevillano</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-005-2038-0">Maximizing Trip Coverage in the Location of a Single Rapid Transit Alignment</a></p>
+		<p>DOI: 10.1007/s10479-005-2038-0</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;136, issue&nbsp;1 (2005)</p></td>
+	<td>224&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-005-2038-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-005-2038-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-005-2038-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-005-2038-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Artan Dimnaku; Rex Kincaid; Michael W. Trosset</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10479-005-2039-z">Approximate Solutions of Continuous Dispersion Problems</a></p>
+		<p>DOI: 10.1007/s10479-005-2039-z</p>	</td>
+	<td><p><a href="/scimag/journals/1471">Annals of Operations Research</a><p>volume&nbsp;136, issue&nbsp;1 (2005)</p></td>
+	<td>236&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10479-005-2039-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10479-005-2039-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10479-005-2039-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10479-005-2039-z">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">6&nbsp;233 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 250</span>
+	 <a href="/scimag/?journal=1471&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

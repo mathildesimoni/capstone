@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/8572">Health and Technology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>2190-7188</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>2190-7196</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 20; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 20');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=8572&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">481 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 20</span>
+	 <a href="/scimag/?journal=8572&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Lodewijk Bos; Luis Kun</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-010-0001-9">Just another journal? No, a different one!</a></p>
+		<p>DOI: 10.1007/s12553-010-0001-9</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;1, issue&nbsp;1 (2011)</p></td>
+	<td>77&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-010-0001-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-010-0001-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-010-0001-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-010-0001-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sitra Mulepo; Akiko Niwa; Takuji Date</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-011-0002-3">Establishing an inventory-based medical equipment management system in the public sector: an experience from Uganda</a></p>
+		<p>DOI: 10.1007/s12553-011-0002-3</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;1, issue&nbsp;1 (2011)</p></td>
+	<td>253&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-011-0002-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-011-0002-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-011-0002-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-011-0002-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Adrie C. M. Dumaij; E. C. G. Tijssen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-011-0003-2">On-line health companion contact among chronically ill in the Netherlands</a></p>
+		<p>DOI: 10.1007/s12553-011-0003-2</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;1, issue&nbsp;1 (2011)</p></td>
+	<td>339&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-011-0003-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-011-0003-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-011-0003-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-011-0003-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniel Côrrea; Alexandre Balbinot</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-011-0004-1">Accelerometry for the motion analysis of the lateral plane of the human body during gait</a></p>
+		<p>DOI: 10.1007/s12553-011-0004-1</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;1, issue&nbsp;1 (2011)</p></td>
+	<td>620&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-011-0004-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-011-0004-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-011-0004-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-011-0004-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Subhagata Chattopadhyay; Saurabh Rakesh; Lesley Peek Wee Land; U. Rajendra Acharya</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-011-0005-0">Studying infant mortality rate: a data mining approach</a></p>
+		<p>DOI: 10.1007/s12553-011-0005-0</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;1, issue&nbsp;1 (2011)</p></td>
+	<td>189&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-011-0005-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-011-0005-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-011-0005-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-011-0005-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Milan Cabrnoch; Benjamin Hasić</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-011-0006-z">Electronic Health Book—a unique Czech solution for eHealth</a></p>
+		<p>DOI: 10.1007/s12553-011-0006-z</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;1, issue&nbsp;2-4 (2011)</p></td>
+	<td>199&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-011-0006-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-011-0006-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-011-0006-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-011-0006-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Svetlena Taneva; Effie Law; Jacqueline Higgins; Anthony Easty; Bernhard Plattner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-011-0007-y">Operating room coordination with the eWhiteboard: the fine line between successful and challenged technology adoption</a></p>
+		<p>DOI: 10.1007/s12553-011-0007-y</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;1, issue&nbsp;2-4 (2011)</p></td>
+	<td>288&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-011-0007-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-011-0007-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-011-0007-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-011-0007-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Livia Bellina; Eduardo Missoni</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-011-0008-x">M-learning: mobile phones’ appropriateness and potential for the training of laboratory technicians in limited-resource settings</a></p>
+		<p>DOI: 10.1007/s12553-011-0008-x</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;1, issue&nbsp;2-4 (2011)</p></td>
+	<td>201&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-011-0008-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-011-0008-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-011-0008-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-011-0008-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jacob C. Warren; K. Bryant Smalley; Jeffrey Klibert; Jennie Wren Denmark</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-011-0009-9">Access to emerging technologies and telehealth intervention modality preferences in rural patients</a></p>
+		<p>DOI: 10.1007/s12553-011-0009-9</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;1, issue&nbsp;2-4 (2011)</p></td>
+	<td>116&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-011-0009-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-011-0009-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-011-0009-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-011-0009-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Laurian C. Vega; Tom DeHart; Enid Montague</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-011-0010-3">Trust between patients and health websites: a review of the literature and derived outcomes from empirical studies</a></p>
+		<p>DOI: 10.1007/s12553-011-0010-3</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;1, issue&nbsp;2-4 (2011)</p></td>
+	<td>239&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-011-0010-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-011-0010-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-011-0010-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-011-0010-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yogender Aggarwal; Nishant Singh; Rakesh Kumar Sinha</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-011-0012-1">Electrooculogram based study to assess the effects of prolonged eye fixation on autonomic responses and its possible implication in man-machine interface</a></p>
+		<p>DOI: 10.1007/s12553-011-0012-1</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;2, issue&nbsp;1 (2012)</p></td>
+	<td>246&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-011-0012-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-011-0012-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-011-0012-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-011-0012-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Fergus; A. El Rhalibi; C. Carter; S. Cooper</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-011-0013-0">Towards an avatar mentor framework to support physical and psychosocial treatments</a></p>
+		<p>DOI: 10.1007/s12553-011-0013-0</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;2, issue&nbsp;1 (2012)</p></td>
+	<td>658&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-011-0013-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-011-0013-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-011-0013-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-011-0013-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hoda Moghimi; Hossein Zadeh; Jonathan Schaffer; Nilmini Wickramasinghe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-011-0014-z">Incorporating intelligent risk detection to enable superior decision support: the example of orthopaedic surgeries</a></p>
+		<p>DOI: 10.1007/s12553-011-0014-z</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;2, issue&nbsp;1 (2012)</p></td>
+	<td>251&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-011-0014-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-011-0014-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-011-0014-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-011-0014-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vladimir Trajkovik; Elena Vlahu-Gjorgievska; Igor Kulev</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-012-0015-6">Use of collaboration techniques and classification algorithms in personal healthcare</a></p>
+		<p>DOI: 10.1007/s12553-012-0015-6</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;2, issue&nbsp;1 (2012)</p></td>
+	<td>431&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-012-0015-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-012-0015-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-012-0015-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-012-0015-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ali Sunyaev, Johannes Pflug</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-012-0016-5">Risk evaluation and security analysis of the clinical area within the German electronic health information system</a></p>
+		<p>DOI: 10.1007/s12553-012-0016-5</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;2, issue&nbsp;2 (2012)</p></td>
+	<td>293&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-012-0016-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-012-0016-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-012-0016-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-012-0016-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Emmanuel Andrès; Amir Hajjam; Christian Brandt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-012-0017-4">Advances and innovations in the field of auscultation, with a special focus on the development of new intelligent communicating stethoscope systems</a></p>
+		<p>DOI: 10.1007/s12553-012-0017-4</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;2, issue&nbsp;1 (2012)</p></td>
+	<td>929&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-012-0017-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-012-0017-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-012-0017-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-012-0017-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stella C. Christopoulou; John L. Papoutsis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-012-0018-3">A content citizen health management system: a tele-health and tele-care prototype portal for the public</a></p>
+		<p>DOI: 10.1007/s12553-012-0018-3</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;2, issue&nbsp;1 (2012)</p></td>
+	<td>444&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-012-0018-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-012-0018-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-012-0018-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-012-0018-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chun-Po Yin, Hsiu-Chia Ko, Li-Chun Huang, Fan-Chuan Tseng, Hsiu-Hua Chang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-012-0019-2">Examining user satisfaction of school nursing information system in Taiwan</a></p>
+		<p>DOI: 10.1007/s12553-012-0019-2</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;2, issue&nbsp;2 (2012)</p></td>
+	<td>182&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-012-0019-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-012-0019-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-012-0019-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-012-0019-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carolyn Y. Fang; Margaret L. Longacre; Sharon L. Manne; John A. Ridge; Miriam N. Lango; Barbara A. Burtness</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-012-0020-9">Informational needs of head and neck cancer patients</a></p>
+		<p>DOI: 10.1007/s12553-012-0020-9</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;2, issue&nbsp;1 (2012)</p></td>
+	<td>144&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-012-0020-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-012-0020-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-012-0020-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-012-0020-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mingjing Yang; Huiru Zheng; Haiying Wang; Sally McClean; Nigel Harris</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-012-0021-8">Assessing the utility of smart mobile phones in gait pattern analysis</a></p>
+		<p>DOI: 10.1007/s12553-012-0021-8</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;2, issue&nbsp;1 (2012)</p></td>
+	<td>267&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-012-0021-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-012-0021-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-012-0021-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-012-0021-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marc Nyssen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-012-0023-6">IFMBE’s statement regarding WHO’s reform</a></p>
+		<p>DOI: 10.1007/s12553-012-0023-6</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;2, issue&nbsp;1 (2012)</p></td>
+	<td>84&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-012-0023-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-012-0023-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-012-0023-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-012-0023-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Oscar Tamburis, Massimo Mangia, Mariangela Contenti, Gregorio Mercurio, Angelo Rossi Mori</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-012-0024-5">The LITIS conceptual framework: measuring eHealth readiness and adoption dynamics across the Healthcare Organizations</a></p>
+		<p>DOI: 10.1007/s12553-012-0024-5</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;2, issue&nbsp;2 (2012)</p></td>
+	<td>477&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-012-0024-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-012-0024-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-012-0024-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-012-0024-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eeva Heiro, Matti Mäntymäki</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-012-0025-4">Managing medication information with electronic patient records – a Finnish clinicians’ perspective</a></p>
+		<p>DOI: 10.1007/s12553-012-0025-4</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;2, issue&nbsp;2 (2012)</p></td>
+	<td>222&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-012-0025-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-012-0025-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-012-0025-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-012-0025-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nilmini Wickramasinghe, Douglas Vogel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-012-0027-2">Special issue introduction: e-future</a></p>
+		<p>DOI: 10.1007/s12553-012-0027-2</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;2, issue&nbsp;2 (2012)</p></td>
+	<td>63&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-012-0027-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-012-0027-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-012-0027-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-012-0027-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Diane K. King, Deborah J. Toobert, Jennifer Dickman Portz, Lisa A. Strycker, Alyssa Doty, Carmen Martin, Jennifer M. Boggs, Andrew J. Faber, Cristy R. Geno, Russell E. Glasgow</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12553-012-0022-7">What patients want: relevant health information technology for diabetes self-management</a></p>
+		<p>DOI: 10.1007/s12553-012-0022-7</p>	</td>
+	<td><p><a href="/scimag/journals/8572">Health and Technology</a><p>volume&nbsp;2, issue&nbsp;3 (2012)</p></td>
+	<td>215&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12553-012-0022-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12553-012-0022-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12553-012-0022-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12553-012-0022-7">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">481 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 20</span>
+	 <a href="/scimag/?journal=8572&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

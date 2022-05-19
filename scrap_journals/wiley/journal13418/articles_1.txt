@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/13418">Journal of Experimental Zoology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0022-104X</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1097-010X</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 31; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 31');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=13418&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">751 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 31</span>
+	 <a href="/scimag/?journal=13418&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Wilkie, Michael P.; Simmons, Heather E.; Wood, Chris M. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960101%29274%3A1%3C1%3A%3Aaid-jez1%3E3.0.co%3B2-t">Physiological adaptations of rainbow trout to chronically elevated water pH (pH = 9.5)</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960101)274:1&lt;1::aid-jez1&gt;3.0.co;2-t</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;1 (1996)</p></td>
+	<td>1.43&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960101%29274%3A1%3C1%3A%3Aaid-jez1%3E3.0.co%3B2-t" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C1%3A%3Aaid-jez1%3E3.0.co%3B2-t">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C1%3A%3Aaid-jez1%3E3.0.co%3B2-t">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C1%3A%3Aaid-jez1%3E3.0.co%3B2-t">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Watts, Stephen A.; Yeh, Edward W.; Henry, Raymond P. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960101%29274%3A1%3C15%3A%3Aaid-jez2%3E3.0.co%3B2-i">Hypoosmotic stimulation of ornithine decarboxylase activity in the brine shrimpArtemia franciscana</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960101)274:1&lt;15::aid-jez2&gt;3.0.co;2-i</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;1 (1996)</p></td>
+	<td>827&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960101%29274%3A1%3C15%3A%3Aaid-jez2%3E3.0.co%3B2-i" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C15%3A%3Aaid-jez2%3E3.0.co%3B2-i">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C15%3A%3Aaid-jez2%3E3.0.co%3B2-i">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C15%3A%3Aaid-jez2%3E3.0.co%3B2-i">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Miranda, Estuardo J.; Hazel, Jeffrey R. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960101%29274%3A1%3C23%3A%3Aaid-jez3%3E3.0.co%3B2-h">Temperature-induced changes in the transbilayer distribution of phosphatidylethanolamine in mitoplasts of rainbow trout (Oncorhynchus mykiss) liver</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960101)274:1&lt;23::aid-jez3&gt;3.0.co;2-h</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;1 (1996)</p></td>
+	<td>948&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960101%29274%3A1%3C23%3A%3Aaid-jez3%3E3.0.co%3B2-h" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C23%3A%3Aaid-jez3%3E3.0.co%3B2-h">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C23%3A%3Aaid-jez3%3E3.0.co%3B2-h">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C23%3A%3Aaid-jez3%3E3.0.co%3B2-h">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Di Matteo, Loredana; Vallarino, Mauro; Pierantoni, Riccardo </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960101%29274%3A1%3C33%3A%3Aaid-jez4%3E3.0.co%3B2-g">Localization of GnRH molecular forms in the brain, pituitary, and testis of the frog,Rana esculenta</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960101)274:1&lt;33::aid-jez4&gt;3.0.co;2-g</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;1 (1996)</p></td>
+	<td>1.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960101%29274%3A1%3C33%3A%3Aaid-jez4%3E3.0.co%3B2-g" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C33%3A%3Aaid-jez4%3E3.0.co%3B2-g">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C33%3A%3Aaid-jez4%3E3.0.co%3B2-g">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C33%3A%3Aaid-jez4%3E3.0.co%3B2-g">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sarkar, Supriti; Sarkar, N.K.; Das, P.; Maiti, B.R. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960101%29274%3A1%3C41%3A%3Aaid-jez5%3E3.0.co%3B2-f">Photothermal effects on ovarian growth and function in the soft-shelled turtleLissemys punctata punctata</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960101)274:1&lt;41::aid-jez5&gt;3.0.co;2-f</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;1 (1996)</p></td>
+	<td>1.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960101%29274%3A1%3C41%3A%3Aaid-jez5%3E3.0.co%3B2-f" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C41%3A%3Aaid-jez5%3E3.0.co%3B2-f">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C41%3A%3Aaid-jez5%3E3.0.co%3B2-f">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C41%3A%3Aaid-jez5%3E3.0.co%3B2-f">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sta. Iglesia, Drina D.; Cragoe, Edward J.; Vanable, Joseph W. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960101%29274%3A1%3C56%3A%3Aaid-jez6%3E3.0.co%3B2-e">Electric field strength and epithelization in the newt (Notophthalmus viridescens)</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960101)274:1&lt;56::aid-jez6&gt;3.0.co;2-e</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;1 (1996)</p></td>
+	<td>673&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960101%29274%3A1%3C56%3A%3Aaid-jez6%3E3.0.co%3B2-e" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C56%3A%3Aaid-jez6%3E3.0.co%3B2-e">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C56%3A%3Aaid-jez6%3E3.0.co%3B2-e">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C56%3A%3Aaid-jez6%3E3.0.co%3B2-e">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mendonça, Mary T.; Tousignant, Alan J.; Crews, David </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960101%29274%3A1%3C63%3A%3Aaid-jez7%3E3.0.co%3B2-d">Pinealectomy, melatonin, and courtship behavior in male red-sided garter snakes (Tahmnophis sirtalis parietalis)</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960101)274:1&lt;63::aid-jez7&gt;3.0.co;2-d</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;1 (1996)</p></td>
+	<td>1.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960101%29274%3A1%3C63%3A%3Aaid-jez7%3E3.0.co%3B2-d" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C63%3A%3Aaid-jez7%3E3.0.co%3B2-d">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C63%3A%3Aaid-jez7%3E3.0.co%3B2-d">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960101%29274%3A1%3C63%3A%3Aaid-jez7%3E3.0.co%3B2-d">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kabir, Nurul; Yamamura, Hideki; Takagishi, Yoshiko; Inouye, Minoru; Oda, Sen-Ichi; Hidaka, Hiroyoshi </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960201%29274%3A2%3C101%3A%3Aaid-jez3%3E3.0.co%3B2-t">Regulation of preimplantation development of mouse embryos: Effects of inhibition of myosin light-chain kinase, a Ca2+/calmodulin-dependent enzyme</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960201)274:2&lt;101::aid-jez3&gt;3.0.co;2-t</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;2 (1996)</p></td>
+	<td>1.00&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960201%29274%3A2%3C101%3A%3Aaid-jez3%3E3.0.co%3B2-t" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C101%3A%3Aaid-jez3%3E3.0.co%3B2-t">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C101%3A%3Aaid-jez3%3E3.0.co%3B2-t">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C101%3A%3Aaid-jez3%3E3.0.co%3B2-t">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Samaké, Seydou; Smith, Lawrence C. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960201%29274%3A2%3C111%3A%3Aaid-jez4%3E3.0.co%3B2-s">Effects of cell-cycle-arrest agents on cleavage and development of mouse embryos</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960201)274:2&lt;111::aid-jez4&gt;3.0.co;2-s</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;2 (1996)</p></td>
+	<td>914&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960201%29274%3A2%3C111%3A%3Aaid-jez4%3E3.0.co%3B2-s" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C111%3A%3Aaid-jez4%3E3.0.co%3B2-s">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C111%3A%3Aaid-jez4%3E3.0.co%3B2-s">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C111%3A%3Aaid-jez4%3E3.0.co%3B2-s">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patil, Jawahar G.; Khoo, Hong Woo </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960201%29274%3A2%3C121%3A%3Aaid-jez5%3E3.0.co%3B2-r">Nuclear internalization of foreign DNA by zebrafish spermatozoa and its enhancement by electroporation</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960201)274:2&lt;121::aid-jez5&gt;3.0.co;2-r</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;2 (1996)</p></td>
+	<td>930&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960201%29274%3A2%3C121%3A%3Aaid-jez5%3E3.0.co%3B2-r" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C121%3A%3Aaid-jez5%3E3.0.co%3B2-r">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C121%3A%3Aaid-jez5%3E3.0.co%3B2-r">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C121%3A%3Aaid-jez5%3E3.0.co%3B2-r">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jiménez, Rafael; Alarcón, Francisco J.; Sánchez, Antonio; Burgos, Miguel; Díaz de la Guardia, Rafael </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960201%29274%3A2%3C130%3A%3Aaid-jez6%3E3.0.co%3B2-q">Ovotestis variability in young and adult females of the moleTalpa occidentalis (Insectivora, Mammalia)</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960201)274:2&lt;130::aid-jez6&gt;3.0.co;2-q</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;2 (1996)</p></td>
+	<td>860&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960201%29274%3A2%3C130%3A%3Aaid-jez6%3E3.0.co%3B2-q" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C130%3A%3Aaid-jez6%3E3.0.co%3B2-q">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C130%3A%3Aaid-jez6%3E3.0.co%3B2-q">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C130%3A%3Aaid-jez6%3E3.0.co%3B2-q">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Arnoult, Fabrice; Vernet, Guy </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960201%29274%3A2%3C138%3A%3Aaid-jez7%3E3.0.co%3B2-q">Influence of melatonin on gonad maturation inLineus lacteus (Heteronemertini, Lineidae)</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960201)274:2&lt;138::aid-jez7&gt;3.0.co;2-q</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;2 (1996)</p></td>
+	<td>501&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960201%29274%3A2%3C138%3A%3Aaid-jez7%3E3.0.co%3B2-q" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C138%3A%3Aaid-jez7%3E3.0.co%3B2-q">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C138%3A%3Aaid-jez7%3E3.0.co%3B2-q">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C138%3A%3Aaid-jez7%3E3.0.co%3B2-q">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Musch, Mark W.; Davis-Amaral, Erin M.; Goldstein, Leon </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960201%29274%3A2%3C81%3A%3Aaid-jez1%3E3.0.co%3B2-9">Erythropoietin stimulates tyrosine phosphorylation and taurine transport in skate erythrocytes</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960201)274:2&lt;81::aid-jez1&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;2 (1996)</p></td>
+	<td>997&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960201%29274%3A2%3C81%3A%3Aaid-jez1%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C81%3A%3Aaid-jez1%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C81%3A%3Aaid-jez1%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C81%3A%3Aaid-jez1%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vanfleteren, Jacques R.; De Vreese, Annemie </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960201%29274%3A2%3C93%3A%3Aaid-jez2%3E3.0.co%3B2-8">Rate of aerobic metabolism and superoxide production rate potential in the nematodeCaenorhabditis elegans</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960201)274:2&lt;93::aid-jez2&gt;3.0.co;2-8</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;2 (1996)</p></td>
+	<td>807&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960201%29274%3A2%3C93%3A%3Aaid-jez2%3E3.0.co%3B2-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C93%3A%3Aaid-jez2%3E3.0.co%3B2-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C93%3A%3Aaid-jez2%3E3.0.co%3B2-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960201%29274%3A2%3C93%3A%3Aaid-jez2%3E3.0.co%3B2-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Friedman-Einat, Miriam; Einat, Paz; Snyder, Michael; Ruddle, Frank </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960215%29274%3A3%3C145%3A%3Aaid-jez1%3E3.0.co%3B2-o">Target gene identification: Target specific transcriptional activation by three murine Homeodomain/VP16 hybrid proteins inSaccharomyces cerevisiae</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960215)274:3&lt;145::aid-jez1&gt;3.0.co;2-o</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;3 (1996)</p></td>
+	<td>1.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960215%29274%3A3%3C145%3A%3Aaid-jez1%3E3.0.co%3B2-o" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960215%29274%3A3%3C145%3A%3Aaid-jez1%3E3.0.co%3B2-o">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960215%29274%3A3%3C145%3A%3Aaid-jez1%3E3.0.co%3B2-o">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960215%29274%3A3%3C145%3A%3Aaid-jez1%3E3.0.co%3B2-o">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Battersby, Brendan J.; McFarlane, Wendy J.; Ballantyne, James S. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960215%29274%3A3%3C157%3A%3Aaid-jez2%3E3.0.co%3B2-n">Short-term effects of 3,5,3′-triiodothyronine on the intermediary metabolism of the dogfish sharkSqualus acanthias: Evidence from enzyme activities</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960215)274:3&lt;157::aid-jez2&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;3 (1996)</p></td>
+	<td>578&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960215%29274%3A3%3C157%3A%3Aaid-jez2%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960215%29274%3A3%3C157%3A%3Aaid-jez2%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960215%29274%3A3%3C157%3A%3Aaid-jez2%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960215%29274%3A3%3C157%3A%3Aaid-jez2%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rodriguez, J. Nuñez; Bon, E.; Le Menn, F. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960215%29274%3A3%3C163%3A%3Aaid-jez3%3E3.0.co%3B2-m">Vitellogenin receptors during Vitellogenesis in the rainbow troutOncorhynchus mykiss</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960215)274:3&lt;163::aid-jez3&gt;3.0.co;2-m</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;3 (1996)</p></td>
+	<td>821&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960215%29274%3A3%3C163%3A%3Aaid-jez3%3E3.0.co%3B2-m" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960215%29274%3A3%3C163%3A%3Aaid-jez3%3E3.0.co%3B2-m">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960215%29274%3A3%3C163%3A%3Aaid-jez3%3E3.0.co%3B2-m">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960215%29274%3A3%3C163%3A%3Aaid-jez3%3E3.0.co%3B2-m">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gomez, J. M.; Boujard, T.; Fostier, A.; Le Bail, P.-Y. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960215%29274%3A3%3C171%3A%3Aaid-jez4%3E3.0.co%3B2-l">Characterization of growth hormone nycthemeral plasma profiles in catheterized rainbow trout (Oncorhynchus mykiss)</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960215)274:3&lt;171::aid-jez4&gt;3.0.co;2-l</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;3 (1996)</p></td>
+	<td>1016&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960215%29274%3A3%3C171%3A%3Aaid-jez4%3E3.0.co%3B2-l" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960215%29274%3A3%3C171%3A%3Aaid-jez4%3E3.0.co%3B2-l">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960215%29274%3A3%3C171%3A%3Aaid-jez4%3E3.0.co%3B2-l">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960215%29274%3A3%3C171%3A%3Aaid-jez4%3E3.0.co%3B2-l">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kobayashi, Hisao; Sato, Hajime; Yoshizato, Katsutoshi </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960215%29274%3A3%3C181%3A%3Aaid-jez5%3E3.0.co%3B2-k">Regionally regulated conversion of protein expression in the skin during anuran metamorphosis</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960215)274:3&lt;181::aid-jez5&gt;3.0.co;2-k</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;3 (1996)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960215%29274%3A3%3C181%3A%3Aaid-jez5%3E3.0.co%3B2-k" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960215%29274%3A3%3C181%3A%3Aaid-jez5%3E3.0.co%3B2-k">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960215%29274%3A3%3C181%3A%3Aaid-jez5%3E3.0.co%3B2-k">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960215%29274%3A3%3C181%3A%3Aaid-jez5%3E3.0.co%3B2-k">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Misof, Bernhard Y.; Blanco, Maria J.; Wagner, Günter P. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960215%29274%3A3%3C193%3A%3Aaid-jez6%3E3.0.co%3B2-j">PCR-survey of hox-genes of the zebrafish: New sequence information and evolutionary implications</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960215)274:3&lt;193::aid-jez6&gt;3.0.co;2-j</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;3 (1996)</p></td>
+	<td>1.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960215%29274%3A3%3C193%3A%3Aaid-jez6%3E3.0.co%3B2-j" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960215%29274%3A3%3C193%3A%3Aaid-jez6%3E3.0.co%3B2-j">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960215%29274%3A3%3C193%3A%3Aaid-jez6%3E3.0.co%3B2-j">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960215%29274%3A3%3C193%3A%3Aaid-jez6%3E3.0.co%3B2-j">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Schmid, Aloisia T.; Tinley, Tina L.; Yedvobnick, Barry </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960301%29274%3A4%3C207%3A%3Aaid-jez1%3E3.0.co%3B2-t">Transcription of the neurogenic genemastermind duringDrosophila development</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960301)274:4&lt;207::aid-jez1&gt;3.0.co;2-t</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;4 (1996)</p></td>
+	<td>1.52&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960301%29274%3A4%3C207%3A%3Aaid-jez1%3E3.0.co%3B2-t" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960301%29274%3A4%3C207%3A%3Aaid-jez1%3E3.0.co%3B2-t">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960301%29274%3A4%3C207%3A%3Aaid-jez1%3E3.0.co%3B2-t">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960301%29274%3A4%3C207%3A%3Aaid-jez1%3E3.0.co%3B2-t">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rhen, Turk; Elf, Pamela K.; Fivizzani, Albert J.; Lang, Jeffrey W. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960301%29274%3A4%3C221%3A%3Aaid-jez2%3E3.0.co%3B2-r">Sex-reversed and normal turtles display similar sex steroid profiles</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960301)274:4&lt;221::aid-jez2&gt;3.0.co;2-r</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;4 (1996)</p></td>
+	<td>631&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960301%29274%3A4%3C221%3A%3Aaid-jez2%3E3.0.co%3B2-r" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960301%29274%3A4%3C221%3A%3Aaid-jez2%3E3.0.co%3B2-r">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960301%29274%3A4%3C221%3A%3Aaid-jez2%3E3.0.co%3B2-r">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960301%29274%3A4%3C221%3A%3Aaid-jez2%3E3.0.co%3B2-r">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gillett, E.; Cake, M.H.; Potter, I.C.; Tajbakhsh, M. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960301%29274%3A4%3C227%3A%3Aaid-jez3%3E3.0.co%3B2-r">Compact exocrine pancreas of ammocoetes of the southern hemisphere lampreyMordacia mordax contains a trypsin inhibitor: Putative evolutionary considerations</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960301)274:4&lt;227::aid-jez3&gt;3.0.co;2-r</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;4 (1996)</p></td>
+	<td>730&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960301%29274%3A4%3C227%3A%3Aaid-jez3%3E3.0.co%3B2-r" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960301%29274%3A4%3C227%3A%3Aaid-jez3%3E3.0.co%3B2-r">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960301%29274%3A4%3C227%3A%3Aaid-jez3%3E3.0.co%3B2-r">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960301%29274%3A4%3C227%3A%3Aaid-jez3%3E3.0.co%3B2-r">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Li, Shaoguang; Anderson, Rosalie; Reginelli, Angela D.; Muneoka, Ken </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960301%29274%3A4%3C234%3A%3Aaid-jez4%3E3.0.co%3B2-q">FGF-2 influences cell movements and gene expression during limb development</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960301)274:4&lt;234::aid-jez4&gt;3.0.co;2-q</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;4 (1996)</p></td>
+	<td>1.38&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960301%29274%3A4%3C234%3A%3Aaid-jez4%3E3.0.co%3B2-q" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960301%29274%3A4%3C234%3A%3Aaid-jez4%3E3.0.co%3B2-q">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960301%29274%3A4%3C234%3A%3Aaid-jez4%3E3.0.co%3B2-q">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960301%29274%3A4%3C234%3A%3Aaid-jez4%3E3.0.co%3B2-q">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Graveson, Ann C.; Armstrong, John B. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-010x%2819960301%29274%3A4%3C248%3A%3Aaid-jez5%3E3.0.co%3B2-p">Premature death (p) mutation ofAmbystoma mexicanum affects the ability of ectoderm to respond to neural induction</a></p>
+		<p>DOI: 10.1002/(sici)1097-010x(19960301)274:4&lt;248::aid-jez5&gt;3.0.co;2-p</p>	</td>
+	<td><p><a href="/scimag/journals/13418">Journal of Experimental Zoology</a><p>volume&nbsp;274, issue&nbsp;4 (1996)</p></td>
+	<td>714&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-010x%2819960301%29274%3A4%3C248%3A%3Aaid-jez5%3E3.0.co%3B2-p" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-010x%2819960301%29274%3A4%3C248%3A%3Aaid-jez5%3E3.0.co%3B2-p">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-010x%2819960301%29274%3A4%3C248%3A%3Aaid-jez5%3E3.0.co%3B2-p">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-010x%2819960301%29274%3A4%3C248%3A%3Aaid-jez5%3E3.0.co%3B2-p">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">751 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 31</span>
+	 <a href="/scimag/?journal=13418&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

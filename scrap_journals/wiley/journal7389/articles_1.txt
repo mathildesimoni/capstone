@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/7389">Experimental Techniques</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0732-8818</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1747-1567</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 142; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 142');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=7389&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;550 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 142</span>
+	 <a href="/scimag/?journal=7389&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00479.x">Etcetera</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00479.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;1 (1997)</p></td>
+	<td>105&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00479.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00479.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00479.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00479.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00480.x">Calendar of Events</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00480.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;1 (1997)</p></td>
+	<td>187&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00480.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00480.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00480.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00480.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00481.x">President's Corner</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00481.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;1 (1997)</p></td>
+	<td>111&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00481.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00481.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00481.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00481.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00482.x">SEM News</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00482.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;1 (1997)</p></td>
+	<td>147&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00482.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00482.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00482.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00482.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John A. Gilbert</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00483.x">EXPERIMENTAL TECHNIQUES TO UNDERSCORE A CONCRETE VICTORY</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00483.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;1 (1997)</p></td>
+	<td>169&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00483.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00483.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00483.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00483.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. W. Graham; G.A. Vellutini; C.P. Wright</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00484.x">AN EXPERIMENTAL PROCESS IMPROVEMENT STUDY OF NonODC DEGREASERS IN HIGH STABILITY STRAIN GAGE INSTALLATIONS</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00484.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;1 (1997)</p></td>
+	<td>130&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00484.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00484.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00484.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00484.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Nishitani; M. Tsuji; M. Suetsugu; H. Ogura</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00485.x">APPLICATION OF PHOTO-VISCOPLASTICITY TO GEOTECHNICAL ENGINEERING</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00485.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;1 (1997)</p></td>
+	<td>227&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00485.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00485.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00485.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00485.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Liasi; W. North; P.I. Makrygiannis; T. Rocheleau; G. Womack</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00486.x">PHOTOELASTICITY USING RETROREFLECTION</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00486.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;1 (1997)</p></td>
+	<td>303&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00486.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00486.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00486.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00486.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V.J. Pisio; G. Kiss; M.G. Faulkner</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00487.x">MICROPHONE POSITIONING SYSTEM FOR ACOUSTICAL REVERBERATION CHAMBER</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00487.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;1 (1997)</p></td>
+	<td>488&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00487.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00487.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00487.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00487.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S.-H. Yoon; W.-M. Cho; C.-G. Kim</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00488.x">MEASUREMENT OF MODULUS IN FILAMENT WOUND RING SPECIMEN USING SPLIT DISK TEST</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00488.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;1 (1997)</p></td>
+	<td>415&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00488.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00488.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00488.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00488.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J.W. Plummer; P.D. George; M.W. Bidez</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00489.x">CONSTRUCTION AND USE OF A CLEAR ACRYLIC PHANTOM TO GENERATE A THREE-DIMENSIONAL FINITE ELEMENT MODEL OF THE HUMAN PELVIS FROM CT DATA</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00489.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;1 (1997)</p></td>
+	<td>386&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00489.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00489.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00489.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00489.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T.M. Ahlborn; C.K. Shield; C.W. French</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00490.x">FULL-SCALE TESTING OF PRESTRESSED CONCRETE BRIDGE GIRDERS</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00490.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;1 (1997)</p></td>
+	<td>351&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00490.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00490.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00490.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00490.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00491.x">Industry News</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00491.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;1 (1997)</p></td>
+	<td>119&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00491.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00491.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00491.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00491.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00492.x">Experimental Techniques Guidelines</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00492.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;1 (1997)</p></td>
+	<td>96&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00492.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00492.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00492.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00492.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00493.x">New Products</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00493.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;1 (1997)</p></td>
+	<td>651&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00493.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00493.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00493.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00493.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kristin L. MacDonald</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00494.x">ETcetera</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00494.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;2 (1997)</p></td>
+	<td>132&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00494.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00494.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00494.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00494.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Elizabeth A. Fuchs</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00495.x">President's Corner</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00495.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;2 (1997)</p></td>
+	<td>132&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00495.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00495.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00495.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00495.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00496.x">Calendar of Events</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00496.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;2 (1997)</p></td>
+	<td>99&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00496.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00496.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00496.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00496.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00497.x">IMAC-XV RESPONDS TO TIMELY TECHNOLOGY TOPICS</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00497.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;2 (1997)</p></td>
+	<td>204&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00497.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00497.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00497.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00497.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00498.x">SEM OFFERING AWARD AT 1997 FORMULA SAE COMPETITION</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00498.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;2 (1997)</p></td>
+	<td>127&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00498.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00498.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00498.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00498.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00499.x">SEM SPRING CONFERENCE UPDATE</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00499.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;2 (1997)</p></td>
+	<td>127&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00499.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00499.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00499.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00499.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00500.x">Corporate Profile</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00500.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;2 (1997)</p></td>
+	<td>127&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00500.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00500.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00500.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00500.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B.H. Lee; H.K. Kim; S.B. Lee</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00501.x">NORMAL AND TANGENTIAL FORCE CALIBRATION IN FRETTING FATIGUE TEST</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00501.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;2 (1997)</p></td>
+	<td>325&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00501.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00501.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00501.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00501.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F.P. Branca; P. Cappa; S.A. Sciuto</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00502.x">AN INNOVATIVE EXPERIMENTAL SYSTEM TO TEST RESPONSE TIME AND RELIABILITY OF NEONATAL FLOW-TRIGGERED VENTILATORS</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00502.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;2 (1997)</p></td>
+	<td>413&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00502.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00502.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00502.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00502.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Kuhtz; P.W. Bearman; J.M.R. Graham</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1747-1567.1997.tb00503.x">PROBLEMS ENCOUNTERED IN MEASURING FORCES ON IMMERSED BODIES</a></p>
+		<p>DOI: 10.1111/j.1747-1567.1997.tb00503.x</p>	</td>
+	<td><p><a href="/scimag/journals/7389">Experimental Techniques</a><p>volume&nbsp;21, issue&nbsp;2 (1997)</p></td>
+	<td>400&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1747-1567.1997.tb00503.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1747-1567.1997.tb00503.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1747-1567.1997.tb00503.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1747-1567.1997.tb00503.x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;550 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 142</span>
+	 <a href="/scimag/?journal=7389&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

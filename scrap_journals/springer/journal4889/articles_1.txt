@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4889">Computational Mechanics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0178-7675</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1432-0924</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 141; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 141');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4889&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;522 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 141</span>
+	 <a href="/scimag/?journal=4889&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>M. Hafez; E. Parlette; M. Salas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00272622">Convergence acceleration of iterative solutions of Euler equations for transonic flow computations</a></p>
+		<p>DOI: 10.1007/bf00272622</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;1, issue&nbsp;3 (1986)</p></td>
+	<td>625&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00272622" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00272622">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00272622">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00272622">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. G. Ciarlet; J. C. Paumier</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00272623">A justification of the Marguerre-von Kármán equations</a></p>
+		<p>DOI: 10.1007/bf00272623</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;1, issue&nbsp;3 (1986)</p></td>
+	<td>1.62&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00272623" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00272623">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00272623">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00272623">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Guo; I. Babuška</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00272624">Theh-pversion of the finite element method</a></p>
+		<p>DOI: 10.1007/bf00272624</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;1, issue&nbsp;3 (1986)</p></td>
+	<td>967&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00272624" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00272624">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00272624">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00272624">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. S. Arora; P. B. Thanedar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00272625">Computational methods for optimum design of large complex systems</a></p>
+		<p>DOI: 10.1007/bf00272625</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;1, issue&nbsp;3 (1986)</p></td>
+	<td>2.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00272625" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00272625">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00272625">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00272625">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Tanaka; Y. Seguchi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00273701">Optimum/adaptive incremental sequence in nonlinear analysis</a></p>
+		<p>DOI: 10.1007/bf00273701</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;1, issue&nbsp;4 (1986)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00273701" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00273701">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00273701">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00273701">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Tran-Cong; N. Phan-Thien</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00273702">Boundary element solution for half-space elasticity or stokes problem with a no-slip boundary</a></p>
+		<p>DOI: 10.1007/bf00273702</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;1, issue&nbsp;4 (1986)</p></td>
+	<td>614&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00273702" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00273702">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00273702">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00273702">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. Shyy; T. C. Vu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00273703">A numerical study of incompressible Navier-Stokes flow through rectilinear and radial cascade of turbine blades</a></p>
+		<p>DOI: 10.1007/bf00273703</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;1, issue&nbsp;4 (1986)</p></td>
+	<td>736&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00273703" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00273703">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00273703">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00273703">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. -H. Chen; C. -N. Fan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00273704">Finite element analysis of incompressible viscous flow in a helical pipe</a></p>
+		<p>DOI: 10.1007/bf00273704</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;1, issue&nbsp;4 (1986)</p></td>
+	<td>601&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00273704" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00273704">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00273704">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00273704">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Haslinger; P. Neittaanmäki</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00273705">On the existence of optimal shapes in contact problems — Perfectly plastic bodies</a></p>
+		<p>DOI: 10.1007/bf00273705</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;1, issue&nbsp;4 (1986)</p></td>
+	<td>374&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00273705" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00273705">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00273705">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00273705">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. N. Fardis; E. S. Chen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00273706">A cyclic multiaxial model for concrete</a></p>
+		<p>DOI: 10.1007/bf00273706</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;1, issue&nbsp;4 (1986)</p></td>
+	<td>990&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00273706" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00273706">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00273706">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00273706">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00273707">Announcements</a></p>
+		<p>DOI: 10.1007/bf00273707</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;1, issue&nbsp;4 (1986)</p></td>
+	<td>69&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00273707" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00273707">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00273707">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00273707">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. R. Gecit</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00277694">Axisymmetric contact problem for a frictionless elastic layer indented by an elastic cylinder</a></p>
+		<p>DOI: 10.1007/bf00277694</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;1, issue&nbsp;2 (1986)</p></td>
+	<td>737&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00277694" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00277694">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00277694">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00277694">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. V. Hromadka; C. C. Yen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00277695">A model of groundwater contaminant transport using the CVBEM</a></p>
+		<p>DOI: 10.1007/bf00277695</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;1, issue&nbsp;2 (1986)</p></td>
+	<td>737&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00277695" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00277695">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00277695">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00277695">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Pietra; C. Verdi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00277696">Convergence of the approximate free boundary for the multidimensional one-phase Stefan problem</a></p>
+		<p>DOI: 10.1007/bf00277696</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;1, issue&nbsp;2 (1986)</p></td>
+	<td>560&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00277696" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00277696">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00277696">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00277696">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Tong</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00277697">An adaptive dynamic relaxation method for static problems</a></p>
+		<p>DOI: 10.1007/bf00277697</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;1, issue&nbsp;2 (1986)</p></td>
+	<td>985&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00277697" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00277697">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00277697">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00277697">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Kikuchi; M. P. Navarro</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00277698">An iteration method for the mixed formulation of parameter dependent problems related to the Stokes equations</a></p>
+		<p>DOI: 10.1007/bf00277698</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;1, issue&nbsp;2 (1986)</p></td>
+	<td>766&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00277698" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00277698">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00277698">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00277698">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. W. Simons; P. G. Bergan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00277699">A finite element formulation of three-dimensional contact problems with slip and friction</a></p>
+		<p>DOI: 10.1007/bf00277699</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;1, issue&nbsp;2 (1986)</p></td>
+	<td>788&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00277699" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00277699">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00277699">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00277699">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. C. Batra</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00280747">Steady state penetration of thermoviscoplastic targets</a></p>
+		<p>DOI: 10.1007/bf00280747</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;3, issue&nbsp;1 (1988)</p></td>
+	<td>764&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00280747" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00280747">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00280747">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00280747">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. Phan-Thien</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00280748">Uniaxial compression of a circular elastic slice</a></p>
+		<p>DOI: 10.1007/bf00280748</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;3, issue&nbsp;1 (1988)</p></td>
+	<td>349&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00280748" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00280748">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00280748">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00280748">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. Franceschini; G. Inglese; C. Tebaldi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00280749">A five-mode truncation of the Navier-Stokes equations on a three-dimensional torus</a></p>
+		<p>DOI: 10.1007/bf00280749</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;3, issue&nbsp;1 (1988)</p></td>
+	<td>1.43&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00280749" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00280749">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00280749">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00280749">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. L. Lee; W. A. M. Alwis; S. Swaddiwudhipong; B. Mairantz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00280750">Elasto-plastic dynamic analysis of plane frames and deep arches</a></p>
+		<p>DOI: 10.1007/bf00280750</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;3, issue&nbsp;1 (1988)</p></td>
+	<td>592&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00280750" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00280750">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00280750">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00280750">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Tanaka; K. Miyazaki</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00280751">A boundary element method for elastic buckling analysis of assembled plate structures</a></p>
+		<p>DOI: 10.1007/bf00280751</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;3, issue&nbsp;1 (1988)</p></td>
+	<td>596&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00280751" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00280751">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00280751">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00280751">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Y. Eguchi; G. Yagawa; L. Fuchs</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00280752">A conjugate-residual-FEM for incompressible viscous flow analysis</a></p>
+		<p>DOI: 10.1007/bf00280752</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;3, issue&nbsp;1 (1988)</p></td>
+	<td>996&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00280752" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00280752">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00280752">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00280752">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. Kondoh; S. N. Atluri</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00282040">Large-deformation, elasto-plastic analysis of frames under nonconservative loading, using explicitly derived tangent stiffnesses based on assumed stresses</a></p>
+		<p>DOI: 10.1007/bf00282040</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;2, issue&nbsp;1 (1987)</p></td>
+	<td>1.55&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00282040" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00282040">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00282040">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00282040">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. H. H. Pian</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00282041">Mechanical sublayer model for elastic-plastic analyses</a></p>
+		<p>DOI: 10.1007/bf00282041</p>	</td>
+	<td><p><a href="/scimag/journals/4889">Computational Mechanics</a><p>volume&nbsp;2, issue&nbsp;1 (1987)</p></td>
+	<td>258&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00282041" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00282041">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00282041">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00282041">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;522 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 141</span>
+	 <a href="/scimag/?journal=4889&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1615-3375</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1615-3383</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 23; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 23');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=7819&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">575 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 23</span>
+	 <a href="/scimag/?journal=7819&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Levent Tunçel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs002080010009">Generalization of Primal—Dual Interior-Point Methods to Convex Optimization Problems in Conic Form</a></p>
+		<p>DOI: 10.1007/s002080010009</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;1, issue&nbsp;3 (2001)</p></td>
+	<td>161&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs002080010009" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s002080010009">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s002080010009">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s002080010009">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Piotr Zgliczynski; Konstantin Mischaikow</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs002080010010">Rigorous Numerics for Partial Differential Equations: The Kuramoto—Sivashinsky Equation</a></p>
+		<p>DOI: 10.1007/s002080010010</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;1, issue&nbsp;3 (2001)</p></td>
+	<td>182&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs002080010010" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s002080010010">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s002080010010">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s002080010010">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dima Grigoriev</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs002080010011">Approximation and Complexity: Liouvillean-Type Theorems for Linear Differential Equations on an Interval</a></p>
+		<p>DOI: 10.1007/s002080010011</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;1, issue&nbsp;3 (2001)</p></td>
+	<td>56&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs002080010011" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s002080010011">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s002080010011">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s002080010011">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Z. Munthe-Kaas; G. R. W. Quispel; A. Zanna</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs002080010012">Generalized Polar Decompositions on Lie Groups with Involutive Automorphisms</a></p>
+		<p>DOI: 10.1007/s002080010012</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;1, issue&nbsp;3 (2001)</p></td>
+	<td>227&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs002080010012" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s002080010012">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s002080010012">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s002080010012">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Castro; J. L. Montaña; L. M. Pardo; J. San Martín</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs002080010017">The Distribution of Condition Numbers of Rational Data of Bounded Bit Length</a></p>
+		<p>DOI: 10.1007/s002080010017</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;2, issue&nbsp;1 (2002)</p></td>
+	<td>447&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs002080010017" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s002080010017">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s002080010017">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s002080010017">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Warwick Tucker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs002080010018">A Rigorous ODE Solver and Smale’s 14th Problem</a></p>
+		<p>DOI: 10.1007/s002080010018</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;2, issue&nbsp;1 (2002)</p></td>
+	<td>917&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs002080010018" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s002080010018">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s002080010018">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s002080010018">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Raphael Hauser</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10208-000-0009-z">The Nesterov–Todd Direction and Its Relation to Weighted Analytic Centers</a></p>
+		<p>DOI: 10.1007/s10208-000-0009-z</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;4, issue&nbsp;1 (2004)</p></td>
+	<td>502&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10208-000-0009-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10208-000-0009-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10208-000-0009-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10208-000-0009-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mireille Boutin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10208-001-0027-5">Polygon Recognition and Symmetry Detection</a></p>
+		<p>DOI: 10.1007/s10208-001-0027-5</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;3, issue&nbsp;3 (2003)</p></td>
+	<td>479&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10208-001-0027-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10208-001-0027-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10208-001-0027-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10208-001-0027-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nira Dyn; David Levin; Ariel Luzzatto</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10208-001-0047-1">Exponentials Reproducing Subdivision Schemes</a></p>
+		<p>DOI: 10.1007/s10208-001-0047-1</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;3, issue&nbsp;2 (2003)</p></td>
+	<td>150&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10208-001-0047-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10208-001-0047-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10208-001-0047-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10208-001-0047-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tisseur; Dedieu; Kim; Shub</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10208-001-0049-z">Implicit Gamma Theorems (I): Pseudoroots and Pseudospectra</a></p>
+		<p>DOI: 10.1007/s10208-001-0049-z</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;3, issue&nbsp;1 (2003)</p></td>
+	<td>229&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10208-001-0049-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10208-001-0049-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10208-001-0049-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10208-001-0049-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Parlett</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10208-001-0051-5">Perturbation of Eigenpairs of Factored Symmetric Tridiagonal Matrices</a></p>
+		<p>DOI: 10.1007/s10208-001-0051-5</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;3, issue&nbsp;2 (2003)</p></td>
+	<td>132&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10208-001-0051-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10208-001-0051-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10208-001-0051-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10208-001-0051-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Buhmann; Davydov; Goodman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10208-002-0054-x">Cubic Spline Prewavelets on the Four-Directional Mesh</a></p>
+		<p>DOI: 10.1007/s10208-002-0054-x</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;3, issue&nbsp;2 (2003)</p></td>
+	<td>149&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10208-002-0054-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10208-002-0054-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10208-002-0054-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10208-002-0054-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ronald DeVore; Guergana Petrova; Vladimir Temlyakov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10208-002-0056-8">Best Basis Selection for Approximation inLp</a></p>
+		<p>DOI: 10.1007/s10208-002-0056-8</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;3, issue&nbsp;2 (2003)</p></td>
+	<td>189&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10208-002-0056-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10208-002-0056-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10208-002-0056-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10208-002-0056-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Bürgisser</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10208-002-0059-5">The Complexity of Factors of Multivariate Polynomials</a></p>
+		<p>DOI: 10.1007/s10208-002-0059-5</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;4, issue&nbsp;4 (2004)</p></td>
+	<td>316&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10208-002-0059-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10208-002-0059-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10208-002-0059-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10208-002-0059-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. van den Dries</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10208-002-0061-y">Generating the Greatest Common Divisor, and Limitations of Primitive Recursive Algorithms</a></p>
+		<p>DOI: 10.1007/s10208-002-0061-y</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;3, issue&nbsp;3 (2003)</p></td>
+	<td>290&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10208-002-0061-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10208-002-0061-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10208-002-0061-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10208-002-0061-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Cohen; Ernst Hairer; Christian Lubich</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10208-002-0062-x">Modulated Fourier Expansions of Highly Oscillatory Differential Equations</a></p>
+		<p>DOI: 10.1007/s10208-002-0062-x</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;3, issue&nbsp;4 (2003)</p></td>
+	<td>383&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10208-002-0062-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10208-002-0062-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10208-002-0062-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10208-002-0062-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wolfgang Dahmen; Torben Klint; Karsten Urban</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10208-002-0063-9">On Fictitious Domain Formulations for Maxwell's Equations</a></p>
+		<p>DOI: 10.1007/s10208-002-0063-9</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;3, issue&nbsp;2 (2003)</p></td>
+	<td>190&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10208-002-0063-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10208-002-0063-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10208-002-0063-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10208-002-0063-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Castro; M. Giusti; J. Heintz; G. Matera; L.M. Pardo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10208-002-0065-7">The Hardness of Polynomial Equation Solving</a></p>
+		<p>DOI: 10.1007/s10208-002-0065-7</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;3, issue&nbsp;4 (2003)</p></td>
+	<td>667&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10208-002-0065-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10208-002-0065-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10208-002-0065-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10208-002-0065-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alan G.B. Lauder</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10208-002-0066-6">Computing Zeta Functions of Kummer Curves via Multiplicative Characters</a></p>
+		<p>DOI: 10.1007/s10208-002-0066-6</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;3, issue&nbsp;3 (2003)</p></td>
+	<td>294&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10208-002-0066-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10208-002-0066-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10208-002-0066-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10208-002-0066-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter E. Hydon; Elizabeth L. Mansfield</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10208-002-0071-9">A Variational Complex for Difference Equations</a></p>
+		<p>DOI: 10.1007/s10208-002-0071-9</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;4, issue&nbsp;2 (2004)</p></td>
+	<td>415&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10208-002-0071-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10208-002-0071-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10208-002-0071-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10208-002-0071-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Erich Novak; Ian H. Sloan; Henryk Wo’zniakowski</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10208-002-0074-6">Tractability of Approximation for Weighted Korobov Spaces on Classical and Quantum Computers</a></p>
+		<p>DOI: 10.1007/s10208-002-0074-6</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;4, issue&nbsp;2 (2004)</p></td>
+	<td>419&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10208-002-0074-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10208-002-0074-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10208-002-0074-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10208-002-0074-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexander Chistov; Hervé Fournier; Leonid Gurvits; Pascal Koiran</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10208-002-0076-4">Vandermonde Matrices, NP-Completeness, and Transversal Subspaces</a></p>
+		<p>DOI: 10.1007/s10208-002-0076-4</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;3, issue&nbsp;4 (2003)</p></td>
+	<td>207&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10208-002-0076-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10208-002-0076-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10208-002-0076-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10208-002-0076-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gabriela Jeronimo; Teresa Krick; Juan Sabia; Martín Sombra</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10208-002-0078-2">The Computational Complexity of the Chow Form</a></p>
+		<p>DOI: 10.1007/s10208-002-0078-2</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;4, issue&nbsp;1 (2004)</p></td>
+	<td>779&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10208-002-0078-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10208-002-0078-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10208-002-0078-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10208-002-0078-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Piotr Zgliczynski</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10208-002-0080-8">Rigorous Numerics for Dissipative Partial Differential Equations II. Periodic Orbit for the Kuramoto–Sivashinsky PDE—A Computer-Assisted Proof</a></p>
+		<p>DOI: 10.1007/s10208-002-0080-8</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;4, issue&nbsp;2 (2004)</p></td>
+	<td>373&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10208-002-0080-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10208-002-0080-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10208-002-0080-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10208-002-0080-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexander Arbieto; Carlos Matheus</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10208-003-0085-y">Decidability of Chaos for Some Families of Dynamical Systems</a></p>
+		<p>DOI: 10.1007/s10208-003-0085-y</p>	</td>
+	<td><p><a href="/scimag/journals/7819">Foundations of Computational Mathematics</a><p>volume&nbsp;4, issue&nbsp;3 (2004)</p></td>
+	<td>174&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10208-003-0085-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10208-003-0085-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10208-003-0085-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10208-003-0085-y">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">575 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 23</span>
+	 <a href="/scimag/?journal=7819&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

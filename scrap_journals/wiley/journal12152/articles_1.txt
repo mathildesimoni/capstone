@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0931-2250</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1439-037X</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 100; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 100');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=12152&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;498 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 100</span>
+	 <a href="/scimag/?journal=12152&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>P. M. Berry; J. Spink; M. Sterling; A. A. Pickett</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0931-2250.2003.00062.x">Methods for Rapidly Measuring the Lodging Resistance of Wheat Cultivars</a></p>
+		<p>DOI: 10.1046/j.0931-2250.2003.00062.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;189, issue&nbsp;6 (2003)</p></td>
+	<td>154&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0931-2250.2003.00062.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0931-2250.2003.00062.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0931-2250.2003.00062.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0931-2250.2003.00062.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Th. Karyotis; C. Iliadis; Ch. Noulas; Th. Mitsibonas</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0931-2250.2003.00063.x">Preliminary Research on Seed Production and Nutrient Content for Certain Quinoa Varieties in a Saline–Sodic Soil</a></p>
+		<p>DOI: 10.1046/j.0931-2250.2003.00063.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;189, issue&nbsp;6 (2003)</p></td>
+	<td>107&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0931-2250.2003.00063.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0931-2250.2003.00063.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0931-2250.2003.00063.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0931-2250.2003.00063.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Chandra</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0931-2250.2003.00064.x">Effect of Altitude on Energy Exchange Characteristics of Some Alpine Medicinal Crops from Central Himalayas</a></p>
+		<p>DOI: 10.1046/j.0931-2250.2003.00064.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>103&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0931-2250.2003.00064.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0931-2250.2003.00064.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0931-2250.2003.00064.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0931-2250.2003.00064.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>U. M. E. Didon; U. Boström</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0931-2250.2003.00065.x">Growth and Development of Six Barley (Hordeum vulgare ssp. vulgare L.) Cultivars in Response to a Model Weed (Sinapis alba L.)</a></p>
+		<p>DOI: 10.1046/j.0931-2250.2003.00065.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;189, issue&nbsp;6 (2003)</p></td>
+	<td>137&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0931-2250.2003.00065.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0931-2250.2003.00065.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0931-2250.2003.00065.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0931-2250.2003.00065.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. A. Kader; S. C. Jutzi</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0931-2250.2003.00066.x">The Effect of Exposure to Ascending/Descending Imbibition Temperatures in Saline Solutions on Shoot and Root Growth Allocation in Germinating Sorghum Seed</a></p>
+		<p>DOI: 10.1046/j.0931-2250.2003.00066.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;189, issue&nbsp;6 (2003)</p></td>
+	<td>81&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0931-2250.2003.00066.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0931-2250.2003.00066.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0931-2250.2003.00066.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0931-2250.2003.00066.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. J. Ogoke; R. J. Carsky; A. O. Togun; K. E. Dashiell</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0931-2250.2003.00067.x">Maturity Class and P Effects on Soya Bean Grain Yield in the Moist Savanna of West Africa</a></p>
+		<p>DOI: 10.1046/j.0931-2250.2003.00067.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;189, issue&nbsp;6 (2003)</p></td>
+	<td>102&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0931-2250.2003.00067.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0931-2250.2003.00067.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0931-2250.2003.00067.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0931-2250.2003.00067.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. Ramesh; B. Chandrasekaran</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0931-2250.2003.00069.x">Soil Organic Carbon Build-up and Dynamics in Rice–Rice Cropping Systems</a></p>
+		<p>DOI: 10.1046/j.0931-2250.2003.00069.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>111&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0931-2250.2003.00069.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0931-2250.2003.00069.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0931-2250.2003.00069.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0931-2250.2003.00069.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Annicchiarico; E. Piano</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0931-2250.2003.00070.x">Indirect Selection for Root Development of White Clover and Implications for Drought Tolerance</a></p>
+		<p>DOI: 10.1046/j.0931-2250.2003.00070.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>98&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0931-2250.2003.00070.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0931-2250.2003.00070.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0931-2250.2003.00070.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0931-2250.2003.00070.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. A. Kader; S. C. Jutzi</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0931-2250.2003.00071.x">Effects of Thermal and Salt Treatments during Imbibition on Germination and Seedling Growth of Sorghum at 42/19 °C</a></p>
+		<p>DOI: 10.1046/j.0931-2250.2003.00071.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>96&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0931-2250.2003.00071.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0931-2250.2003.00071.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0931-2250.2003.00071.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0931-2250.2003.00071.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Nayyar; D. P. Walia</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0931-2250.2003.00072.x">Genotypic Variation in Wheat in Response to Water Stress and Abscisic Acid-Induced Accumulation of Osmolytes in Developing Grains</a></p>
+		<p>DOI: 10.1046/j.0931-2250.2003.00072.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>119&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0931-2250.2003.00072.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0931-2250.2003.00072.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0931-2250.2003.00072.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0931-2250.2003.00072.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. Tewari; T. Suganuma; H. Fujikake; N. Ohtake; K. Sueyoshi; Y. Takahashi; T. Ohyama</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0931-2250.2003.00073.x">Effect of Deep Placement of N Fertilizers and Different Inoculation Methods of Bradyrhizobia on Growth, N2 Fixation Activity and N Absorption Rate of Field-grown Soybean Plants</a></p>
+		<p>DOI: 10.1046/j.0931-2250.2003.00073.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>268&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0931-2250.2003.00073.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0931-2250.2003.00073.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0931-2250.2003.00073.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0931-2250.2003.00073.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. K. Kim; S. C. Lee; K. M. Kim; B. H. Lee; I. J. Lee</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0931-2250.2003.00074.x">Possible Residual Effects of Gibberellic Acid and Gibberellin Biosynthesis Inhibitors on Sprouting, Early Bulbil Formation and Tuber Yield in Chinese Yam</a></p>
+		<p>DOI: 10.1046/j.0931-2250.2003.00074.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;189, issue&nbsp;6 (2003)</p></td>
+	<td>88&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0931-2250.2003.00074.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0931-2250.2003.00074.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0931-2250.2003.00074.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0931-2250.2003.00074.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ghazi N. Al-Karaki</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1439-037x.1999.00249.x">Phenological Development–Yield Relationships in Dry Pea in Semiarid Mediterranean Conditions</a></p>
+		<p>DOI: 10.1046/j.1439-037x.1999.00249.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;182, issue&nbsp;2 (1999)</p></td>
+	<td>175&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1439-037x.1999.00249.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1439-037x.1999.00249.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1439-037x.1999.00249.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1439-037x.1999.00249.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>U. Zuber; H. Winzeler; M. M. Messmer; M. Keller; B. Keller; J. E. Schmid; P. Stamp</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1439-037x.1999.00251.x">Morphological Traits Associated with Lodging Resistance of Spring Wheat (<em>Triticum aestivum</em> L.)</a></p>
+		<p>DOI: 10.1046/j.1439-037x.1999.00251.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;182, issue&nbsp;1 (1999)</p></td>
+	<td>213&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1439-037x.1999.00251.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1439-037x.1999.00251.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1439-037x.1999.00251.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1439-037x.1999.00251.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Peters; S. A. Tarawali; R. Schultze-Kraft; J. W. Smith; A. Musa</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1439-037x.1999.00254.x">Performance of Legume Mixtures under Small-plot Periodic Grazing</a></p>
+		<p>DOI: 10.1046/j.1439-037x.1999.00254.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;182, issue&nbsp;1 (1999)</p></td>
+	<td>1.40&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1439-037x.1999.00254.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1439-037x.1999.00254.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1439-037x.1999.00254.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1439-037x.1999.00254.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Bandyopadhyay; P. C. Nautiyal; T. Radhakrishnan; H. K. Gor</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1439-037x.1999.00255.x">Role of Testa, Cotyledons and Embryonic Axis in Seed Dormancy of Groundnut (<em>Arachis hypogaea</em> L.)</a></p>
+		<p>DOI: 10.1046/j.1439-037x.1999.00255.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;182, issue&nbsp;1 (1999)</p></td>
+	<td>179&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1439-037x.1999.00255.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1439-037x.1999.00255.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1439-037x.1999.00255.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1439-037x.1999.00255.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vandana; R. K. Bhatt</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1439-037x.1999.00256.x">Physiological Changes in <em>Sesbania</em> Species to Reducing Light Intensities</a></p>
+		<p>DOI: 10.1046/j.1439-037x.1999.00256.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;182, issue&nbsp;1 (1999)</p></td>
+	<td>153&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1439-037x.1999.00256.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1439-037x.1999.00256.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1439-037x.1999.00256.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1439-037x.1999.00256.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. H. Begna; R. I. Hamilton; L. M. Dwyer; D. W. Stewart; D. L. Smith</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1439-037x.1999.00258.x">Effects of Population Density on the Vegetative Growth of Leafy Reduced-stature Maize in Short-season Areas</a></p>
+		<p>DOI: 10.1046/j.1439-037x.1999.00258.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;182, issue&nbsp;1 (1999)</p></td>
+	<td>149&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1439-037x.1999.00258.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1439-037x.1999.00258.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1439-037x.1999.00258.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1439-037x.1999.00258.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. C. Jacobs; C. J. Pearson</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1439-037x.1999.00259.x">Growth, Development and Yield of Rice in Response to Cold Temperature</a></p>
+		<p>DOI: 10.1046/j.1439-037x.1999.00259.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;182, issue&nbsp;2 (1999)</p></td>
+	<td>692&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1439-037x.1999.00259.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1439-037x.1999.00259.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1439-037x.1999.00259.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1439-037x.1999.00259.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Rapacz; F. Janowiak</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1439-037x.1999.00260.x">Relationship between Prehardening, Photosynthetic Activity at Cold Acclimation Temperatures and Frost Tolerance in Winter Rape (<em>Brassica napus</em> var. oleifera). The Consequences for the Reliability of Frost Resistance Estimation under Controlled Conditions</a></p>
+		<p>DOI: 10.1046/j.1439-037x.1999.00260.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;182, issue&nbsp;1 (1999)</p></td>
+	<td>266&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1439-037x.1999.00260.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1439-037x.1999.00260.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1439-037x.1999.00260.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1439-037x.1999.00260.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. H; . ühn</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1439-037x.1999.00261.x">Theoretical Results on the Effects of Nonregular Spatial Patterns of Plants on Yield per Area</a></p>
+		<p>DOI: 10.1046/j.1439-037x.1999.00261.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;182, issue&nbsp;1 (1999)</p></td>
+	<td>982&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1439-037x.1999.00261.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1439-037x.1999.00261.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1439-037x.1999.00261.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1439-037x.1999.00261.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Hühn</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1439-037x.1999.00262.x">Experimental Results on the Effects of Nonregular Spatial Patterns of Plants on Yield per Area</a></p>
+		<p>DOI: 10.1046/j.1439-037x.1999.00262.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;182, issue&nbsp;2 (1999)</p></td>
+	<td>263&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1439-037x.1999.00262.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1439-037x.1999.00262.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1439-037x.1999.00262.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1439-037x.1999.00262.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1439-037x.1999.00265.x">Book Reviews</a></p>
+		<p>DOI: 10.1046/j.1439-037x.1999.00265.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;182, issue&nbsp;2 (1999)</p></td>
+	<td>120&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1439-037x.1999.00265.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1439-037x.1999.00265.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1439-037x.1999.00265.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1439-037x.1999.00265.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Ghizaw; T. Mamo; Z. Yilma; A. Molla; Y. Ashagre</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1439-037x.1999.00272.x">Nitrogen and Phosphorus Effects on Faba Bean Yield and Some Yield Components</a></p>
+		<p>DOI: 10.1046/j.1439-037x.1999.00272.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;182, issue&nbsp;3 (1999)</p></td>
+	<td>155&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1439-037x.1999.00272.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1439-037x.1999.00272.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1439-037x.1999.00272.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1439-037x.1999.00272.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. A. Elhaak; M. N. El-Shourbagy; R. El-Nagar</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1439-037x.1999.00273.x">Effect of Edaphic Factors on Technical Properties of Flax Fibre</a></p>
+		<p>DOI: 10.1046/j.1439-037x.1999.00273.x</p>	</td>
+	<td><p><a href="/scimag/journals/12152">Journal of Agronomy and Crop Science</a><p>volume&nbsp;182, issue&nbsp;2 (1999)</p></td>
+	<td>160&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1439-037x.1999.00273.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1439-037x.1999.00273.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1439-037x.1999.00273.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1439-037x.1999.00273.x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;498 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 100</span>
+	 <a href="/scimag/?journal=12152&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

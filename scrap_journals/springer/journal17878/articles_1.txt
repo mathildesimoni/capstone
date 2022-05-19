@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/17878">Natural Language Semantics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer Netherlands</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0925-854X</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-865X</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 12; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 12');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=17878&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">292 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 12</span>
+	 <a href="/scimag/?journal=17878&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Sigrid Beck</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00263536">Quantified structures as barriers for LF movement</a></p>
+		<p>DOI: 10.1007/bf00263536</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;4, issue&nbsp;1 (1996)</p></td>
+	<td>2.81&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00263536" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00263536">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00263536">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00263536">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Arnim Stechow</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00263537">Against LF Pied-Piping</a></p>
+		<p>DOI: 10.1007/bf00263537</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;4, issue&nbsp;1 (1996)</p></td>
+	<td>2.94&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00263537" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00263537">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00263537">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00263537">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Hegarty</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00263538">The role of categorization in the contribution of conditionalthen: Comments on Iatridou</a></p>
+		<p>DOI: 10.1007/bf00263538</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;4, issue&nbsp;1 (1996)</p></td>
+	<td>499&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00263538" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00263538">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00263538">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00263538">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anna Szabolcsi; Frans Zwarts</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00263545">Weak islands and an algebraic semantics for scope taking</a></p>
+		<p>DOI: 10.1007/bf00263545</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;1, issue&nbsp;3 (1992-1993)</p></td>
+	<td>2.86&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00263545" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00263545">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00263545">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00263545">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sheila R. Glasbey</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00263546">Distinguishing between events and times: Some evidence from the semantics ofthen</a></p>
+		<p>DOI: 10.1007/bf00263546</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;1, issue&nbsp;3 (1992-1993)</p></td>
+	<td>1.50&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00263546" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00263546">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00263546">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00263546">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lisa L. S. Cheng; C. T. James Huang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00355411">Two types of donkey sentences</a></p>
+		<p>DOI: 10.1007/bf00355411</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;4, issue&nbsp;2 (1996)</p></td>
+	<td>2.44&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00355411" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00355411">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00355411">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00355411">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gillian Catriona Ramchand</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00355412">Two subject positions in Scottish Gaelic: The syntax-semantics interface</a></p>
+		<p>DOI: 10.1007/bf00355412</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;4, issue&nbsp;2 (1996)</p></td>
+	<td>1.52&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00355412" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00355412">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00355412">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00355412">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kai Fintel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00372560">Exceptive constructions</a></p>
+		<p>DOI: 10.1007/bf00372560</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;1, issue&nbsp;2 (1992-1993)</p></td>
+	<td>1.57&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00372560" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00372560">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00372560">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00372560">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas Ede Zimmermann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00372561">On the proper treatment of opacity in certain verbs</a></p>
+		<p>DOI: 10.1007/bf00372561</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;1, issue&nbsp;2 (1992-1993)</p></td>
+	<td>1.84&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00372561" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00372561">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00372561">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00372561">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gennaro Chierchia</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00372562">Questions with quantifiers</a></p>
+		<p>DOI: 10.1007/bf00372562</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;1, issue&nbsp;2 (1992-1993)</p></td>
+	<td>3.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00372562" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00372562">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00372562">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00372562">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Karina Wilkinson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00372819">The scope ofeven</a></p>
+		<p>DOI: 10.1007/bf00372819</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;4, issue&nbsp;3 (1996)</p></td>
+	<td>1.23&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00372819" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00372819">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00372819">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00372819">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Youngeun Yoon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00372820">Total and partial predicates and the weak and strong interpretations</a></p>
+		<p>DOI: 10.1007/bf00372820</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;4, issue&nbsp;3 (1996)</p></td>
+	<td>1.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00372820" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00372820">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00372820">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00372820">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chris Barker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00372821">Presuppositions for proportional quantifiers</a></p>
+		<p>DOI: 10.1007/bf00372821</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;4, issue&nbsp;3 (1996)</p></td>
+	<td>1.39&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00372821" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00372821">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00372821">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00372821">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sandra Chung; William A. Ladusaw; James McCloskey</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01248819">Sluicing and logical form</a></p>
+		<p>DOI: 10.1007/bf01248819</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;3, issue&nbsp;3 (1995)</p></td>
+	<td>2.36&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01248819" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01248819">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01248819">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01248819">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Danny Fox</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01248820">Economy and scope</a></p>
+		<p>DOI: 10.1007/bf01248820</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;3, issue&nbsp;3 (1995)</p></td>
+	<td>3.43&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01248820" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01248820">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01248820">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01248820">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Molly Diesing; Eloise Jelinek</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01249836">Distributing arguments</a></p>
+		<p>DOI: 10.1007/bf01249836</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;3, issue&nbsp;2 (1995)</p></td>
+	<td>2.74&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01249836" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01249836">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01249836">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01249836">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Toshiyuki Ogihara</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01249837">Double-access sentences and reference to states</a></p>
+		<p>DOI: 10.1007/bf01249837</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;3, issue&nbsp;2 (1995)</p></td>
+	<td>1.96&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01249837" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01249837">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01249837">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01249837">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Arild Hestvik</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01249838">Reflexives and ellipsis</a></p>
+		<p>DOI: 10.1007/bf01249838</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;3, issue&nbsp;2 (1995)</p></td>
+	<td>1.35&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01249838" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01249838">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01249838">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01249838">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dorit Abusch</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01250400">The scope of indefinites</a></p>
+		<p>DOI: 10.1007/bf01250400</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;2, issue&nbsp;2 (1993-1994)</p></td>
+	<td>2.54&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01250400" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01250400">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01250400">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01250400">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Veneeta Srivastav Dayal</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01250401">Scope marking as indirectwh-dependency</a></p>
+		<p>DOI: 10.1007/bf01250401</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;2, issue&nbsp;2 (1993-1994)</p></td>
+	<td>1.78&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01250401" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01250401">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01250401">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01250401">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Susan Rothstein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01252883">Adverbial quantification over events</a></p>
+		<p>DOI: 10.1007/bf01252883</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;3, issue&nbsp;1 (1995)</p></td>
+	<td>1.65&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01252883" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01252883">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01252883">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01252883">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alessandro Zucchi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01252884">The ingredients of definiteness and the definiteness effect</a></p>
+		<p>DOI: 10.1007/bf01252884</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;3, issue&nbsp;1 (1995)</p></td>
+	<td>2.36&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01252884" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01252884">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01252884">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01252884">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Diana Cresti</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01252885">Extraction and reconstruction</a></p>
+		<p>DOI: 10.1007/bf01252885</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;3, issue&nbsp;1 (1995)</p></td>
+	<td>2.21&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01252885" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01252885">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01252885">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01252885">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andrea Bonomi; Paolo Casalegno</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01255430">Only: Association with focus in event semantics</a></p>
+		<p>DOI: 10.1007/bf01255430</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;2, issue&nbsp;1 (1993)</p></td>
+	<td>2.52&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01255430" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01255430">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01255430">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01255430">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ken Safir</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01255431">Perception, selection, and structural economy</a></p>
+		<p>DOI: 10.1007/bf01255431</p>	</td>
+	<td><p><a href="/scimag/journals/17878">Natural Language Semantics</a><p>volume&nbsp;2, issue&nbsp;1 (1993)</p></td>
+	<td>1.37&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01255431" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01255431">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01255431">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01255431">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">292 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 12</span>
+	 <a href="/scimag/?journal=17878&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

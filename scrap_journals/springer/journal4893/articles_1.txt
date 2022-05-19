@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4893">Computational Optimization and Applications</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer US</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0926-6003</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-2894</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 72; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 72');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4893&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;790 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 72</span>
+	 <a href="/scimag/?journal=4893&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>William W. Hager</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00247652">Editorial</a></p>
+		<p>DOI: 10.1007/bf00247652</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>81&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00247652" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00247652">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00247652">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00247652">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dimitri P. Bertsekas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00247653">Auction algorithms for network flow problems: A tutorial introduction</a></p>
+		<p>DOI: 10.1007/bf00247653</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>3.39&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00247653" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00247653">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00247653">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00247653">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Steven A. Gabriel; Jong-Shi Pang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00247654">An inexact NE/SQP method for solving the nonlinear complementarity problem</a></p>
+		<p>DOI: 10.1007/bf00247654</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>1.23&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00247654" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00247654">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00247654">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00247654">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Masao Fukushima</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00247655">Application of the alternating direction method of multipliers to separable convex programming problems</a></p>
+		<p>DOI: 10.1007/bf00247655</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>769&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00247655" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00247655">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00247655">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00247655">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. S. Kupfer; E. W. Sachs</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00247656">Numerical solution of a nonlinear parabolic control problem by a reduced SQP method</a></p>
+		<p>DOI: 10.1007/bf00247656</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00247656" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00247656">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00247656">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00247656">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Bachem; W. Hochstättler; B. Steckemetz; A. Volmer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00247792">Computational experience with general equilibrium problems</a></p>
+		<p>DOI: 10.1007/bf00247792</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;6, issue&nbsp;3 (1996)</p></td>
+	<td>672&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00247792" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00247792">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00247792">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00247792">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Dempe; H. Schmidt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00247793">On an algorithm solving two-level programming problems with nonunique lower level solutions</a></p>
+		<p>DOI: 10.1007/bf00247793</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;6, issue&nbsp;3 (1996)</p></td>
+	<td>1.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00247793" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00247793">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00247793">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00247793">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Olof Damberg; Sverre Storøy; Tor Sørevik</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00247794">A data parallel augmenting path algorithm for the dense linear many-to-one assignment problem</a></p>
+		<p>DOI: 10.1007/bf00247794</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;6, issue&nbsp;3 (1996)</p></td>
+	<td>1.39&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00247794" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00247794">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00247794">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00247794">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. H. Gwee; M. H. Lim</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00247795">Polyominoes tiling by a genetic algorithm</a></p>
+		<p>DOI: 10.1007/bf00247795</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;6, issue&nbsp;3 (1996)</p></td>
+	<td>1.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00247795" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00247795">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00247795">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00247795">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. Z. Shor; Yu. V. Voitishin; V. M. Glushkov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00247796">Using dual network bounds in algorithms for solving generalized set packing partitioning problems</a></p>
+		<p>DOI: 10.1007/bf00247796</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;6, issue&nbsp;3 (1996)</p></td>
+	<td>558&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00247796" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00247796">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00247796">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00247796">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. N. Khoury; P. M. Pardalos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00248006">A heuristic for the Steiner problem in graphs</a></p>
+		<p>DOI: 10.1007/bf00248006</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>482&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00248006" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00248006">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00248006">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00248006">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. P. Williams</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00248007">Constructing the value function for an Integer Linear Programme over a Cone</a></p>
+		<p>DOI: 10.1007/bf00248007</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>437&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00248007" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00248007">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00248007">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00248007">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Y. Lucet</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00248008">A fast computational algorithm for the Legendre-Fenchel transform</a></p>
+		<p>DOI: 10.1007/bf00248008</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>857&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00248008" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00248008">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00248008">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00248008">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Patrick Wang; Der-San Chen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00248009">Continuous optimization by a variant of simulated annealing</a></p>
+		<p>DOI: 10.1007/bf00248009</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>549&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00248009" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00248009">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00248009">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00248009">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. K. Sarkar; P. K. Chaudhuri</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00248010">Solution of an equiweighted minimax location problem on a hemisphere</a></p>
+		<p>DOI: 10.1007/bf00248010</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>448&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00248010" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00248010">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00248010">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00248010">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. J. Bisschop; Robert Fourer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00248011">New constructs for the description of combinatorial optimization problems in algebraic modeling languages</a></p>
+		<p>DOI: 10.1007/bf00248011</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>1.98&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00248011" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00248011">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00248011">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00248011">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Didier El Baz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00248264">Asynchronous gradient algorithms for a class of convex separable network flow problems</a></p>
+		<p>DOI: 10.1007/bf00248264</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;5, issue&nbsp;3 (1996)</p></td>
+	<td>993&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00248264" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00248264">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00248264">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00248264">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ali Bouaricha</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00248265">Tensor-Krylov methods for large nonlinear equations</a></p>
+		<p>DOI: 10.1007/bf00248265</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;5, issue&nbsp;3 (1996)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00248265" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00248265">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00248265">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00248265">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Asen L. Dontchev; Ilya Kolmanovsky</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00248266">Best interpolation in a strip II: Reduction to unconstrained convex optimization</a></p>
+		<p>DOI: 10.1007/bf00248266</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;5, issue&nbsp;3 (1996)</p></td>
+	<td>964&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00248266" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00248266">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00248266">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00248266">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kazimierz Malanowski; Helmut Maurer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00248267">Sensitivity analysis for parametric control problems with control-state constraints</a></p>
+		<p>DOI: 10.1007/bf00248267</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;5, issue&nbsp;3 (1996)</p></td>
+	<td>1.33&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00248267" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00248267">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00248267">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00248267">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William W. Hager; Donald W. Hearn</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00248762">Application of the dual active set algorithm to quadratic network optimization</a></p>
+		<p>DOI: 10.1007/bf00248762</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>1.34&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00248762" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00248762">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00248762">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00248762">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Soren S. Nielsen; Stavros A. Zenios</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00248763">Proximal minimizations withD-functions and the massively parallel solution of linear network programs</a></p>
+		<p>DOI: 10.1007/bf00248763</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>1.37&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00248763" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00248763">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00248763">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00248763">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>José H. Dulá</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00248764">Designing a majorization scheme for the recourse function in two-stage stochastic linear programming</a></p>
+		<p>DOI: 10.1007/bf00248764</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00248764" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00248764">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00248764">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00248764">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. J. Bisschop; C. A. C. Kuip</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00248765">Hierarchical sets in mathematical programming modeling languages</a></p>
+		<p>DOI: 10.1007/bf00248765</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00248765" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00248765">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00248765">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00248765">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>O. L. Mangasarian</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00249051">Dedication</a></p>
+		<p>DOI: 10.1007/bf00249051</p>	</td>
+	<td><p><a href="/scimag/journals/4893">Computational Optimization and Applications</a><p>volume&nbsp;5, issue&nbsp;2 (1996)</p></td>
+	<td>152&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00249051" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00249051">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00249051">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00249051">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;790 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 72</span>
+	 <a href="/scimag/?journal=4893&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

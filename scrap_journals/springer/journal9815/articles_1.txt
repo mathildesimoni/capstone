@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/9815">Interface Science</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0927-7056</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-2746</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 17; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 17');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=9815&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">409 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 17</span>
+	 <a href="/scimag/?journal=9815&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188697">Editorial</a></p>
+		<p>DOI: 10.1007/bf00188697</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>70&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188697" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188697">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188697">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188697">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. B. Eom; Julia M. Phillips; A. F. Marshall; T. H. Geballe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188698">Microstructure and transport properties of various 90° grain boundaries in YBa2Cu3O7thin films</a></p>
+		<p>DOI: 10.1007/bf00188698</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>1.79&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188698" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188698">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188698">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188698">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Sarnelli</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188699">A two-channel model for transport across highTcbicrystal grain boundary junctions</a></p>
+		<p>DOI: 10.1007/bf00188699</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>304&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188699" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188699">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188699">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188699">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. L. Jia; K. Urban</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188700">Structure of grain boundaries in YBa2Cu3O7thin-film step-edge junctions</a></p>
+		<p>DOI: 10.1007/bf00188700</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>1.74&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188700" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188700">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188700">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188700">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. D. Browning; M. F. Chisholm; S. J. Pennycook</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188701">Cell-by-cell mapping of carrier concentrations in high-temperature superconductors</a></p>
+		<p>DOI: 10.1007/bf00188701</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>907&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188701" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188701">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188701">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188701">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Z. L. Wang; R. Kontra; D. M. Kroeger; A. Goyal; R. K. Williams</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188702">Interface and grain boundary structures in YBa2Cu3O7-xand YBa2Cu4O8materials</a></p>
+		<p>DOI: 10.1007/bf00188702</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>1.52&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188702" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188702">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188702">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188702">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. F. Chisholm; S. J. Pennycook; D. P. Norton; N. D. Browning</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188703">Atomic structure of grain boundaries in YBa2Cu3O7-δas observed by Z-contrast imaging</a></p>
+		<p>DOI: 10.1007/bf00188703</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>680&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188703" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188703">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188703">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188703">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. H. King; Abha Singh; Jenn-Yue Wang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188704">Principles of grain boundary geometry in noncubic materials, with applications to YBa2Cu3O7-δ</a></p>
+		<p>DOI: 10.1007/bf00188704</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>1.12&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188704" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188704">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188704">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188704">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yimei Zhu; Y. L. Corcoran; M. Suenaga</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188705">Grain boundary chemistry and grain boundary dislocations in bulk YBa2Cu3O7-δ</a></p>
+		<p>DOI: 10.1007/bf00188705</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>790&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188705" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188705">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188705">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188705">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Olsson; K. Char</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188706">The role of interfacial morphology in multilayers based on highTcYBa2Cu3O7-x</a></p>
+		<p>DOI: 10.1007/bf00188706</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>1.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188706" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188706">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188706">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188706">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. F. Lee; M. Mironova; V. Selvamanickam; K. Salama</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188707">Structure and defects at Y2BaCuO5interfaces in melt-textured YBa2Cu3Oxsuperconductors</a></p>
+		<p>DOI: 10.1007/bf00188707</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>1.36&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188707" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188707">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188707">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188707">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Y. Feng; D. C. Larbalestier</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188708">Texture relationships and interface structure in Ag-sheathed Bi(Pb)-Sr-Ca-Cu-O superconducting tapes</a></p>
+		<p>DOI: 10.1007/bf00188708</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>976&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188708" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188708">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188708">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188708">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188813">Announcement</a></p>
+		<p>DOI: 10.1007/bf00188813</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;2, issue&nbsp;1 (1994)</p></td>
+	<td>13&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188813" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188813">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188813">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188813">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188814">Foreword</a></p>
+		<p>DOI: 10.1007/bf00188814</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;2, issue&nbsp;1 (1994)</p></td>
+	<td>97&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188814" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188814">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188814">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188814">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>O. B. M. Hardouin Duparc; M. Torrent</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188815">A new type of periodie boundary condition useful for high-temperature atomistic simulations of grain boundaries: Applications in semiconductors</a></p>
+		<p>DOI: 10.1007/bf00188815</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;2, issue&nbsp;1 (1994)</p></td>
+	<td>699&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188815" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188815">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188815">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188815">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Hairie; F. Hairie; B. Lebouvier; G. Nouet; E. Paumier; N. Ralantoson; A. P. Sutton</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188816">Free energies of interfaces from quasi-harmonic theory: A critical appraisal</a></p>
+		<p>DOI: 10.1007/bf00188816</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;2, issue&nbsp;1 (1994)</p></td>
+	<td>908&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188816" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188816">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188816">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188816">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. M. Polatoglou; G. L. Bleris</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188817">Constant temperature and pressure monte carlo study of the order-disorder transition of Cu3Au</a></p>
+		<p>DOI: 10.1007/bf00188817</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;2, issue&nbsp;1 (1994)</p></td>
+	<td>869&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188817" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188817">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188817">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188817">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Dumez; M. Hayoun; C. Rey Losada; V. Pontikis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188818">Thermodynamical properties and defect energetics of ann-body potential adapted to Cu3Au</a></p>
+		<p>DOI: 10.1007/bf00188818</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;2, issue&nbsp;1 (1994)</p></td>
+	<td>700&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188818" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188818">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188818">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188818">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. El Azzaoui; M. Hou; V. Pontikis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188819">Thermal disordering near a Σ=3{111} twin boundary in Cu3Au</a></p>
+		<p>DOI: 10.1007/bf00188819</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;2, issue&nbsp;1 (1994)</p></td>
+	<td>579&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188819" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188819">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188819">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188819">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. M. Polatoglou</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188820">[001] Twist boundaries in Cu3Au forT∈ 0 K</a></p>
+		<p>DOI: 10.1007/bf00188820</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;2, issue&nbsp;1 (1994)</p></td>
+	<td>638&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188820" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188820">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188820">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188820">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. El Azzaoui; J. M. Pennisson; V. Pontikis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188821">Combined high-resolution electron microscopy and computer modeling of a Σ=5 (210) [001] tilt boundary in AuCu3</a></p>
+		<p>DOI: 10.1007/bf00188821</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;2, issue&nbsp;1 (1994)</p></td>
+	<td>827&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188821" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188821">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188821">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188821">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Potez; A. Loiseau</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188822">High-resolution electron microscopy studies of antiphase boundaries in Cu3Au</a></p>
+		<p>DOI: 10.1007/bf00188822</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;2, issue&nbsp;1 (1994)</p></td>
+	<td>978&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188822" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188822">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188822">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188822">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. D. Tichelaar; P. H. H. Rongen; Y. G. Zhang; F. W. Schapink</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00188823">Slip transfer at coherent twin boundaries in Ni3Al and ordered Cu3Au</a></p>
+		<p>DOI: 10.1007/bf00188823</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;2, issue&nbsp;1 (1994)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00188823" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00188823">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00188823">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00188823">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00191044">Editorial</a></p>
+		<p>DOI: 10.1007/bf00191044</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;3, issue&nbsp;3 (1996)</p></td>
+	<td>49&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00191044" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00191044">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00191044">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00191044">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Bagchi; A. G. Evans</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00191045">The mechanics and physics of thin film decohesion and its measurement</a></p>
+		<p>DOI: 10.1007/bf00191045</p>	</td>
+	<td><p><a href="/scimag/journals/9815">Interface Science</a><p>volume&nbsp;3, issue&nbsp;3 (1996)</p></td>
+	<td>2.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00191045" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00191045">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00191045">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00191045">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">409 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 17</span>
+	 <a href="/scimag/?journal=9815&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

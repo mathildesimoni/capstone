@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4963">Computers and Biomedical Research</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Elsevier Science</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0010-4809</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1090-2368</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 61; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 61');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4963&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;514 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 61</span>
+	 <a href="/scimag/?journal=4963&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Peter F. Lemkin</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1001">Xconf: A Network-Based Image Conferencing System</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1001</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;1 (1993)</p></td>
+	<td>1.31&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Harukazu Tsuruta; Noriaki Ikeda; Toshiro Sato</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1002">An Accelerative Enumeration Algorithm for the Bottle Combination Problem and the Menu Planning Problem</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1002</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;1 (1993)</p></td>
+	<td>513&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christopher D. McManus; Karl-Dietrich Neubert; Eckehart Cramer</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1003">Characterization and Elimination of AC Noise in Electrocardiograms: A Comparison of Digital Filtering Methods</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1003</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;1 (1993)</p></td>
+	<td>549&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Scott S. Emerson</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1004">Computation of the Uniform Minimum Variance Unbiased Estimator of a Normal Mean Following a Group Sequential Trial</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1004</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;1 (1993)</p></td>
+	<td>182&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William J. Long; John L. Griffith; Harry P. Selker; Ralph B. D&#039;Agostino</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1005">A Comparison of Logistic Regression to Decision-Tree Induction in a Medical Domain</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1005</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;1 (1993)</p></td>
+	<td>677&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Maria Rita Massai; Paolo Barbini</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1006">"On Analytical Methods and Inferences for 2 x 2 Contingency Table Data from Medical Studies" by Engeman and Swanson—A Comment</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1006</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;1 (1993)</p></td>
+	<td>133&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1006" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1006">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1006">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1006">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M.F.Vidal Melo; J.A. Loeppky; A. Caprihan; U.C. Luft</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1007">Alveolar Ventilation to Perfusion Heterogeneity and Diffusion Impairment in a Mathematical Model of Gas Exchange</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1007</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;2 (1993)</p></td>
+	<td>502&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1007" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1007">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1007">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1007">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James F. Brinkley</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1008">A Flexible, Generic Model for Anatomic Shape: Application to Interactive Two-Dimensional Medical image Segmentation and Matching</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1008</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;2 (1993)</p></td>
+	<td>949&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1008" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1008">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1008">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1008">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Miranda Lee Pao</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1009">Perusing the Literature via Citation Links</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1009</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;2 (1993)</p></td>
+	<td>465&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1009" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1009">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1009">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1009">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nicolas Schaltenbrand; Régis Lengelle; Jean-Paul Macher</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1010">Neural Network Model: Application to Automatic Analysis of Human Sleep</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1010</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;2 (1993)</p></td>
+	<td>455&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1010" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1010">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1010">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1010">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ronald H. Stevens; Katayoun Najafi</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1011">Artificial Neural Networks as Adjuncts for Assessing Medical Students' Problem Solving Performances on Computer-Based Simulations</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1011</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;2 (1993)</p></td>
+	<td>482&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1011" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1011">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1011">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1011">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pentti M. Rautaharju; Sophia H. Zhou; Shirley Wong; Ronald Prineas; Gerald S. Berenson</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1012">Functional Characteristics of QT Prediction Formulas. The Concepts of QTmax and QT Rate Sensitivity</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1012</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;2 (1993)</p></td>
+	<td>475&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1012" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1012">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1012">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1012">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Homer R. Warner</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1013">Student Paper Finalists: SCAMC 1992</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1013</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;3 (1993)</p></td>
+	<td>17&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1013" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1013">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1013">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1013">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David A. Tong; Lawrence E. Widman</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1014">Model-Based Interpretation of the ECG: A Methodology for Temporal and Spatial Reasoning</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1014</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;3 (1993)</p></td>
+	<td>501&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1014" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1014">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1014">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1014">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jack V. Tu; Michael R.J. Guerriere</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1015">Use of a Neural Network as a Predictive Instrument for Length of Stay in the Intensive Care Unit Following Cardiac Surgery</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1015</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;3 (1993)</p></td>
+	<td>331&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1015" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1015">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1015">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1015">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lewis Berman; Mark Cullen; Perry L. Miller</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1016">Automated Integration of External Databases: A Knowledge-Based Approach to Enhancing Rule-Based Expert Systems</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1016</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;3 (1993)</p></td>
+	<td>408&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1016" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1016">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1016">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1016">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Henri J. Suermondt; Gregory F. Cooper</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1017">An Evaluation of Explanations of Probabilistic Inference</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1017</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;3 (1993)</p></td>
+	<td>455&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1017" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1017">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1017">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1017">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yuval Shahar; Mark A. Musen</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1018">RÉSUMÉ: A Temporal-Abstraction System for Patient Monitoring</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1018</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;3 (1993)</p></td>
+	<td>700&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1018" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1018">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1018">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1018">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Riccardo Bellazzi</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1019">Drug Delivery Optimization through Bayesian Networks: An Application to Erythropoietin Therapy in Uremic Anemia</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1019</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;3 (1993)</p></td>
+	<td>600&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1019" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1019">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1019">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1019">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Francis Lau; Daniel P. Vincent</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1020">Formalized Decision Support for Cardiovascular Intensive Care</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1020</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;3 (1993)</p></td>
+	<td>586&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1020" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1020">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1020">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1020">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Budagavi Madhukar; I.S.N. Murthy</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1021">ECG Data Compression by Modeling</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1021</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;3 (1993)</p></td>
+	<td>221&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1021" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1021">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1021">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1021">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Homer R. Warner</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1022">A View of Medical Informatics as an Academic Discipline</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1022</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;4 (1993)</p></td>
+	<td>312&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1022" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1022">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1022">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1022">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carol M. Newton</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1023">An Interactive Graphics System for Real-Time Investigation and Multivariate Data Portrayal for Complex Pedigree Data Systems</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1023</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;4 (1993)</p></td>
+	<td>528&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1023" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1023">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1023">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1023">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. de Vries; D.H. Eidelman</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1024">Acyclic Directed Graphs for Automatic Image Analysis of Lung Parenchymal Geometry</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1024</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;4 (1993)</p></td>
+	<td>374&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1024" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1024">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1024">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1024">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Urs E. Ruttimann; Murray M. Pollack</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fcbmr.1993.1025">A Time-Series Approach to Predict Outcome from Pediatric Intensive Care</a></p>
+		<p>DOI: 10.1006/cbmr.1993.1025</p>	</td>
+	<td><p><a href="/scimag/journals/4963">Computers and Biomedical Research</a><p>volume&nbsp;26, issue&nbsp;4 (1993)</p></td>
+	<td>583&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fcbmr.1993.1025" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/cbmr.1993.1025">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/cbmr.1993.1025">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/cbmr.1993.1025">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;514 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 61</span>
+	 <a href="/scimag/?journal=4963&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

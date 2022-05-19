@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/276">Acta Mathematica</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer Netherlands</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0001-5962</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1871-2509</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 85; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 85');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=276&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;115 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 85</span>
+	 <a href="/scimag/?journal=276&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Yuval Peres; Bálint Virág</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392515">Zeros of the i.i.d. Gaussian power series: a conformally invariant determinantal process</a></p>
+		<p>DOI: 10.1007/bf02392515</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;194, issue&nbsp;1 (2005)</p></td>
+	<td>1.44&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392515" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392515">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392515">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392515">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Masato Tsujii</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392516">Physical measures for partially hyperbolic surface endomorphisms</a></p>
+		<p>DOI: 10.1007/bf02392516</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;194, issue&nbsp;1 (2005)</p></td>
+	<td>4.16&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392516" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392516">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392516">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392516">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Artur Avila; Xavier Buff; Arnaud Chéritat</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392549">Siegel disks with smooth boundaries</a></p>
+		<p>DOI: 10.1007/bf02392549</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;193, issue&nbsp;1 (2004)</p></td>
+	<td>1.28&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392549" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392549">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392549">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392549">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Damanik; Rowan Killip</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392550">Half-line Schrödinger operators with no bound states</a></p>
+		<p>DOI: 10.1007/bf02392550</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;193, issue&nbsp;1 (2004)</p></td>
+	<td>1.65&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392550" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392550">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392550">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392550">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dorian Goldfeld; Alexander Lubotzky; László Pyber</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392551">Counting congruence subgroups</a></p>
+		<p>DOI: 10.1007/bf02392551</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;193, issue&nbsp;1 (2004)</p></td>
+	<td>1.32&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392551" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392551">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392551">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392551">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexander Lubotzky; Nikolay Nikolov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392552">Subgroup growth of lattices in semisimple Lie groups</a></p>
+		<p>DOI: 10.1007/bf02392552</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;193, issue&nbsp;1 (2004)</p></td>
+	<td>1.57&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392552" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392552">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392552">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392552">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Uwe Abresch; Harold Rosenberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392562">A Hopf differential for constant mean curvature surfaces inS2×RandH2×R</a></p>
+		<p>DOI: 10.1007/bf02392562</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;193, issue&nbsp;2 (2004)</p></td>
+	<td>1.73&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392562" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392562">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392562">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392562">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pietro Corvaja; Umberto Zannier</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392563">On the rational approximations to the powers of an algebraic number: Solution of two problems of Mahler and Mendès France</a></p>
+		<p>DOI: 10.1007/bf02392563</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;193, issue&nbsp;2 (2004)</p></td>
+	<td>770&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392563" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392563">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392563">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392563">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexandru D. Ionescu; Carlos E. Kenig</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392564">LpCarleman inequalities and uniqueness of solutions of nonlinear Schrödinger equations</a></p>
+		<p>DOI: 10.1007/bf02392564</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;193, issue&nbsp;2 (2004)</p></td>
+	<td>1.77&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392564" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392564">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392564">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392564">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>László Lempert; Ning Zhang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392565">Dolbeault cohomology of a loop space</a></p>
+		<p>DOI: 10.1007/bf02392565</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;193, issue&nbsp;2 (2004)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392565" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392565">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392565">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392565">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Camil Muscalu; Jill Pipher; Terence Tao; Christoph Thiele</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392566">Bi-parameter paraproducts</a></p>
+		<p>DOI: 10.1007/bf02392566</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;193, issue&nbsp;2 (2004)</p></td>
+	<td>1.00&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392566" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392566">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392566">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392566">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-Yves Briend; Julien Duval</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392572">Exposants de Liapounoff et distribution des points périodiques d'un endomorphisme deCPk</a></p>
+		<p>DOI: 10.1007/bf02392572</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;182, issue&nbsp;2 (1999)</p></td>
+	<td>725&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392572" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392572">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392572">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392572">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Leonard Gross</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392573">Hypercontractivity over complex manifolds</a></p>
+		<p>DOI: 10.1007/bf02392573</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;182, issue&nbsp;2 (1999)</p></td>
+	<td>2.25&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392573" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392573">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392573">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392573">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jerzy Kaczorowski; Alberto Perelli</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392574">On the structure of the Selberg class, I: 0≤d≤1</a></p>
+		<p>DOI: 10.1007/bf02392574</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;182, issue&nbsp;2 (1999)</p></td>
+	<td>1.32&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392574" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392574">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392574">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392574">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wolfgang M. Schmidt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392575">The zero multiplicity of linear recurrence sequences</a></p>
+		<p>DOI: 10.1007/bf02392575</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;182, issue&nbsp;2 (1999)</p></td>
+	<td>1.53&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392575" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392575">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392575">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392575">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Wagner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392576">Fundamental solutions of real homogeneous cubic operators of principal type in three dimensions</a></p>
+		<p>DOI: 10.1007/bf02392576</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;182, issue&nbsp;2 (1999)</p></td>
+	<td>698&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392576" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392576">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392576">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392576">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Whilliam Arveson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392585">Subalgebras ofC*-algebras III: Multivariable operator theory</a></p>
+		<p>DOI: 10.1007/bf02392585</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;181, issue&nbsp;2 (1998)</p></td>
+	<td>2.71&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392585" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392585">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392585">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392585">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Adrian Constantin; Joachim Escher</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392586">Wave breaking for nonlinear nonlocal shallow water equations</a></p>
+		<p>DOI: 10.1007/bf02392586</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;181, issue&nbsp;2 (1998)</p></td>
+	<td>654&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392586" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392586">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392586">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392586">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vojkan Jakšić; Claude-Alain Pillet</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392587">Ergodic properties of classical dissipative systems I</a></p>
+		<p>DOI: 10.1007/bf02392587</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;181, issue&nbsp;2 (1998)</p></td>
+	<td>1.54&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392587" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392587">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392587">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392587">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andrew McDaniel; Lawrence Smolinsky</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392588">Lax equations, weight lattices, and Prym-Tjurin varieties</a></p>
+		<p>DOI: 10.1007/bf02392588</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;181, issue&nbsp;2 (1998)</p></td>
+	<td>1.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392588" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392588">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392588">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392588">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pascal Auscher; Steve Hofmann; John L. Lewis; Philippe Tchamitchian</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392615">Extrapolation of Carleson measures and the analyticity of Kato's square-root operators</a></p>
+		<p>DOI: 10.1007/bf02392615</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;187, issue&nbsp;2 (2001)</p></td>
+	<td>1.18&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392615" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392615">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392615">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392615">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paulo D. Cordaro; Jorge G. Hounie</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392616">Local solvability for a class of differential complexes</a></p>
+		<p>DOI: 10.1007/bf02392616</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;187, issue&nbsp;2 (2001)</p></td>
+	<td>865&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392616" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392616">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392616">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392616">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>José L. Fernández; María V. Melián</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392617">Escaping geodesics of Riemannian surfaces</a></p>
+		<p>DOI: 10.1007/bf02392617</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;187, issue&nbsp;2 (2001)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392617" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392617">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392617">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392617">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gregory F. Lawler; Oded Schramm; Wendelin Werner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392618">Values of Brownian intersection exponents, I: Half-plane exponents</a></p>
+		<p>DOI: 10.1007/bf02392618</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;187, issue&nbsp;2 (2001)</p></td>
+	<td>1.58&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392618" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392618">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392618">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392618">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gregory F. Lawler; Oded Schramm; Wendelin Werner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02392619">Values of Brownian intersection exponents, II: Plane exponents</a></p>
+		<p>DOI: 10.1007/bf02392619</p>	</td>
+	<td><p><a href="/scimag/journals/276">Acta Mathematica</a><p>volume&nbsp;187, issue&nbsp;2 (2001)</p></td>
+	<td>1.43&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02392619" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02392619">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02392619">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02392619">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;115 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 85</span>
+	 <a href="/scimag/?journal=276&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/2918">Biometrical Journal</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0323-3847</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1521-4036</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 280; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 280');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=2918&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">6&nbsp;980 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 280</span>
+	 <a href="/scimag/?journal=2918&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>D.G. Kleinbaum</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C107%3A%3Aaid-bimj107%3E3.0.co%3B2-9">Survival Analysis, a Self-Learning Text</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199804)40:1&lt;107::aid-bimj107&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;1 (1998)</p></td>
+	<td>54&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C107%3A%3Aaid-bimj107%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199804%2940%3A1%3C107%3A%3Aaid-bimj107%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C107%3A%3Aaid-bimj107%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C107%3A%3Aaid-bimj107%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Markus Neuhäuser; Ludwig A. Hothorn</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C11%3A%3Aaid-bimj11%3E3.0.co%3B2-0">An Analogue of Jonckheere's Trend Test for Parametric and Dichotomous Data</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199804)40:1&lt;11::aid-bimj11&gt;3.0.co;2-0</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;1 (1998)</p></td>
+	<td>209&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C11%3A%3Aaid-bimj11%3E3.0.co%3B2-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199804%2940%3A1%3C11%3A%3Aaid-bimj11%3E3.0.co%3B2-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C11%3A%3Aaid-bimj11%3E3.0.co%3B2-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C11%3A%3Aaid-bimj11%3E3.0.co%3B2-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Klaus Abt</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C21%3A%3Aaid-bimj21%3E3.0.co%3B2-z">Poisson Sequential Sampling Modified Towards Maximal Safety in Adverse Event Monitoring</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199804)40:1&lt;21::aid-bimj21&gt;3.0.co;2-z</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;1 (1998)</p></td>
+	<td>232&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C21%3A%3Aaid-bimj21%3E3.0.co%3B2-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199804%2940%3A1%3C21%3A%3Aaid-bimj21%3E3.0.co%3B2-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C21%3A%3Aaid-bimj21%3E3.0.co%3B2-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C21%3A%3Aaid-bimj21%3E3.0.co%3B2-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Meulepas</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C3%3A%3Aaid-bimj3%3E3.0.co%3B2-t">A Two-Tailed <b><em>P</em></b>-Value for Fisher's Exact Test</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199804)40:1&lt;3::aid-bimj3&gt;3.0.co;2-t</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;1 (1998)</p></td>
+	<td>124&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C3%3A%3Aaid-bimj3%3E3.0.co%3B2-t" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199804%2940%3A1%3C3%3A%3Aaid-bimj3%3E3.0.co%3B2-t">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C3%3A%3Aaid-bimj3%3E3.0.co%3B2-t">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C3%3A%3Aaid-bimj3%3E3.0.co%3B2-t">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Melinda A. Miller; John W. Seaman Jr.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C43%3A%3Aaid-bimj43%3E3.0.co%3B2-j">A Bayesian Approach to Assessing the Superiority of a Dose Combination</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199804)40:1&lt;43::aid-bimj43&gt;3.0.co;2-j</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;1 (1998)</p></td>
+	<td>173&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C43%3A%3Aaid-bimj43%3E3.0.co%3B2-j" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199804%2940%3A1%3C43%3A%3Aaid-bimj43%3E3.0.co%3B2-j">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C43%3A%3Aaid-bimj43%3E3.0.co%3B2-j">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C43%3A%3Aaid-bimj43%3E3.0.co%3B2-j">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J.O. Ramsay; B.W. Silvermann</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C56%3A%3Aaid-bimj56%3E3.0.co%3B2-%23">Functional Data Analysis. Springer Series in Statistics</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199804)40:1&lt;56::aid-bimj56&gt;3.0.co;2-#</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;1 (1998)</p></td>
+	<td>35&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C56%3A%3Aaid-bimj56%3E3.0.co%3B2-%23" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199804%2940%3A1%3C56%3A%3Aaid-bimj56%3E3.0.co%3B2-%23">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C56%3A%3Aaid-bimj56%3E3.0.co%3B2-%23">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C56%3A%3Aaid-bimj56%3E3.0.co%3B2-%23">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sifa Mvoi; Yan-Xia Lin; Riccardo Biondini</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C57%3A%3Aaid-bimj57%3E3.0.co%3B2-u">Consistency of the Asymptotic Quasi-Likelihood Estimate on Linear Models</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199804)40:1&lt;57::aid-bimj57&gt;3.0.co;2-u</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;1 (1998)</p></td>
+	<td>219&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C57%3A%3Aaid-bimj57%3E3.0.co%3B2-u" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199804%2940%3A1%3C57%3A%3Aaid-bimj57%3E3.0.co%3B2-u">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C57%3A%3Aaid-bimj57%3E3.0.co%3B2-u">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C57%3A%3Aaid-bimj57%3E3.0.co%3B2-u">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ernesto Menéndez; Alejandro Reyes</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C79%3A%3Aaid-bimj79%3E3.0.co%3B2-e">On an Efficient Regression Type Estimator</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199804)40:1&lt;79::aid-bimj79&gt;3.0.co;2-e</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;1 (1998)</p></td>
+	<td>108&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C79%3A%3Aaid-bimj79%3E3.0.co%3B2-e" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199804%2940%3A1%3C79%3A%3Aaid-bimj79%3E3.0.co%3B2-e">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C79%3A%3Aaid-bimj79%3E3.0.co%3B2-e">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C79%3A%3Aaid-bimj79%3E3.0.co%3B2-e">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Trevor Hohls</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C85%3A%3Aaid-bimj85%3E3.0.co%3B2-%23">Reliability of Confidence Interval Estimators under Various Nested Design Parental Sample Sizes</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199804)40:1&lt;85::aid-bimj85&gt;3.0.co;2-#</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;1 (1998)</p></td>
+	<td>297&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C85%3A%3Aaid-bimj85%3E3.0.co%3B2-%23" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199804%2940%3A1%3C85%3A%3Aaid-bimj85%3E3.0.co%3B2-%23">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C85%3A%3Aaid-bimj85%3E3.0.co%3B2-%23">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C85%3A%3Aaid-bimj85%3E3.0.co%3B2-%23">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Radosław Kala</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C99%3A%3Aaid-bimj99%3E3.0.co%3B2-a">Missing Observations in Designed Experiments Revisited</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199804)40:1&lt;99::aid-bimj99&gt;3.0.co;2-a</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;1 (1998)</p></td>
+	<td>109&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199804%2940%3A1%3C99%3A%3Aaid-bimj99%3E3.0.co%3B2-a" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199804%2940%3A1%3C99%3A%3Aaid-bimj99%3E3.0.co%3B2-a">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C99%3A%3Aaid-bimj99%3E3.0.co%3B2-a">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199804%2940%3A1%3C99%3A%3Aaid-bimj99%3E3.0.co%3B2-a">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andreas Ziegler; Christian Kastner; Maria Blettner</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199806%2940%3A2%3C115%3A%3Aaid-bimj115%3E3.0.co%3B2-6">The Generalised Estimating Equations: An Annotated Bibliography</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199806)40:2&lt;115::aid-bimj115&gt;3.0.co;2-6</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;2 (1998)</p></td>
+	<td>227&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199806%2940%3A2%3C115%3A%3Aaid-bimj115%3E3.0.co%3B2-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199806%2940%3A2%3C115%3A%3Aaid-bimj115%3E3.0.co%3B2-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199806%2940%3A2%3C115%3A%3Aaid-bimj115%3E3.0.co%3B2-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199806%2940%3A2%3C115%3A%3Aaid-bimj115%3E3.0.co%3B2-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bas Engel</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199806%2940%3A2%3C141%3A%3Aaid-bimj141%3E3.0.co%3B2-a">A Simple Illustration of the Failure of PQL, IRREML and APHL as Approximate ML Methods for Mixed Models for Binary Data</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199806)40:2&lt;141::aid-bimj141&gt;3.0.co;2-a</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;2 (1998)</p></td>
+	<td>184&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199806%2940%3A2%3C141%3A%3Aaid-bimj141%3E3.0.co%3B2-a" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199806%2940%3A2%3C141%3A%3Aaid-bimj141%3E3.0.co%3B2-a">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199806%2940%3A2%3C141%3A%3Aaid-bimj141%3E3.0.co%3B2-a">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199806%2940%3A2%3C141%3A%3Aaid-bimj141%3E3.0.co%3B2-a">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pedro Puig</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199806%2940%3A2%3C155%3A%3Aaid-bimj155%3E3.0.co%3B2-r">A Note on Testing Segregation between Two Groups of Animals Using Entropy</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199806)40:2&lt;155::aid-bimj155&gt;3.0.co;2-r</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;2 (1998)</p></td>
+	<td>122&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199806%2940%3A2%3C155%3A%3Aaid-bimj155%3E3.0.co%3B2-r" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199806%2940%3A2%3C155%3A%3Aaid-bimj155%3E3.0.co%3B2-r">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199806%2940%3A2%3C155%3A%3Aaid-bimj155%3E3.0.co%3B2-r">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199806%2940%3A2%3C155%3A%3Aaid-bimj155%3E3.0.co%3B2-r">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Murari Singh; Klaus Hinkelmann</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199806%2940%3A2%3C165%3A%3Aaid-bimj165%3E3.0.co%3B2-n">Analysis of Partial Diallel Crosses in Incomplete Blocks</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199806)40:2&lt;165::aid-bimj165&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;2 (1998)</p></td>
+	<td>176&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199806%2940%3A2%3C165%3A%3Aaid-bimj165%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199806%2940%3A2%3C165%3A%3Aaid-bimj165%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199806%2940%3A2%3C165%3A%3Aaid-bimj165%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199806%2940%3A2%3C165%3A%3Aaid-bimj165%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D.R. Jensen</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199806%2940%3A2%3C183%3A%3Aaid-bimj183%3E3.0.co%3B2-n">Principal Predictors and Efficiency in Small Second-Order Designs</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199806)40:2&lt;183::aid-bimj183&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;2 (1998)</p></td>
+	<td>217&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199806%2940%3A2%3C183%3A%3Aaid-bimj183%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199806%2940%3A2%3C183%3A%3Aaid-bimj183%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199806%2940%3A2%3C183%3A%3Aaid-bimj183%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199806%2940%3A2%3C183%3A%3Aaid-bimj183%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Guoyong Jiang; Sanat K. Sarkar</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199806%2940%3A2%3C205%3A%3Aaid-bimj205%3E3.0.co%3B2-6">Some Asymptotic Tests for the Equality of the Covariance Matrices of Two Dependent Bivariate Normals</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199806)40:2&lt;205::aid-bimj205&gt;3.0.co;2-6</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;2 (1998)</p></td>
+	<td>223&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199806%2940%3A2%3C205%3A%3Aaid-bimj205%3E3.0.co%3B2-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199806%2940%3A2%3C205%3A%3Aaid-bimj205%3E3.0.co%3B2-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199806%2940%3A2%3C205%3A%3Aaid-bimj205%3E3.0.co%3B2-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199806%2940%3A2%3C205%3A%3Aaid-bimj205%3E3.0.co%3B2-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kung-Jong Lui</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199806%2940%3A2%3C227%3A%3Aaid-bimj227%3E3.0.co%3B2-r">Tests of Homogeneity for the Relative Difference between Strata under Inverse Sampling</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199806)40:2&lt;227::aid-bimj227&gt;3.0.co;2-r</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;2 (1998)</p></td>
+	<td>150&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199806%2940%3A2%3C227%3A%3Aaid-bimj227%3E3.0.co%3B2-r" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199806%2940%3A2%3C227%3A%3Aaid-bimj227%3E3.0.co%3B2-r">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199806%2940%3A2%3C227%3A%3Aaid-bimj227%3E3.0.co%3B2-r">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199806%2940%3A2%3C227%3A%3Aaid-bimj227%3E3.0.co%3B2-r">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Munir Mahmood; Sarjinder Singh; Stephan Horn</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199806%2940%3A2%3C237%3A%3Aaid-bimj237%3E3.0.co%3B2-n">On the Confidentiality Guaranteed under Randomized Response Sampling: A Comparison with Several New Techniques</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199806)40:2&lt;237::aid-bimj237&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;2 (1998)</p></td>
+	<td>103&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199806%2940%3A2%3C237%3A%3Aaid-bimj237%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199806%2940%3A2%3C237%3A%3Aaid-bimj237%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199806%2940%3A2%3C237%3A%3Aaid-bimj237%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199806%2940%3A2%3C237%3A%3Aaid-bimj237%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andreas Ziegler; Ulrike Grömping</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199807%2940%3A3%3C245%3A%3Aaid-bimj245%3E3.0.co%3B2-n">The Generalised Estimating Equations: A Comparison of Procedures Available in Commercial Statistical Software Packages</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199807)40:3&lt;245::aid-bimj245&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;3 (1998)</p></td>
+	<td>165&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199807%2940%3A3%3C245%3A%3Aaid-bimj245%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199807%2940%3A3%3C245%3A%3Aaid-bimj245%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199807%2940%3A3%3C245%3A%3Aaid-bimj245%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199807%2940%3A3%3C245%3A%3Aaid-bimj245%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rand Wilcox</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199807%2940%3A3%3C261%3A%3Aaid-bimj261%3E3.0.co%3B2-v">A Note on the Theil-Sen Regression Estimator When the Regressor Is Random and the Error Term Is Heteroscedastic</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199807)40:3&lt;261::aid-bimj261&gt;3.0.co;2-v</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;3 (1998)</p></td>
+	<td>116&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199807%2940%3A3%3C261%3A%3Aaid-bimj261%3E3.0.co%3B2-v" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199807%2940%3A3%3C261%3A%3Aaid-bimj261%3E3.0.co%3B2-v">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199807%2940%3A3%3C261%3A%3Aaid-bimj261%3E3.0.co%3B2-v">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199807%2940%3A3%3C261%3A%3Aaid-bimj261%3E3.0.co%3B2-v">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sture Holm</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199807%2940%3A3%3C269%3A%3Aaid-bimj269%3E3.0.co%3B2-%23">Estimation and Multiple Comparisons When There Are Missing Values with an Application in Immunology</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199807)40:3&lt;269::aid-bimj269&gt;3.0.co;2-#</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;3 (1998)</p></td>
+	<td>128&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199807%2940%3A3%3C269%3A%3Aaid-bimj269%3E3.0.co%3B2-%23" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199807%2940%3A3%3C269%3A%3Aaid-bimj269%3E3.0.co%3B2-%23">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199807%2940%3A3%3C269%3A%3Aaid-bimj269%3E3.0.co%3B2-%23">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199807%2940%3A3%3C269%3A%3Aaid-bimj269%3E3.0.co%3B2-%23">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sture Holm; Elisabeth Svensson; Kerstin Strömland; Ann Hellström</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199807%2940%3A3%3C281%3A%3Aaid-bimj281%3E3.0.co%3B2-n">Fitting Age Related Reference Intervals to Ocular Axial Length in Children Using a Four-Parameter Curve Family</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199807)40:3&lt;281::aid-bimj281&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;3 (1998)</p></td>
+	<td>178&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199807%2940%3A3%3C281%3A%3Aaid-bimj281%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199807%2940%3A3%3C281%3A%3Aaid-bimj281%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199807%2940%3A3%3C281%3A%3Aaid-bimj281%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199807%2940%3A3%3C281%3A%3Aaid-bimj281%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lars Gustav Snipen</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199807%2940%3A3%3C295%3A%3Aaid-bimj295%3E3.0.co%3B2-3">Predicting Plant Height of Greenhouse Grown Crops with a Polynomial Growth Rate Model</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199807)40:3&lt;295::aid-bimj295&gt;3.0.co;2-3</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;3 (1998)</p></td>
+	<td>273&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199807%2940%3A3%3C295%3A%3Aaid-bimj295%3E3.0.co%3B2-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199807%2940%3A3%3C295%3A%3Aaid-bimj295%3E3.0.co%3B2-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199807%2940%3A3%3C295%3A%3Aaid-bimj295%3E3.0.co%3B2-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199807%2940%3A3%3C295%3A%3Aaid-bimj295%3E3.0.co%3B2-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anne Viallefont; Jean-Dominique Lebreton; Anne-Marie Reboulet; Gerard Gory</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199807%2940%3A3%3C313%3A%3Aaid-bimj313%3E3.0.co%3B2-2">Parameter Identifiability and Model Selection in Capture-Recapture Models: A Numerical Approach</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199807)40:3&lt;313::aid-bimj313&gt;3.0.co;2-2</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;3 (1998)</p></td>
+	<td>154&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199807%2940%3A3%3C313%3A%3Aaid-bimj313%3E3.0.co%3B2-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199807%2940%3A3%3C313%3A%3Aaid-bimj313%3E3.0.co%3B2-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199807%2940%3A3%3C313%3A%3Aaid-bimj313%3E3.0.co%3B2-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199807%2940%3A3%3C313%3A%3Aaid-bimj313%3E3.0.co%3B2-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. J. von Zuben; L.C. Duarte; G. Stangenhaus; L.M. Pessôa; S.F. dos Reis</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291521-4036%28199807%2940%3A3%3C327%3A%3Aaid-bimj327%3E3.0.co%3B2-j">Bootstrap Confidence Regions for Canonical Variates: Application to Studies of Evolutionary Differentiation</a></p>
+		<p>DOI: 10.1002/(sici)1521-4036(199807)40:3&lt;327::aid-bimj327&gt;3.0.co;2-j</p>	</td>
+	<td><p><a href="/scimag/journals/2918">Biometrical Journal</a><p>volume&nbsp;40, issue&nbsp;3 (1998)</p></td>
+	<td>198&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291521-4036%28199807%2940%3A3%3C327%3A%3Aaid-bimj327%3E3.0.co%3B2-j" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291521-4036%28199807%2940%3A3%3C327%3A%3Aaid-bimj327%3E3.0.co%3B2-j">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291521-4036%28199807%2940%3A3%3C327%3A%3Aaid-bimj327%3E3.0.co%3B2-j">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291521-4036%28199807%2940%3A3%3C327%3A%3Aaid-bimj327%3E3.0.co%3B2-j">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">6&nbsp;980 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 280</span>
+	 <a href="/scimag/?journal=2918&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

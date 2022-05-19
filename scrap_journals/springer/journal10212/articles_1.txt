@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/10212">International Journal of Computer Vision</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer US</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0920-5691</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-1405</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 95; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 95');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=10212&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;353 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 95</span>
+	 <a href="/scimag/?journal=10212&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00054834">Editorial</a></p>
+		<p>DOI: 10.1007/bf00054834</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;3, issue&nbsp;1 (1989)</p></td>
+	<td>38&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00054834" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00054834">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00054834">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00054834">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin A. Fischler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00054835">An overview of computer vision research at SRI International—Themes and progress</a></p>
+		<p>DOI: 10.1007/bf00054835</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;3, issue&nbsp;1 (1989)</p></td>
+	<td>749&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00054835" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00054835">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00054835">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00054835">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen T. Barnard</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00054836">Stochastic stereo matching over scale</a></p>
+		<p>DOI: 10.1007/bf00054836</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;3, issue&nbsp;1 (1989)</p></td>
+	<td>1.26&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00054836" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00054836">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00054836">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00054836">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Harlyn Baker; Robert C. Bolles</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00054837">Generalizing Epipolar-Plane Image Analysis on the spatiotemporal surface</a></p>
+		<p>DOI: 10.1007/bf00054837</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;3, issue&nbsp;1 (1989)</p></td>
+	<td>1.23&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00054837" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00054837">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00054837">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00054837">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Harlyn Baker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00054838">Building surfaces of evolution: The Weaving Wall</a></p>
+		<p>DOI: 10.1007/bf00054838</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;3, issue&nbsp;1 (1989)</p></td>
+	<td>1.55&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00054838" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00054838">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00054838">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00054838">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yvan G. Leclerc</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00054839">Constructing simple stable descriptions for image partitioning</a></p>
+		<p>DOI: 10.1007/bf00054839</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;3, issue&nbsp;1 (1989)</p></td>
+	<td>2.27&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00054839" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00054839">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00054839">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00054839">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David J. Kriegman; Jean Ponce</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00054918">Computing exact aspect graphs of curved objects: Solids of revolution</a></p>
+		<p>DOI: 10.1007/bf00054918</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;5, issue&nbsp;2 (1990)</p></td>
+	<td>1.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00054918" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00054918">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00054918">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00054918">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Harry Plantinga; Charles R. Dyer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00054919">Visibility, occlusion, and the aspect graph</a></p>
+		<p>DOI: 10.1007/bf00054919</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;5, issue&nbsp;2 (1990)</p></td>
+	<td>2.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00054919" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00054919">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00054919">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00054919">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stan Z. Li</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00054920">Invariant surface segmentation through energy minimization with discontinuities</a></p>
+		<p>DOI: 10.1007/bf00054920</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;5, issue&nbsp;2 (1990)</p></td>
+	<td>7.51&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00054920" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00054920">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00054920">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00054920">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniel P. Huttenlocher; Shimon Ullman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00054921">Recognizing solid objects by alignment with an image</a></p>
+		<p>DOI: 10.1007/bf00054921</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;5, issue&nbsp;2 (1990)</p></td>
+	<td>1.51&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00054921" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00054921">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00054921">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00054921">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Minas E. Spetsakis; John (Yiannis) Aloimonos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00054994">Structure from motion using line correspondences</a></p>
+		<p>DOI: 10.1007/bf00054994</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;4, issue&nbsp;3 (1990)</p></td>
+	<td>903&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00054994" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00054994">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00054994">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00054994">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul B. Chou; Christopher M. Brown</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00054995">The theory and practice of Bayesian image labeling</a></p>
+		<p>DOI: 10.1007/bf00054995</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;4, issue&nbsp;3 (1990)</p></td>
+	<td>2.24&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00054995" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00054995">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00054995">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00054995">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John G. Harris; Christof Koch; Erik Staats; Jin Luo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00054996">Analog hardware for detecting discontinuities in early vision</a></p>
+		<p>DOI: 10.1007/bf00054996</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;4, issue&nbsp;3 (1990)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00054996" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00054996">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00054996">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00054996">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Olivier D. Faugeras; Steve Maybank</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00054997">Motion from point matches: Multiplicity of solutions</a></p>
+		<p>DOI: 10.1007/bf00054997</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;4, issue&nbsp;3 (1990)</p></td>
+	<td>1.48&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00054997" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00054997">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00054997">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00054997">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jacques Feldmar; Nicholas Ayache</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00054998">Rigid, affine and locally affine registration of free-form surfaces</a></p>
+		<p>DOI: 10.1007/bf00054998</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;18, issue&nbsp;2 (1996)</p></td>
+	<td>1.73&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00054998" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00054998">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00054998">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00054998">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-Philippe Thirion</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00054999">New feature points based on geometric invariants for 3D image registration</a></p>
+		<p>DOI: 10.1007/bf00054999</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;18, issue&nbsp;2 (1996)</p></td>
+	<td>1.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00054999" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00054999">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00054999">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00054999">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pietro Parodi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00055000">The complexity of understanding line drawings of origami scenes</a></p>
+		<p>DOI: 10.1007/bf00055000</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;18, issue&nbsp;2 (1996)</p></td>
+	<td>2.25&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00055000" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00055000">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00055000">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00055000">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard Szeliski; Stéphane Lavallée</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00055001">Matching 3-D anatomical surfaces with non-rigid deformations using octree-splines</a></p>
+		<p>DOI: 10.1007/bf00055001</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;18, issue&nbsp;2 (1996)</p></td>
+	<td>1.37&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00055001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00055001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00055001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00055001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Carlsson; R. Mohr; T. Moons; L. Morin; C. Rothwell; M. Diest; L. Gool; F. Veillon; A. Zisserman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00055145">Semi-local projective invariants for the recognition of smooth plane curves</a></p>
+		<p>DOI: 10.1007/bf00055145</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;19, issue&nbsp;3 (1996)</p></td>
+	<td>1.90&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00055145" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00055145">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00055145">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00055145">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter N. Belhumeur</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00055146">A Bayesian approach to binocular steropsis</a></p>
+		<p>DOI: 10.1007/bf00055146</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;19, issue&nbsp;3 (1996)</p></td>
+	<td>2.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00055146" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00055146">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00055146">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00055146">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sylvain Petitiean</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00055147">The enumerative geometry of projective algebraic surfaces and the complexity of aspect graphs</a></p>
+		<p>DOI: 10.1007/bf00055147</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;19, issue&nbsp;3 (1996)</p></td>
+	<td>2.25&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00055147" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00055147">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00055147">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00055147">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hassan Shekarforoush; Marc Berthod; Josiane Zerubia; Michael Werman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00055148">Sub-pixel Bayesian estimation of albedo and height</a></p>
+		<p>DOI: 10.1007/bf00055148</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;19, issue&nbsp;3 (1996)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00055148" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00055148">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00055148">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00055148">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00055149">Guest editor introduction</a></p>
+		<p>DOI: 10.1007/bf00055149</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;8, issue&nbsp;3 (1992)</p></td>
+	<td>149&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00055149" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00055149">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00055149">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00055149">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gooitzen S. Wal; Peter J. Burt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00055150">A VLSI pyramid chip for multiresolution image analysis</a></p>
+		<p>DOI: 10.1007/bf00055150</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;8, issue&nbsp;3 (1992)</p></td>
+	<td>1.23&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00055150" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00055150">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00055150">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00055150">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen P. Deweerth</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00055151">Analog VLSI circuits for stimulus localization and centroid computation</a></p>
+		<p>DOI: 10.1007/bf00055151</p>	</td>
+	<td><p><a href="/scimag/journals/10212">International Journal of Computer Vision</a><p>volume&nbsp;8, issue&nbsp;3 (1992)</p></td>
+	<td>948&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00055151" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00055151">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00055151">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00055151">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;353 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 95</span>
+	 <a href="/scimag/?journal=10212&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

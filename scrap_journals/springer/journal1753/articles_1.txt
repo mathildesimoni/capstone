@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0175-7598</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1432-0614</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 710; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 710');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1753&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">17&nbsp;740 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 710</span>
+	 <a href="/scimag/?journal=1753&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Wayne K. Herber; F. James Bailey; Christine E. Carty; Jill C. Heimbach; Robert Z. Maigetter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164410">Production of cytotoxic proteins inEscherichia coli:a fermentation process for producing enzymatically active HIV-1 protease</a></p>
+		<p>DOI: 10.1007/bf00164410</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>562&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164410" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164410">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164410">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164410">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jesús F. Aparicio; Santiago Cal; Jesús A. Santos; Carlos Hardisson; Jesús Sánchez</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164411">Deoxyriboendonucleases with exocytoplasmic location inStreptomyces</a></p>
+		<p>DOI: 10.1007/bf00164411</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>646&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164411" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164411">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164411">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164411">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. M. Laplace; J. P. Delgenes; R. Moletta; J. M. Navarro</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164412">Alcoholic fermentation of glucose and xylose byPichia stipitis, Candida shehatae, Saccharomyces cerevisiaeandZymomonas mobilis: oxygen requirement as a key factor</a></p>
+		<p>DOI: 10.1007/bf00164412</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>528&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164412" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164412">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164412">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164412">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Irene Kit-Ping Tan; Coy-Choke Ho</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164413">Growth and the production of penicillins inPenicillium chrysogenumwith palm oil and its various fractions as carbon sources</a></p>
+		<p>DOI: 10.1007/bf00164413</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>250&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164413" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164413">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164413">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164413">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>U. Brand; L. Brandes; V. Koch; T. Kullik; B. Reinhardt; F. Rüther; T. Scheper; K. Schügerl; S. Wang; X. Wu; R. Ferretti; S. Prasad; D. Wilhelm</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164414">Monitoring and control of biotechnological production processes by Bio-FET-FIA-sensors</a></p>
+		<p>DOI: 10.1007/bf00164414</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>467&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164414" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164414">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164414">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164414">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ph. Lelong; H. Cellard; D. Pardo; J. M. Cavalie</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164415">Automation of glucose measurement in fermentor broths</a></p>
+		<p>DOI: 10.1007/bf00164415</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>385&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164415" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164415">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164415">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164415">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul J. Weimer; Yan Shi; Christine L. Odt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164416">A segmented gas/liquid delivery system for continuous culture of microorganisms on insoluble substrates and its use for growth ofRuminococcus flavefacienson cellulose</a></p>
+		<p>DOI: 10.1007/bf00164416</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>679&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164416" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164416">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164416">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164416">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William M. Fogarty; Francis Bealin-Kelly; Catherine T. Kelly; Evelyn M. Doyle</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164417">A novel maltohexaose-forming α-amylase fromBacillus caldovelox:patterns and mechanisms of action</a></p>
+		<p>DOI: 10.1007/bf00164417</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>635&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164417" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164417">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164417">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164417">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sabire Özcan; Peter Kötter; Michael Ciciary</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164418">Xylan-hydrolysing enzymes of the yeastPichia stipitis</a></p>
+		<p>DOI: 10.1007/bf00164418</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>796&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164418" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164418">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164418">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164418">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patrick Laloi; Daniéle Atlan; Brigitte Blanc; Christophe Gilbert; Raymond Portalier</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164419">Cell-wall-associated proteinase ofLactobacillus delbrueckiisubsp.bulgaricusCNRZ 397: differential extraction, purification and properties of the enzyme</a></p>
+		<p>DOI: 10.1007/bf00164419</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>1.51&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164419" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164419">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164419">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164419">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chan K. N. Chan Kwo Chion; Robert Duran; Alain Arnaud; Pierre Galzy</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164420">N-terminal amino acid sequence ofBrevibacteriumsp. R312 wide-spectrum amidase</a></p>
+		<p>DOI: 10.1007/bf00164420</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>388&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164420" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164420">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164420">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164420">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Z. Zhang; M. A. Ferenczi; A. C. Lush; C. R. Thomas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164421">A novel micromanipulation technique for measuring the bursting strength of single mammalian cells</a></p>
+		<p>DOI: 10.1007/bf00164421</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>339&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164421" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164421">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164421">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164421">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hisashi Yasueda; Yoshimi Kikuchi; Hiroyuki Kojima; Kazuo Nagase</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164422">In-vivo processing of the initiator methionine from recombinant methionyl human interleukin-6 synthesized inEscherichia colioverproducing aminopeptidase-P</a></p>
+		<p>DOI: 10.1007/bf00164422</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>665&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164422" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164422">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164422">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164422">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Petit; J. P. Grill; N. Maazouzi; R. Marczak</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164423">Regulation of polysaccharide formation byStreptococcus thermophilusin batch and fed-batch cultures</a></p>
+		<p>DOI: 10.1007/bf00164423</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>543&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164423" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164423">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164423">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164423">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Augusto Amici; Marco Bazzicalupo; Enzo Gallori; Franco Rollo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164424">Monitoring a genetically engineered bacterium in a freshwater environment by rapid enzymatic amplification of a synthetic DNA “number-plate”</a></p>
+		<p>DOI: 10.1007/bf00164424</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>881&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164424" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164424">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164424">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164424">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Motoaki Seki; Naoki Shigemoto; Yoshibumi Komeda; Jun Imamura; Yasuyuki Yamada</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164425">TransgenicArabidopsis thalianaplants obtained by particle-bombardment-mediated transformation</a></p>
+		<p>DOI: 10.1007/bf00164425</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>590&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164425" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164425">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164425">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164425">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. V. Finogenova; N. V. Shishkanova; E. A. Fausek; S. S. Eremina</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164426">Biosynthesis of isocitric acid from ethanol by yeasts</a></p>
+		<p>DOI: 10.1007/bf00164426</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>480&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164426" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164426">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164426">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164426">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Aleš Prell; Jan Páca; Karel Sigler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164427">Proton extrusion and attendant transport phenomena inCandida utilisinduced by ethanol</a></p>
+		<p>DOI: 10.1007/bf00164427</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>388&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164427" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164427">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164427">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164427">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fabio Fava; Leonardo Marchetti</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164428">Degradation and mineralization of 3-chlorobiphenyl by a mixed aerobic bacterial culture</a></p>
+		<p>DOI: 10.1007/bf00164428</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>685&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164428" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164428">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164428">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164428">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark R. Smith; W. J. J. Tweel; Jan A. M. Bont</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164429">Degradation of 3-chloro-2-methylpropionic acid byXanthobactersp. CIMW 99</a></p>
+		<p>DOI: 10.1007/bf00164429</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>627&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164429" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164429">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164429">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164429">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michèle Gilewicz; Guy Monpert; Monique Acquaviva; Gilbert Mille; Jean-Claude Bertrand</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164430">Anaerobic oxidation of 1-n-heptadecene by a marine denitrifying bacterium</a></p>
+		<p>DOI: 10.1007/bf00164430</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>677&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164430" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164430">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164430">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164430">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Denis Lemoine; Thierry Jouenne; Guy-Alain Junter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164431">Biological denitrification of water in a two-chambered immobilized-cell bioreactor</a></p>
+		<p>DOI: 10.1007/bf00164431</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>825&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164431" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164431">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164431">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164431">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Serge Moukha; Cécile Capdevila; Laurence Lesage; Michel Delattre; Didier Marion; Georges Corrieu; Marcel Asther</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164432">Increased endoplasmic reticulum content ofPhanerochaete chrysosporiumINA-12 by inositol phospholipid precursor in relation to peroxidase excretion</a></p>
+		<p>DOI: 10.1007/bf00164432</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>579&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164432" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164432">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164432">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164432">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Annele I. Hatakka; Taina K. Lundell; Asta L. M. Tervilä-Wilo; Gösta Brunow</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164433">Metabolism of non-phenolic β-O-4 lignin model compounds by the white-rot fungusPhlebia radiata</a></p>
+		<p>DOI: 10.1007/bf00164433</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>800&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164433" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164433">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164433">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164433">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shrihari; R. Kumar; K. S. Gandhi; K. A. Natarajan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164434">Role of cell attachment in leaching of chalcopyrite mineral byThiobacillus ferrooxidans</a></p>
+		<p>DOI: 10.1007/bf00164434</p>	</td>
+	<td><p><a href="/scimag/journals/1753">Applied Microbiology and Biotechnology</a><p>volume&nbsp;36, issue&nbsp;2 (1991)</p></td>
+	<td>510&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164434" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164434">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164434">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164434">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">17&nbsp;740 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 710</span>
+	 <a href="/scimag/?journal=1753&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

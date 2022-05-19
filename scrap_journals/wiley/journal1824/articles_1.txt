@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1052-7613</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1099-0755</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 99; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 99');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1824&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;460 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 99</span>
+	 <a href="/scimag/?journal=1824&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>D. A. POLLARD; M. P. LINCOLN SMITH; A. K. SMITH</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199603%296%3A1%3C1%3A%3Aaid-aqc177%3E3.0.co%3B2-%23">The biology and conservation status of the grey nurse shark (<em>Carcharias taurus</em> Rafinesque 1810) in New South Wales, Australia</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199603)6:1&lt;1::aid-aqc177&gt;3.0.co;2-#</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>1.41&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199603%296%3A1%3C1%3A%3Aaid-aqc177%3E3.0.co%3B2-%23" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199603%296%3A1%3C1%3A%3Aaid-aqc177%3E3.0.co%3B2-%23">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199603%296%3A1%3C1%3A%3Aaid-aqc177%3E3.0.co%3B2-%23">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199603%296%3A1%3C1%3A%3Aaid-aqc177%3E3.0.co%3B2-%23">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>PAUL GARNER; JON A. B. BASS; GEOFFREY D. COLLETT</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199603%296%3A1%3C21%3A%3Aaid-aqc171%3E3.0.co%3B2-z">The effects of weed cutting upon the biota of a large regulated river</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199603)6:1&lt;21::aid-aqc171&gt;3.0.co;2-z</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>613&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199603%296%3A1%3C21%3A%3Aaid-aqc171%3E3.0.co%3B2-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199603%296%3A1%3C21%3A%3Aaid-aqc171%3E3.0.co%3B2-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199603%296%3A1%3C21%3A%3Aaid-aqc171%3E3.0.co%3B2-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199603%296%3A1%3C21%3A%3Aaid-aqc171%3E3.0.co%3B2-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. A. DUIGAN; T. E. H. ALLOTT; H. BENNION; J. LANCASTER; D. T. MONTEITH; S. T. PATRICK; J. RATCLIFFE; J. M. SEDA</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199603%296%3A1%3C31%3A%3Aaid-aqc173%3E3.0.co%3B2-s">The Anglesey lakes, Wales, UK—A conservation resource</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199603)6:1&lt;31::aid-aqc173&gt;3.0.co;2-s</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>1.67&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199603%296%3A1%3C31%3A%3Aaid-aqc173%3E3.0.co%3B2-s" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199603%296%3A1%3C31%3A%3Aaid-aqc173%3E3.0.co%3B2-s">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199603%296%3A1%3C31%3A%3Aaid-aqc173%3E3.0.co%3B2-s">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199603%296%3A1%3C31%3A%3Aaid-aqc173%3E3.0.co%3B2-s">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>STEPHEN M. ATKINS</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199603%296%3A1%3C57%3A%3Aaid-aqc176%3E3.0.co%3B2-%23">Book Review: Marine Protected Areas</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199603)6:1&lt;57::aid-aqc176&gt;3.0.co;2-#</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>124&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199603%296%3A1%3C57%3A%3Aaid-aqc176%3E3.0.co%3B2-%23" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199603%296%3A1%3C57%3A%3Aaid-aqc176%3E3.0.co%3B2-%23">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199603%296%3A1%3C57%3A%3Aaid-aqc176%3E3.0.co%3B2-%23">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199603%296%3A1%3C57%3A%3Aaid-aqc176%3E3.0.co%3B2-%23">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jim Reid</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199603%296%3A1%3C59%3A%3Aaid-aqc178%3E3.0.co%3B2-o">Announcement</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199603)6:1&lt;59::aid-aqc178&gt;3.0.co;2-o</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>86&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199603%296%3A1%3C59%3A%3Aaid-aqc178%3E3.0.co%3B2-o" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199603%296%3A1%3C59%3A%3Aaid-aqc178%3E3.0.co%3B2-o">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199603%296%3A1%3C59%3A%3Aaid-aqc178%3E3.0.co%3B2-o">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199603%296%3A1%3C59%3A%3Aaid-aqc178%3E3.0.co%3B2-o">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>PETER S. MAITLAND</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199606%296%3A2%3C107%3A%3Aaid-aqc180%3E3.0.co%3B2-n">The North American signal crayfish, <em>Pacifastacus leniusculus</em> (Dana), established in the wild in Scotland</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199606)6:2&lt;107::aid-aqc180&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;2 (1996)</p></td>
+	<td>277&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199606%296%3A2%3C107%3A%3Aaid-aqc180%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199606%296%3A2%3C107%3A%3Aaid-aqc180%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199606%296%3A2%3C107%3A%3Aaid-aqc180%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199606%296%3A2%3C107%3A%3Aaid-aqc180%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. D. WILLIAMS</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199606%296%3A2%3C111%3A%3Aaid-aqc182%3E3.0.co%3B2-y">Announcement</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199606)6:2&lt;111::aid-aqc182&gt;3.0.co;2-y</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;2 (1996)</p></td>
+	<td>155&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199606%296%3A2%3C111%3A%3Aaid-aqc182%3E3.0.co%3B2-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199606%296%3A2%3C111%3A%3Aaid-aqc182%3E3.0.co%3B2-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199606%296%3A2%3C111%3A%3Aaid-aqc182%3E3.0.co%3B2-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199606%296%3A2%3C111%3A%3Aaid-aqc182%3E3.0.co%3B2-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Y. HAWORTH; L. C. V. PINDER; J. P. LISHMAN; C. A. DUIGAN</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199606%296%3A2%3C61%3A%3Aaid-aqc181%3E3.0.co%3B2-q">The Anglesey lakes, Wales, UK—A palaeolimnological study of the eutrophication and nature conservation status</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199606)6:2&lt;61::aid-aqc181&gt;3.0.co;2-q</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;2 (1996)</p></td>
+	<td>1.50&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199606%296%3A2%3C61%3A%3Aaid-aqc181%3E3.0.co%3B2-q" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199606%296%3A2%3C61%3A%3Aaid-aqc181%3E3.0.co%3B2-q">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199606%296%3A2%3C61%3A%3Aaid-aqc181%3E3.0.co%3B2-q">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199606%296%3A2%3C61%3A%3Aaid-aqc181%3E3.0.co%3B2-q">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. BENNION; C. A. DUIGAN; E. Y. HAWORTH; T. E. H. ALLOTT; N. J. ANDERSON; S. JUGGINS; D. T. MONTEITH</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199606%296%3A2%3C81%3A%3Aaid-aqc174%3E3.0.co%3B2-g">The Anglesey lakes, Wales, UK — Changes in trophic status of three standing waters as inferred from diatom transfer functions and their implications for conservation</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199606)6:2&lt;81::aid-aqc174&gt;3.0.co;2-g</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;2 (1996)</p></td>
+	<td>895&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199606%296%3A2%3C81%3A%3Aaid-aqc174%3E3.0.co%3B2-g" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199606%296%3A2%3C81%3A%3Aaid-aqc174%3E3.0.co%3B2-g">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199606%296%3A2%3C81%3A%3Aaid-aqc174%3E3.0.co%3B2-g">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199606%296%3A2%3C81%3A%3Aaid-aqc174%3E3.0.co%3B2-g">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>ANDREW R. G. PRICE; ISMAEL FIRAQ</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199606%296%3A2%3C93%3A%3Aaid-aqc179%3E3.0.co%3B2-v">The environmental status of reefs on Maldivian resort islands: a preliminary assessment for tourism planning</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199606)6:2&lt;93::aid-aqc179&gt;3.0.co;2-v</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;2 (1996)</p></td>
+	<td>948&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199606%296%3A2%3C93%3A%3Aaid-aqc179%3E3.0.co%3B2-v" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199606%296%3A2%3C93%3A%3Aaid-aqc179%3E3.0.co%3B2-v">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199606%296%3A2%3C93%3A%3Aaid-aqc179%3E3.0.co%3B2-v">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199606%296%3A2%3C93%3A%3Aaid-aqc179%3E3.0.co%3B2-v">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. J. MUMBY; K. R. CLARKE; A. R. HARBORNE</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199609%296%3A3%3C115%3A%3Aaid-aqc188%3E3.0.co%3B2-t">Weighting species abundance estimates for marine resource assessment</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199609)6:3&lt;115::aid-aqc188&gt;3.0.co;2-t</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;3 (1996)</p></td>
+	<td>446&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199609%296%3A3%3C115%3A%3Aaid-aqc188%3E3.0.co%3B2-t" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199609%296%3A3%3C115%3A%3Aaid-aqc188%3E3.0.co%3B2-t">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199609%296%3A3%3C115%3A%3Aaid-aqc188%3E3.0.co%3B2-t">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199609%296%3A3%3C115%3A%3Aaid-aqc188%3E3.0.co%3B2-t">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>IGNACIO RIBERA; DAVID T. BILTON; PEDRO AGUILERA; GARTH N. FOSTER</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199609%296%3A3%3C121%3A%3Aaid-aqc187%3E3.0.co%3B2-6">A North African–European transition fauna: water beetles (Coleoptera) from the Ebro delta and other Mediterranean coastal wetlands in the Iberian peninsula</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199609)6:3&lt;121::aid-aqc187&gt;3.0.co;2-6</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;3 (1996)</p></td>
+	<td>1.33&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199609%296%3A3%3C121%3A%3Aaid-aqc187%3E3.0.co%3B2-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199609%296%3A3%3C121%3A%3Aaid-aqc187%3E3.0.co%3B2-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199609%296%3A3%3C121%3A%3Aaid-aqc187%3E3.0.co%3B2-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199609%296%3A3%3C121%3A%3Aaid-aqc187%3E3.0.co%3B2-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. F. WRIGHT; J. H. BLACKBURN; R. J. M. GUNN; M. T. FURSE; P. D. ARMITAGE; J. M. WINDER; K. L. SYMES; D. MOSS</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199609%296%3A3%3C141%3A%3Aaid-aqc189%3E3.0.co%3B2-z">Macroinvertebrate frequency data for the RIVPACS III sites in Great Britain and their use in conservation evaluation</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199609)6:3&lt;141::aid-aqc189&gt;3.0.co;2-z</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;3 (1996)</p></td>
+	<td>1.26&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199609%296%3A3%3C141%3A%3Aaid-aqc189%3E3.0.co%3B2-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199609%296%3A3%3C141%3A%3Aaid-aqc189%3E3.0.co%3B2-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199609%296%3A3%3C141%3A%3Aaid-aqc189%3E3.0.co%3B2-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199609%296%3A3%3C141%3A%3Aaid-aqc189%3E3.0.co%3B2-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. R. BEASLEY; D. ROBERTS</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199609%296%3A3%3C169%3A%3Aaid-aqc190%3E3.0.co%3B2-z">The current distribution and status of the freshwater pearl mussel <em>Margaritifera margaritifera</em> L. 1758 in north-west Ireland</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199609)6:3&lt;169::aid-aqc190&gt;3.0.co;2-z</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;3 (1996)</p></td>
+	<td>623&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199609%296%3A3%3C169%3A%3Aaid-aqc190%3E3.0.co%3B2-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199609%296%3A3%3C169%3A%3Aaid-aqc190%3E3.0.co%3B2-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199609%296%3A3%3C169%3A%3Aaid-aqc190%3E3.0.co%3B2-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199609%296%3A3%3C169%3A%3Aaid-aqc190%3E3.0.co%3B2-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. A. WICKENS</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199609%296%3A3%3C179%3A%3Aaid-aqc184%3E3.0.co%3B2-n">Fur seals and lobster fishing in South Africa</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199609)6:3&lt;179::aid-aqc184&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;3 (1996)</p></td>
+	<td>539&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199609%296%3A3%3C179%3A%3Aaid-aqc184%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199609%296%3A3%3C179%3A%3Aaid-aqc184%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199609%296%3A3%3C179%3A%3Aaid-aqc184%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199609%296%3A3%3C179%3A%3Aaid-aqc184%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>MOGENS BJØRN NIELSEN</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199609%296%3A3%3C187%3A%3Aaid-aqc185%3E3.0.co%3B2-p">River restoration: report of a major EU Life demonstration project</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199609)6:3&lt;187::aid-aqc185&gt;3.0.co;2-p</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;3 (1996)</p></td>
+	<td>291&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199609%296%3A3%3C187%3A%3Aaid-aqc185%3E3.0.co%3B2-p" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199609%296%3A3%3C187%3A%3Aaid-aqc185%3E3.0.co%3B2-p">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199609%296%3A3%3C187%3A%3Aaid-aqc185%3E3.0.co%3B2-p">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199609%296%3A3%3C187%3A%3Aaid-aqc185%3E3.0.co%3B2-p">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas Huxley</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199609%296%3A3%3C191%3A%3Aaid-aqc186%3E3.0.co%3B2-2">Book Review: Countryside in trust: land management by conservation, recreation and amentity organisations, Janet C. Dwyer and Ian D. Hodge; John Wiley & Sons Chichester, 1996. Hardback, 314 pp. Price: £25.00</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199609)6:3&lt;191::aid-aqc186&gt;3.0.co;2-2</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;3 (1996)</p></td>
+	<td>118&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199609%296%3A3%3C191%3A%3Aaid-aqc186%3E3.0.co%3B2-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199609%296%3A3%3C191%3A%3Aaid-aqc186%3E3.0.co%3B2-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199609%296%3A3%3C191%3A%3Aaid-aqc186%3E3.0.co%3B2-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199609%296%3A3%3C191%3A%3Aaid-aqc186%3E3.0.co%3B2-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>MARK J. COSTELLO; ROGER MITCHELL; CHRIS S. EMBLOW</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199612%296%3A4%3C193%3A%3Aaid-aqc203%3E3.0.co%3B2-r">Editorial</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199612)6:4&lt;193::aid-aqc203&gt;3.0.co;2-r</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;4 (1996)</p></td>
+	<td>121&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199612%296%3A4%3C193%3A%3Aaid-aqc203%3E3.0.co%3B2-r" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199612%296%3A4%3C193%3A%3Aaid-aqc203%3E3.0.co%3B2-r">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199612%296%3A4%3C193%3A%3Aaid-aqc203%3E3.0.co%3B2-r">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199612%296%3A4%3C193%3A%3Aaid-aqc203%3E3.0.co%3B2-r">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Z. Z. IBRAHIM; LOW SOO MOI; RAMDZANI ABDULLAH; A. ARSHAD</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199612%296%3A4%3C195%3A%3Aaid-aqc207%3E3.0.co%3B2-9">Classification of Malaysian estuaries for development planning</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199612)6:4&lt;195::aid-aqc207&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;4 (1996)</p></td>
+	<td>564&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199612%296%3A4%3C195%3A%3Aaid-aqc207%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199612%296%3A4%3C195%3A%3Aaid-aqc207%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199612%296%3A4%3C195%3A%3Aaid-aqc207%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199612%296%3A4%3C195%3A%3Aaid-aqc207%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>DOMINIQUE RICHARD; JEAN-CLAUDE DAUVIN</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199612%296%3A4%3C205%3A%3Aaid-aqc197%3E3.0.co%3B2-9">Conservation strategies for French coastal areas</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199612)6:4&lt;205::aid-aqc197&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;4 (1996)</p></td>
+	<td>750&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199612%296%3A4%3C205%3A%3Aaid-aqc197%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199612%296%3A4%3C205%3A%3Aaid-aqc197%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199612%296%3A4%3C205%3A%3Aaid-aqc197%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199612%296%3A4%3C205%3A%3Aaid-aqc197%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. CLARE ENO</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199612%296%3A4%3C215%3A%3Aaid-aqc191%3E3.0.co%3B2-q">Non-native marine species in British waters: effects and controls</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199612)6:4&lt;215::aid-aqc191&gt;3.0.co;2-q</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;4 (1996)</p></td>
+	<td>1.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199612%296%3A4%3C215%3A%3Aaid-aqc191%3E3.0.co%3B2-q" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199612%296%3A4%3C215%3A%3Aaid-aqc191%3E3.0.co%3B2-q">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199612%296%3A4%3C215%3A%3Aaid-aqc191%3E3.0.co%3B2-q">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199612%296%3A4%3C215%3A%3Aaid-aqc191%3E3.0.co%3B2-q">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>DAN MINCHIN</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199612%296%3A4%3C229%3A%3Aaid-aqc193%3E3.0.co%3B2-7">Management of the introduction and transfer of marine molluscs</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199612)6:4&lt;229::aid-aqc193&gt;3.0.co;2-7</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;4 (1996)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199612%296%3A4%3C229%3A%3Aaid-aqc193%3E3.0.co%3B2-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199612%296%3A4%3C229%3A%3Aaid-aqc193%3E3.0.co%3B2-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199612%296%3A4%3C229%3A%3Aaid-aqc193%3E3.0.co%3B2-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199612%296%3A4%3C229%3A%3Aaid-aqc193%3E3.0.co%3B2-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>WILLIAM G. SANDERSON</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199612%296%3A4%3C245%3A%3Aaid-aqc192%3E3.0.co%3B2-k">Rarity of marine benthic species in Great Britain: development and application of assessment criteria</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199612)6:4&lt;245::aid-aqc192&gt;3.0.co;2-k</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;4 (1996)</p></td>
+	<td>1.24&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199612%296%3A4%3C245%3A%3Aaid-aqc192%3E3.0.co%3B2-k" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199612%296%3A4%3C245%3A%3Aaid-aqc192%3E3.0.co%3B2-k">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199612%296%3A4%3C245%3A%3Aaid-aqc192%3E3.0.co%3B2-k">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199612%296%3A4%3C245%3A%3Aaid-aqc192%3E3.0.co%3B2-k">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>DAVID S. MACDONALD; MICHAEL LITTLE; N. CLARE ENO; KEITH HISCOCK</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199612%296%3A4%3C257%3A%3Aaid-aqc194%3E3.0.co%3B2-7">Disturbance of benthic species by fishing activities: a sensitivity index</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199612)6:4&lt;257::aid-aqc194&gt;3.0.co;2-7</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;4 (1996)</p></td>
+	<td>950&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199612%296%3A4%3C257%3A%3Aaid-aqc194%3E3.0.co%3B2-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199612%296%3A4%3C257%3A%3Aaid-aqc194%3E3.0.co%3B2-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199612%296%3A4%3C257%3A%3Aaid-aqc194%3E3.0.co%3B2-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199612%296%3A4%3C257%3A%3Aaid-aqc194%3E3.0.co%3B2-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. J. KAISER; A. S. HILL; K. RAMSAY; B. E. SPENCER; A. R. BRAND; L. O. VEALE; K. PRUDDEN; E. I. S. REES; B. W. MUNDAY; B. BALL; S. J. HAWKINS</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-0755%28199612%296%3A4%3C269%3A%3Aaid-aqc202%3E3.0.co%3B2-c">Benthic disturbance by fishing gear in the Irish Sea: a comparison of beam trawling and scallop dredging</a></p>
+		<p>DOI: 10.1002/(sici)1099-0755(199612)6:4&lt;269::aid-aqc202&gt;3.0.co;2-c</p>	</td>
+	<td><p><a href="/scimag/journals/1824">Aquatic Conservation: Marine and Freshwater Ecosystems</a><p>volume&nbsp;6, issue&nbsp;4 (1996)</p></td>
+	<td>1.31&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-0755%28199612%296%3A4%3C269%3A%3Aaid-aqc202%3E3.0.co%3B2-c" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-0755%28199612%296%3A4%3C269%3A%3Aaid-aqc202%3E3.0.co%3B2-c">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-0755%28199612%296%3A4%3C269%3A%3Aaid-aqc202%3E3.0.co%3B2-c">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-0755%28199612%296%3A4%3C269%3A%3Aaid-aqc202%3E3.0.co%3B2-c">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;460 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 99</span>
+	 <a href="/scimag/?journal=1824&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

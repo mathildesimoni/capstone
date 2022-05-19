@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/6421">Electronic Commerce Research</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1389-5753</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-9362</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 23; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 23');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=6421&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">560 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 23</span>
+	 <a href="/scimag/?journal=6421&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Yan Wang; Kian-Lee Tan; Jian Ren</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-005-1178-2">Towards Autonomous and Automatic Evaluation and Negotiation in Agent-Mediated Internet Marketplaces</a></p>
+		<p>DOI: 10.1007/s10660-005-1178-2</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;5, issue&nbsp;3-4 (2005)</p></td>
+	<td>524&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-005-1178-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-005-1178-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-005-1178-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-005-1178-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Roger Waldeck</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-005-1179-1">Prices in a Shopbot Market</a></p>
+		<p>DOI: 10.1007/s10660-005-1179-1</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;5, issue&nbsp;3-4 (2005)</p></td>
+	<td>544&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-005-1179-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-005-1179-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-005-1179-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-005-1179-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Brecht Vermeulen; Filip Vandermeulen; Piet Demeester</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-005-1181-7">An Open Generic Corba-Programmable Videoconferencing Platform</a></p>
+		<p>DOI: 10.1007/s10660-005-1181-7</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;5, issue&nbsp;3-4 (2005)</p></td>
+	<td>373&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-005-1181-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-005-1181-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-005-1181-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-005-1181-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kureshi Sonal; Vyas Preeta</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-005-1182-6">Practices, Perceptions and Avenues of Net-Based Promotions</a></p>
+		<p>DOI: 10.1007/s10660-005-1182-6</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;5, issue&nbsp;3-4 (2005)</p></td>
+	<td>203&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-005-1182-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-005-1182-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-005-1182-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-005-1182-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wedad Elmaghraby; Pinar Keskinocak; Michael Rothkopf</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-005-6155-2">Introduction</a></p>
+		<p>DOI: 10.1007/s10660-005-6155-2</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;5, issue&nbsp;2 (2005)</p></td>
+	<td>45&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-005-6155-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-005-6155-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-005-6155-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-005-6155-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vipul Bansal; Rahul Garg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-005-6156-1">Simultaneous Independent Online Auctions with Discrete Bid Increments</a></p>
+		<p>DOI: 10.1007/s10660-005-6156-1</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;5, issue&nbsp;2 (2005)</p></td>
+	<td>139&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-005-6156-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-005-6156-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-005-6156-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-005-6156-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Adel S. Elmaghraby; Anup Kumar; Mehmed M. Kantardzic; Mostafa Gamal Mostafa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-005-6157-0">A Scalable Pricing Model for Bandwidth Allocation</a></p>
+		<p>DOI: 10.1007/s10660-005-6157-0</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;5, issue&nbsp;2 (2005)</p></td>
+	<td>10.48&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-005-6157-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-005-6157-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-005-6157-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-005-6157-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Stone; Amy Greenwald</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-005-6158-z">The First International Trading Agent Competition: Autonomous Bidding Agents</a></p>
+		<p>DOI: 10.1007/s10660-005-6158-z</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;5, issue&nbsp;2 (2005)</p></td>
+	<td>235&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-005-6158-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-005-6158-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-005-6158-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-005-6158-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Prithviraj Dasgupta; Louise E. Moser; P. Michael Melliar-Smith</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-005-6159-y">Dynamic Pricing for Time-Limited Goods in a Supplier-Driven Electronic Marketplace</a></p>
+		<p>DOI: 10.1007/s10660-005-6159-y</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;5, issue&nbsp;2 (2005)</p></td>
+	<td>1.39&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-005-6159-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-005-6159-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-005-6159-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-005-6159-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Debasis Mishra; Sunil S. Reddy; Dharmaraj Veeramani</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-005-6160-5">Performance Evaluation of Multi-Object Auctions</a></p>
+		<p>DOI: 10.1007/s10660-005-6160-5</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;5, issue&nbsp;2 (2005)</p></td>
+	<td>117&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-005-6160-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-005-6160-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-005-6160-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-005-6160-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephan Biller; Lap Mui Ann Chan; David Simchi-Levi; Julie Swann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-005-6161-4">Dynamic Pricing and the Direct-to-Customer Model in the Automotive Industry</a></p>
+		<p>DOI: 10.1007/s10660-005-6161-4</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;5, issue&nbsp;2 (2005)</p></td>
+	<td>697&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-005-6161-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-005-6161-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-005-6161-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-005-6161-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James V. Hansen; James B. McDonald; Conan C. Albrecht; Douglas L. Dean; Bonnie B. Anderson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-006-0060-1">A Semantic Web data retrieval implementation with an adaptive model for supporting agent decision structures</a></p>
+		<p>DOI: 10.1007/s10660-006-0060-1</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;7, issue&nbsp;1 (2007)</p></td>
+	<td>225&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-006-0060-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-006-0060-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-006-0060-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-006-0060-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peng Li; Manghui Tu; I-Ling Yen; Zhonghang Xia</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-006-0061-0">Preference update for e-commerce applications: Model, language, and processing</a></p>
+		<p>DOI: 10.1007/s10660-006-0061-0</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;7, issue&nbsp;1 (2007)</p></td>
+	<td>509&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-006-0061-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-006-0061-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-006-0061-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-006-0061-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Seema Degwekar; Herman Lam; Stanley Y. W. Su</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-006-0062-z">Constraint-based brokering (CBB) for publishing and discovery of web services</a></p>
+		<p>DOI: 10.1007/s10660-006-0062-z</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;7, issue&nbsp;1 (2007)</p></td>
+	<td>496&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-006-0062-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-006-0062-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-006-0062-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-006-0062-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Per Carlsson; Arne Andersson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-006-0063-y">A flexible model for tree-structured multi-commodity markets</a></p>
+		<p>DOI: 10.1007/s10660-006-0063-y</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;7, issue&nbsp;1 (2007)</p></td>
+	<td>496&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-006-0063-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-006-0063-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-006-0063-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-006-0063-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sushil K. Sharma; Jatinder N. D. Gupta; Nilmini Wickramasinghe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-006-1180-3">A framework for designing the enterprise-wide e-commerce portal for evolving organizations</a></p>
+		<p>DOI: 10.1007/s10660-006-1180-3</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;6, issue&nbsp;2 (2006)</p></td>
+	<td>228&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-006-1180-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-006-1180-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-006-1180-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-006-1180-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark Ginsburg; Petra Schubert</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-006-5984-y">Editors' note</a></p>
+		<p>DOI: 10.1007/s10660-006-5984-y</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;6, issue&nbsp;1 (2006)</p></td>
+	<td>79&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-006-5984-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-006-5984-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-006-5984-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-006-5984-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Blair Nonnecke; Dorine Andrews; Jenny Preece</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-006-5985-x">Non-public and public online community participation: Needs, attitudes and behavior</a></p>
+		<p>DOI: 10.1007/s10660-006-5985-x</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;6, issue&nbsp;1 (2006)</p></td>
+	<td>367&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-006-5985-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-006-5985-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-006-5985-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-006-5985-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lemai Nguyen; Luba Torlina; Konrad Peszynski; Brian Corbitt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-006-5986-9">Power relations in virtual communities: An ethnographic study</a></p>
+		<p>DOI: 10.1007/s10660-006-5986-9</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;6, issue&nbsp;1 (2006)</p></td>
+	<td>281&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-006-5986-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-006-5986-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-006-5986-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-006-5986-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ian MacInnes</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-006-5987-8">Property rights, legal issues, and business models in virtual world communities</a></p>
+		<p>DOI: 10.1007/s10660-006-5987-8</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;6, issue&nbsp;1 (2006)</p></td>
+	<td>252&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-006-5987-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-006-5987-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-006-5987-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-006-5987-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Johann Füller; Michael Bartl; Holger Ernst; Hans Mühlbacher</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-006-5988-7">Community based innovation: How to integrate members of virtual communities into new product development</a></p>
+		<p>DOI: 10.1007/s10660-006-5988-7</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;6, issue&nbsp;1 (2006)</p></td>
+	<td>319&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-006-5988-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-006-5988-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-006-5988-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-006-5988-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patricia Grace-Farfaglia; Ad Dekkers; Binod Sundararajan; Lois Peters; Sung-Hee Park</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-006-5989-6">Multinational web uses and gratifications: Measuring the social impact of online community participation across national boundaries</a></p>
+		<p>DOI: 10.1007/s10660-006-5989-6</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;6, issue&nbsp;1 (2006)</p></td>
+	<td>384&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-006-5989-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-006-5989-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-006-5989-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-006-5989-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Petra Schubert; J. Felix Hampe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-006-5990-0">Mobile communities: How viable are their business models? An exemplary investigation of the leisure industry</a></p>
+		<p>DOI: 10.1007/s10660-006-5990-0</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;6, issue&nbsp;1 (2006)</p></td>
+	<td>361&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-006-5990-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-006-5990-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-006-5990-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-006-5990-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bezalel Gavish; Christopher L. Tucci</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-006-6954-0">Fraudulent auctions on the Internet</a></p>
+		<p>DOI: 10.1007/s10660-006-6954-0</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;6, issue&nbsp;2 (2006)</p></td>
+	<td>443&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-006-6954-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-006-6954-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-006-6954-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-006-6954-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ginger Myles; Christian Collberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10660-006-6955-z">Software watermarking via opaque predicates: Implementation, analysis, and attacks</a></p>
+		<p>DOI: 10.1007/s10660-006-6955-z</p>	</td>
+	<td><p><a href="/scimag/journals/6421">Electronic Commerce Research</a><p>volume&nbsp;6, issue&nbsp;2 (2006)</p></td>
+	<td>401&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10660-006-6955-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10660-006-6955-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10660-006-6955-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10660-006-6955-z">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">560 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 23</span>
+	 <a href="/scimag/?journal=6421&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

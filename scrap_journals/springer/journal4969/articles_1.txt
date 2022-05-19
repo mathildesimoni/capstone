@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4969">Computers and the Humanities</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0010-4817</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-8412</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 89; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 89');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4969&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;204 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 89</span>
+	 <a href="/scimag/?journal=4969&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Valeria Lomanto</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30204178">Humanities Computing in Italy || A Concordance to Keil's Latin Grammarians</a></p>
+		<p>DOI: 10.2307/30204178</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;24, issue&nbsp;5-6 (1990)</p></td>
+	<td>1.48&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30204178" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30204178">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30204178">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30204178">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Nerbonne and William Kretzschmar</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30204900">Computational Methods in Dialectometry || Introducing Computational Techniques in Dialectometry</a></p>
+		<p>DOI: 10.2307/30204900</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;37, issue&nbsp;3 (2003)</p></td>
+	<td>1.36&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30204900" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30204900">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30204900">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30204900">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. M. Coetzee</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30199556">Samuel Beckett's "Lessness": An Exercise in Decomposition</a></p>
+		<p>DOI: 10.2307/30199556</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;7, issue&nbsp;4 (1973)</p></td>
+	<td>650&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30199556" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30199556">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30199556">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30199556">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eric Poole</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30199683">The Computer in Determining Stemmatic Relationships</a></p>
+		<p>DOI: 10.2307/30199683</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;8, issue&nbsp;4 (1974)</p></td>
+	<td>1.46&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30199683" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30199683">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30199683">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30199683">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Iain Beavan, Michael Arnott and Colin McLaren</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30200417">Text and Illustration: The Digitisation of a Medieval Manuscript</a></p>
+		<p>DOI: 10.2307/30200417</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;31, issue&nbsp;1 (1997)</p></td>
+	<td>1.34&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30200417" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30200417">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30200417">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30200417">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul M. Craner</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30204425">Selected Papers from the Second Conference on Teaching Computers and Humanities Courses || New Tool for an Ancient Art: The Computer and Music</a></p>
+		<p>DOI: 10.2307/30204425</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;25, issue&nbsp;5 (1991)</p></td>
+	<td>1.88&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30204425" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30204425">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30204425">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30204425">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Review by: Edmund A. Bowles</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30199357">Musicology and Computers</a></p>
+		<p>DOI: 10.2307/30199357</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;4, issue&nbsp;3 (1970)</p></td>
+	<td>1.34&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30199357" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30199357">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30199357">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30199357">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Harry B. Lincoln</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30204003">Annual Survey of Recent Developments || The Current State of Music Research and the Computer</a></p>
+		<p>DOI: 10.2307/30204003</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;5, issue&nbsp;1 (1970)</p></td>
+	<td>1004&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30204003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30204003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30204003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30204003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Barry Truax</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30200022">A Special Double Issue on Activities in Canada Part I || The Computer Music Facility at Simon Fraser University</a></p>
+		<p>DOI: 10.2307/30200022</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;19, issue&nbsp;4 (1985)</p></td>
+	<td>1.25&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30200022" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30200022">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30200022">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30200022">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hubert S. Howe Jr.</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30204238">Composing by Computer</a></p>
+		<p>DOI: 10.2307/30204238</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;9, issue&nbsp;6 (1975)</p></td>
+	<td>1.54&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30204238" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30204238">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30204238">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30204238">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hubert S. Howe Jr.</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30199522">Annual Survey of Recent Developments, Part II || Letter to the Editor: Computer Music</a></p>
+		<p>DOI: 10.2307/30199522</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;7, issue&nbsp;2 (1972)</p></td>
+	<td>287&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30199522" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30199522">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30199522">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30199522">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Review by: Franklin B. Zimmerman</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30199508">Computer Music</a></p>
+		<p>DOI: 10.2307/30199508</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;6, issue&nbsp;5 (1972)</p></td>
+	<td>315&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30199508" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30199508">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30199508">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30199508">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James W. Beauchamp</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30199404">Letter to the Editor: Music by Computers</a></p>
+		<p>DOI: 10.2307/30199404</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;5, issue&nbsp;3 (1971)</p></td>
+	<td>287&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30199404" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30199404">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30199404">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30199404">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Review by: Hubert S. Howe Jr.</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30199373">The Chaotic State of Computer Music</a></p>
+		<p>DOI: 10.2307/30199373</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;4, issue&nbsp;4 (1970)</p></td>
+	<td>821&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30199373" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30199373">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30199373">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30199373">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Emmanuel G. Mesthene</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30199314">Humanities/Computers 69: A Symposium || Technology and Humanistic Values</a></p>
+		<p>DOI: 10.2307/30199314</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;4, issue&nbsp;1 (1969)</p></td>
+	<td>1.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30199314" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30199314">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30199314">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30199314">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Review by: Murray Gould</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30199285">An Introduction to Computing in Music</a></p>
+		<p>DOI: 10.2307/30199285</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;2, issue&nbsp;5 (1968)</p></td>
+	<td>221&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30199285" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30199285">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30199285">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30199285">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Leslie Mezei</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30203951">Annual Survey of Recent Developments || Computers and the Visual Arts</a></p>
+		<p>DOI: 10.2307/30203951</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;2, issue&nbsp;1 (1967)</p></td>
+	<td>239&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30203951" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30203951">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30203951">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30203951">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Allen Forte</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30203948">Annual Survey of Recent Developments || Music and Computing: The Present Situation</a></p>
+		<p>DOI: 10.2307/30203948</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;2, issue&nbsp;1 (1967)</p></td>
+	<td>443&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30203948" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30203948">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30203948">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30203948">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Walter B. Hewlett and Eleanor Selfridge-Field</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30208121">The Silver Anniversary Issue || Computing in Musicology, 1966-91</a></p>
+		<p>DOI: 10.2307/30208121</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;25, issue&nbsp;6 (1991)</p></td>
+	<td>2.15&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30208121" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30208121">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30208121">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30208121">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gerd Althoff</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30199941">Medieval Studies and the Computer || Möglichkeiten und Grenzen Elektronischer Datenverarbeitung bei der Erforschung der Geschichte des Mittelalters</a></p>
+		<p>DOI: 10.2307/30199941</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;12, issue&nbsp;1-2 (1978)</p></td>
+	<td>2.05&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30199941" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30199941">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30199941">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30199941">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tor Sverre Lande and Arvid O. Vollsnes</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30204592">Humanities Computing in Norway || Object Oriented Music Analysis</a></p>
+		<p>DOI: 10.2307/30204592</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;28, issue&nbsp;4-5 (1994-1995)</p></td>
+	<td>690&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30204592" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30204592">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30204592">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30204592">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jeffrey F. Huntsman</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30199935">Medieval Studies and the Computer || Computers and Medieval English Lexicography</a></p>
+		<p>DOI: 10.2307/30199935</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;12, issue&nbsp;1-2 (1978)</p></td>
+	<td>1.45&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30199935" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30199935">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30199935">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30199935">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-Jacques Thomas</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30204480">Texts On-Line</a></p>
+		<p>DOI: 10.2307/30204480</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;27, issue&nbsp;2 (1993)</p></td>
+	<td>1.81&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30204480" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30204480">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30204480">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30204480">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gina L. Greco, Toby Paff and Peter W. Shoemaker</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30204665">The "Charrette" Project: Manipulating Text and Image in an Electronic Archive of a Medieval Manuscript Tradition</a></p>
+		<p>DOI: 10.2307/30204665</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;30, issue&nbsp;6 (1996-1997)</p></td>
+	<td>1.55&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30204665" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30204665">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30204665">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30204665">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William Winder</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F30200529">A New Computer-Assisted Literary Criticism? || Industrial Text and French Neo-Structuralism</a></p>
+		<p>DOI: 10.2307/30200529</p>	</td>
+	<td><p><a href="/scimag/journals/4969">Computers and the Humanities</a><p>volume&nbsp;36, issue&nbsp;3 (2002)</p></td>
+	<td>1.53&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F30200529" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/30200529">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/30200529">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/30200529">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;204 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 89</span>
+	 <a href="/scimag/?journal=4969&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

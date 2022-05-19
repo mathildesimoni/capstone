@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4929">Computer Science - Research and Development</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1865-2034</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1865-2042</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 29; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 29');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4929&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">707 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 29</span>
+	 <a href="/scimag/?journal=4929&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Andreas Spillner; Peter Liggesmeyer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00009132">EditorialThemenheft: Aktuelle Entwicklungen im Softwaretest</a></p>
+		<p>DOI: 10.1007/pl00009132</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;15, issue&nbsp;3 (2000)</p></td>
+	<td>21&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00009132" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00009132">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00009132">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00009132">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mario Winter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00009133">Ein interaktionsbasiertes Modell für den objektorientierten Integrations- und Regressionstest</a></p>
+		<p>DOI: 10.1007/pl00009133</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;15, issue&nbsp;3 (2000)</p></td>
+	<td>185&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00009133" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00009133">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00009133">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00009133">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dirk Meyerhoff; Michael Timpe; Dirk Huberty</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00009134">Qualitätsziele und Testaufgaben im Internet</a></p>
+		<p>DOI: 10.1007/pl00009134</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;15, issue&nbsp;3 (2000)</p></td>
+	<td>145&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00009134" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00009134">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00009134">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00009134">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Monika Müllerburg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00009135">Validierung Software-intensiver eingebetteter Systeme</a></p>
+		<p>DOI: 10.1007/pl00009135</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;15, issue&nbsp;3 (2000)</p></td>
+	<td>102&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00009135" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00009135">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00009135">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00009135">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joachim Wegener; Matthias Grochtmann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00009136">Evolutionärer Test von Realzeitsystemen</a></p>
+		<p>DOI: 10.1007/pl00009136</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;15, issue&nbsp;3 (2000)</p></td>
+	<td>365&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00009136" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00009136">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00009136">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00009136">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Steffen Skatulla; Ralf Schaarschmidt; Peter Pistor; Klaus Küspert</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00009137">Entwurf und Implementierung eines SQL-normkonformen Datenbankkatalogs für ein relationales Datenbankmanagementsystem</a></p>
+		<p>DOI: 10.1007/pl00009137</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;15, issue&nbsp;3 (2000)</p></td>
+	<td>114&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00009137" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00009137">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00009137">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00009137">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Birgit Pröll; Werner Retschitzegger; Roland Wagner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00009138">TIScover – Eine generische Plattform für webbasierte Tourismusinformationssysteme</a></p>
+		<p>DOI: 10.1007/pl00009138</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;16, issue&nbsp;1 (2001)</p></td>
+	<td>282&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00009138" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00009138">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00009138">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00009138">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ulrich Sigmund; Theo Ungerer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00009139">Die Multimediafähigkeit von mehrfädig superskalaren Prozessoren am Beispiel der MPEG-2-Decodierung</a></p>
+		<p>DOI: 10.1007/pl00009139</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;16, issue&nbsp;1 (2001)</p></td>
+	<td>457&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00009139" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00009139">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00009139">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00009139">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stefan Jablonski; Michael Schlundt; Hartmut Wedekind</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00009140">Eine generische Komponente zur rechnergestützten Nutzung von Aufbauorganisationen</a></p>
+		<p>DOI: 10.1007/pl00009140</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;16, issue&nbsp;1 (2001)</p></td>
+	<td>239&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00009140" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00009140">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00009140">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00009140">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Stoschek; M. Sturm; T. Hinze</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00009141">DNA-Computing – ein funktionales Modell im laborpraktischen Experiment</a></p>
+		<p>DOI: 10.1007/pl00009141</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;16, issue&nbsp;1 (2001)</p></td>
+	<td>297&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00009141" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00009141">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00009141">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00009141">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Manfred Broy; Ruth Breu; Franz Huber; Ingolf Krüger; Bernhard Rumpe; Wolfgang Schwerin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00009142">Methodik, Sprachen und Grundlagen des Software Engineering</a></p>
+		<p>DOI: 10.1007/pl00009142</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;16, issue&nbsp;1 (2001)</p></td>
+	<td>117&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00009142" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00009142">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00009142">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00009142">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Uwe M. Borghoff; Michael Koch; Martin S. Lacher; Johann H. Schlichter; Knut Weißer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00009143">Informationsmanagement und Communities Überblick und Darstellung zweier Projekte der IMC-Gruppe München</a></p>
+		<p>DOI: 10.1007/pl00009143</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;16, issue&nbsp;2 (2001)</p></td>
+	<td>69&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00009143" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00009143">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00009143">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00009143">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hartmut Ehrig; Martin Große-Rhode</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00009144">Integration von Techniken der Softwarespezifkation für ingenieurwissenschaftliche Anwendungen</a></p>
+		<p>DOI: 10.1007/pl00009144</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;16, issue&nbsp;2 (2001)</p></td>
+	<td>64&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00009144" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00009144">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00009144">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00009144">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andreas Zeller</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00009145">Datenstrukturen visualisieren und animieren mit DDD</a></p>
+		<p>DOI: 10.1007/pl00009145</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;16, issue&nbsp;2 (2001)</p></td>
+	<td>250&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00009145" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00009145">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00009145">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00009145">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas Bauer; Manfred Reichert; Peter Dadam</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00009146">Effiziente Übertragung von Prozessinstanzdaten in verteilten Workflow-Management-Systemen</a></p>
+		<p>DOI: 10.1007/pl00009146</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;16, issue&nbsp;2 (2001)</p></td>
+	<td>201&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00009146" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00009146">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00009146">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00009146">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dirk Siebert; Patrick Neumann; Armin Schulz; Gabriele Faulkner; Thomas Tolxdorff</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00009147">Kieferchirurgische Operationsplanung mit Hilfe von Techniken der virtuellen Realität</a></p>
+		<p>DOI: 10.1007/pl00009147</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;16, issue&nbsp;2 (2001)</p></td>
+	<td>313&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00009147" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00009147">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00009147">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00009147">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00450-002-0100-6">Dissertationen</a></p>
+		<p>DOI: 10.1007/s00450-002-0100-6</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;17, issue&nbsp;2 (2002)</p></td>
+	<td>30&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00450-002-0100-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00450-002-0100-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00450-002-0100-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00450-002-0100-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Henrike Berthold; Frank Binkowski; Andreas Henrich; Silvia Hollfelder; Wolfgang Lindner; Ulrich Marder; Klaus Meyer-Wegener; Günter Robbert</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00450-002-0101-5">Architektur Multimedialer Informationssysteme</a></p>
+		<p>DOI: 10.1007/s00450-002-0101-5</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;17, issue&nbsp;2 (2002)</p></td>
+	<td>276&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00450-002-0101-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00450-002-0101-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00450-002-0101-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00450-002-0101-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christian Böhm; Hans-Peter Kriegel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00450-002-0104-2">Optimale Dimensionswahl bei der Bearbeitung des Similarity Join</a></p>
+		<p>DOI: 10.1007/s00450-002-0104-2</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;17, issue&nbsp;2 (2002)</p></td>
+	<td>281&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00450-002-0104-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00450-002-0104-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00450-002-0104-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00450-002-0104-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stefan Conrad</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00450-002-0105-1">Schemaintegration Integrationskonflikte, Lösungsansätze, aktuelle Herausforderungen</a></p>
+		<p>DOI: 10.1007/s00450-002-0105-1</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;17, issue&nbsp;3 (2002)</p></td>
+	<td>148&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00450-002-0105-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00450-002-0105-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00450-002-0105-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00450-002-0105-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tobias Rohatsch; Gerhard Pöppel; Heinrich Werner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00450-002-0107-z">Robuste Indizes für Projection Pursuit</a></p>
+		<p>DOI: 10.1007/s00450-002-0107-z</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;17, issue&nbsp;2 (2002)</p></td>
+	<td>217&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00450-002-0107-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00450-002-0107-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00450-002-0107-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00450-002-0107-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00450-002-0108-y">Informationen/Meinungen</a></p>
+		<p>DOI: 10.1007/s00450-002-0108-y</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;17, issue&nbsp;2 (2002)</p></td>
+	<td>29&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00450-002-0108-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00450-002-0108-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00450-002-0108-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00450-002-0108-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin Schneider; Fabian Härle</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00450-002-0109-x">GENIUS BODYBUILDER – a tool for the avaLUTION of EVOtars</a></p>
+		<p>DOI: 10.1007/s00450-002-0109-x</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;17, issue&nbsp;2 (2002)</p></td>
+	<td>225&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00450-002-0109-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00450-002-0109-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00450-002-0109-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00450-002-0109-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Theo Härder; Klaudia Hergula</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00450-002-0110-4">Ankopplung heterogener Anwendungssysteme an Föderierte Datenbanksysteme durch Funktionsintegration</a></p>
+		<p>DOI: 10.1007/s00450-002-0110-4</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;17, issue&nbsp;3 (2002)</p></td>
+	<td>196&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00450-002-0110-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00450-002-0110-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00450-002-0110-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00450-002-0110-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Oliver Dunemann; Ingolf Geist; Roland Jesse; Gunter Saake; Kai-Uwe Sattler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00450-002-0111-3">Informationsfusion auf heterogenen Datenbeständen</a></p>
+		<p>DOI: 10.1007/s00450-002-0111-3</p>	</td>
+	<td><p><a href="/scimag/journals/4929">Computer Science - Research and Development</a><p>volume&nbsp;17, issue&nbsp;3 (2002)</p></td>
+	<td>295&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00450-002-0111-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00450-002-0111-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00450-002-0111-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00450-002-0111-3">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">707 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 29</span>
+	 <a href="/scimag/?journal=4929&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

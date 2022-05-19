@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/6657">Engineering with Computers</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0177-0667</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1435-5663</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 66; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 66');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=6657&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;641 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 66</span>
+	 <a href="/scimag/?journal=6657&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>H. Nebi Gürsoy; Nicholas M. Patrikalakis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01194321">An automatic coarse and fine surface mesh generation scheme based on medial axis transform: Part II implementation</a></p>
+		<p>DOI: 10.1007/bf01194321</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;8, issue&nbsp;4 (1992)</p></td>
+	<td>1.35&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01194321" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01194321">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01194321">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01194321">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. A. Salustri; R. D. Venter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01194322">An axiomatic theory of engineering design information</a></p>
+		<p>DOI: 10.1007/bf01194322</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;8, issue&nbsp;4 (1992)</p></td>
+	<td>1.47&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01194322" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01194322">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01194322">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01194322">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Duvvuru Sriram; Shamim Ahmed; Robert Logcher</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01194323">A transaction management framework for collaborative engineering</a></p>
+		<p>DOI: 10.1007/bf01194323</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;8, issue&nbsp;4 (1992)</p></td>
+	<td>1.90&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01194323" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01194323">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01194323">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01194323">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin Roche</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01194324">The transfer of polyhedrons between computing systems and the CAD system tolerance issue</a></p>
+		<p>DOI: 10.1007/bf01194324</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;8, issue&nbsp;4 (1992)</p></td>
+	<td>591&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01194324" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01194324">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01194324">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01194324">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. M. Sargent</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01194325">Engineering materials information systems</a></p>
+		<p>DOI: 10.1007/bf01194325</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;8, issue&nbsp;4 (1992)</p></td>
+	<td>991&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01194325" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01194325">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01194325">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01194325">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ravi M. Rangan; Robert E. Fulton</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01195561">A data management strategy to control design and manufacturing information</a></p>
+		<p>DOI: 10.1007/bf01195561</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;7, issue&nbsp;2 (1991)</p></td>
+	<td>1.38&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01195561" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01195561">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01195561">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01195561">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gregory P. Luth; Deepak Jain; Helmut Krawinkler; Kincho H. Law</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01195562">A formal approach to automating conceptual structural design, Part I: Methology</a></p>
+		<p>DOI: 10.1007/bf01195562</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;7, issue&nbsp;2 (1991)</p></td>
+	<td>1.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01195562" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01195562">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01195562">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01195562">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Deepak Jain; Helmut Krawinkler; Kincho H. Law; Gregory P. Luth</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01195563">A formal approach to automating conceptual structural design, part II: Application to floor framing generation</a></p>
+		<p>DOI: 10.1007/bf01195563</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;7, issue&nbsp;2 (1991)</p></td>
+	<td>1.36&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01195563" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01195563">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01195563">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01195563">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Viswanath; Y. Jaluria</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01195564">Knowledge-based system for the computer aided design of ingot casting processes</a></p>
+		<p>DOI: 10.1007/bf01195564</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;7, issue&nbsp;2 (1991)</p></td>
+	<td>1.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01195564" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01195564">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01195564">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01195564">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. N. An-Nashif; G. H. Powell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01195565">An object-oriented algorithm for automated modeling of frame structures: Stiffness modeling</a></p>
+		<p>DOI: 10.1007/bf01195565</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;7, issue&nbsp;2 (1991)</p></td>
+	<td>658&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01195565" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01195565">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01195565">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01195565">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01195566">Announcement</a></p>
+		<p>DOI: 10.1007/bf01195566</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;7, issue&nbsp;2 (1991)</p></td>
+	<td>20&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01195566" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01195566">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01195566">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01195566">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kenneth F. Reinschmidt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01198144">Automation in the construction industry</a></p>
+		<p>DOI: 10.1007/bf01198144</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;3, issue&nbsp;1 (1987)</p></td>
+	<td>1.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01198144" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01198144">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01198144">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01198144">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul A. Wawrzynek; Anthony R. Ingraffea</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01198145">An edge-based data structure for two-dimensional finite element analysis</a></p>
+		<p>DOI: 10.1007/bf01198145</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;3, issue&nbsp;1 (1987)</p></td>
+	<td>748&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01198145" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01198145">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01198145">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01198145">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. Györi; Gy. Joó</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01198146">Computer-aided acoustic analysis of reciprocating compressor pipeline systems</a></p>
+		<p>DOI: 10.1007/bf01198146</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;3, issue&nbsp;1 (1987)</p></td>
+	<td>926&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01198146" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01198146">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01198146">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01198146">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David E. Goldberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01198147">Computer-aided pipeline operation using genetic algorithms and rule learning. PART I: Genetic algorithms in pipeline optimization</a></p>
+		<p>DOI: 10.1007/bf01198147</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;3, issue&nbsp;1 (1987)</p></td>
+	<td>919&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01198147" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01198147">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01198147">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01198147">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David E. Goldberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01198148">Computer-aided pipeline operation using genetic algorithms and rule learning. PART II: Rule learning control of a pipeline under normal and abnormal conditions</a></p>
+		<p>DOI: 10.1007/bf01198148</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;3, issue&nbsp;1 (1987)</p></td>
+	<td>1008&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01198148" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01198148">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01198148">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01198148">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. S. Sakthivel; V. Kalyanaraman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01198249">A KBES for integrated engineering</a></p>
+		<p>DOI: 10.1007/bf01198249</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;9, issue&nbsp;1 (1993)</p></td>
+	<td>1.31&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01198249" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01198249">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01198249">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01198249">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Arabshahi; D. C. Barton; N. K. Shaw</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01198250">Steps towards CAD-FEA integration</a></p>
+		<p>DOI: 10.1007/bf01198250</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;9, issue&nbsp;1 (1993)</p></td>
+	<td>922&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01198250" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01198250">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01198250">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01198250">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. -U. Bletzinger; E. Ramm</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01198251">Form finding of shells by structural optimization</a></p>
+		<p>DOI: 10.1007/bf01198251</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;9, issue&nbsp;1 (1993)</p></td>
+	<td>894&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01198251" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01198251">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01198251">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01198251">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William J. Rasdorf; Lisa K. Spainhour; Edward M. Patton; Bruce P. Burns</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01198252">A design environment for laminated fiber-reinforced thick composite materials</a></p>
+		<p>DOI: 10.1007/bf01198252</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;9, issue&nbsp;1 (1993)</p></td>
+	<td>1.26&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01198252" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01198252">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01198252">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01198252">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. C. Filkins; S. T. Tuohy; N. M. Patrikalakis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01198253">Computational methods for blending surface approximation</a></p>
+		<p>DOI: 10.1007/bf01198253</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;9, issue&nbsp;1 (1993)</p></td>
+	<td>1.18&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01198253" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01198253">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01198253">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01198253">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01198254">Announcement</a></p>
+		<p>DOI: 10.1007/bf01198254</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;9, issue&nbsp;1 (1993)</p></td>
+	<td>58&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01198254" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01198254">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01198254">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01198254">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Randy R. Lober; Ted D. Blacker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01198729">Preface</a></p>
+		<p>DOI: 10.1007/bf01198729</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;12, issue&nbsp;3-4 (1996)</p></td>
+	<td>56&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01198729" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01198729">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01198729">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01198729">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Whiteley; D. White; S. Benzley; T. Blacker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01198730">Two and three-quarter dimensional meshing facilitators</a></p>
+		<p>DOI: 10.1007/bf01198730</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;12, issue&nbsp;3-4 (1996)</p></td>
+	<td>1.55&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01198730" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01198730">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01198730">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01198730">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Wu; E. N. Houstis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01198731">Parallel adaptive mesh generation and decomposition</a></p>
+		<p>DOI: 10.1007/bf01198731</p>	</td>
+	<td><p><a href="/scimag/journals/6657">Engineering with Computers</a><p>volume&nbsp;12, issue&nbsp;3-4 (1996)</p></td>
+	<td>2.71&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01198731" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01198731">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01198731">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01198731">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;641 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 66</span>
+	 <a href="/scimag/?journal=6657&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

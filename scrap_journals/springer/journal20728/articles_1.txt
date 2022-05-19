@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/20728">Real-Time Systems</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer US</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0922-6443</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-1383</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 32; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 32');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=20728&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">778 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 32</span>
+	 <a href="/scimag/?journal=20728&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>George W. Irwin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00337679">Preface to the special issue on ‘the engineering of complex real-time computer control systems’</a></p>
+		<p>DOI: 10.1007/bf00337679</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;11, issue&nbsp;3 (1996)</p></td>
+	<td>112&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00337679" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00337679">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00337679">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00337679">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hans A. Hansson; Harold W. Lawson; Mikael Strömberg; Sven Larsson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00337680">BASEMENT: A distributed real-time architecture for vehicle applications</a></p>
+		<p>DOI: 10.1007/bf00337680</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;11, issue&nbsp;3 (1996)</p></td>
+	<td>1.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00337680" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00337680">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00337680">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00337680">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexander D. Stoyenko; Thomas J. Marlowe; Phillip A. Laplante</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00337681">A description language for engineering of complex real-time systems</a></p>
+		<p>DOI: 10.1007/bf00337681</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;11, issue&nbsp;3 (1996)</p></td>
+	<td>1.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00337681" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00337681">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00337681">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00337681">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Brian T. Boulter; Zhiqiang Gao</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00337682">A real-time self-tuning web tension regulation scheme</a></p>
+		<p>DOI: 10.1007/bf00337682</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;11, issue&nbsp;3 (1996)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00337682" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00337682">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00337682">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00337682">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. S. Tang; K. F. Man; S. Kwong; C. Y. Chan; C. Y. Chu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00337683">Application of the genetic algorithm to real-time active noise control</a></p>
+		<p>DOI: 10.1007/bf00337683</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;11, issue&nbsp;3 (1996)</p></td>
+	<td>696&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00337683" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00337683">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00337683">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00337683">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Steven Berryman; Ian Sommerville</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00355296">Modeling and evaluating the feasibility of timing constraints under different real-time scheduling algorithms</a></p>
+		<p>DOI: 10.1007/bf00355296</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;4, issue&nbsp;4 (1992)</p></td>
+	<td>1.33&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00355296" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00355296">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00355296">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00355296">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexander D. Stoyenko; Thomas J. Marlowe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00355297">Polynomial-time transformations and schedulability analysis of parallel real-time programs with restricted resource contention</a></p>
+		<p>DOI: 10.1007/bf00355297</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;4, issue&nbsp;4 (1992)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00355297" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00355297">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00355297">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00355297">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. A. Emerson; A. K Mok; A. P. Sistla; J. Srinivasan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00355298">Quantitative temporal reasoning</a></p>
+		<p>DOI: 10.1007/bf00355298</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;4, issue&nbsp;4 (1992)</p></td>
+	<td>1.40&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00355298" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00355298">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00355298">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00355298">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nelson H. Weiderman; Nick I. Kamenoff</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00355299">Hartstone Uniprocessor Benchmark: Definitions and experiments for real-time systems</a></p>
+		<p>DOI: 10.1007/bf00355299</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;4, issue&nbsp;4 (1992)</p></td>
+	<td>1.73&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00355299" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00355299">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00355299">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00355299">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00355300">Erratum</a></p>
+		<p>DOI: 10.1007/bf00355300</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;4, issue&nbsp;4 (1992)</p></td>
+	<td>51&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00355300" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00355300">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00355300">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00355300">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ammar Attoui; Michel Schneider</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00357881">A formal approach to the specification and the behavior validation of real-time systems based on rewriting logic</a></p>
+		<p>DOI: 10.1007/bf00357881</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;10, issue&nbsp;1 (1996)</p></td>
+	<td>956&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00357881" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00357881">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00357881">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00357881">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Too-Seng Tia; Jane W. -S. Liu; Mallikarjun Shankar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00357882">Algorithms and optimality of scheduling soft aperiodic requests in fixed-priority preemptive systems</a></p>
+		<p>DOI: 10.1007/bf00357882</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;10, issue&nbsp;1 (1996)</p></td>
+	<td>1.12&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00357882" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00357882">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00357882">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00357882">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paulo Veríssimo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00357883">Causal delivery protocols in real-time systems: A generic model</a></p>
+		<p>DOI: 10.1007/bf00357883</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;10, issue&nbsp;1 (1996)</p></td>
+	<td>1.42&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00357883" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00357883">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00357883">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00357883">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nicholas Malcolm; Sanjay Kamat; Wei Zhao</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00357884">Real-time communication in FDDI networks</a></p>
+		<p>DOI: 10.1007/bf00357884</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;10, issue&nbsp;1 (1996)</p></td>
+	<td>1.56&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00357884" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00357884">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00357884">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00357884">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00357885">Contributing authors</a></p>
+		<p>DOI: 10.1007/bf00357885</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;10, issue&nbsp;1 (1996)</p></td>
+	<td>196&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00357885" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00357885">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00357885">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00357885">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Saurav Chatterjee; Jay Strosnider</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00360338">Quantitative analysis of hardware support for real-time operating systems</a></p>
+		<p>DOI: 10.1007/bf00360338</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;10, issue&nbsp;2 (1996)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00360338" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00360338">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00360338">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00360338">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James Armstrong; Leonor Barroca</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00360339">Specification and verification of reactive system behaviour: The Railroad Crossing example</a></p>
+		<p>DOI: 10.1007/bf00360339</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;10, issue&nbsp;2 (1996)</p></td>
+	<td>1.50&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00360339" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00360339">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00360339">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00360339">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marco Spuri; Giorgio Buttazzo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00360340">Scheduling aperiodic tasks in dynamic priority systems</a></p>
+		<p>DOI: 10.1007/bf00360340</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;10, issue&nbsp;2 (1996)</p></td>
+	<td>1.60&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00360340" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00360340">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00360340">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00360340">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. P. C. Verhoosel; E. J. Luit; D. K. Hammer; E. Jansen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00364957">A static scheduling algorithm for distributed hard real-time systems</a></p>
+		<p>DOI: 10.1007/bf00364957</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;3, issue&nbsp;3 (1991)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00364957" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00364957">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00364957">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00364957">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ken Chen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00364958">A study on the timeliness property in real-time systems</a></p>
+		<p>DOI: 10.1007/bf00364958</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;3, issue&nbsp;3 (1991)</p></td>
+	<td>1.27&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00364958" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00364958">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00364958">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00364958">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. C. MC Elvany Hugue; P. David Stotts</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00364959">Guaranteed task deadlines for fault-tolerant workloads with conditional branches</a></p>
+		<p>DOI: 10.1007/bf00364959</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;3, issue&nbsp;3 (1991)</p></td>
+	<td>1.57&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00364959" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00364959">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00364959">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00364959">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shenze Chen; John A. Stankovic; James F. Kurose; Don Towsley</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00364960">Performance evaluation of two new disk scheduling algorithms for real-time systems</a></p>
+		<p>DOI: 10.1007/bf00364960</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;3, issue&nbsp;3 (1991)</p></td>
+	<td>1.63&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00364960" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00364960">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00364960">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00364960">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00364961">Contributing authors</a></p>
+		<p>DOI: 10.1007/bf00364961</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;3, issue&nbsp;3 (1991)</p></td>
+	<td>593&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00364961" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00364961">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00364961">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00364961">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Stankovic</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00365310">Editorial</a></p>
+		<p>DOI: 10.1007/bf00365310</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;4, issue&nbsp;3 (1992)</p></td>
+	<td>33&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00365310" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00365310">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00365310">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00365310">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marc H. Graham</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00365311">Issues in real-time data management</a></p>
+		<p>DOI: 10.1007/bf00365311</p>	</td>
+	<td><p><a href="/scimag/journals/20728">Real-Time Systems</a><p>volume&nbsp;4, issue&nbsp;3 (1992)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00365311" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00365311">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00365311">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00365311">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">778 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 32</span>
+	 <a href="/scimag/?journal=20728&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

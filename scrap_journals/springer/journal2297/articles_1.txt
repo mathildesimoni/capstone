@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/2297">Astronomy Reports</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1063-7729</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1562-6881</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 85; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 85');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=2297&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;101 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 85</span>
+	 <a href="/scimag/?journal=2297&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>D. N. Rachkovskii</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1306351">Diffuse reflection and transmission of light by a medium with an arbitrary scattering indicatrix</a></p>
+		<p>DOI: 10.1134/1.1306351</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;8 (2000)</p></td>
+	<td>77&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1306351" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1306351">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1306351">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1306351">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. E. Karachentseva; I. D. Karachentsev</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1306352">Southern isolated galaxy triplets</a></p>
+		<p>DOI: 10.1134/1.1306352</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;8 (2000)</p></td>
+	<td>1.45&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1306352" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1306352">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1306352">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1306352">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. A. Yakovleva; V. A. Gagen-Torn; G. M. Karataeva</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1306353">A photometric study of the peculiar galaxy UGC 4332</a></p>
+		<p>DOI: 10.1134/1.1306353</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;8 (2000)</p></td>
+	<td>434&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1306353" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1306353">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1306353">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1306353">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. N. Shimanskaya; L. I. Mashonkina; N. A. Sakhibullin</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1306354">Non-LTE effects in Mg I lines for various types of stars</a></p>
+		<p>DOI: 10.1134/1.1306354</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;8 (2000)</p></td>
+	<td>286&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1306354" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1306354">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1306354">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1306354">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. N. Knyazeva; A. V. Kharitonov</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1306355">The normal energy distributions in stellar spectra: Giants and supergiants</a></p>
+		<p>DOI: 10.1134/1.1306355</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;8 (2000)</p></td>
+	<td>103&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1306355" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1306355">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1306355">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1306355">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. I. Mashonkina</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1306356">Non-LTE analysis of the formation of EuII lines in the atmospheres of solar-type stars</a></p>
+		<p>DOI: 10.1134/1.1306356</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;8 (2000)</p></td>
+	<td>144&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1306356" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1306356">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1306356">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1306356">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. P. Artamonov; Yu. Yu. Badan; A. S. Gusev</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1307552">BVRICCD photometry of the peculiar galaxies NGC 5605 and NGC 5665</a></p>
+		<p>DOI: 10.1134/1.1307552</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;9 (2000)</p></td>
+	<td>322&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1307552" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1307552">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1307552">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1307552">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. S. Gusev</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1307553">Photometric properties of bars in galaxies</a></p>
+		<p>DOI: 10.1134/1.1307553</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;9 (2000)</p></td>
+	<td>170&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1307553" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1307553">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1307553">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1307553">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. I. Matveenko; P. J. Diamond; D. A. Graham</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1307554">Ring structures in Orion KL</a></p>
+		<p>DOI: 10.1134/1.1307554</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;9 (2000)</p></td>
+	<td>322&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1307554" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1307554">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1307554">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1307554">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. M. Kaminskii; G. U. Kovalchuk; A. F. Pugach</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1307555">Spectral features of RZ Psc, a cool star with Algol-like brightness minima</a></p>
+		<p>DOI: 10.1134/1.1307555</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;9 (2000)</p></td>
+	<td>145&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1307555" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1307555">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1307555">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1307555">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. S. Bisnovatyi-Kogan; O. V. Shorokhov</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1307556">Evolution of the distribution function and radiation spectrum for electrons in a magnetic field</a></p>
+		<p>DOI: 10.1134/1.1307556</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;9 (2000)</p></td>
+	<td>124&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1307556" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1307556">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1307556">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1307556">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. V. Chashei; A. I. Efimov; V. K. Rudash; M. K. Bird</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1307557">Anisotropy and velocity of small-scale irregularities in the region of solar-wind acceleration</a></p>
+		<p>DOI: 10.1134/1.1307557</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;9 (2000)</p></td>
+	<td>92&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1307557" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1307557">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1307557">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1307557">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yu. I. Neshpor; A. A. Stepanyan; O. R. Kalekin; N. A. Zhogolev; V. P. Fomin; N. N. Chalenko; V. G. Shitov</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1312959">The active galaxy 3C 66A: A variable source of very high-energy gamma-rays</a></p>
+		<p>DOI: 10.1134/1.1312959</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;10 (2000)</p></td>
+	<td>84&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1312959" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1312959">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1312959">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1312959">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. A. Antonov; A. S. Baranov</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1312960">Amplification of spiral density waves in gaseous and dust galactic disks as a result of interaction with the halo</a></p>
+		<p>DOI: 10.1134/1.1312960</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;10 (2000)</p></td>
+	<td>89&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1312960" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1312960">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1312960">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1312960">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. A. Tyul’bashev; O. I. Malov</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1312961">Studies of weak compact radio sources</a></p>
+		<p>DOI: 10.1134/1.1312961</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;10 (2000)</p></td>
+	<td>73&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1312961" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1312961">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1312961">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1312961">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. G. Lamburt; D. D. Sokolov; V. N. Tutubalin</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1312962">Turbulent diffusion in the interstellar medium</a></p>
+		<p>DOI: 10.1134/1.1312962</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;10 (2000)</p></td>
+	<td>79&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1312962" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1312962">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1312962">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1312962">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. V. Borkova; V. A. Marsakov</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1312963">Globular cluster subsystems in the galaxy</a></p>
+		<p>DOI: 10.1134/1.1312963</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;10 (2000)</p></td>
+	<td>381&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1312963" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1312963">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1312963">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1312963">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. B. Bogdanov</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1312964">Parameters for the dust envelope of the protoplanetary nebula IRAS 18062+2410</a></p>
+		<p>DOI: 10.1134/1.1312964</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;10 (2000)</p></td>
+	<td>54&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1312964" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1312964">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1312964">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1312964">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. Yu. Alekseev; V. E. Chalenko; D. N. Shakhovskoi</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1312965">RapidUBVRIphotometry of the active flare stars EV Lac and AD Leo</a></p>
+		<p>DOI: 10.1134/1.1312965</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;10 (2000)</p></td>
+	<td>92&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1312965" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1312965">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1312965">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1312965">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. Yu. Alekseev</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1312966">Statistics of BY Draconis variables</a></p>
+		<p>DOI: 10.1134/1.1312966</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;10 (2000)</p></td>
+	<td>83&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1312966" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1312966">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1312966">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1312966">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. A. Sheminova; A. S. Gadun</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1312967">Evolution of solar magnetic tubes from observations of Stokes parameters</a></p>
+		<p>DOI: 10.1134/1.1312967</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;10 (2000)</p></td>
+	<td>850&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1312967" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1312967">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1312967">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1312967">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. V. Tutukov; B. M. Shustov; D. S. Wiebe</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1320496">The stellar epoch in the evolution of the Galaxy</a></p>
+		<p>DOI: 10.1134/1.1320496</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;11 (2000)</p></td>
+	<td>95&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1320496" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1320496">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1320496">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1320496">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. S. Kardashev</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1320497">Radio synchrotron emission by protons and electrons in pulsars and the nuclei of quasars</a></p>
+		<p>DOI: 10.1134/1.1320497</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;11 (2000)</p></td>
+	<td>75&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1320497" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1320497">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1320497">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1320497">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. V. Kalenskii; V. G. Promislov; A. V. Alakoz; A. Winnberg; L. E. B. Johansson</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1320498">Determination of molecular gas properties using methyl cyanide lines</a></p>
+		<p>DOI: 10.1134/1.1320498</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;11 (2000)</p></td>
+	<td>209&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1320498" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1320498">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1320498">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1320498">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. G. Aliev; N. Z. Ismailov</td>
+	<td>
+		<p><a href="/scimag/10.1134%2F1.1320499">Discovery of rapid spectral variability in the Ap star χ Psc</a></p>
+		<p>DOI: 10.1134/1.1320499</p>	</td>
+	<td><p><a href="/scimag/journals/2297">Astronomy Reports</a><p>volume&nbsp;44, issue&nbsp;11 (2000)</p></td>
+	<td>177&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1134%2F1.1320499" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1134/1.1320499">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1134/1.1320499">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1134/1.1320499">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;101 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 85</span>
+	 <a href="/scimag/?journal=2297&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

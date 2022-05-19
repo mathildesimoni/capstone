@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/2103">Artificial Intelligence and Law</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer Netherlands</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0924-8463</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-8382</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 20; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 20');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=2103&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">477 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 20</span>
+	 <a href="/scimag/?journal=2103&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Kevin D. Ashley</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00114920">Case-based reasoning and its implications for legal expert systems</a></p>
+		<p>DOI: 10.1007/bf00114920</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;1, issue&nbsp;2-3 (1992)</p></td>
+	<td>6.45&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00114920" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00114920">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00114920">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00114920">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Giovanni Sartor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00114921">Normative conflicts in legal reasoning</a></p>
+		<p>DOI: 10.1007/bf00114921</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;1, issue&nbsp;2-3 (1992)</p></td>
+	<td>1.62&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00114921" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00114921">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00114921">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00114921">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Donald H. Berman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00114922">Book review</a></p>
+		<p>DOI: 10.1007/bf00114922</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;1, issue&nbsp;2-3 (1992)</p></td>
+	<td>429&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00114922" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00114922">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00114922">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00114922">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. D&#039;Altan; J-J.Ch. Meyer; R. J. Wieringa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00116787">An integrated framework for ought-to-be and ought-to-do constraints</a></p>
+		<p>DOI: 10.1007/bf00116787</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;4, issue&nbsp;2 (1996)</p></td>
+	<td>1.75&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00116787" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00116787">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00116787">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00116787">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tom Routen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00116788">On isomorphic formalisations</a></p>
+		<p>DOI: 10.1007/bf00116788</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;4, issue&nbsp;2 (1996)</p></td>
+	<td>1.34&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00116788" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00116788">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00116788">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00116788">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jesús Cardeñosa; Pilar Lasala</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00116789">ARPO-2: An expert system for legal advice on the breach of building contracts</a></p>
+		<p>DOI: 10.1007/bf00116789</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;4, issue&nbsp;2 (1996)</p></td>
+	<td>1.38&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00116789" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00116789">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00116789">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00116789">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00118476">From the Editors:</a></p>
+		<p>DOI: 10.1007/bf00118476</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>117&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00118476" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00118476">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00118476">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00118476">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David B. Skalak; Edwina L. Rissland</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00118477">Arguments and cases: An inevitable intertwining</a></p>
+		<p>DOI: 10.1007/bf00118477</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>2.47&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00118477" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00118477">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00118477">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00118477">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andrew J. I. Jones; Marek Sergot</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00118478">Deontic logic in the representation of law: Towards a methodology</a></p>
+		<p>DOI: 10.1007/bf00118478</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>1.27&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00118478" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00118478">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00118478">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00118478">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. J. M. Bench-Capon; F. P. Coenen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00118479">Isomorphism and legal knowledge based systems</a></p>
+		<p>DOI: 10.1007/bf00118479</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>1.29&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00118479" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00118479">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00118479">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00118479">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marc Lauritsen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00118480">Technology report: Building legal practice systems with today's commercial authoring tools</a></p>
+		<p>DOI: 10.1007/bf00118480</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>969&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00118480" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00118480">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00118480">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00118480">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jon Bing</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00118481">Book review</a></p>
+		<p>DOI: 10.1007/bf00118481</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>300&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00118481" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00118481">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00118481">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00118481">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Henry Prakken; Giovanni Sartor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00118491">Editors' introduction</a></p>
+		<p>DOI: 10.1007/bf00118491</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;4, issue&nbsp;3-4 (1996)</p></td>
+	<td>336&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00118491" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00118491">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00118491">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00118491">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kathleen Freeman; Arthur M. Farley</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00118492">A model of argumentation and its application to legal reasoning</a></p>
+		<p>DOI: 10.1007/bf00118492</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;4, issue&nbsp;3-4 (1996)</p></td>
+	<td>2.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00118492" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00118492">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00118492">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00118492">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jaap Hage</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00118493">A theory of legal reasoning and a logic to match</a></p>
+		<p>DOI: 10.1007/bf00118493</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;4, issue&nbsp;3-4 (1996)</p></td>
+	<td>4.40&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00118493" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00118493">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00118493">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00118493">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert A. Kowalski; Francesca Toni</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00118494">Abstract argumentation</a></p>
+		<p>DOI: 10.1007/bf00118494</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;4, issue&nbsp;3-4 (1996)</p></td>
+	<td>1.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00118494" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00118494">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00118494">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00118494">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Aleksander Peczenik</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00118495">Jumps and logic in the law</a></p>
+		<p>DOI: 10.1007/bf00118495</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;4, issue&nbsp;3-4 (1996)</p></td>
+	<td>2.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00118495" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00118495">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00118495">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00118495">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Prakken; G. Sartor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00118496">A dialectical model of assessing conflicting arguments in legal reasoning</a></p>
+		<p>DOI: 10.1007/bf00118496</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;4, issue&nbsp;3-4 (1996)</p></td>
+	<td>2.36&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00118496" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00118496">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00118496">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00118496">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Edwina L. Rissland; David B. Skalak; M. Timur Friedman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00123994">BankXX: Supporting legal arguments through heuristic retrieval</a></p>
+		<p>DOI: 10.1007/bf00123994</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;4, issue&nbsp;1 (1996)</p></td>
+	<td>4.28&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00123994" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00123994">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00123994">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00123994">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00123995">Book review</a></p>
+		<p>DOI: 10.1007/bf00123995</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;4, issue&nbsp;1 (1996)</p></td>
+	<td>232&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00123995" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00123995">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00123995">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00123995">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anja Oskamp</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00186723">Model for knowledge and legal expert systems</a></p>
+		<p>DOI: 10.1007/bf00186723</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;1, issue&nbsp;4 (1992-1993)</p></td>
+	<td>1.92&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00186723" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00186723">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00186723">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00186723">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. G. L. Weeks</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00186724">Juricas: Legal computer advice systems</a></p>
+		<p>DOI: 10.1007/bf00186724</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;1, issue&nbsp;4 (1992-1993)</p></td>
+	<td>883&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00186724" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00186724">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00186724">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00186724">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robin Widdison; Francis Pritchard; William Robinson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00186725">The European conflicts guide</a></p>
+		<p>DOI: 10.1007/bf00186725</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;1, issue&nbsp;4 (1992-1993)</p></td>
+	<td>881&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00186725" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00186725">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00186725">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00186725">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Karl Branting</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00871744">A computational model of ratio decidendi</a></p>
+		<p>DOI: 10.1007/bf00871744</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;2, issue&nbsp;1 (1993-1994)</p></td>
+	<td>1.94&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00871744" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00871744">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00871744">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00871744">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00871745">Special section invited talks at the Fourth International Conference on Artificial Intelligence and Law reader responses invited</a></p>
+		<p>DOI: 10.1007/bf00871745</p>	</td>
+	<td><p><a href="/scimag/journals/2103">Artificial Intelligence and Law</a><p>volume&nbsp;2, issue&nbsp;1 (1993-1994)</p></td>
+	<td>355&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00871745" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00871745">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00871745">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00871745">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">477 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 20</span>
+	 <a href="/scimag/?journal=2103&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

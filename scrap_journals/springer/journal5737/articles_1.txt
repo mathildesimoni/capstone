@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer US</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0929-5585</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-8080</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 16; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 16');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=5737&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">394 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 16</span>
+	 <a href="/scimag/?journal=5737&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Jean Paul Calvez</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00133302">A CoDesign case study with the MCSE methodology</a></p>
+		<p>DOI: 10.1007/bf00133302</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;1, issue&nbsp;3 (1996)</p></td>
+	<td>1.65&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00133302" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00133302">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00133302">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00133302">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. P. Magalhães</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00133303">A survey on estimating the timing constraints of hard real-time systems</a></p>
+		<p>DOI: 10.1007/bf00133303</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;1, issue&nbsp;3 (1996)</p></td>
+	<td>1.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00133303" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00133303">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00133303">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00133303">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Junji Suzuki; Sadayasu Ono</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00133304">Entropy CODEC from behavioral description based LSI-CAD for fully programmable image coding system</a></p>
+		<p>DOI: 10.1007/bf00133304</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;1, issue&nbsp;3 (1996)</p></td>
+	<td>1.44&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00133304" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00133304">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00133304">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00133304">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alessandro Balboni; William Fornaciari; Donatella Sciuto</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00133305">Co-synthesis and co-simulation of control-dominated embedded systems</a></p>
+		<p>DOI: 10.1007/bf00133305</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;1, issue&nbsp;3 (1996)</p></td>
+	<td>2.79&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00133305" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00133305">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00133305">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00133305">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00134681">Message from the editors-in-chief</a></p>
+		<p>DOI: 10.1007/bf00134681</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;1, issue&nbsp;1-2 (1996)</p></td>
+	<td>38&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00134681" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00134681">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00134681">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00134681">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Raul Camposano; Jörg Wilberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00134682">Embedded system design</a></p>
+		<p>DOI: 10.1007/bf00134682</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;1, issue&nbsp;1-2 (1996)</p></td>
+	<td>2.72&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00134682" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00134682">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00134682">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00134682">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Massimiliano Chiodo; Daniel Engels; Paolo Giusto; Harry Hsieh; Attila Jurecska; Luciano Lavagno; Kei Suzuki; Alberto Sangiovanni-Vincentelli</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00134683">A case study in computer-aided co-design of embedded controllers</a></p>
+		<p>DOI: 10.1007/bf00134683</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;1, issue&nbsp;1-2 (1996)</p></td>
+	<td>818&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00134683" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00134683">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00134683">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00134683">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rajesh K. Gup; Giovanni Micheli</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00134684">A co-synthesis approach to embedded system design automation</a></p>
+		<p>DOI: 10.1007/bf00134684</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;1, issue&nbsp;1-2 (1996)</p></td>
+	<td>2.85&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00134684" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00134684">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00134684">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00134684">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Madsen; J. P. Brage</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00134685">Codesign analysis of a computer graphics application</a></p>
+		<p>DOI: 10.1007/bf00134685</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;1, issue&nbsp;1-2 (1996)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00134685" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00134685">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00134685">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00134685">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Klaus Hagen; Dirk Steinberg; Heinrich Meyr</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00134686">Codesign of a parallel architecture and an optimizing compiler backend: SIN rete processing as a case study</a></p>
+		<p>DOI: 10.1007/bf00134686</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;1, issue&nbsp;1-2 (1996)</p></td>
+	<td>1.41&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00134686" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00134686">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00134686">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00134686">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wayne Wolf; Andrew Wolfe; Steve Chinatti; Ravi Koshy; Gary Slater; Spencer Sun</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00209907">Lessons from the design of a PC-based private branch exchange</a></p>
+		<p>DOI: 10.1007/bf00209907</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;1, issue&nbsp;4 (1996)</p></td>
+	<td>1.29&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00209907" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00209907">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00209907">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00209907">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andrew Wolfe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00209908">Issues for low-power CAD tools: A system-level design study</a></p>
+		<p>DOI: 10.1007/bf00209908</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;1, issue&nbsp;4 (1996)</p></td>
+	<td>970&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00209908" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00209908">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00209908">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00209908">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Imed Eddine Bennour; El Mostapha Albouhamid</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00209909">Lower bounds on the iteration time and the initiation interval of functional pipelining and loop folding</a></p>
+		<p>DOI: 10.1007/bf00209909</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;1, issue&nbsp;4 (1996)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00209909" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00209909">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00209909">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00209909">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Verkest; K. Rompaey; I. Bolsens; H. Man</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00209910">CoWare—A design environment for heterogeneous hardware/software systems</a></p>
+		<p>DOI: 10.1007/bf00209910</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;1, issue&nbsp;4 (1996)</p></td>
+	<td>1.96&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00209910" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00209910">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00209910">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00209910">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nikolaos S. Voros; Colin F. Snook; Stefan Hallerstede; Konstantinos Masselos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10617-005-1184-6">Embedded System Design Using Formal Model Refinement:An Approach Based on the Combined Use of UML and the B Language</a></p>
+		<p>DOI: 10.1007/s10617-005-1184-6</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;9, issue&nbsp;2 (2004)</p></td>
+	<td>1.31&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10617-005-1184-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10617-005-1184-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10617-005-1184-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10617-005-1184-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Milidonis; G. Dimitroulakos; M. D. Galanis; A. P. Kakarountas; G. Theodoridis; C. Goutis; F. Catthoor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10617-005-1185-5">A Framework for Data Partitioning for C++ Data-Intensive Applications</a></p>
+		<p>DOI: 10.1007/s10617-005-1185-5</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;9, issue&nbsp;2 (2004)</p></td>
+	<td>3.54&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10617-005-1185-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10617-005-1185-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10617-005-1185-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10617-005-1185-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yong Liu; Edmund M.-K. Lai</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10617-005-1186-4">Moduli Set Selection and Cost Estimation for RNS-Based FIR Filter and Filter Bank Design</a></p>
+		<p>DOI: 10.1007/s10617-005-1186-4</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;9, issue&nbsp;2 (2004)</p></td>
+	<td>1.40&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10617-005-1186-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10617-005-1186-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10617-005-1186-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10617-005-1186-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-François Nezan; Olivier Déforges; Mickaël Raulet</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10617-005-1187-3">Fast Prototyping Methodology for Distributed and Heterogeneous Architectures: Application to Mpeg-4 Video Tools</a></p>
+		<p>DOI: 10.1007/s10617-005-1187-3</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;9, issue&nbsp;2 (2004)</p></td>
+	<td>347&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10617-005-1187-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10617-005-1187-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10617-005-1187-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10617-005-1187-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xi Chen; Yan Luo; Harry Hsieh; Laxmi Bhuyan; Felice Balarin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10617-005-1193-5">Assertion Based Verification and Analysis of Network Processor Architectures</a></p>
+		<p>DOI: 10.1007/s10617-005-1193-5</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;9, issue&nbsp;3 (2004)</p></td>
+	<td>670&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10617-005-1193-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10617-005-1193-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10617-005-1193-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10617-005-1193-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wen-Tsong Shiue; Chaitali Chakrabarti</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10617-005-1195-3">Multi-Module Multi-Port Memory Design for Low Power Embedded Systems</a></p>
+		<p>DOI: 10.1007/s10617-005-1195-3</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;9, issue&nbsp;4 (2004)</p></td>
+	<td>6.03&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10617-005-1195-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10617-005-1195-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10617-005-1195-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10617-005-1195-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Ouni; A. Mtibaa; M. Abid</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10617-005-1196-2">Synthesis and Time Partitioning for Reconfigurable Systems</a></p>
+		<p>DOI: 10.1007/s10617-005-1196-2</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;9, issue&nbsp;3 (2004)</p></td>
+	<td>1.26&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10617-005-1196-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10617-005-1196-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10617-005-1196-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10617-005-1196-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>George Thanos; George Stassinopoulos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10617-005-1197-1">Proper Framework for the Application of Power Management Algorithms</a></p>
+		<p>DOI: 10.1007/s10617-005-1197-1</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;9, issue&nbsp;4 (2004)</p></td>
+	<td>1.71&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10617-005-1197-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10617-005-1197-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10617-005-1197-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10617-005-1197-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Juan Antonio Maestro; Daniel Mozos; Raquel Dormido; Pedro Reviriego</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10617-005-1198-0">New Alternatives to the Estimation Problem in Hardware-Software Codesign of Complex Embedded Systems: The H.261 Video Co-dec Case Study</a></p>
+		<p>DOI: 10.1007/s10617-005-1198-0</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;9, issue&nbsp;3 (2004)</p></td>
+	<td>856&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10617-005-1198-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10617-005-1198-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10617-005-1198-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10617-005-1198-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Posadas; F. Herrera; V. FernÁndez; P. SÁnchez; E. Villar; F. Blasco</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10617-005-1199-z">Single Source Design Environment for Embedded Systems Based on SystemC</a></p>
+		<p>DOI: 10.1007/s10617-005-1199-z</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;9, issue&nbsp;4 (2004)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10617-005-1199-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10617-005-1199-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10617-005-1199-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10617-005-1199-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Amr T. Abdel-Hamid; Sofiéne Tahar; El Mostapha Aboulhamid</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10617-005-1395-x">A Survey on IP Watermarking Techniques</a></p>
+		<p>DOI: 10.1007/s10617-005-1395-x</p>	</td>
+	<td><p><a href="/scimag/journals/5737">Design Automation for Embedded Systems</a><p>volume&nbsp;9, issue&nbsp;3 (2004)</p></td>
+	<td>227&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10617-005-1395-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10617-005-1395-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10617-005-1395-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10617-005-1395-x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">394 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 16</span>
+	 <a href="/scimag/?journal=5737&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

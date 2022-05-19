@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/16662">Lightweight Design</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer Automotive Media</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1865-4819</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>2192-8738</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 35; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 35');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=16662&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">868 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 35</span>
+	 <a href="/scimag/?journal=16662&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Dipl.-Ing. Ulrich Knorra</td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0001-3">FVK-Zeitalter</a></p>
+		<p>DOI: 10.1365/s35725-011-0001-3</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;1 (2011)</p></td>
+	<td>59&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0001-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0001-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0001-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0001-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0002-2">Märkte/Unternehmen</a></p>
+		<p>DOI: 10.1365/s35725-011-0002-2</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;1 (2011)</p></td>
+	<td>715&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0002-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0002-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0002-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0002-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0003-1">„Die Prozesskette durchleuchten“</a></p>
+		<p>DOI: 10.1365/s35725-011-0003-1</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;1 (2011)</p></td>
+	<td>295&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0003-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0003-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0003-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0003-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Prof. Dr.-Ing. Dr.-Ing. E.h. Walter Michaeli, Dipl.-Ing. Marco Pöhler, Dipl.-Ing. Lionel Winkelmann</td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0004-0">Großserien-Fertigungstechnologien für Leichtbauprodukte aus FVK</a></p>
+		<p>DOI: 10.1365/s35725-011-0004-0</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;1 (2011)</p></td>
+	<td>1.81&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0004-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0004-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0004-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0004-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Prof. Dr.-Ing. Habil. Prof. E.H. Werner A. Hufenbach, Prof. Dr.-Ing. habil. Maik Gude, Dr.-Ing. Niels Modler, Dipl.-Ing. Thomas Heber</td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0005-z">Großseriengerechte Fertigung von aktiven faserverstärkten Thermoplastverbunden</a></p>
+		<p>DOI: 10.1365/s35725-011-0005-z</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;1 (2011)</p></td>
+	<td>955&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0005-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0005-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0005-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0005-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dr.-Ing. Günther Lange</td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0006-y">Aluminiumschaum und Kunststoff – Ein neuartiger Hybridwerkstoff</a></p>
+		<p>DOI: 10.1365/s35725-011-0006-y</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;1 (2011)</p></td>
+	<td>1.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0006-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0006-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0006-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0006-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dipl.-Ing. Thomas Hahn, Dipl.-Ing. Christoph Erbelding</td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0007-x">Das Flügelsegel des Trimarans beim 33. America’s Cup</a></p>
+		<p>DOI: 10.1365/s35725-011-0007-x</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;1 (2011)</p></td>
+	<td>1.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0007-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0007-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0007-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0007-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dr.-Ing. Martin KÜSSNER</td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0008-9">Neue Möglichkeiten mit optimierten Verbundstrukturen</a></p>
+		<p>DOI: 10.1365/s35725-011-0008-9</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;1 (2011)</p></td>
+	<td>662&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0008-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0008-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0008-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0008-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dipl.-Ing. Herbert Moldenhauer</td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0009-8">Berechnung variabler Faserverläufe zur Optimierung von Compositestrukturen</a></p>
+		<p>DOI: 10.1365/s35725-011-0009-8</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;1 (2011)</p></td>
+	<td>1.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0009-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0009-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0009-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0009-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dipl.-Ing. (FH) Lars Ischtschuk</td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0010-2">Selbsthaftende Gelege für höhere Produktionseffizienz und Qualität</a></p>
+		<p>DOI: 10.1365/s35725-011-0010-2</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;1 (2011)</p></td>
+	<td>912&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0010-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0010-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0010-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0010-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0011-1">Produkte</a></p>
+		<p>DOI: 10.1365/s35725-011-0011-1</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;1 (2011)</p></td>
+	<td>224&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0011-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0011-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0011-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0011-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Johannes Winterhagen</td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0012-0">Kohlenstoffarmes Auto?</a></p>
+		<p>DOI: 10.1365/s35725-011-0012-0</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;2 (2011)</p></td>
+	<td>65&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0012-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0012-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0012-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0012-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0013-z">Märkte / Unternehmen</a></p>
+		<p>DOI: 10.1365/s35725-011-0013-z</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;2 (2011)</p></td>
+	<td>1.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0013-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0013-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0013-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0013-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Klaus Stretz</td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0015-x">Ultraleichtes Federbein für Pkw</a></p>
+		<p>DOI: 10.1365/s35725-011-0015-x</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;2 (2011)</p></td>
+	<td>1.28&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0015-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0015-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0015-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0015-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dipl.-Ing. Klaus Decking</td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0016-9">Massenreduktion durch Werkstoff - und Wandstärkenoptimierung</a></p>
+		<p>DOI: 10.1365/s35725-011-0016-9</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;2 (2011)</p></td>
+	<td>291&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0016-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0016-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0016-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0016-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Prof. Dr.-Ing. Jörg Wellnitz</td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0017-8">Aluminiumschaum für hohe Dauerfestigkeit und Ermüdungsbelastung</a></p>
+		<p>DOI: 10.1365/s35725-011-0017-8</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;2 (2011)</p></td>
+	<td>947&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0017-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0017-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0017-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0017-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dr. Stephen Rudzewski</td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0018-7">Der MnE21-Prozess – umweltbewusster Beitrag für den Leichtbau der Zukunft</a></p>
+		<p>DOI: 10.1365/s35725-011-0018-7</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;2 (2011)</p></td>
+	<td>486&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0018-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0018-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0018-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0018-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dr.-Ing. Leo Hoffmann, Dipl.-Ing. (FH) Matthias Renn, Prof. Dr.-Ing. Dietmar Drummer, Dipl.-Ing. (FH) Thomas Müller</td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0019-6">Hochbelastbare Faserverbundbauteile großserientauglich hergestellt</a></p>
+		<p>DOI: 10.1365/s35725-011-0019-6</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;2 (2011)</p></td>
+	<td>1.15&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0019-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0019-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0019-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0019-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dr. Franz-Josef Lenze, Dipl.-Ing. Sascha Sikora, Dipl.-Ing. Janko Banik</td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0020-0">Neue Wege in der Warmumformung von Mangan-Bor-Stählen</a></p>
+		<p>DOI: 10.1365/s35725-011-0020-0</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;2 (2011)</p></td>
+	<td>989&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0020-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0020-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0020-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0020-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dipl.-Ing. oec. Christoph Schütte, Dipl.Ing. Frank Dose</td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0021-z">Wirtschaftliche und prozesssichere Bohrbearbeitung von CFK</a></p>
+		<p>DOI: 10.1365/s35725-011-0021-z</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;2 (2011)</p></td>
+	<td>1.54&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0021-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0021-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0021-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0021-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dr.-Ing. Peter Nölle</td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0022-y">Verzugarmes Schweißen von Aluminiumwerkstoffen</a></p>
+		<p>DOI: 10.1365/s35725-011-0022-y</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;2 (2011)</p></td>
+	<td>1.05&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0022-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0022-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0022-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0022-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0023-x">Produkte</a></p>
+		<p>DOI: 10.1365/s35725-011-0023-x</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;2 (2011)</p></td>
+	<td>120&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0023-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0023-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0023-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0023-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dipl.-Ing. Ulrich Knorra</td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0024-9">Falsch verbunden?</a></p>
+		<p>DOI: 10.1365/s35725-011-0024-9</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;3 (2011)</p></td>
+	<td>59&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0024-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0024-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0024-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0024-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0025-8">Märkte / Unternehmen</a></p>
+		<p>DOI: 10.1365/s35725-011-0025-8</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;3 (2011)</p></td>
+	<td>513&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0025-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0025-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0025-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0025-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Prof. Dr. Andreas Groß</td>
+	<td>
+		<p><a href="/scimag/10.1365%2Fs35725-011-0026-7">„Die Bedeutung der Klebtechnik wird unweigerlich zunehmen“</a></p>
+		<p>DOI: 10.1365/s35725-011-0026-7</p>	</td>
+	<td><p><a href="/scimag/journals/16662">Lightweight Design</a><p>volume&nbsp;4, issue&nbsp;3 (2011)</p></td>
+	<td>349&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1365%2Fs35725-011-0026-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1365/s35725-011-0026-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1365/s35725-011-0026-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1365/s35725-011-0026-7">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">868 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 35</span>
+	 <a href="/scimag/?journal=16662&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

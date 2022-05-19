@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1042-9832</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1098-2418</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 64; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 64');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=20691&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;589 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 64</span>
+	 <a href="/scimag/?journal=20691&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>James Allen Fill</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199601%298%3A1%3C1%3A%3Aaid-rsa1%3E3.0.co%3B2-1">On the distribution of binary search trees under the random permutation model</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199601)8:1&lt;1::aid-rsa1&gt;3.0.co;2-1</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;8, issue&nbsp;1 (1996)</p></td>
+	<td>865&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199601%298%3A1%3C1%3A%3Aaid-rsa1%3E3.0.co%3B2-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199601%298%3A1%3C1%3A%3Aaid-rsa1%3E3.0.co%3B2-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199601%298%3A1%3C1%3A%3Aaid-rsa1%3E3.0.co%3B2-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199601%298%3A1%3C1%3A%3Aaid-rsa1%3E3.0.co%3B2-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anand Srivastav; Peter Stangier</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199601%298%3A1%3C27%3A%3Aaid-rsa2%3E3.0.co%3B2-t">Algorithmic Chernoff-Hoeffding inequalities in integer programming</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199601)8:1&lt;27::aid-rsa2&gt;3.0.co;2-t</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;8, issue&nbsp;1 (1996)</p></td>
+	<td>1.40&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199601%298%3A1%3C27%3A%3Aaid-rsa2%3E3.0.co%3B2-t" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199601%298%3A1%3C27%3A%3Aaid-rsa2%3E3.0.co%3B2-t">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199601%298%3A1%3C27%3A%3Aaid-rsa2%3E3.0.co%3B2-t">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199601%298%3A1%3C27%3A%3Aaid-rsa2%3E3.0.co%3B2-t">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Douglas Howard</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199601%298%3A1%3C59%3A%3Aaid-rsa3%3E3.0.co%3B2-q">Detecting defects in periodic scenery by random walks on Z</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199601)8:1&lt;59::aid-rsa3&gt;3.0.co;2-q</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;8, issue&nbsp;1 (1996)</p></td>
+	<td>734&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199601%298%3A1%3C59%3A%3Aaid-rsa3%3E3.0.co%3B2-q" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199601%298%3A1%3C59%3A%3Aaid-rsa3%3E3.0.co%3B2-q">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199601%298%3A1%3C59%3A%3Aaid-rsa3%3E3.0.co%3B2-q">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199601%298%3A1%3C59%3A%3Aaid-rsa3%3E3.0.co%3B2-q">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gordon Simons; Yi-Ching Yao</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199601%298%3A1%3C75%3A%3Aaid-rsa4%3E3.0.co%3B2-o">Asymptotic sine laws arising from alternating random permutations and sequences</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199601)8:1&lt;75::aid-rsa4&gt;3.0.co;2-o</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;8, issue&nbsp;1 (1996)</p></td>
+	<td>651&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199601%298%3A1%3C75%3A%3Aaid-rsa4%3E3.0.co%3B2-o" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199601%298%3A1%3C75%3A%3Aaid-rsa4%3E3.0.co%3B2-o">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199601%298%3A1%3C75%3A%3Aaid-rsa4%3E3.0.co%3B2-o">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199601%298%3A1%3C75%3A%3Aaid-rsa4%3E3.0.co%3B2-o">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter de Jong</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199603%298%3A2%3C105%3A%3Aaid-rsa2%3E3.0.co%3B2-1">A central limit theorem with applications to random hypergraphs</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199603)8:2&lt;105::aid-rsa2&gt;3.0.co;2-1</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;8, issue&nbsp;2 (1996)</p></td>
+	<td>691&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199603%298%3A2%3C105%3A%3Aaid-rsa2%3E3.0.co%3B2-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199603%298%3A2%3C105%3A%3Aaid-rsa2%3E3.0.co%3B2-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199603%298%3A2%3C105%3A%3Aaid-rsa2%3E3.0.co%3B2-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199603%298%3A2%3C105%3A%3Aaid-rsa2%3E3.0.co%3B2-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Colin McDiarmid</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199603%298%3A2%3C121%3A%3Aaid-rsa3%3E3.0.co%3B2-%23">A random bit-flipping method for seeking agreement</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199603)8:2&lt;121::aid-rsa3&gt;3.0.co;2-#</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;8, issue&nbsp;2 (1996)</p></td>
+	<td>552&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199603%298%3A2%3C121%3A%3Aaid-rsa3%3E3.0.co%3B2-%23" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199603%298%3A2%3C121%3A%3Aaid-rsa3%3E3.0.co%3B2-%23">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199603%298%3A2%3C121%3A%3Aaid-rsa3%3E3.0.co%3B2-%23">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199603%298%3A2%3C121%3A%3Aaid-rsa3%3E3.0.co%3B2-%23">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andrés D. Fundia</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199603%298%3A2%3C131%3A%3Aaid-rsa4%3E3.0.co%3B2-z">Derandomizing Chebyshev's inequality to find independent sets in uncrowded hypergraphs</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199603)8:2&lt;131::aid-rsa4&gt;3.0.co;2-z</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;8, issue&nbsp;2 (1996)</p></td>
+	<td>817&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199603%298%3A2%3C131%3A%3Aaid-rsa4%3E3.0.co%3B2-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199603%298%3A2%3C131%3A%3Aaid-rsa4%3E3.0.co%3B2-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199603%298%3A2%3C131%3A%3Aaid-rsa4%3E3.0.co%3B2-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199603%298%3A2%3C131%3A%3Aaid-rsa4%3E3.0.co%3B2-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jeff Kahn</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199603%298%3A2%3C149%3A%3Aaid-rsa5%3E3.0.co%3B2-y">A linear programming perspective on the Frankl—Rödl—Pippenger theorem</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199603)8:2&lt;149::aid-rsa5&gt;3.0.co;2-y</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;8, issue&nbsp;2 (1996)</p></td>
+	<td>394&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199603%298%3A2%3C149%3A%3Aaid-rsa5%3E3.0.co%3B2-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199603%298%3A2%3C149%3A%3Aaid-rsa5%3E3.0.co%3B2-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199603%298%3A2%3C149%3A%3Aaid-rsa5%3E3.0.co%3B2-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199603%298%3A2%3C149%3A%3Aaid-rsa5%3E3.0.co%3B2-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Molloy</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199603%298%3A2%3C159%3A%3Aaid-rsa6%3E3.0.co%3B2-x">A gap between the appearances of a <em>k</em>-core and a (<em>k</em> + 1)-chromatic graph</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199603)8:2&lt;159::aid-rsa6&gt;3.0.co;2-x</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;8, issue&nbsp;2 (1996)</p></td>
+	<td>94&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199603%298%3A2%3C159%3A%3Aaid-rsa6%3E3.0.co%3B2-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199603%298%3A2%3C159%3A%3Aaid-rsa6%3E3.0.co%3B2-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199603%298%3A2%3C159%3A%3Aaid-rsa6%3E3.0.co%3B2-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199603%298%3A2%3C159%3A%3Aaid-rsa6%3E3.0.co%3B2-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zoltán Füredi</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199603%298%3A2%3C97%3A%3Aaid-rsa1%3E3.0.co%3B2-j">Scrambling permutations and entropy of hypergraphs</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199603)8:2&lt;97::aid-rsa1&gt;3.0.co;2-j</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;8, issue&nbsp;2 (1996)</p></td>
+	<td>385&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199603%298%3A2%3C97%3A%3Aaid-rsa1%3E3.0.co%3B2-j" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199603%298%3A2%3C97%3A%3Aaid-rsa1%3E3.0.co%3B2-j">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199603%298%3A2%3C97%3A%3Aaid-rsa1%3E3.0.co%3B2-j">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199603%298%3A2%3C97%3A%3Aaid-rsa1%3E3.0.co%3B2-j">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vojtěch Rödl; Luboš Thoma</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199605%298%3A3%3C161%3A%3Aaid-rsa1%3E3.0.co%3B2-w">Asymptotic packing and the random greedy algorithm</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199605)8:3&lt;161::aid-rsa1&gt;3.0.co;2-w</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;8, issue&nbsp;3 (1996)</p></td>
+	<td>593&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199605%298%3A3%3C161%3A%3Aaid-rsa1%3E3.0.co%3B2-w" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199605%298%3A3%3C161%3A%3Aaid-rsa1%3E3.0.co%3B2-w">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199605%298%3A3%3C161%3A%3Aaid-rsa1%3E3.0.co%3B2-w">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199605%298%3A3%3C161%3A%3Aaid-rsa1%3E3.0.co%3B2-w">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James Allen Fill; Lars Holst</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199605%298%3A3%3C179%3A%3Aaid-rsa2%3E3.0.co%3B2-v">On the distribution of search cost for the move-to-front rule</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199605)8:3&lt;179::aid-rsa2&gt;3.0.co;2-v</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;8, issue&nbsp;3 (1996)</p></td>
+	<td>393&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199605%298%3A3%3C179%3A%3Aaid-rsa2%3E3.0.co%3B2-v" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199605%298%3A3%3C179%3A%3Aaid-rsa2%3E3.0.co%3B2-v">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199605%298%3A3%3C179%3A%3Aaid-rsa2%3E3.0.co%3B2-v">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199605%298%3A3%3C179%3A%3Aaid-rsa2%3E3.0.co%3B2-v">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. Fernandez de la Vega</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199605%298%3A3%3C187%3A%3Aaid-rsa3%3E3.0.co%3B2-u">MAX-CUT has a randomized approximation scheme in dense graphs</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199605)8:3&lt;187::aid-rsa3&gt;3.0.co;2-u</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;8, issue&nbsp;3 (1996)</p></td>
+	<td>508&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199605%298%3A3%3C187%3A%3Aaid-rsa3%3E3.0.co%3B2-u" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199605%298%3A3%3C187%3A%3Aaid-rsa3%3E3.0.co%3B2-u">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199605%298%3A3%3C187%3A%3Aaid-rsa3%3E3.0.co%3B2-u">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199605%298%3A3%3C187%3A%3Aaid-rsa3%3E3.0.co%3B2-u">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. van den Berg; A. Ermakov</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199605%298%3A3%3C199%3A%3Aaid-rsa4%3E3.0.co%3B2-t">A new lower bound for the critical probability of site percolation on the square lattice</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199605)8:3&lt;199::aid-rsa4&gt;3.0.co;2-t</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;8, issue&nbsp;3 (1996)</p></td>
+	<td>705&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199605%298%3A3%3C199%3A%3Aaid-rsa4%3E3.0.co%3B2-t" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199605%298%3A3%3C199%3A%3Aaid-rsa4%3E3.0.co%3B2-t">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199605%298%3A3%3C199%3A%3Aaid-rsa4%3E3.0.co%3B2-t">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199605%298%3A3%3C199%3A%3Aaid-rsa4%3E3.0.co%3B2-t">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Małgorzata Roos</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199605%298%3A3%3C213%3A%3Aaid-rsa5%3E3.0.co%3B2-0">An extension of Janson's inequality</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199605)8:3&lt;213::aid-rsa5&gt;3.0.co;2-0</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;8, issue&nbsp;3 (1996)</p></td>
+	<td>521&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199605%298%3A3%3C213%3A%3Aaid-rsa5%3E3.0.co%3B2-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199605%298%3A3%3C213%3A%3Aaid-rsa5%3E3.0.co%3B2-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199605%298%3A3%3C213%3A%3Aaid-rsa5%3E3.0.co%3B2-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199605%298%3A3%3C213%3A%3Aaid-rsa5%3E3.0.co%3B2-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexander Sidorenko</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199605%298%3A3%3C229%3A%3Aaid-rsa6%3E3.0.co%3B2-%23">Randomness friendly graphs</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199605)8:3&lt;229::aid-rsa6&gt;3.0.co;2-#</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;8, issue&nbsp;3 (1996)</p></td>
+	<td>500&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199605%298%3A3%3C229%3A%3Aaid-rsa6%3E3.0.co%3B2-%23" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199605%298%3A3%3C229%3A%3Aaid-rsa6%3E3.0.co%3B2-%23">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199605%298%3A3%3C229%3A%3Aaid-rsa6%3E3.0.co%3B2-%23">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199605%298%3A3%3C229%3A%3Aaid-rsa6%3E3.0.co%3B2-%23">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Harry Kesten; Boris Pittel</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199607%298%3A4%3C243%3A%3Aaid-rsa1%3E3.0.co%3B2-y">A local limit theorem for the number of nodes, the height, and the number of final leaves in a critical branching process tree</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199607)8:4&lt;243::aid-rsa1&gt;3.0.co;2-y</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;8, issue&nbsp;4 (1996)</p></td>
+	<td>1.71&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199607%298%3A4%3C243%3A%3Aaid-rsa1%3E3.0.co%3B2-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199607%298%3A4%3C243%3A%3Aaid-rsa1%3E3.0.co%3B2-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199607%298%3A4%3C243%3A%3Aaid-rsa1%3E3.0.co%3B2-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199607%298%3A4%3C243%3A%3Aaid-rsa1%3E3.0.co%3B2-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin Hildebrand</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199607%298%3A4%3C301%3A%3Aaid-rsa2%3E3.0.co%3B2-1">Random walks on random simple graphs</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199607)8:4&lt;301::aid-rsa2&gt;3.0.co;2-1</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;8, issue&nbsp;4 (1996)</p></td>
+	<td>676&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199607%298%3A4%3C301%3A%3Aaid-rsa2%3E3.0.co%3B2-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199607%298%3A4%3C301%3A%3Aaid-rsa2%3E3.0.co%3B2-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199607%298%3A4%3C301%3A%3Aaid-rsa2%3E3.0.co%3B2-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199607%298%3A4%3C301%3A%3Aaid-rsa2%3E3.0.co%3B2-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hsien-Kuei Hwang</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199607%298%3A4%3C319%3A%3Aaid-rsa3%3E3.0.co%3B2-0">Limit theorems for mergesort</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199607)8:4&lt;319::aid-rsa3&gt;3.0.co;2-0</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;8, issue&nbsp;4 (1996)</p></td>
+	<td>669&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199607%298%3A4%3C319%3A%3Aaid-rsa3%3E3.0.co%3B2-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199607%298%3A4%3C319%3A%3Aaid-rsa3%3E3.0.co%3B2-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199607%298%3A4%3C319%3A%3Aaid-rsa3%3E3.0.co%3B2-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199607%298%3A4%3C319%3A%3Aaid-rsa3%3E3.0.co%3B2-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Alonso; P. Chassaing; R. Schott</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199608%2F09%299%3A1%2F2%3C1%3A%3Aaid-rsa1%3E3.0.co%3B2-0">The average complexity of a coin-weighing problem</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199608/09)9:1/2&lt;1::aid-rsa1&gt;3.0.co;2-0</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;9, issue&nbsp;1-2 (1996)</p></td>
+	<td>511&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199608%2F09%299%3A1%2F2%3C1%3A%3Aaid-rsa1%3E3.0.co%3B2-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199608/09%299%3A1/2%3C1%3A%3Aaid-rsa1%3E3.0.co%3B2-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199608/09%299%3A1/2%3C1%3A%3Aaid-rsa1%3E3.0.co%3B2-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199608/09%299%3A1/2%3C1%3A%3Aaid-rsa1%3E3.0.co%3B2-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hans Garmo</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199608%2F09%299%3A1%2F2%3C113%3A%3Aaid-rsa8%3E3.0.co%3B2-%23">Random railways modeled as random 3-regular graphs</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199608/09)9:1/2&lt;113::aid-rsa8&gt;3.0.co;2-#</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;9, issue&nbsp;1-2 (1996)</p></td>
+	<td>1.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199608%2F09%299%3A1%2F2%3C113%3A%3Aaid-rsa8%3E3.0.co%3B2-%23" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199608/09%299%3A1/2%3C113%3A%3Aaid-rsa8%3E3.0.co%3B2-%23">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199608/09%299%3A1/2%3C113%3A%3Aaid-rsa8%3E3.0.co%3B2-%23">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199608/09%299%3A1/2%3C113%3A%3Aaid-rsa8%3E3.0.co%3B2-%23">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Erhard Godehardt; Jerzy Jaworski</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199608%2F09%299%3A1%2F2%3C137%3A%3Aaid-rsa9%3E3.0.co%3B2-y">On the connectivity of a random interval graph</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199608/09)9:1/2&lt;137::aid-rsa9&gt;3.0.co;2-y</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;9, issue&nbsp;1-2 (1996)</p></td>
+	<td>1.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199608%2F09%299%3A1%2F2%3C137%3A%3Aaid-rsa9%3E3.0.co%3B2-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199608/09%299%3A1/2%3C137%3A%3Aaid-rsa9%3E3.0.co%3B2-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199608/09%299%3A1/2%3C137%3A%3Aaid-rsa9%3E3.0.co%3B2-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199608/09%299%3A1/2%3C137%3A%3Aaid-rsa9%3E3.0.co%3B2-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>József Beck</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199608%2F09%299%3A1%2F2%3C15%3A%3Aaid-rsa2%3E3.0.co%3B2-e">Foundations of positional games</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199608/09)9:1/2&lt;15::aid-rsa2&gt;3.0.co;2-e</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;9, issue&nbsp;1-2 (1996)</p></td>
+	<td>2.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199608%2F09%299%3A1%2F2%3C15%3A%3Aaid-rsa2%3E3.0.co%3B2-e" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199608/09%299%3A1/2%3C15%3A%3Aaid-rsa2%3E3.0.co%3B2-e">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199608/09%299%3A1/2%3C15%3A%3Aaid-rsa2%3E3.0.co%3B2-e">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199608/09%299%3A1/2%3C15%3A%3Aaid-rsa2%3E3.0.co%3B2-e">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas Hofmeister; Hanno Lefmann</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199608%2F09%299%3A1%2F2%3C163%3A%3Aaid-rsa10%3E3.0.co%3B2-p">A combinatorial design approach to MAXCUT</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199608/09)9:1/2&lt;163::aid-rsa10&gt;3.0.co;2-p</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;9, issue&nbsp;1-2 (1996)</p></td>
+	<td>710&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199608%2F09%299%3A1%2F2%3C163%3A%3Aaid-rsa10%3E3.0.co%3B2-p" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199608/09%299%3A1/2%3C163%3A%3Aaid-rsa10%3E3.0.co%3B2-p">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199608/09%299%3A1/2%3C163%3A%3Aaid-rsa10%3E3.0.co%3B2-p">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199608/09%299%3A1/2%3C163%3A%3Aaid-rsa10%3E3.0.co%3B2-p">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexander K. Kelmans</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2418%28199608%2F09%299%3A1%2F2%3C177%3A%3Aaid-rsa11%3E3.0.co%3B2-l">On graphs with the maximum number of spanning trees</a></p>
+		<p>DOI: 10.1002/(sici)1098-2418(199608/09)9:1/2&lt;177::aid-rsa11&gt;3.0.co;2-l</p>	</td>
+	<td><p><a href="/scimag/journals/20691">Random Structures &amp; Algorithms</a><p>volume&nbsp;9, issue&nbsp;1-2 (1996)</p></td>
+	<td>814&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2418%28199608%2F09%299%3A1%2F2%3C177%3A%3Aaid-rsa11%3E3.0.co%3B2-l" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2418%28199608/09%299%3A1/2%3C177%3A%3Aaid-rsa11%3E3.0.co%3B2-l">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2418%28199608/09%299%3A1/2%3C177%3A%3Aaid-rsa11%3E3.0.co%3B2-l">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2418%28199608/09%299%3A1/2%3C177%3A%3Aaid-rsa11%3E3.0.co%3B2-l">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;589 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 64</span>
+	 <a href="/scimag/?journal=20691&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

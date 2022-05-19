@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Taylor and Francis Group</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1478-6451</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1478-646X</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 30; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 30');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=11211&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">736 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 30</span>
+	 <a href="/scimag/?journal=11211&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Kumar, Atul; Kandpal, Tara C.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F14786450701679332">Potential and cost of CO<sub>2</sub> emissions mitigation by using solar photovoltaic pumps in India</a></p>
+		<p>DOI: 10.1080/14786450701679332</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;26, issue&nbsp;3 (2007)</p></td>
+	<td>165&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F14786450701679332" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/14786450701679332">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/14786450701679332">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/14786450701679332">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kurchania, A. K.; Panwar, N. L.; Pagar, Savita D.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F14786460903497391">Design and performance evaluation of biogas stove for community cooking application</a></p>
+		<p>DOI: 10.1080/14786460903497391</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;29, issue&nbsp;2 (2010)</p></td>
+	<td>238&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F14786460903497391" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/14786460903497391">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/14786460903497391">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/14786460903497391">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yunus, Robiah; Syam, Azhari Muhammad</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F14786451.2011.628749">Kinetics of the transesterification of <i>Jatropha curcas</i> triglyceride with an alcohol in the presence of an alkaline catalyst</a></p>
+		<p>DOI: 10.1080/14786451.2011.628749</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;30 (2011)</p></td>
+	<td>281&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F14786451.2011.628749" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/14786451.2011.628749">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/14786451.2011.628749">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/14786451.2011.628749">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Venugopal, D.; Chandrasekaran, J.; Janarthanan, B.; Shanmugan, S.; Kumar, S. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F1478646x.2011.558197">Parametric optimization of a box-type solar cooker with an inbuilt paraboloid reflector using Cramer's rule</a></p>
+		<p>DOI: 10.1080/1478646x.2011.558197</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;31, issue&nbsp;4 (2012)</p></td>
+	<td>506&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F1478646x.2011.558197" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/1478646x.2011.558197">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/1478646x.2011.558197">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/1478646x.2011.558197">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gnanendra, P. M.; Ramesha, D. K.; Dasappa, S. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F1478646x.2011.559550">Preliminary investigation on the use of biogas sludge for gasification</a></p>
+		<p>DOI: 10.1080/1478646x.2011.559550</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;31, issue&nbsp;4 (2012)</p></td>
+	<td>538&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F1478646x.2011.559550" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/1478646x.2011.559550">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/1478646x.2011.559550">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/1478646x.2011.559550">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Holtfort, Carsten; Delgadillo-Holtfort, Isabel; Schröder, Klaus-Peter</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F1478646x.2010.539299">Detailed calculations of the solar irradiance and optimized set-ups of Sun collectors, by the example of central Mexico</a></p>
+		<p>DOI: 10.1080/1478646x.2010.539299</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;31, issue&nbsp;1 (2012)</p></td>
+	<td>662&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F1478646x.2010.539299" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/1478646x.2010.539299">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/1478646x.2010.539299">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/1478646x.2010.539299">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lay, Steven Thomas; Mowry, Gregory Stephen</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F1478646x.2010.517607">Viability analysis of renewable energy systems for commercial buildings: case study of Briarwood Club of Ankeny, Iowa, USA</a></p>
+		<p>DOI: 10.1080/1478646x.2010.517607</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;31, issue&nbsp;1 (2012)</p></td>
+	<td>163&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F1478646x.2010.517607" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/1478646x.2010.517607">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/1478646x.2010.517607">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/1478646x.2010.517607">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Siva Reddy, V.; Premalatha, M.; Ranjan, K. R.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F1478646x.2010.534554">Experimental studies on solar chimney for enhanced ventilation</a></p>
+		<p>DOI: 10.1080/1478646x.2010.534554</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;31, issue&nbsp;1 (2012)</p></td>
+	<td>388&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F1478646x.2010.534554" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/1478646x.2010.534554">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/1478646x.2010.534554">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/1478646x.2010.534554">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chen, Lingen; Tao, Guisheng; Sun, Fengrui</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F1478646x.2010.534795">Finite-time exergoeconomic optimal performance for an irreversible gas turbine closed-cycle cogeneration plant</a></p>
+		<p>DOI: 10.1080/1478646x.2010.534795</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;31, issue&nbsp;1 (2012)</p></td>
+	<td>489&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F1478646x.2010.534795" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/1478646x.2010.534795">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/1478646x.2010.534795">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/1478646x.2010.534795">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Flores, C.; Poza, F.; Narvarte, L.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F1478646x.2011.553284">A tool to widen the possibilities of PV pumping simulation</a></p>
+		<p>DOI: 10.1080/1478646x.2011.553284</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;31, issue&nbsp;2 (2012)</p></td>
+	<td>306&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F1478646x.2011.553284" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/1478646x.2011.553284">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/1478646x.2011.553284">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/1478646x.2011.553284">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bourdoucen, H.; Al-Badi, A. H.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F1478646x.2011.554608">Study and design of hybrid diesel–wind standalone system for remote area in Oman</a></p>
+		<p>DOI: 10.1080/1478646x.2011.554608</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;31, issue&nbsp;2 (2012)</p></td>
+	<td>426&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F1478646x.2011.554608" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/1478646x.2011.554608">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/1478646x.2011.554608">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/1478646x.2011.554608">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bouzguenda, M.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F1478646x.2010.545407">A comparative study of hybrid diesel solar PV–wind power systems in rural areas in the Sultanate of Oman</a></p>
+		<p>DOI: 10.1080/1478646x.2010.545407</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;31, issue&nbsp;2 (2012)</p></td>
+	<td>372&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F1478646x.2010.545407" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/1478646x.2010.545407">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/1478646x.2010.545407">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/1478646x.2010.545407">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Misra, Rohit; Aseri, Tarun Kumar</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F1478646x.2011.552978">Thermal performance enhancement of box-type solar cooker: a new approach</a></p>
+		<p>DOI: 10.1080/1478646x.2011.552978</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;31, issue&nbsp;2 (2012)</p></td>
+	<td>452&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F1478646x.2011.552978" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/1478646x.2011.552978">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/1478646x.2011.552978">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/1478646x.2011.552978">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Okushima, Limi; Mears, David R.; Sase, Sadanori; Ishii, Masahisa; Moriyama, Hideki </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F1478646x.2010.509503">Thermal condition in a compact sunroom for fresh vegetables production</a></p>
+		<p>DOI: 10.1080/1478646x.2010.509503</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;30, issue&nbsp;5 (2011)</p></td>
+	<td>552&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F1478646x.2010.509503" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/1478646x.2010.509503">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/1478646x.2010.509503">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/1478646x.2010.509503">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Guo, Hongxu; Huang, Ying; Yang, Haolin; Zhao, Daiqing </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F14786451.2012.742897">CO              <sub/>2</sub>              emissions and carbon capture and storage prospects in the electric power industry of Guangdong Province, China</a></p>
+		<p>DOI: 10.1080/14786451.2012.742897</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;32, issue&nbsp;6 (2013)</p></td>
+	<td>631&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F14786451.2012.742897" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/14786451.2012.742897">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/14786451.2012.742897">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/14786451.2012.742897">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sharma, P. P.; Chatterji, S.; Singh, Balwinder </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F14786451.2011.591492">Techno-economic analysis and modelling of stand-alone versus grid-connected small hydro-power systems – a review of literature</a></p>
+		<p>DOI: 10.1080/14786451.2011.591492</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;32, issue&nbsp;1 (2013)</p></td>
+	<td>118&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F14786451.2011.591492" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/14786451.2011.591492">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/14786451.2011.591492">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/14786451.2011.591492">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Khalfallaoui, S.; Seguin, D.; Abdelghani-Idrissi, M. A.; Mouhab, N.; Miller, A.; Ip, K. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F1478646x.2010.498913">Theoretical and experimental unsteady-state thermal behaviour of domestic solar water heating</a></p>
+		<p>DOI: 10.1080/1478646x.2010.498913</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;30, issue&nbsp;3 (2011)</p></td>
+	<td>1.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F1478646x.2010.498913" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/1478646x.2010.498913">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/1478646x.2010.498913">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/1478646x.2010.498913">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Soni, Amit; Dashora, Alpa; Gupta, Vikas; Arora, C. M.; Ahuja, B. L. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F14786451.2011.591493">Use of chalcopyrite semiconductors CuXSe              <sub/>2</sub>              (X=Al, Ga and In) in solar cells: a theoretical study</a></p>
+		<p>DOI: 10.1080/14786451.2011.591493</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;32, issue&nbsp;1 (2013)</p></td>
+	<td>598&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F14786451.2011.591493" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/14786451.2011.591493">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/14786451.2011.591493">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/14786451.2011.591493">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Šúri, Marcel; Huld, Thomas A.; Dunlop, Ewan D. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F14786450512331329556">PV-GIS: a web-based solar radiation database for the calculation of PV potential in Europe</a></p>
+		<p>DOI: 10.1080/14786450512331329556</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;24, issue&nbsp;2 (2005)</p></td>
+	<td>485&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F14786450512331329556" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/14786450512331329556">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/14786450512331329556">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/14786450512331329556">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cipriano, Xavier; Carbonell, Jordi; Cipriano, Jordi </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F14786450802452332">Monitoring and modelling energy efficiency of municipal public buildings: case study in Catalonia region</a></p>
+		<p>DOI: 10.1080/14786450802452332</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;28, issue&nbsp;1-3 (2009)</p></td>
+	<td>789&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F14786450802452332" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/14786450802452332">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/14786450802452332">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/14786450802452332">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kabra, Kavita; Chaudhary, R.; Sawhney, R. L. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F14786450701679407">Photocatalytic reduction of Cr(VI) in aqueous titania suspensions exposed to concentrated solar radiation</a></p>
+		<p>DOI: 10.1080/14786450701679407</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;26, issue&nbsp;4 (2007)</p></td>
+	<td>279&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F14786450701679407" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/14786450701679407">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/14786450701679407">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/14786450701679407">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kabeel, A.E.; El-Said, Emad M.S. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F14786451.2012.757613">Technological aspects of advancement in low-capacity solar thermal desalination units</a></p>
+		<p>DOI: 10.1080/14786451.2012.757613</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;32, issue&nbsp;5 (2013)</p></td>
+	<td>887&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F14786451.2012.757613" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/14786451.2012.757613">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/14786451.2012.757613">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/14786451.2012.757613">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hossain, M. A.; Woods, J. L.; Bala, B. K. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F14786450500291859">Simulation of solar drying of chilli in solar tunnel drier</a></p>
+		<p>DOI: 10.1080/14786450500291859</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;24, issue&nbsp;3 (2005)</p></td>
+	<td>321&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F14786450500291859" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/14786450500291859">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/14786450500291859">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/14786450500291859">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kumar, Shiv; Singh, Gajendra; Tiwari, G.N.; Yadav, J.K. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F14786451.2011.644627">Thermal modelling of a hybrid photovoltaic thermal water heater in parallel configuration</a></p>
+		<p>DOI: 10.1080/14786451.2011.644627</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;32, issue&nbsp;5 (2013)</p></td>
+	<td>534&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F14786451.2011.644627" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/14786451.2011.644627">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/14786451.2011.644627">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/14786451.2011.644627">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nagarajan, S. T.; Kumar, Narendra </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F14786451.2012.762775">An analysis of subsynchronous resonance in hybrid marine current and wind farms with squirrel cage induction generator</a></p>
+		<p>DOI: 10.1080/14786451.2012.762775</p>	</td>
+	<td><p><a href="/scimag/journals/11211">International Journal of Sustainable Energy</a><p>volume&nbsp;33, issue&nbsp;3 (2014)</p></td>
+	<td>910&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F14786451.2012.762775" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/14786451.2012.762775">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/14786451.2012.762775">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/14786451.2012.762775">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">736 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 30</span>
+	 <a href="/scimag/?journal=11211&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/16316">K-Theory</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0920-3036</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-0514</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 28; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 28');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=16316&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">686 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 28</span>
+	 <a href="/scimag/?journal=16316&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>M. Somekawa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533151">On Milnor <i>K</i>-groups attached to semi-Abelian varieties</a></p>
+		<p>DOI: 10.1007/bf00533151</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;4, issue&nbsp;2 (1990)</p></td>
+	<td>665&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533151" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533151">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533151">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533151">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. T. Stafford</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533152">Absolute stable rank and quadratic forms over noncommutative rings</a></p>
+		<p>DOI: 10.1007/bf00533152</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;4, issue&nbsp;2 (1990)</p></td>
+	<td>501&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533152" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533152">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533152">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533152">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Claude Cibils</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533153">Cyclic and Hochschild homology of 2-nilpotent algebras</a></p>
+		<p>DOI: 10.1007/bf00533153</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;4, issue&nbsp;2 (1990)</p></td>
+	<td>471&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533153" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533153">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533153">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533153">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Seibt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533154">Local cyclic homology</a></p>
+		<p>DOI: 10.1007/bf00533154</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;4, issue&nbsp;2 (1990)</p></td>
+	<td>565&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533154" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533154">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533154">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533154">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tetsuya Masuda; Yoshiomi Nakagami; Junsei Watanabe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533155">Noncommutative differential geometry on the quantum SU(2), I: An algebraic viewpoint</a></p>
+		<p>DOI: 10.1007/bf00533155</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;4, issue&nbsp;2 (1990)</p></td>
+	<td>956&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533155" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533155">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533155">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533155">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kevin Hutchinson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533156">A new approach to Matsumoto's theorem</a></p>
+		<p>DOI: 10.1007/bf00533156</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;4, issue&nbsp;2 (1990)</p></td>
+	<td>738&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533156" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533156">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533156">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533156">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Micheline Vigué-Poirrier</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533212">Décompositions de l'homologie cyclique des algèbres différentielles graduées commutatives</a></p>
+		<p>DOI: 10.1007/bf00533212</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;4, issue&nbsp;5 (1991)</p></td>
+	<td>530&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533212" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533212">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533212">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533212">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ernesto Vallejo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533213">Polynomial operations on complex <i>K</i>-theory</a></p>
+		<p>DOI: 10.1007/bf00533213</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;4, issue&nbsp;5 (1991)</p></td>
+	<td>1.45&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533213" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533213">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533213">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533213">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alanl L. Carey; John Phillips</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533214">Algebras almost commuting with Clifford algebras in a II<sub>∞</sub> factor</a></p>
+		<p>DOI: 10.1007/bf00533214</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;4, issue&nbsp;5 (1991)</p></td>
+	<td>1.66&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533214" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533214">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533214">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533214">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Steven C. Ferry; Erik Kjaer Pedersen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533215">Some mildly wild circles in <i>S</i><sup>n</sup> arising from algebraic <i>K</i>-Theory</a></p>
+		<p>DOI: 10.1007/bf00533215</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;4, issue&nbsp;5 (1991)</p></td>
+	<td>1.25&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533215" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533215">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533215">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533215">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. V. Pazhitnov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533216">Surgery on the Novikov complex</a></p>
+		<p>DOI: 10.1007/bf00533216</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;10, issue&nbsp;4 (1996)</p></td>
+	<td>4.79&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533216" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533216">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533216">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533216">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Upadhyay</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533217">Controlled algebraic <i>K</i>-theory of integral group ring of <i>SL</i>(3, ℤ)</a></p>
+		<p>DOI: 10.1007/bf00533217</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;10, issue&nbsp;4 (1996)</p></td>
+	<td>333&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533217" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533217">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533217">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533217">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Masaharu Morimoto</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533278">Bak groups and equivariant surgery</a></p>
+		<p>DOI: 10.1007/bf00533278</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;2, issue&nbsp;4 (1989)</p></td>
+	<td>908&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533278" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533278">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533278">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533278">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Kastler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533279">Entire cyclic cohomology of ℤ/2-graded banach algebras</a></p>
+		<p>DOI: 10.1007/bf00533279</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;2, issue&nbsp;4 (1989)</p></td>
+	<td>858&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533279" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533279">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533279">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533279">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ross E. Staffeldt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533280">On fundamental theorems of algebraic <i>K</i>-theory</a></p>
+		<p>DOI: 10.1007/bf00533280</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;2, issue&nbsp;4 (1989)</p></td>
+	<td>830&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533280" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533280">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533280">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533280">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Goss</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533281">Fourier series, measures and divided power series in the theory of function fields</a></p>
+		<p>DOI: 10.1007/bf00533281</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;2, issue&nbsp;4 (1989)</p></td>
+	<td>774&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533281" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533281">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533281">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533281">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anthony Bak</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533368">Editorial</a></p>
+		<p>DOI: 10.1007/bf00533368</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;3, issue&nbsp;3 (1989)</p></td>
+	<td>98&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533368" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533368">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533368">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533368">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-Pierre Serre</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533369">Rapport au comité fields sur les travaux de A. Grothendieck</a></p>
+		<p>DOI: 10.1007/bf00533369</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;3, issue&nbsp;3 (1989)</p></td>
+	<td>338&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533369" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533369">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533369">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533369">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniel Quillen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533370">Cyclic cohomology and algebra extensions</a></p>
+		<p>DOI: 10.1007/bf00533370</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;3, issue&nbsp;3 (1989)</p></td>
+	<td>1.99&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533370" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533370">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533370">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533370">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniel R. Grayson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533371">Exterior power operations on higher <i>K</i>-theory</a></p>
+		<p>DOI: 10.1007/bf00533371</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;3, issue&nbsp;3 (1989)</p></td>
+	<td>623&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533371" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533371">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533371">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533371">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Charles A. Weibel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533372">A Quillen-type spectral sequence for the <i>K</i>-theory of varieties with isolated singularities</a></p>
+		<p>DOI: 10.1007/bf00533372</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;3, issue&nbsp;3 (1989)</p></td>
+	<td>476&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533372" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533372">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533372">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533372">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Bochnak; M. Buchner; W. Kucharz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533373">Vector bundles over real algebraic varieties</a></p>
+		<p>DOI: 10.1007/bf00533373</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;3, issue&nbsp;3 (1989)</p></td>
+	<td>1.48&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533373" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533373">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533373">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533373">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marc Levine; V. Srinivas; Jerzy Weyman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533374"><i>K</i>-theory of twisted Grassmannians</a></p>
+		<p>DOI: 10.1007/bf00533374</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;3, issue&nbsp;2 (1989)</p></td>
+	<td>1.03&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533374" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533374">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533374">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533374">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Frank Connolly; Wolfgang Lück</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533375">The involution on the equivariant Whitehead group</a></p>
+		<p>DOI: 10.1007/bf00533375</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;3, issue&nbsp;2 (1989)</p></td>
+	<td>832&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533375" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533375">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533375">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533375">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gerald Dunn</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00533376">Dihedral and quaternionic homology and mapping spaces</a></p>
+		<p>DOI: 10.1007/bf00533376</p>	</td>
+	<td><p><a href="/scimag/journals/16316">K-Theory</a><p>volume&nbsp;3, issue&nbsp;2 (1989)</p></td>
+	<td>987&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00533376" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00533376">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00533376">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00533376">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">686 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 28</span>
+	 <a href="/scimag/?journal=16316&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

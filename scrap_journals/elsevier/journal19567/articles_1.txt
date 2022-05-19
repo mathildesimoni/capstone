@@ -1,0 +1,379 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Elsevier Science</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1464-1917</td>
+	</tr>
+					</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 15; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 15');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=19567&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">352 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 15</span>
+	 <a href="/scimag/?journal=19567&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Sheo S Prasad; Reinhard Zellner</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900002-7">Preface</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00002-7</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;3 (2000)</p></td>
+	<td>81&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900002-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900002-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900002-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900002-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D.J Donaldson</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900003-9">Some speculations on the role of excited electronic states in nitrogen-oxygen atmospheric chemistry</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00003-9</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;3 (2000)</p></td>
+	<td>767&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900003-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900003-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900003-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900003-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G.K Hartmann</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900004-0">The variability of H2O fluxes in the earth's atmosphere</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00004-0</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;3 (2000)</p></td>
+	<td>780&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900004-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900004-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900004-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900004-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V Vaida; A.E Tuck; G.B Ellison</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900005-2">Optical and chemical properties of atmospheric organic aerosols</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00005-2</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;3 (2000)</p></td>
+	<td>457&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900005-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900005-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900005-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900005-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K Yoshino; A.R Thorne; J.E Murray; K Ito; T Matsui; K.W.-S Leung; A.S.-C Cheung; T Imajo</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900006-4">The application of a VUV-FT spectrometer and synchrotron radiation source to measurements of the NO and O2 bands at 295 K</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00006-4</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;3 (2000)</p></td>
+	<td>385&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900006-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900006-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900006-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900006-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A.C Aikin; H.J.P Smith</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900007-6">Mesopheric odd nitrogen enhancements during relativistic electron precipitation events</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00007-6</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;3 (2000)</p></td>
+	<td>952&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900007-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900007-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900007-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900007-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S.S. Prasad; E.C. Zipf</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900008-8">Middle atmospheric sources of nitrous oxide (N2O): 02(B) and N2(A) chemistry</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00008-8</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;3 (2000)</p></td>
+	<td>1.34&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900008-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900008-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900008-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900008-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D.J Donaldson; A.R Tuck; V Vaida</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900009-x">Enhancement of HOX at high solar zenith angles by overtone-induced dissociation of HNO3 and HNO4</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00009-x</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;3 (2000)</p></td>
+	<td>582&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900009-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900009-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900009-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900009-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R.R Delmdahl; K.-H Gericke</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900010-6">State resolved detection of Cl, Br, CIO and BrO</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00010-6</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;3 (2000)</p></td>
+	<td>712&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900010-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900010-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900010-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900010-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N Carslaw; P.J Jacobs; M.J Pilling</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900011-8">Understanding radical chemistry in the marine boundary layer</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00011-8</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;3 (2000)</p></td>
+	<td>948&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900011-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900011-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900011-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900011-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S Aloisio; J.S Francisco</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900012-x">The role of complexes of water and carbonyl containing molecules in the atmosphere</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00012-x</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;3 (2000)</p></td>
+	<td>948&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900012-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900012-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900012-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900012-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S.S Prasad</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900013-1">Possible new atmospheric sources and sinks of odd nitrogen: 2. A revisit with O2(B) and discussions of other possibilities</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00013-1</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;3 (2000)</p></td>
+	<td>783&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900013-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900013-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900013-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900013-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N.M Francis; G Brown; P.S Cannon; D.S Broomhead</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900014-3">Nonlinear pediction of the hurly FOF2 tme sries in cnjunction with the inerpolation of mssing dta pints</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00014-3</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;4 (2000)</p></td>
+	<td>420&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900014-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900014-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900014-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900014-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P Wintoft; Lj.R Cander</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900015-5">Ionospheric foF2 storm forecasting using neural networks</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00015-5</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;4 (2000)</p></td>
+	<td>797&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900015-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900015-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900015-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900015-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fredrik Boberg; Peter Wintoft; Henrik Lundstedt</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900016-7">Real time Kp predictions from solar wind data using neural networks</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00016-7</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;4 (2000)</p></td>
+	<td>708&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900016-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900016-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900016-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900016-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ersin Tulunay; Cem Özkaptan; Yurdanur Tulunay</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900017-9">Temporal and spatial forecasting of the foF2 values up to twenty four hours in advance</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00017-9</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;4 (2000)</p></td>
+	<td>509&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900017-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900017-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900017-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900017-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L.A McKinnell; A.W.V Poole</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900018-0">The development of a neural network based short term foF2 forecast program</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00018-0</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;4 (2000)</p></td>
+	<td>351&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900018-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900018-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900018-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900018-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I Stanislawska; G Juchnikowski; R Hanbaba; H Rothkael; G Sole; Z Zbyszynski</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900019-2">COST 251 recommended instantaneous mapping model of ionospheric characteristics — PLES</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00019-2</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;4 (2000)</p></td>
+	<td>513&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900019-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900019-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900019-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900019-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J Hafner; R Leitinger</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900020-9">Further developments of costprof: E layer options</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00020-9</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;4 (2000)</p></td>
+	<td>419&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900020-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900020-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900020-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900020-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P.A. Webb; E.A. Essex</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900021-0">An ionosphere-plasmasphere global electron density model</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00021-0</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;4 (2000)</p></td>
+	<td>709&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900021-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900021-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900021-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900021-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G Hochegger; B Nava; S Radicella; R Leitinger</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900022-2">A family of ionospheric models for different uses</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00022-2</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;4 (2000)</p></td>
+	<td>431&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900022-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900022-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900022-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900022-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R Leitinger; E Feichter</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900023-4">COSTTEC — The electron content monthly median map adopted by COST 251</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00023-4</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;4 (2000)</p></td>
+	<td>394&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900023-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900023-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900023-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900023-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Rothkaehl; I. Stanislawska; R. Leitinger; Y. Tulunay</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900024-6">Application of a trough model for telecommunication purposes</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00024-6</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;4 (2000)</p></td>
+	<td>502&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900024-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900024-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900024-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900024-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S.S Kouris; D.N Fotiadis; R Hanbaba</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900025-8">On the day-to-day variation of the MUF over Europe</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00025-8</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;4 (2000)</p></td>
+	<td>643&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900025-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900025-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900025-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900025-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D Marine; G Miro; A Mikhailov</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1464-1917%2800%2900026-x">A method for foF2 short-term prediction</a></p>
+		<p>DOI: 10.1016/s1464-1917(00)00026-x</p>	</td>
+	<td><p><a href="/scimag/journals/19567">Physics and Chemistry of the Earth, Part C: Solar, Terrestrial &amp; Planetary Science</a><p>volume&nbsp;25, issue&nbsp;4 (2000)</p></td>
+	<td>799&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1464-1917%2800%2900026-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1464-1917%2800%2900026-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1464-1917%2800%2900026-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1464-1917%2800%2900026-x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">352 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 15</span>
+	 <a href="/scimag/?journal=19567&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

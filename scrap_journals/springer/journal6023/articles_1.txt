@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/6023">Dreaming</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1053-0797</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-3351</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 24; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 24');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=6023&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">588 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 24</span>
+	 <a href="/scimag/?journal=6023&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Ernest Hartmann</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009400805830">We Do Not Dream of the 3 R's: Implications for the Nature of Dreaming Mentation</a></p>
+		<p>DOI: 10.1023/a:1009400805830</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;10, issue&nbsp;2 (2000)</p></td>
+	<td>42&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009400805830" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009400805830">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009400805830">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009400805830">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alan Brill</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009403823905">The Phenomenology of True Dreams in Maimonides</a></p>
+		<p>DOI: 10.1023/a:1009403823905</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;10, issue&nbsp;1 (2000)</p></td>
+	<td>49&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009403823905" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009403823905">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009403823905">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009403823905">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Don Kuiken</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009404906739">Book Review:The Unconscious and its Narratives. By Zvi Giora, Ph.D. Northvale, NJ: Jason Aronson, Inc., 1997/1991, 254 pages</a></p>
+		<p>DOI: 10.1023/a:1009404906739</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;10, issue&nbsp;2 (2000)</p></td>
+	<td>14&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009404906739" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009404906739">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009404906739">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009404906739">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Monique Lortie-Lussier; Lucie Côté; Julie Vachon</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009407920851">The Consistency and Continuity Hypotheses Revisited through the Dreams of Women at Two Periods of their Lives</a></p>
+		<p>DOI: 10.1023/a:1009407920851</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;10, issue&nbsp;2 (2000)</p></td>
+	<td>56&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009407920851" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009407920851">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009407920851">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009407920851">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stanley Krippner; Jan Weinhold</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009416500719">Gender Differences in the Content Analysis of 240 Dream Reports from Brazilian Participants in Dream Seminars</a></p>
+		<p>DOI: 10.1023/a:1009416500719</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;11, issue&nbsp;1 (2001)</p></td>
+	<td>33&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009416500719" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009416500719">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009416500719">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009416500719">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Clara E. Hill; Frances A. Kelley; Timothy L. Davis; Rachel E. Crook; Leslie E. Maldonado; Maria A. Turkson; Teresa L. Wonnell; V. Suthakaran; Jason S. Zack; Aaron B. Rochlen; Misty R. Kolchakian; Jamila N. Codrington</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009420619940">Predictors of Outcome of Dream Interpretation Sessions: Volunteer Client Characteristics, Dream Characteristics, and Type of Interpretation</a></p>
+		<p>DOI: 10.1023/a:1009420619940</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;11, issue&nbsp;2 (2001)</p></td>
+	<td>72&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009420619940" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009420619940">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009420619940">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009420619940">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patricia A. Kilroe</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009428923348">The Dream Pun: What Is a Play on Words without Words?</a></p>
+		<p>DOI: 10.1023/a:1009428923348</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;10, issue&nbsp;4 (2000)</p></td>
+	<td>64&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009428923348" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009428923348">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009428923348">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009428923348">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Arthur T. Funkhouser; Othmar Würmle; Claude M. Cornu; Marcel Bahro</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009432520849">Boundary Questionnaire Results in the Mentally Healthy Elderly</a></p>
+		<p>DOI: 10.1023/a:1009432520849</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;11, issue&nbsp;2 (2001)</p></td>
+	<td>28&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009432520849" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009432520849">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009432520849">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009432520849">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Simon J. Sherwood; Kathy Dalton; Fiona Steinkamp; Caroline Watt</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009433024257">Dream Clairvoyance Study II Using Dynamic Video-Clips: Investigation of Consensus Voting Judging Procedures and Target Emotionality</a></p>
+		<p>DOI: 10.1023/a:1009433024257</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;10, issue&nbsp;4 (2000)</p></td>
+	<td>64&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009433024257" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009433024257">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009433024257">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009433024257">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>George Gillespie</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009434307185">John Woolman's Light in the Night: An Analysis</a></p>
+		<p>DOI: 10.1023/a:1009434307185</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;10, issue&nbsp;3 (2000)</p></td>
+	<td>50&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009434307185" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009434307185">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009434307185">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009434307185">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Deirdre Barrett</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009436621758">Comment on Baylor: A Note About Dreams of Scientific Problem Solving</a></p>
+		<p>DOI: 10.1023/a:1009436621758</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;11, issue&nbsp;2 (2001)</p></td>
+	<td>17&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009436621758" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009436621758">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009436621758">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009436621758">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Schredl</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009437125165">Book Review:Dreams and Nightmare: The New Theory on the Origin and Meaning of Dreams. By Ernest Hartmann, M. D., New York: Plenum, 1998, 315 pages</a></p>
+		<p>DOI: 10.1023/a:1009437125165</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;10, issue&nbsp;4 (2000)</p></td>
+	<td>19&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009437125165" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009437125165">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009437125165">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009437125165">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bert O. States</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009438406510">Dream Bizarreness and Inner Thought</a></p>
+		<p>DOI: 10.1023/a:1009438406510</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;10, issue&nbsp;4 (2000)</p></td>
+	<td>62&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009438406510" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009438406510">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009438406510">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009438406510">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kelly Bulkeley; Hendrika Vande Kemp</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009440822088">Introduction to the Special Issue on Historical Studies of Dreaming</a></p>
+		<p>DOI: 10.1023/a:1009440822088</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;10, issue&nbsp;1 (2000)</p></td>
+	<td>28&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009440822088" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009440822088">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009440822088">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009440822088">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Donald Hughes</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009447606158">Dream Interpretation in Ancient Civilizations</a></p>
+		<p>DOI: 10.1023/a:1009447606158</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;10, issue&nbsp;1 (2000)</p></td>
+	<td>52&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009447606158" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009447606158">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009447606158">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009447606158">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yoram Bilu</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009448721760">Oneirobiography and Oneirocommunity in Saint Worship in Israel: A Two-Tier Model for Dream-Inspired Religious Revivals</a></p>
+		<p>DOI: 10.1023/a:1009448721760</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;10, issue&nbsp;2 (2000)</p></td>
+	<td>73&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009448721760" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009448721760">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009448721760">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009448721760">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christopher Dreisbach</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009451707067">Dreams in the History of Philosophy</a></p>
+		<p>DOI: 10.1023/a:1009451707067</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;10, issue&nbsp;1 (2000)</p></td>
+	<td>48&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009451707067" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009451707067">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009451707067">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009451707067">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Barbara Vann; Neil Alperstein</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009452822669">Dream Sharing as Social Interaction</a></p>
+		<p>DOI: 10.1023/a:1009452822669</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;10, issue&nbsp;2 (2000)</p></td>
+	<td>35&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009452822669" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009452822669">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009452822669">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009452822669">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sophie Schwartz</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009455807975">A Historical Loop of One Hundred Years: Similarities Between 19th Century and Contemporary Dream Research</a></p>
+		<p>DOI: 10.1023/a:1009455807975</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;10, issue&nbsp;1 (2000)</p></td>
+	<td>50&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009455807975" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009455807975">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009455807975">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009455807975">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patricia A. Kilroe</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009456906277">The Dream as Text, The Dream as Narrative</a></p>
+		<p>DOI: 10.1023/a:1009456906277</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;10, issue&nbsp;3 (2000)</p></td>
+	<td>57&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009456906277" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009456906277">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009456906277">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009456906277">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. William Domhoff</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009464416649">A New Neurocognitive Theory of Dreams</a></p>
+		<p>DOI: 10.1023/a:1009464416649</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;11, issue&nbsp;1 (2001)</p></td>
+	<td>86&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009464416649" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009464416649">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009464416649">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009464416649">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martina Köthe; Reinhard Pietrowsky</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009468517557">Behavioral Effects of Nightmares and Their Correlations to Personality Patterns</a></p>
+		<p>DOI: 10.1023/a:1009468517557</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;11, issue&nbsp;1 (2001)</p></td>
+	<td>41&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009468517557" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009468517557">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009468517557">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009468517557">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stanley Krippner; Laura Faith</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009480404011">Exotic Dreams: A Cross-Cultural Study</a></p>
+		<p>DOI: 10.1023/a:1009480404011</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;11, issue&nbsp;2 (2001)</p></td>
+	<td>42&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009480404011" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009480404011">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009480404011">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009480404011">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Bears; Rosalind Cartwright; Patricia Mercer</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009480907418">Masochistic Dreams: A Gender-Related Diathesis for Depression Revisited</a></p>
+		<p>DOI: 10.1023/a:1009480907418</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;10, issue&nbsp;4 (2000)</p></td>
+	<td>37&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009480907418" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009480907418">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009480907418">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009480907418">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark Blagrove; Lucy Akehurst</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009482223115">Personality and Dream Recall Frequency: Further Negative Findings</a></p>
+		<p>DOI: 10.1023/a:1009482223115</p>	</td>
+	<td><p><a href="/scimag/journals/6023">Dreaming</a><p>volume&nbsp;10, issue&nbsp;3 (2000)</p></td>
+	<td>44&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009482223115" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009482223115">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009482223115">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009482223115">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">588 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 24</span>
+	 <a href="/scimag/?journal=6023&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/24505">The Ramanujan Journal</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer US</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1382-4090</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-9303</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 65; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 65');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=24505&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;620 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 65</span>
+	 <a href="/scimag/?journal=24505&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Michael D. Hirschhorn; James A. Sellers</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-004-0138-0">On a Problem of Lehmer on Partitions into Squares</a></p>
+		<p>DOI: 10.1007/s11139-004-0138-0</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;8, issue&nbsp;3 (2004)</p></td>
+	<td>88&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-004-0138-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-004-0138-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-004-0138-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-004-0138-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Katalin Gyarmati</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-004-0139-z">On a Pseudorandom Property of Binary Sequences</a></p>
+		<p>DOI: 10.1007/s11139-004-0139-z</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;8, issue&nbsp;3 (2004)</p></td>
+	<td>128&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-004-0139-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-004-0139-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-004-0139-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-004-0139-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Norbert Hegyvári</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-004-0140-6">On Combinatorial Cubes</a></p>
+		<p>DOI: 10.1007/s11139-004-0140-6</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;8, issue&nbsp;3 (2004)</p></td>
+	<td>61&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-004-0140-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-004-0140-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-004-0140-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-004-0140-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hershel M. Farkas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-004-0141-5">On an Arithmetical Function</a></p>
+		<p>DOI: 10.1007/s11139-004-0141-5</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;8, issue&nbsp;3 (2004)</p></td>
+	<td>78&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-004-0141-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-004-0141-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-004-0141-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-004-0141-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pieter Moree</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-004-0142-4">On Some Claims in Ramanujan’s ‘Unpublished’ Manuscript on the Partition and Tau Functions</a></p>
+		<p>DOI: 10.1007/s11139-004-0142-4</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;8, issue&nbsp;3 (2004)</p></td>
+	<td>151&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-004-0142-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-004-0142-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-004-0142-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-004-0142-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P.A. Desrousseaux</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-004-0143-3">Valeurs Exceptionnelles de Fonctions Hypergéométriques d’Appell (Exceptional Values of Appell Hypergeometric Functions)</a></p>
+		<p>DOI: 10.1007/s11139-004-0143-3</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;8, issue&nbsp;3 (2004)</p></td>
+	<td>226&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-004-0143-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-004-0143-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-004-0143-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-004-0143-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sylvie Corteel; Carla D. Savage</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-004-0144-2">Partitions and Compositions Defined by Inequalities</a></p>
+		<p>DOI: 10.1007/s11139-004-0144-2</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;8, issue&nbsp;3 (2004)</p></td>
+	<td>201&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-004-0144-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-004-0144-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-004-0144-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-004-0144-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wolter Groenevelt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-004-0145-1">Bilinear Summation Formulas from Quantum Algebra Representations</a></p>
+		<p>DOI: 10.1007/s11139-004-0145-1</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;8, issue&nbsp;3 (2004)</p></td>
+	<td>354&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-004-0145-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-004-0145-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-004-0145-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-004-0145-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. I. Mostafa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-005-0272-3">A New Approach to Polynomial Identities</a></p>
+		<p>DOI: 10.1007/s11139-005-0272-3</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;8, issue&nbsp;4 (2005)</p></td>
+	<td>396&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-005-0272-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-005-0272-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-005-0272-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-005-0272-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robin Chapman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-005-0273-2">Cubic Identities for Theta Series in Three Variables</a></p>
+		<p>DOI: 10.1007/s11139-005-0273-2</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;8, issue&nbsp;4 (2005)</p></td>
+	<td>147&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-005-0273-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-005-0273-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-005-0273-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-005-0273-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Ole Warnaar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-005-0275-0">q-Hypergeometric Proofs of Polynomial Analogues of the Triple Product Identity, Lebesgue’s Identity and Euler’s Pentagonal Number Theorem</a></p>
+		<p>DOI: 10.1007/s11139-005-0275-0</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;8, issue&nbsp;4 (2005)</p></td>
+	<td>182&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-005-0275-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-005-0275-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-005-0275-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-005-0275-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mourad E. H. Ismail; Inna Nikolova; Plamen Simeonov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-005-0276-z">Difference Equations and Discriminants for Discrete Orthogonal Polynomials</a></p>
+		<p>DOI: 10.1007/s11139-005-0276-z</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;8, issue&nbsp;4 (2005)</p></td>
+	<td>305&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-005-0276-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-005-0276-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-005-0276-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-005-0276-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-005-0819-3">Preface</a></p>
+		<p>DOI: 10.1007/s11139-005-0819-3</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;9, issue&nbsp;1-2 (2005)</p></td>
+	<td>76&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-005-0819-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-005-0819-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-005-0819-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-005-0819-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Sárközy</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-005-0820-x">Jean-Louis Nicolas and the Partitions</a></p>
+		<p>DOI: 10.1007/s11139-005-0820-x</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;9, issue&nbsp;1-2 (2005)</p></td>
+	<td>204&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-005-0820-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-005-0820-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-005-0820-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-005-0820-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Schinzel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-005-0821-9">Self-Inversive Polynomials with All Zeros on the Unit Circle</a></p>
+		<p>DOI: 10.1007/s11139-005-0821-9</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;9, issue&nbsp;1-2 (2005)</p></td>
+	<td>138&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-005-0821-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-005-0821-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-005-0821-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-005-0821-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Masaaki AMOU; Yann Bugeaud</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-005-0822-8">Sur la séparation des racines des polynômes et une question de Sprindžuk</a></p>
+		<p>DOI: 10.1007/s11139-005-0822-8</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;9, issue&nbsp;1-2 (2005)</p></td>
+	<td>144&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-005-0822-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-005-0822-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-005-0822-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-005-0822-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Florian Luca</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-005-0823-7">Some Mean Values Related to Average Multiplicative Orders of Elements in Finite Fields</a></p>
+		<p>DOI: 10.1007/s11139-005-0823-7</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;9, issue&nbsp;1-2 (2005)</p></td>
+	<td>160&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-005-0823-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-005-0823-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-005-0823-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-005-0823-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christian Mauduit; Carl Pomerance; András Sárközy</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-005-0824-6">On the Distribution in Residue Classes of Integers with a Fixed Sum of Digits</a></p>
+		<p>DOI: 10.1007/s11139-005-0824-6</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;9, issue&nbsp;1-2 (2005)</p></td>
+	<td>289&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-005-0824-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-005-0824-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-005-0824-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-005-0824-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Ben SaÏd</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-005-0825-5">On Some Sets with Even Valued Partition Function</a></p>
+		<p>DOI: 10.1007/s11139-005-0825-5</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;9, issue&nbsp;1-2 (2005)</p></td>
+	<td>247&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-005-0825-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-005-0825-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-005-0825-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-005-0825-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Imre Z. Ruzsa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-005-0826-4">Sum-Avoiding Subsets</a></p>
+		<p>DOI: 10.1007/s11139-005-0826-4</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;9, issue&nbsp;1-2 (2005)</p></td>
+	<td>163&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-005-0826-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-005-0826-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-005-0826-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-005-0826-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alfred J. Van Der Poorten</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-005-0827-3">Specialisation and Reduction of Continued Fractions of Formal Power Series</a></p>
+		<p>DOI: 10.1007/s11139-005-0827-3</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;9, issue&nbsp;1-2 (2005)</p></td>
+	<td>200&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-005-0827-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-005-0827-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-005-0827-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-005-0827-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Laurent Habsieger</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-005-0828-2">Explicit Approximate Functional Equations for Various Classes of Dirichlet Series</a></p>
+		<p>DOI: 10.1007/s11139-005-0828-2</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;9, issue&nbsp;1-2 (2005)</p></td>
+	<td>236&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-005-0828-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-005-0828-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-005-0828-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-005-0828-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Rivat; G. Tenenbaum</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-005-0829-1">Constantes d’Erdös–Turán</a></p>
+		<p>DOI: 10.1007/s11139-005-0829-1</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;9, issue&nbsp;1-2 (2005)</p></td>
+	<td>243&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-005-0829-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-005-0829-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-005-0829-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-005-0829-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Françcois Hennecart</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-005-0830-8">On the Restricted Order of Asymptotic Bases of Order Two</a></p>
+		<p>DOI: 10.1007/s11139-005-0830-8</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;9, issue&nbsp;1-2 (2005)</p></td>
+	<td>182&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-005-0830-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-005-0830-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-005-0830-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-005-0830-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Régis De La Bretèche; Carl Pomerance; Gérald Tenenbaum</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11139-005-0831-7">Products of Ratios of Consecutive Integers</a></p>
+		<p>DOI: 10.1007/s11139-005-0831-7</p>	</td>
+	<td><p><a href="/scimag/journals/24505">The Ramanujan Journal</a><p>volume&nbsp;9, issue&nbsp;1-2 (2005)</p></td>
+	<td>187&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11139-005-0831-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11139-005-0831-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11139-005-0831-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11139-005-0831-7">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;620 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 65</span>
+	 <a href="/scimag/?journal=24505&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

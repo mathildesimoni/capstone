@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0021-5104</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1882-4897</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 6; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 6');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=11841&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">148 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 6</span>
+	 <a href="/scimag/?journal=11841&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>VINCENT, Warwick F.; DODSON, Julian J. </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.60.29">The St. Lawrence River, Canada-USA: the Need for an Ecosystem-Level Understanding of Large Rivers.</a></p>
+		<p>DOI: 10.3739/rikusui.60.29</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;60, issue&nbsp;1 (1999)</p></td>
+	<td>1.27&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.60.29" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.60.29">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.60.29">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.60.29">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>TAKAMURA, Noriko; WATANABE, Makoto M. </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.48.special_139">Seasonal changes in the biomass of four species of Microcystis in Lake Kasumigaura</a></p>
+		<p>DOI: 10.3739/rikusui.48.special_139</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;48, issue&nbsp;Special (1987)</p></td>
+	<td>669&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.48.special_139" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.48.special_139">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.48.special_139">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.48.special_139">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>NAKAMURA, Koya; AIZAKI, Morihiro </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.77.13">Effect of Suspended Solid on Light Attenuation in the Shallow and Turbid Lake Kasumigaura, Japan: - Long Term Variation of the Light Attenuation Mechanism -</a></p>
+		<p>DOI: 10.3739/rikusui.77.13</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;77, issue&nbsp;1 (2015)</p></td>
+	<td>714&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.77.13" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.77.13">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.77.13">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.77.13">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>MOTOYAMA, Hideaki; KOBAYASHI, Daiji; KOJIMA, Kenji </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.47.165">Effect of melting at the snow-ground interface on the runoff during winter.</a></p>
+		<p>DOI: 10.3739/rikusui.47.165</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;47, issue&nbsp;2 (1986)</p></td>
+	<td>1.47&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.47.165" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.47.165">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.47.165">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.47.165">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>ITO, Tomiko</td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.36.76">Developmental Change of Ventral Blood-gills and Tubules in the Larval Instars of Chironomus dorsalis and Ch. yoshimatsui (Diptera-Chironomidae)</a></p>
+		<p>DOI: 10.3739/rikusui.36.76</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;36, issue&nbsp;2 (1975)</p></td>
+	<td>212&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.36.76" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.36.76">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.36.76">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.36.76">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>HECKMAN, Charles W.; TRINDADE, Benedito Rogério Santana; HARDOIM, Edna Lopes </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.57.119">Enviromental Conditions in the Pantanal of Mato Grosso Conductive to Natural Euglenophyte Populations.</a></p>
+		<p>DOI: 10.3739/rikusui.57.119</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;57, issue&nbsp;2 (1996)</p></td>
+	<td>758&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.57.119" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.57.119">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.57.119">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.57.119">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>NAKAI, Satoshi; INOUE, Yutaka; LEE, Byung-Dae; HOSOMI, Masaaki </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.63.201">Inhibitory effects of plant-produced phenols on algal growth.</a></p>
+		<p>DOI: 10.3739/rikusui.63.201</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;63, issue&nbsp;3 (2002)</p></td>
+	<td>522&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.63.201" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.63.201">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.63.201">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.63.201">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>NAKANISHI, Masami; WATANABE, Makoto M.; TERASHIMA, Akira; SAKO, Yoshihiko; KONDA, Toshifumi; SHRESTHA, Keshab; BHANDARY, Hemanta R.; ISHIDA, Yuzaburo </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.49.71">Studies on some limnological variables in subtropical lakes of the Pokhara Valley, Nepal.</a></p>
+		<p>DOI: 10.3739/rikusui.49.71</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;49, issue&nbsp;2 (1988)</p></td>
+	<td>2.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.49.71" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.49.71">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.49.71">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.49.71">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>NAKANISHI, Masami; NARITA, Tetsuya; SUZUKI, Norio; MITAMURA, Osamu </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.49.175">Assimilation number and primary productivity of phytoplankton in the south basin of Lake Biwa.</a></p>
+		<p>DOI: 10.3739/rikusui.49.175</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;49, issue&nbsp;3 (1988)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.49.175" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.49.175">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.49.175">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.49.175">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>IDA, Koichi</td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.51.101">Description of Oxyurella tenuicaudis (SARS, 1862) (Cladocera: Chydoridae) from Japan.</a></p>
+		<p>DOI: 10.3739/rikusui.51.101</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;51, issue&nbsp;2 (1990)</p></td>
+	<td>1.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.51.101" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.51.101">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.51.101">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.51.101">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>KAWAI, Koichiro; INOUE, Eiso; IMABAYASHI, Hiromichi </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.59.367">Seven New Species of The Genus Polypedilum (Diptera: Chironomidae) from Japan.</a></p>
+		<p>DOI: 10.3739/rikusui.59.367</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;59, issue&nbsp;4 (1998)</p></td>
+	<td>751&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.59.367" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.59.367">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.59.367">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.59.367">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>MORI, Masayoshi; KAGAWA, Hisanori </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.61.11">Effects of calcium and magnesium on dissolved oxygen concentration in the Ishite River.</a></p>
+		<p>DOI: 10.3739/rikusui.61.11</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;61, issue&nbsp;1 (2000)</p></td>
+	<td>622&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.61.11" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.61.11">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.61.11">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.61.11">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>YOH, Muneoki; TAKEUCHI, Makoto; TODA, Hideshige </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.59.147">Simultaneous Measurement of N2, O2, Ar, CO2, CH4, H2 and CO in Aqueous and Gaseous Samples: a Detection of N2/Ar Shifts in Environments.</a></p>
+		<p>DOI: 10.3739/rikusui.59.147</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;59, issue&nbsp;2 (1998)</p></td>
+	<td>556&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.59.147" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.59.147">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.59.147">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.59.147">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>HAMADA, Atsunobu; SASAKI, Michiya; TONOOKA, Takeo; IWASAKI, Jun </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.57.173">Changes in Water Quality via the Metabolic Process While Penetrating a Sandy Shore in a Shallow, Eutrophic Lake.</a></p>
+		<p>DOI: 10.3739/rikusui.57.173</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;57, issue&nbsp;2 (1996)</p></td>
+	<td>298&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.57.173" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.57.173">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.57.173">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.57.173">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>NAKAZATO, Ryoji; WATANABE, Yasunori </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.55.213">Examination of Direct Counting Methods for Bacteria in Lake Sediment by Epifluorescence Microscopy.</a></p>
+		<p>DOI: 10.3739/rikusui.55.213</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;55, issue&nbsp;3 (1994)</p></td>
+	<td>560&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.55.213" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.55.213">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.55.213">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.55.213">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jr., G. Allen Burton</td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.65.117">Sediment quality criteria in use around the world</a></p>
+		<p>DOI: 10.3739/rikusui.65.117</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;65, issue&nbsp;2 (2004)</p></td>
+	<td>1.46&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.65.117" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.65.117">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.65.117">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.65.117">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>NAGANAWA, Hidetoshi</td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.62.75">Current classification of recent "large branchiopods".</a></p>
+		<p>DOI: 10.3739/rikusui.62.75</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;62, issue&nbsp;1 (2001)</p></td>
+	<td>885&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.62.75" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.62.75">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.62.75">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.62.75">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>KOBA, Kazuo</td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.8.3-4_473">Notes on Apus numidicus GRUBE from Manchoukuo and Inner Mongolia</a></p>
+		<p>DOI: 10.3739/rikusui.8.3-4_473</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;8, issue&nbsp;3-4 (1938)</p></td>
+	<td>312&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.8.3-4_473" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.8.3-4_473">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.8.3-4_473">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.8.3-4_473">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>MOSCHINI-CARLOS, Viviane; POMPÊO, Marcelo Luiz Martins; HENRY, Raoul </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.59.281">Temporal Variation in C, N and P of the Periphyton on the Tropical Aquatic Macrophyte Echinochloa polystachya (H.B.K.) HITCH. in Jurumirim Reservoir (São Paulo, Brazil)</a></p>
+		<p>DOI: 10.3739/rikusui.59.281</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;59, issue&nbsp;3 (1998)</p></td>
+	<td>783&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.59.281" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.59.281">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.59.281">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.59.281">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>HANAZATO, Takayuki; YASUNO, Masayuki </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.46.185">Effect of temperature in the laboratory studies on growth, egg development and first parturition of five species of Cladocera.</a></p>
+		<p>DOI: 10.3739/rikusui.46.185</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;46, issue&nbsp;3 (1985)</p></td>
+	<td>1.03&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.46.185" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.46.185">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.46.185">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.46.185">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>TAKAMURA, Noriko; HATAKEYAMA, Shigehisa; SUGAYA, Yoshio </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.51.225">Seasonal changes in species composition and production of periphyton in an urban river running through an abandoned copper mining region.</a></p>
+		<p>DOI: 10.3739/rikusui.51.225</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;51, issue&nbsp;4 (1990)</p></td>
+	<td>1.37&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.51.225" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.51.225">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.51.225">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.51.225">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>SAJIKI, Takahiro; TAMAKI, Yasuji; TAKAHASHI, Yoshifumi; ABE, Shin-ichiro; IGUCHI, Kei^|^rsquo;ichiro </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.73.73">Valuating the preservation of aesthetic stream viewing by ayu (Plecoglossus altivelis altivelis) stock enhancement</a></p>
+		<p>DOI: 10.3739/rikusui.73.73</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;73, issue&nbsp;2 (2012)</p></td>
+	<td>983&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.73.73" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.73.73">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.73.73">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.73.73">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>KAWAI, Koichiro; SAITO, Hidetoshi; ANNO, Takuma </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.78.45">Genetic relationships of 33 genera of the subfamily Orthocladiinae in Japan; 日本産エリユスリカ亜科33属の遺伝的関係について; </a></p>
+		<p>DOI: 10.3739/rikusui.78.45</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;78, issue&nbsp;1 (2016)</p></td>
+	<td>513&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.78.45" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.78.45">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.78.45">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.78.45">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>HANAZATO, Takayuki; YASUNO, Masayuki </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.49.37">Assimilation of Diaphanosoma brachyurum and Moina macrocopa on Microcystis.</a></p>
+		<p>DOI: 10.3739/rikusui.49.37</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;49, issue&nbsp;1 (1988)</p></td>
+	<td>642&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.49.37" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.49.37">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.49.37">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.49.37">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>SETO, Masayuki; NODA, Masahiro </td>
+	<td>
+		<p><a href="/scimag/10.3739%2Frikusui.43.263">Growth rate, biomass production and carbon balance of Pseudomonas aeruginosa at pH extremes in a carbon-limited midium.</a></p>
+		<p>DOI: 10.3739/rikusui.43.263</p>	</td>
+	<td><p><a href="/scimag/journals/11841">Japanese Journal of Limnology (Rikusuigaku Zasshi)</a><p>volume&nbsp;43, issue&nbsp;4 (1982)</p></td>
+	<td>1.38&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.3739%2Frikusui.43.263" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3739/rikusui.43.263">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3739/rikusui.43.263">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3739/rikusui.43.263">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">148 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 6</span>
+	 <a href="/scimag/?journal=11841&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

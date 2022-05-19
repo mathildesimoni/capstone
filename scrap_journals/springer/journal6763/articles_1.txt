@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/6763">Environmental Management</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0364-152X</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1432-1009</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 214; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 214');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=6763&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">5&nbsp;348 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 214</span>
+	 <a href="/scimag/?journal=6763&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Joel R. Brown; Neil D. MacLeod</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01203838">Integrating ecology into natural resource management policy</a></p>
+		<p>DOI: 10.1007/bf01203838</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;3 (1996)</p></td>
+	<td>843&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01203838" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01203838">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01203838">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01203838">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sandra A. Bryce; Sharon E. Clarke</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01203839">Landscape-level ecological regions: Linking state-level ecoregion frameworks with stream habitat classifications</a></p>
+		<p>DOI: 10.1007/bf01203839</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;3 (1996)</p></td>
+	<td>2.96&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01203839" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01203839">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01203839">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01203839">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eban Goodstein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01203840">Jobs and the environment: An overview</a></p>
+		<p>DOI: 10.1007/bf01203840</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;3 (1996)</p></td>
+	<td>894&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01203840" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01203840">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01203840">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01203840">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mahabir Singh Jaglan; Mohammad Hashim Qureshi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01203841">Irrigation development and its environmental consequences in arid regions of India</a></p>
+		<p>DOI: 10.1007/bf01203841</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;3 (1996)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01203841" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01203841">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01203841">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01203841">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dirk H. R. Spennemann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01203842">Nontraditional settlement patterns and typhoon hazard on contemporary Majuro atoll, Republic of the Marshall Islands</a></p>
+		<p>DOI: 10.1007/bf01203842</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;3 (1996)</p></td>
+	<td>1.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01203842" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01203842">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01203842">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01203842">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David M. Roemer; Steven C. Forrest</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01203843">Prairie dog poisoning in northern Great Plains: An analysis of programs and policies</a></p>
+		<p>DOI: 10.1007/bf01203843</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;3 (1996)</p></td>
+	<td>1.57&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01203843" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01203843">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01203843">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01203843">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. M. Hung; S. T. Chiu; M. H. Wong</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01203844">Sludge-grown algae for culturing aquatic organisms: Part I. Algal growth in sludge extracts</a></p>
+		<p>DOI: 10.1007/bf01203844</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;3 (1996)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01203844" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01203844">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01203844">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01203844">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. H. Wong; K. M. Hung; S. T. Chiu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01203845">Sludge-grown algae for culturing aquatic organisms: Part II. Sludge-grown algae as feeds for aquatic organisms</a></p>
+		<p>DOI: 10.1007/bf01203845</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;3 (1996)</p></td>
+	<td>875&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01203845" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01203845">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01203845">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01203845">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. L. McAllister; M. F. Overton; E. D. Brill</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01203846">Cumulative impact of marinas on estuarine water quality</a></p>
+		<p>DOI: 10.1007/bf01203846</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;3 (1996)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01203846" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01203846">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01203846">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01203846">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Susan Ringrose; Raban Chanda; Musisi Nkambwe; Francis Sefe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01203847">Environmental change in the mid-Boteti area of north-central Botswana: Biophysical processes and human perceptions</a></p>
+		<p>DOI: 10.1007/bf01203847</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;3 (1996)</p></td>
+	<td>1.72&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01203847" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01203847">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01203847">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01203847">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Barry Haack</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01203848">Monitoring wetland changes with remote sensing: An East African example</a></p>
+		<p>DOI: 10.1007/bf01203848</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;3 (1996)</p></td>
+	<td>3.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01203848" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01203848">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01203848">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01203848">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Warren B. Cohen; John D. Kushla; William J. Ripple; Steven L. Garman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01203849">An introduction to digital methods in remote sensing of forested ecosystems: Focus on the Pacific Northwest, USA</a></p>
+		<p>DOI: 10.1007/bf01203849</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;3 (1996)</p></td>
+	<td>5.18&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01203849" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01203849">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01203849">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01203849">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. K. Turner; S. Subak; W. N. Adger</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01204001">Pressures, trends, and impacts in coastal zones: Interactions between socioeconomic and natural systems</a></p>
+		<p>DOI: 10.1007/bf01204001</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;2 (1996)</p></td>
+	<td>1.41&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01204001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01204001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01204001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01204001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Colin Crance; Dianne Draper</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01204002">Socially cooperative choices: An approach to achieving resource sustainability in the coastal zone</a></p>
+		<p>DOI: 10.1007/bf01204002</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;2 (1996)</p></td>
+	<td>890&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01204002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01204002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01204002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01204002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hsiao-Lin Wang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01204003">A method to assess the allocation suitability of recreational activities: An economic approach</a></p>
+		<p>DOI: 10.1007/bf01204003</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;2 (1996)</p></td>
+	<td>1.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01204003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01204003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01204003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01204003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joe Truett</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01204004">Bison and elk in the American Southwest: In search of the pristine</a></p>
+		<p>DOI: 10.1007/bf01204004</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;2 (1996)</p></td>
+	<td>1.21&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01204004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01204004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01204004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01204004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Linda K. Mann; Patricia D. Parr; Larry R. Pounds; Robin L. Graham</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01204005">Protection of biota on nonpark public lands: Examples from the US Department of Energy Oak Ridge Reservation</a></p>
+		<p>DOI: 10.1007/bf01204005</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;2 (1996)</p></td>
+	<td>5.34&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01204005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01204005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01204005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01204005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Riitta Pipatti; Ilkka Savolainen; Jukka Sinisalo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01204006">Greenhouse impacts of anthropogenic CH4and N2O emissions in Finland</a></p>
+		<p>DOI: 10.1007/bf01204006</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;2 (1996)</p></td>
+	<td>1.45&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01204006" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01204006">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01204006">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01204006">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. K. Banerjee; R. K. Dhar; M. K. Ghose</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01204007">Air pollution due to coal washery projects and its abatement measures</a></p>
+		<p>DOI: 10.1007/bf01204007</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;2 (1996)</p></td>
+	<td>324&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01204007" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01204007">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01204007">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01204007">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Roger Popper; Karla Andino; Mario Bustamante; Beatriz Hernandez; Luis Rodas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01204008">Knowledge and beliefs regarding agricultural pesticides in rural Guatemala</a></p>
+		<p>DOI: 10.1007/bf01204008</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;2 (1996)</p></td>
+	<td>640&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01204008" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01204008">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01204008">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01204008">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert France</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01204009">Carbon isotope ratios in logged and unlogged boreal forests: Examination of the potential for determining wildlife habitat use</a></p>
+		<p>DOI: 10.1007/bf01204009</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;2 (1996)</p></td>
+	<td>667&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01204009" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01204009">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01204009">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01204009">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cleve E. Willis; Sandeep Sacheti</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01204010">Statistical evidence on the effectiveness of sewering to protect groundwater from VOC contamination</a></p>
+		<p>DOI: 10.1007/bf01204010</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;2 (1996)</p></td>
+	<td>578&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01204010" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01204010">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01204010">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01204010">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Aaron O. Allen; Johannes J. Feddema</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01204011">Wetland loss and substitution by the Section 404 permit program in southern California, USA</a></p>
+		<p>DOI: 10.1007/bf01204011</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;2 (1996)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01204011" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01204011">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01204011">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01204011">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David R. Geist; Lance W. Vail; Daniel J. Epstein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01204012">Analysis of potential impacts to resident fish from Columbia River System Operation alternatives</a></p>
+		<p>DOI: 10.1007/bf01204012</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;2 (1996)</p></td>
+	<td>1.12&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01204012" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01204012">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01204012">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01204012">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Otto J. Gonzalez</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01204133">Formulating an ecosystem approach to environmental protection</a></p>
+		<p>DOI: 10.1007/bf01204133</p>	</td>
+	<td><p><a href="/scimag/journals/6763">Environmental Management</a><p>volume&nbsp;20, issue&nbsp;5 (1996)</p></td>
+	<td>813&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01204133" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01204133">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01204133">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01204133">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">5&nbsp;348 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 214</span>
+	 <a href="/scimag/?journal=6763&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

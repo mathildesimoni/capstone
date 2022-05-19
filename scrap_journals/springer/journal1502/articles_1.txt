@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer Japan</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0020-3157</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-9052</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 126; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 126');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1502&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;130 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 126</span>
+	 <a href="/scimag/?journal=1502&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>F. Musmeci; D. Vere-Jones</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00048666">A space-time clustering model for historical earthquakes</a></p>
+		<p>DOI: 10.1007/bf00048666</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;44, issue&nbsp;1 (1992)</p></td>
+	<td>619&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00048666" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00048666">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00048666">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00048666">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. J. Thomson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00048667">Signal estimation using stochastic velocity models and irregular arrays</a></p>
+		<p>DOI: 10.1007/bf00048667</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;44, issue&nbsp;1 (1992)</p></td>
+	<td>718&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00048667" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00048667">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00048667">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00048667">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dale L. Zimmerman; Noel Cressie</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00048668">Mean squared prediction error in the spatial linear model with estimated covariance parameters</a></p>
+		<p>DOI: 10.1007/bf00048668</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;44, issue&nbsp;1 (1992)</p></td>
+	<td>1.00&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00048668" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00048668">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00048668">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00048668">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dominique B. Picard</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00048669">Statistical morphisms and related invariance properties</a></p>
+		<p>DOI: 10.1007/bf00048669</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;44, issue&nbsp;1 (1992)</p></td>
+	<td>882&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00048669" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00048669">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00048669">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00048669">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marianne Mora</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00048670">Geometrical expansions for the distributions of the score vector and the maximum likelihood estimator</a></p>
+		<p>DOI: 10.1007/bf00048670</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;44, issue&nbsp;1 (1992)</p></td>
+	<td>959&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00048670" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00048670">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00048670">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00048670">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Dennis Tolley; Kenneth G. Manton</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00048671">Large sample properties of estimates of a discrete grade of membership model</a></p>
+		<p>DOI: 10.1007/bf00048671</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;44, issue&nbsp;1 (1992)</p></td>
+	<td>603&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00048671" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00048671">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00048671">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00048671">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. M. Mathal; P. G. Moschopoulos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00048672">A form of multivariate gamma distribution</a></p>
+		<p>DOI: 10.1007/bf00048672</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;44, issue&nbsp;1 (1992)</p></td>
+	<td>429&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00048672" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00048672">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00048672">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00048672">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chu-In Charles Lee</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00048673">On laplace continued fraction for the normal integral</a></p>
+		<p>DOI: 10.1007/bf00048673</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;44, issue&nbsp;1 (1992)</p></td>
+	<td>655&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00048673" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00048673">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00048673">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00048673">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Kanagawa; Y. Mochizuki; H. Tanaka</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00048674">Limit theorems for the minimum interpoint distance between any pair of i.i.d. random points inRd</a></p>
+		<p>DOI: 10.1007/bf00048674</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;44, issue&nbsp;1 (1992)</p></td>
+	<td>461&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00048674" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00048674">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00048674">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00048674">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>TaChen Liang; S. Panchapakesan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00048675">On a monotone empirical bayes test procedure in geometric model</a></p>
+		<p>DOI: 10.1007/bf00048675</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;44, issue&nbsp;1 (1992)</p></td>
+	<td>339&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00048675" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00048675">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00048675">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00048675">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kentaro Nomakuchi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00048676">A note on the uniformly most powerful tests in the presence of nuisance parameters</a></p>
+		<p>DOI: 10.1007/bf00048676</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;44, issue&nbsp;1 (1992)</p></td>
+	<td>236&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00048676" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00048676">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00048676">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00048676">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yoko Watamori</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00048677">Tests for a given linear structure of the mean direction of the langevin distribution</a></p>
+		<p>DOI: 10.1007/bf00048677</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;44, issue&nbsp;1 (1992)</p></td>
+	<td>329&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00048677" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00048677">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00048677">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00048677">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ajit Chaturvedi; N. D. Shukla; Pramod S. Shukla</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00048678">Fixed-width confidence intervals for contrasts in the means</a></p>
+		<p>DOI: 10.1007/bf00048678</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;44, issue&nbsp;1 (1992)</p></td>
+	<td>510&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00048678" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00048678">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00048678">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00048678">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Brian J. English; Raphael Gillett; Michael J. Phillips</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00048679">Inequalities concerning the expected selection differentials</a></p>
+		<p>DOI: 10.1007/bf00048679</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;44, issue&nbsp;1 (1992)</p></td>
+	<td>330&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00048679" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00048679">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00048679">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00048679">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. Balakrishnan; S. M. Bendre; H. J. Malik</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00048680">General relations and identities for order statistics from non-independent non-identical variables</a></p>
+		<p>DOI: 10.1007/bf00048680</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;44, issue&nbsp;1 (1992)</p></td>
+	<td>282&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00048680" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00048680">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00048680">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00048680">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Teruhiro Shirakura; Shinsei Tazawa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00048681">A series of search designs for 2mfactorial designs of resolution V which permit search of one or two unknown extra three-factor interactions</a></p>
+		<p>DOI: 10.1007/bf00048681</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;44, issue&nbsp;1 (1992)</p></td>
+	<td>605&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00048681" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00048681">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00048681">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00048681">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dankmar Böhning</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00048682">Multinomial logistic regression algorithm</a></p>
+		<p>DOI: 10.1007/bf00048682</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;44, issue&nbsp;1 (1992)</p></td>
+	<td>172&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00048682" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00048682">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00048682">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00048682">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Colin L. Mallows; Vijayan N. Nair</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00049104">On a zero-crossing probability</a></p>
+		<p>DOI: 10.1007/bf00049104</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;41, issue&nbsp;1 (1989)</p></td>
+	<td>276&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00049104" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00049104">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00049104">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00049104">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yoshiaki Itoh</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00049105">An application of the convolution inequality for the Fisher information</a></p>
+		<p>DOI: 10.1007/bf00049105</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;41, issue&nbsp;1 (1989)</p></td>
+	<td>141&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00049105" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00049105">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00049105">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00049105">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Norman L. Johnson; Samuel Kotz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00049106">Characterization based on conditional distributions</a></p>
+		<p>DOI: 10.1007/bf00049106</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;41, issue&nbsp;1 (1989)</p></td>
+	<td>178&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00049106" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00049106">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00049106">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00049106">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Falk</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00049107">A note on uniform asymptotic normality of intermediate order statistics</a></p>
+		<p>DOI: 10.1007/bf00049107</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;41, issue&nbsp;1 (1989)</p></td>
+	<td>436&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00049107" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00049107">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00049107">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00049107">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>George Kimeldorf; Allan R. Sampson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00049108">A framework for positive dependence</a></p>
+		<p>DOI: 10.1007/bf00049108</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;41, issue&nbsp;1 (1989)</p></td>
+	<td>782&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00049108" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00049108">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00049108">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00049108">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Aki; K. Hirano</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00049109">Estimation of parameters in the discrete distributions of orderk</a></p>
+		<p>DOI: 10.1007/bf00049109</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;41, issue&nbsp;1 (1989)</p></td>
+	<td>609&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00049109" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00049109">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00049109">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00049109">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dorota M. Dabrowska; Kjell A. Doksum; Ryozo Miura</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00049110">Rank estimates in a class of semiparametric two-sample models</a></p>
+		<p>DOI: 10.1007/bf00049110</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;41, issue&nbsp;1 (1989)</p></td>
+	<td>713&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00049110" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00049110">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00049110">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00049110">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Lwin; J. S. Maritz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00049111">Empirical Bayes approach to multiparameter estimation: with special reference to multinomial distribution</a></p>
+		<p>DOI: 10.1007/bf00049111</p>	</td>
+	<td><p><a href="/scimag/journals/1502">Annals of the Institute of Statistical Mathematics</a><p>volume&nbsp;41, issue&nbsp;1 (1989)</p></td>
+	<td>723&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00049111" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00049111">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00049111">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00049111">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;130 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 126</span>
+	 <a href="/scimag/?journal=1502&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

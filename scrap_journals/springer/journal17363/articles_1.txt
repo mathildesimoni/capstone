@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/17363">Metrika</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0026-1335</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1435-926X</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 100; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 100');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=17363&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;481 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 100</span>
+	 <a href="/scimag/?journal=17363&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>B. D. Sharma</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893270">On amount of information of type-β and other measures</a></p>
+		<p>DOI: 10.1007/bf01893270</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>313&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893270" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893270">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893270">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893270">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. K. Varma</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893271">General parametric linear fractional programming</a></p>
+		<p>DOI: 10.1007/bf01893271</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>187&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893271" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893271">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893271">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893271">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. S. Chadha; R. N. Kaul</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893272">A dual non-linear program</a></p>
+		<p>DOI: 10.1007/bf01893272</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>171&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893272" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893272">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893272">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893272">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. M. Bennett</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893273">Tests for marginal symmetry in contingency tables</a></p>
+		<p>DOI: 10.1007/bf01893273</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>122&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893273" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893273">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893273">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893273">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. Murari</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893274">A queueing problem with arrival and service in batches of variable size</a></p>
+		<p>DOI: 10.1007/bf01893274</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>296&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893274" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893274">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893274">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893274">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. M. Bennett</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893275">On the non-null distribution ofWilcoxon's signed rank test</a></p>
+		<p>DOI: 10.1007/bf01893275</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>82&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893275" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893275">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893275">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893275">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. Singh; N. Bhashyam</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893276">Effect of the variable offset distance on the kill probability</a></p>
+		<p>DOI: 10.1007/bf01893276</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>308&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893276" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893276">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893276">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893276">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Humburg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893277">Wahrscheinlichkeits- und Wettbegriff</a></p>
+		<p>DOI: 10.1007/bf01893277</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>255&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893277" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893277">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893277">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893277">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Heyer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893278">Zum Erschöpftheitsbegriff vonD. Blackwell</a></p>
+		<p>DOI: 10.1007/bf01893278</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>651&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893278" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893278">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893278">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893278">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. Widdra</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893279">Eine Verallgemeinerung des „Gesetzes seltener Ereignisse”</a></p>
+		<p>DOI: 10.1007/bf01893279</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>161&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893279" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893279">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893279">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893279">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. Schmitz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893280">A note on the optimality ofk-stage tests</a></p>
+		<p>DOI: 10.1007/bf01893280</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>136&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893280" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893280">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893280">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893280">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Raghavachari</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893281">A note on theParetodistribution</a></p>
+		<p>DOI: 10.1007/bf01893281</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>25&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893281" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893281">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893281">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893281">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. M. Bennett</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893282">On a test of homogeneity for samples from a negative binomial distribution</a></p>
+		<p>DOI: 10.1007/bf01893282</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>16&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893282" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893282">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893282">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893282">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hans Riedwyl</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893283">Walter Wegmüller</a></p>
+		<p>DOI: 10.1007/bf01893283</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>31&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893283" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893283">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893283">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893283">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Sint; J. Gordesch; L. Reisinger; A. Kaelin; P. Ihm; F. Streit; Karl Trautmann; Karl Trautmann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893284">Buchbesprechungen</a></p>
+		<p>DOI: 10.1007/bf01893284</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>713&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893284" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893284">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893284">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893284">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Pfanzagl</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893285">Further results on asymptotic normality II</a></p>
+		<p>DOI: 10.1007/bf01893285</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>312&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893285" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893285">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893285">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893285">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Strasser</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893286">Sufficiency and unbiased estimation</a></p>
+		<p>DOI: 10.1007/bf01893286</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>546&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893286" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893286">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893286">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893286">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Gänssler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893287">Note on minimum contrast estimates forMarkovprocesses</a></p>
+		<p>DOI: 10.1007/bf01893287</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>686&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893287" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893287">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893287">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893287">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. Wertz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893288">Fehlerabschätzung für eine Klasse von nichtparametrischen Schätzfolgen</a></p>
+		<p>DOI: 10.1007/bf01893288</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>285&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893288" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893288">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893288">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893288">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Gordesch</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893289">On the equality of pay-off matrices</a></p>
+		<p>DOI: 10.1007/bf01893289</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>394&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893289" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893289">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893289">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893289">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. P. Gupta</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893290">Principal components analysis in the complex case</a></p>
+		<p>DOI: 10.1007/bf01893290</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>187&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893290" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893290">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893290">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893290">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. C. Koop</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893291">On the derivation of expected value and variance of ratios without the use of infinite series expansions</a></p>
+		<p>DOI: 10.1007/bf01893291</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>696&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893291" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893291">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893291">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893291">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Mühlbach</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893292">Rekursionsformeln für die zentralen Momente derPólya- und der Beta-Verteilung</a></p>
+		<p>DOI: 10.1007/bf01893292</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>214&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893292" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893292">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893292">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893292">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Roubens</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893293">Expolynomial smoothing of autocorrelated time series</a></p>
+		<p>DOI: 10.1007/bf01893293</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>199&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893293" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893293">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893293">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893293">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. N. Arora; P. Nath</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01893294">On inaccuracy generating functions of probability distributions</a></p>
+		<p>DOI: 10.1007/bf01893294</p>	</td>
+	<td><p><a href="/scimag/journals/17363">Metrika</a><p>volume&nbsp;19, issue&nbsp;1 (1972)</p></td>
+	<td>317&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01893294" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01893294">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01893294">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01893294">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;481 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 100</span>
+	 <a href="/scimag/?journal=17363&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

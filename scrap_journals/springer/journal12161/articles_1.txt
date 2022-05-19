@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0925-9899</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-9192</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 58; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 58');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=12161&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;429 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 58</span>
+	 <a href="/scimag/?journal=12161&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Hiroshi Suzuki</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-2504-4">The Terwilliger Algebra Associated with a Set of Vertices in a Distance-Regular Graph</a></p>
+		<p>DOI: 10.1007/s10801-005-2504-4</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;1 (2005)</p></td>
+	<td>325&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-2504-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-2504-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-2504-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-2504-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eiichi Bannai; Etsuko Bannai</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-2505-3">Tight Gaussian 4-Designs</a></p>
+		<p>DOI: 10.1007/s10801-005-2505-3</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;1 (2005)</p></td>
+	<td>250&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-2505-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-2505-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-2505-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-2505-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gábor Hetyei</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-2506-2">Matrices of Formal Power Series Associated to Binomial Posets</a></p>
+		<p>DOI: 10.1007/s10801-005-2506-2</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;1 (2005)</p></td>
+	<td>592&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-2506-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-2506-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-2506-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-2506-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. De Winter; J. A. Thas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-2510-6">On Semi-Pseudo-Ovoids</a></p>
+		<p>DOI: 10.1007/s10801-005-2510-6</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;2 (2005)</p></td>
+	<td>89&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-2510-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-2510-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-2510-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-2510-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sinéad Lyle; Andrew Mathas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-2511-5">Row and Column Removal Theorems for Homomorphisms of Specht Modules and Weyl Modules</a></p>
+		<p>DOI: 10.1007/s10801-005-2511-5</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;2 (2005)</p></td>
+	<td>508&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-2511-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-2511-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-2511-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-2511-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xiang-dong Hou</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-2512-4">A Ring Theoretic Construction of Hadamard Difference Sets in ℤ8n×ℤ2n</a></p>
+		<p>DOI: 10.1007/s10801-005-2512-4</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;2 (2005)</p></td>
+	<td>73&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-2512-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-2512-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-2512-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-2512-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Speyer; Lauren Williams</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-2513-3">The Tropical Totally Positive Grassmannian</a></p>
+		<p>DOI: 10.1007/s10801-005-2513-3</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;2 (2005)</p></td>
+	<td>200&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-2513-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-2513-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-2513-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-2513-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Terry Gannon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-2514-2">Modular Data: The Algebraic Combinatorics of Conformal Field Theory</a></p>
+		<p>DOI: 10.1007/s10801-005-2514-2</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;2 (2005)</p></td>
+	<td>261&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-2514-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-2514-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-2514-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-2514-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William Y. C. Chen; Guo-Guang Yan; Arthur L. B. Yang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-3018-9">Transformations of Border Strips and Schur Function Determinants</a></p>
+		<p>DOI: 10.1007/s10801-005-3018-9</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;21, issue&nbsp;4 (2005)</p></td>
+	<td>675&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-3018-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-3018-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-3018-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-3018-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. M. Hamel; R. C. King</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-3019-8">U-Turn Alternating Sign Matrices, Symplectic Shifted Tableaux and their Weighted Enumeration</a></p>
+		<p>DOI: 10.1007/s10801-005-3019-8</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;21, issue&nbsp;4 (2005)</p></td>
+	<td>433&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-3019-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-3019-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-3019-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-3019-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Morten Brun; Tim Römer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-3020-2">Subdivisions of Toric Complexes</a></p>
+		<p>DOI: 10.1007/s10801-005-3020-2</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;21, issue&nbsp;4 (2005)</p></td>
+	<td>323&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-3020-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-3020-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-3020-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-3020-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ahmet I. Seven</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-3021-1">Orbits of Groups Generated by Transvections over F2</a></p>
+		<p>DOI: 10.1007/s10801-005-3021-1</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;21, issue&nbsp;4 (2005)</p></td>
+	<td>1.21&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-3021-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-3021-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-3021-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-3021-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hirobumi Mizuno; Iwao Sato</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-4526-3">A New Proof of Bartholdi's Theorem</a></p>
+		<p>DOI: 10.1007/s10801-005-4526-3</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;3 (2005)</p></td>
+	<td>163&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-4526-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-4526-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-4526-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-4526-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Krattenthaler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-4527-2">On Multiplicities of Points on Schubert Varieties in Graßmannians II</a></p>
+		<p>DOI: 10.1007/s10801-005-4527-2</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;3 (2005)</p></td>
+	<td>915&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-4527-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-4527-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-4527-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-4527-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jürgen Herzog; Takayuki Hibi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-4528-1">Distributive Lattices, Bipartite Graphs and Alexander Duality</a></p>
+		<p>DOI: 10.1007/s10801-005-4528-1</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;3 (2005)</p></td>
+	<td>294&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-4528-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-4528-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-4528-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-4528-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anna Stokke</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-4529-0">A Quantum Version of the Désarménien Matrix</a></p>
+		<p>DOI: 10.1007/s10801-005-4529-0</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;3 (2005)</p></td>
+	<td>278&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-4529-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-4529-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-4529-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-4529-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Arjeh M. Cohen; E. J. Postma</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-4530-7">Covers of Point-Hyperplane Graphs</a></p>
+		<p>DOI: 10.1007/s10801-005-4530-7</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;3 (2005)</p></td>
+	<td>585&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-4530-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-4530-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-4530-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-4530-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mordechai Katzman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-4531-6">Counting Monomials</a></p>
+		<p>DOI: 10.1007/s10801-005-4531-6</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;3 (2005)</p></td>
+	<td>920&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-4531-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-4531-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-4531-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-4531-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Kyle Petersen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-4532-5">Cyclic Descents andP-Partitions</a></p>
+		<p>DOI: 10.1007/s10801-005-4532-5</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;3 (2005)</p></td>
+	<td>961&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-4532-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-4532-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-4532-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-4532-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mireille Bousquet-Mélou; Einar Steingrímsson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-4625-1">Decreasing Subsequences in Permutations and Wilf Equivalence for Involutions</a></p>
+		<p>DOI: 10.1007/s10801-005-4625-1</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;4 (2005)</p></td>
+	<td>440&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-4625-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-4625-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-4625-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-4625-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eran Nevo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-4626-0">Algebraic Shifting and Basic Constructions on Simplicial Complexes</a></p>
+		<p>DOI: 10.1007/s10801-005-4626-0</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;4 (2005)</p></td>
+	<td>227&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-4626-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-4626-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-4626-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-4626-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sanming Zhou</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-4627-z">A Local Analysis of Imprimitive Symmetric Graphs</a></p>
+		<p>DOI: 10.1007/s10801-005-4627-z</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;4 (2005)</p></td>
+	<td>270&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-4627-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-4627-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-4627-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-4627-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marcelo Aguiar; Frank Sottile</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-4628-y">Cocommutative Hopf Algebras of Permutations and Trees</a></p>
+		<p>DOI: 10.1007/s10801-005-4628-y</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;4 (2005)</p></td>
+	<td>388&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-4628-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-4628-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-4628-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-4628-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Stolz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-4629-x">On the Diaconis-Shahshahani Method in Random Matrix Theory</a></p>
+		<p>DOI: 10.1007/s10801-005-4629-x</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;22, issue&nbsp;4 (2005)</p></td>
+	<td>300&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-4629-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-4629-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-4629-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-4629-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sònia P. Mansilla</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10801-005-6277-6">On Arc-Regular Permutation Groups Using Latin Squares</a></p>
+		<p>DOI: 10.1007/s10801-005-6277-6</p>	</td>
+	<td><p><a href="/scimag/journals/12161">Journal of Algebraic Combinatorics</a><p>volume&nbsp;21, issue&nbsp;1 (2005)</p></td>
+	<td>443&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10801-005-6277-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10801-005-6277-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10801-005-6277-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10801-005-6277-6">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;429 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 58</span>
+	 <a href="/scimag/?journal=12161&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

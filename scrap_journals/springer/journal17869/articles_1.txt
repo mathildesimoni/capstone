@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/17869">Natural Computing</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer Netherlands</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1567-7818</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-9796</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 37; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 37');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=17869&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">906 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 37</span>
+	 <a href="/scimag/?journal=17869&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Max H. Garzon; John A. Rose</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-2637-8">Editorial</a></p>
+		<p>DOI: 10.1007/s11047-004-2637-8</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;3, issue&nbsp;4 (2004)</p></td>
+	<td>148&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-2637-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-2637-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-2637-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-2637-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christian jacob; Ian Burleigh</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-2638-7">Biomolecular swarms –an agent-based model of the lactose operon</a></p>
+		<p>DOI: 10.1007/s11047-004-2638-7</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;3, issue&nbsp;4 (2004)</p></td>
+	<td>566&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-2638-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-2638-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-2638-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-2638-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mitsunori Takano; Junichi Higo; Hironori K. Nakamura; Masaki Sasai</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-2639-6">On the model granularity to simulate protein dynamics: A biological physics view on biomolecular computing</a></p>
+		<p>DOI: 10.1007/s11047-004-2639-6</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;3, issue&nbsp;4 (2004)</p></td>
+	<td>569&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-2639-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-2639-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-2639-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-2639-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John A. Rose; Russell J. Deaton; Akira Suyama</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-2641-z">Statistical thermodynamic analysis and designof DNA-based computers</a></p>
+		<p>DOI: 10.1007/s11047-004-2641-z</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;3, issue&nbsp;4 (2004)</p></td>
+	<td>372&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-2641-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-2641-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-2641-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-2641-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Max H Garzon; Derrel R. Blain; Andrew J. Neel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-2642-y">Virtual test tubes</a></p>
+		<p>DOI: 10.1007/s11047-004-2642-y</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;3, issue&nbsp;4 (2004)</p></td>
+	<td>384&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-2642-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-2642-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-2642-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-2642-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John A. Rose; Akira Suyama</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-2643-x">Physical modeling of biomolecular computers: Models, limitations, and experimental validation</a></p>
+		<p>DOI: 10.1007/s11047-004-2643-x</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;3, issue&nbsp;4 (2004)</p></td>
+	<td>336&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-2643-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-2643-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-2643-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-2643-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Derrel Blain; Max Garzon; Soo-Yong Shin; Byoung-Tak Zhang; Satoshi Kashiwamura; Masahito Yamamoto; Atsushi Kameda; Azuma Ohuchi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-2644-9">Development, evaluation and benchmarking of simulation software for biomolecule-based computing</a></p>
+		<p>DOI: 10.1007/s11047-004-2644-9</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;3, issue&nbsp;4 (2004)</p></td>
+	<td>223&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-2644-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-2644-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-2644-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-2644-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Danny Van Noort; John S. Mccaskill</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-2667-2">Flows in micro fluidic networks: From theory to experiment</a></p>
+		<p>DOI: 10.1007/s11047-004-2667-2</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;3, issue&nbsp;4 (2004)</p></td>
+	<td>414&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-2667-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-2667-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-2667-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-2667-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dominik Schultes</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-3379-3">Rainbow Sort: Sorting at the Speed of Light</a></p>
+		<p>DOI: 10.1007/s11047-004-3379-3</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;5, issue&nbsp;1 (2006)</p></td>
+	<td>368&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-3379-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-3379-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-3379-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-3379-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Amardeep Singh; Lalit M. Bharadwaj; Singh Harpreet</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-3591-1">DNA and quantum based algorithms for VLSI circuits testing</a></p>
+		<p>DOI: 10.1007/s11047-004-3591-1</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;4, issue&nbsp;1 (2005)</p></td>
+	<td>353&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-3591-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-3591-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-3591-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-3591-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Junghuei Chen; Grzegorz Rozenberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-4001-4">Preface</a></p>
+		<p>DOI: 10.1007/s11047-004-4001-4</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;4, issue&nbsp;2 (2005)</p></td>
+	<td>83&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-4001-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-4001-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-4001-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-4001-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Junghuei Chen; Russell Deaton; Yu-Zhen Wang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-4002-3">A DNA-based memory within vitrolearning and associative recall</a></p>
+		<p>DOI: 10.1007/s11047-004-4002-3</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;4, issue&nbsp;2 (2005)</p></td>
+	<td>731&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-4002-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-4002-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-4002-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-4002-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Atsushi Kameda; Masahito Yamamoto; Hiroki Uejima; Masami Hagiya; Kensaku Sakamoto; Azuma Ohuchi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-4007-y">Hairpin-based state machine and conformational addressing: Design and experiment</a></p>
+		<p>DOI: 10.1007/s11047-004-4007-y</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;4, issue&nbsp;2 (2005)</p></td>
+	<td>511&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-4007-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-4007-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-4007-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-4007-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nao Nitta</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-4008-x">Retrovirus-based computer</a></p>
+		<p>DOI: 10.1007/s11047-004-4008-x</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;4, issue&nbsp;2 (2005)</p></td>
+	<td>303&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-4008-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-4008-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-4008-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-4008-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>NataŠa Jonoska; Kalpana Mahalingam; Junghuei Chen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-4009-9">Involution codes: with application to DNA coded languages</a></p>
+		<p>DOI: 10.1007/s11047-004-4009-9</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;4, issue&nbsp;2 (2005)</p></td>
+	<td>386&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-4009-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-4009-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-4009-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-4009-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christian V. Henkel; Reno S. Bladergroen; Crina I. A. Balog; André M. Deelder; Tom Head; Grzegorz Rozenberg; Herman P. Spaink</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-5199-x">Protein output for DNA computing</a></p>
+		<p>DOI: 10.1007/s11047-004-5199-x</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;4, issue&nbsp;1 (2005)</p></td>
+	<td>253&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-5199-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-5199-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-5199-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-5199-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kenichi Wakabayashi; Masayuki Yamamura</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-5236-9">A Design for Cellular Evolutionary Computation by using Bacteria</a></p>
+		<p>DOI: 10.1007/s11047-004-5236-9</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;4, issue&nbsp;3 (2005)</p></td>
+	<td>621&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-5236-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-5236-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-5236-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-5236-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eric-Wubbo Lameijer; Thomas Bäck; Joost N. Kok; AD P. Ijzerman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-5237-8">Evolutionary Algorithms in Drug Design</a></p>
+		<p>DOI: 10.1007/s11047-004-5237-8</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;4, issue&nbsp;3 (2005)</p></td>
+	<td>495&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-5237-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-5237-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-5237-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-5237-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cheng-Yuan Liou; Shiao-Lin Lin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-5490-x">Finite Memory Loading in Hairy Neurons</a></p>
+		<p>DOI: 10.1007/s11047-004-5490-x</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;5, issue&nbsp;1 (2006)</p></td>
+	<td>471&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-5490-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-5490-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-5490-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-5490-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-7171-1">Instructions for authors</a></p>
+		<p>DOI: 10.1007/s11047-004-7171-1</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;4, issue&nbsp;1 (2005)</p></td>
+	<td>139&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-7171-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-7171-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-7171-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-7171-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yohei Yokobayashi; Frances H. Arnold</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-7442-x">A Dual Selection Module for Directed Evolution of Genetic Circuits</a></p>
+		<p>DOI: 10.1007/s11047-004-7442-x</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;4, issue&nbsp;3 (2005)</p></td>
+	<td>219&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-7442-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-7442-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-7442-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-7442-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Oscar Montiel; Oscar Castillo; Patricia Melin; Roberto Sepulveda</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-9097-z">Application of a breeder genetic algorithm for filter optimization</a></p>
+		<p>DOI: 10.1007/s11047-004-9097-z</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;4, issue&nbsp;1 (2005)</p></td>
+	<td>567&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-9097-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-9097-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-9097-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-9097-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tue Lehn-schiøler; Anant Hegde; Deniz Erdogmus; Jose C. Principe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-004-9619-8">Vector quantization using information theoretic concepts</a></p>
+		<p>DOI: 10.1007/s11047-004-9619-8</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;4, issue&nbsp;1 (2005)</p></td>
+	<td>312&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-004-9619-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-004-9619-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-004-9619-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-004-9619-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. J. Liang; S. Baskar; P. N. Suganthan; A. K. Qin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-005-1625-y">Performance Evaluation of Multiagent Genetic Algorithm</a></p>
+		<p>DOI: 10.1007/s11047-005-1625-y</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;5, issue&nbsp;1 (2006)</p></td>
+	<td>372&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-005-1625-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-005-1625-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-005-1625-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-005-1625-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gunnar Tufte; Pauline C. Haddow</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11047-005-3665-8">Towards Development on a Silicon-based Cellular Computing Machine</a></p>
+		<p>DOI: 10.1007/s11047-005-3665-8</p>	</td>
+	<td><p><a href="/scimag/journals/17869">Natural Computing</a><p>volume&nbsp;4, issue&nbsp;4 (2005)</p></td>
+	<td>607&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11047-005-3665-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11047-005-3665-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11047-005-3665-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11047-005-3665-8">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">906 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 37</span>
+	 <a href="/scimag/?journal=17869&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

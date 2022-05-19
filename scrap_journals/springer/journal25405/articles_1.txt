@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/25405">Virtual Reality</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1359-4338</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1434-9957</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 26; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 26');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=25405&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">646 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 26</span>
+	 <a href="/scimag/?journal=25405&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>S. Maddock</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408516">Computer games</a></p>
+		<p>DOI: 10.1007/bf01408516</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;5, issue&nbsp;4 (2000)</p></td>
+	<td>148&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408516" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408516">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408516">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408516">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Watt; S. Maddock</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408517">Computer games technology and higher education</a></p>
+		<p>DOI: 10.1007/bf01408517</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;5, issue&nbsp;4 (2000)</p></td>
+	<td>1.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408517" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408517">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408517">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408517">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Jankovic</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408518">Games development in VRML</a></p>
+		<p>DOI: 10.1007/bf01408518</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;5, issue&nbsp;4 (2000)</p></td>
+	<td>969&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408518" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408518">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408518">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408518">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. Badcoe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408519">The computer game industry: Current state of play</a></p>
+		<p>DOI: 10.1007/bf01408519</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;5, issue&nbsp;4 (2000)</p></td>
+	<td>1.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408519" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408519">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408519">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408519">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Cox</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408520">Online and multiplayer gaming — An overview</a></p>
+		<p>DOI: 10.1007/bf01408520</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;5, issue&nbsp;4 (2000)</p></td>
+	<td>887&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408520" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408520">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408520">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408520">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Cavazza</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408521">Al in computer games: Survey and perspectives</a></p>
+		<p>DOI: 10.1007/bf01408521</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;5, issue&nbsp;4 (2000)</p></td>
+	<td>1.59&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408521" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408521">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408521">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408521">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Kirriemuir</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408522">The console market</a></p>
+		<p>DOI: 10.1007/bf01408522</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;5, issue&nbsp;4 (2000)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408522" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408522">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408522">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408522">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. Barfield</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408556">Guest editorial — Wearable computers</a></p>
+		<p>DOI: 10.1007/bf01408556</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;3, issue&nbsp;3 (1998)</p></td>
+	<td>130&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408556" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408556">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408556">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408556">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. L. Jackson; L. E. Polisky</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408557">Wearable computers: Information tool for the twentyfirst century</a></p>
+		<p>DOI: 10.1007/bf01408557</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;3, issue&nbsp;3 (1998)</p></td>
+	<td>1.32&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408557" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408557">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408557">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408557">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. Barfield; K. Baird</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408558">Issues in the design and use of wearable computers</a></p>
+		<p>DOI: 10.1007/bf01408558</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;3, issue&nbsp;3 (1998)</p></td>
+	<td>904&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408558" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408558">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408558">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408558">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>U. Neumann; J. Park</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408559">Tracking for augmented reality on wearable computers</a></p>
+		<p>DOI: 10.1007/bf01408559</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;3, issue&nbsp;3 (1998)</p></td>
+	<td>931&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408559" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408559">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408559">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408559">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Kakez; J. Figue; V. Conan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408560">A generic model for Immersive Documentation Environments</a></p>
+		<p>DOI: 10.1007/bf01408560</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;3, issue&nbsp;3 (1998)</p></td>
+	<td>1.76&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408560" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408560">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408560">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408560">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Thomas; S. Tyerman; K. Grimmer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408561">Evaluation of text input mechanisms for wearable computers</a></p>
+		<p>DOI: 10.1007/bf01408561</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;3, issue&nbsp;3 (1998)</p></td>
+	<td>1.40&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408561" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408561">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408561">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408561">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Abowd; A. K. Dey; R. Orr; J. Brotherton</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408562">Context-awareness in wearable and ubiquitous computing</a></p>
+		<p>DOI: 10.1007/bf01408562</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;3, issue&nbsp;3 (1998)</p></td>
+	<td>1.71&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408562" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408562">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408562">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408562">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. A. Ross</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408563">Wearable computers as a virtual environment interface for people with visual impairment</a></p>
+		<p>DOI: 10.1007/bf01408563</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;3, issue&nbsp;3 (1998)</p></td>
+	<td>1.38&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408563" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408563">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408563">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408563">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. Bormann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408564">Frustum slicing</a></p>
+		<p>DOI: 10.1007/bf01408564</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;6, issue&nbsp;1 (2002)</p></td>
+	<td>1.35&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408564" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408564">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408564">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408564">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Sun; B. Hujun</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408565">Two-handed assembly with immersive task planning in virtual reality</a></p>
+		<p>DOI: 10.1007/bf01408565</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;6, issue&nbsp;1 (2002)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408565" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408565">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408565">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408565">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Panerai; M. Ehrette; P. Leboucher</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408566">A VE framework to study visual perception and action</a></p>
+		<p>DOI: 10.1007/bf01408566</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;6, issue&nbsp;1 (2002)</p></td>
+	<td>1.31&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408566" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408566">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408566">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408566">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Lehikoinen; R. Suomela</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408567">WalkMap: Developing an augmented reality map application for wearable computers</a></p>
+		<p>DOI: 10.1007/bf01408567</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;6, issue&nbsp;1 (2002)</p></td>
+	<td>1.28&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408567" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408567">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408567">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408567">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. Bormann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408568">Context calibration</a></p>
+		<p>DOI: 10.1007/bf01408568</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;6, issue&nbsp;1 (2002)</p></td>
+	<td>1.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408568" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408568">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408568">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408568">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Cavazza; I. Palmer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408588">Natural language control of interactive 3D animation and computer games</a></p>
+		<p>DOI: 10.1007/bf01408588</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;4, issue&nbsp;2 (1999)</p></td>
+	<td>2.41&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408588" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408588">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408588">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408588">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. S. Everett; K. Wauchope; M. A. Pérez Quiñones</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408589">Creating natural language interfaces to VR systems</a></p>
+		<p>DOI: 10.1007/bf01408589</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;4, issue&nbsp;2 (1999)</p></td>
+	<td>1.70&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408589" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408589">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408589">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408589">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Cheyer; L. Julia</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408590">Spoken language and multimodal applications for electronic realities</a></p>
+		<p>DOI: 10.1007/bf01408590</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;4, issue&nbsp;2 (1999)</p></td>
+	<td>3.34&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408590" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408590">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408590">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408590">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Raymaekers; T. Weyer; K. Coninx; F. Reeth; E. Flerackers</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408591">ICOME: An Immersive Collaborative 3D Object Modelling Environment</a></p>
+		<p>DOI: 10.1007/bf01408591</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;4, issue&nbsp;2 (1999)</p></td>
+	<td>1.44&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408591" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408591">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408591">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408591">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. Kindratenko</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01408592">Calibration of electromagnetic tracking devices</a></p>
+		<p>DOI: 10.1007/bf01408592</p>	</td>
+	<td><p><a href="/scimag/journals/25405">Virtual Reality</a><p>volume&nbsp;4, issue&nbsp;2 (1999)</p></td>
+	<td>1.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01408592" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01408592">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01408592">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01408592">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">646 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 26</span>
+	 <a href="/scimag/?journal=25405&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

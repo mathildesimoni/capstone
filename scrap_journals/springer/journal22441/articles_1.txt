@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/22441">Software Quality Journal</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer US</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0963-9314</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-1367</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 34; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 34');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=22441&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">845 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 34</span>
+	 <a href="/scimag/?journal=22441&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Margaret Ross; Ken Croucher</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00209181">Editorial</a></p>
+		<p>DOI: 10.1007/bf00209181</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;5, issue&nbsp;4 (1996)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00209181" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00209181">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00209181">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00209181">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tracy Hall; Norman E. Fenton</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00209182">Software quality programmes: a snapshot of theory versus reality</a></p>
+		<p>DOI: 10.1007/bf00209182</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;5, issue&nbsp;4 (1996)</p></td>
+	<td>1023&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00209182" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00209182">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00209182">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00209182">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alan Jones</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00209183">ISO 12207 Software life cycle processes — fit for purpose?</a></p>
+		<p>DOI: 10.1007/bf00209183</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;5, issue&nbsp;4 (1996)</p></td>
+	<td>711&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00209183" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00209183">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00209183">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00209183">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christof Ebert</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00209184">Classification techniques for metric-based software development</a></p>
+		<p>DOI: 10.1007/bf00209184</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;5, issue&nbsp;4 (1996)</p></td>
+	<td>1.23&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00209184" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00209184">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00209184">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00209184">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. H. J. Zeist; P. R. H. Hendriks</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00209185">Specifying software quality with the extended ISO model</a></p>
+		<p>DOI: 10.1007/bf00209185</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;5, issue&nbsp;4 (1996)</p></td>
+	<td>770&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00209185" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00209185">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00209185">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00209185">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. Sivess</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00209186">Non-functional requirements in the software development process</a></p>
+		<p>DOI: 10.1007/bf00209186</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;5, issue&nbsp;4 (1996)</p></td>
+	<td>578&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00209186" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00209186">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00209186">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00209186">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Zahran; B. Dye; K. Sanders; B. Pearce</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00209187">Establishing a systems integration process intrastructure</a></p>
+		<p>DOI: 10.1007/bf00209187</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;5, issue&nbsp;4 (1996)</p></td>
+	<td>580&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00209187" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00209187">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00209187">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00209187">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. G. Mcguire</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00209188">Factors affecting the quality of software project management: an empirical study based on the Capability Maturity Model</a></p>
+		<p>DOI: 10.1007/bf00209188</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;5, issue&nbsp;4 (1996)</p></td>
+	<td>957&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00209188" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00209188">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00209188">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00209188">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00209189">Calendar of events (1997)</a></p>
+		<p>DOI: 10.1007/bf00209189</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;5, issue&nbsp;4 (1996)</p></td>
+	<td>39&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00209189" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00209189">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00209189">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00209189">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin Neil</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00213631">Measurement as an alternative to bureaucracy for the achievement of software quality</a></p>
+		<p>DOI: 10.1007/bf00213631</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;3, issue&nbsp;2 (1994)</p></td>
+	<td>1.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00213631" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00213631">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00213631">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00213631">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Taghi M. Khoshgoftaar; Edward B. Allen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00213632">Applications of information theory to software engineering measurement</a></p>
+		<p>DOI: 10.1007/bf00213632</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;3, issue&nbsp;2 (1994)</p></td>
+	<td>1.66&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00213632" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00213632">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00213632">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00213632">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. E. Avison; H. U. Shah; D. N. Wilson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00213633">Software quality standards in practice: the limitations of using ISO-9001 to support software development</a></p>
+		<p>DOI: 10.1007/bf00213633</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;3, issue&nbsp;2 (1994)</p></td>
+	<td>518&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00213633" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00213633">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00213633">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00213633">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00213634">News section</a></p>
+		<p>DOI: 10.1007/bf00213634</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;3, issue&nbsp;2 (1994)</p></td>
+	<td>217&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00213634" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00213634">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00213634">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00213634">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ken Croucher</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00402265">Editorial</a></p>
+		<p>DOI: 10.1007/bf00402265</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;2, issue&nbsp;3 (1993)</p></td>
+	<td>89&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00402265" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00402265">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00402265">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00402265">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. J. Davis; A. C. Gillies; P. Smith; J. B. Thompson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00402266">Current practice in software quality and the impact of certification schemes</a></p>
+		<p>DOI: 10.1007/bf00402266</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;2, issue&nbsp;3 (1993)</p></td>
+	<td>928&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00402266" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00402266">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00402266">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00402266">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Kada; D. Woods; R. J. Cole</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00402267">Design methods and code structure: a comparative case study</a></p>
+		<p>DOI: 10.1007/bf00402267</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;2, issue&nbsp;3 (1993)</p></td>
+	<td>756&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00402267" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00402267">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00402267">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00402267">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Steve Benford; Edmund Burke; Eric Foxley</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00402268">Learning to construct quality software with the Ceilidh system</a></p>
+		<p>DOI: 10.1007/bf00402268</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;2, issue&nbsp;3 (1993)</p></td>
+	<td>1.33&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00402268" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00402268">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00402268">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00402268">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Jones; M. Tabberer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00402269">Process quality costing adapted to software development</a></p>
+		<p>DOI: 10.1007/bf00402269</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;2, issue&nbsp;3 (1993)</p></td>
+	<td>644&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00402269" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00402269">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00402269">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00402269">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ken Croucher; Warren Harrison</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00402291">Editorial</a></p>
+		<p>DOI: 10.1007/bf00402291</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;3, issue&nbsp;3 (1994)</p></td>
+	<td>96&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00402291" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00402291">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00402291">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00402291">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pasi Kuvaja; Adriana Bicego</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00402292">BOOTSTRAP — a European assessment methodology</a></p>
+		<p>DOI: 10.1007/bf00402292</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;3, issue&nbsp;3 (1994)</p></td>
+	<td>767&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00402292" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00402292">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00402292">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00402292">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nicholas Ashley</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00402293">METKIT: training in how to use measurement as a software management tool</a></p>
+		<p>DOI: 10.1007/bf00402293</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;3, issue&nbsp;3 (1994)</p></td>
+	<td>468&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00402293" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00402293">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00402293">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00402293">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Taghi M. Khoshgoftaar; Robert M. Szabo; Timothy G. Woodcock</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00402294">An empirical study of program quality during testing and maintenance</a></p>
+		<p>DOI: 10.1007/bf00402294</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;3, issue&nbsp;3 (1994)</p></td>
+	<td>982&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00402294" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00402294">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00402294">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00402294">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jennifer L. Gasston; Terence P. Rout</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00402295">Can the effectiveness of software processes be assessed?</a></p>
+		<p>DOI: 10.1007/bf00402295</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;3, issue&nbsp;3 (1994)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00402295" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00402295">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00402295">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00402295">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Inderpal Bhandari; Bonnie Ray; Man-Yuen Wong; David Choi; Akemi Watanabe; Ram Chillarege; Michael Halliday; Alan Dooley; Jarir Chaar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00402296">An inference structure for process feedback: technique and implementation</a></p>
+		<p>DOI: 10.1007/bf00402296</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;3, issue&nbsp;3 (1994)</p></td>
+	<td>1.60&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00402296" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00402296">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00402296">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00402296">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00402297">News section</a></p>
+		<p>DOI: 10.1007/bf00402297</p>	</td>
+	<td><p><a href="/scimag/journals/22441">Software Quality Journal</a><p>volume&nbsp;3, issue&nbsp;3 (1994)</p></td>
+	<td>299&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00402297" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00402297">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00402297">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00402297">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">845 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 34</span>
+	 <a href="/scimag/?journal=22441&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

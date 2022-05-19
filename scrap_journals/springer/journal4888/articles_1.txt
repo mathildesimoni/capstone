@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1046-283X</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-837X</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 55; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 55');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4888&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;366 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 55</span>
+	 <a href="/scimag/?journal=4888&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>V. A. Trofimov; V. V. Troshin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01126575">Thematical modeling and numerical methods in optical thermochemistry of gases</a></p>
+		<p>DOI: 10.1007/bf01126575</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;1, issue&nbsp;3 (1990)</p></td>
+	<td>388&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01126575" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01126575">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01126575">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01126575">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yu. N. Sadkov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01126576">A difference scheme of third-order accuracy for quasilinear hyperbolic systems</a></p>
+		<p>DOI: 10.1007/bf01126576</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;1, issue&nbsp;3 (1990)</p></td>
+	<td>322&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01126576" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01126576">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01126576">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01126576">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. A. Ryazanov; O. S. Sorokovikova; V. I. Cherezov; S. Yu. Chernov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01126577">Balanced difference schemes in gas dynamics</a></p>
+		<p>DOI: 10.1007/bf01126577</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;1, issue&nbsp;3 (1990)</p></td>
+	<td>583&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01126577" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01126577">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01126577">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01126577">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. I. Dmitriev; I. S. Barashkov; E. A. Valeeva</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01126578">Solving the two-dimensional inverse problem of magnetotelluric sounding by finite differences</a></p>
+		<p>DOI: 10.1007/bf01126578</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;1, issue&nbsp;3 (1990)</p></td>
+	<td>577&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01126578" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01126578">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01126578">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01126578">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. M. Denisov; I. V. Podlevskikh</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01126579">Unique solvability of some inverse problems of sorption dynamics with a linear isotherm</a></p>
+		<p>DOI: 10.1007/bf01126579</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;1, issue&nbsp;3 (1990)</p></td>
+	<td>161&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01126579" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01126579">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01126579">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01126579">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. P. Vasil&#039;ev; M. M. Potapov; Yu. N. Chekanov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01126580">Rate of convergence bound of Tikhonov's regularization method for the linear programming problem</a></p>
+		<p>DOI: 10.1007/bf01126580</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;1, issue&nbsp;3 (1990)</p></td>
+	<td>196&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01126580" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01126580">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01126580">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01126580">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. N. Zaikin; E. V. Khoroshilova</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01126581">Stable computer-aided algorithm for deconvolution in luminescence analysis</a></p>
+		<p>DOI: 10.1007/bf01126581</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;1, issue&nbsp;3 (1990)</p></td>
+	<td>595&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01126581" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01126581">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01126581">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01126581">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. N. Vabishchevich; I. V. Zotov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01126582">Numerical investigation of the inverse problem of MHD equilibrium of toroidal plasma</a></p>
+		<p>DOI: 10.1007/bf01126582</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;1, issue&nbsp;3 (1990)</p></td>
+	<td>252&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01126582" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01126582">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01126582">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01126582">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. S. Il&#039;inskii; I. V. Berezhnaya</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01126583">Mathematical models of thin dipole antennas</a></p>
+		<p>DOI: 10.1007/bf01126583</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;1, issue&nbsp;3 (1990)</p></td>
+	<td>1001&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01126583" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01126583">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01126583">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01126583">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. I. Dmitriev; A. I. Bezruk</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01126584">Mathematical software for optoelectronic system design</a></p>
+		<p>DOI: 10.1007/bf01126584</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;1, issue&nbsp;3 (1990)</p></td>
+	<td>533&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01126584" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01126584">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01126584">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01126584">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. I. Dmitriev; V. V. Chebyshev</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01126585">Numerical investigation of a plane periodic array of spiral strip elements</a></p>
+		<p>DOI: 10.1007/bf01126585</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;1, issue&nbsp;3 (1990)</p></td>
+	<td>363&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01126585" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01126585">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01126585">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01126585">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. I. Ivakhnenko; A. S. Il&#039;inskii</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01126586">Numerical method of investigation of diffraction problems in irregular microstrip devices</a></p>
+		<p>DOI: 10.1007/bf01126586</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;1, issue&nbsp;3 (1990)</p></td>
+	<td>500&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01126586" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01126586">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01126586">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01126586">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. I. Dmitriev; N. A. Mershchikova; A. V. Sedel&#039;nikova</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01126587">Iterative method for the diffraction of a plane field on a two-dimensional conducting body of rectangular cross section</a></p>
+		<p>DOI: 10.1007/bf01126587</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;1, issue&nbsp;3 (1990)</p></td>
+	<td>265&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01126587" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01126587">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01126587">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01126587">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. M. Popov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01126588">Mathematical models of equilibrium, stability, and control of toroidal plasma discharge</a></p>
+		<p>DOI: 10.1007/bf01126588</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;1, issue&nbsp;3 (1990)</p></td>
+	<td>730&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01126588" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01126588">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01126588">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01126588">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. V. Belkin; A. V. Pedorenko; A. M. Popov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01126589">Suppression of magnetic islands by additional heating of tokamak plasma</a></p>
+		<p>DOI: 10.1007/bf01126589</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;1, issue&nbsp;3 (1990)</p></td>
+	<td>502&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01126589" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01126589">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01126589">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01126589">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. V. Pedorenko; A. M. Popov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01126590">Bifurcation of helical equilibrium of a plasma column</a></p>
+		<p>DOI: 10.1007/bf01126590</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;1, issue&nbsp;3 (1990)</p></td>
+	<td>413&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01126590" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01126590">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01126590">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01126590">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>O. V. Kulagina; U. G. Pirumov; G. S. Roslyakov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01126591">Nonsteady-state gas flow in a laval nozzle</a></p>
+		<p>DOI: 10.1007/bf01126591</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;1, issue&nbsp;3 (1990)</p></td>
+	<td>445&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01126591" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01126591">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01126591">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01126591">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. V. Fedorov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01127783">Modification planning in technical systems</a></p>
+		<p>DOI: 10.1007/bf01127783</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;3, issue&nbsp;1 (1992)</p></td>
+	<td>732&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01127783" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01127783">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01127783">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01127783">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. A. Vyazgin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01127784">Programmed constructions for control synthesis problems</a></p>
+		<p>DOI: 10.1007/bf01127784</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;3, issue&nbsp;1 (1992)</p></td>
+	<td>310&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01127784" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01127784">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01127784">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01127784">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. A. Terzyan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01127785">Group choice models in system design</a></p>
+		<p>DOI: 10.1007/bf01127785</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;3, issue&nbsp;1 (1992)</p></td>
+	<td>193&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01127785" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01127785">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01127785">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01127785">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. A. Vasin; N. A. Kravchenko; O. B. Shoniya</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01127786">Design of an industrial water purification system</a></p>
+		<p>DOI: 10.1007/bf01127786</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;3, issue&nbsp;1 (1992)</p></td>
+	<td>534&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01127786" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01127786">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01127786">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01127786">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. A. Vasin; L. V. Krokhina</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01127787">Central regulation of a monopoly in a mixed market</a></p>
+		<p>DOI: 10.1007/bf01127787</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;3, issue&nbsp;1 (1992)</p></td>
+	<td>91&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01127787" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01127787">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01127787">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01127787">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. G. Ryabova</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01127788">Consistency of decisions in a hierarchy of games</a></p>
+		<p>DOI: 10.1007/bf01127788</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;3, issue&nbsp;1 (1992)</p></td>
+	<td>259&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01127788" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01127788">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01127788">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01127788">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. V. Dobrov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01127789">A step control technique in gradient methods</a></p>
+		<p>DOI: 10.1007/bf01127789</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;3, issue&nbsp;1 (1992)</p></td>
+	<td>157&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01127789" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01127789">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01127789">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01127789">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. K. Zavriev</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01127790">Finiteε-subgradient algorithm for approximate solution of the parametric programming problem</a></p>
+		<p>DOI: 10.1007/bf01127790</p>	</td>
+	<td><p><a href="/scimag/journals/4888">Computational Mathematics and Modeling</a><p>volume&nbsp;3, issue&nbsp;1 (1992)</p></td>
+	<td>231&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01127790" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01127790">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01127790">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01127790">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;366 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 55</span>
+	 <a href="/scimag/?journal=4888&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

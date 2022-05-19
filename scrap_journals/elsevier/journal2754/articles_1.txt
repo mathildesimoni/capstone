@@ -1,0 +1,379 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Elsevier Science</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0925-4439</td>
+	</tr>
+					</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 210; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 210');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=2754&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">5&nbsp;250 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 210</span>
+	 <a href="/scimag/?journal=2754&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Cui, Xiukun; Wang, Lei; Zhang, Jing; Du, Rong; Liao, Shengjie; Li, Duanzhuo; Li, Chang; Ke, Tie; Li, David Wan-Cheng; Huang, Hua; Yin, Zhan; Tang, Zhaohui; Liu, Mugen </td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbadis.2013.03.007">HSF4 regulates DLAD expression and promotes lens de-nucleation</a></p>
+		<p>DOI: 10.1016/j.bbadis.2013.03.007</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1832, issue&nbsp;8 (2013)</p></td>
+	<td>955&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbadis.2013.03.007" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbadis.2013.03.007">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbadis.2013.03.007">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbadis.2013.03.007">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Birgitt Schüle; Renee A. Reijo Pera; J. William Langston</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbadis.2009.08.014">Can cellular models revolutionize drug discovery in Parkinson's disease?</a></p>
+		<p>DOI: 10.1016/j.bbadis.2009.08.014</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1792, issue&nbsp;11 (2009)</p></td>
+	<td>320&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbadis.2009.08.014" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbadis.2009.08.014">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbadis.2009.08.014">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbadis.2009.08.014">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Brandi R. Whatley; Lian Li; Lih-Shen Chin</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbadis.2008.08.006">The ubiquitin–proteasome system in spongiform degenerative disorders</a></p>
+		<p>DOI: 10.1016/j.bbadis.2008.08.006</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1782, issue&nbsp;12 (2008)</p></td>
+	<td>2.71&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbadis.2008.08.006" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbadis.2008.08.006">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbadis.2008.08.006">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbadis.2008.08.006">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Violante, Sara; IJlst, Lodewijk; Ruiter, Jos; Koster, Janet; van Lenthe, Henk; Duran, Marinus; de Almeida, Isabel Tavares; Wanders, Ronald J.A.; Houten, Sander M.; Ventura, Fátima V. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbadis.2013.02.012">Substrate specificity of human carnitine acetyltransferase: Implications for fatty acid and branched-chain amino acid metabolism</a></p>
+		<p>DOI: 10.1016/j.bbadis.2013.02.012</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1832, issue&nbsp;6 (2013)</p></td>
+	<td>668&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbadis.2013.02.012" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbadis.2013.02.012">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbadis.2013.02.012">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbadis.2013.02.012">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lili Guo; Lin Li; Weiqiang Wang; Zhenhua Pan; Qinghua Zhou; Zhihao Wu</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbadis.2012.02.004">Mitochondrial reactive oxygen species mediates nicotine-induced hypoxia-inducible factor-1α expression in human non-small cell lung cancer cells</a></p>
+		<p>DOI: 10.1016/j.bbadis.2012.02.004</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1822, issue&nbsp;6 (2012)</p></td>
+	<td>1.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbadis.2012.02.004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbadis.2012.02.004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbadis.2012.02.004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbadis.2012.02.004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wolfgang Nacken; Marie Pierre Manitz; Clemens Sorg</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0925-4439%2895%2900108-5">Molecular characterisation of the genomic locus of the mouse MRP8 gene</a></p>
+		<p>DOI: 10.1016/0925-4439(95)00108-5</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1315, issue&nbsp;1 (1996)</p></td>
+	<td>445&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0925-4439%2895%2900108-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0925-4439%2895%2900108-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0925-4439%2895%2900108-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0925-4439%2895%2900108-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ashu Johri; M. Flint Beal</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbadis.2011.11.014">Antioxidants in Huntington's disease</a></p>
+		<p>DOI: 10.1016/j.bbadis.2011.11.014</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1822, issue&nbsp;5 (2012)</p></td>
+	<td>398&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbadis.2011.11.014" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbadis.2011.11.014">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbadis.2011.11.014">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbadis.2011.11.014">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Margarida V. Caldeira; Michele Curcio; Graciano Leal; Ivan L. Salazar; Miranda Mele; Ana Rita A. Santos; Carlos V. Melo; Paulo Pereira; Lorella M.T. Canzoniero; Carlos B. Duarte</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbadis.2012.10.009">Excitotoxic stimulation downregulates the ubiquitin–proteasome system through activation of NMDA receptors in cultured hippocampal neurons</a></p>
+		<p>DOI: 10.1016/j.bbadis.2012.10.009</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1832, issue&nbsp;1 (2013)</p></td>
+	<td>1.43&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbadis.2012.10.009" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbadis.2012.10.009">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbadis.2012.10.009">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbadis.2012.10.009">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xiaolei Liu; Hairui Yuan; Yanmei Niu; Wenyan Niu; Li Fu</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbadis.2012.07.008">The role of AMPK/mTOR/S6K1 signaling axis in mediating the physiological process of exercise-induced insulin sensitization in skeletal muscle of C57BL/6 mice</a></p>
+		<p>DOI: 10.1016/j.bbadis.2012.07.008</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1822, issue&nbsp;11 (2012)</p></td>
+	<td>1.32&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbadis.2012.07.008" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbadis.2012.07.008">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbadis.2012.07.008">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbadis.2012.07.008">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ling Wu; Libin Zhou; Yan Lu; Juan Zhang; Fangfang Jian; Yun Liu; Fengying Li; Wenyi Li; Xiao Wang; Guo Li</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbadis.2012.08.009">Activation of SIRT1 protects pancreatic β-cells against palmitate-induced dysfunction</a></p>
+		<p>DOI: 10.1016/j.bbadis.2012.08.009</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1822, issue&nbsp;11 (2012)</p></td>
+	<td>1.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbadis.2012.08.009" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbadis.2012.08.009">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbadis.2012.08.009">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbadis.2012.08.009">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Takeyori Saheki; Kouji Mori; Keiko Kobayashi; Megumi Horiuchi; Toyoko Shige; Touru Obara; Syusaku Suzuki; Masataka Mori; Ken-ichi Yamamura</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0925-4439%2894%2900007-d">Importance of ornithine transcarbamylase (OTC) deficiency in small intestine for urinary orotic acid excretion: Analysis of OTC-deficient spf-ash mice with OTC transgene</a></p>
+		<p>DOI: 10.1016/0925-4439(94)00007-d</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1270, issue&nbsp;1 (1995)</p></td>
+	<td>979&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0925-4439%2894%2900007-d" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0925-4439%2894%2900007-d">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0925-4439%2894%2900007-d">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0925-4439%2894%2900007-d">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Jackson; Lin-P&#039;ing Choo; Peter H. Watson; William C. Halliday; Henry H. Mantsch</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0925-4439%2894%2900056-v">Beware of connective tissue proteins: Assignment and implications of collagen absorptions in infrared spectra of human tissues</a></p>
+		<p>DOI: 10.1016/0925-4439(94)00056-v</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1270, issue&nbsp;1 (1995)</p></td>
+	<td>704&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0925-4439%2894%2900056-v" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0925-4439%2894%2900056-v">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0925-4439%2894%2900056-v">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0925-4439%2894%2900056-v">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Elena Beyer; Tatiana Ivleva; Gulbahar Artykova; German Wiederschain</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0925-4439%2894%2900062-u">Change of isoforms' spectra of α-l-fucosidase from human skin fibroblasts in intracellular storage of nonhydrolyzable substances</a></p>
+		<p>DOI: 10.1016/0925-4439(94)00062-u</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1270, issue&nbsp;1 (1995)</p></td>
+	<td>535&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0925-4439%2894%2900062-u" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0925-4439%2894%2900062-u">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0925-4439%2894%2900062-u">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0925-4439%2894%2900062-u">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Birandra K. Sinha; Hiroyuki Yamazaki; Helen M. Eliot; Erasmus Schneider; Markus M. Borner; Patrick M. O&#039;Connor</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0925-4439%2894%2900065-x">Relationships between proto-oncogene expression and apoptosis induced by anticancer drugs in human prostate tumor cells</a></p>
+		<p>DOI: 10.1016/0925-4439(94)00065-x</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1270, issue&nbsp;1 (1995)</p></td>
+	<td>722&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0925-4439%2894%2900065-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0925-4439%2894%2900065-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0925-4439%2894%2900065-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0925-4439%2894%2900065-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0925-4439%2894%2900066-y">Corrigendum</a></p>
+		<p>DOI: 10.1016/0925-4439(94)00066-y</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1270, issue&nbsp;1 (1995)</p></td>
+	<td>37&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0925-4439%2894%2900066-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0925-4439%2894%2900066-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0925-4439%2894%2900066-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0925-4439%2894%2900066-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sonia I. Skarlatos; Nicolas Duverger; Daniel Rader; Howard S. Kruth</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0925-4439%2894%2900067-z">Cholesterol efflux from human monocyte-derived macrophages in the presence of LpA-I:A-II</a></p>
+		<p>DOI: 10.1016/0925-4439(94)00067-z</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1270, issue&nbsp;1 (1995)</p></td>
+	<td>916&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0925-4439%2894%2900067-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0925-4439%2894%2900067-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0925-4439%2894%2900067-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0925-4439%2894%2900067-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anca Dobrian; Maya Simionescu</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0925-4439%2894%2900068-2">Irreversibly glycated albumin alters the physico-chemical characteristics of low density lipoproteins of normal and diabetic subjects</a></p>
+		<p>DOI: 10.1016/0925-4439(94)00068-2</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1270, issue&nbsp;1 (1995)</p></td>
+	<td>1.32&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0925-4439%2894%2900068-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0925-4439%2894%2900068-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0925-4439%2894%2900068-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0925-4439%2894%2900068-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M.Louise Riley; John J. Harding</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0925-4439%2894%2900069-3">The reaction of methylglyoxal with human and bovine lens proteins</a></p>
+		<p>DOI: 10.1016/0925-4439(94)00069-3</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1270, issue&nbsp;1 (1995)</p></td>
+	<td>1.03&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0925-4439%2894%2900069-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0925-4439%2894%2900069-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0925-4439%2894%2900069-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0925-4439%2894%2900069-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Maria G. Ribeiro; Rui Pinto; Maria C. Sa Miranda; Kunihiko Suzuki</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0925-4439%2894%2900070-7">Tay-Sachs disease: Intron 7 splice junction mutation in two Portuguese patients</a></p>
+		<p>DOI: 10.1016/0925-4439(94)00070-7</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1270, issue&nbsp;1 (1995)</p></td>
+	<td>1007&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0925-4439%2894%2900070-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0925-4439%2894%2900070-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0925-4439%2894%2900070-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0925-4439%2894%2900070-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nanci R. Aiken; William R. Galey; James D. Satterlee</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0925-4439%2894%2900071-w">A peroxidative model of human erythrocyte intracellular Ca2+ changes with in vivo cell aging: Measurement by 19F-NMR spectroscopy</a></p>
+		<p>DOI: 10.1016/0925-4439(94)00071-w</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1270, issue&nbsp;1 (1995)</p></td>
+	<td>719&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0925-4439%2894%2900071-w" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0925-4439%2894%2900071-w">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0925-4439%2894%2900071-w">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0925-4439%2894%2900071-w">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kunihiko Terada; Yoshihiko Kawarada; Naoyuki Miura; Ouki Yasui; Kenji Koyama; Toshihiro Sugiyama</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0925-4439%2894%2900072-x">Copper incorporation into ceruloplasmin in rat livers</a></p>
+		<p>DOI: 10.1016/0925-4439(94)00072-x</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1270, issue&nbsp;1 (1995)</p></td>
+	<td>658&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0925-4439%2894%2900072-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0925-4439%2894%2900072-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0925-4439%2894%2900072-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0925-4439%2894%2900072-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas Grombacher; Bernd Kaina</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0925-4439%2894%2900073-y">Constitutive expression and inducibility of O6-methylguanine-DNA methyltransferase and N-methylpurine-DNA glycosylase in rat liver cells exhibiting different status of differentiation</a></p>
+		<p>DOI: 10.1016/0925-4439(94)00073-y</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1270, issue&nbsp;1 (1995)</p></td>
+	<td>1.27&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0925-4439%2894%2900073-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0925-4439%2894%2900073-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0925-4439%2894%2900073-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0925-4439%2894%2900073-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bedrich J. Mosinger</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0925-4439%2894%2900074-z">Copper-induced and photosensitive oxidation of serum low-density lipoprotein. The relation to cholesterol level and inter-species differences</a></p>
+		<p>DOI: 10.1016/0925-4439(94)00074-z</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1270, issue&nbsp;1 (1995)</p></td>
+	<td>980&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0925-4439%2894%2900074-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0925-4439%2894%2900074-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0925-4439%2894%2900074-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0925-4439%2894%2900074-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Volkmar Gieselmann</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0925-4439%2894%2900075-2">Lysosomal storage diseases</a></p>
+		<p>DOI: 10.1016/0925-4439(94)00075-2</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1270, issue&nbsp;2-3 (1995)</p></td>
+	<td>3.47&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0925-4439%2894%2900075-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0925-4439%2894%2900075-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0925-4439%2894%2900075-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0925-4439%2894%2900075-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Juris J. Liepnieks; Barbara Kluve-Beckerman; Merrill D. Benson</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0925-4439%2894%2900076-3">Characterization of amyloid A protein in human secondary amyloidosis: the predominant deposition of serum amyloid A1</a></p>
+		<p>DOI: 10.1016/0925-4439(94)00076-3</p>	</td>
+	<td><p><a href="/scimag/journals/2754">Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</a><p>volume&nbsp;1270, issue&nbsp;1 (1995)</p></td>
+	<td>720&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0925-4439%2894%2900076-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0925-4439%2894%2900076-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0925-4439%2894%2900076-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0925-4439%2894%2900076-3">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">5&nbsp;250 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 210</span>
+	 <a href="/scimag/?journal=2754&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

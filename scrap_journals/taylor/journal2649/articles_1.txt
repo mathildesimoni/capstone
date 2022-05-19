@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Taylor and Francis Group</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0144-929X</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1362-3001</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 96; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 96');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=2649&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;377 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 96</span>
+	 <a href="/scimag/?journal=2649&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>PECKHAM, JEREMY B.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01449298408901745">Automatic speech recognition—a solution in search of a problem?</a></p>
+		<p>DOI: 10.1080/01449298408901745</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;3, issue&nbsp;2 (1984)</p></td>
+	<td>361&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01449298408901745" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01449298408901745">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01449298408901745">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01449298408901745">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Petre, Marian; Minocha, Shailey; Roberts, Dave</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01449290500331198">Usability beyond the website: An empirically-grounded e-commerce evaluation instrument for the total customer experience</a></p>
+		<p>DOI: 10.1080/01449290500331198</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;25, issue&nbsp;2 (2006)</p></td>
+	<td>218&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01449290500331198" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01449290500331198">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01449290500331198">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01449290500331198">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Srivastava, L</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01449290512331321910">Mobile phones and the evolution of social behaviour</a></p>
+		<p>DOI: 10.1080/01449290512331321910</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;24, issue&nbsp;2 (2005)</p></td>
+	<td>663&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01449290512331321910" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01449290512331321910">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01449290512331321910">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01449290512331321910">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Johnston, Kevin; Tanner, Maureen; Lalla, Nishant; Kawalski, Dori </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F0144929X.2010.550063">Social capital: the benefit of Facebook ‘friends’</a></p>
+		<p>DOI: 10.1080/0144929X.2010.550063</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;32, issue&nbsp;1 (2013)</p></td>
+	<td>513&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F0144929X.2010.550063" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/0144929X.2010.550063">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/0144929X.2010.550063">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/0144929X.2010.550063">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stamper, Ronald; Liu, Kecheng; Hafkamp, Mark; Ades, Yasser</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F014492900118768">Understanding the roles of signs and norms in organizations - a semiotic approach to information systems design</a></p>
+		<p>DOI: 10.1080/014492900118768</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;19, issue&nbsp;1 (2000)</p></td>
+	<td>236&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F014492900118768" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/014492900118768">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/014492900118768">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/014492900118768">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martínez-Torres, M. R.; Díaz-Fernández, M. C.; Toral, S. L.; Barrero, F. J. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F0144929X.2010.529942">Identification of new added value services on intelligent transportation systems</a></p>
+		<p>DOI: 10.1080/0144929X.2010.529942</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;32, issue&nbsp;3 (2013)</p></td>
+	<td>1.16&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F0144929X.2010.529942" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/0144929X.2010.529942">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/0144929X.2010.529942">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/0144929X.2010.529942">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dinev, Tamara; Hart, Paul </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01449290410001715723">Internet privacy concerns and their antecedents - measurement validity and a regression model</a></p>
+		<p>DOI: 10.1080/01449290410001715723</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;23, issue&nbsp;6 (2004)</p></td>
+	<td>155&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01449290410001715723" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01449290410001715723">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01449290410001715723">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01449290410001715723">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Boos, Daniel; Guenter, Hannes; Grote, Gudela; Kinder, Katharina </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F0144929x.2012.674157">Controllable accountabilities: the Internet of Things and its challenges for organisations</a></p>
+		<p>DOI: 10.1080/0144929x.2012.674157</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;32, issue&nbsp;5 (2013)</p></td>
+	<td>592&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F0144929x.2012.674157" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/0144929x.2012.674157">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/0144929x.2012.674157">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/0144929x.2012.674157">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kontogiannis, Tom; Moustakis, Vassilis </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01449290210146728">An experimental evaluation of comprehensibility aspects of knowledge structures derived through induction techniques: A case study of industrial fault diagnosis</a></p>
+		<p>DOI: 10.1080/01449290210146728</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;21, issue&nbsp;2 (2002)</p></td>
+	<td>586&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01449290210146728" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01449290210146728">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01449290210146728">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01449290210146728">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chiou, Jyh-Shen; Shen, Chung-Chi </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F0144929x.2010.549509">The antecedents of online financial service adoption: the impact of physical banking services on Internet banking acceptance</a></p>
+		<p>DOI: 10.1080/0144929x.2010.549509</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;31, issue&nbsp;9 (2012)</p></td>
+	<td>260&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F0144929x.2010.549509" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/0144929x.2010.549509">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/0144929x.2010.549509">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/0144929x.2010.549509">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chennamaneni, Anitha; Teng, James T.C.; Raja, M.K. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F0144929x.2011.624637">A unified model of knowledge sharing behaviours: theoretical development and empirical test</a></p>
+		<p>DOI: 10.1080/0144929x.2011.624637</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;31, issue&nbsp;11 (2012)</p></td>
+	<td>456&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F0144929x.2011.624637" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/0144929x.2011.624637">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/0144929x.2011.624637">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/0144929x.2011.624637">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>KELLEY, CATHERINE L.; CHARNESS, NEIL </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01449299508914630">Issues in training older adults to use computers</a></p>
+		<p>DOI: 10.1080/01449299508914630</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;14, issue&nbsp;2 (1995)</p></td>
+	<td>406&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01449299508914630" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01449299508914630">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01449299508914630">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01449299508914630">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Whalen, Juanita M.; Pexman, Penny M.; Gill, Alastair J.; Nowson, Scott </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F0144929X.2011.630418">Verbal irony use in personal blogs</a></p>
+		<p>DOI: 10.1080/0144929X.2011.630418</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;32, issue&nbsp;6 (2013)</p></td>
+	<td>146&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F0144929X.2011.630418" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/0144929X.2011.630418">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/0144929X.2011.630418">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/0144929X.2011.630418">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wu, I-L; Wu, K-W </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F0144929042000320027">A hybrid technology acceptance approach for exploring e-CRM adoption in organizations</a></p>
+		<p>DOI: 10.1080/0144929042000320027</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;24, issue&nbsp;4 (2005)</p></td>
+	<td>1.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F0144929042000320027" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/0144929042000320027">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/0144929042000320027">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/0144929042000320027">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>BEVAN, NIGEL; MACLEOD, MILES </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01449299408914592">Usability measurement in context</a></p>
+		<p>DOI: 10.1080/01449299408914592</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;13, issue&nbsp;1-2 (1994)</p></td>
+	<td>356&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01449299408914592" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01449299408914592">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01449299408914592">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01449299408914592">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>MacLeod, Miles; Bowden, Rosemary; Bevan, Nigel; Curson, Ian </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F014492997119842">The MUSiC performance measurement method</a></p>
+		<p>DOI: 10.1080/014492997119842</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;16, issue&nbsp;4-5 (1997)</p></td>
+	<td>227&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F014492997119842" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/014492997119842">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/014492997119842">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/014492997119842">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Deng, Xiaodong; Doll, William; Truong, Dothang </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01449290410001723454">Computer self-efficacy in an ongoing use context</a></p>
+		<p>DOI: 10.1080/01449290410001723454</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;23, issue&nbsp;6 (2004)</p></td>
+	<td>212&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01449290410001723454" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01449290410001723454">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01449290410001723454">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01449290410001723454">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>van den Haak, Maaike; De Jong, Menno; Jan Schellens, Peter </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F0044929031000">Retrospective vs. concurrent think-aloud protocols: Testing the usability of an online library catalogue</a></p>
+		<p>DOI: 10.1080/0044929031000</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;22, issue&nbsp;5 (2003)</p></td>
+	<td>327&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F0044929031000" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/0044929031000">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/0044929031000">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/0044929031000">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hassenzahl, Marc</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F014492900118777">Prioritizing usability problems: Data-driven and judgement-driven severity estimates</a></p>
+		<p>DOI: 10.1080/014492900118777</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;19, issue&nbsp;1 (2000)</p></td>
+	<td>228&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F014492900118777" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/014492900118777">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/014492900118777">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/014492900118777">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hassenzahl, Marc; Tractinsky, Noam </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01449290500330331">User experience - a research agenda</a></p>
+		<p>DOI: 10.1080/01449290500330331</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;25, issue&nbsp;2 (2006)</p></td>
+	<td>144&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01449290500330331" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01449290500330331">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01449290500330331">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01449290500330331">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christou, Georgios; Lai-Chong Law, Effie; Zaphiris, Panayiotis; Ang, Chee Siang </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F0144929X.2012.754497">Challenges of designing for sociability to enhance player experience in Massively Multi-player Online Role-playing Games</a></p>
+		<p>DOI: 10.1080/0144929X.2012.754497</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;32, issue&nbsp;7 (2013)</p></td>
+	<td>164&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F0144929X.2012.754497" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/0144929X.2012.754497">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/0144929X.2012.754497">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/0144929X.2012.754497">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Corbett, J. M.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01449298508901801">Prospective work design of a human-centred CNC lathe</a></p>
+		<p>DOI: 10.1080/01449298508901801</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;4, issue&nbsp;3 (1985)</p></td>
+	<td>334&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01449298508901801" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01449298508901801">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01449298508901801">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01449298508901801">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Capece, Guendalina; Campisi, Domenico </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F0144929X.2011.630417">User satisfaction affecting the acceptance of an e-learning platform as a mean for the development of the human capital</a></p>
+		<p>DOI: 10.1080/0144929X.2011.630417</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;32, issue&nbsp;4 (2013)</p></td>
+	<td>345&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F0144929X.2011.630417" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/0144929X.2011.630417">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/0144929X.2011.630417">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/0144929X.2011.630417">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Elias, Steven M.; Smith, William L.; Barney, Chet E. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F0144929X.2010.513419">Age as a moderator of attitude towards technology in the workplace: work motivation and overall job satisfaction</a></p>
+		<p>DOI: 10.1080/0144929X.2010.513419</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;31, issue&nbsp;5 (2012)</p></td>
+	<td>473&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F0144929X.2010.513419" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/0144929X.2010.513419">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/0144929X.2010.513419">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/0144929X.2010.513419">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>CARROLL, JOHN M.; CAMPBELL, ROBERT L. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01449298908914556">Artifacts as psychological theories: the case of human-computer interaction</a></p>
+		<p>DOI: 10.1080/01449298908914556</p>	</td>
+	<td><p><a href="/scimag/journals/2649">Behaviour &amp; Information Technology</a><p>volume&nbsp;8, issue&nbsp;4 (1989)</p></td>
+	<td>239&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01449298908914556" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01449298908914556">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01449298908914556">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01449298908914556">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;377 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 96</span>
+	 <a href="/scimag/?journal=2649&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

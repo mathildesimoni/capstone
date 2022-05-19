@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>2190-8508</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>2190-8516</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 10; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 10');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=12985&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">238 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 10</span>
+	 <a href="/scimag/?journal=12985&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>H. Gregor Molter; Marc Stöttinger; Abdulhadi Shoufan; Falko Strenzke</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0001-3">A simple power analysis attack on a McEliece cryptoprocessor</a></p>
+		<p>DOI: 10.1007/s13389-011-0001-3</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (2011)</p></td>
+	<td>717&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0001-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0001-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0001-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0001-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tim Güneysu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0002-2">Utilizing hard cores of modern FPGA devices for high-performance cryptography</a></p>
+		<p>DOI: 10.1007/s13389-011-0002-2</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (2011)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0002-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0002-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0002-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0002-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Agustin Dominguez-Oviedo; M. Anwar Hasan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0003-1">Algorithm-level error detection for Montgomery ladder-based ECSM</a></p>
+		<p>DOI: 10.1007/s13389-011-0003-1</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (2011)</p></td>
+	<td>937&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0003-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0003-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0003-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0003-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sergei Skorobogatov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0004-0">Synchronization method for SCA and fault attacks</a></p>
+		<p>DOI: 10.1007/s13389-011-0004-0</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (2011)</p></td>
+	<td>1.23&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0004-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0004-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0004-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0004-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cédric Hocquet; Dina Kamel; Francesco Regazzoni; Jean-Didier Legat; Denis Flandre; David Bol; François-Xavier Standaert</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0005-z">Harvesting the potential of nano-CMOS for lightweight cryptography: an ultra-low-voltage 65</a></p>
+		<p>DOI: 10.1007/s13389-011-0005-z</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (2011)</p></td>
+	<td>312&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0005-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0005-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0005-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0005-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul Kocher; Joshua Jaffe; Benjamin Jun; Pankaj Rohatgi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0006-y">Introduction to differential power analysis</a></p>
+		<p>DOI: 10.1007/s13389-011-0006-y</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (2011)</p></td>
+	<td>1.16&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0006-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0006-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0006-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0006-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Çetin Kaya Koç</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0007-x">Introduction to theJournal of Cryptographic Engineering</a></p>
+		<p>DOI: 10.1007/s13389-011-0007-x</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (2011)</p></td>
+	<td>105&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0007-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0007-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0007-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0007-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carlos Moreno; M. Anwar Hasan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0008-9">SPA-resistant binary exponentiation with optimal execution time</a></p>
+		<p>DOI: 10.1007/s13389-011-0008-9</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (2011)</p></td>
+	<td>603&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0008-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0008-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0008-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0008-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-Luc Beuchat; Eiji Okamoto; Teppei Yamazaki</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0009-8">A low-area unified hardware architecture for the AES and the cryptographic hash function ECHO</a></p>
+		<p>DOI: 10.1007/s13389-011-0009-8</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (2011)</p></td>
+	<td>1.89&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0009-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0009-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0009-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0009-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Julien Doget; Emmanuel Prouff; Matthieu Rivain; François-Xavier Standaert</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0010-2">Univariate side channel attacks and leakage modeling</a></p>
+		<p>DOI: 10.1007/s13389-011-0010-2</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (2011)</p></td>
+	<td>1.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0010-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0010-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0010-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0010-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carolyn Whitnall; Elisabeth Oswald</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0011-1">A fair evaluation framework for comparing side-channel distinguishers</a></p>
+		<p>DOI: 10.1007/s13389-011-0011-1</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (2011)</p></td>
+	<td>566&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0011-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0011-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0011-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0011-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Raveen R. Goundar; Marc Joye; Atsuko Miyaji; Matthieu Rivain; Alexandre Venelli</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0012-0">Scalar multiplication on Weierstraß elliptic curves from Co-Zarithmetic</a></p>
+		<p>DOI: 10.1007/s13389-011-0012-0</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (2011)</p></td>
+	<td>382&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0012-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0012-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0012-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0012-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nicolas Méloni; Christophe Negre; M. Anwar Hasan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0013-z">High performance GHASH and impacts of a class of unconventional bases</a></p>
+		<p>DOI: 10.1007/s13389-011-0013-z</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;3 (2011)</p></td>
+	<td>495&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0013-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0013-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0013-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0013-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marcel Medwed; François-Xavier Standaert</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0014-y">Extractors against side-channel attacks: weak or strong?</a></p>
+		<p>DOI: 10.1007/s13389-011-0014-y</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;3 (2011)</p></td>
+	<td>1.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0014-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0014-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0014-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0014-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Éric Brier; David Naccache; Phong Q. Nguyen; Mehdi Tibouchi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0015-x">Modulus fault attacks against RSA–CRT signatures</a></p>
+		<p>DOI: 10.1007/s13389-011-0015-x</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;3 (2011)</p></td>
+	<td>839&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0015-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0015-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0015-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0015-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stefan Katzenbeisser; Ünal Kocabaş; Vincent van der Leest; Ahmad-Reza Sadeghi; Geert-Jan Schrijen; Christian Wachsmann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0016-9">Recyclable PUFs: logically reconfigurable PUFs</a></p>
+		<p>DOI: 10.1007/s13389-011-0016-9</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;3 (2011)</p></td>
+	<td>368&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0016-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0016-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0016-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0016-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jonathan Taverne; Armando Faz-Hernández; Diego F. Aranha; Francisco Rodríguez-Henríquez; Darrel Hankerson; Julio López</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0017-8">Speeding scalar multiplication over binary elliptic curves using the new carry-less multiplication instruction</a></p>
+		<p>DOI: 10.1007/s13389-011-0017-8</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;3 (2011)</p></td>
+	<td>332&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0017-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0017-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0017-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0017-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Tunstall</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0018-7">Practical complexity differential cryptanalysis and fault analysis of AES</a></p>
+		<p>DOI: 10.1007/s13389-011-0018-7</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;3 (2011)</p></td>
+	<td>440&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0018-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0018-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0018-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0018-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Markus Dichtl</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0019-6">A new method of black box power analysis and a fast algorithm for optimal key search</a></p>
+		<p>DOI: 10.1007/s13389-011-0019-6</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;4 (2011)</p></td>
+	<td>450&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0019-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0019-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0019-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0019-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Falko Strenzke</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0020-0">Message-aimed side channel and fault attacks against public key cryptosystems with homomorphic properties</a></p>
+		<p>DOI: 10.1007/s13389-011-0020-0</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;4 (2011)</p></td>
+	<td>265&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0020-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0020-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0020-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0020-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexander Lux; Artem Starostin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0021-z">A tool for static detection of timing channels in Java</a></p>
+		<p>DOI: 10.1007/s13389-011-0021-z</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;4 (2011)</p></td>
+	<td>594&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0021-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0021-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0021-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0021-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sho Endo; Takeshi Sugawara; Naofumi Homma; Takafumi Aoki; Akashi Satoh</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0022-y">An on-chip glitchy-clock generator for testing fault injection attacks</a></p>
+		<p>DOI: 10.1007/s13389-011-0022-y</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;4 (2011)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0022-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0022-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0022-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0022-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gabriel Hospodar; Benedikt Gierlichs; Elke De Mulder; Ingrid Verbauwhede; Joos Vandewalle</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0023-x">Machine learning in side-channel analysis: a first study</a></p>
+		<p>DOI: 10.1007/s13389-011-0023-x</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;4 (2011)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0023-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0023-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0023-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0023-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Roberto Avanzi; Simon Hoerder; Dan Page; Michael Tunstall</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0024-9">Side-channel attacks on the McEliece and Niederreiter public-key cryptosystems</a></p>
+		<p>DOI: 10.1007/s13389-011-0024-9</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;1, issue&nbsp;4 (2011)</p></td>
+	<td>861&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0024-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0024-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0024-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0024-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Grabher; J. Großschädl; S. Hoerder; K. Järvinen; D. Page; S. Tillich; M. Wójcik</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs13389-011-0025-8">An exploration of mechanisms for dynamic cryptographic instruction set extension</a></p>
+		<p>DOI: 10.1007/s13389-011-0025-8</p>	</td>
+	<td><p><a href="/scimag/journals/12985">Journal of Cryptographic Engineering</a><p>volume&nbsp;2, issue&nbsp;1 (2012)</p></td>
+	<td>658&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs13389-011-0025-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s13389-011-0025-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s13389-011-0025-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s13389-011-0025-8">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">238 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 10</span>
+	 <a href="/scimag/?journal=12985&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

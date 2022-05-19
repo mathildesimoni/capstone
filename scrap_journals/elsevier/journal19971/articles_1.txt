@@ -1,0 +1,379 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Masson, Italy (now Elsevier Masson)</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0393-9960</td>
+	</tr>
+					</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 5; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 5');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=19971&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">109 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 5</span>
+	 <a href="/scimag/?journal=19971&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Cecchi, R.; Grillo, A. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.pad.2010.06.001">Il consenso informato in igiene dentale: proposta di una modulistica</a></p>
+		<p>DOI: 10.1016/j.pad.2010.06.001</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;36, issue&nbsp;4 (2010)</p></td>
+	<td>378&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.pad.2010.06.001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.pad.2010.06.001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.pad.2010.06.001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.pad.2010.06.001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>White, J.Douglas</td>
+	<td>
+		<p><a href="/scimag/10.1016%2FS0393-9960%2810%2900116-2">Sommario</a></p>
+		<p>DOI: 10.1016/S0393-9960(10)00116-2</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;36, issue&nbsp;4 (2010)</p></td>
+	<td>49&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2FS0393-9960%2810%2900116-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/S0393-9960%2810%2900116-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/S0393-9960%2810%2900116-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/S0393-9960%2810%2900116-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Guastamacchia, C.</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.pad.2010.06.003">Prevenzione primaria: come attuarla?</a></p>
+		<p>DOI: 10.1016/j.pad.2010.06.003</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;36, issue&nbsp;3 (2010)</p></td>
+	<td>173&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.pad.2010.06.003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.pad.2010.06.003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.pad.2010.06.003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.pad.2010.06.003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Maspero, C.; Esposito, C.; Galbiati, G.; Caceffo, G.; Giannini, L. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.pad.2011.12.004">Alterazioni del cavo orale e strategie preventodontiche in menopausa</a></p>
+		<p>DOI: 10.1016/j.pad.2011.12.004</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;38, issue&nbsp;1 (2012)</p></td>
+	<td>256&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.pad.2011.12.004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.pad.2011.12.004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.pad.2011.12.004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.pad.2011.12.004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mazza, C.; Sasso, R. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.pad.2011.03.004">L’influenza degli stili di vita sull’insorgenza e sulla progressione delle parodontiti</a></p>
+		<p>DOI: 10.1016/j.pad.2011.03.004</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;37, issue&nbsp;3 (2011)</p></td>
+	<td>761&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.pad.2011.03.004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.pad.2011.03.004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.pad.2011.03.004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.pad.2011.03.004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Strohmenger, L.; Cagetti, M.G.; Campus, G.; Longhi, R.; Mastroberardino, S. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.pad.2009.06.004">Prevenzione delle patologie delle mucose orali e dei problemi ortopedici dei mascellari. Linee guida nazionali</a></p>
+		<p>DOI: 10.1016/j.pad.2009.06.004</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;36, issue&nbsp;1 (2010)</p></td>
+	<td>660&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.pad.2009.06.004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.pad.2009.06.004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.pad.2009.06.004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.pad.2009.06.004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mastroberardino, S.; Cagetti, M.G.; Campus, G.; Strohmenger, L. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.pad.2012.07.001">Prevenzione della carie: ruolo dell’alimentazione e della fluoroprofilassi</a></p>
+		<p>DOI: 10.1016/j.pad.2012.07.001</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;38, issue&nbsp;4 (2012)</p></td>
+	<td>554&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.pad.2012.07.001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.pad.2012.07.001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.pad.2012.07.001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.pad.2012.07.001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Smith, FrederickJ.</td>
+	<td>
+		<p><a href="/scimag/10.1016%2FS0393-9960%2810%2900075-2">Sommario</a></p>
+		<p>DOI: 10.1016/S0393-9960(10)00075-2</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;36, issue&nbsp;3 (2010)</p></td>
+	<td>50&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2FS0393-9960%2810%2900075-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/S0393-9960%2810%2900075-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/S0393-9960%2810%2900075-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/S0393-9960%2810%2900075-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Durant, Cécile; Connault, Jérome; Graveleau, Julie; Toquet, Claire; Brisseau, Jean M.; Hamidou, Mohamed </td>
+	<td>
+		<p><a href="/scimag/10.1016%2FS0393-9960%2812%2900038-8">Sommario/Contents</a></p>
+		<p>DOI: 10.1016/S0393-9960(12)00038-8</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;38, issue&nbsp;2 (2012)</p></td>
+	<td>45&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2FS0393-9960%2812%2900038-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/S0393-9960%2812%2900038-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/S0393-9960%2812%2900038-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/S0393-9960%2812%2900038-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Scattarella, A.; Esposito, G.; Di Giorgio, R.; Nardi, G.M. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.pad.2009.06.005">Protocolli preventodontici per pazienti diabetici</a></p>
+		<p>DOI: 10.1016/j.pad.2009.06.005</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;36, issue&nbsp;3 (2010)</p></td>
+	<td>354&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.pad.2009.06.005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.pad.2009.06.005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.pad.2009.06.005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.pad.2009.06.005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>POWER, H</td>
+	<td>
+		<p><a href="/scimag/10.1016%2FS0393-9960%2810%2900009-0">Sommario</a></p>
+		<p>DOI: 10.1016/S0393-9960(10)00009-0</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;36, issue&nbsp;1 (2010)</p></td>
+	<td>50&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2FS0393-9960%2810%2900009-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/S0393-9960%2810%2900009-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/S0393-9960%2810%2900009-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/S0393-9960%2810%2900009-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marchetti, E.; Mummolo, S.; Marzo, G.; Civisca, A.; Di Pietro, C.; Marinelli, G. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.pad.2009.04.003">Effetto di un collutorio agli oli essenziali nella riduzione di placca e infiammazione interprossimali rispetto a una soluzione a base di etanolo</a></p>
+		<p>DOI: 10.1016/j.pad.2009.04.003</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;35, issue&nbsp;4 (2009)</p></td>
+	<td>301&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.pad.2009.04.003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.pad.2009.04.003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.pad.2009.04.003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.pad.2009.04.003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Incardona, M.G.; Pacini, V.; Ricci, M.; Genovesi, A.M. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.pad.2011.03.001">Utilizzo di un gel a base di clorexidina e xantano nel trattamento delle tasche parodontali</a></p>
+		<p>DOI: 10.1016/j.pad.2011.03.001</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;37, issue&nbsp;2 (2011)</p></td>
+	<td>304&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.pad.2011.03.001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.pad.2011.03.001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.pad.2011.03.001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.pad.2011.03.001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Docimo, R.; Costacurta, M.; Maturo, P.; Di Iorio, L.; Paone, F.M. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.pad.2008.11.002">Malattia celiaca e manifestazioni intraorali</a></p>
+		<p>DOI: 10.1016/j.pad.2008.11.002</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;35, issue&nbsp;1 (2009)</p></td>
+	<td>856&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.pad.2008.11.002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.pad.2008.11.002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.pad.2008.11.002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.pad.2008.11.002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Szczepański, Michał; Dądalski, Maciej; Wiernicka, Anna; Oracz, Grzegorz; Ryżko, Józef; Kierkuś, Jarosław </td>
+	<td>
+		<p><a href="/scimag/10.1016%2FS0393-9960%2812%2900097-2">Editorial board</a></p>
+		<p>DOI: 10.1016/S0393-9960(12)00097-2</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;38, issue&nbsp;4 (2012)</p></td>
+	<td>153&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2FS0393-9960%2812%2900097-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/S0393-9960%2812%2900097-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/S0393-9960%2812%2900097-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/S0393-9960%2812%2900097-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Staman, L.; Visscher, A.J.; Luyten, H. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2FS0393-9960%2811%2900040-0">Cover</a></p>
+		<p>DOI: 10.1016/S0393-9960(11)00040-0</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;37, issue&nbsp;2 (2011)</p></td>
+	<td>1.25&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2FS0393-9960%2811%2900040-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/S0393-9960%2811%2900040-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/S0393-9960%2811%2900040-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/S0393-9960%2811%2900040-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zahidova, Kamala; Guliyev, F.A. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2FS0393-9960%2811%2900106-5">Cover</a></p>
+		<p>DOI: 10.1016/S0393-9960(11)00106-5</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;37, issue&nbsp;4 (2011)</p></td>
+	<td>660&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2FS0393-9960%2811%2900106-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/S0393-9960%2811%2900106-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/S0393-9960%2811%2900106-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/S0393-9960%2811%2900106-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Djafari Rouhani, Behzad</td>
+	<td>
+		<p><a href="/scimag/10.1016%2FS0393-9960%2810%2900113-7">Cover</a></p>
+		<p>DOI: 10.1016/S0393-9960(10)00113-7</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;36, issue&nbsp;4 (2010)</p></td>
+	<td>735&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2FS0393-9960%2810%2900113-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/S0393-9960%2810%2900113-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/S0393-9960%2810%2900113-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/S0393-9960%2810%2900113-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dickens, Emma; Ogden, Jane </td>
+	<td>
+		<p><a href="/scimag/10.1016%2FS0393-9960%2812%2900092-3">Cover</a></p>
+		<p>DOI: 10.1016/S0393-9960(12)00092-3</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;38, issue&nbsp;4 (2012)</p></td>
+	<td>171&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2FS0393-9960%2812%2900092-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/S0393-9960%2812%2900092-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/S0393-9960%2812%2900092-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/S0393-9960%2812%2900092-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Manta, F.; Cavicchioli, G.; Vecchiatini, R.; Calura, G. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.pad.2010.09.001">Prevenzione delle complicanze nella traumatologia dentale del paziente in crescita</a></p>
+		<p>DOI: 10.1016/j.pad.2010.09.001</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;37, issue&nbsp;1 (2011)</p></td>
+	<td>612&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.pad.2010.09.001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.pad.2010.09.001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.pad.2010.09.001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.pad.2010.09.001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cortesi Ardizzone, V.</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.pad.2012.05.002">Rilevamento del colore e classificazione delle discromie dentali</a></p>
+		<p>DOI: 10.1016/j.pad.2012.05.002</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;38, issue&nbsp;3 (2012)</p></td>
+	<td>2.49&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.pad.2012.05.002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.pad.2012.05.002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.pad.2012.05.002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.pad.2012.05.002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Poggio, C.; Lombardini, M.; Dagna, A.; Porro, F.; Chiesa, M. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.pad.2009.10.001">Remineralizzazione dello smalto esposto all’azione erosiva delle bevande acide</a></p>
+		<p>DOI: 10.1016/j.pad.2009.10.001</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;36, issue&nbsp;2 (2010)</p></td>
+	<td>616&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.pad.2009.10.001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.pad.2009.10.001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.pad.2009.10.001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.pad.2009.10.001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ricci, M.; Pasini, M.; Zampollo, E.; Genovesi, A. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.pad.2010.02.002">Importanza della comunicazione nella pratica odontoiatrica: nuovi sistemi informatici</a></p>
+		<p>DOI: 10.1016/j.pad.2010.02.002</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;36, issue&nbsp;2 (2010)</p></td>
+	<td>2.87&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.pad.2010.02.002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.pad.2010.02.002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.pad.2010.02.002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.pad.2010.02.002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1016%2FS0393-9960%2811%2900069-2">Cover</a></p>
+		<p>DOI: 10.1016/S0393-9960(11)00069-2</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;37, issue&nbsp;3 (2011)</p></td>
+	<td>1.21&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2FS0393-9960%2811%2900069-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/S0393-9960%2811%2900069-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/S0393-9960%2811%2900069-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/S0393-9960%2811%2900069-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.pad.2009.06.001">Polveri: dibattito aperto</a></p>
+		<p>DOI: 10.1016/j.pad.2009.06.001</p>	</td>
+	<td><p><a href="/scimag/journals/19971">Prevenzione &amp; Assistenza Dentale</a><p>volume&nbsp;35, issue&nbsp;3 (2009)</p></td>
+	<td>162&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.pad.2009.06.001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.pad.2009.06.001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.pad.2009.06.001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.pad.2009.06.001">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">109 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 5</span>
+	 <a href="/scimag/?journal=19971&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

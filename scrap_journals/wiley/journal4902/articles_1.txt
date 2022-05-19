@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4902">Computer Aided Surgery</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1092-9088</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1097-0150</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 35; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 35');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4902&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">856 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 35</span>
+	 <a href="/scimag/?journal=4902&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Richard D. Bucholz</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A1%3C1%3A%3Aaid-igs1%3E3.0.co%3B2-3">Welcome to <em>Computer Aided Surgery</em></a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:1&lt;1::aid-igs1&gt;3.0.co;2-3</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;1 (1997)</p></td>
+	<td>46&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A1%3C1%3A%3Aaid-igs1%3E3.0.co%3B2-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A1%3C1%3A%3Aaid-igs1%3E3.0.co%3B2-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A1%3C1%3A%3Aaid-igs1%3E3.0.co%3B2-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A1%3C1%3A%3Aaid-igs1%3E3.0.co%3B2-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Miguel A. Melgar; Lucia Zamorano; Zhaowei Jiang; Murali Guthikonda; Vicki Gordon; Fernando G. Diaz</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A1%3C11%3A%3Aaid-igs4%3E3.0.co%3B2-q">Three-dimensional magnetic resonance angiography in the planning of aneurysm surgery</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:1&lt;11::aid-igs4&gt;3.0.co;2-q</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;1 (1997)</p></td>
+	<td>1.51&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A1%3C11%3A%3Aaid-igs4%3E3.0.co%3B2-q" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A1%3C11%3A%3Aaid-igs4%3E3.0.co%3B2-q">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A1%3C11%3A%3Aaid-igs4%3E3.0.co%3B2-q">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A1%3C11%3A%3Aaid-igs4%3E3.0.co%3B2-q">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Frank Tendick; Sunil Bhoyrul; Lawrence W. Way</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A1%3C24%3A%3Aaid-igs5%3E3.0.co%3B2-p">Comparison of laparoscopic imaging systems and conditions using a knot-tying task</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:1&lt;24::aid-igs5&gt;3.0.co;2-p</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;1 (1997)</p></td>
+	<td>185&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A1%3C24%3A%3Aaid-igs5%3E3.0.co%3B2-p" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A1%3C24%3A%3Aaid-igs5%3E3.0.co%3B2-p">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A1%3C24%3A%3Aaid-igs5%3E3.0.co%3B2-p">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A1%3C24%3A%3Aaid-igs5%3E3.0.co%3B2-p">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pierre Rabischong</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A1%3C3%3A%3Aaid-igs2%3E3.0.co%3B2-3">Robots for surgeons or surgeons for robots?</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:1&lt;3::aid-igs2&gt;3.0.co;2-3</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;1 (1997)</p></td>
+	<td>49&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A1%3C3%3A%3Aaid-igs2%3E3.0.co%3B2-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A1%3C3%3A%3Aaid-igs2%3E3.0.co%3B2-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A1%3C3%3A%3Aaid-igs2%3E3.0.co%3B2-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A1%3C3%3A%3Aaid-igs2%3E3.0.co%3B2-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fotios D. Vrionis; Jon H. Robertson; Kevin T. Foley; Gale Gardner</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A1%3C34%3A%3Aaid-igs6%3E3.0.co%3B2-o">Image-interactive orientation in the middle cranial fossa approach to the internal auditory canal: <em>An experimental study</em></a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:1&lt;34::aid-igs6&gt;3.0.co;2-o</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;1 (1997)</p></td>
+	<td>566&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A1%3C34%3A%3Aaid-igs6%3E3.0.co%3B2-o" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A1%3C34%3A%3Aaid-igs6%3E3.0.co%3B2-o">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A1%3C34%3A%3Aaid-igs6%3E3.0.co%3B2-o">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A1%3C34%3A%3Aaid-igs6%3E3.0.co%3B2-o">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wieslaw L. Nowinski; Anthony Fang; Bonnie T. Nguyen; Jose K. Raphel; Lakshmipathy Jagannathan; Raghu Raghavan; R. Nick Bryan; Gerald A. Miller</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A1%3C42%3A%3Aaid-igs7%3E3.0.co%3B2-n">Multiple brain atlas database and atlas-based neuroimaging system</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:1&lt;42::aid-igs7&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;1 (1997)</p></td>
+	<td>2.16&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A1%3C42%3A%3Aaid-igs7%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A1%3C42%3A%3Aaid-igs7%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A1%3C42%3A%3Aaid-igs7%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A1%3C42%3A%3Aaid-igs7%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F.K. Albert; C.R. Wirtz; M. Forsting; O. Jansen; H. Polarz; G. Mittermaier; S. Kunze</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A1%3C5%3A%3Aaid-igs3%3E3.0.co%3B2-3">Image guided excision of a ruptured feeding artery “pedicle aneurysm” associated with an arteriovenous malformation in a child: Case report</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:1&lt;5::aid-igs3&gt;3.0.co;2-3</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;1 (1997)</p></td>
+	<td>296&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A1%3C5%3A%3Aaid-igs3%3E3.0.co%3B2-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A1%3C5%3A%3Aaid-igs3%3E3.0.co%3B2-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A1%3C5%3A%3Aaid-igs3%3E3.0.co%3B2-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A1%3C5%3A%3Aaid-igs3%3E3.0.co%3B2-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Visarius; J. Gong; C. Scheer; S. Haralamb; L.P. Nolte</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A2%3C102%3A%3Aaid-igs3%3E3.0.co%3B2-3">Man-machine interfaces in computer assisted surgery</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:2&lt;102::aid-igs3&gt;3.0.co;2-3</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;2 (1997)</p></td>
+	<td>179&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A2%3C102%3A%3Aaid-igs3%3E3.0.co%3B2-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A2%3C102%3A%3Aaid-igs3%3E3.0.co%3B2-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A2%3C102%3A%3Aaid-igs3%3E3.0.co%3B2-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A2%3C102%3A%3Aaid-igs3%3E3.0.co%3B2-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Sati; J.A. de Guise; G. Drouin</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A2%3C108%3A%3Aaid-igs4%3E3.0.co%3B2-3">Computer assisted knee surgery: Diagnostics and planning of knee surgery</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:2&lt;108::aid-igs4&gt;3.0.co;2-3</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;2 (1997)</p></td>
+	<td>429&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A2%3C108%3A%3Aaid-igs4%3E3.0.co%3B2-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A2%3C108%3A%3Aaid-igs4%3E3.0.co%3B2-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A2%3C108%3A%3Aaid-igs4%3E3.0.co%3B2-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A2%3C108%3A%3Aaid-igs4%3E3.0.co%3B2-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Achim Schweikard; John R. Adler</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A2%3C124%3A%3Aaid-igs5%3E3.0.co%3B2-1">Robotic radiosurgery with noncylindrical collimators</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:2&lt;124::aid-igs5&gt;3.0.co;2-1</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;2 (1997)</p></td>
+	<td>257&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A2%3C124%3A%3Aaid-igs5%3E3.0.co%3B2-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A2%3C124%3A%3Aaid-igs5%3E3.0.co%3B2-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A2%3C124%3A%3Aaid-igs5%3E3.0.co%3B2-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A2%3C124%3A%3Aaid-igs5%3E3.0.co%3B2-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bryan J. Duke; Glenn W. Kindt; Robert E. Breeze</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A2%3C135%3A%3Aaid-igs6%3E3.0.co%3B2-0">Pineal region choroid plexus papilloma treated with stereotactic radiosurgery: A case study</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:2&lt;135::aid-igs6&gt;3.0.co;2-0</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;2 (1997)</p></td>
+	<td>264&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A2%3C135%3A%3Aaid-igs6%3E3.0.co%3B2-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A2%3C135%3A%3Aaid-igs6%3E3.0.co%3B2-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A2%3C135%3A%3Aaid-igs6%3E3.0.co%3B2-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A2%3C135%3A%3Aaid-igs6%3E3.0.co%3B2-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard D. Bucholz</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A2%3C67%3A%3Aaid-igs1%3E3.0.co%3B2-k">The Editorial Board of Computer Aided Surgery</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:2&lt;67::aid-igs1&gt;3.0.co;2-k</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;2 (1997)</p></td>
+	<td>53&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A2%3C67%3A%3Aaid-igs1%3E3.0.co%3B2-k" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A2%3C67%3A%3Aaid-igs1%3E3.0.co%3B2-k">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A2%3C67%3A%3Aaid-igs1%3E3.0.co%3B2-k">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A2%3C67%3A%3Aaid-igs1%3E3.0.co%3B2-k">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A2%3C69%3A%3Aaid-igs2%3E3.0.co%3B2-k">Excerpts from the Final Report for the Second International Workshop on Robotics and Computer Assisted Medical Interventions, June 23–26, 1996, Bristol, England</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:2&lt;69::aid-igs2&gt;3.0.co;2-k</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;2 (1997)</p></td>
+	<td>799&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A2%3C69%3A%3Aaid-igs2%3E3.0.co%3B2-k" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A2%3C69%3A%3Aaid-igs2%3E3.0.co%3B2-k">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A2%3C69%3A%3Aaid-igs2%3E3.0.co%3B2-k">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A2%3C69%3A%3Aaid-igs2%3E3.0.co%3B2-k">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jaimie Henderson</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A3%2F4%3C151%3A%3Aaid-igs1%3E3.0.co%3B2-6">Growing with the web: The transition from the <em>Journal of Image Guided Surgery</em> to <em>Computer Aided Surgery</em></a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:3/4&lt;151::aid-igs1&gt;3.0.co;2-6</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;3-4 (1997)</p></td>
+	<td>56&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A3%2F4%3C151%3A%3Aaid-igs1%3E3.0.co%3B2-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A3/4%3C151%3A%3Aaid-igs1%3E3.0.co%3B2-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A3/4%3C151%3A%3Aaid-igs1%3E3.0.co%3B2-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A3/4%3C151%3A%3Aaid-igs1%3E3.0.co%3B2-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Petra Bohner; Catherina Holler; Stefan Haßfeld</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A3%2F4%3C153%3A%3Aaid-igs2%3E3.0.co%3B2-y">Operation planning in craniomaxillofacial surgery</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:3/4&lt;153::aid-igs2&gt;3.0.co;2-y</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;3-4 (1997)</p></td>
+	<td>227&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A3%2F4%3C153%3A%3Aaid-igs2%3E3.0.co%3B2-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A3/4%3C153%3A%3Aaid-igs2%3E3.0.co%3B2-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A3/4%3C153%3A%3Aaid-igs2%3E3.0.co%3B2-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A3/4%3C153%3A%3Aaid-igs2%3E3.0.co%3B2-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carlo Schaller; Bernhard Meyer; Dirk van Roost; Johannes Schramm</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A3%2F4%3C162%3A%3Aaid-igs3%3E3.0.co%3B2-x">Image guided microsurgery with a semifreehand neuronavigational device</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:3/4&lt;162::aid-igs3&gt;3.0.co;2-x</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;3-4 (1997)</p></td>
+	<td>350&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A3%2F4%3C162%3A%3Aaid-igs3%3E3.0.co%3B2-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A3/4%3C162%3A%3Aaid-igs3%3E3.0.co%3B2-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A3/4%3C162%3A%3Aaid-igs3%3E3.0.co%3B2-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A3/4%3C162%3A%3Aaid-igs3%3E3.0.co%3B2-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Rainer Wirtz; Mario M. Bonsanto; Michael Knauth; Volker M. Tronnier; Fritz K. Albert; Andreas Staubert; Stefan Kunze</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A3%2F4%3C172%3A%3Aaid-igs4%3E3.0.co%3B2-t">Intraoperative magnetic resonance imaging to update interactive navigation in neurosurgery: Method and preliminary experience</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:3/4&lt;172::aid-igs4&gt;3.0.co;2-t</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;3-4 (1997)</p></td>
+	<td>415&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A3%2F4%3C172%3A%3Aaid-igs4%3E3.0.co%3B2-t" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A3/4%3C172%3A%3Aaid-igs4%3E3.0.co%3B2-t">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A3/4%3C172%3A%3Aaid-igs4%3E3.0.co%3B2-t">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A3/4%3C172%3A%3Aaid-igs4%3E3.0.co%3B2-t">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Neil L. Dorward; Olaf Alberti; Arnold Dijkstra; Johannes Buurman; Neil D. Kitchen; David G.T. Thomas</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A3%2F4%3C180%3A%3Aaid-igs5%3E3.0.co%3B2-v">Clinical introduction of an adjustable rigid instrument holder for frameless stereotactic interventions</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:3/4&lt;180::aid-igs5&gt;3.0.co;2-v</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;3-4 (1997)</p></td>
+	<td>240&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A3%2F4%3C180%3A%3Aaid-igs5%3E3.0.co%3B2-v" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A3/4%3C180%3A%3Aaid-igs5%3E3.0.co%3B2-v">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A3/4%3C180%3A%3Aaid-igs5%3E3.0.co%3B2-v">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A3/4%3C180%3A%3Aaid-igs5%3E3.0.co%3B2-v">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nitin Patel; David Sandeman</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A3%2F4%3C186%3A%3Aaid-igs6%3E3.0.co%3B2-a">A simple trajectory guidance device that assists freehand and interactive image guided biopsy of small deep intracranial targets</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:3/4&lt;186::aid-igs6&gt;3.0.co;2-a</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;3-4 (1997)</p></td>
+	<td>317&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A3%2F4%3C186%3A%3Aaid-igs6%3E3.0.co%3B2-a" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A3/4%3C186%3A%3Aaid-igs6%3E3.0.co%3B2-a">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A3/4%3C186%3A%3Aaid-igs6%3E3.0.co%3B2-a">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A3/4%3C186%3A%3Aaid-igs6%3E3.0.co%3B2-a">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A3%2F4%3C193%3A%3Aaid-igs7%3E3.0.co%3B2-f">Abstracts from Computer Integrated Surgery in the Areas of Head and Spine, Medicine–Technology–Society, Linz, Austria, September 1–5, 1997</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:3/4&lt;193::aid-igs7&gt;3.0.co;2-f</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;3-4 (1997)</p></td>
+	<td>6.89&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A3%2F4%3C193%3A%3Aaid-igs7%3E3.0.co%3B2-f" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A3/4%3C193%3A%3Aaid-igs7%3E3.0.co%3B2-f">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A3/4%3C193%3A%3Aaid-igs7%3E3.0.co%3B2-f">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A3/4%3C193%3A%3Aaid-igs7%3E3.0.co%3B2-f">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wieslaw L. Nowinski; Anthony Fang; Bonnie T. Nguyen; Jose K. Raphel; Lakshmipathy Jagannathan; Raghu Raghaven; R. Nick Bryan; Gerald A. Miller</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A3%2F4%3C255%3A%3Aaid-igs8%3E3.0.co%3B2-7">Multiple brain atlas database and atlas-based neuroimaging system</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:3/4&lt;255::aid-igs8&gt;3.0.co;2-7</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;3-4 (1997)</p></td>
+	<td>85&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A3%2F4%3C255%3A%3Aaid-igs8%3E3.0.co%3B2-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A3/4%3C255%3A%3Aaid-igs8%3E3.0.co%3B2-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A3/4%3C255%3A%3Aaid-igs8%3E3.0.co%3B2-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A3/4%3C255%3A%3Aaid-igs8%3E3.0.co%3B2-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Federico C. Vinas; Lucia Zamorano; Razvan Buciuc; Qing Hang Li; Falah Shamsa; Zhaowei Jiang; Fernando G. Diaz</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A5%3C257%3A%3Aaid-igs1%3E3.0.co%3B2-z">Application accuracy study of a semipermanent fiducial system for frameless stereotaxis</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:5&lt;257::aid-igs1&gt;3.0.co;2-z</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;5 (1997)</p></td>
+	<td>197&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A5%3C257%3A%3Aaid-igs1%3E3.0.co%3B2-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A5%3C257%3A%3Aaid-igs1%3E3.0.co%3B2-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A5%3C257%3A%3Aaid-igs1%3E3.0.co%3B2-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A5%3C257%3A%3Aaid-igs1%3E3.0.co%3B2-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Derek L.G. Hill; Line A. Langsaeter; Paul N. Poynter-Smith; Claire L. Emery; Paul E. Summers; Stephen F. Keevil; J. Paul M. Pracy; Rory Walsh; David J. Hawkes; Michael J. Gleeson</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A5%3C264%3A%3Aaid-igs2%3E3.0.co%3B2-y">Feasibility study of magnetic resonance imaging-guided intranasal flexible microendoscopy</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:5&lt;264::aid-igs2&gt;3.0.co;2-y</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;5 (1997)</p></td>
+	<td>352&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A5%3C264%3A%3Aaid-igs2%3E3.0.co%3B2-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A5%3C264%3A%3Aaid-igs2%3E3.0.co%3B2-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A5%3C264%3A%3Aaid-igs2%3E3.0.co%3B2-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A5%3C264%3A%3Aaid-igs2%3E3.0.co%3B2-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Akihiko Hanafusa; Hajime Takahashi; Kohji Akagi; Tsuneshi Isomura</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A5%3C276%3A%3Aaid-igs3%3E3.0.co%3B2-x">Development of computer assisted orthosis design and manufacturing system for malformed ears</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:5&lt;276::aid-igs3&gt;3.0.co;2-x</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;5 (1997)</p></td>
+	<td>328&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A5%3C276%3A%3Aaid-igs3%3E3.0.co%3B2-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A5%3C276%3A%3Aaid-igs3%3E3.0.co%3B2-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A5%3C276%3A%3Aaid-igs3%3E3.0.co%3B2-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A5%3C276%3A%3Aaid-igs3%3E3.0.co%3B2-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Reto J. Bale; Michael Vogele; Arno Martin; Thomas Auer; Emil Hensler; Paul Eichberger; Wolfgang Freysinger; Reinhart Sweeney; Andreas R. Gunkel; Peter H. Lukas</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291097-0150%281997%292%3A5%3C286%3A%3Aaid-igs4%3E3.0.co%3B2-w">VBH head holder to improve frameless stereotactic brachytherapy of cranial tumors</a></p>
+		<p>DOI: 10.1002/(sici)1097-0150(1997)2:5&lt;286::aid-igs4&gt;3.0.co;2-w</p>	</td>
+	<td><p><a href="/scimag/journals/4902">Computer Aided Surgery</a><p>volume&nbsp;2, issue&nbsp;5 (1997)</p></td>
+	<td>328&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291097-0150%281997%292%3A5%3C286%3A%3Aaid-igs4%3E3.0.co%3B2-w" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291097-0150%281997%292%3A5%3C286%3A%3Aaid-igs4%3E3.0.co%3B2-w">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291097-0150%281997%292%3A5%3C286%3A%3Aaid-igs4%3E3.0.co%3B2-w">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291097-0150%281997%292%3A5%3C286%3A%3Aaid-igs4%3E3.0.co%3B2-w">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">856 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 35</span>
+	 <a href="/scimag/?journal=4902&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

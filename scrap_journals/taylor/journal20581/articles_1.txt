@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/20581">Quality Engineering</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Taylor and Francis Group</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0898-2112</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1532-4222</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 85; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 85');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=20581&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;115 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 85</span>
+	 <a href="/scimag/?journal=20581&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Levinson, William A.; Cumbo, Joseph </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982110008962619">SIMPLIFIED CONTROL CHARTS FOR MULTIVARIATE NORMAL SYSTEMS</a></p>
+		<p>DOI: 10.1080/08982110008962619</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;12, issue&nbsp;4 (2000)</p></td>
+	<td>703&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982110008962619" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982110008962619">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982110008962619">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982110008962619">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chang, Shing I.; Tsai, Tzong-Ru; Lin, Dennis K. J.; Chou, Shih-Hsiung; Lin, Yu-Siang</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982112.2012.641149">Statistical Process Control for Monitoring Nonlinear Profiles: A Six Sigma Project on Curing Process</a></p>
+		<p>DOI: 10.1080/08982112.2012.641149</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;24, issue&nbsp;2 (2012)</p></td>
+	<td>1.97&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982112.2012.641149" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982112.2012.641149">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982112.2012.641149">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982112.2012.641149">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gijo, E. V.</td>
+	<td>
+		<p><a href="/scimag/10.1081%2Fqen-200056494">Improving Process Capability of Manufacturing Process by Application of Statistical Techniques</a></p>
+		<p>DOI: 10.1081/qen-200056494</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;17, issue&nbsp;2 (2005)</p></td>
+	<td>124&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1081%2Fqen-200056494" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1081/qen-200056494">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1081/qen-200056494">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1081/qen-200056494">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Khasawneh, Mohammad T.; Bowling, Shannon R.; Kaewkuekool, Sittichai; Cho, Byung Rae</td>
+	<td>
+		<p><a href="/scimag/10.1081%2Fqen-200028681">Tables of a Truncated Standard Normal Distribution: A Singly Truncated Case</a></p>
+		<p>DOI: 10.1081/qen-200028681</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;17, issue&nbsp;1 (2004)</p></td>
+	<td>309&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1081%2Fqen-200028681" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1081/qen-200028681">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1081/qen-200028681">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1081/qen-200028681">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yang, Kai; Yang, Guangbin </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982110108918621">PERFORMANCE DEGRADATION ANALYSIS FOR IRLEDs</a></p>
+		<p>DOI: 10.1080/08982110108918621</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;13, issue&nbsp;1 (2001)</p></td>
+	<td>325&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982110108918621" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982110108918621">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982110108918621">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982110108918621">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Khasawneh, Mohammad T.; Bowling, Shannon R.; Kaewkuekool, Sittichai; Cho, Byung Rae </td>
+	<td>
+		<p><a href="/scimag/10.1081%2Fqen-200057321">Tables of a Truncated Standard Normal Distribution: A Doubly Truncated Case</a></p>
+		<p>DOI: 10.1081/qen-200057321</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;17, issue&nbsp;2 (2005)</p></td>
+	<td>729&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1081%2Fqen-200057321" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1081/qen-200057321">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1081/qen-200057321">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1081/qen-200057321">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Steiner, Stefan H.; MacKay, R. Jock; Ramberg, John S. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982110701648125">An Overview of the Shainin System™ for Quality Improvement</a></p>
+		<p>DOI: 10.1080/08982110701648125</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;20, issue&nbsp;1 (2007)</p></td>
+	<td>392&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982110701648125" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982110701648125">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982110701648125">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982110701648125">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ferrer, Alberto</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982110701621304">Multivariate Statistical Process Control Based on Principal Component Analysis (MSPC-PCA): Some Reflections and a Case Study in an Autobody Assembly Process</a></p>
+		<p>DOI: 10.1080/08982110701621304</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;19, issue&nbsp;4 (2007)</p></td>
+	<td>891&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982110701621304" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982110701621304">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982110701621304">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982110701621304">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Govindaraju, K.; Lai, C. D. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982119808919207">STATISTICAL DESIGN OF CONTROL SCHEMES FOR LOW FRACTION NONCONFORMING</a></p>
+		<p>DOI: 10.1080/08982119808919207</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;11, issue&nbsp;1 (1998)</p></td>
+	<td>127&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982119808919207" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982119808919207">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982119808919207">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982119808919207">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Samuel, Thomas R.; Pignatiello, Joseph J.; Calvin, James A. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982119808919167">IDENTIFYING THE TIME OF A STEP CHANGE IN A NORMAL PROCESS VARIANCE</a></p>
+		<p>DOI: 10.1080/08982119808919167</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;10, issue&nbsp;3 (1998)</p></td>
+	<td>267&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982119808919167" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982119808919167">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982119808919167">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982119808919167">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>PEARN, W. L.; KOTZ, SAMUEL </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982119408918772">APPLICATION OF CLEMENTS' METHOD FOR CALCULATING SECOND- AND THIRD-GENERATION PROCESS CAPABILITY INDICES FOR NON-NORMAL PEARSONIAN POPULATIONS</a></p>
+		<p>DOI: 10.1080/08982119408918772</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;7, issue&nbsp;1 (1994)</p></td>
+	<td>111&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982119408918772" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982119408918772">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982119408918772">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982119408918772">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Samuel, Thomas R.; Pignatiello, Joseph J.; Calvin, James A. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982119808919166">IDENTIFYING THE TIME OF A STEP CHANGE WITH X¯ CONTROL CHARTS</a></p>
+		<p>DOI: 10.1080/08982119808919166</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;10, issue&nbsp;3 (1998)</p></td>
+	<td>177&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982119808919166" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982119808919166">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982119808919166">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982119808919166">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yacout, Soumaya; Chang, Yusuo </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982119708919061">MODELING PROCESS QUALITY COSTS FOR ALTERNATIVE QUALITY PLANS</a></p>
+		<p>DOI: 10.1080/08982119708919061</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;9, issue&nbsp;3 (1997)</p></td>
+	<td>293&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982119708919061" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982119708919061">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982119708919061">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982119708919061">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wasserman, Gary S.; Lindland, John L. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982119608919023">A CASE STUDY ILLUSTRATING THE EXISTENCE OF DYNAMICS IN TRADITIONAL COST-OF-QUALITY MODELS</a></p>
+		<p>DOI: 10.1080/08982119608919023</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;9, issue&nbsp;1 (1996)</p></td>
+	<td>260&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982119608919023" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982119608919023">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982119608919023">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982119608919023">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shahriari, Hamid; Abdollahzadeh, Mohammadreza </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982110902873605">A New Multivariate Process Capability Vector</a></p>
+		<p>DOI: 10.1080/08982110902873605</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;21, issue&nbsp;3 (2009)</p></td>
+	<td>782&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982110902873605" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982110902873605">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982110902873605">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982110902873605">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Montgomery, Douglas C.; Borror, Connie M.; Stanley, James D. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982119708919145">SOME CAUTIONS IN THE USE OF PLACKETT-BURMAN DESIGNS</a></p>
+		<p>DOI: 10.1080/08982119708919145</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;10, issue&nbsp;2 (1997)</p></td>
+	<td>214&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982119708919145" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982119708919145">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982119708919145">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982119708919145">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nepal, Bimal; Mohanty, Sankalp; Kay, Lawrence </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982112.2012.758282">Quality Improvement of Medical Wire Manufacturing Process</a></p>
+		<p>DOI: 10.1080/08982112.2012.758282</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;25, issue&nbsp;2 (2013)</p></td>
+	<td>290&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982112.2012.758282" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982112.2012.758282">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982112.2012.758282">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982112.2012.758282">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Santiago, Eduardo; Smith, Joel </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982112.2012.740646">Control Charts Based on the Exponential Distribution: Adapting Runs Rules for the              <i>t</i>              Chart</a></p>
+		<p>DOI: 10.1080/08982112.2012.740646</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;25, issue&nbsp;2 (2013)</p></td>
+	<td>644&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982112.2012.740646" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982112.2012.740646">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982112.2012.740646">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982112.2012.740646">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hamada, Michael</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982110500225489">Using Degradation Data to Assess Reliability</a></p>
+		<p>DOI: 10.1080/08982110500225489</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;17, issue&nbsp;4 (2005)</p></td>
+	<td>113&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982110500225489" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982110500225489">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982110500225489">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982110500225489">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hayter, A. J.; Kiatsupaibul, S. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982112.2012.758285">Exact Inferences for a Weibull Model</a></p>
+		<p>DOI: 10.1080/08982112.2012.758285</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;25, issue&nbsp;2 (2013)</p></td>
+	<td>336&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982112.2012.758285" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982112.2012.758285">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982112.2012.758285">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982112.2012.758285">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chambal, Stephen P.; Keats, J. Bert </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982110108918639">EVALUATING COMPLEX SYSTEM RELIABILITY USING RELIABILITY BLOCK DIAGRAM SIMULATION WHEN LITTLE OR NO FAILURE DATA ARE AVAILABLE</a></p>
+		<p>DOI: 10.1080/08982110108918639</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;13, issue&nbsp;2 (2000)</p></td>
+	<td>433&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982110108918639" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982110108918639">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982110108918639">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982110108918639">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Commo, Sean A.; Parker, Peter A. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982112.2012.641147">Statistical Engineering Perspective on Planetary Entry, Descent, and Landing Research</a></p>
+		<p>DOI: 10.1080/08982112.2012.641147</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;24, issue&nbsp;2 (2012)</p></td>
+	<td>567&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982112.2012.641147" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982112.2012.641147">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982112.2012.641147">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982112.2012.641147">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Steinberg, David M.; Bursztyn, Dizza </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F08982110903510388">Response Surface Methodology in Biotechnology</a></p>
+		<p>DOI: 10.1080/08982110903510388</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;22, issue&nbsp;2 (2010)</p></td>
+	<td>216&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F08982110903510388" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/08982110903510388">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/08982110903510388">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/08982110903510388">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shah, Harry K.; Montgomery, Douglas C.; Carlyle, W. Matthew </td>
+	<td>
+		<p><a href="/scimag/10.1081%2FQEN-120027941">Response Surface Modeling and Optimization in Multiresponse Experiments Using Seemingly Unrelated Regressions</a></p>
+		<p>DOI: 10.1081/QEN-120027941</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;16, issue&nbsp;3 (2004)</p></td>
+	<td>241&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1081%2FQEN-120027941" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1081/QEN-120027941">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1081/QEN-120027941">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1081/QEN-120027941">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Su, Chao-Ton; Hsu, Chih-Ming; Liao, Dirac </td>
+	<td>
+		<p><a href="/scimag/10.1081%2FQEN-120003558">Improving the Tap Coupler Optical Performance in the Fused Process by the Taguchi Method</a></p>
+		<p>DOI: 10.1081/QEN-120003558</p>	</td>
+	<td><p><a href="/scimag/journals/20581">Quality Engineering</a><p>volume&nbsp;14, issue&nbsp;4 (2002)</p></td>
+	<td>490&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1081%2FQEN-120003558" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1081/QEN-120003558">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1081/QEN-120003558">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1081/QEN-120003558">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;115 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 85</span>
+	 <a href="/scimag/?journal=20581&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

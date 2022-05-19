@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1884">Archiv der Mathematik</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0003-889X</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1420-8938</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 367; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 367');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1884&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">9&nbsp;160 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 367</span>
+	 <a href="/scimag/?journal=1884&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>J. -T. Chan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188567">Facial structure of the trace class</a></p>
+		<p>DOI: 10.1007/bf01188567</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;64, issue&nbsp;3 (1995)</p></td>
+	<td>184&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188567" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188567">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188567">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188567">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Heinrich</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188568">On a conjecture of Azevedo</a></p>
+		<p>DOI: 10.1007/bf01188568</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;64, issue&nbsp;3 (1995)</p></td>
+	<td>607&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188568" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188568">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188568">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188568">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. Bergweiler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188569">On the zeros of certain homogeneous differential polynomials</a></p>
+		<p>DOI: 10.1007/bf01188569</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;64, issue&nbsp;3 (1995)</p></td>
+	<td>230&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188569" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188569">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188569">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188569">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Oneto; E. Zatini</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188570">When the Jacobian algebra of a curve singularity is Gorenstein</a></p>
+		<p>DOI: 10.1007/bf01188570</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;64, issue&nbsp;3 (1995)</p></td>
+	<td>335&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188570" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188570">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188570">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188570">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bin Zhang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188571">Théorèmes du type Bertini en caractéristique positive</a></p>
+		<p>DOI: 10.1007/bf01188571</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;64, issue&nbsp;3 (1995)</p></td>
+	<td>475&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188571" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188571">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188571">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188571">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean -Daniel Thérond</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188572">Extensions cycliques cubiques monogènes de l'anneau des entiers d'un corps quadratique</a></p>
+		<p>DOI: 10.1007/bf01188572</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;64, issue&nbsp;3 (1995)</p></td>
+	<td>744&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188572" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188572">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188572">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188572">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ralf Beyerstedt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188573">Isolated singularities of elliptic Monge-Ampère equations in dimensionsn≧2</a></p>
+		<p>DOI: 10.1007/bf01188573</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;64, issue&nbsp;3 (1995)</p></td>
+	<td>323&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188573" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188573">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188573">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188573">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paolo Secchi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188574">Well-posedness for a mixed problem for the equations of ideal Magneto-Hydrodynamics</a></p>
+		<p>DOI: 10.1007/bf01188574</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;64, issue&nbsp;3 (1995)</p></td>
+	<td>581&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188574" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188574">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188574">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188574">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jörg Bahnmüller; Thomas Bogenschütz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188575">A Margulis-Ruelle inequality for random dynamical systems</a></p>
+		<p>DOI: 10.1007/bf01188575</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;64, issue&nbsp;3 (1995)</p></td>
+	<td>458&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188575" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188575">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188575">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188575">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Peri; S. Vassallo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188576">Minimal properties for convex annuli of plane convex curves</a></p>
+		<p>DOI: 10.1007/bf01188576</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;64, issue&nbsp;3 (1995)</p></td>
+	<td>694&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188576" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188576">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188576">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188576">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Victor Chepoi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188577">On starshapedness in products of interval spaces</a></p>
+		<p>DOI: 10.1007/bf01188577</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;64, issue&nbsp;3 (1995)</p></td>
+	<td>330&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188577" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188577">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188577">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188577">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Zong</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188578">On a conjecture of Croft, Falconer and Guy on finite packings</a></p>
+		<p>DOI: 10.1007/bf01188578</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;64, issue&nbsp;3 (1995)</p></td>
+	<td>182&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188578" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188578">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188578">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188578">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Goansu Kim; C. Y. Tang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01189094">Conjugacy separability of HNN-extensions of abelian groups</a></p>
+		<p>DOI: 10.1007/bf01189094</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;67, issue&nbsp;5 (1996)</p></td>
+	<td>472&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01189094" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01189094">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01189094">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01189094">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thorsten Holm</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01189095">Hochschild cohomology of the integral group ring of a cyclic group and related algebras</a></p>
+		<p>DOI: 10.1007/bf01189095</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;67, issue&nbsp;5 (1996)</p></td>
+	<td>386&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01189095" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01189095">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01189095">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01189095">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pham Huu Tiep</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01189096">A remark on a theorem of P. de la Harpe and V. F. R. Jones</a></p>
+		<p>DOI: 10.1007/bf01189096</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;67, issue&nbsp;5 (1996)</p></td>
+	<td>841&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01189096" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01189096">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01189096">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01189096">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alfred Hofmann; Dieter Wolke</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01189097">On additive decompositions of the set of primes</a></p>
+		<p>DOI: 10.1007/bf01189097</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;67, issue&nbsp;5 (1996)</p></td>
+	<td>213&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01189097" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01189097">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01189097">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01189097">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bernd Greuel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01189098">über Summen zahlentheoretischer Funktionen</a></p>
+		<p>DOI: 10.1007/bf01189098</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;67, issue&nbsp;5 (1996)</p></td>
+	<td>574&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01189098" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01189098">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01189098">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01189098">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. AraÚjo; E. Beckenstein; L. Narici</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01189099">When is a separating map biseparating?</a></p>
+		<p>DOI: 10.1007/bf01189099</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;67, issue&nbsp;5 (1996)</p></td>
+	<td>940&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01189099" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01189099">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01189099">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01189099">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zoran Vondraček</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01189100">An estimate for theL2-norm of a quasi continuous function with respect to a smooth measure</a></p>
+		<p>DOI: 10.1007/bf01189100</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;67, issue&nbsp;5 (1996)</p></td>
+	<td>316&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01189100" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01189100">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01189100">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01189100">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Charles J. K. Batty; Lajos Molnár</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01189101">On topological reflexivity of the groups of*-automorphisms and surjective isometrics of ∇ (H)</a></p>
+		<p>DOI: 10.1007/bf01189101</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;67, issue&nbsp;5 (1996)</p></td>
+	<td>451&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01189101" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01189101">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01189101">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01189101">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kari KatajamÄki</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01189102">Value distribution of certain differential polynomials of algebroid functions</a></p>
+		<p>DOI: 10.1007/bf01189102</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;67, issue&nbsp;5 (1996)</p></td>
+	<td>389&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01189102" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01189102">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01189102">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01189102">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Hasanis; T. Vlachos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01189103">Spherical 2-type surfaces</a></p>
+		<p>DOI: 10.1007/bf01189103</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;67, issue&nbsp;5 (1996)</p></td>
+	<td>562&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01189103" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01189103">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01189103">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01189103">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael J. J. Barry; Michael B. Ward</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01189562">Products of Sylow groups</a></p>
+		<p>DOI: 10.1007/bf01189562</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;63, issue&nbsp;4 (1994)</p></td>
+	<td>98&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01189562" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01189562">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01189562">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01189562">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Giambruno; E. Jespers; A. Valenti</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01189563">Group identities on units of rings</a></p>
+		<p>DOI: 10.1007/bf01189563</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;63, issue&nbsp;4 (1994)</p></td>
+	<td>380&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01189563" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01189563">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01189563">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01189563">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Aner Shalev</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01189564">Simple Lie algebras and Lie algebras of maximal class</a></p>
+		<p>DOI: 10.1007/bf01189564</p>	</td>
+	<td><p><a href="/scimag/journals/1884">Archiv der Mathematik</a><p>volume&nbsp;63, issue&nbsp;4 (1994)</p></td>
+	<td>257&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01189564" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01189564">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01189564">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01189564">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">9&nbsp;160 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 367</span>
+	 <a href="/scimag/?journal=1884&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

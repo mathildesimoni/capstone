@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/5999">Documenta Ophthalmologica</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0012-4486</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-2622</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 156; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 156');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=5999&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;876 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 156</span>
+	 <a href="/scimag/?journal=5999&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>J. P. Dernouchamps</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140422">The proteins of the aqueous humour</a></p>
+		<p>DOI: 10.1007/bf00140422</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;53, issue&nbsp;3 (1982)</p></td>
+	<td>3.84&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140422" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140422">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140422">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140422">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. C. Campos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140423">Binocularity in comitant strabismus: Binocular visual fields studies</a></p>
+		<p>DOI: 10.1007/bf00140423</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;53, issue&nbsp;3 (1982)</p></td>
+	<td>1.43&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140423" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140423">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140423">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140423">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Y. J. Gordon; M. Mokete</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140424">Pediatric ocular injuries in Lesotho</a></p>
+		<p>DOI: 10.1007/bf00140424</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;53, issue&nbsp;3 (1982)</p></td>
+	<td>286&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140424" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140424">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140424">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140424">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. E. Henkes; L. J. Heer; D. P. Choyce</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140425">Book reviews</a></p>
+		<p>DOI: 10.1007/bf00140425</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;53, issue&nbsp;3 (1982)</p></td>
+	<td>137&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140425" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140425">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140425">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140425">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thorne Shipley</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140453">Field processes in stereovision</a></p>
+		<p>DOI: 10.1007/bf00140453</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;66, issue&nbsp;2 (1987)</p></td>
+	<td>5.53&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140453" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140453">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140453">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140453">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Algis J. Vingrys; Leon F. Garner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140454">The effect of a moderate level of hypoxia on human color vision</a></p>
+		<p>DOI: 10.1007/bf00140454</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;66, issue&nbsp;2 (1987)</p></td>
+	<td>787&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140454" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140454">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140454">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140454">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. A. K. Bastiaensen; A. C. M. Leyten; T. G. Tjan; J. F. M. M. Misere</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140455">Chondroid chordoma of the base of the skull: Orbital and other neuro-ophthalmological symptoms</a></p>
+		<p>DOI: 10.1007/bf00140455</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;55, issue&nbsp;1-2 (1983)</p></td>
+	<td>2.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140455" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140455">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140455">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140455">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. A. K. Bastiaensen; K. L. J. Hoefnagels</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140456">Patterned anomalies of the retinal pigment epithelium: Dystrophy or syndrome?</a></p>
+		<p>DOI: 10.1007/bf00140456</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;55, issue&nbsp;1-2 (1983)</p></td>
+	<td>1.94&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140456" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140456">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140456">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140456">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. H. Beekhuis; J. G. C. Renardel Lavalette; G. Rij; G. J. P. Schaap</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140457">Therapeutic keratoplasty for active herpetic corneal disease: viral culture and prognosis</a></p>
+		<p>DOI: 10.1007/bf00140457</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;55, issue&nbsp;1-2 (1983)</p></td>
+	<td>237&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140457" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140457">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140457">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140457">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. J. Blanksma; A. C. Kooijman; J. H. Roze; J. V. Siertsema</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140458">Clinical applications of fluorometry</a></p>
+		<p>DOI: 10.1007/bf00140458</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;55, issue&nbsp;1-2 (1983)</p></td>
+	<td>141&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140458" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140458">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140458">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140458">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. L. Dake; P. J. M. Bos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140459">Treatment of glaucoma simplex with argon laser coagulation of the scleral spur (L.S.S.C.)</a></p>
+		<p>DOI: 10.1007/bf00140459</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;55, issue&nbsp;1-2 (1983)</p></td>
+	<td>235&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140459" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140459">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140459">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140459">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. L. Delft; J. A. Oosterhuis; E. R. Barthen; A. M. Eijkelenboom</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140460">Janus green vital staining of the cornea</a></p>
+		<p>DOI: 10.1007/bf00140460</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;55, issue&nbsp;1-2 (1983)</p></td>
+	<td>1.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140460" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140460">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140460">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140460">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. J. L. Doesschate; W. A. Manschot</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140461">A case of temporal arteritis</a></p>
+		<p>DOI: 10.1007/bf00140461</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;55, issue&nbsp;1-2 (1983)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140461" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140461">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140461">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140461">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Ganswijk; J. A. Oosterhuis; M. Swart-Van Berg; J. Versteeg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140462">Acyclovir treatment in stromal herpetic keratitis</a></p>
+		<p>DOI: 10.1007/bf00140462</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;55, issue&nbsp;1-2 (1983)</p></td>
+	<td>205&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140462" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140462">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140462">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140462">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Hogeweg; P. T. V. M. Jong</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140463">Candida endophthalmitis in heroin addicts</a></p>
+		<p>DOI: 10.1007/bf00140463</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;55, issue&nbsp;1-2 (1983)</p></td>
+	<td>881&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140463" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140463">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140463">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140463">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. C. Kok-Van Alphen; H. J. M. Völker-Dieben</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140464">Melting of the recipient part of the cornea after keratoplasty</a></p>
+		<p>DOI: 10.1007/bf00140464</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;55, issue&nbsp;1-2 (1983)</p></td>
+	<td>1.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140464" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140464">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140464">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140464">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. A. Kruis; L. A. K. Bastiaensen; K. L. J. Hoefnagels</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140465">Senile idiopathic macular holes</a></p>
+		<p>DOI: 10.1007/bf00140465</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;55, issue&nbsp;1-2 (1983)</p></td>
+	<td>1.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140465" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140465">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140465">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140465">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. J. Laey</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140466">Natural history and prognosis of choroidal neovascularization</a></p>
+		<p>DOI: 10.1007/bf00140466</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;55, issue&nbsp;1-2 (1983)</p></td>
+	<td>4.12&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140466" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140466">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140466">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140466">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. H. M. Lith; W. Hekkert-Wiebenga</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140467">Cataract, pattern stimulation and visually evoked potentials</a></p>
+		<p>DOI: 10.1007/bf00140467</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;55, issue&nbsp;1-2 (1983)</p></td>
+	<td>280&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140467" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140467">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140467">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140467">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. A. Manschot</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140468">Introductory remarks on ocular neovascularization</a></p>
+		<p>DOI: 10.1007/bf00140468</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;55, issue&nbsp;1-2 (1983)</p></td>
+	<td>242&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140468" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140468">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140468">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140468">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. A. Manschot</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140469">Retinal neovascularization after retinal vaso-obliteration Frequency — origin — morphology</a></p>
+		<p>DOI: 10.1007/bf00140469</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;55, issue&nbsp;1-2 (1983)</p></td>
+	<td>177&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140469" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140469">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140469">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140469">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. A. Oosterhuis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140470">Argon and krypton laser photocoagulation of senile exudative macular degeneration</a></p>
+		<p>DOI: 10.1007/bf00140470</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;55, issue&nbsp;1-2 (1983)</p></td>
+	<td>1.37&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140470" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140470">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140470">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140470">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. C. Sterk; C. A. Geldof; H. G. Ten-Jet-Foei</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140471">The lens and PUVA therapy</a></p>
+		<p>DOI: 10.1007/bf00140471</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;55, issue&nbsp;1-2 (1983)</p></td>
+	<td>191&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140471" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140471">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140471">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140471">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. R. Vrijland; G. H. M. Lith</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140472">The value of preoperative electro-ophthalmological examination before cataract extraction</a></p>
+		<p>DOI: 10.1007/bf00140472</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;55, issue&nbsp;1-2 (1983)</p></td>
+	<td>199&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140472" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140472">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140472">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140472">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anzhelika M. Shamshinova</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140493">Local ERG for clinical examination of eye diseases</a></p>
+		<p>DOI: 10.1007/bf00140493</p>	</td>
+	<td><p><a href="/scimag/journals/5999">Documenta Ophthalmologica</a><p>volume&nbsp;76, issue&nbsp;1 (1990)</p></td>
+	<td>389&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140493" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140493">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140493">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140493">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;876 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 156</span>
+	 <a href="/scimag/?journal=5999&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

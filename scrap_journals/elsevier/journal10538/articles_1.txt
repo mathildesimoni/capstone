@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Elsevier Science</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1071-5819</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1095-9300</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 96; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 96');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=10538&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;390 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 96</span>
+	 <a href="/scimag/?journal=10538&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>M.E. SIME; T.R.G. GREEN; D.J. GUEST</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1972.0302">Psychological Evaluation of Two Conditional Constructions Used in Computer Languages</a></p>
+		<p>DOI: 10.1006/ijhc.1972.0302</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>801&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1972.0302" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1972.0302">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1972.0302">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1972.0302">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E.H. MAMDANI; S. ASSILIAN</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1973.0303">An Experiment in Linguistic Synthesis with a Fuzzy Logic Controller</a></p>
+		<p>DOI: 10.1006/ijhc.1973.0303</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>761&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1973.0303" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1973.0303">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1973.0303">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1973.0303">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>HUMBERTO R. MATURANA</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1974.0304">The Organization of the Living: A Theory of the Living Organization</a></p>
+		<p>DOI: 10.1006/ijhc.1974.0304</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>2.00&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1974.0304" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1974.0304">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1974.0304">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1974.0304">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>LANCE A. MILLER; JOHN C. THOMAS JR.</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1977.0305">Behavioral issues in the use of interactive systems</a></p>
+		<p>DOI: 10.1006/ijhc.1977.0305</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>3.62&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1977.0305" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1977.0305">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1977.0305">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1977.0305">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>RUVEN BROOKS</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1977.0306">Towards a theory of the cognitive processes in computer programming</a></p>
+		<p>DOI: 10.1006/ijhc.1977.0306</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>1.87&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1977.0306" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1977.0306">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1977.0306">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1977.0306">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>LISANNE BAINBRIDGE</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1979.0307">Verbal reports as evidence of the process operator's knowledge</a></p>
+		<p>DOI: 10.1006/ijhc.1979.0307</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>3.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1979.0307" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1979.0307">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1979.0307">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1979.0307">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R.S. MICHALSKI; R.L. CHILAUSKY</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1979.0308">Knowledge acquisition by encoding expert rules versus computer induction from examples: a case study involving soybean pathology</a></p>
+		<p>DOI: 10.1006/ijhc.1979.0308</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>1.98&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1979.0308" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1979.0308">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1979.0308">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1979.0308">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. ROBERTSON; D. MCCRACKEN; A. NEWELL</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1980.0310">The ZOG approach to man-machine communication</a></p>
+		<p>DOI: 10.1006/ijhc.1980.0310</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>3.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1980.0310" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1980.0310">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1980.0310">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1980.0310">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>BENEDICT DU BOULAY; TIM O&#039;SHEA; JOHN MONK</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1981.0309">The black box inside the glass box: presenting computing concepts to novices</a></p>
+		<p>DOI: 10.1006/ijhc.1981.0309</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>1.51&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1981.0309" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1981.0309">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1981.0309">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1981.0309">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>RAYMOND S. NICKERSON</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1981.0311">Why interactive computer systems are sometimes not used by people who might benefit from them</a></p>
+		<p>DOI: 10.1006/ijhc.1981.0311</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>1.72&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1981.0311" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1981.0311">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1981.0311">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1981.0311">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>ELAINE RICH</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1981.0312">Users are individuals: individualizing user models</a></p>
+		<p>DOI: 10.1006/ijhc.1981.0312</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>1.79&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1981.0312" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1981.0312">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1981.0312">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1981.0312">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>ERIK HOLLNAGEL; DAVID D WOODS</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1982.0313">Cognitive Systems Engineering: New wine in new bottles</a></p>
+		<p>DOI: 10.1006/ijhc.1982.0313</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>2.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1982.0313" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1982.0313">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1982.0313">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1982.0313">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. CHANDRASEKARAN; SANJAY MITTAL</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1983.0314">Deep versus compiled knowledge approaches to diagnostic problem-solving</a></p>
+		<p>DOI: 10.1006/ijhc.1983.0314</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>1.46&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1983.0314" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1983.0314">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1983.0314">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1983.0314">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>ZDZISŁAW PAWLAK</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1983.0315">Rough classification</a></p>
+		<p>DOI: 10.1006/ijhc.1983.0315</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>830&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1983.0315" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1983.0315">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1983.0315">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1983.0315">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>DAVID KIERAS; PETER G. POLSON</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1983.0317">An approach to the formal analysis of user complexity</a></p>
+		<p>DOI: 10.1006/ijhc.1983.0317</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>2.87&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1983.0317" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1983.0317">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1983.0317">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1983.0317">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>JOHN M. CARROLL; ROBERT L. MACK</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1984.0316">Metaphor, computing systems, and active learning</a></p>
+		<p>DOI: 10.1006/ijhc.1984.0316</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>2.32&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1984.0316" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1984.0316">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1984.0316">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1984.0316">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>CHRISTINE L. BORGMAN</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1985.0318">The user's mental model of an information retrieval system: an experiment on a prototype online catalog</a></p>
+		<p>DOI: 10.1006/ijhc.1985.0318</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>2.03&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1985.0318" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1985.0318">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1985.0318">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1985.0318">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>JOHN H. BOOSE; JEFFREY M. BRADSHAW</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1987.0319">Expertise transfer and complex problems: using AQUINAS as a knowledge-acquisition workbench for knowledge-based systems</a></p>
+		<p>DOI: 10.1006/ijhc.1987.0319</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>2.63&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1987.0319" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1987.0319">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1987.0319">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1987.0319">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>MARK A. MUSEN; LAWRENCE M. FAGAN; DAVID M. COMBS; EDWARD H. SHORTLIFFE</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1987.0320">Use of a domain model to drive an interactive knowledge-editing tool</a></p>
+		<p>DOI: 10.1006/ijhc.1987.0320</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>1.85&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1987.0320" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1987.0320">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1987.0320">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1987.0320">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J.R QUINLAN</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1987.0321">Simplifying decision trees</a></p>
+		<p>DOI: 10.1006/ijhc.1987.0321</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;51, issue&nbsp;2 (1999)</p></td>
+	<td>1.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1987.0321" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1987.0321">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1987.0321">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1987.0321">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1994.1001">Editorial</a></p>
+		<p>DOI: 10.1006/ijhc.1994.1001</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;40, issue&nbsp;1 (1994)</p></td>
+	<td>108&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1994.1001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1994.1001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1994.1001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1994.1001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christine M. Pietras; Bruce G. Coury</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1994.1002">The development of cognitive models of planning for use in the design of project management systems</a></p>
+		<p>DOI: 10.1006/ijhc.1994.1002</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;40, issue&nbsp;1 (1994)</p></td>
+	<td>880&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1994.1002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1994.1002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1994.1002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1994.1002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Giorgio Brajnik; Carlo Tasso</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1994.1003">A shell for developing non-monotonic user modeling systems</a></p>
+		<p>DOI: 10.1006/ijhc.1994.1003</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;40, issue&nbsp;1 (1994)</p></td>
+	<td>1.85&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1994.1003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1994.1003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1994.1003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1994.1003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James E. Trumbly; Kirk P. Arnett; Peter C. Johnson</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1994.1004">Productivity gains via an adaptive user interface: an empirical analysis</a></p>
+		<p>DOI: 10.1006/ijhc.1994.1004</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;40, issue&nbsp;1 (1994)</p></td>
+	<td>658&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1994.1004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1994.1004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1994.1004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1994.1004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ann M. Bisantz; Kim J. Vicente</td>
+	<td>
+		<p><a href="/scimag/10.1006%2Fijhc.1994.1005">Making the abstraction hierarchy concrete</a></p>
+		<p>DOI: 10.1006/ijhc.1994.1005</p>	</td>
+	<td><p><a href="/scimag/journals/10538">International Journal of Human-Computer Studies</a><p>volume&nbsp;40, issue&nbsp;1 (1994)</p></td>
+	<td>1.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1006%2Fijhc.1994.1005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1006/ijhc.1994.1005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1006/ijhc.1994.1005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1006/ijhc.1994.1005">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;390 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 96</span>
+	 <a href="/scimag/?journal=10538&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

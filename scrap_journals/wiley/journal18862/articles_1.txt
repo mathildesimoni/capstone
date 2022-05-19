@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/18862">Orbis Litterarum</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0105-7510</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1600-0730</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 76; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 76');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=18862&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;877 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 76</span>
+	 <a href="/scimag/?journal=18862&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Philip Marshall Ward</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-11.x">`Bacchen des Euripides zu erneuern': The <em>Pentheus</em> Project of Hugo von Hofmannsthal</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-11.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;3 (2000)</p></td>
+	<td>145&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-11.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-11.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-11.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-11.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Éric Paquin</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-12.x">La préface du roman épistolaire féminin au début du XIXe siècle</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-12.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;3 (2000)</p></td>
+	<td>109&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-12.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-12.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-12.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-12.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Annegret Friedrichsen</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-13.x">Magie der Vermählung – Bemerkungen zu einer Ästhetik der ‘Zwischensphäre’ in Virginia Woolfs <em>Lappin and Lapinova</em> und Ilse Aichingers <em>Engel in der Nacht</em></a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-13.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;3 (2000)</p></td>
+	<td>125&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-13.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-13.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-13.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-13.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-14.x">Book Review</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-14.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;3 (2000)</p></td>
+	<td>30&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-14.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-14.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-14.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-14.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anders Cullhed</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-15.x">The Mistress of the Ring : A note on Francisco de Quevedo and Baroque Figuration</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-15.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;4 (2000)</p></td>
+	<td>81&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-15.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-15.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-15.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-15.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-157.x">Editorial</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-157.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;1 (2000)</p></td>
+	<td>20&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-157.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-157.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-157.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-157.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dmitri Nikulin</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-16.x">“The Distorting Mirror of Hell (On the Interpretation of Pluto's Words in Dante's Inferno VII,1)”</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-16.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;4 (2000)</p></td>
+	<td>85&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-16.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-16.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-16.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-16.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eva Hartby</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-17.x">The End of King John</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-17.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;4 (2000)</p></td>
+	<td>151&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-17.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-17.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-17.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-17.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Mortensen</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-18.x">Taking Animals Seriously: William Wordsworth and the Claims of Ecological Romanticism</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-18.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;4 (2000)</p></td>
+	<td>75&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-18.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-18.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-18.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-18.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-19.x">Book Review</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-19.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;4 (2000)</p></td>
+	<td>43&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-19.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-19.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-19.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-19.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dieter Freundlieb</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-2.x">Derrida's Defence of Paul de Man's Wartime Writings: A Deconstructionist Dilemma</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-2.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;1 (2000)</p></td>
+	<td>74&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-2.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-2.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-2.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-2.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-20.x">Book Review</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-20.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;4 (2000)</p></td>
+	<td>31&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-20.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-20.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-20.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-20.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Albrecht Classen</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-21.x">The Amazing East and the Curious Reader: Twelfth-Century World Exploration through a Writer's Mind: Lamprecht's <b><em>Alexander</em></b></a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-21.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;5 (2000)</p></td>
+	<td>117&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-21.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-21.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-21.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-21.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Leonardo Cecchini</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-22.x">“Allegory of the theologians” or “allegory of the poets”: Allegory in Dante's <b><em>Commedia</em></b></a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-22.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;5 (2000)</p></td>
+	<td>179&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-22.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-22.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-22.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-22.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christoph Lindner</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-23.x">Outside Looking In: Material Culture in Gaskell's Industrial Novels</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-23.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;5 (2000)</p></td>
+	<td>86&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-23.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-23.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-23.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-23.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Svend Erik Larsen</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-24.x">Introduction</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-24.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;6 (2000)</p></td>
+	<td>26&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-24.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-24.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-24.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-24.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Catherine Nesci</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-25.x">Balzac ou la séduction du corps passant : IN MEMORIAM CHARLES C. BERNHEIMER</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-25.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;6 (2000)</p></td>
+	<td>118&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-25.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-25.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-25.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-25.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Svend Erik Larsen</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-26.x">Passions of Realism</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-26.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;6 (2000)</p></td>
+	<td>93&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-26.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-26.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-26.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-26.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anne-Marie Baron</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-27.x">Les <em>Scènes de la vie privée</em> ou le regard interdit</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-27.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;6 (2000)</p></td>
+	<td>87&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-27.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-27.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-27.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-27.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hans Peter Lund</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-28.x">L'illusion levée. Regard journalistique et visualisation littéraire à partir de Balzac (XIXe siècle)</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-28.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;6 (2000)</p></td>
+	<td>102&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-28.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-28.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-28.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-28.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Frederik Tygstrup</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-29.x">Realisms: Images of the body in Balzac, Flaubert, and Proust</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-29.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;6 (2000)</p></td>
+	<td>99&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-29.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-29.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-29.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-29.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Mack</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-3.x">The Politics of Sacrifice: Hermann Broch's Critique of Fascism in <em>Die Verzauberung</em></a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-3.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;1 (2000)</p></td>
+	<td>110&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-3.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-3.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-3.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-3.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Karlheinz Hasselbach</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-4.x"><em>Aestheticized Politics</em>,1 or the Long Shadow of Ernst Jünger's “Old Testament?”</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-4.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;1 (2000)</p></td>
+	<td>115&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-4.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-4.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-4.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-4.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Volker C. Dörr</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-5.x">»… bey einer guten Handlung böse Grundsätze zu argwohnen!« Empfindsame Diskurse bei Gellert, Sophie von La Roche und in Goethes <em>Werther</em></a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-5.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;1 (2000)</p></td>
+	<td>115&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-5.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-5.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-5.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-5.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dieter Arendt</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0730.2000.d01-6.x">Brentanos Philister-Rede am Ende des romantischen Jahrhunderts oder Der Philister-Krieg und seine unrühmliche Kapitulation</a></p>
+		<p>DOI: 10.1034/j.1600-0730.2000.d01-6.x</p>	</td>
+	<td><p><a href="/scimag/journals/18862">Orbis Litterarum</a><p>volume&nbsp;55, issue&nbsp;2 (2000)</p></td>
+	<td>121&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0730.2000.d01-6.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0730.2000.d01-6.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0730.2000.d01-6.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0730.2000.d01-6.x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;877 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 76</span>
+	 <a href="/scimag/?journal=18862&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

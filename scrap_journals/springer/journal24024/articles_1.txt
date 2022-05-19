@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/24024">The Journal of Supercomputing</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer US</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0920-8542</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-0484</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 162; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 162');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=24024&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;032 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 162</span>
+	 <a href="/scimag/?journal=24024&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Andrew W. Appel; Aage Bendiksen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127826">Vectorized garbage collection</a></p>
+		<p>DOI: 10.1007/bf00127826</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;3, issue&nbsp;3 (1989)</p></td>
+	<td>521&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127826" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127826">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127826">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127826">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Laurence Boxer; Russ Miller</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127827">Dynamic computational geometry on meshes and hypercubes</a></p>
+		<p>DOI: 10.1007/bf00127827</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;3, issue&nbsp;3 (1989)</p></td>
+	<td>1.73&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127827" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127827">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127827">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127827">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christian H. Bischof</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127828">Adaptive blocking in the QR factorization</a></p>
+		<p>DOI: 10.1007/bf00127828</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;3, issue&nbsp;3 (1989)</p></td>
+	<td>888&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127828" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127828">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127828">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127828">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jinwoon Woo; Sartaj Sahni</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127829">Hypercube computing: Connected components</a></p>
+		<p>DOI: 10.1007/bf00127829</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;3, issue&nbsp;3 (1989)</p></td>
+	<td>1.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127829" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127829">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127829">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127829">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. Ranai; B. Srinivasan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127830">Complexity analysis of benchmark software for supercomputers</a></p>
+		<p>DOI: 10.1007/bf00127830</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;3, issue&nbsp;3 (1989)</p></td>
+	<td>402&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127830" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127830">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127830">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127830">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127831">Contributing authors</a></p>
+		<p>DOI: 10.1007/bf00127831</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;3, issue&nbsp;3 (1989)</p></td>
+	<td>579&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127831" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127831">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127831">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127831">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Weicheng Shen; A. Yavuz Oruç</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127832">Systolic arrays for multidimensional discrete transforms</a></p>
+		<p>DOI: 10.1007/bf00127832</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;4, issue&nbsp;3 (1990)</p></td>
+	<td>1.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127832" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127832">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127832">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127832">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peizong Lee; Zvi M. Kedem</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127833">On high-speed computing with a programmable linear array</a></p>
+		<p>DOI: 10.1007/bf00127833</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;4, issue&nbsp;3 (1990)</p></td>
+	<td>1.46&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127833" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127833">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127833">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127833">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Takao Tsuda; Yoshitoshi Kunieda</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127834">V-Pascal: An automatic vectorizing compiler for Pascal with no language extensions</a></p>
+		<p>DOI: 10.1007/bf00127834</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;4, issue&nbsp;3 (1990)</p></td>
+	<td>1.24&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127834" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127834">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127834">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127834">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Clive F. Baillie; Desmond A. Johnston; Gregory W. Kilcup</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127835">Status and prospects of the computational approach to high-energy physics</a></p>
+		<p>DOI: 10.1007/bf00127835</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;4, issue&nbsp;3 (1990)</p></td>
+	<td>1.46&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127835" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127835">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127835">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127835">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Reisman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127836">Ionizing radiation effects on ULSI device yield and reliability</a></p>
+		<p>DOI: 10.1007/bf00127836</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;4, issue&nbsp;3 (1990)</p></td>
+	<td>524&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127836" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127836">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127836">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127836">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127837">Contributing authors</a></p>
+		<p>DOI: 10.1007/bf00127837</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;4, issue&nbsp;3 (1990)</p></td>
+	<td>697&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127837" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127837">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127837">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127837">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127838">Editorial</a></p>
+		<p>DOI: 10.1007/bf00127838</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;5, issue&nbsp;2-3 (1991)</p></td>
+	<td>18&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127838" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127838">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127838">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127838">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lewis Stiller</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127839">Group graphs and computational symmetry on massively parallel architecture</a></p>
+		<p>DOI: 10.1007/bf00127839</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;5, issue&nbsp;2-3 (1991)</p></td>
+	<td>1.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127839" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127839">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127839">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127839">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Parthasarathy P. Tirumalai; Meng Lee; Michael S. Schlansker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127840">Parallelization of WHILE loops on pipelined architectures</a></p>
+		<p>DOI: 10.1007/bf00127840</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;5, issue&nbsp;2-3 (1991)</p></td>
+	<td>977&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127840" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127840">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127840">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127840">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Allen D. Malony; John L. Larson; Daniel A. Reed</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127841">Tracing application program execution on the CRAY X-MP and CRAY-2</a></p>
+		<p>DOI: 10.1007/bf00127841</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;5, issue&nbsp;2-3 (1991)</p></td>
+	<td>1.40&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127841" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127841">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127841">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127841">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yong-Fong Lee; Barbara G. Ryder; Thomas J. Marlowe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127842">Experiences with a parallel algorithm for data flow analysis</a></p>
+		<p>DOI: 10.1007/bf00127842</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;5, issue&nbsp;2-3 (1991)</p></td>
+	<td>1.56&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127842" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127842">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127842">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127842">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. W. Johnson; C. H. Huang; J. R. Johnson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127843">Multilinear algebra and parallel programming</a></p>
+		<p>DOI: 10.1007/bf00127843</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;5, issue&nbsp;2-3 (1991)</p></td>
+	<td>1.15&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127843" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127843">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127843">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127843">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zarka Cvetanovic; Edward G. Freedman; Charles Nofsinger</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127844">Efficient decomposition and performance of parallel PDE, FFT, Monte Carlo simulations, simplex, and Sparse solvers</a></p>
+		<p>DOI: 10.1007/bf00127844</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;5, issue&nbsp;2-3 (1991)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127844" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127844">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127844">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127844">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127845">Contributing authors</a></p>
+		<p>DOI: 10.1007/bf00127845</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;5, issue&nbsp;2-3 (1991)</p></td>
+	<td>1004&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127845" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127845">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127845">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127845">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vladimir Cherkassky; Ross Smith</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127846">Efficient mapping and implementation of matrix algorithms on a hypercube</a></p>
+		<p>DOI: 10.1007/bf00127846</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;2, issue&nbsp;1 (1988)</p></td>
+	<td>864&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127846" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127846">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127846">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127846">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nigel P. Topham; Amos Omondi; Roland N. Ibbett</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127847">Context flow: An alternative to conventional pipelined architectures</a></p>
+		<p>DOI: 10.1007/bf00127847</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;2, issue&nbsp;1 (1988)</p></td>
+	<td>1.33&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127847" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127847">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127847">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127847">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Youngju Won; Sartaj Sahni</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127848">Maze routing on a hypercube multicomputer</a></p>
+		<p>DOI: 10.1007/bf00127848</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;2, issue&nbsp;1 (1988)</p></td>
+	<td>1010&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127848" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127848">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127848">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127848">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Lakshmivarahan; Sudarshan K. Dhall</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127849">A new hierarchy of hypercube interconnection schemes for parallel computers</a></p>
+		<p>DOI: 10.1007/bf00127849</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;2, issue&nbsp;1 (1988)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127849" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127849">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127849">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127849">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127850">Contributing authors</a></p>
+		<p>DOI: 10.1007/bf00127850</p>	</td>
+	<td><p><a href="/scimag/journals/24024">The Journal of Supercomputing</a><p>volume&nbsp;2, issue&nbsp;1 (1988)</p></td>
+	<td>879&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127850" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127850">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127850">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127850">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;032 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 162</span>
+	 <a href="/scimag/?journal=24024&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

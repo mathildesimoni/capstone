@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4877">Computational Complexity</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1016-3328</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1420-8954</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 21; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 21');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4877&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">508 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 21</span>
+	 <a href="/scimag/?journal=4877&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Joachim von zur Gathen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200055">An editorial</a></p>
+		<p>DOI: 10.1007/bf01200055</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;1, issue&nbsp;1 (1991)</p></td>
+	<td>148&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200055" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200055">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200055">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200055">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>László Babai; Lance Fortnow; Carsten Lund</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200056">Non-deterministic exponential time has two-prover interactive protocols</a></p>
+		<p>DOI: 10.1007/bf01200056</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;1, issue&nbsp;1 (1991)</p></td>
+	<td>2.43&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200056" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200056">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200056">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200056">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>László Babai; Lance Fortnow</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200057">Arithmetization: A new method in structural complexity theory</a></p>
+		<p>DOI: 10.1007/bf01200057</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;1, issue&nbsp;1 (1991)</p></td>
+	<td>1.56&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200057" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200057">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200057">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200057">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Allan Borodin; Prasoon Tiwari</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200058">On the decidability of sparse univariate polynomial interpolation</a></p>
+		<p>DOI: 10.1007/bf01200058</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;1, issue&nbsp;1 (1991)</p></td>
+	<td>1.40&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200058" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200058">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200058">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200058">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard Cleve</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200059">Towards optimal simulations of formulas by bounded-width programs</a></p>
+		<p>DOI: 10.1007/bf01200059</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;1, issue&nbsp;1 (1991)</p></td>
+	<td>886&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200059" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200059">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200059">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200059">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200060">Instructions for preparing camera-ready manuscripts</a></p>
+		<p>DOI: 10.1007/bf01200060</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;1, issue&nbsp;1 (1991)</p></td>
+	<td>316&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200060" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200060">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200060">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200060">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wayne Eberly</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200061">Decompositions of algebras over ℝ and ℂ</a></p>
+		<p>DOI: 10.1007/bf01200061</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;1, issue&nbsp;3 (1991)</p></td>
+	<td>1.64&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200061" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200061">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200061">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200061">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ulrich Baum</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200062">Existence and efficient construction of fast Fourier transforms on supersolvable groups</a></p>
+		<p>DOI: 10.1007/bf01200062</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;1, issue&nbsp;3 (1991)</p></td>
+	<td>1.33&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200062" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200062">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200062">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200062">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael D. Hirsch</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200063">Lower bounds for the non-linear complexity of algebraic computation trees with integer inputs</a></p>
+		<p>DOI: 10.1007/bf01200063</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;1, issue&nbsp;3 (1991)</p></td>
+	<td>687&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200063" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200063">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200063">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200063">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ker-I Ko; Wen-Guey Tzeng</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200064">Three ∑P2-complete problems in computational learning theory</a></p>
+		<p>DOI: 10.1007/bf01200064</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;1, issue&nbsp;3 (1991)</p></td>
+	<td>2.65&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200064" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200064">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200064">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200064">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Toniann Pitassi; Paul Beame; Russell Impagliazzo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200117">Exponential lower bounds for the pigeonhole principle</a></p>
+		<p>DOI: 10.1007/bf01200117</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;3, issue&nbsp;2 (1993)</p></td>
+	<td>2.80&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200117" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200117">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200117">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200117">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ran Canetti; Oded Goldreich</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200118">Bounds on tradeoffs between randomness and communication complexity</a></p>
+		<p>DOI: 10.1007/bf01200118</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;3, issue&nbsp;2 (1993)</p></td>
+	<td>1.52&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200118" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200118">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200118">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200118">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Desh Ranjan; Suresh Chari; Pankaj Rohatgi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200119">Improving known solutions is hard</a></p>
+		<p>DOI: 10.1007/bf01200119</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;3, issue&nbsp;2 (1993)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200119" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200119">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200119">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200119">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Judy Goldsmith; Deborah Joseph</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200120">Relativized isomorphisms of NP-complete sets</a></p>
+		<p>DOI: 10.1007/bf01200120</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;3, issue&nbsp;2 (1993)</p></td>
+	<td>1.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200120" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200120">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200120">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200120">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Borodin; A. Razborov; R. Smolensky</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200404">On lower bounds for read-k-times branching programs</a></p>
+		<p>DOI: 10.1007/bf01200404</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;3, issue&nbsp;1 (1993)</p></td>
+	<td>1.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200404" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200404">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200404">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200404">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen A. Cook; Patrick W. Dymond</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200405">Parallel pointer machines</a></p>
+		<p>DOI: 10.1007/bf01200405</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;3, issue&nbsp;1 (1993)</p></td>
+	<td>804&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200405" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200405">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200405">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200405">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Leandro Caniglia; Guillermo Cortiñas; Silvia Danón; Joos Heintz; Teresa Krick; Pablo Solernó</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200406">Algorithmic aspects of Suslin's proof of Serre's conjecture</a></p>
+		<p>DOI: 10.1007/bf01200406</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;3, issue&nbsp;1 (1993)</p></td>
+	<td>1.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200406" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200406">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200406">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200406">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marc Giusti; Joos Heintz; Juan Sabia</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200407">On the efficiency of effective Nullstellensätze</a></p>
+		<p>DOI: 10.1007/bf01200407</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;3, issue&nbsp;1 (1993)</p></td>
+	<td>2.61&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200407" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200407">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200407">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200407">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mikael Goldmann; Johan Håstad; Alexander Razborov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200426">Majority gates vs. general weighted threshold gates</a></p>
+		<p>DOI: 10.1007/bf01200426</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;2, issue&nbsp;4 (1992)</p></td>
+	<td>1.40&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200426" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200426">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200426">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200426">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Johannes Köbler; Uwe Schöning; Jacobo Torán</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200427">Graph isomorphism is low for PP</a></p>
+		<p>DOI: 10.1007/bf01200427</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;2, issue&nbsp;4 (1992)</p></td>
+	<td>1.82&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200427" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200427">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200427">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200427">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Aurenhammer; J. Hagauer; W. Imrich</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200428">Cartesian graph factorization at logarithmic cost per edge</a></p>
+		<p>DOI: 10.1007/bf01200428</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;2, issue&nbsp;4 (1992)</p></td>
+	<td>1.27&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200428" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200428">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200428">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200428">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Omer Berkman; Yossi Matias; Uzi Vishkin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200429">Randomized range-maxima in nearly-constant parallel time</a></p>
+		<p>DOI: 10.1007/bf01200429</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;2, issue&nbsp;4 (1992)</p></td>
+	<td>1.56&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200429" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200429">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200429">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200429">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Babai; L. Fortnow; C. Lund</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01200430">Non-deterministic exponential time has two-prover interactive protocols</a></p>
+		<p>DOI: 10.1007/bf01200430</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;2, issue&nbsp;4 (1992)</p></td>
+	<td>24&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01200430" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01200430">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01200430">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01200430">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Spephen Bellantoni; Stephen Cook</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01201998">A new recursion-theoretic characterization of the polytime functions</a></p>
+		<p>DOI: 10.1007/bf01201998</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;2, issue&nbsp;2 (1992)</p></td>
+	<td>883&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01201998" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01201998">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01201998">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01201998">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Matthijs J. Coster; Antoine Joux; Brian A. LaMacchia; Andrew M. Odlyzko; Claus-Peter Schnorr; Jacques Stern</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01201999">Improved low-density subset sum algorithms</a></p>
+		<p>DOI: 10.1007/bf01201999</p>	</td>
+	<td><p><a href="/scimag/journals/4877">Computational Complexity</a><p>volume&nbsp;2, issue&nbsp;2 (1992)</p></td>
+	<td>927&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01201999" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01201999">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01201999">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01201999">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">508 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 21</span>
+	 <a href="/scimag/?journal=4877&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

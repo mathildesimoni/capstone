@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/6550">Empirical Software Engineering</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer US</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1382-3256</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-7616</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 44; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 44');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=6550&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;093 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 44</span>
+	 <a href="/scimag/?journal=6550&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Ross Jeffery; John Stathis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125809">Function point sizing: Structure, validity and applicability</a></p>
+		<p>DOI: 10.1007/bf00125809</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (1996)</p></td>
+	<td>1.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125809" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125809">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125809">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125809">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Taghi M. Khoshgoftaar; Edward B. Allen; Kalai S. Kalaichelvan; Nishith Goel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125810">The impact of software evolution and reuse on software quality</a></p>
+		<p>DOI: 10.1007/bf00125810</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (1996)</p></td>
+	<td>941&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125810" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125810">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125810">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125810">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas P. Frazier; John W. Bailey; Melissa L. Corso</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125811">Comparing ada and FORTRAN lines of code: Some experimental results</a></p>
+		<p>DOI: 10.1007/bf00125811</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (1996)</p></td>
+	<td>1.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125811" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125811">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125811">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125811">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lionel Briand; Khaled El Emam; Sandro Morasca</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125812">On the application of measurement theory in software engineering</a></p>
+		<p>DOI: 10.1007/bf00125812</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (1996)</p></td>
+	<td>2.03&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125812" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125812">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125812">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125812">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Warren Harrison; Victor Basili</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127445">In this issue</a></p>
+		<p>DOI: 10.1007/bf00127445</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;1, issue&nbsp;3 (1996)</p></td>
+	<td>52&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127445" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127445">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127445">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127445">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Khaled Emam; Nazim H. Madhavji</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127446">An instrument for measuring the success of the requirements engineering process in information systems development</a></p>
+		<p>DOI: 10.1007/bf00127446</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;1, issue&nbsp;3 (1996)</p></td>
+	<td>2.36&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127446" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127446">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127446">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127446">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christopher M. Lott; H. Dieter Rombach</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127447">Repeatable software engineering experiments for comparing defect-detection techniques</a></p>
+		<p>DOI: 10.1007/bf00127447</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;1, issue&nbsp;3 (1996)</p></td>
+	<td>2.50&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127447" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127447">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127447">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127447">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John C. Munson; Gregory A. Hall</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00127448">Estimating test effectiveness with dynamic complexity measurement</a></p>
+		<p>DOI: 10.1007/bf00127448</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;1, issue&nbsp;3 (1996)</p></td>
+	<td>1.70&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00127448" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00127448">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00127448">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00127448">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00368699">“In this issue”</a></p>
+		<p>DOI: 10.1007/bf00368699</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (1996)</p></td>
+	<td>68&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00368699" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00368699">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00368699">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00368699">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Victor R. Basili</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00368700">Editorial</a></p>
+		<p>DOI: 10.1007/bf00368700</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (1996)</p></td>
+	<td>316&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00368700" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00368700">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00368700">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00368700">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Daly; Andrew Brooks; James Miller; Marc Roper; Murray Wood</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00368701">Evaluating inheritance depth on the maintainability of object-oriented software</a></p>
+		<p>DOI: 10.1007/bf00368701</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (1996)</p></td>
+	<td>1.87&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00368701" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00368701">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00368701">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00368701">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Victor R. Basili; Scott Green; Oliver Laitenberger; Filippo Lanubile; Forrest Shull; Sivert Sørumgård; Marvin V. Zelkowitz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00368702">The empirical investigation of Perspective-Based Reading</a></p>
+		<p>DOI: 10.1007/bf00368702</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (1996)</p></td>
+	<td>1.92&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00368702" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00368702">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00368702">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00368702">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Donald W. Sova; Carol Smidts</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00368703">Increasing testing productivity and software quality: A comparison of software testing methodologies within NASA</a></p>
+		<p>DOI: 10.1007/bf00368703</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (1996)</p></td>
+	<td>1.46&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00368703" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00368703">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00368703">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00368703">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lionel Briand; Vic Basili</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10664-004-6188-5">In this Issue</a></p>
+		<p>DOI: 10.1007/s10664-004-6188-5</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;10, issue&nbsp;2 (2005)</p></td>
+	<td>33&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10664-004-6188-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10664-004-6188-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10664-004-6188-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10664-004-6188-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Amela Karahasanoviæ; Bente Anda; Erik Arisholm; Siw Elisabeth Hove; Magne Jørgensen; Dag I K Sjøberg; Ray Welland</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10664-004-6189-4">Collecting Feedback during Software Engineering Experiments</a></p>
+		<p>DOI: 10.1007/s10664-004-6189-4</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;10, issue&nbsp;2 (2005)</p></td>
+	<td>221&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10664-004-6189-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10664-004-6189-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10664-004-6189-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10664-004-6189-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mikael Svahnberg; Claes Wohlin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10664-004-6190-y">An Investigation of a Method for Identifying a Software Architecture Candidate with Respect to Quality Attributes</a></p>
+		<p>DOI: 10.1007/s10664-004-6190-y</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;10, issue&nbsp;2 (2005)</p></td>
+	<td>334&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10664-004-6190-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10664-004-6190-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10664-004-6190-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10664-004-6190-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Taghi M. Khoshgoftaar; Naeem Seliya; Kehan Gao</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10664-004-6191-x">Assessment of a New Three-Group Software Quality Classification Technique: An Empirical Case Study</a></p>
+		<p>DOI: 10.1007/s10664-004-6191-x</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;10, issue&nbsp;2 (2005)</p></td>
+	<td>230&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10664-004-6191-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10664-004-6191-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10664-004-6191-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10664-004-6191-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James McDonald</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10664-004-6192-9">The Impact of Project Planning Team Experience on Software Project Cost Estimates</a></p>
+		<p>DOI: 10.1007/s10664-004-6192-9</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;10, issue&nbsp;2 (2005)</p></td>
+	<td>242&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10664-004-6192-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10664-004-6192-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10664-004-6192-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10664-004-6192-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Qinbao Song; Martin Shepperd; Michelle Cartwright</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10664-004-6193-8">A Short Note on Safest Default Missingness Mechanism Assumptions</a></p>
+		<p>DOI: 10.1007/s10664-004-6193-8</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;10, issue&nbsp;2 (2005)</p></td>
+	<td>82&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10664-004-6193-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10664-004-6193-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10664-004-6193-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10664-004-6193-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10664-005-1286-6">In This Issue</a></p>
+		<p>DOI: 10.1007/s10664-005-1286-6</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;10, issue&nbsp;3 (2005)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10664-005-1286-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10664-005-1286-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10664-005-1286-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10664-005-1286-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jörg Zettel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10664-005-1287-5">Methodology Support in CASE Tools and Its Impact on Individual Acceptance and Use: A Controlled Experiment</a></p>
+		<p>DOI: 10.1007/s10664-005-1287-5</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;10, issue&nbsp;3 (2005)</p></td>
+	<td>995&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10664-005-1287-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10664-005-1287-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10664-005-1287-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10664-005-1287-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniela Damian; James Chisan; Lakshminarayanan Vaidyanathasamy; Yogendra Pal</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10664-005-1288-4">Requirements Engineering and Downstream Software Development: Findings from a Case Study</a></p>
+		<p>DOI: 10.1007/s10664-005-1288-4</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;10, issue&nbsp;3 (2005)</p></td>
+	<td>570&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10664-005-1288-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10664-005-1288-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10664-005-1288-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10664-005-1288-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bente Anda; Dag I. K. Sjøberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10664-005-1289-3">Investigating the Role of Use Cases in the Construction of Class Diagrams</a></p>
+		<p>DOI: 10.1007/s10664-005-1289-3</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;10, issue&nbsp;3 (2005)</p></td>
+	<td>573&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10664-005-1289-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10664-005-1289-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10664-005-1289-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10664-005-1289-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Timothy C. Lethbridge; Susan Elliott Sim; Janice Singer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10664-005-1290-x">Studying Software Engineers: Data Collection Techniques for Software Field Studies</a></p>
+		<p>DOI: 10.1007/s10664-005-1290-x</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;10, issue&nbsp;3 (2005)</p></td>
+	<td>364&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10664-005-1290-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10664-005-1290-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10664-005-1290-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10664-005-1290-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Helen Sharp; Mark Woodman; Fiona Hovenden</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10664-005-1451-y">Using Metaphor to Analyse Qualitative Data: Vulcans and Humans in Software Development</a></p>
+		<p>DOI: 10.1007/s10664-005-1451-y</p>	</td>
+	<td><p><a href="/scimag/journals/6550">Empirical Software Engineering</a><p>volume&nbsp;10, issue&nbsp;3 (2005)</p></td>
+	<td>234&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10664-005-1451-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10664-005-1451-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10664-005-1451-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10664-005-1451-y">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;093 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 44</span>
+	 <a href="/scimag/?journal=6550&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

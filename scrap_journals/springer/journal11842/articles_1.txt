@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0289-2316</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1861-3624</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 45; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 45');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=11842&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;101 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 45</span>
+	 <a href="/scimag/?journal=11842&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>V. I. Arnold</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-006-0501-6">On the matricial version of Fermat–Euler congruences</a></p>
+		<p>DOI: 10.1007/s11537-006-0501-6</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;1 (2006)</p></td>
+	<td>129&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-006-0501-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-006-0501-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-006-0501-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-006-0501-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shokichi Iyanaga</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-006-0502-5">Travaux de Claude Chevalley sur la théorie du corps de classes: Introduction</a></p>
+		<p>DOI: 10.1007/s11537-006-0502-5</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;1 (2006)</p></td>
+	<td>353&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-006-0502-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-006-0502-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-006-0502-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-006-0502-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Simon Gindikin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-006-0503-4">Harmonic analysis on symmetric Stein manifolds from the point of view of complex analysis</a></p>
+		<p>DOI: 10.1007/s11537-006-0503-4</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;1 (2006)</p></td>
+	<td>113&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-006-0503-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-006-0503-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-006-0503-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-006-0503-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Luc Illusie</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-006-0504-3">Miscellany on traces in ℓ-adic cohomology: a survey</a></p>
+		<p>DOI: 10.1007/s11537-006-0504-3</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;1 (2006)</p></td>
+	<td>194&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-006-0504-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-006-0504-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-006-0504-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-006-0504-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alberto De Sole; Victor G. Kac</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-006-0505-2">Finite vs affine W-algebras</a></p>
+		<p>DOI: 10.1007/s11537-006-0505-2</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;1 (2006)</p></td>
+	<td>694&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-006-0505-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-006-0505-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-006-0505-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-006-0505-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Roynette; P. Vallois; M. Yor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-006-0507-0">Some penalisations of the Wiener measure</a></p>
+		<p>DOI: 10.1007/s11537-006-0507-0</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;1 (2006)</p></td>
+	<td>179&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-006-0507-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-006-0507-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-006-0507-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-006-0507-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. I. Arnold</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-006-0601-3">On the matricial version of Fermat–Euler congruences</a></p>
+		<p>DOI: 10.1007/s11537-006-0601-3</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;2 (2006)</p></td>
+	<td>41&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-006-0601-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-006-0601-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-006-0601-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-006-0601-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sadayoshi Kojima</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-006-0602-2">Foreword to theJapanese Journal of Mathematics</a></p>
+		<p>DOI: 10.1007/s11537-006-0602-2</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;2 (2006)</p></td>
+	<td>37&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-006-0602-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-006-0602-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-006-0602-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-006-0602-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yasuo Morita</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-006-0603-1">Welcome to the Third Series of theJapanese Journal of Mathematics</a></p>
+		<p>DOI: 10.1007/s11537-006-0603-1</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;2 (2006)</p></td>
+	<td>41&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-006-0603-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-006-0603-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-006-0603-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-006-0603-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Karl-Hermann Neeb</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-006-0606-y">Towards a Lie theory of locally convex groups</a></p>
+		<p>DOI: 10.1007/s11537-006-0606-y</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;2 (2006)</p></td>
+	<td>1.00&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-006-0606-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-006-0606-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-006-0606-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-006-0606-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vladimir Turaev</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-007-0634-2">Lectures on topology of words</a></p>
+		<p>DOI: 10.1007/s11537-007-0634-2</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;2, issue&nbsp;1 (2007)</p></td>
+	<td>436&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-007-0634-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-007-0634-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-007-0634-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-007-0634-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Claire Voisin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-007-0639-x">Some aspects of the Hodge conjecture</a></p>
+		<p>DOI: 10.1007/s11537-007-0639-x</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;2, issue&nbsp;2 (2007)</p></td>
+	<td>278&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-007-0639-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-007-0639-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-007-0639-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-007-0639-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Masatoshi Fukushima</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-007-0644-0">On the works of Kiyosi Itô and stochastic analysis</a></p>
+		<p>DOI: 10.1007/s11537-007-0644-0</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;2, issue&nbsp;1 (2007)</p></td>
+	<td>95&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-007-0644-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-007-0644-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-007-0644-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-007-0644-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Felipe Cucker; Steve Smale</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-007-0647-x">On the mathematics of emergence</a></p>
+		<p>DOI: 10.1007/s11537-007-0647-x</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;2, issue&nbsp;1 (2007)</p></td>
+	<td>233&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-007-0647-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-007-0647-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-007-0647-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-007-0647-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Spencer Bloch</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-007-0648-9">Motives associated to graphs</a></p>
+		<p>DOI: 10.1007/s11537-007-0648-9</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;2, issue&nbsp;1 (2007)</p></td>
+	<td>325&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-007-0648-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-007-0648-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-007-0648-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-007-0648-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Katsuya Miyake</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-007-0649-8">Teiji Takagi, Founder of the Japanese School of Modern Mathematics</a></p>
+		<p>DOI: 10.1007/s11537-007-0649-8</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;2, issue&nbsp;1 (2007)</p></td>
+	<td>113&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-007-0649-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-007-0649-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-007-0649-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-007-0649-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ya. G. Sinai</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-007-0651-1">Congratulations to Professor K. Itô</a></p>
+		<p>DOI: 10.1007/s11537-007-0651-1</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;2, issue&nbsp;1 (2007)</p></td>
+	<td>49&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-007-0651-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-007-0651-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-007-0651-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-007-0651-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-Michel Lasry; Pierre-Louis Lions</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-007-0657-8">Mean field games</a></p>
+		<p>DOI: 10.1007/s11537-007-0657-8</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;2, issue&nbsp;1 (2007)</p></td>
+	<td>247&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-007-0657-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-007-0657-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-007-0657-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-007-0657-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Henry McKean</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-007-0659-6">Recollections of K. Itô and Kyoto 1957/58</a></p>
+		<p>DOI: 10.1007/s11537-007-0659-6</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;2, issue&nbsp;1 (2007)</p></td>
+	<td>54&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-007-0659-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-007-0659-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-007-0659-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-007-0659-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniel W. Stroock</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-007-0660-0">Itô geometry</a></p>
+		<p>DOI: 10.1007/s11537-007-0660-0</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;2, issue&nbsp;1 (2007)</p></td>
+	<td>67&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-007-0660-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-007-0660-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-007-0660-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-007-0660-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Pitman; M. Yor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-007-0661-z">Itô’s excursion theory and its applications</a></p>
+		<p>DOI: 10.1007/s11537-007-0661-z</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;2, issue&nbsp;1 (2007)</p></td>
+	<td>140&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-007-0661-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-007-0661-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-007-0661-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-007-0661-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paavo Salminen; Pierre Vallois; Marc Yor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-007-0662-y">On the excursion theory for linear diffusions</a></p>
+		<p>DOI: 10.1007/s11537-007-0662-y</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;2, issue&nbsp;1 (2007)</p></td>
+	<td>224&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-007-0662-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-007-0662-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-007-0662-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-007-0662-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sadayoshi Kojima</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-007-0663-x">On the Takagi Lectures</a></p>
+		<p>DOI: 10.1007/s11537-007-0663-x</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;2, issue&nbsp;1 (2007)</p></td>
+	<td>45&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-007-0663-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-007-0663-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-007-0663-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-007-0663-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul Malliavin; Maria Elvira Mancino; Maria Cristina Recchioni</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-007-0666-7">A non-parametric calibration of the HJM geometry: an application of Itô calculus to financial statistics</a></p>
+		<p>DOI: 10.1007/s11537-007-0666-7</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;2, issue&nbsp;1 (2007)</p></td>
+	<td>265&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-007-0666-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-007-0666-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-007-0666-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-007-0666-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kiyosi Itô; member of the Japan Academy of Sciences</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11537-007-0701-8">On the occasion of the ceremonial 2006 Gauss Prize event at Kyoto University</a></p>
+		<p>DOI: 10.1007/s11537-007-0701-8</p>	</td>
+	<td><p><a href="/scimag/journals/11842">Japanese Journal of Mathematics</a><p>volume&nbsp;2, issue&nbsp;1 (2007)</p></td>
+	<td>223&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11537-007-0701-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11537-007-0701-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11537-007-0701-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11537-007-0701-8">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;101 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 45</span>
+	 <a href="/scimag/?journal=11842&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

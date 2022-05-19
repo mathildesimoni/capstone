@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4885">Computational Management Science</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1619-697X</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1619-6988</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 17; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 17');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4885&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">415 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 17</span>
+	 <a href="/scimag/?journal=4885&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Hiroshi Konno; Naoya Kawadai; Dai Wu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-003-0001-6">Estimation of failure probability using semi-definite logit model</a></p>
+		<p>DOI: 10.1007/s10287-003-0001-6</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;1, issue&nbsp;1 (2003)</p></td>
+	<td>272&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-003-0001-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-003-0001-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-003-0001-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-003-0001-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anna Nagurney; Jose Cruz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-003-0002-5">International financial networks with intermediation: modeling, analysis, and computations</a></p>
+		<p>DOI: 10.1007/s10287-003-0002-5</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;1, issue&nbsp;1 (2003)</p></td>
+	<td>218&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-003-0002-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-003-0002-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-003-0002-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-003-0002-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Curry; P. H. Morgan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-003-0003-4">Neural networks, linear functions and neglected non-linearity</a></p>
+		<p>DOI: 10.1007/s10287-003-0003-4</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;1, issue&nbsp;1 (2003)</p></td>
+	<td>118&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-003-0003-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-003-0003-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-003-0003-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-003-0003-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Erol Gelenbe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-003-0004-3">Sensible decisions based on QoS</a></p>
+		<p>DOI: 10.1007/s10287-003-0004-3</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;1, issue&nbsp;1 (2003)</p></td>
+	<td>116&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-003-0004-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-003-0004-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-003-0004-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-003-0004-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Oberman; T. Zariphopoulou</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-003-0005-2">Pricing early exercise contracts in incomplete markets</a></p>
+		<p>DOI: 10.1007/s10287-003-0005-2</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;1, issue&nbsp;1 (2003)</p></td>
+	<td>228&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-003-0005-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-003-0005-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-003-0005-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-003-0005-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Antonia J. Jones</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-003-0006-1">New tools in non-linear modelling and prediction</a></p>
+		<p>DOI: 10.1007/s10287-003-0006-1</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;1, issue&nbsp;2 (2004)</p></td>
+	<td>982&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-003-0006-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-003-0006-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-003-0006-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-003-0006-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bruce Curry</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-003-0007-0">Sampling aspects of rough set theory</a></p>
+		<p>DOI: 10.1007/s10287-003-0007-0</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;1, issue&nbsp;2 (2004)</p></td>
+	<td>156&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-003-0007-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-003-0007-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-003-0007-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-003-0007-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-Michel Fourneau; Erol Gelenbe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-003-0008-z">Flow equivalence and stochastic equivalence in G-networks</a></p>
+		<p>DOI: 10.1007/s10287-003-0008-z</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;1, issue&nbsp;2 (2004)</p></td>
+	<td>113&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-003-0008-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-003-0008-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-003-0008-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-003-0008-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tammy Drezner; Zvi Drezner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-004-0009-6">Finding the optimal solution to the Huff based competitive location model</a></p>
+		<p>DOI: 10.1007/s10287-004-0009-6</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;1, issue&nbsp;2 (2004)</p></td>
+	<td>113&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-004-0009-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-004-0009-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-004-0009-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-004-0009-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jong-Shi Pang; Masao Fukushima</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-004-0010-0">Quasi-variational inequalities, generalized Nash equilibria, and multi-leader-follower games</a></p>
+		<p>DOI: 10.1007/s10287-004-0010-0</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;2, issue&nbsp;1 (2005)</p></td>
+	<td>245&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-004-0010-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-004-0010-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-004-0010-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-004-0010-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Gerdes; T. Barth; M. Grauer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-004-0011-z">Performance analysis of distributed solution approaches in simulation-based optimization</a></p>
+		<p>DOI: 10.1007/s10287-004-0011-z</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;2, issue&nbsp;1 (2005)</p></td>
+	<td>274&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-004-0011-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-004-0011-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-004-0011-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-004-0011-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Zopounidis; M. Doumpos; P. M. Pardalos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-004-0012-y">Editorial</a></p>
+		<p>DOI: 10.1007/s10287-004-0012-y</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;1, issue&nbsp;3-4 (2004)</p></td>
+	<td>27&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-004-0012-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-004-0012-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-004-0012-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-004-0012-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Takeshi Asada; Yeboon Yun; Hirotaka Nakayama; Tetsuzo Tanino</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-004-0013-x">Pattern classification by goal programming and support vector machines</a></p>
+		<p>DOI: 10.1007/s10287-004-0013-x</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;1, issue&nbsp;3-4 (2004)</p></td>
+	<td>408&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-004-0013-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-004-0013-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-004-0013-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-004-0013-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marina Velikova; Hennie Daniels</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-004-0014-9">Decision trees for monotone price models</a></p>
+		<p>DOI: 10.1007/s10287-004-0014-9</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;1, issue&nbsp;3-4 (2004)</p></td>
+	<td>120&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-004-0014-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-004-0014-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-004-0014-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-004-0014-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Ch Stasis; E. N. Loukis; S. A. Pavlopoulos; D. Koutsouris</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-004-0015-8">A multiple decision trees architecture for medical diagnosis: The differentiation of opening snap, second heart sound split and third heart sound</a></p>
+		<p>DOI: 10.1007/s10287-004-0015-8</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;1, issue&nbsp;3-4 (2004)</p></td>
+	<td>814&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-004-0015-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-004-0015-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-004-0015-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-004-0015-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nikolaos Ampazis; Ioannis Minis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-004-0016-7">Design of cellular manufacturing systems using Latent Semantic Indexing and Self Organizing Maps</a></p>
+		<p>DOI: 10.1007/s10287-004-0016-7</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;1, issue&nbsp;3-4 (2004)</p></td>
+	<td>168&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-004-0016-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-004-0016-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-004-0016-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-004-0016-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anthony Brabazon; Peter B. Keenan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-004-0017-6">A hybrid genetic model for the prediction of corporate failure</a></p>
+		<p>DOI: 10.1007/s10287-004-0017-6</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;1, issue&nbsp;3-4 (2004)</p></td>
+	<td>117&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-004-0017-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-004-0017-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-004-0017-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-004-0017-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anthony Brabazon; Michael O’Neill</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-004-0018-5">Evolving technical trading rules for spot foreign-exchange markets using grammatical evolution</a></p>
+		<p>DOI: 10.1007/s10287-004-0018-5</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;1, issue&nbsp;3-4 (2004)</p></td>
+	<td>138&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-004-0018-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-004-0018-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-004-0018-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-004-0018-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. Kosmidou; F. Pasiouras; M. Doumpos; C. Zopounidis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-004-0019-4">Foreign versus domestic banks’ performance in the UK: a multicriteria approach</a></p>
+		<p>DOI: 10.1007/s10287-004-0019-4</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;1, issue&nbsp;3-4 (2004)</p></td>
+	<td>103&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-004-0019-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-004-0019-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-004-0019-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-004-0019-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. F. Benders</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-004-0020-y">Partitioning procedures for solving mixed-variables programming problems</a></p>
+		<p>DOI: 10.1007/s10287-004-0020-y</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;2, issue&nbsp;1 (2005)</p></td>
+	<td>123&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-004-0020-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-004-0020-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-004-0020-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-004-0020-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cristian Gatu; Erricos John Kontoghiorghes</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-004-0021-x">Efficient strategies for deriving the subset VAR models</a></p>
+		<p>DOI: 10.1007/s10287-004-0021-x</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;2, issue&nbsp;4 (2005)</p></td>
+	<td>280&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-004-0021-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-004-0021-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-004-0021-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-004-0021-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Erricos John Kontoghiorghes</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-004-0027-4">Guest editorial</a></p>
+		<p>DOI: 10.1007/s10287-004-0027-4</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;2, issue&nbsp;2 (2005)</p></td>
+	<td>20&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-004-0027-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-004-0027-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-004-0027-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-004-0027-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Francesco Audrino; Giovanni Barone-Adesi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-004-0028-3">A multivariate FGD technique to improve VaR computation in equity markets</a></p>
+		<p>DOI: 10.1007/s10287-004-0028-3</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;2, issue&nbsp;2 (2005)</p></td>
+	<td>175&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-004-0028-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-004-0028-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-004-0028-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-004-0028-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jordi Castro</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-004-0029-2">Quadratic interior-point methods in statistical disclosure control</a></p>
+		<p>DOI: 10.1007/s10287-004-0029-2</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;2, issue&nbsp;2 (2005)</p></td>
+	<td>239&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-004-0029-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-004-0029-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-004-0029-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-004-0029-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kostas Giannopoulos; Ephraim Clark; Radu Tunaru</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10287-004-0030-9">Portfolio selection under VaR constraints</a></p>
+		<p>DOI: 10.1007/s10287-004-0030-9</p>	</td>
+	<td><p><a href="/scimag/journals/4885">Computational Management Science</a><p>volume&nbsp;2, issue&nbsp;2 (2005)</p></td>
+	<td>135&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10287-004-0030-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10287-004-0030-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10287-004-0030-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10287-004-0030-9">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">415 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 17</span>
+	 <a href="/scimag/?journal=4885&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0935-4964</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1432-2250</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 40; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 40');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=24644&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">982 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 40</span>
+	 <a href="/scimag/?journal=24644&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271418">Editorial</a></p>
+		<p>DOI: 10.1007/bf00271418</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;1, issue&nbsp;1 (1989)</p></td>
+	<td>57&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271418" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271418">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271418">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271418">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Charles G. Speziale</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271419">Turbulence Modeling in Noninertial Frames of Reference</a></p>
+		<p>DOI: 10.1007/bf00271419</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;1, issue&nbsp;1 (1989)</p></td>
+	<td>1.24&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271419" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271419">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271419">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271419">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. V. Brotherton-Ratcliffe; F. T. Smith</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271420">Viscous Effects Can Destabilize Linear and Nonlinear Water Waves</a></p>
+		<p>DOI: 10.1007/bf00271420</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;1, issue&nbsp;1 (1989)</p></td>
+	<td>1.15&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271420" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271420">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271420">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271420">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas A. Zang; Steven E. Krist</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271421">Numerical experiments on stability and transition in plane channel flow</a></p>
+		<p>DOI: 10.1007/bf00271421</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;1, issue&nbsp;1 (1989)</p></td>
+	<td>4.79&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271421" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271421">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271421">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271421">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. A. Christensen; J. N. Sørensen; M. Brøns; P. L. Christiansen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271422">Low-dimensional representations of early transition in rotating fluid flow</a></p>
+		<p>DOI: 10.1007/bf00271422</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;5, issue&nbsp;6 (1993)</p></td>
+	<td>629&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271422" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271422">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271422">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271422">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Adrian V. Coward; Philip Hall</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271423">On the nonlinear interfacial instability of rotating core-annual flow</a></p>
+		<p>DOI: 10.1007/bf00271423</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;5, issue&nbsp;6 (1993)</p></td>
+	<td>1.31&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271423" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271423">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271423">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271423">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. M. Najjar; S. P. Vanka</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271424">Numerical study of a separated-reattaching flow</a></p>
+		<p>DOI: 10.1007/bf00271424</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;5, issue&nbsp;6 (1993)</p></td>
+	<td>1.24&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271424" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271424">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271424">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271424">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Virk; F. Hussain</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271425">Influence of initial conditions on compressible vorticity dynamics</a></p>
+		<p>DOI: 10.1007/bf00271425</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;5, issue&nbsp;6 (1993)</p></td>
+	<td>2.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271425" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271425">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271425">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271425">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Gregory Forest; Qi Wang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271426">Change-of-type behavior in viscoelastic slender jet models</a></p>
+		<p>DOI: 10.1007/bf00271426</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;2, issue&nbsp;1 (1990)</p></td>
+	<td>1.63&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271426" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271426">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271426">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271426">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. N. Brown; S. Leibovich; Z. Yang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271427">On the linear instability of the Hall-Stewartson vortex</a></p>
+		<p>DOI: 10.1007/bf00271427</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;2, issue&nbsp;1 (1990)</p></td>
+	<td>1.31&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271427" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271427">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271427">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271427">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Passot; H. Politano; A. Pouquet; P. L. Sulem</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271428">Comparative study of dissipation modeling in two-dimensional MHD turbulence</a></p>
+		<p>DOI: 10.1007/bf00271428</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;2, issue&nbsp;1 (1990)</p></td>
+	<td>1.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271428" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271428">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271428">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271428">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Nisizima</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271429">A numerical study of turbulent square-duct flow using an anisotropick-ɛ model</a></p>
+		<p>DOI: 10.1007/bf00271429</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;2, issue&nbsp;1 (1990)</p></td>
+	<td>681&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271429" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271429">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271429">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271429">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas B. Gatski; Sutanu Sarkar; Charles G. Speziale</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271464">Preface</a></p>
+		<p>DOI: 10.1007/bf00271464</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;2, issue&nbsp;5-6 (1991)</p></td>
+	<td>377&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271464" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271464">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271464">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271464">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas B. Gatski; Sutanu Sarkar; Charles G. Speziale</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271465">Dedication</a></p>
+		<p>DOI: 10.1007/bf00271465</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;2, issue&nbsp;5-6 (1991)</p></td>
+	<td>144&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271465" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271465">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271465">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271465">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. B. Pope</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271466">Mapping closures for turbulent mixing and reaction</a></p>
+		<p>DOI: 10.1007/bf00271466</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;2, issue&nbsp;5-6 (1991)</p></td>
+	<td>807&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271466" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271466">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271466">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271466">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ph. Blanc-Benon; D. Juvé; G. Comte-Bellot</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271467">Occurrence of caustics for high-frequency acoustic waves propagating through turbulent fields</a></p>
+		<p>DOI: 10.1007/bf00271467</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;2, issue&nbsp;5-6 (1991)</p></td>
+	<td>619&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271467" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271467">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271467">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271467">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ulrich Schumann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271468">Subgrid length-scales for large-eddy simulation of stratified turbulence</a></p>
+		<p>DOI: 10.1007/bf00271468</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;2, issue&nbsp;5-6 (1991)</p></td>
+	<td>889&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271468" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271468">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271468">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271468">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Sarkar; G. Erlebacher; M. Y. Hussaini</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271469">Direct simulation of compressible turbulence in a shear flow</a></p>
+		<p>DOI: 10.1007/bf00271469</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;2, issue&nbsp;5-6 (1991)</p></td>
+	<td>1.26&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271469" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271469">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271469">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271469">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Sirovich; K. S. Ball; R. A. Handler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271470">Propagating structures in wall-bounded turbulent flows</a></p>
+		<p>DOI: 10.1007/bf00271470</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;2, issue&nbsp;5-6 (1991)</p></td>
+	<td>701&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271470" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271470">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271470">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271470">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. R. C. Phillips</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271472">On the etiology of shear layer vortices</a></p>
+		<p>DOI: 10.1007/bf00271472</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;2, issue&nbsp;5-6 (1991)</p></td>
+	<td>626&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271472" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271472">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271472">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271472">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nadine Aubry</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271473">On the hidden beauty of the proper orthogonal decomposition</a></p>
+		<p>DOI: 10.1007/bf00271473</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;2, issue&nbsp;5-6 (1991)</p></td>
+	<td>1.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271473" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271473">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271473">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271473">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. A. Durbin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271513">Near-wall turbulence closure modeling without “damping functions”</a></p>
+		<p>DOI: 10.1007/bf00271513</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;3, issue&nbsp;1 (1991)</p></td>
+	<td>872&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271513" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271513">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271513">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271513">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Demetrios T. Papageorgiou; Yiorgos S. Smyrlis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271514">The route to chaos for the Kuramoto-Sivashinsky equation</a></p>
+		<p>DOI: 10.1007/bf00271514</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;3, issue&nbsp;1 (1991)</p></td>
+	<td>1.86&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271514" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271514">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271514">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271514">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wusheng Ji; Pao K. Wang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271515">Numerical simulation of three-dimensional unsteady viscous flow past finite cylinders in an unbounded fluid at low intermediate reynolds numbers</a></p>
+		<p>DOI: 10.1007/bf00271515</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;3, issue&nbsp;1 (1991)</p></td>
+	<td>1.55&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271515" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271515">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271515">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271515">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. Kollmann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00271582">The pdf approach to turbulent flow</a></p>
+		<p>DOI: 10.1007/bf00271582</p>	</td>
+	<td><p><a href="/scimag/journals/24644">Theoretical and Computational Fluid Dynamics</a><p>volume&nbsp;1, issue&nbsp;5 (1990)</p></td>
+	<td>2.55&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00271582" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00271582">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00271582">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00271582">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">982 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 40</span>
+	 <a href="/scimag/?journal=24644&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/5965">Distributed and Parallel Databases</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer US</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0926-8782</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-7578</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 22; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 22');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=5965&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">549 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 22</span>
+	 <a href="/scimag/?journal=5965&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Andre B. Bondi; Victoria Jin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00119337">A performance model of a design for a minimally replicated distributed database for database-driven telecommunications services</a></p>
+		<p>DOI: 10.1007/bf00119337</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;4, issue&nbsp;4 (1996)</p></td>
+	<td>1.49&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00119337" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00119337">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00119337">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00119337">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yuri Breitbart; Radek Vingralek; Gerhard Weikum</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00119338">Load control in scalable distributed file structures</a></p>
+		<p>DOI: 10.1007/bf00119338</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;4, issue&nbsp;4 (1996)</p></td>
+	<td>2.35&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00119338" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00119338">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00119338">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00119338">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Piotr Krychniak; Marek Rusinkiewicz; Andrzej Cichocki; Amit Sheth; Gomer Thomas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00119339">Bounding the effects of compensation under relaxed multi-level serializability</a></p>
+		<p>DOI: 10.1007/bf00119339</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;4, issue&nbsp;4 (1996)</p></td>
+	<td>1.50&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00119339" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00119339">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00119339">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00119339">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chris Bates; Innes Jelly; Jon Kerridge</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00122146">Modelling test data for performance evaluation of large parallel database machines</a></p>
+		<p>DOI: 10.1007/bf00122146</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;4, issue&nbsp;1 (1996)</p></td>
+	<td>1.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00122146" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00122146">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00122146">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00122146">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Arthur J. Bernstein; Philip M. Lewis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00122147">Transaction decomposition using transaction semantics</a></p>
+		<p>DOI: 10.1007/bf00122147</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;4, issue&nbsp;1 (1996)</p></td>
+	<td>1.74&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00122147" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00122147">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00122147">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00122147">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Csaba J. Egyhazy; Konstantinos P. Triantis; Bharat Bhasker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00122148">A query processing algorithm for a system of heterogeneous distributed databases</a></p>
+		<p>DOI: 10.1007/bf00122148</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;4, issue&nbsp;1 (1996)</p></td>
+	<td>1.89&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00122148" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00122148">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00122148">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00122148">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul W. P. J. Grefen; Jan Flokstra</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00122149">Extending a multi-set relational algebra to a parallel environment</a></p>
+		<p>DOI: 10.1007/bf00122149</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;4, issue&nbsp;1 (1996)</p></td>
+	<td>1.24&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00122149" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00122149">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00122149">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00122149">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniel Barbara; Ravi Jain; N. Krishnakumar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140949">Guest editors' introduction</a></p>
+		<p>DOI: 10.1007/bf00140949</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;4, issue&nbsp;3 (1996)</p></td>
+	<td>128&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140949" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140949">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140949">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140949">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wang-Chien Lee; Dik Lun Lee</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140950">Using signature techniques for information filtering in wireless and mobile environments</a></p>
+		<p>DOI: 10.1007/bf00140950</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;4, issue&nbsp;3 (1996)</p></td>
+	<td>1.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140950" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140950">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140950">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140950">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Alonso; R. Günthör; M. Kamath; D. Agrawal; A. El Abbadi; C. Mohan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140951">Exotica/FMDC: A workflow management system for mobile and disconnected clients</a></p>
+		<p>DOI: 10.1007/bf00140951</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;4, issue&nbsp;3 (1996)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140951" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140951">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140951">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140951">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Antonio Massari; Susan Weissman; Panos K. Chrysanthis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140952">Supporting mobile database access through query by icons</a></p>
+		<p>DOI: 10.1007/bf00140952</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;4, issue&nbsp;3 (1996)</p></td>
+	<td>1.39&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140952" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140952">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140952">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140952">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>George Y. Liu; Gerald Q. Maguire</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00140953">A mobility-aware dynamic database caching scheme for wireless mobile computing and communications</a></p>
+		<p>DOI: 10.1007/bf00140953</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;4, issue&nbsp;3 (1996)</p></td>
+	<td>990&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00140953" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00140953">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00140953">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00140953">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yaw-Huei Chen; Stanley Y. W. Su</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00204904">Implementation and evaluation of parallel query processing algorithms and data partitioning heuristics in object-oriented databases</a></p>
+		<p>DOI: 10.1007/bf00204904</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;4, issue&nbsp;2 (1996)</p></td>
+	<td>2.28&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00204904" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00204904">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00204904">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00204904">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Arbee L. P. Chen; Pauray S. M. Tsai; Jia-Ling Koh</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00204905">Identifying object isomerism in multidatabase systems</a></p>
+		<p>DOI: 10.1007/bf00204905</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;4, issue&nbsp;2 (1996)</p></td>
+	<td>1.51&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00204905" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00204905">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00204905">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00204905">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Meichun Hsu; Charly Kleissner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00204906">ObjectFlow: Towards a process management infrastructure</a></p>
+		<p>DOI: 10.1007/bf00204906</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;4, issue&nbsp;2 (1996)</p></td>
+	<td>1.78&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00204906" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00204906">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00204906">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00204906">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zheng Lin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01263332">Concurrent frame signature files</a></p>
+		<p>DOI: 10.1007/bf01263332</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;1, issue&nbsp;3 (1993)</p></td>
+	<td>971&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01263332" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01263332">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01263332">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01263332">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Won Kim; Injun Choi; Sunit Gala; Mark Scheevel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01263333">On resolving schematic heterogeneity in multidatabase systems</a></p>
+		<p>DOI: 10.1007/bf01263333</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;1, issue&nbsp;3 (1993)</p></td>
+	<td>1.42&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01263333" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01263333">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01263333">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01263333">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Frank S. C. Tseng; Arbee L. P. Chen; Wei-Pang Yang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01263334">Answering heterogeneous database queries with degrees of uncertainty</a></p>
+		<p>DOI: 10.1007/bf01263334</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;1, issue&nbsp;3 (1993)</p></td>
+	<td>1.05&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01263334" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01263334">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01263334">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01263334">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nabil N. Kamel; Tao Song; Magdi Kamel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01263335">An approach for building an integrated environment for molecular biology databases</a></p>
+		<p>DOI: 10.1007/bf01263335</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;1, issue&nbsp;3 (1993)</p></td>
+	<td>1.41&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01263335" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01263335">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01263335">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01263335">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Elisa Bertino; M. Tamer Özsu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01263336">Guest editors' introduction</a></p>
+		<p>DOI: 10.1007/bf01263336</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;2, issue&nbsp;1 (1994)</p></td>
+	<td>123&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01263336" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01263336">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01263336">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01263336">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Agrawal; A. El Abbadi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01263337">A nonrestrictive concurrency control protocol for object-oriented databases</a></p>
+		<p>DOI: 10.1007/bf01263337</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;2, issue&nbsp;1 (1994)</p></td>
+	<td>1.44&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01263337" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01263337">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01263337">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01263337">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nicoletta De Francesco; Gigliola Vaglini</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01263338">Concurrent behavior: A construct to specify the external behavior of objects in object databases</a></p>
+		<p>DOI: 10.1007/bf01263338</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;2, issue&nbsp;1 (1994)</p></td>
+	<td>1.52&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01263338" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01263338">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01263338">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01263338">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Arun K. Thakore; Stanley Y. W. Su</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01263339">Performance analysis of parallel object-oriented query processing algorithms</a></p>
+		<p>DOI: 10.1007/bf01263339</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;2, issue&nbsp;1 (1994)</p></td>
+	<td>2.21&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01263339" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01263339">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01263339">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01263339">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stewart M. Clamen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01263340">Schema evolution and integration</a></p>
+		<p>DOI: 10.1007/bf01263340</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;2, issue&nbsp;1 (1994)</p></td>
+	<td>1.49&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01263340" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01263340">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01263340">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01263340">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Alonso; A. El Abbadi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01263655">Partitioned data objects in distributed databases</a></p>
+		<p>DOI: 10.1007/bf01263655</p>	</td>
+	<td><p><a href="/scimag/journals/5965">Distributed and Parallel Databases</a><p>volume&nbsp;3, issue&nbsp;1 (1995)</p></td>
+	<td>1.79&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01263655" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01263655">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01263655">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01263655">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">549 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 22</span>
+	 <a href="/scimag/?journal=5965&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

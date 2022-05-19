@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/17606">Molecular Engineering</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0925-5125</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-8951</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 10; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 10');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=17606&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">246 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 10</span>
+	 <a href="/scimag/?journal=17606&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161661">Preface</a></p>
+		<p>DOI: 10.1007/bf00161661</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;1, issue&nbsp;3 (1991)</p></td>
+	<td>75&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161661" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161661">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161661">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161661">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Marowsky; M. Pinnow; F. Sieverdes; E. Heinemann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161662">Adsorbate-surface interaction studied by second-harmonic generation in total reflection</a></p>
+		<p>DOI: 10.1007/bf00161662</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;1, issue&nbsp;3 (1991)</p></td>
+	<td>639&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161662" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161662">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161662">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161662">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Gillberg; R. Keosian; J. L. Pruksarnukul; D. W. Lupo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161663">Second-harmonic generation in monolayers of hemicyanine dyes at the air/water interface: Observation of chemical degradation</a></p>
+		<p>DOI: 10.1007/bf00161663</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;1, issue&nbsp;3 (1991)</p></td>
+	<td>843&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161663" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161663">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161663">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161663">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pascal Griesmar; Clément Sanchez; Germain Puccetti; Isabelle Ledoux; Joseph Zyss</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161664">Second-harmonic generation from organic molecules incorporated in sol-gel matrices</a></p>
+		<p>DOI: 10.1007/bf00161664</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;1, issue&nbsp;3 (1991)</p></td>
+	<td>1011&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161664" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161664">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161664">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161664">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Lagarde; J. Y. Moisan; J. C. Dubois</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161665">Holes photogeneration in phthalocyanine-doped polysilane</a></p>
+		<p>DOI: 10.1007/bf00161665</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;1, issue&nbsp;3 (1991)</p></td>
+	<td>473&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161665" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161665">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161665">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161665">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Juan-Luis Pascual-Ahuir; Ernest L. Mehler; Harel Weinstein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161666">Calmodulin structure and function: Implication of arginine in the compaction related to ligand binding</a></p>
+		<p>DOI: 10.1007/bf00161666</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;1, issue&nbsp;3 (1991)</p></td>
+	<td>4.50&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161666" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161666">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161666">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161666">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>O. Tapia; B. Oliva; O. Nilsson; E. Querol; F. X. Avilés</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161667">Molecular dynamics as a tool to help design mutants</a></p>
+		<p>DOI: 10.1007/bf00161667</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;1, issue&nbsp;3 (1991)</p></td>
+	<td>1.93&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161667" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161667">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161667">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161667">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mauno Vihinen; Sari Helin; Pekka Mäntsälä</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161668">Site-directed mutagenesis of putative active-site residues ofBacillus stearothermophilusα-amylase</a></p>
+		<p>DOI: 10.1007/bf00161668</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;1, issue&nbsp;3 (1991)</p></td>
+	<td>2.12&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161668" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161668">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161668">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161668">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lise Thibodeau</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161669">Immunosome technology to improve antigen presentation for efficient and safe viral vaccines</a></p>
+		<p>DOI: 10.1007/bf00161669</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;1, issue&nbsp;3 (1991)</p></td>
+	<td>1.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161669" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161669">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161669">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161669">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bernard Silvi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161720">Preface</a></p>
+		<p>DOI: 10.1007/bf00161720</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;6, issue&nbsp;1-2 (1996)</p></td>
+	<td>33&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161720" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161720">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161720">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161720">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James R. Chelikowsky; Nitin R. Keskar; Nadia Binggeli</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161721">The structural properties of silica using classical and quantum interatomic forces</a></p>
+		<p>DOI: 10.1007/bf00161721</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;6, issue&nbsp;1-2 (1996)</p></td>
+	<td>2.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161721" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161721">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161721">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161721">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Renata M. Wentzcovitch; G. David Price</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161722">High pressure studies of Mantle minerals byab initiovariable cell shape molecular dynamics</a></p>
+		<p>DOI: 10.1007/bf00161722</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;6, issue&nbsp;1-2 (1996)</p></td>
+	<td>1.38&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161722" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161722">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161722">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161722">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Roy G. Gordon; Daniel J. Lacks</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161723">Calculation of mineral properties with the electron gas model</a></p>
+		<p>DOI: 10.1007/bf00161723</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;6, issue&nbsp;1-2 (1996)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161723" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161723">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161723">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161723">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. S. T. Bukowinski; A. Chizmeshya; G. H. Wolf; H. Zhang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161724">Advances in electron-gas potential models: Applications to some candidate lower mantle minerals</a></p>
+		<p>DOI: 10.1007/bf00161724</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;6, issue&nbsp;1-2 (1996)</p></td>
+	<td>1.92&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161724" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161724">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161724">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161724">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michele Catti; Alessandro Pavese</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161725">Quantum-mechanical and classical simulations of Mg-Ca carbonates</a></p>
+		<p>DOI: 10.1007/bf00161725</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;6, issue&nbsp;1-2 (1996)</p></td>
+	<td>2.54&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161725" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161725">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161725">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161725">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shinji Tsuneyuki</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161726">Molecular dynamics simulation of silica with a first-principles interatomic potential</a></p>
+		<p>DOI: 10.1007/bf00161726</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;6, issue&nbsp;1-2 (1996)</p></td>
+	<td>1.58&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161726" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161726">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161726">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161726">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. N. Cormack; Yuan Cao</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161727">Molecular dynamics simulation of silicate glasses</a></p>
+		<p>DOI: 10.1007/bf00161727</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;6, issue&nbsp;1-2 (1996)</p></td>
+	<td>2.58&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161727" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161727">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161727">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161727">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00176800">Preface</a></p>
+		<p>DOI: 10.1007/bf00176800</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;1, issue&nbsp;4 (1992)</p></td>
+	<td>73&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00176800" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00176800">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00176800">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00176800">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Keizo Nakajima; Kazuyoshi Tanaka; Tokio Yamabe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00176801">Electronic structure and molecular design of simplified polyimide systems</a></p>
+		<p>DOI: 10.1007/bf00176801</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;1, issue&nbsp;4 (1992)</p></td>
+	<td>456&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00176801" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00176801">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00176801">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00176801">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Victor Ya. Zyryanov; Sergei L. Smorgon; Vasili F. Shabanov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00176802">Elongated films of polymer-dispersed liquid crystals as scattering polarizers</a></p>
+		<p>DOI: 10.1007/bf00176802</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;1, issue&nbsp;4 (1992)</p></td>
+	<td>356&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00176802" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00176802">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00176802">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00176802">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eugene M. Averyanov; Vladimir A. Gunyakov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00176803">Spectral position control of dye absorption band maximum in an orienting matrix</a></p>
+		<p>DOI: 10.1007/bf00176803</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;1, issue&nbsp;4 (1992)</p></td>
+	<td>372&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00176803" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00176803">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00176803">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00176803">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Younang; E. Léonard-Stibbe; P. Viel; M. Defranceschi; G. Lécayon; J. Delhalle</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00176804">Prospective theoretical and experimental study towards electrochemically grafted poly(N-vinyl-2-pyrrolidone) films on metallic surfaces</a></p>
+		<p>DOI: 10.1007/bf00176804</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;1, issue&nbsp;4 (1992)</p></td>
+	<td>981&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00176804" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00176804">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00176804">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00176804">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Hammoutene; Gh. Boucekkine; A. Boucekkine; G. Berthier; A. Beuze</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00176805">Hyperpolarizabilities of substituted benzene molecules: MNDO calculations</a></p>
+		<p>DOI: 10.1007/bf00176805</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;1, issue&nbsp;4 (1992)</p></td>
+	<td>448&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00176805" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00176805">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00176805">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00176805">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Pinnow; G. Marowsky; F. Sieverdes; F. H. Kreuzer; H. Leigeber; A. Miller; P. Spes</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00176806">Second-order susceptibilities of anisotropic liquid-crystal thin films</a></p>
+		<p>DOI: 10.1007/bf00176806</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;1, issue&nbsp;4 (1992)</p></td>
+	<td>850&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00176806" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00176806">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00176806">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00176806">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Horjales; B. Oliva; F. M. L. G. Stamato; M. Paulino-Blumenfeld; O. Nilsson; O. Tapia</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00176807">A computer model-built structure of theT. congolensetrypanothione reductase in complex with NADP</a></p>
+		<p>DOI: 10.1007/bf00176807</p>	</td>
+	<td><p><a href="/scimag/journals/17606">Molecular Engineering</a><p>volume&nbsp;1, issue&nbsp;4 (1992)</p></td>
+	<td>1.84&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00176807" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00176807">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00176807">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00176807">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">246 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 10</span>
+	 <a href="/scimag/?journal=17606&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/12863">Journal of Computational Chemistry</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0192-8651</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1096-987X</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 324; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 324');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=12863&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">8&nbsp;090 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 324</span>
+	 <a href="/scimag/?journal=12863&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Spackman, Mark A.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%2819960115%2917%3A1%3C1%3A%3Aaid-jcc1%3E3.0.co%3B2-v">Potential derived charges using a geodesic point selection scheme</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(19960115)17:1&lt;1::aid-jcc1&gt;3.0.co;2-v</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;1 (1996)</p></td>
+	<td>1.35&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%2819960115%2917%3A1%3C1%3A%3Aaid-jcc1%3E3.0.co%3B2-v" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C1%3A%3Aaid-jcc1%3E3.0.co%3B2-v">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C1%3A%3Aaid-jcc1%3E3.0.co%3B2-v">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C1%3A%3Aaid-jcc1%3E3.0.co%3B2-v">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Harrison, Robert J.; Guest, Martyn F.; Kendall, Rick A.; Bernholdt, David E.; Wong, Adrian T.; Stave, Mark; Anchell, James L.; Hess, Anthony C.; Littlefield, Rik J.; Fann, George L.; Nieplocha, Jaroslaw; Thomas, Greg S.; Elwood, David; Tilson, Jeffrey L.; Shepard, Ron L.; Wagner, Albert F.; Foster, Ian T.; Lusk, Ewing; Stevens, Rick </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%2819960115%2917%3A1%3C124%3A%3Aaid-jcc10%3E3.0.co%3B2-n">Toward high-performance computational chemistry: II. A scalable self-consistent field program</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(19960115)17:1&lt;124::aid-jcc10&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;1 (1996)</p></td>
+	<td>783&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%2819960115%2917%3A1%3C124%3A%3Aaid-jcc10%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C124%3A%3Aaid-jcc10%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C124%3A%3Aaid-jcc10%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C124%3A%3Aaid-jcc10%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tu��n, I.; Martins-Costa, M. T. C.; Millot, C.; Ruiz-L�pez, M. F.; Rivail, J. L. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%2819960115%2917%3A1%3C19%3A%3Aaid-jcc2%3E3.0.co%3B2-3">A coupled density functional-molecular mechanics Monte Carlo simulation method: The water molecule in liquid water</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(19960115)17:1&lt;19::aid-jcc2&gt;3.0.co;2-3</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;1 (1996)</p></td>
+	<td>819&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%2819960115%2917%3A1%3C19%3A%3Aaid-jcc2%3E3.0.co%3B2-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C19%3A%3Aaid-jcc2%3E3.0.co%3B2-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C19%3A%3Aaid-jcc2%3E3.0.co%3B2-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C19%3A%3Aaid-jcc2%3E3.0.co%3B2-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Castell, O.; Garc�a, V. M.; Bo, C.; Caballol, R. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%2819960115%2917%3A1%3C42%3A%3Aaid-jcc4%3E3.0.co%3B2-0">Relative stability of the3A2,1A2, and1A1 states of phenylnitrene: A difference-dedicated configuration interaction calculation</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(19960115)17:1&lt;42::aid-jcc4&gt;3.0.co;2-0</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;1 (1996)</p></td>
+	<td>573&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%2819960115%2917%3A1%3C42%3A%3Aaid-jcc4%3E3.0.co%3B2-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C42%3A%3Aaid-jcc4%3E3.0.co%3B2-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C42%3A%3Aaid-jcc4%3E3.0.co%3B2-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C42%3A%3Aaid-jcc4%3E3.0.co%3B2-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peng, Chunyang; Ayala, Philippe Y.; Schlegel, H. Bernhard; Frisch, Michael J. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%2819960115%2917%3A1%3C49%3A%3Aaid-jcc5%3E3.0.co%3B2-0">Using redundant internal coordinates to optimize equilibrium geometries and transition states</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(19960115)17:1&lt;49::aid-jcc5&gt;3.0.co;2-0</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;1 (1996)</p></td>
+	<td>614&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%2819960115%2917%3A1%3C49%3A%3Aaid-jcc5%3E3.0.co%3B2-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C49%3A%3Aaid-jcc5%3E3.0.co%3B2-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C49%3A%3Aaid-jcc5%3E3.0.co%3B2-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C49%3A%3Aaid-jcc5%3E3.0.co%3B2-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cossi, Maurizio; Mennucci, Benedetta; Cammi, Roberto </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%2819960115%2917%3A1%3C57%3A%3Aaid-jcc6%3E3.0.co%3B2-%23">Analytical first derivatives of molecular surfaces with respect to nuclear coordinates</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(19960115)17:1&lt;57::aid-jcc6&gt;3.0.co;2-#</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;1 (1996)</p></td>
+	<td>964&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%2819960115%2917%3A1%3C57%3A%3Aaid-jcc6%3E3.0.co%3B2-%23" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C57%3A%3Aaid-jcc6%3E3.0.co%3B2-%23">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C57%3A%3Aaid-jcc6%3E3.0.co%3B2-%23">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C57%3A%3Aaid-jcc6%3E3.0.co%3B2-%23">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Delfini, D.; Nicolini, C.; Carrara, E. A. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%2819960115%2917%3A1%3C74%3A%3Aaid-jcc7%3E3.0.co%3B2-y">Performance analysis of the double-iterated Kalman filter for molecular structure estimation</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(19960115)17:1&lt;74::aid-jcc7&gt;3.0.co;2-y</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;1 (1996)</p></td>
+	<td>1.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%2819960115%2917%3A1%3C74%3A%3Aaid-jcc7%3E3.0.co%3B2-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C74%3A%3Aaid-jcc7%3E3.0.co%3B2-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C74%3A%3Aaid-jcc7%3E3.0.co%3B2-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C74%3A%3Aaid-jcc7%3E3.0.co%3B2-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bakowies, Dirk; Thiel, Walter </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%2819960115%2917%3A1%3C87%3A%3Aaid-jcc8%3E3.0.co%3B2-x">Semiempirical treatment of electrostatic potentials and partial charges in combined quantum mechanical and molecular mechanical approaches</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(19960115)17:1&lt;87::aid-jcc8&gt;3.0.co;2-x</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;1 (1996)</p></td>
+	<td>1.57&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%2819960115%2917%3A1%3C87%3A%3Aaid-jcc8%3E3.0.co%3B2-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C87%3A%3Aaid-jcc8%3E3.0.co%3B2-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C87%3A%3Aaid-jcc8%3E3.0.co%3B2-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%2819960115%2917%3A1%3C87%3A%3Aaid-jcc8%3E3.0.co%3B2-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Reiling, Stephan; Brickmann, J�rgen; Schlenkrich, Michael; Bopp, Philippe A. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C133%3A%3Aaid-jcc1%3E3.0.co%3B2-x">Theoretical investigations on 1,2-ethanediol: The problem of intramolecular hydrogen bonds</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(19960130)17:2&lt;133::aid-jcc1&gt;3.0.co;2-x</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;2 (1996)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C133%3A%3Aaid-jcc1%3E3.0.co%3B2-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C133%3A%3Aaid-jcc1%3E3.0.co%3B2-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C133%3A%3Aaid-jcc1%3E3.0.co%3B2-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C133%3A%3Aaid-jcc1%3E3.0.co%3B2-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tu��n, I�aki; Ruiz-L�pez, Manuel F.; Rinaldi, Daniel; Bertr�n, Juan </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C148%3A%3Aaid-jcc2%3E3.0.co%3B2-w">Computation of hydration free energies using a parameterized continuum model: Study of equilibrium geometries and reactive processes in water solution</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(19960130)17:2&lt;148::aid-jcc2&gt;3.0.co;2-w</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;2 (1996)</p></td>
+	<td>611&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C148%3A%3Aaid-jcc2%3E3.0.co%3B2-w" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C148%3A%3Aaid-jcc2%3E3.0.co%3B2-w">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C148%3A%3Aaid-jcc2%3E3.0.co%3B2-w">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C148%3A%3Aaid-jcc2%3E3.0.co%3B2-w">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Giordan, Marcelo; Custodio, Rog�rio; Trigo, Jos� Roberto </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C156%3A%3Aaid-jcc3%3E3.0.co%3B2-v">Pyrrolizidine alkaloids necine bases:Ab initio, semiempirical, and molecular mechanics approaches to molecular properties</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(19960130)17:2&lt;156::aid-jcc3&gt;3.0.co;2-v</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;2 (1996)</p></td>
+	<td>980&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C156%3A%3Aaid-jcc3%3E3.0.co%3B2-v" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C156%3A%3Aaid-jcc3%3E3.0.co%3B2-v">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C156%3A%3Aaid-jcc3%3E3.0.co%3B2-v">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C156%3A%3Aaid-jcc3%3E3.0.co%3B2-v">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>de Azevedo, Ana Luiza M. S.; Neto, Ben�cio B.; Scarminio, Ieda S.; de Oliveira, Anselmo E.; Bruns, Roy E. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C167%3A%3Aaid-jcc4%3E3.0.co%3B2-u">A chemometric analysis ofab initio vibrational frequencies and infrared intensities of methyl fluoride</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(19960130)17:2&lt;167::aid-jcc4&gt;3.0.co;2-u</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;2 (1996)</p></td>
+	<td>847&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C167%3A%3Aaid-jcc4%3E3.0.co%3B2-u" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C167%3A%3Aaid-jcc4%3E3.0.co%3B2-u">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C167%3A%3Aaid-jcc4%3E3.0.co%3B2-u">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C167%3A%3Aaid-jcc4%3E3.0.co%3B2-u">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Panin, A. I.; Sizova, O. V. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C178%3A%3Aaid-jcc5%3E3.0.co%3B2-t">Direct CI method in restricted configuration spaces</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(19960130)17:2&lt;178::aid-jcc5&gt;3.0.co;2-t</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;2 (1996)</p></td>
+	<td>506&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C178%3A%3Aaid-jcc5%3E3.0.co%3B2-t" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C178%3A%3Aaid-jcc5%3E3.0.co%3B2-t">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C178%3A%3Aaid-jcc5%3E3.0.co%3B2-t">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C178%3A%3Aaid-jcc5%3E3.0.co%3B2-t">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wiberg, Kenneth B.; Castejon, Henry; Keith, Todd A. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C185%3A%3Aaid-jcc6%3E3.0.co%3B2-s">Solvent effects: 6. A comparison between gas phase and solution acidities</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(19960130)17:2&lt;185::aid-jcc6&gt;3.0.co;2-s</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;2 (1996)</p></td>
+	<td>409&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C185%3A%3Aaid-jcc6%3E3.0.co%3B2-s" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C185%3A%3Aaid-jcc6%3E3.0.co%3B2-s">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C185%3A%3Aaid-jcc6%3E3.0.co%3B2-s">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C185%3A%3Aaid-jcc6%3E3.0.co%3B2-s">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yoneda, Shigetaka; Kitazawa, Masako; Umeyama, Hideaki </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C191%3A%3Aaid-jcc7%3E3.0.co%3B2-r">Molecular dynamics simulation of a rhinovirus capsid under rotational symmetry boundary conditions</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(19960130)17:2&lt;191::aid-jcc7&gt;3.0.co;2-r</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;2 (1996)</p></td>
+	<td>1.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C191%3A%3Aaid-jcc7%3E3.0.co%3B2-r" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C191%3A%3Aaid-jcc7%3E3.0.co%3B2-r">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C191%3A%3Aaid-jcc7%3E3.0.co%3B2-r">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C191%3A%3Aaid-jcc7%3E3.0.co%3B2-r">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sawyer, Alesia; Sullivan, Erica; Mariam, Yitbarek H. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C204%3A%3Aaid-jcc8%3E3.0.co%3B2-%23">A semiempirical computational study of electron transfer reactivity of one- vs. two-ring model systems for anthracycline pharmacophores. I. A rationale for mode of action</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(19960130)17:2&lt;204::aid-jcc8&gt;3.0.co;2-#</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;2 (1996)</p></td>
+	<td>1.52&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C204%3A%3Aaid-jcc8%3E3.0.co%3B2-%23" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C204%3A%3Aaid-jcc8%3E3.0.co%3B2-%23">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C204%3A%3Aaid-jcc8%3E3.0.co%3B2-%23">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C204%3A%3Aaid-jcc8%3E3.0.co%3B2-%23">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kikuchi, Takeshi</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C226%3A%3Aaid-jcc9%3E3.0.co%3B2-y">Inter-C? atomic potentials derived from the statistics of average interresidue distances in proteins: Application to bovine pancreatic trypsin inhibitor</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(19960130)17:2&lt;226::aid-jcc9&gt;3.0.co;2-y</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;2 (1996)</p></td>
+	<td>1000&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C226%3A%3Aaid-jcc9%3E3.0.co%3B2-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C226%3A%3Aaid-jcc9%3E3.0.co%3B2-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C226%3A%3Aaid-jcc9%3E3.0.co%3B2-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C226%3A%3Aaid-jcc9%3E3.0.co%3B2-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jung, Seunho; Min, Dugki; Hollingsworth, Rawle I. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C238%3A%3Aaid-jcc10%3E3.0.co%3B2-f">A metropolis Monte Carlo method for analyzing the energetics and dynamics of lipopolysaccharide supramolecular structure and organization</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(19960130)17:2&lt;238::aid-jcc10&gt;3.0.co;2-f</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;2 (1996)</p></td>
+	<td>952&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C238%3A%3Aaid-jcc10%3E3.0.co%3B2-f" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C238%3A%3Aaid-jcc10%3E3.0.co%3B2-f">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C238%3A%3Aaid-jcc10%3E3.0.co%3B2-f">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C238%3A%3Aaid-jcc10%3E3.0.co%3B2-f">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Heffelfinger, Grant S.; Lewitt, Martin E. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C250%3A%3Aaid-jcc11%3E3.0.co%3B2-n">A comparison between two massively parallel algorithms for Monte Carlo computer simulation: An investigation in the grand canonical ensemble</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(19960130)17:2&lt;250::aid-jcc11&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;2 (1996)</p></td>
+	<td>1.27&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%2819960130%2917%3A2%3C250%3A%3Aaid-jcc11%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C250%3A%3Aaid-jcc11%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C250%3A%3Aaid-jcc11%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%2819960130%2917%3A2%3C250%3A%3Aaid-jcc11%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Van Dam, H.J.J.; Van Lenthe, J.H.; Sleijpen, G.L.G.; Van Der Vorst, H.A. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%28199602%2917%3A3%3C267%3A%3Aaid-jcc1%3E3.0.co%3B2-t">An improvement of Davidson's iteration method: Applications to MRCI and MRCEPA calculations</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(199602)17:3&lt;267::aid-jcc1&gt;3.0.co;2-t</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;3 (1996)</p></td>
+	<td>428&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%28199602%2917%3A3%3C267%3A%3Aaid-jcc1%3E3.0.co%3B2-t" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%28199602%2917%3A3%3C267%3A%3Aaid-jcc1%3E3.0.co%3B2-t">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%28199602%2917%3A3%3C267%3A%3Aaid-jcc1%3E3.0.co%3B2-t">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%28199602%2917%3A3%3C267%3A%3Aaid-jcc1%3E3.0.co%3B2-t">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Harris, Dan; Loew, Gilda </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%28199602%2917%3A3%3C273%3A%3Aaid-jcc2%3E3.0.co%3B2-s">Comparative study of free energies of solvation of phenylimidazole inhibitors of cytochrome P450cam by free energy simulation, AMSOL, and Poisson Boltzmann methods</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(199602)17:3&lt;273::aid-jcc2&gt;3.0.co;2-s</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;3 (1996)</p></td>
+	<td>1.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%28199602%2917%3A3%3C273%3A%3Aaid-jcc2%3E3.0.co%3B2-s" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%28199602%2917%3A3%3C273%3A%3Aaid-jcc2%3E3.0.co%3B2-s">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%28199602%2917%3A3%3C273%3A%3Aaid-jcc2%3E3.0.co%3B2-s">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%28199602%2917%3A3%3C273%3A%3Aaid-jcc2%3E3.0.co%3B2-s">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D�m�t�r, Gy.; B�n, M.I.; Stach�, L. L. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%28199602%2917%3A3%3C289%3A%3Aaid-jcc3%3E3.0.co%3B2-r">Theoretical and practical aspects of the convergence properties of the dynamically defined reaction path method</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(199602)17:3&lt;289::aid-jcc3&gt;3.0.co;2-r</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;3 (1996)</p></td>
+	<td>581&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%28199602%2917%3A3%3C289%3A%3Aaid-jcc3%3E3.0.co%3B2-r" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%28199602%2917%3A3%3C289%3A%3Aaid-jcc3%3E3.0.co%3B2-r">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%28199602%2917%3A3%3C289%3A%3Aaid-jcc3%3E3.0.co%3B2-r">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%28199602%2917%3A3%3C289%3A%3Aaid-jcc3%3E3.0.co%3B2-r">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jursic, Branko S.; Zdravkovski, Zoran </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%28199602%2917%3A3%3C298%3A%3Aaid-jcc4%3E3.0.co%3B2-q">Anab initio study of heterodienophiles addition to 2,3-diaza-1,3-butadiene: An example of endo-lone-pair effect on the reaction energy barrier</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(199602)17:3&lt;298::aid-jcc4&gt;3.0.co;2-q</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;3 (1996)</p></td>
+	<td>701&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%28199602%2917%3A3%3C298%3A%3Aaid-jcc4%3E3.0.co%3B2-q" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%28199602%2917%3A3%3C298%3A%3Aaid-jcc4%3E3.0.co%3B2-q">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%28199602%2917%3A3%3C298%3A%3Aaid-jcc4%3E3.0.co%3B2-q">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%28199602%2917%3A3%3C298%3A%3Aaid-jcc4%3E3.0.co%3B2-q">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Clare, B.W.; Jennings, P.J.; Cornish, J.C.L.; Hefter, G. T.; Santjojo, D. J. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%28199602%2917%3A3%3C306%3A%3Aaid-jcc5%3E3.0.co%3B2-z">Simulation of the infrared spectra of amorphous silicon alloys</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(199602)17:3&lt;306::aid-jcc5&gt;3.0.co;2-z</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;3 (1996)</p></td>
+	<td>513&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%28199602%2917%3A3%3C306%3A%3Aaid-jcc5%3E3.0.co%3B2-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%28199602%2917%3A3%3C306%3A%3Aaid-jcc5%3E3.0.co%3B2-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%28199602%2917%3A3%3C306%3A%3Aaid-jcc5%3E3.0.co%3B2-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%28199602%2917%3A3%3C306%3A%3Aaid-jcc5%3E3.0.co%3B2-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wang, Youliang; Poirier, Raymond A. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-987x%28199602%2917%3A3%3C313%3A%3Aaid-jcc6%3E3.0.co%3B2-y">Computational developments in generalized valence bond calculations</a></p>
+		<p>DOI: 10.1002/(sici)1096-987x(199602)17:3&lt;313::aid-jcc6&gt;3.0.co;2-y</p>	</td>
+	<td><p><a href="/scimag/journals/12863">Journal of Computational Chemistry</a><p>volume&nbsp;17, issue&nbsp;3 (1996)</p></td>
+	<td>927&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-987x%28199602%2917%3A3%3C313%3A%3Aaid-jcc6%3E3.0.co%3B2-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-987x%28199602%2917%3A3%3C313%3A%3Aaid-jcc6%3E3.0.co%3B2-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-987x%28199602%2917%3A3%3C313%3A%3Aaid-jcc6%3E3.0.co%3B2-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-987x%28199602%2917%3A3%3C313%3A%3Aaid-jcc6%3E3.0.co%3B2-y">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">8&nbsp;090 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 324</span>
+	 <a href="/scimag/?journal=12863&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

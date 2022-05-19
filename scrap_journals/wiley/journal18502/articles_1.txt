@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1070-5325</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1099-1506</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 58; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 58');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=18502&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;431 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 58</span>
+	 <a href="/scimag/?journal=18502&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Panayot S. Vassilevski; Raytcho D. Lazarov</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199601%2F02%293%3A1%3C1%3A%3Aaid-nla67%3E3.0.co%3B2-e">Preconditioning Mixed Finite Element Saddle-point Elliptic Problems</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199601/02)3:1&lt;1::aid-nla67&gt;3.0.co;2-e</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>899&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199601%2F02%293%3A1%3C1%3A%3Aaid-nla67%3E3.0.co%3B2-e" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199601/02%293%3A1%3C1%3A%3Aaid-nla67%3E3.0.co%3B2-e">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199601/02%293%3A1%3C1%3A%3Aaid-nla67%3E3.0.co%3B2-e">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199601/02%293%3A1%3C1%3A%3Aaid-nla67%3E3.0.co%3B2-e">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lina Hemmingsson</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199601%2F02%293%3A1%3C21%3A%3Aaid-nla68%3E3.0.co%3B2-g">Toeplitz Preconditioners with Block Structure for First-order PDEs</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199601/02)3:1&lt;21::aid-nla68&gt;3.0.co;2-g</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>896&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199601%2F02%293%3A1%3C21%3A%3Aaid-nla68%3E3.0.co%3B2-g" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199601/02%293%3A1%3C21%3A%3Aaid-nla68%3E3.0.co%3B2-g">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199601/02%293%3A1%3C21%3A%3Aaid-nla68%3E3.0.co%3B2-g">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199601/02%293%3A1%3C21%3A%3Aaid-nla68%3E3.0.co%3B2-g">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Raymond H. Chan; Michael K. Ng; Robert J. Plemmons</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199601%2F02%293%3A1%3C45%3A%3Aaid-nla70%3E3.0.co%3B2-t">Generalization of Strang's Preconditioner with Applications to Toeplitz Least Squares Problems</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199601/02)3:1&lt;45::aid-nla70&gt;3.0.co;2-t</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>969&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199601%2F02%293%3A1%3C45%3A%3Aaid-nla70%3E3.0.co%3B2-t" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199601/02%293%3A1%3C45%3A%3Aaid-nla70%3E3.0.co%3B2-t">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199601/02%293%3A1%3C45%3A%3Aaid-nla70%3E3.0.co%3B2-t">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199601/02%293%3A1%3C45%3A%3Aaid-nla70%3E3.0.co%3B2-t">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Matthias Pester; Sergej Rjasanow</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199601%2F02%293%3A1%3C65%3A%3Aaid-nla73%3E3.0.co%3B2-e">A Parallel Preconditioned Iterative Realization of the Panel Method in 3D</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199601/02)3:1&lt;65::aid-nla73&gt;3.0.co;2-e</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>611&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199601%2F02%293%3A1%3C65%3A%3Aaid-nla73%3E3.0.co%3B2-e" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199601/02%293%3A1%3C65%3A%3Aaid-nla73%3E3.0.co%3B2-e">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199601/02%293%3A1%3C65%3A%3Aaid-nla73%3E3.0.co%3B2-e">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199601/02%293%3A1%3C65%3A%3Aaid-nla73%3E3.0.co%3B2-e">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Gr. Ixaru; H. De Meyer; G. M. Vanden Berghe Van Daele</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199601%2F02%293%3A1%3C81%3A%3Aaid-nla74%3E3.0.co%3B2-9">A Regularization Procedure for Σn−i=1<em>fi</em>(<em>z<sub>j</sub></em>)<em>x</em>i = <em>g(zj</em>), ( <em>j</em> = 1, 2, …, <em>n</em>)</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199601/02)3:1&lt;81::aid-nla74&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>463&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199601%2F02%293%3A1%3C81%3A%3Aaid-nla74%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199601/02%293%3A1%3C81%3A%3Aaid-nla74%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199601/02%293%3A1%3C81%3A%3Aaid-nla74%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199601/02%293%3A1%3C81%3A%3Aaid-nla74%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark T. Jones; Daniel B. Szyld</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199603%2F04%293%3A2%3C113%3A%3Aaid-nla71%3E3.0.co%3B2-g">Two-stage Multisplitting Methods with Overlapping Blocks</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199603/04)3:2&lt;113::aid-nla71&gt;3.0.co;2-g</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;2 (1996)</p></td>
+	<td>580&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199603%2F04%293%3A2%3C113%3A%3Aaid-nla71%3E3.0.co%3B2-g" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199603/04%293%3A2%3C113%3A%3Aaid-nla71%3E3.0.co%3B2-g">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199603/04%293%3A2%3C113%3A%3Aaid-nla71%3E3.0.co%3B2-g">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199603/04%293%3A2%3C113%3A%3Aaid-nla71%3E3.0.co%3B2-g">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Roy Mathias</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199603%2F04%293%3A2%3C125%3A%3Aaid-nla72%3E3.0.co%3B2-8">Analysis of Algorithms for Orthogonalizing Products of Unitary Matrices</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199603/04)3:2&lt;125::aid-nla72&gt;3.0.co;2-8</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;2 (1996)</p></td>
+	<td>995&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199603%2F04%293%3A2%3C125%3A%3Aaid-nla72%3E3.0.co%3B2-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199603/04%293%3A2%3C125%3A%3Aaid-nla72%3E3.0.co%3B2-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199603/04%293%3A2%3C125%3A%3Aaid-nla72%3E3.0.co%3B2-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199603/04%293%3A2%3C125%3A%3Aaid-nla72%3E3.0.co%3B2-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Achchab; J. F. Maître</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199603%2F04%293%3A2%3C147%3A%3Aaid-nla75%3E3.0.co%3B2-s">Estimate of the Constant in Two Strengthened C.B.S. Inequalities for F.E.M. Systems of 2D Elasticity: Application to Multilevel Methods and a Posteriori Error Estimators</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199603/04)3:2&lt;147::aid-nla75&gt;3.0.co;2-s</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;2 (1996)</p></td>
+	<td>373&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199603%2F04%293%3A2%3C147%3A%3Aaid-nla75%3E3.0.co%3B2-s" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199603/04%293%3A2%3C147%3A%3Aaid-nla75%3E3.0.co%3B2-s">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199603/04%293%3A2%3C147%3A%3Aaid-nla75%3E3.0.co%3B2-s">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199603/04%293%3A2%3C147%3A%3Aaid-nla75%3E3.0.co%3B2-s">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alois Ecker; Walter Zulehner</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199603%2F04%293%3A2%3C161%3A%3Aaid-nla76%3E3.0.co%3B2-p">On the Smoothing Property of Multigrid Methods in the Non-symmetric Case</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199603/04)3:2&lt;161::aid-nla76&gt;3.0.co;2-p</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;2 (1996)</p></td>
+	<td>414&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199603%2F04%293%3A2%3C161%3A%3Aaid-nla76%3E3.0.co%3B2-p" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199603/04%293%3A2%3C161%3A%3Aaid-nla76%3E3.0.co%3B2-p">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199603/04%293%3A2%3C161%3A%3Aaid-nla76%3E3.0.co%3B2-p">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199603/04%293%3A2%3C161%3A%3Aaid-nla76%3E3.0.co%3B2-p">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xue-Rong Yong</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199603%2F04%293%3A2%3C173%3A%3Aaid-nla69%3E3.0.co%3B2-c">Short Communication: Two Properties of Diagonally Dominant Matrices</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199603/04)3:2&lt;173::aid-nla69&gt;3.0.co;2-c</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;2 (1996)</p></td>
+	<td>148&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199603%2F04%293%3A2%3C173%3A%3Aaid-nla69%3E3.0.co%3B2-c" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199603/04%293%3A2%3C173%3A%3Aaid-nla69%3E3.0.co%3B2-c">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199603/04%293%3A2%3C173%3A%3Aaid-nla69%3E3.0.co%3B2-c">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199603/04%293%3A2%3C173%3A%3Aaid-nla69%3E3.0.co%3B2-c">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Boris N. Khoromskij</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199603%2F04%293%3A2%3C91%3A%3Aaid-nla64%3E3.0.co%3B2-x">On Fast Computations with the Inverse to Harmonic Potential Operators via Domain Decomposition</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199603/04)3:2&lt;91::aid-nla64&gt;3.0.co;2-x</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;2 (1996)</p></td>
+	<td>1020&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199603%2F04%293%3A2%3C91%3A%3Aaid-nla64%3E3.0.co%3B2-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199603/04%293%3A2%3C91%3A%3Aaid-nla64%3E3.0.co%3B2-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199603/04%293%3A2%3C91%3A%3Aaid-nla64%3E3.0.co%3B2-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199603/04%293%3A2%3C91%3A%3Aaid-nla64%3E3.0.co%3B2-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ivar Gustafsson; Gunhild Lindskog</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199605%2F06%293%3A3%3C185%3A%3Aaid-nla78%3E3.0.co%3B2-0">Parallel Algorithms for Orthotropic Problems</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199605/06)3:3&lt;185::aid-nla78&gt;3.0.co;2-0</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;3 (1996)</p></td>
+	<td>784&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199605%2F06%293%3A3%3C185%3A%3Aaid-nla78%3E3.0.co%3B2-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199605/06%293%3A3%3C185%3A%3Aaid-nla78%3E3.0.co%3B2-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199605/06%293%3A3%3C185%3A%3Aaid-nla78%3E3.0.co%3B2-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199605/06%293%3A3%3C185%3A%3Aaid-nla78%3E3.0.co%3B2-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zhiqiang Cai; Chen-Yao G. Lai</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199605%2F06%293%3A3%3C205%3A%3Aaid-nla79%3E3.0.co%3B2-k">Convergence Estimates of Multilevel Additive and Multiplicative Algorithms for Non-symmetric and Indefinite Problems</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199605/06)3:3&lt;205::aid-nla79&gt;3.0.co;2-k</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;3 (1996)</p></td>
+	<td>639&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199605%2F06%293%3A3%3C205%3A%3Aaid-nla79%3E3.0.co%3B2-k" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199605/06%293%3A3%3C205%3A%3Aaid-nla79%3E3.0.co%3B2-k">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199605/06%293%3A3%3C205%3A%3Aaid-nla79%3E3.0.co%3B2-k">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199605/06%293%3A3%3C205%3A%3Aaid-nla79%3E3.0.co%3B2-k">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xiao-Chuan Cai; Yousef Saad</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199605%2F06%293%3A3%3C221%3A%3Aaid-nla80%3E3.0.co%3B2-7">Overlapping Domain Decomposition Algorithms for General Sparse Matrices</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199605/06)3:3&lt;221::aid-nla80&gt;3.0.co;2-7</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;3 (1996)</p></td>
+	<td>856&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199605%2F06%293%3A3%3C221%3A%3Aaid-nla80%3E3.0.co%3B2-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199605/06%293%3A3%3C221%3A%3Aaid-nla80%3E3.0.co%3B2-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199605/06%293%3A3%3C221%3A%3Aaid-nla80%3E3.0.co%3B2-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199605/06%293%3A3%3C221%3A%3Aaid-nla80%3E3.0.co%3B2-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. L. Nazareth; Liqun Qi</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199605%2F06%293%3A3%3C239%3A%3Aaid-nla81%3E3.0.co%3B2-u">Globalization of Newton's Method for Solving Non-linear Equations</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199605/06)3:3&lt;239::aid-nla81&gt;3.0.co;2-u</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;3 (1996)</p></td>
+	<td>559&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199605%2F06%293%3A3%3C239%3A%3Aaid-nla81%3E3.0.co%3B2-u" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199605/06%293%3A3%3C239%3A%3Aaid-nla81%3E3.0.co%3B2-u">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199605/06%293%3A3%3C239%3A%3Aaid-nla81%3E3.0.co%3B2-u">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199605/06%293%3A3%3C239%3A%3Aaid-nla81%3E3.0.co%3B2-u">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jitka Křížková; Petr Vaněk</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199607%2F08%293%3A4%3C255%3A%3Aaid-nla77%3E3.0.co%3B2-2">Two-level Preconditioner with Small Coarse Grid Appropriate for Unstructured Meshes</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199607/08)3:4&lt;255::aid-nla77&gt;3.0.co;2-2</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;4 (1996)</p></td>
+	<td>924&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199607%2F08%293%3A4%3C255%3A%3Aaid-nla77%3E3.0.co%3B2-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199607/08%293%3A4%3C255%3A%3Aaid-nla77%3E3.0.co%3B2-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199607/08%293%3A4%3C255%3A%3Aaid-nla77%3E3.0.co%3B2-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199607/08%293%3A4%3C255%3A%3Aaid-nla77%3E3.0.co%3B2-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. R. Amestoy; I. S. Duff; C. Puglisi</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199607%2F08%293%3A4%3C275%3A%3Aaid-nla83%3E3.0.co%3B2-7">Multifrontal QR Factorization in a Multiprocessor Environment</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199607/08)3:4&lt;275::aid-nla83&gt;3.0.co;2-7</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;4 (1996)</p></td>
+	<td>1.34&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199607%2F08%293%3A4%3C275%3A%3Aaid-nla83%3E3.0.co%3B2-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199607/08%293%3A4%3C275%3A%3Aaid-nla83%3E3.0.co%3B2-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199607/08%293%3A4%3C275%3A%3Aaid-nla83%3E3.0.co%3B2-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199607/08%293%3A4%3C275%3A%3Aaid-nla83%3E3.0.co%3B2-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael W. Berry; Ricardo D. Fierro</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199607%2F08%293%3A4%3C301%3A%3Aaid-nla84%3E3.0.co%3B2-s">Low-rank Orthogonal Decompositions for Information Retrieval Applications</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199607/08)3:4&lt;301::aid-nla84&gt;3.0.co;2-s</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;4 (1996)</p></td>
+	<td>1.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199607%2F08%293%3A4%3C301%3A%3Aaid-nla84%3E3.0.co%3B2-s" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199607/08%293%3A4%3C301%3A%3Aaid-nla84%3E3.0.co%3B2-s">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199607/08%293%3A4%3C301%3A%3Aaid-nla84%3E3.0.co%3B2-s">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199607/08%293%3A4%3C301%3A%3Aaid-nla84%3E3.0.co%3B2-s">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yousef Saad; Kesheng Wu</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199607%2F08%293%3A4%3C329%3A%3Aaid-nla86%3E3.0.co%3B2-8">DQGMRES: a Direct Quasi-minimal Residual Algorithm Based on Incomplete Orthogonalization</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199607/08)3:4&lt;329::aid-nla86&gt;3.0.co;2-8</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;4 (1996)</p></td>
+	<td>778&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199607%2F08%293%3A4%3C329%3A%3Aaid-nla86%3E3.0.co%3B2-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199607/08%293%3A4%3C329%3A%3Aaid-nla86%3E3.0.co%3B2-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199607/08%293%3A4%3C329%3A%3Aaid-nla86%3E3.0.co%3B2-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199607/08%293%3A4%3C329%3A%3Aaid-nla86%3E3.0.co%3B2-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Owe Axelsson</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199609%2F10%293%3A5%3C349%3A%3Aaid-nla1088%3E3.0.co%3B2-u">Editorial</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199609/10)3:5&lt;349::aid-nla1088&gt;3.0.co;2-u</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;5 (1996)</p></td>
+	<td>95&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199609%2F10%293%3A5%3C349%3A%3Aaid-nla1088%3E3.0.co%3B2-u" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199609/10%293%3A5%3C349%3A%3Aaid-nla1088%3E3.0.co%3B2-u">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199609/10%293%3A5%3C349%3A%3Aaid-nla1088%3E3.0.co%3B2-u">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199609/10%293%3A5%3C349%3A%3Aaid-nla1088%3E3.0.co%3B2-u">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gerhard Starke</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199609%2F10%293%3A5%3C351%3A%3Aaid-nla88%3E3.0.co%3B2-%23">Multilevel Minimal Residual Methods for Nonsymmetric Elliptic Problems</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199609/10)3:5&lt;351::aid-nla88&gt;3.0.co;2-#</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;5 (1996)</p></td>
+	<td>756&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199609%2F10%293%3A5%3C351%3A%3Aaid-nla88%3E3.0.co%3B2-%23" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199609/10%293%3A5%3C351%3A%3Aaid-nla88%3E3.0.co%3B2-%23">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199609/10%293%3A5%3C351%3A%3Aaid-nla88%3E3.0.co%3B2-%23">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199609/10%293%3A5%3C351%3A%3Aaid-nla88%3E3.0.co%3B2-%23">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Arnold Reusken</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199609%2F10%293%3A5%3C369%3A%3Aaid-nla89%3E3.0.co%3B2-m">A Multigrid Method Based on Incomplete Gaussian Elimination</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199609/10)3:5&lt;369::aid-nla89&gt;3.0.co;2-m</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;5 (1996)</p></td>
+	<td>897&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199609%2F10%293%3A5%3C369%3A%3Aaid-nla89%3E3.0.co%3B2-m" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199609/10%293%3A5%3C369%3A%3Aaid-nla89%3E3.0.co%3B2-m">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199609/10%293%3A5%3C369%3A%3Aaid-nla89%3E3.0.co%3B2-m">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199609/10%293%3A5%3C369%3A%3Aaid-nla89%3E3.0.co%3B2-m">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. J. J. Ferket</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199609%2F10%293%3A5%3C391%3A%3Aaid-nla90%3E3.0.co%3B2-a">The Finite Difference Based Fast Adaptive Composite Grid Method</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199609/10)3:5&lt;391::aid-nla90&gt;3.0.co;2-a</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;5 (1996)</p></td>
+	<td>991&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199609%2F10%293%3A5%3C391%3A%3Aaid-nla90%3E3.0.co%3B2-a" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199609/10%293%3A5%3C391%3A%3Aaid-nla90%3E3.0.co%3B2-a">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199609/10%293%3A5%3C391%3A%3Aaid-nla90%3E3.0.co%3B2-a">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199609/10%293%3A5%3C391%3A%3Aaid-nla90%3E3.0.co%3B2-a">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Violeta Migallón; José Penadés; Daniel B. Szyld</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199609%2F10%293%3A5%3C413%3A%3Aaid-nla91%3E3.0.co%3B2-s">Block Two-stage Methods for Singular Systems and Markov Chains</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199609/10)3:5&lt;413::aid-nla91&gt;3.0.co;2-s</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;5 (1996)</p></td>
+	<td>797&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199609%2F10%293%3A5%3C413%3A%3Aaid-nla91%3E3.0.co%3B2-s" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199609/10%293%3A5%3C413%3A%3Aaid-nla91%3E3.0.co%3B2-s">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199609/10%293%3A5%3C413%3A%3Aaid-nla91%3E3.0.co%3B2-s">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199609/10%293%3A5%3C413%3A%3Aaid-nla91%3E3.0.co%3B2-s">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zhangxin Chen; Richard E. Ewing; Raytcho D. Lazarov; Serguei Maliassov; Yuri A. Kuznetsov</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1506%28199609%2F10%293%3A5%3C427%3A%3Aaid-nla92%3E3.0.co%3B2-i">Multilevel Preconditioners for Mixed Methods for Second Order Elliptic Problems</a></p>
+		<p>DOI: 10.1002/(sici)1099-1506(199609/10)3:5&lt;427::aid-nla92&gt;3.0.co;2-i</p>	</td>
+	<td><p><a href="/scimag/journals/18502">Numerical Linear Algebra with Applications</a><p>volume&nbsp;3, issue&nbsp;5 (1996)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1506%28199609%2F10%293%3A5%3C427%3A%3Aaid-nla92%3E3.0.co%3B2-i" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1506%28199609/10%293%3A5%3C427%3A%3Aaid-nla92%3E3.0.co%3B2-i">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1506%28199609/10%293%3A5%3C427%3A%3Aaid-nla92%3E3.0.co%3B2-i">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1506%28199609/10%293%3A5%3C427%3A%3Aaid-nla92%3E3.0.co%3B2-i">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;431 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 58</span>
+	 <a href="/scimag/?journal=18502&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

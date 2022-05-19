@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/937">Allergo Journal</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0941-8849</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>2195-6405</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 196; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 196');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=937&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;893 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 196</span>
+	 <a href="/scimag/?journal=937&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Meinardus-Hager, Georg; Hildebrand, L.</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-013-0383-x">Scanning of pollen samples — new technology</a></p>
+		<p>DOI: 10.1007/s15007-013-0383-x</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;22, issue&nbsp;7 (2013)</p></td>
+	<td>45&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-013-0383-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-013-0383-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-013-0383-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-013-0383-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kohler, Simone</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-013-0344-4">Inverse Assoziation</a></p>
+		<p>DOI: 10.1007/s15007-013-0344-4</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;22, issue&nbsp;6 (2013)</p></td>
+	<td>287&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-013-0344-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-013-0344-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-013-0344-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-013-0344-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kohler, Simone</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-013-0343-5">Viel hilft viel</a></p>
+		<p>DOI: 10.1007/s15007-013-0343-5</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;22, issue&nbsp;6 (2013)</p></td>
+	<td>287&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-013-0343-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-013-0343-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-013-0343-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-013-0343-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>mwe, </td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-013-0364-0">Auf einem guten Weg</a></p>
+		<p>DOI: 10.1007/s15007-013-0364-0</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;22, issue&nbsp;6 (2013)</p></td>
+	<td>287&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-013-0364-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-013-0364-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-013-0364-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-013-0364-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Einecke, Dirk</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-013-0345-3">Luftverschmutzung fördert Herzinsuffizienz</a></p>
+		<p>DOI: 10.1007/s15007-013-0345-3</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;22, issue&nbsp;6 (2013)</p></td>
+	<td>287&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-013-0345-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-013-0345-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-013-0345-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-013-0345-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bauer-Delto, Angelika</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-013-0357-z">Kinder mit atopischer Dermatitis schulen, aber wie?</a></p>
+		<p>DOI: 10.1007/s15007-013-0357-z</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;22, issue&nbsp;6 (2013)</p></td>
+	<td>93&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-013-0357-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-013-0357-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-013-0357-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-013-0357-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bauer-Delto, Angelika</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-013-0361-3">Selbst „Spuren“ von Nahrungsmittelallergenen meiden?</a></p>
+		<p>DOI: 10.1007/s15007-013-0361-3</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;22, issue&nbsp;6 (2013)</p></td>
+	<td>296&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-013-0361-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-013-0361-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-013-0361-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-013-0361-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>mwe, </td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-013-0362-2">Allergy and Immunology of the Skin</a></p>
+		<p>DOI: 10.1007/s15007-013-0362-2</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;22, issue&nbsp;6 (2013)</p></td>
+	<td>246&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-013-0362-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-013-0362-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-013-0362-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-013-0362-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bauer-Delto, Angelika</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-013-0360-4">Teenager als Manager ihrer Nahrungsmittelallergie</a></p>
+		<p>DOI: 10.1007/s15007-013-0360-4</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;22, issue&nbsp;6 (2013)</p></td>
+	<td>296&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-013-0360-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-013-0360-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-013-0360-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-013-0360-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Schumacher, Beate</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-013-0348-0">Neuer Antikörper bessert eosinophiles Asthma</a></p>
+		<p>DOI: 10.1007/s15007-013-0348-0</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;22, issue&nbsp;6 (2013)</p></td>
+	<td>337&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-013-0348-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-013-0348-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-013-0348-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-013-0348-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bauer-Delto, Angelika</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-013-0358-y">Anaphylaxie-Risiko bei Operationen senken</a></p>
+		<p>DOI: 10.1007/s15007-013-0358-y</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;22, issue&nbsp;6 (2013)</p></td>
+	<td>93&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-013-0358-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-013-0358-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-013-0358-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-013-0358-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bauer-Delto, Angelika</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-013-0341-7">Therapiemöglichkeiten gut, Versorgungssituation schlecht</a></p>
+		<p>DOI: 10.1007/s15007-013-0341-7</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;22, issue&nbsp;6 (2013)</p></td>
+	<td>266&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-013-0341-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-013-0341-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-013-0341-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-013-0341-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Steinhaeuser, Jost; Chenot, Jean-François; Roos, Marco; Ledig, Thomas; Joos, Stefanie </td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-013-0352-4">Herzlich Willkommen in Bochum!</a></p>
+		<p>DOI: 10.1007/s15007-013-0352-4</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;22, issue&nbsp;6 (2013)</p></td>
+	<td>211&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-013-0352-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-013-0352-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-013-0352-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-013-0352-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bauer-Delto, Angelika</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-013-0356-0">Allergien — eine globale Herausforderung</a></p>
+		<p>DOI: 10.1007/s15007-013-0356-0</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;22, issue&nbsp;6 (2013)</p></td>
+	<td>148&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-013-0356-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-013-0356-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-013-0356-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-013-0356-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kraus, Dagmar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-013-0346-2">SCIT und SLIT: Viele Patienten brechen vorzeitig ab</a></p>
+		<p>DOI: 10.1007/s15007-013-0346-2</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;22, issue&nbsp;6 (2013)</p></td>
+	<td>116&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-013-0346-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-013-0346-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-013-0346-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-013-0346-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bauer-Delto, Angelika</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-013-0359-x">Was tun bei Insektengiftallergikern mit Mastozytose?</a></p>
+		<p>DOI: 10.1007/s15007-013-0359-x</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;22, issue&nbsp;6 (2013)</p></td>
+	<td>95&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-013-0359-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-013-0359-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-013-0359-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-013-0359-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>mwe, </td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-013-0363-1">Das Allergo Journal auf springermedizin.de</a></p>
+		<p>DOI: 10.1007/s15007-013-0363-1</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;22, issue&nbsp;6 (2013)</p></td>
+	<td>230&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-013-0363-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-013-0363-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-013-0363-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-013-0363-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Reese, Imke</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-013-0347-1">Nahrungsmittelallergie bei Kindern: Ferienlager trainiert Selbstsicherheit</a></p>
+		<p>DOI: 10.1007/s15007-013-0347-1</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;22, issue&nbsp;6 (2013)</p></td>
+	<td>72&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-013-0347-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-013-0347-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-013-0347-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-013-0347-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Aharony, Ofer; Razamat, Shlomo S.; Seiberg, Nathan; Willett, Brian </td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-012-0435-7">Corrigendum</a></p>
+		<p>DOI: 10.1007/s15007-012-0435-7</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;21, issue&nbsp;8 (2012)</p></td>
+	<td>196&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-012-0435-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-012-0435-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-012-0435-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-012-0435-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>nz, </td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-012-0437-5">Wechsel in der Pädiatrie</a></p>
+		<p>DOI: 10.1007/s15007-012-0437-5</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;21, issue&nbsp;8 (2012)</p></td>
+	<td>196&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-012-0437-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-012-0437-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-012-0437-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-012-0437-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>nz, </td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-012-0434-8">Die nächste Generation kann sprechen</a></p>
+		<p>DOI: 10.1007/s15007-012-0434-8</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;21, issue&nbsp;8 (2012)</p></td>
+	<td>196&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-012-0434-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-012-0434-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-012-0434-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-012-0434-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>mwe, </td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-012-0436-6">Bald als Kassenleistung?</a></p>
+		<p>DOI: 10.1007/s15007-012-0436-6</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;21, issue&nbsp;8 (2012)</p></td>
+	<td>196&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-012-0436-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-012-0436-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-012-0436-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-012-0436-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zimmermann, Wolfgang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-012-0462-4">Bradykinin-vermittelte Angioödeme richtig behandeln</a></p>
+		<p>DOI: 10.1007/s15007-012-0462-4</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;21, issue&nbsp;8 (2012)</p></td>
+	<td>52&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-012-0462-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-012-0462-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-012-0462-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-012-0462-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zimmermann, Wolfgang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-012-0463-3">Mitgeführter Adrenalin-Autoinjektor als Lebensretter</a></p>
+		<p>DOI: 10.1007/s15007-012-0463-3</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;21, issue&nbsp;8 (2012)</p></td>
+	<td>52&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-012-0463-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-012-0463-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-012-0463-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-012-0463-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Schumacher, Beate</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs15007-012-0433-9">Antibiotika nur in besonderen Fällen</a></p>
+		<p>DOI: 10.1007/s15007-012-0433-9</p>	</td>
+	<td><p><a href="/scimag/journals/937">Allergo Journal</a><p>volume&nbsp;21, issue&nbsp;8 (2012)</p></td>
+	<td>196&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs15007-012-0433-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s15007-012-0433-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s15007-012-0433-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s15007-012-0433-9">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;893 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 196</span>
+	 <a href="/scimag/?journal=937&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Taylor and Francis Group</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0308-5694</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1479-7801</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 153; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 153');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=9396&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;809 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 153</span>
+	 <a href="/scimag/?journal=9396&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Dora, Veronica Della</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085690802159129">Mapping a Holy Quasi‐Island: Mount Athos in Early Renaissance <i>Isolarii</i></a></p>
+		<p>DOI: 10.1080/03085690802159129</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;60, issue&nbsp;2 (2008)</p></td>
+	<td>926&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085690802159129" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085690802159129">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085690802159129">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085690802159129">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Evelyn Edson and Emilie Savage-Smith</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F1151475">An Astrologer's Map: A Relic of Late Antiquity</a></p>
+		<p>DOI: 10.2307/1151475</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;52 (2000)</p></td>
+	<td>5.80&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F1151475" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/1151475">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/1151475">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/1151475">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Withers, Charles W. J.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F0308569032000172950">Mapping the Niger, 1798–1832: Trust, Testimony and ‘Ocular Demonstration’ in the Late Enlightenment</a></p>
+		<p>DOI: 10.1080/0308569032000172950</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;56, issue&nbsp;2 (2004)</p></td>
+	<td>5.87&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F0308569032000172950" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/0308569032000172950">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/0308569032000172950">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/0308569032000172950">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Molly Bourne</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F1151440">Francesco II Gonzaga and Maps as Palace Decoration in Renaissance Mantua</a></p>
+		<p>DOI: 10.2307/1151440</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;51 (1999)</p></td>
+	<td>10.89&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F1151440" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/1151440">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/1151440">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/1151440">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>O&#039;Loughlin, Thomas</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085690903319366">Map Awareness in the Mid-Seventh Century: Jonas’ <i>Vita Columbani</i></a></p>
+		<p>DOI: 10.1080/03085690903319366</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;62, issue&nbsp;1 (2009)</p></td>
+	<td>69&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085690903319366" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085690903319366">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085690903319366">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085690903319366">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Campbell, E. M. J.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085698108592529">Ninth international conference on the history of cartography, Italy (Pisa‐Florence‐Rome), 1981</a></p>
+		<p>DOI: 10.1080/03085698108592529</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;33, issue&nbsp;1 (1981)</p></td>
+	<td>241&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085698108592529" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085698108592529">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085698108592529">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085698108592529">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Keuning, Johannes</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085695208592003">XVIth century cartography in the Netherlands</a></p>
+		<p>DOI: 10.1080/03085695208592003</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;9, issue&nbsp;1 (1952)</p></td>
+	<td>2.82&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085695208592003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085695208592003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085695208592003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085695208592003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Raisz, Erwin</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085693708591829">Time charts of historical cartography</a></p>
+		<p>DOI: 10.1080/03085693708591829</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;2, issue&nbsp;1 (1937)</p></td>
+	<td>650&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085693708591829" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085693708591829">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085693708591829">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085693708591829">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Keuning, Johannes</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085695008591957">Cornelis anthonisz</a></p>
+		<p>DOI: 10.1080/03085695008591957</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;7, issue&nbsp;1 (1950)</p></td>
+	<td>1.24&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085695008591957" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085695008591957">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085695008591957">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085695008591957">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Schilder, Günter</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085697608592430">Organization and evolution of the Dutch East India company's hydrographic office in the seventeenth century</a></p>
+		<p>DOI: 10.1080/03085697608592430</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;28, issue&nbsp;1 (1976)</p></td>
+	<td>1.61&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085697608592430" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085697608592430">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085697608592430">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085697608592430">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085693908591867">16th international geographical congress, 1938</a></p>
+		<p>DOI: 10.1080/03085693908591867</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;3, issue&nbsp;1 (1939)</p></td>
+	<td>338&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085693908591867" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085693908591867">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085693908591867">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085693908591867">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Reinhartz, Dennis</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085699008592700">Thirteenth international conference on the history of cartography, Amsterdam 1989</a></p>
+		<p>DOI: 10.1080/03085699008592700</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;42, issue&nbsp;1 (1990)</p></td>
+	<td>120&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085699008592700" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085699008592700">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085699008592700">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085699008592700">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wallis, Helen</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085698108592527">International seminar on historical cartography and maintenance of cartographic archives, Helsinki, 1979</a></p>
+		<p>DOI: 10.1080/03085698108592527</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;33, issue&nbsp;1 (1981)</p></td>
+	<td>126&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085698108592527" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085698108592527">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085698108592527">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085698108592527">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Koeman, C.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085697208592384">Life and works of willem Janszoon Blaeu new contributions to the study of Blaeu, made during the last hundred years</a></p>
+		<p>DOI: 10.1080/03085697208592384</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;26, issue&nbsp;1 (1972)</p></td>
+	<td>733&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085697208592384" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085697208592384">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085697208592384">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085697208592384">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1080%2F0308569042000238127">Chronicle for 2003</a></p>
+		<p>DOI: 10.1080/0308569042000238127</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;56, issue&nbsp;2 (2004)</p></td>
+	<td>1.72&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F0308569042000238127" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/0308569042000238127">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/0308569042000238127">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/0308569042000238127">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Abeydeera, Ananda</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085699308592767">Mapping as a vital element of administration in the Dutch colonial government of maritime Sri Lanka, 1658–1796</a></p>
+		<p>DOI: 10.1080/03085699308592767</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;45, issue&nbsp;1 (1993)</p></td>
+	<td>1.52&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085699308592767" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085699308592767">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085699308592767">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085699308592767">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>van Luijk, Ruben B.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085690802024372">Maps of Battles, Battle of Maps: News Cartography of the Battle at Neerwinden, Flanders, 1693</a></p>
+		<p>DOI: 10.1080/03085690802024372</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;60, issue&nbsp;2 (2008)</p></td>
+	<td>727&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085690802024372" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085690802024372">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085690802024372">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085690802024372">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Campbell, Tony</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085698208592547">Chronicle for 1981–2</a></p>
+		<p>DOI: 10.1080/03085698208592547</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;34, issue&nbsp;1 (1982)</p></td>
+	<td>829&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085698208592547" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085698208592547">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085698208592547">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085698208592547">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Blakemore, Michael; Ehrenberg, Ralph; Karrow, Robert; Mangani, Giorgio; Donkin, Lucy; Billion, Philipp; Hernando, Agustin; de Meer, Sjoerd; Ehrensvard, Ulla; Burroughs, Charles; Mokre, Jan; Federzoni, Laura; Harvey, P. D. A.; Theunissen, Yolanda; Campbell, Brian; Braun, Lindsay Frederick; Dym, Jordana; Wolter, John; Pool, Jeremy </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085694.2011.521341">Magnificent Maps: Power, Propaganda and Art. By Peter Barber and Tom Harper. Maps in Those Days: Cartographic Methods before 1850. By J. H. Andrews. Ortelius' Spieghel der Werelt: Een facsimile voor Francine de Nave = A Facsimile for Francine de Nave. By Elly Cockx-Indestege, Norbert Moermans et al Mappe-Monde Nouvelle Papistique: Histoire de la mappe-monde papistique, en la quelle est declaire tout ce qui est contenu et pourtraict en la grande table, ou carte de la mappe-monde (Geneve, 1566). By Jean-Baptiste Trento and Pierre Eskrich, edited by Frank Lestringant and Alessandra Preda. The Art, Science, and Technology of Medieval Travel. Edited by Robert Bork and Andrea Kann. Europa im Weltbild des Mittelalters, Kartographische Konzepte. Edited by Ingrid Baumgartner and Hartmut Kugler. Catalogo de Cartografia, Cosmografia, Nautica y Navegacion de la Biblioteca de la Sociedad Bilbaina. By Antonio Larrinaga and Ana Villacorta. Spiegel van de Zuiderzee: Geschiedenis en Cartobibliografie van de Zuiderzee en het Hollands Waddengebied. By Erik Walsmit, Hans Kloosterboer, Nils Persson and Rinus Ostermann. Maps and Mapping of Norway 1602-1855. By William B. Ginsberg. Rappresentare la citta; topografie urbane nell'Italia di antico regime. Edited by Marco Folin. Rom. Eine Stadt in Karten von der Antike bis heute. By Steffen Bogen and Felix Thurlemann. La Borgogna sulle carte: geografia e politiche territoriali d'ancien-regime. By Marco Petrella. Die alteren Manuskriptkarten Altbayerns: eine kartographiehistorische Studie zum Augenscheinplan unter besonderer Berucksichtigung der Kultur- und Klimageschichte. By Thomas Horst. The Dartons, Publishers of Educational Aids, Pastimes & Juvenile Ephemera, 1787-1876: A Bibliographical Checklist. Together with a Description of the Darton Archive as Held by the Cotsen Children's Library, Princeton University & a Brief History of Printed Teaching Aids. By Jill Shefrin. Images and Text on the 'Artemidorus Papyrus': Working Papers on P. Ar</a></p>
+		<p>DOI: 10.1080/03085694.2011.521341</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;63, issue&nbsp;1 (2011)</p></td>
+	<td>217&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085694.2011.521341" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085694.2011.521341">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085694.2011.521341">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085694.2011.521341">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Campbell, Tony</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085697708592460">Chronicle</a></p>
+		<p>DOI: 10.1080/03085697708592460</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;29, issue&nbsp;1 (1977)</p></td>
+	<td>695&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085697708592460" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085697708592460">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085697708592460">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085697708592460">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bracke, Wouter</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085694.2011.521345">Literature for 2006 to 2010 in the History of Cartography [with indexes]</a></p>
+		<p>DOI: 10.1080/03085694.2011.521345</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;63, issue&nbsp;1 (2011)</p></td>
+	<td>329&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085694.2011.521345" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085694.2011.521345">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085694.2011.521345">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085694.2011.521345">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Keuning, Johannes</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085694908591931">Hessel Gerritsz</a></p>
+		<p>DOI: 10.1080/03085694908591931</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;6, issue&nbsp;1 (1949)</p></td>
+	<td>2.46&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085694908591931" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085694908591931">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085694908591931">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085694908591931">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085690600997944">OBITUARIES</a></p>
+		<p>DOI: 10.1080/03085690600997944</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;59, issue&nbsp;1 (2007)</p></td>
+	<td>232&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085690600997944" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085690600997944">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085690600997944">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085690600997944">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Smith, Catherine Delano</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085699608592846">Imago Mundi's logo the Babylonian map of the world</a></p>
+		<p>DOI: 10.1080/03085699608592846</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;48, issue&nbsp;1 (1996)</p></td>
+	<td>597&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085699608592846" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085699608592846">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085699608592846">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085699608592846">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Harley, J. B.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F03085698808592639">Silences and secrecy: The hidden agenda of cartography in early modern Europe</a></p>
+		<p>DOI: 10.1080/03085698808592639</p>	</td>
+	<td><p><a href="/scimag/journals/9396">Imago Mundi: The International Journal for the History of Cartography</a><p>volume&nbsp;40, issue&nbsp;1 (1988)</p></td>
+	<td>2.39&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F03085698808592639" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/03085698808592639">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/03085698808592639">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/03085698808592639">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;809 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 153</span>
+	 <a href="/scimag/?journal=9396&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

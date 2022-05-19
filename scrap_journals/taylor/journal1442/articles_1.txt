@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1442">Annals of GIS</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Taylor and Francis Group</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1947-5683</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1947-5691</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 21; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 21');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1442&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">515 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 21</span>
+	 <a href="/scimag/?journal=1442&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Fung, Wai Yung; Wu, Renguang </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F19475683.2014.945480">Relationship between intraseasonal variations of air pollution and meteorological variables in Hong Kong</a></p>
+		<p>DOI: 10.1080/19475683.2014.945480</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;20, issue&nbsp;3 (2014)</p></td>
+	<td>769&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F19475683.2014.945480" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/19475683.2014.945480">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/19475683.2014.945480">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/19475683.2014.945480">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Goodchild, Michael F.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F19475683.2012.668561">The future of Digital Earth</a></p>
+		<p>DOI: 10.1080/19475683.2012.668561</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;18, issue&nbsp;2 (2012)</p></td>
+	<td>130&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F19475683.2012.668561" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/19475683.2012.668561">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/19475683.2012.668561">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/19475683.2012.668561">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Huang, Z.D.; Liu, X.J.; Huang, C.C.; Shen, J.W.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F19475683.2010.513152">A GIS-based framework for bus network optimization using genetic algorithm</a></p>
+		<p>DOI: 10.1080/19475683.2010.513152</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;16, issue&nbsp;3 (2010)</p></td>
+	<td>875&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F19475683.2010.513152" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/19475683.2010.513152">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/19475683.2010.513152">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/19475683.2010.513152">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tao, C. Vincent</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10824000009480539">Spatial Data Warehousing: A Strategy for Integrated Urban Data Management in Support of Decision Making</a></p>
+		<p>DOI: 10.1080/10824000009480539</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;6, issue&nbsp;2 (2000)</p></td>
+	<td>471&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10824000009480539" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10824000009480539">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10824000009480539">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10824000009480539">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Radke, John; Mu, Lan</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10824000009480538">Spatial Decompositions, Modeling and Mapping Service Regions to Predict Access to Social Programs</a></p>
+		<p>DOI: 10.1080/10824000009480538</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;6, issue&nbsp;2 (2000)</p></td>
+	<td>483&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10824000009480538" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10824000009480538">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10824000009480538">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10824000009480538">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Liu, Tingting; Lin, Hui </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F19475683.2012.730058">A spectral and texture-based unsupervised segmentation algorithm for human settlements land-cover extraction</a></p>
+		<p>DOI: 10.1080/19475683.2012.730058</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;18, issue&nbsp;4 (2012)</p></td>
+	<td>730&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F19475683.2012.730058" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/19475683.2012.730058">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/19475683.2012.730058">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/19475683.2012.730058">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ouma, Yashon O.; Kipkorir, Emmanuel C.; Tateishi, Ryutaro </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F19475683.2011.558021">MCDA-GIS integrated approach for optimized landfill site selection for growing urban regions: an application of neighborhood-proximity analysis</a></p>
+		<p>DOI: 10.1080/19475683.2011.558021</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;17, issue&nbsp;1 (2011)</p></td>
+	<td>7.33&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F19475683.2011.558021" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/19475683.2011.558021">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/19475683.2011.558021">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/19475683.2011.558021">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mac Aoidh, E.; McArdle, G.; Petit, M.; Ray, C.; Bertolotto, M.; Claramunt, C.; Wilson, D. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207720903270985">Personalization in adaptive and interactive GIS</a></p>
+		<p>DOI: 10.1080/00207720903270985</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;15, issue&nbsp;1 (2009)</p></td>
+	<td>1.05&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207720903270985" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207720903270985">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207720903270985">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207720903270985">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xie, Ming; Zhou, Guoqing; Li, Deren; Gong, Jianjia </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10824000009480547">Design and Implementation of Attribute Database Management System in A GIS System: GeoStar</a></p>
+		<p>DOI: 10.1080/10824000009480547</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;6, issue&nbsp;2 (2000)</p></td>
+	<td>1.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10824000009480547" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10824000009480547">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10824000009480547">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10824000009480547">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jiang, Yijuan; Li, Xiang </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F19475683.2012.758173">Travel time prediction based on historical trajectory data</a></p>
+		<p>DOI: 10.1080/19475683.2012.758173</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;19, issue&nbsp;1 (2013)</p></td>
+	<td>394&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F19475683.2012.758173" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/19475683.2012.758173">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/19475683.2012.758173">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/19475683.2012.758173">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lin, Shing; Lu, Yongmei </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F19475680903271133">The spatial patterns of adverse health effects of ozone pollution on childhood respiratory diseases in urban Houston</a></p>
+		<p>DOI: 10.1080/19475680903271133</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;15, issue&nbsp;2 (2009)</p></td>
+	<td>833&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F19475680903271133" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/19475680903271133">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/19475680903271133">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/19475680903271133">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mohajeri, Nahid; French, Jon R.; Batty, Michael </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F19475683.2012.758175">Evolution and entropy in the organization of urban street patterns</a></p>
+		<p>DOI: 10.1080/19475683.2012.758175</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;19, issue&nbsp;1 (2013)</p></td>
+	<td>2.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F19475683.2012.758175" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/19475683.2012.758175">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/19475683.2012.758175">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/19475683.2012.758175">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R, Bill; C, Cap; M, Kofahl; T, Mundt </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10824000409480660">Indoor and Outdoor Positioning in Mobile Environments—a Review and some Investigations on WLAN-Positioning</a></p>
+		<p>DOI: 10.1080/10824000409480660</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;10, issue&nbsp;2 (2004)</p></td>
+	<td>688&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10824000409480660" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10824000409480660">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10824000409480660">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10824000409480660">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Adhikari, Binay; Li, Jianling </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F19475683.2013.806355">Modelling ambiguity in urban planning</a></p>
+		<p>DOI: 10.1080/19475683.2013.806355</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;19, issue&nbsp;3 (2013)</p></td>
+	<td>1.12&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F19475683.2013.806355" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/19475683.2013.806355">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/19475683.2013.806355">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/19475683.2013.806355">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Batty, Michael; Hudson-Smith, Andrew; Milton, Richard; Crooks, Andrew </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F19475681003700831">Map mashups, Web 2.0 and the GIS revolution</a></p>
+		<p>DOI: 10.1080/19475681003700831</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;16, issue&nbsp;1 (2010)</p></td>
+	<td>4.29&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F19475681003700831" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/19475681003700831">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/19475681003700831">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/19475681003700831">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xu, Fengliang; Niu, Xutong; Li, Rongxing </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10824000309480591">An Improved Approach to Automatic Recognition of Civil Infrastructure Objects</a></p>
+		<p>DOI: 10.1080/10824000309480591</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;9, issue&nbsp;1-2 (2003)</p></td>
+	<td>5.87&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10824000309480591" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10824000309480591">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10824000309480591">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10824000309480591">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lai, Poh Chin; Chan, Wing Yee </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10824000409480655">GIS for Road Accident Analysis in Hong Kong</a></p>
+		<p>DOI: 10.1080/10824000409480655</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;10, issue&nbsp;1 (2004)</p></td>
+	<td>1.38&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10824000409480655" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10824000409480655">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10824000409480655">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10824000409480655">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shahriari, Nadia; Tao, C. Vincent </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10824000209480576">GIS Applications Using Agent Technology</a></p>
+		<p>DOI: 10.1080/10824000209480576</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;8, issue&nbsp;2 (2002)</p></td>
+	<td>299&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10824000209480576" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10824000209480576">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10824000209480576">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10824000209480576">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anselin, Luc</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10824009909480516">The Future of Spatial Analysis in the Social Sciences</a></p>
+		<p>DOI: 10.1080/10824009909480516</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;5, issue&nbsp;2 (1999)</p></td>
+	<td>350&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10824009909480516" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10824009909480516">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10824009909480516">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10824009909480516">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christoph, Stahl; Dominik, Heckmann </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10824000409480667">Using Semantic Web Technology for Ubiquitous Location and Situation Modeling</a></p>
+		<p>DOI: 10.1080/10824000409480667</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;10, issue&nbsp;2 (2004)</p></td>
+	<td>1.15&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10824000409480667" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10824000409480667">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10824000409480667">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10824000409480667">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wu, Jianguo; Qi, Ye </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10824000009480528">Dealing with Scale in Landscape Analysis: An Overview</a></p>
+		<p>DOI: 10.1080/10824000009480528</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;6, issue&nbsp;1 (2000)</p></td>
+	<td>199&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10824000009480528" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10824000009480528">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10824000009480528">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10824000009480528">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Barasa, B.; Majaliwa, J.G.M.; Lwasa, S.; Obando, J.; Bamutaze, Y. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F19475683.2011.558023">Magnitude and transition potential of land-use/cover changes in the trans-boundary river Sio catchment using remote sensing and GIS</a></p>
+		<p>DOI: 10.1080/19475683.2011.558023</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;17, issue&nbsp;1 (2011)</p></td>
+	<td>964&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F19475683.2011.558023" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/19475683.2011.558023">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/19475683.2011.558023">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/19475683.2011.558023">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zhang, Hongsheng; Zhang, Yuanzhi; Lin, Hui </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F19475683.2012.730059">Evaluation of the potential of ASAR data to estimate impervious surface area</a></p>
+		<p>DOI: 10.1080/19475683.2012.730059</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;18, issue&nbsp;4 (2012)</p></td>
+	<td>2.45&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F19475683.2012.730059" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/19475683.2012.730059">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/19475683.2012.730059">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/19475683.2012.730059">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wang, Fahui</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F19475683.2012.691900">Why police and policing need GIS: an overview</a></p>
+		<p>DOI: 10.1080/19475683.2012.691900</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;18, issue&nbsp;3 (2012)</p></td>
+	<td>970&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F19475683.2012.691900" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/19475683.2012.691900">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/19475683.2012.691900">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/19475683.2012.691900">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wu, Jianguo; Jelinski, Dennis E.; Luck, Matt; Tueller, Paul T. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10824000009480529">Multiscale Analysis of Landscape Heterogeneity: Scale Variance and Pattern Metrics</a></p>
+		<p>DOI: 10.1080/10824000009480529</p>	</td>
+	<td><p><a href="/scimag/journals/1442">Annals of GIS</a><p>volume&nbsp;6, issue&nbsp;1 (2000)</p></td>
+	<td>1.23&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10824000009480529" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10824000009480529">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10824000009480529">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10824000009480529">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">515 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 21</span>
+	 <a href="/scimag/?journal=1442&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

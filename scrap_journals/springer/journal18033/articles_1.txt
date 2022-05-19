@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/18033">Neural Computing and Applications</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0941-0643</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1433-3058</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 230; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 230');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=18033&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">5&nbsp;743 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 230</span>
+	 <a href="/scimag/?journal=18033&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>David Bounds; Howard James; C. J. Satchwell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01411369">Editorials</a></p>
+		<p>DOI: 10.1007/bf01411369</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>219&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01411369" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01411369">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01411369">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01411369">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chris Bishop; Iain Strachan; John O&#039;Rourke; Geoff Maddison; Paul Thomas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01411370">Reconstruction of tokamak density profiles using feedforward networks</a></p>
+		<p>DOI: 10.1007/bf01411370</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>1.50&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01411370" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01411370">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01411370">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01411370">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mike Wynne-Jones</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01411371">Node splitting: A constructive algorithm for feed-forward neural networks</a></p>
+		<p>DOI: 10.1007/bf01411371</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>490&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01411371" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01411371">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01411371">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01411371">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. E. Robbins; M. D. Plumbley; J. C. Hughes; F. Fallside; R. Prager</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01411372">Generation and adaptation of neural networks by evolutionary techniques (GANNET)</a></p>
+		<p>DOI: 10.1007/bf01411372</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>1.24&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01411372" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01411372">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01411372">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01411372">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Antonia J. Jones</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01411373">Genetic algorithms and their applications to the design of neural networks</a></p>
+		<p>DOI: 10.1007/bf01411373</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>1.37&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01411373" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01411373">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01411373">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01411373">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. G. Hoptroff</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01411375">The principles and practice of time series forecasting and business modelling using neural nets</a></p>
+		<p>DOI: 10.1007/bf01411375</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>679&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01411375" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01411375">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01411375">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01411375">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nicholas J. Radcliffe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01411376">Genetic set recombination and its application to neural network topology optimisation</a></p>
+		<p>DOI: 10.1007/bf01411376</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>2.21&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01411376" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01411376">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01411376">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01411376">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Antonia J. Jones</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01411377">The modular construction of dynamic nets</a></p>
+		<p>DOI: 10.1007/bf01411377</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>397&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01411377" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01411377">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01411377">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01411377">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Simon Cumming</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01411378">Neural networks for monitoring of engine condition data</a></p>
+		<p>DOI: 10.1007/bf01411378</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>598&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01411378" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01411378">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01411378">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01411378">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nick Beard</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01411379">Book review</a></p>
+		<p>DOI: 10.1007/bf01411379</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>111&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01411379" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01411379">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01411379">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01411379">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01411380">Conference announcements</a></p>
+		<p>DOI: 10.1007/bf01411380</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>54&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01411380" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01411380">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01411380">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01411380">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John MacIntyre</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01413704">Editorial</a></p>
+		<p>DOI: 10.1007/bf01413704</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;7, issue&nbsp;1 (1998)</p></td>
+	<td>145&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01413704" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01413704">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01413704">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01413704">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Fisher; J. Fulcher</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01413705">Improving the inversion of ionograms by combining neural network and data fusion techniques</a></p>
+		<p>DOI: 10.1007/bf01413705</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;7, issue&nbsp;1 (1998)</p></td>
+	<td>1.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01413705" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01413705">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01413705">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01413705">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Mitra; M. Banerjee; S. K. Pal</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01413706">Rough knowledge-based network, fuzziness and classification</a></p>
+		<p>DOI: 10.1007/bf01413706</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;7, issue&nbsp;1 (1998)</p></td>
+	<td>739&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01413706" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01413706">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01413706">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01413706">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. De Wilde</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01413707">A neural network model of a communication network with information servers</a></p>
+		<p>DOI: 10.1007/bf01413707</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;7, issue&nbsp;1 (1998)</p></td>
+	<td>883&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01413707" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01413707">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01413707">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01413707">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Ridella; S. Rovetta; R. Zunino</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01413708">Plastic algorithm for adaptive vector quantisation</a></p>
+		<p>DOI: 10.1007/bf01413708</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;7, issue&nbsp;1 (1998)</p></td>
+	<td>1.51&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01413708" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01413708">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01413708">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01413708">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Verikas; K. Malmqvist; L. Bergman; M. Signahl</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01413709">Colour classification by neural networks in graphic arts</a></p>
+		<p>DOI: 10.1007/bf01413709</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;7, issue&nbsp;1 (1998)</p></td>
+	<td>1.71&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01413709" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01413709">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01413709">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01413709">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. K. Sharpe; P. Caleb</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01413710">Self organising maps for the investigation of clinical data: A case study</a></p>
+		<p>DOI: 10.1007/bf01413710</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;7, issue&nbsp;1 (1998)</p></td>
+	<td>529&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01413710" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01413710">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01413710">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01413710">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Zhihong; X. H. Yu; H. R. Wu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01413711">An RBF neural network-based adaptive control for SISO linearisable nonlinear systems</a></p>
+		<p>DOI: 10.1007/bf01413711</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;7, issue&nbsp;1 (1998)</p></td>
+	<td>539&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01413711" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01413711">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01413711">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01413711">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. F. Augusteijn; U. J. Steck</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01413712">Supervised adaptive clustering: A hybrid neural network clustering algorithm</a></p>
+		<p>DOI: 10.1007/bf01413712</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;7, issue&nbsp;1 (1998)</p></td>
+	<td>1.35&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01413712" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01413712">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01413712">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01413712">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Y. F. Lou; P. Brunn</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01413713">An offset error compensation method for improving ANN accuracy when used for position control of precision machinery</a></p>
+		<p>DOI: 10.1007/bf01413713</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;7, issue&nbsp;1 (1998)</p></td>
+	<td>545&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01413713" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01413713">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01413713">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01413713">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Howard James</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01413741">Editorial</a></p>
+		<p>DOI: 10.1007/bf01413741</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;4, issue&nbsp;2 (1996)</p></td>
+	<td>55&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01413741" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01413741">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01413741">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01413741">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. S. Mohamed; E. N. Attia</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01413742">Parallel 1D and 2D vector quantizers using a Kohonen neural network</a></p>
+		<p>DOI: 10.1007/bf01413742</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;4, issue&nbsp;2 (1996)</p></td>
+	<td>1.40&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01413742" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01413742">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01413742">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01413742">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marilyn Lougher Vaughn</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01413743">Interpretation and knowledge discovery from the multilayer perceptron network: Opening the black box</a></p>
+		<p>DOI: 10.1007/bf01413743</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;4, issue&nbsp;2 (1996)</p></td>
+	<td>864&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01413743" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01413743">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01413743">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01413743">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Lowe; M. Tipping</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01413744">Feed-forward neural networks and topographic mappings for exploratory data analysis</a></p>
+		<p>DOI: 10.1007/bf01413744</p>	</td>
+	<td><p><a href="/scimag/journals/18033">Neural Computing and Applications</a><p>volume&nbsp;4, issue&nbsp;2 (1996)</p></td>
+	<td>1.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01413744" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01413744">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01413744">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01413744">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">5&nbsp;743 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 230</span>
+	 <a href="/scimag/?journal=18033&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

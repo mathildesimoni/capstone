@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/6095">Dynamics and Control</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0925-4668</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-8450</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 42; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 42');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=6095&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;047 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 42</span>
+	 <a href="/scimag/?journal=6095&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968356">Editorial</a></p>
+		<p>DOI: 10.1007/bf01968356</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;3, issue&nbsp;1 (1993)</p></td>
+	<td>44&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968356" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968356">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968356">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968356">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Leitmann; E. Reithmeier</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968357">Semiactive control of a vibrating system by means of electrorheological fluids</a></p>
+		<p>DOI: 10.1007/bf01968357</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;3, issue&nbsp;1 (1993)</p></td>
+	<td>829&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968357" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968357">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968357">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968357">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hebertt Sira-Ramírez; Orestes Llanes-Santiago</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968358">Pulse-Width-Modulation control of some mechanical systems</a></p>
+		<p>DOI: 10.1007/bf01968358</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;3, issue&nbsp;1 (1993)</p></td>
+	<td>706&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968358" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968358">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968358">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968358">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pi-Cheng Tung; Seng-Chi Chen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968359">Experimental and analytical studies of the sinusoidal dither signal in a DC motor system</a></p>
+		<p>DOI: 10.1007/bf01968359</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;3, issue&nbsp;1 (1993)</p></td>
+	<td>708&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968359" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968359">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968359">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968359">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Allen Moshfegh</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968360">Discrete state-space modeling for linearnth-order constant coefficient distributed-parameter systems</a></p>
+		<p>DOI: 10.1007/bf01968360</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;3, issue&nbsp;1 (1993)</p></td>
+	<td>827&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968360" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968360">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968360">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968360">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Johnson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968361">On the sampled-data linear quadratic tracking problem</a></p>
+		<p>DOI: 10.1007/bf01968361</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;3, issue&nbsp;1 (1993)</p></td>
+	<td>297&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968361" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968361">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968361">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968361">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968362">Errata</a></p>
+		<p>DOI: 10.1007/bf01968362</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;3, issue&nbsp;1 (1993)</p></td>
+	<td>23&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968362" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968362">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968362">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968362">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chih-Jian Wan; Dennis S. Bernstein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968501">Nonlinear feedback control with global stabilization</a></p>
+		<p>DOI: 10.1007/bf01968501</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;5, issue&nbsp;4 (1995)</p></td>
+	<td>1023&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968501" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968501">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968501">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968501">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Liang-Wey Chang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968502">Dynamics of a versatile sliding control</a></p>
+		<p>DOI: 10.1007/bf01968502</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;5, issue&nbsp;4 (1995)</p></td>
+	<td>730&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968502" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968502">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968502">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968502">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Paskota; A. I. Mees; K. L. Teo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968503">On control of chaos: Higher periodic orbits</a></p>
+		<p>DOI: 10.1007/bf01968503</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;5, issue&nbsp;4 (1995)</p></td>
+	<td>1021&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968503" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968503">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968503">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968503">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. G. Skarpetis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968504">Disturbance rejection for an aircraft flying in atmospheric disturbances</a></p>
+		<p>DOI: 10.1007/bf01968504</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;5, issue&nbsp;4 (1995)</p></td>
+	<td>454&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968504" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968504">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968504">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968504">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Tadi; John A. Burns</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968505">Feedback controller for a flexible structure using piezoceramic actuators</a></p>
+		<p>DOI: 10.1007/bf01968505</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;5, issue&nbsp;4 (1995)</p></td>
+	<td>589&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968505" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968505">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968505">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968505">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yilmaz Tokad</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968527">Network model approach to the analysis of multirigid-body systems</a></p>
+		<p>DOI: 10.1007/bf01968527</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;3, issue&nbsp;2 (1993)</p></td>
+	<td>801&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968527" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968527">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968527">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968527">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shaheen Ahmad; Mohamed Zribi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968528">Lyapunov-based control design for multiple robots handling a common object</a></p>
+		<p>DOI: 10.1007/bf01968528</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;3, issue&nbsp;2 (1993)</p></td>
+	<td>1.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968528" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968528">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968528">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968528">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Walter J. Grantham; Byoungsoo Lee</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968529">A chaotic limit cycle paradox</a></p>
+		<p>DOI: 10.1007/bf01968529</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;3, issue&nbsp;2 (1993)</p></td>
+	<td>629&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968529" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968529">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968529">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968529">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David J. W. Ruxton</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968530">Differential dynamic programming applied to continuous optimal control problems with state variable inequality constraints</a></p>
+		<p>DOI: 10.1007/bf01968530</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;3, issue&nbsp;2 (1993)</p></td>
+	<td>498&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968530" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968530">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968530">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968530">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pierre Bernhard</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968531">Guest introduction</a></p>
+		<p>DOI: 10.1007/bf01968531</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;5, issue&nbsp;1 (1995)</p></td>
+	<td>165&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968531" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968531">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968531">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968531">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zigang Pan; Tamer Başar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968532">Multi-time scale zero-sum differential games with perfect state measurements</a></p>
+		<p>DOI: 10.1007/bf01968532</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;5, issue&nbsp;1 (1995)</p></td>
+	<td>995&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968532" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968532">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968532">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968532">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Leon A. Petrosjan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968533">The regularization ofNB-scheme in differential games</a></p>
+		<p>DOI: 10.1007/bf01968533</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;5, issue&nbsp;1 (1995)</p></td>
+	<td>240&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968533" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968533">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968533">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968533">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Moti Shefer; John V. Breakwell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968534">Optimal compensators for nonlinear analytic discrete time processes</a></p>
+		<p>DOI: 10.1007/bf01968534</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;5, issue&nbsp;1 (1995)</p></td>
+	<td>917&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968534" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968534">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968534">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968534">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Shinar; G. Silberman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968535">A discrete dynamic game modelling anti-missile defense scenarios</a></p>
+		<p>DOI: 10.1007/bf01968535</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;5, issue&nbsp;1 (1995)</p></td>
+	<td>508&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968535" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968535">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968535">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968535">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas L. Vincent; Yeong Ching Lin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968536">Some performance measures useful in the design of controllers for two dimensional dynamical systems subject to uncertain inputs</a></p>
+		<p>DOI: 10.1007/bf01968536</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;5, issue&nbsp;1 (1995)</p></td>
+	<td>1022&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968536" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968536">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968536">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968536">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. S. Necsulscu; J. M. Skowronski; H. Shaban-Zanjani</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968537">Low-speed motion control of a mechanical system</a></p>
+		<p>DOI: 10.1007/bf01968537</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;3, issue&nbsp;4 (1993)</p></td>
+	<td>585&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968537" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968537">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968537">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968537">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Woosoon Yim; Sahjendra N. Singh</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968538">Feedback linearization of differential-algebraic systems and force and position control of manipulators</a></p>
+		<p>DOI: 10.1007/bf01968538</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;3, issue&nbsp;4 (1993)</p></td>
+	<td>938&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968538" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968538">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968538">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968538">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hankun Wang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01968539">Stabilization of wave equations coupled in parallel by viscous damping</a></p>
+		<p>DOI: 10.1007/bf01968539</p>	</td>
+	<td><p><a href="/scimag/journals/6095">Dynamics and Control</a><p>volume&nbsp;3, issue&nbsp;4 (1993)</p></td>
+	<td>584&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01968539" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01968539">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01968539">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01968539">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;047 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 42</span>
+	 <a href="/scimag/?journal=6095&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

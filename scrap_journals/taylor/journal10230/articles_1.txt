@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/10230">International Journal of Control</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Taylor and Francis Group</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0020-7179</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1366-5820</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 420; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 420');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=10230&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">10&nbsp;492 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 420</span>
+	 <a href="/scimag/?journal=10230&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>BILLINGS, S. A.; VOON, W. S. F. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207178608933633">A prediction-error and stepwise-regression estimation algorithm for non-linear systems</a></p>
+		<p>DOI: 10.1080/00207178608933633</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;44, issue&nbsp;3 (1986)</p></td>
+	<td>611&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207178608933633" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207178608933633">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207178608933633">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207178608933633">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nishimura, Toshimitsu; Kano, Hiroyuki </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207178908559629">Periodic strong solutions of periodically time-varying matrix Riccati equations</a></p>
+		<p>DOI: 10.1080/00207178908559629</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;49, issue&nbsp;1 (1989)</p></td>
+	<td>577&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207178908559629" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207178908559629">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207178908559629">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207178908559629">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>DABADGHAO, S. V.; KRISHNAMURTHY, E. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207177108932063">Direct translation of Brzozowski's ‘linor-hat’ language into the conventional regular expression†</a></p>
+		<p>DOI: 10.1080/00207177108932063</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;14, issue&nbsp;3 (1971)</p></td>
+	<td>222&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207177108932063" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207177108932063">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207177108932063">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207177108932063">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Achili, B.; Daachi, B.; Amirat, Y.; Ali-cherif, A.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207179.2010.505965">A robust adaptive control of a parallel robot</a></p>
+		<p>DOI: 10.1080/00207179.2010.505965</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;83, issue&nbsp;10 (2010)</p></td>
+	<td>1.41&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207179.2010.505965" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207179.2010.505965">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207179.2010.505965">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207179.2010.505965">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>KUDVA, PRABHAKAR; NARENDRA, KUMPATI S.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207177308932593">Synthesis of an adaptive observer using Lyapunov's direct method</a></p>
+		<p>DOI: 10.1080/00207177308932593</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;18, issue&nbsp;6 (1973)</p></td>
+	<td>256&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207177308932593" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207177308932593">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207177308932593">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207177308932593">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>ZAAD, K. HASHTRUDI; KHORASANI, K.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207179608921863">Control of non-minimum phase singularly perturbed systems with application to flexible-link manipulators</a></p>
+		<p>DOI: 10.1080/00207179608921863</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;63, issue&nbsp;4 (1996)</p></td>
+	<td>723&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207179608921863" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207179608921863">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207179608921863">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207179608921863">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>GUPTA, M. M.; NIKIFORUK, P. N.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207176908905743">A bibliography on the properties, generation and control system applications of shift-register sequences†</a></p>
+		<p>DOI: 10.1080/00207176908905743</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;9, issue&nbsp;2 (1969)</p></td>
+	<td>793&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207176908905743" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207176908905743">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207176908905743">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207176908905743">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>PARKS, P. C.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207177708922303">A new proof of Hermite's stability criterion and a generalization of Orlando's formula</a></p>
+		<p>DOI: 10.1080/00207177708922303</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;26, issue&nbsp;2 (1977)</p></td>
+	<td>319&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207177708922303" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207177708922303">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207177708922303">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207177708922303">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>BISSELL, C. C.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207178608933646">Karl Küpfmüller: a German contributor to the early development of linear systems theory</a></p>
+		<p>DOI: 10.1080/00207178608933646</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;44, issue&nbsp;4 (1986)</p></td>
+	<td>422&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207178608933646" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207178608933646">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207178608933646">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207178608933646">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Havre, K.; Skogestad, S. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207170110053346">Achievable performance of multivariable systems with unstable zeros and poles</a></p>
+		<p>DOI: 10.1080/00207170110053346</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;74, issue&nbsp;11 (2001)</p></td>
+	<td>258&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207170110053346" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207170110053346">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207170110053346">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207170110053346">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Han, X.; Fridman, E.; Spurgeon, S.K.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207179.2010.527375">Sliding-mode control of uncertain systems in the presence of unmatched disturbances with applications</a></p>
+		<p>DOI: 10.1080/00207179.2010.527375</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;83, issue&nbsp;12 (2010)</p></td>
+	<td>1.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207179.2010.527375" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207179.2010.527375">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207179.2010.527375">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207179.2010.527375">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>ZHENG, YING-PING; BASAR, TAMER</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207178208922667">Existence and derivation of optimal affine incentive schemes for Stackelberg games with partial information: a geometric approach†</a></p>
+		<p>DOI: 10.1080/00207178208922667</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;35, issue&nbsp;6 (1982)</p></td>
+	<td>551&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207178208922667" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207178208922667">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207178208922667">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207178208922667">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hsieh, Jin-Yuan; Hwang, Chi-Chuan; Wang, An-Pei; Li, Woei-Jong</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F002071799220614">Controlling hyperchaos of the Rossler system</a></p>
+		<p>DOI: 10.1080/002071799220614</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;72, issue&nbsp;10 (1999)</p></td>
+	<td>315&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F002071799220614" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/002071799220614">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/002071799220614">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/002071799220614">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cheviron, T.; Plestan, F.; Chriette, A.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207170902948043">A robust guidance and control scheme of an autonomous scale helicopter in presence of wind gusts</a></p>
+		<p>DOI: 10.1080/00207170902948043</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;82, issue&nbsp;12 (2009)</p></td>
+	<td>501&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207170902948043" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207170902948043">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207170902948043">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207170902948043">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>YOUNG, PETER; JAKEMAN, ANTHONY</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207178008961080">Refined instrumental variable methods of recursive time-series analysis Part III. Extensions</a></p>
+		<p>DOI: 10.1080/00207178008961080</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;31, issue&nbsp;4 (1980)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207178008961080" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207178008961080">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207178008961080">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207178008961080">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>JAKEMAN, ANTHONY; YOUNG, PETER</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207177908922724">Refined instrumental variable methods of recursive time-series analysis Part II. Multivariable systems</a></p>
+		<p>DOI: 10.1080/00207177908922724</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;29, issue&nbsp;4 (1979)</p></td>
+	<td>663&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207177908922724" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207177908922724">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207177908922724">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207177908922724">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>PALMOR, Z. J.; BLAU, M.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207179408921454">An auto-tuner for Smith dead time compensator</a></p>
+		<p>DOI: 10.1080/00207179408921454</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;60, issue&nbsp;1 (1994)</p></td>
+	<td>546&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207179408921454" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207179408921454">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207179408921454">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207179408921454">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>ICHIKAWA, AKIRA</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207179108934208">Quadratic games and H              <sup>∞</sup>              -type problems for time varying systems</a></p>
+		<p>DOI: 10.1080/00207179108934208</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;54, issue&nbsp;5 (1991)</p></td>
+	<td>627&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207179108934208" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207179108934208">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207179108934208">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207179108934208">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>BOSLEY, M. J.; KROPHOLLER, H. W.; LEES, F. P.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207177308932526">On the relation between the continued fraction expansion and moments matching methods of model reduction †</a></p>
+		<p>DOI: 10.1080/00207177308932526</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;18, issue&nbsp;3 (1973)</p></td>
+	<td>377&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207177308932526" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207177308932526">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207177308932526">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207177308932526">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>TANNENBAUM, ALLEN</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207178008922838">Feedback stabilization of linear dynamical plants with uncertainty in the gain factor</a></p>
+		<p>DOI: 10.1080/00207178008922838</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;32, issue&nbsp;1 (1980)</p></td>
+	<td>556&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207178008922838" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207178008922838">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207178008922838">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207178008922838">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kekkeris, G. Th.; Paraskevopoulos, P. N.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207178808906031">Hermite series approach to optimal control</a></p>
+		<p>DOI: 10.1080/00207178808906031</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;47, issue&nbsp;2 (1988)</p></td>
+	<td>152&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207178808906031" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207178808906031">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207178808906031">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207178808906031">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shi, Dong-Hua; Hou, S. H.; Feng, De-Xing </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F002071798222848">Feedback stabilization of a Timoshenko beam with an end mass</a></p>
+		<p>DOI: 10.1080/002071798222848</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;69, issue&nbsp;2 (1998)</p></td>
+	<td>254&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F002071798222848" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/002071798222848">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/002071798222848">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/002071798222848">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>ZAKIAN, V.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207177308932525">Simplification of linear time-invariant systems by moment approximants †</a></p>
+		<p>DOI: 10.1080/00207177308932525</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;18, issue&nbsp;3 (1973)</p></td>
+	<td>228&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207177308932525" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207177308932525">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207177308932525">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207177308932525">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>BOURLÉS, H.; JOANNIC, Y.; MERCIER, O.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207179008953591">ρ-Stability and robustness: discrete-time case</a></p>
+		<p>DOI: 10.1080/00207179008953591</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;52, issue&nbsp;5 (1990)</p></td>
+	<td>645&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207179008953591" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207179008953591">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207179008953591">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207179008953591">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bourlès, H.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207178708933877">α-Stability and robustness of large-scale interconnected systems</a></p>
+		<p>DOI: 10.1080/00207178708933877</p>	</td>
+	<td><p><a href="/scimag/journals/10230">International Journal of Control</a><p>volume&nbsp;45, issue&nbsp;6 (1987)</p></td>
+	<td>381&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207178708933877" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207178708933877">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207178708933877">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207178708933877">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">10&nbsp;492 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 420</span>
+	 <a href="/scimag/?journal=10230&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

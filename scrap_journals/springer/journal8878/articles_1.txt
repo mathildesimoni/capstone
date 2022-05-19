@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/8878">HSS Journal</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1556-3316</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1556-3324</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 33; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 33');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=8878&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">816 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 33</span>
+	 <a href="/scimag/?journal=8878&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Charles N. Cornell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0101-7">Management of Acetabular Fractures in the Elderly Patient</a></p>
+		<p>DOI: 10.1007/s11420-005-0101-7</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>309&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0101-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0101-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0101-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0101-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Colin E. Poole; Shantanu S. Patil; Darryl D. D’Lima; Clifford W. Colwell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0102-6">Early Follow-up for a Hybrid Total Hip Arthroplasty Using a Metal-Backed Acetabular Component Designed to Reduce “Backside” Polyethylene Wear</a></p>
+		<p>DOI: 10.1007/s11420-005-0102-6</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>160&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0102-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0102-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0102-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0102-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christopher C. Dodson; Oheneba Boachie-Adjei</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0103-5">Escobar Syndrome (Multiple Pterygium Syndrome) Associated with Thoracic Kyphoscoliosis, Lordoscoliosis, and Severe Restrictive Lung Disease: A Case Report</a></p>
+		<p>DOI: 10.1007/s11420-005-0103-5</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>400&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0103-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0103-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0103-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0103-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bryan T. Kelly; Robert L. Buly</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0105-3">Hip Arthroscopy Update</a></p>
+		<p>DOI: 10.1007/s11420-005-0105-3</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>543&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0105-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0105-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0105-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0105-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carolyn M. Sofka; Gregory R. Saboeiro; Robert Schneider</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0107-1">Multiple Hereditary Exostoses</a></p>
+		<p>DOI: 10.1007/s11420-005-0107-1</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>274&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0107-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0107-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0107-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0107-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Ronald MacKenzie; Franklin G. Miller; Joseph J. Fins</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0108-0">Justice and Health Care in the Rheumatic Diseases</a></p>
+		<p>DOI: 10.1007/s11420-005-0108-0</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>170&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0108-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0108-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0108-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0108-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Douglas E. Padgett; Stephen L. Hendrix; Timothy S. Mologne; Drew A. Peterson; Keith A. Holley</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0109-z">Effectiveness of an Acetabular Positioning Device in Primary Total Hip Arthroplasty</a></p>
+		<p>DOI: 10.1007/s11420-005-0109-z</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>247&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0109-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0109-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0109-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0109-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Margaret G. E. Peterson; John P. Allegrante; C. Ronald MacKenzie; David Helfet; Stephen A. Paget; Marjorie Pangas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0110-6">Prevalence of Major Life Events Among Patients and Community Dwellers</a></p>
+		<p>DOI: 10.1007/s11420-005-0110-6</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>170&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0110-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0110-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0110-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0110-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mathias P. G. Bostrom; Daniel A. Seigerman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0111-5">The Clinical Use of Allografts, Demineralized Bone Matrices, Synthetic Bone Graft Substitutes and Osteoinductive Growth Factors: A Survey Study</a></p>
+		<p>DOI: 10.1007/s11420-005-0111-5</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>775&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0111-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0111-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0111-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0111-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hollis G. Potter; Li F. Foo; Bryan J. Nestor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0112-4">What is the Role of Magnetic Resonance Imaging in the Evaluation of Total Hip Arthroplasty?</a></p>
+		<p>DOI: 10.1007/s11420-005-0112-4</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>288&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0112-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0112-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0112-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0112-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Robert Rozbruch</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0113-3">Posttraumatic Reconstruction of the Ankle Using the Ilizarov Method</a></p>
+		<p>DOI: 10.1007/s11420-005-0113-3</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>928&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0113-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0113-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0113-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0113-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Bottner; E. Su; B. Nestor; B. Azzis; T. P. Sculco; M. Bostrom</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0114-2">Radiostereometric Analysis: The Hip</a></p>
+		<p>DOI: 10.1007/s11420-005-0114-2</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>302&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0114-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0114-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0114-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0114-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David B. Levine</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0116-0">Hospital for Special Surgery: Origin and Early History First Site 1863–1870</a></p>
+		<p>DOI: 10.1007/s11420-005-0116-0</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>227&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0116-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0116-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0116-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0116-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yun Sun Choi; Hollis G. Potter; David M. Scher</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0117-z">A Shearing Osteochondral Fracture of the Humeral Head Following an Anterior Shoulder Dislocation in a Child</a></p>
+		<p>DOI: 10.1007/s11420-005-0117-z</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>205&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0117-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0117-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0117-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0117-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniel W. Green; Richard A. K. Reynolds; Safdar N. Khan; Vernon Tolo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0118-y">The Delay in Diagnosis of Slipped Capital Femoral Epiphysis: A Review of 102 Patients</a></p>
+		<p>DOI: 10.1007/s11420-005-0118-y</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>182&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0118-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0118-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0118-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0118-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen J. Di Martino; Stephen A. Paget</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0119-x">On the Importance of Early Arthritis Centers</a></p>
+		<p>DOI: 10.1007/s11420-005-0119-x</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>153&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0119-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0119-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0119-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0119-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gerard K. Jeong; Harvinder S. Sandhu; James Farmer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0120-4">Bone Morphogenic Proteins: Applications in Spinal Surgery</a></p>
+		<p>DOI: 10.1007/s11420-005-0120-4</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>203&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0120-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0120-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0120-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0120-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0121-3">Editor’s Welcome</a></p>
+		<p>DOI: 10.1007/s11420-005-0121-3</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>93&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0121-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0121-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0121-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0121-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexander C. Gordon; Pam Pulido; Steven N. Copp; Kace A. Ezzet; Richard H. Walker; Clifford W. Colwell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0122-2">The Use of Reinfusion Drains after Total Knee Arthroplasty in Patients Treated with Low Molecular Weight Heparin for Thromboembolic Prophylaxis</a></p>
+		<p>DOI: 10.1007/s11420-005-0122-2</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>199&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0122-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0122-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0122-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0122-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0123-1">Foreword from the Surgeon-in Chief</a></p>
+		<p>DOI: 10.1007/s11420-005-0123-1</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>63&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0123-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0123-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0123-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0123-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joseph Feinberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0124-0">EMG: Myths and Facts</a></p>
+		<p>DOI: 10.1007/s11420-005-0124-0</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;2, issue&nbsp;1 (2006)</p></td>
+	<td>171&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0124-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0124-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0124-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0124-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. K. Urban; M. Chisholm; B. Wukovits</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0125-z">Are Postoperative Complications More Common with Single-Stage Bilateral (SBTKR) Than with Unilateral Knee Arthroplasty: Guidelines for Patients Scheduled for SBTKR</a></p>
+		<p>DOI: 10.1007/s11420-005-0125-z</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;2, issue&nbsp;1 (2006)</p></td>
+	<td>212&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0125-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0125-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0125-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0125-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniel Southern; Gregory Lutz; Ana Bracilovic; Paul West; Mila Spevak; Nancy Pleshko Camacho; Stephen Doty</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0126-y">Histological and Molecular Structure Characterization of Annular Collagen after Intradiskal Electrothermal Annuloplasty</a></p>
+		<p>DOI: 10.1007/s11420-005-0126-y</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;2, issue&nbsp;1 (2006)</p></td>
+	<td>380&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0126-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0126-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0126-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0126-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paolo Aglietti; Andrea Baldini; Francesco Giron; Lorenzo Sensi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0127-x">Minimally Invasive Total Knee Arthroplasty: Is it for Everybody?</a></p>
+		<p>DOI: 10.1007/s11420-005-0127-x</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;2, issue&nbsp;1 (2006)</p></td>
+	<td>260&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0127-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0127-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0127-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0127-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carolyn M. Sofka; Ronald S. Adler; Rock Positano; Helene Pavlov; Jonathan S. Luchs</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11420-005-0129-8">Haglund's Syndrome: Diagnosis and Treatment Using Sonography</a></p>
+		<p>DOI: 10.1007/s11420-005-0129-8</p>	</td>
+	<td><p><a href="/scimag/journals/8878">HSS Journal</a><p>volume&nbsp;2, issue&nbsp;1 (2006)</p></td>
+	<td>339&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11420-005-0129-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11420-005-0129-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11420-005-0129-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11420-005-0129-8">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">816 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 33</span>
+	 <a href="/scimag/?journal=8878&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

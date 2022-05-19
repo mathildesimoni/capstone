@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/11002">International Journal of Primatology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer US</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0164-0291</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-8604</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 104; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 104');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=11002&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;596 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 104</span>
+	 <a href="/scimag/?journal=11002&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Karen M. Kool</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192186">The diet and feeding behavior of the silver leaf monkey (Trachypithecus auratus sondaicus) in Indonesia</a></p>
+		<p>DOI: 10.1007/bf02192186</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;5 (1993)</p></td>
+	<td>1.75&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192186" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192186">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192186">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192186">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Govindarajulu; W. Hunte; L. A. Vermeer; J. A. Horrocks</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192187">The ontogeny of social play in a feral troop of vervet monkeys (Cercopithecus aethiops sabaeus): The function of early play</a></p>
+		<p>DOI: 10.1007/bf02192187</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;5 (1993)</p></td>
+	<td>904&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192187" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192187">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192187">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192187">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Deborah J. Overdorff</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192188">Similarities, differences, and seasonal patterns in the diets ofEulemur rubriventerandEulemur fulvus rufusin the Ranomafana National Park, Madagascar</a></p>
+		<p>DOI: 10.1007/bf02192188</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;5 (1993)</p></td>
+	<td>1.56&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192188" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192188">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192188">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192188">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rosa M. Lemos de Sá; Theresa R. Pope; Thomas T. Struhsaker; Kenneth E. Glander</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192189">Sexual dimorphism in canine length of woolly spider monkeys (Brachyteles arachnoides, E. Geoffroy 1806)</a></p>
+		<p>DOI: 10.1007/bf02192189</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;5 (1993)</p></td>
+	<td>426&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192189" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192189">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192189">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192189">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard A. Nisbett; Russell L. Ciochon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192190">Primates in northern Viet Nam: A review of the ecology and conservation status of extant species, with notes on pleistocene localities</a></p>
+		<p>DOI: 10.1007/bf02192190</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;5 (1993)</p></td>
+	<td>1.64&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192190" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192190">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192190">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192190">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Sabater Pi; M. Bermejo; G. Illera; J. J. Vea</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192191">Behavior of bonobos (Pan paniscus) following their capture of monkeys in Zaire</a></p>
+		<p>DOI: 10.1007/bf02192191</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;5 (1993)</p></td>
+	<td>831&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192191" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192191">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192191">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192191">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Brian T. Shea</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192192">The evolution of ontogeny</a></p>
+		<p>DOI: 10.1007/bf02192192</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;5 (1993)</p></td>
+	<td>231&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192192" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192192">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192192">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192192">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Matthew J. Ravosa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192193">Body size in mammalian paleobiology: Estimation and biological implications</a></p>
+		<p>DOI: 10.1007/bf02192193</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;5 (1993)</p></td>
+	<td>147&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192193" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192193">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192193">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192193">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Este Armstrong</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192194">Braindance</a></p>
+		<p>DOI: 10.1007/bf02192194</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;5 (1993)</p></td>
+	<td>201&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192194" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192194">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192194">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192194">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Charles T. Snowdon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192195">Aggression and peacefulness in humans and other primates</a></p>
+		<p>DOI: 10.1007/bf02192195</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;5 (1993)</p></td>
+	<td>266&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192195" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192195">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192195">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192195">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. W. Howells</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192196">Koobi fora research project, volume 4, hominid cranial remains</a></p>
+		<p>DOI: 10.1007/bf02192196</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;5 (1993)</p></td>
+	<td>143&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192196" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192196">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192196">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192196">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter W. Lucas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192631">Introduction</a></p>
+		<p>DOI: 10.1007/bf02192631</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;2 (1993)</p></td>
+	<td>276&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192631" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192631">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192631">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192631">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Warren G. Kinzey; Marilyn A. Norconk</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192632">Physical and chemical properties of fruit and seeds eaten byPitheciaandChiropotesin Surinam and Venezuela</a></p>
+		<p>DOI: 10.1007/bf02192632</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;2 (1993)</p></td>
+	<td>1.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192632" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192632">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192632">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192632">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kosei Izawa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192633">Soil-eating byAlouattaandAteles</a></p>
+		<p>DOI: 10.1007/bf02192633</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;2 (1993)</p></td>
+	<td>570&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192633" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192633">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192633">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192633">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. W. Wrangham; N. L. Conklin; G. Etot; J. Obua; K. D. Hunt; M. D. Hauser; A. P. Clark</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192634">The value of figs to chimpanzees</a></p>
+		<p>DOI: 10.1007/bf02192634</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;2 (1993)</p></td>
+	<td>688&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192634" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192634">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192634">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192634">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark Leighton</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192635">Modeling dietary selectivity by Bornean orangutans: Evidence for integration of multiple criteria in fruit selection</a></p>
+		<p>DOI: 10.1007/bf02192635</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;2 (1993)</p></td>
+	<td>2.78&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192635" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192635">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192635">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192635">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Charles R. Peters</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192636">Shell strength and primate seed predation of nontoxic species in eastern and southern Africa</a></p>
+		<p>DOI: 10.1007/bf02192636</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;2 (1993)</p></td>
+	<td>1.25&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192636" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192636">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192636">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192636">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Koichi Koshimizu; Hajime Ohigashi; Michael A. Huffman; Toshisada Nishida; Hiroyuki Takasaki</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192637">Physiological activities and the active constituents of potentially medicinal plants used by wild chimpanzees of the Mahale mountains, Tanzania</a></p>
+		<p>DOI: 10.1007/bf02192637</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;2 (1993)</p></td>
+	<td>564&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192637" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192637">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192637">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192637">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Urs Thalmann; Thomas Geissmann; Arsène Simona; Thomas Mutschler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192772">The indris of Anjanaharibe-Sud, northeastern Madagascar</a></p>
+		<p>DOI: 10.1007/bf02192772</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;3 (1993)</p></td>
+	<td>1.77&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192772" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192772">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192772">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192772">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Irwin S. Bernstein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192773">Seasonal influences on rhesus monkey (Macaca mulatta) behavior</a></p>
+		<p>DOI: 10.1007/bf02192773</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;3 (1993)</p></td>
+	<td>1.03&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192773" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192773">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192773">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192773">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean Prud&#039;homme; Bernard Chapais</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192774">Rank relations among sisters in semi-free-ranging Barbary macaques (Macaca sylvanus)</a></p>
+		<p>DOI: 10.1007/bf02192774</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;3 (1993)</p></td>
+	<td>870&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192774" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192774">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192774">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192774">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Benedikt Hallgrímsson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192775">Fluctuating asymmetry inMacaca fascicularis: A study of the etiology of developmental noise</a></p>
+		<p>DOI: 10.1007/bf02192775</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;3 (1993)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192775" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192775">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192775">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192775">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. M. Wahome; T. E. Rowell; H. M. Tsingalia</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192776">The natural history of de Brazza's monkey in Kenya</a></p>
+		<p>DOI: 10.1007/bf02192776</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;3 (1993)</p></td>
+	<td>1.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192776" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192776">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192776">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192776">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Juan E. Garcia; Francisco Braza</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192777">Sleeping sites and lodge trees of the night monkey (Aotus azarae) in Bolivia</a></p>
+		<p>DOI: 10.1007/bf02192777</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;3 (1993)</p></td>
+	<td>487&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192777" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192777">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192777">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192777">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nelly Ménard; Dominique Vallet</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02192778">Dynamics of fission in a wild Barbary macaque group (Macaca sylvanus)</a></p>
+		<p>DOI: 10.1007/bf02192778</p>	</td>
+	<td><p><a href="/scimag/journals/11002">International Journal of Primatology</a><p>volume&nbsp;14, issue&nbsp;3 (1993)</p></td>
+	<td>976&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02192778" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02192778">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02192778">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02192778">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;596 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 104</span>
+	 <a href="/scimag/?journal=11002&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,379 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Elsevier Science</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1251-8050</td>
+	</tr>
+					</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 47; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 47');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4857&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;164 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 47</span>
+	 <a href="/scimag/?journal=4857&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Lionel Mabit; Claude Bernard</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2899%2980034-2">Relationship between soil 137Cs inventories and chemical properties in a small intensively cropped watershed</a></p>
+		<p>DOI: 10.1016/s1251-8050(99)80034-2</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;327, issue&nbsp;8 (1998)</p></td>
+	<td>582&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2899%2980034-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2899%2980034-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2899%2980034-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2899%2980034-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michel Laurent; Jean-Louis Ricard; Jean-Jacques Bahain; Pierre Voinchet; Louis Rousseau</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0000-0000%2800%2900000-0">Datation du site Paléolithique moyen de la Butte d'Arvigny (Moissy-Cramayel, Seine-et-Marne)</a></p>
+		<p>DOI: 10.1016/s0000-0000(00)00000-0</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;8 (2000)</p></td>
+	<td>66&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0000-0000%2800%2900000-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0000-0000%2800%2900000-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0000-0000%2800%2900000-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0000-0000%2800%2900000-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wilson R. Lourenço</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900018-5">Premier cas d'un sub-fossile d'araignée appartenant au genre Archaea Koch & Berendt (Archaeidae) dans le copal de Madagascar</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00018-5</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;7 (2000)</p></td>
+	<td>352&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900018-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900018-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900018-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900018-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Olivier Ribolzi; Luis Auque; Thierry Bariac; Alain Casenave; Jean-Pierre Delhoume; Robert Gathelier; Valérie Pot</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900101-4">Écoulements hypodermiques et transferts de solutés dans les placages éoliens du Sahel : étude par traçage isotopique et chimique sous pluies simulées</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00101-4</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;1 (2000)</p></td>
+	<td>294&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900101-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900101-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900101-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900101-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fouad El Kamel; Ahmed El Hassani; Assia Mohsine; Toufik Remmal</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900102-6">Contrôle tectonique de l'édification des récifs Dévonien moyen de Mechra ben Abbou (Rehamna, Maroc)</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00102-6</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;1 (2000)</p></td>
+	<td>406&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900102-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900102-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900102-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900102-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marie-Claire Pierret; Gérard Blanc; Norbert Clauer</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900103-8">Sur l'origine de la pyrite framboïdale dans les sédiments de la fosse Suakin (mer Rouge)</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00103-8</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;1 (2000)</p></td>
+	<td>510&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900103-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900103-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900103-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900103-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Guy Kieffer; Gérard Vernet; Jean-Paul Raynal</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900104-x">Reconnaissance de l'ignimbrite campanienne près du golfe de Policastro (Italie), jusqu'à 150 km de sa zone d'émission. Implications volcanologiques et paléoenvironnementales</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00104-x</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;2 (2000)</p></td>
+	<td>185&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900104-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900104-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900104-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900104-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean Guilaine; François Briois; Jean-Denis Vigne; Isabelle Carrère</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900105-1">Découverte d'un Néolithique précéramique ancien chypriote (fin 9e, début 8e millénaires cal. BC), apparenté au PPNB ancien/moyen du Levant nord</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00105-1</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;1 (2000)</p></td>
+	<td>544&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900105-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900105-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900105-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900105-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Françoise G. Bourrouilh-Le Jan</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900106-3">Déodat de Gratet de Dolomieu (1750–1801), vie et œuvre d'un géologue européen, naturaliste et lithologiste</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00106-3</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;1 (2000)</p></td>
+	<td>1.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900106-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900106-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900106-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900106-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jérôme David; Michel Roux</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900107-5">Modèle actuel de production bioclastique par les crinoïdes pédonculés. Application au calcaire à entroques d'Euville (Oxfordien de la Meuse)</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00107-5</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;2 (2000)</p></td>
+	<td>468&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900107-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900107-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900107-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900107-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Javier Sanz-López; Joan-Carles Melgarejo; Thomas Peter Crimes</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900108-7">Stratigraphy of Lower Cambrian and unconformable Lower Carboniferous beds from the Valls unit (Catalonian Coastal Ranges)</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00108-7</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;2 (2000)</p></td>
+	<td>517&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900108-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900108-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900108-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900108-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Abdellah Algouti; Ahmed Algouti; Jacques Beauchamp; Boumedien Chbani; Kamal Taj-Eddine</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900109-9">Paléogéographie d'une plateforme infracambrienne en dislocation : série de base adoudounienne de la région Waoufengha–Igherm, Anti-Atlas occidental, Maroc</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00109-9</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;2 (2000)</p></td>
+	<td>538&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900109-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900109-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900109-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900109-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Muriel Gasc-Barbier; Philippe Cosenza; Mehdi Ghoreychi; Serge Chanchole; Daniel Tessier</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900110-5">Conception d'un essai triaxial à succion contrôlée : mesure des déformations</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00110-5</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;2 (2000)</p></td>
+	<td>220&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900110-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900110-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900110-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900110-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Abdulkader Abed; Pierre Carbonel; Jacques Collina-Girard; Michel Fontugne; Nicole Petit-Maire; Jean-Claude Reyss; Suha Yasin</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900111-7">Un paléolac du dernier interglaciaire pléistocène dans l'Extrême-Sud hyperaride de la Jordanie</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00111-7</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;4 (2000)</p></td>
+	<td>681&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900111-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900111-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900111-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900111-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tahar Aïfa; Jean-Pierre Lefort</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900112-9">Fossilisation des contraintes régionales miocènes sous climat aride en bordure d'un filon doléritique carbonifère en Bretagne. Apport de l'anisotropie de susceptibilité magnétique et du paléomagnétisme</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00112-9</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;1 (2000)</p></td>
+	<td>608&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900112-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900112-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900112-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900112-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kamel Ferkous; Alain Tremblay</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900113-0">Un exemple de minéralisation aurifère syncinématique (Wrightbar), liée à un chevauchement, dans l'Archéen de l'Abitibi (Canada)</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00113-0</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;2 (2000)</p></td>
+	<td>692&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900113-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900113-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900113-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900113-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Susy E.M Gouveia; Luiz C.R Pessenda</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900114-2">Datation par le 14C de charbons inclus dans le sol pour l'étude du rôle de la remontée biologique de matière et du colluvionnement dans la formation de latosols de l'état de São Paulo, Brésil</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00114-2</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;2 (2000)</p></td>
+	<td>320&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900114-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900114-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900114-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900114-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Valery Zeitoun</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900115-4">Adéquation entre changements environnementaux et spéciations humaines au Plio-Pléistocène</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00115-4</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;2 (2000)</p></td>
+	<td>390&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900115-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900115-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900115-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900115-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Franck Ayrault; Alain Joly</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900116-6">Une nouvelle typologie des dépressions météorologiques : classification des phases de maturation</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00116-6</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;3 (2000)</p></td>
+	<td>436&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900116-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900116-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900116-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900116-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniel Cassard; Alain Chauvet; Laurent Bailly; Fernando Llosa; Juan Rosas; Eric Marcoux; Catherine Lerouge</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900118-x">Structural control and K/Ar dating of the Au–Ag epithermal veins in the Shila Cordillera, southern Peru</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00118-x</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;1 (2000)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900118-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900118-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900118-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900118-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Philippe Legrand</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900119-1">Une région de référence pour la limite Ordovicien–Silurien : l'Oued In Djerane, Sahara algérien</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00119-1</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;1 (2000)</p></td>
+	<td>291&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900119-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900119-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900119-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900119-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-Luc Bouchez</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900120-8">Anisotropie de susceptibilité magnétique et fabrique des granites</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00120-8</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;1 (2000)</p></td>
+	<td>981&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900120-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900120-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900120-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900120-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Franck Ayrault; Alain Joly</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900121-x">L'origine des dépressions météorologiques sur l'Atlantique : nouvelle perspective climatologique</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00121-x</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;3 (2000)</p></td>
+	<td>463&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900121-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900121-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900121-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900121-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vincent Chaplot; Christian Walter; Pierre Curmi; Catherine Grimaldi</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900122-1">Caractères d'hydromorphie et variabilité temporelle de la présence de Fe(II) dans les couvertures pédologiques du Massif armoricain. I. Exemple de deux toposéquences sur granite et sur schiste</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00122-1</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;2 (2000)</p></td>
+	<td>332&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900122-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900122-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900122-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900122-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marc Livet; Bernard Blavoux; Daniel d&#039;Arcy; Alain Mishellany</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1251-8050%2800%2900123-3">Capture et emmagasinement sous coulée au site volcanique de Beaunit (Puy-de-Dôme)</a></p>
+		<p>DOI: 10.1016/s1251-8050(00)00123-3</p>	</td>
+	<td><p><a href="/scimag/journals/4857">Comptes Rendus de l&#039;Académie des Sciences - Series IIA - Earth and Planetary Science</a><p>volume&nbsp;330, issue&nbsp;1 (2000)</p></td>
+	<td>618&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1251-8050%2800%2900123-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1251-8050%2800%2900123-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1251-8050%2800%2900123-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1251-8050%2800%2900123-3">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;164 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 47</span>
+	 <a href="/scimag/?journal=4857&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

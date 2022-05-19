@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/19436">Philosophical Investigations</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0190-0536</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1467-9205</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 52; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 52');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=19436&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;294 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 52</span>
+	 <a href="/scimag/?journal=19436&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Rush Rhees</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00027">Language as Emerging from Instinctive Behaviour</a></p>
+		<p>DOI: 10.1111/1467-9205.00027</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;1 (1997)</p></td>
+	<td>95&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00027" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00027">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00027">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00027">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Severin Shroeder</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00028">The Concept of Dreaming: On Three Theses by Malcolm</a></p>
+		<p>DOI: 10.1111/1467-9205.00028</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;1 (1997)</p></td>
+	<td>120&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00028" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00028">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00028">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00028">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James Page</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00029">Unconfigured Tractarian Objects</a></p>
+		<p>DOI: 10.1111/1467-9205.00029</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;1 (1997)</p></td>
+	<td>89&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00029" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00029">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00029">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00029">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Winch</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00030">Critical Notice</a></p>
+		<p>DOI: 10.1111/1467-9205.00030</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;1 (1997)</p></td>
+	<td>98&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00030" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00030">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00030">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00030">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00031">Reviews</a></p>
+		<p>DOI: 10.1111/1467-9205.00031</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;1 (1997)</p></td>
+	<td>125&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00031" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00031">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00031">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00031">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00032">Books Received</a></p>
+		<p>DOI: 10.1111/1467-9205.00032</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;1 (1997)</p></td>
+	<td>34&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00032" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00032">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00032">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00032">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Caleb Thompson</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00033">Wittgenstein, Tolstoy and the Meaning of Life</a></p>
+		<p>DOI: 10.1111/1467-9205.00033</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;2 (1997)</p></td>
+	<td>123&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00033" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00033">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00033">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00033">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard Norman</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00034">Making Sense of Moral Realism</a></p>
+		<p>DOI: 10.1111/1467-9205.00034</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;2 (1997)</p></td>
+	<td>116&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00034" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00034">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00034">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00034">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tim Thornton</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00035">Intention, Rule Following and the Strategic Role of Wright’s Order  of Determination Test</a></p>
+		<p>DOI: 10.1111/1467-9205.00035</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;2 (1997)</p></td>
+	<td>79&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00035" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00035">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00035">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00035">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00036">Reviews</a></p>
+		<p>DOI: 10.1111/1467-9205.00036</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;2 (1997)</p></td>
+	<td>188&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00036" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00036">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00036">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00036">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00037">Books Received</a></p>
+		<p>DOI: 10.1111/1467-9205.00037</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;2 (1997)</p></td>
+	<td>36&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00037" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00037">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00037">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00037">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Winch</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00038">Can We Understand Ourselves?</a></p>
+		<p>DOI: 10.1111/1467-9205.00038</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;3 (1997)</p></td>
+	<td>102&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00038" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00038">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00038">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00038">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Geert-Leuke Lueken</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00039">On Showing in Argumentation</a></p>
+		<p>DOI: 10.1111/1467-9205.00039</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;3 (1997)</p></td>
+	<td>115&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00039" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00039">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00039">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00039">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John W. Cook</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00040">How to Read Wittgenstein</a></p>
+		<p>DOI: 10.1111/1467-9205.00040</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;3 (1997)</p></td>
+	<td>127&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00040" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00040">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00040">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00040">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R.F. Holland</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00041">Fanciful Fates</a></p>
+		<p>DOI: 10.1111/1467-9205.00041</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;3 (1997)</p></td>
+	<td>79&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00041" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00041">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00041">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00041">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Guy Stock</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00042">Critical Notice: Paolo Leonardi and Marco Santambriogio (Eds), <em>On Quine: New Essays</em></a></p>
+		<p>DOI: 10.1111/1467-9205.00042</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;3 (1997)</p></td>
+	<td>86&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00042" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00042">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00042">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00042">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00043">Reviews</a></p>
+		<p>DOI: 10.1111/1467-9205.00043</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;3 (1997)</p></td>
+	<td>113&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00043" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00043">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00043">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00043">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00044">Books Received</a></p>
+		<p>DOI: 10.1111/1467-9205.00044</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;3 (1997)</p></td>
+	<td>36&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00044" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00044">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00044">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00044">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Z. Phillips</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00045">Obituary: Peter Winch 1926–1997</a></p>
+		<p>DOI: 10.1111/1467-9205.00045</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;4 (1997)</p></td>
+	<td>14&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00045" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00045">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00045">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00045">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eugen Fischer</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00046">‘Dissolving’ the ‘Problem of Linguistic Creativity’</a></p>
+		<p>DOI: 10.1111/1467-9205.00046</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;4 (1997)</p></td>
+	<td>88&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00046" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00046">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00046">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00046">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William Brenner</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00047">Arithmetic as Grammar</a></p>
+		<p>DOI: 10.1111/1467-9205.00047</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;4 (1997)</p></td>
+	<td>43&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00047" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00047">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00047">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00047">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Edelman</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00048">Critical Notice : Humanity, Authority and the Mesmeric Ought</a></p>
+		<p>DOI: 10.1111/1467-9205.00048</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;4 (1997)</p></td>
+	<td>69&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00048" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00048">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00048">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00048">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00049">Reviews</a></p>
+		<p>DOI: 10.1111/1467-9205.00049</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;4 (1997)</p></td>
+	<td>97&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00049" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00049">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00049">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00049">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00050">Books Received</a></p>
+		<p>DOI: 10.1111/1467-9205.00050</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;4 (1997)</p></td>
+	<td>10&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00050" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00050">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00050">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00050">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-9205.00051">Index to <em>Philospophical Investigations</em> Volume 20, 1997</a></p>
+		<p>DOI: 10.1111/1467-9205.00051</p>	</td>
+	<td><p><a href="/scimag/journals/19436">Philosophical Investigations</a><p>volume&nbsp;20, issue&nbsp;4 (1997)</p></td>
+	<td>25&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-9205.00051" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-9205.00051">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-9205.00051">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-9205.00051">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;294 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 52</span>
+	 <a href="/scimag/?journal=19436&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

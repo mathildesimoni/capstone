@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/7600">Fire Technology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer US</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0015-2684</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-8099</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 110; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 110');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=7600&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;740 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 110</span>
+	 <a href="/scimag/?journal=7600&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Joseph L. Scheffey; Jeffrey M. Shapiro</td>
+	<td>
+		<p><a href="/scimag/10.1007%2F10694-006-7505-x">Automatic Sprinkler Protection of Palletized, 55 Gallon Drum Storage of Unsaturated Polyester Resins</a></p>
+		<p>DOI: 10.1007/10694-006-7505-x</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;42, issue&nbsp;2 (2006)</p></td>
+	<td>882&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2F10694-006-7505-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/10694-006-7505-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/10694-006-7505-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/10694-006-7505-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John M. Watts</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01036933">International fire research</a></p>
+		<p>DOI: 10.1007/bf01036933</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;23, issue&nbsp;3 (1987)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01036933" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01036933">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01036933">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01036933">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. J. Shields; G. W. H. Silcock; H. A. Donegan; Y. A. Bell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01036934">Methodological problems associated with the Use of the Delphi technique</a></p>
+		<p>DOI: 10.1007/bf01036934</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;23, issue&nbsp;3 (1987)</p></td>
+	<td>768&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01036934" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01036934">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01036934">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01036934">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gunji Nishio; Satoru Machida</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01036935">Pool fires under atmosphere and ventilation in steady-state burning (part II)</a></p>
+		<p>DOI: 10.1007/bf01036935</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;23, issue&nbsp;3 (1987)</p></td>
+	<td>581&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01036935" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01036935">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01036935">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01036935">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joseph C. Stevens; William S. Cain; David E. Weinstein; John B. Pierce</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01036936">Aging impairs the ability to detect gas odor</a></p>
+		<p>DOI: 10.1007/bf01036936</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;23, issue&nbsp;3 (1987)</p></td>
+	<td>480&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01036936" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01036936">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01036936">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01036936">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. P. Sharma; B. B. Lal; Jagbir Singh</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01036937">Metal fire extinguishment</a></p>
+		<p>DOI: 10.1007/bf01036937</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;23, issue&nbsp;3 (1987)</p></td>
+	<td>1.77&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01036937" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01036937">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01036937">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01036937">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert Abt; David Kelly; Mike Kuypers</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01036938">The Florida palm coast fire: An analysis of fire incidence and residence characteristics</a></p>
+		<p>DOI: 10.1007/bf01036938</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;23, issue&nbsp;3 (1987)</p></td>
+	<td>897&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01036938" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01036938">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01036938">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01036938">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David A. Lucht</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01036939">An update on the WPI graduate program in fire protection engineering</a></p>
+		<p>DOI: 10.1007/bf01036939</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;23, issue&nbsp;3 (1987)</p></td>
+	<td>198&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01036939" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01036939">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01036939">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01036939">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01036941">News and meetings</a></p>
+		<p>DOI: 10.1007/bf01036941</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;23, issue&nbsp;3 (1987)</p></td>
+	<td>379&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01036941" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01036941">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01036941">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01036941">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John M. Watts</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01037737">Codifying firefighter safety</a></p>
+		<p>DOI: 10.1007/bf01037737</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;32, issue&nbsp;4 (1996)</p></td>
+	<td>105&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01037737" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01037737">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01037737">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01037737">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01037738">Errata</a></p>
+		<p>DOI: 10.1007/bf01037738</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;32, issue&nbsp;4 (1996)</p></td>
+	<td>40&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01037738" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01037738">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01037738">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01037738">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen F. Weber; Barbara C. Lippiatt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01037739">Cost-effective compliance with life safety codes</a></p>
+		<p>DOI: 10.1007/bf01037739</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;32, issue&nbsp;4 (1996)</p></td>
+	<td>377&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01037739" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01037739">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01037739">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01037739">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Johnson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01037740">The process of fire safety design—development ofFire Engineering Guidelinesin Australia</a></p>
+		<p>DOI: 10.1007/bf01037740</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;32, issue&nbsp;4 (1996)</p></td>
+	<td>486&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01037740" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01037740">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01037740">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01037740">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hiroshi Hayasaka</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01037741">Radiative characteristics and flame structure of small-pool flames</a></p>
+		<p>DOI: 10.1007/bf01037741</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;32, issue&nbsp;4 (1996)</p></td>
+	<td>995&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01037741" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01037741">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01037741">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01037741">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Milosh Puchovsky</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01037742">NFPA's perspectives on performance-based codes and standards</a></p>
+		<p>DOI: 10.1007/bf01037742</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;32, issue&nbsp;4 (1996)</p></td>
+	<td>604&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01037742" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01037742">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01037742">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01037742">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Edwin E. Smith</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01037743">Heat release rate calorimetry</a></p>
+		<p>DOI: 10.1007/bf01037743</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;32, issue&nbsp;4 (1996)</p></td>
+	<td>509&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01037743" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01037743">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01037743">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01037743">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. J. Rasbash</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01037744">Fire safety objectives for buildings</a></p>
+		<p>DOI: 10.1007/bf01037744</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;32, issue&nbsp;4 (1996)</p></td>
+	<td>132&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01037744" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01037744">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01037744">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01037744">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John R. Hall</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01037745">Whatever happened to combustion toxicity?</a></p>
+		<p>DOI: 10.1007/bf01037745</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;32, issue&nbsp;4 (1996)</p></td>
+	<td>1.26&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01037745" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01037745">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01037745">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01037745">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Phyllis M. Martin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01037746">Two CD-ROM publications—FASTLiteandBFRL Publications, 1995</a></p>
+		<p>DOI: 10.1007/bf01037746</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;32, issue&nbsp;4 (1996)</p></td>
+	<td>75&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01037746" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01037746">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01037746">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01037746">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01037747">News and meetings</a></p>
+		<p>DOI: 10.1007/bf01037747</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;32, issue&nbsp;4 (1996)</p></td>
+	<td>229&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01037747" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01037747">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01037747">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01037747">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John M. Watts</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01038064">Young men and women and fire</a></p>
+		<p>DOI: 10.1007/bf01038064</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;30, issue&nbsp;3 (1994)</p></td>
+	<td>88&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01038064" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01038064">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01038064">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01038064">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jonas Palm</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01038065">Temperature analysis using ABAQUS</a></p>
+		<p>DOI: 10.1007/bf01038065</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;30, issue&nbsp;3 (1994)</p></td>
+	<td>620&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01038065" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01038065">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01038065">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01038065">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. K. Gupta</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01038066">CALFIRE: An interactive model for fire calculations</a></p>
+		<p>DOI: 10.1007/bf01038066</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;30, issue&nbsp;3 (1994)</p></td>
+	<td>907&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01038066" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01038066">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01038066">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01038066">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard Lee Smith</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01038067">Performance parameters of fire detection systems</a></p>
+		<p>DOI: 10.1007/bf01038067</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;30, issue&nbsp;3 (1994)</p></td>
+	<td>504&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01038067" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01038067">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01038067">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01038067">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael M. Kostreva</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01038068">Mathematical modeling of human egress from fires in residential buildings</a></p>
+		<p>DOI: 10.1007/bf01038068</p>	</td>
+	<td><p><a href="/scimag/journals/7600">Fire Technology</a><p>volume&nbsp;30, issue&nbsp;3 (1994)</p></td>
+	<td>162&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01038068" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01038068">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01038068">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01038068">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;740 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 110</span>
+	 <a href="/scimag/?journal=7600&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

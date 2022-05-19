@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/475">Advanced Performance Materials</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0929-1881</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-8765</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 7; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 7');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=475&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">151 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 7</span>
+	 <a href="/scimag/?journal=475&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>F.H. (Sam) Froes</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136741">Editorial</a></p>
+		<p>DOI: 10.1007/bf00136741</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;2 (1996)</p></td>
+	<td>24&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136741" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136741">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136741">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136741">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P.J. Vervoort; R. Vetter; J. Duszczyk</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136742">Overview of powder injection molding</a></p>
+		<p>DOI: 10.1007/bf00136742</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;2 (1996)</p></td>
+	<td>1.85&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136742" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136742">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136742">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136742">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Schwam; M.H. Litt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136743">Evaluation of atomic oxygen resistant coatings for space structures</a></p>
+		<p>DOI: 10.1007/bf00136743</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;2 (1996)</p></td>
+	<td>953&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136743" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136743">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136743">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136743">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pentti Jarvela; Alli Jaala-Siuko; Hannu Jylha</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136744">Greencast-process, a new ceramic technology for plastics processing</a></p>
+		<p>DOI: 10.1007/bf00136744</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;2 (1996)</p></td>
+	<td>751&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136744" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136744">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136744">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136744">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mohmad Soib Bin Selamat</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136745">Corrosion behavior of SiCp/6061 Al metal matrix composites in chloride solutions</a></p>
+		<p>DOI: 10.1007/bf00136745</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;2 (1996)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136745" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136745">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136745">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136745">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. S. Rebeiz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136746">Strength and durability properties of polyester concrete using pet and fly ash wastes</a></p>
+		<p>DOI: 10.1007/bf00136746</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;2 (1996)</p></td>
+	<td>556&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136746" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136746">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136746">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136746">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M.U. Islam</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136747">An overview of research in the fields of laser surface modification and laser machining at the Integrated Manufacturing Technologies Institute, NRC</a></p>
+		<p>DOI: 10.1007/bf00136747</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;2 (1996)</p></td>
+	<td>1.53&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136747" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136747">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136747">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136747">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136789">Preface</a></p>
+		<p>DOI: 10.1007/bf00136789</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;3-4 (1996)</p></td>
+	<td>148&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136789" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136789">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136789">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136789">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. M. Ward-Close; J. G. Robertson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136790">Advances in the fabrication of titanium based composites</a></p>
+		<p>DOI: 10.1007/bf00136790</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;3-4 (1996)</p></td>
+	<td>774&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136790" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136790">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136790">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136790">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. F. Harrison; M. R. Winstone</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136791">Modelling and lifing of structural materials for future aeroengine components</a></p>
+		<p>DOI: 10.1007/bf00136791</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;3-4 (1996)</p></td>
+	<td>922&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136791" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136791">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136791">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136791">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. T. Curtis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136792">Multifunctional polymer composites</a></p>
+		<p>DOI: 10.1007/bf00136792</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;3-4 (1996)</p></td>
+	<td>904&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136792" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136792">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136792">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136792">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. R. House; I. D. Grant</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136793">Viscoelastic composite materials for noise reduction and damage tolerance</a></p>
+		<p>DOI: 10.1007/bf00136793</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;3-4 (1996)</p></td>
+	<td>682&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136793" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136793">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136793">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136793">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Porter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136794">Materials modelling: A bridge from atoms to bulk properties</a></p>
+		<p>DOI: 10.1007/bf00136794</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;3-4 (1996)</p></td>
+	<td>889&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136794" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136794">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136794">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136794">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. R. Bowditch; S. J. Shaw</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136795">Adhesive bonding for high performance materials</a></p>
+		<p>DOI: 10.1007/bf00136795</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;3-4 (1996)</p></td>
+	<td>899&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136795" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136795">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136795">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136795">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. W. Gardiner; P. S. Goodwin; S. B. Dodd; B. W. Viney</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136796">Non-equilibrium synthesis of new materials</a></p>
+		<p>DOI: 10.1007/bf00136796</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;3-4 (1996)</p></td>
+	<td>1.47&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136796" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136796">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136796">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136796">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. P. Park; M. J. Birt; K. J. A. Mawella</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136797">Near net shape magnesium alloy components by superplastic forming and thixoforming</a></p>
+		<p>DOI: 10.1007/bf00136797</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;3-4 (1996)</p></td>
+	<td>777&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136797" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136797">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136797">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136797">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. W. Bowen; P. Holdway; D. Imeson; H. S. Ubhi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136798">The role of microstructural analysis in the development and application of advanced performance materials</a></p>
+		<p>DOI: 10.1007/bf00136798</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;3-4 (1996)</p></td>
+	<td>975&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136798" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136798">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136798">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136798">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. D. G. Sumpter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136799">Fracture toughness of laser welds in ship steel</a></p>
+		<p>DOI: 10.1007/bf00136799</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;3-4 (1996)</p></td>
+	<td>627&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136799" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136799">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136799">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136799">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136856">Editorial</a></p>
+		<p>DOI: 10.1007/bf00136856</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>29&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136856" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136856">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136856">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136856">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. S. Narasimhan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136857">Recent advances in ferrous powder metallurgy</a></p>
+		<p>DOI: 10.1007/bf00136857</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>939&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136857" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136857">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136857">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136857">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. S. Cho; B. S. Chun; C. H. Won; B. S. Lee; H. K. Kim; B. J. Song; M. Ryu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136858">Characterization of centrifugally atomized Al-12Si-5Fe-3Cu-1Mg(wt%) alloy powder and extruded rod</a></p>
+		<p>DOI: 10.1007/bf00136858</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>903&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136858" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136858">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136858">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136858">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Philip W. Appel; Dean B. Edwards</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136859">Understanding and defeating the physical mechanisms limiting the capacity of lead-acid batteries</a></p>
+		<p>DOI: 10.1007/bf00136859</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>698&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136859" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136859">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136859">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136859">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ajit Singh; Chris B. Saunders; Vince J. Lopata; Walter Kremers; Tom E. McDougall; Miyoko Tateishi; Minda Chung</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136860">An emerging technology to cure fiber-reinforced composites: Electron curing</a></p>
+		<p>DOI: 10.1007/bf00136860</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>917&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136860" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136860">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136860">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136860">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James L. Walker; Eric V. K. Hill</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136861">Backpropagation neural networks for predicting ultimate strengths of unidirectional graphite/epoxy tensile specimens</a></p>
+		<p>DOI: 10.1007/bf00136861</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>516&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136861" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136861">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136861">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136861">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Romano Cipollini; Claudio Battistoni; Andrea Lapiccirella; Fabrizio Tuzi; Ilaria Bencini; Edoardo Bemporad</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00136862">The role of chemistry in the research on advanced materials in Italy (I). The ZIC paradigm</a></p>
+		<p>DOI: 10.1007/bf00136862</p>	</td>
+	<td><p><a href="/scimag/journals/475">Advanced Performance Materials</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>1.61&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00136862" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00136862">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00136862">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00136862">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">151 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 7</span>
+	 <a href="/scimag/?journal=475&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

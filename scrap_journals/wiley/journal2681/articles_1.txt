@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0170-6233</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1522-2365</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 92; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 92');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=2681&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;277 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 92</span>
+	 <a href="/scimag/?journal=2681&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Matthias Kölbel</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200203%2925%3A1%3C1%3A%3Aaid-bewi11111%3E3.0.co%3B2-g">Wachstum der Wissenschaftsressourcen in Deutschland 1650-2000: Eine empirische Studie zur Anzahl der Hochschulen und Professoren sowie der Forschungsausgaben</a></p>
+		<p>DOI: 10.1002/1522-2365(200203)25:1&lt;1::aid-bewi11111&gt;3.0.co;2-g</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;1 (2002)</p></td>
+	<td>159&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200203%2925%3A1%3C1%3A%3Aaid-bewi11111%3E3.0.co%3B2-g" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200203%2925%3A1%3C1%3A%3Aaid-bewi11111%3E3.0.co%3B2-g">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200203%2925%3A1%3C1%3A%3Aaid-bewi11111%3E3.0.co%3B2-g">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200203%2925%3A1%3C1%3A%3Aaid-bewi11111%3E3.0.co%3B2-g">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200203%2925%3A1%3C1a%3A%3Aaid-bewi1%3E3.0.co%3B2-g">Inhalt: Ber. Wissenschaftsgesch. 1/2002</a></p>
+		<p>DOI: 10.1002/1522-2365(200203)25:1&lt;1a::aid-bewi1&gt;3.0.co;2-g</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;1 (2002)</p></td>
+	<td>33&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200203%2925%3A1%3C1a%3A%3Aaid-bewi1%3E3.0.co%3B2-g" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200203%2925%3A1%3C1a%3A%3Aaid-bewi1%3E3.0.co%3B2-g">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200203%2925%3A1%3C1a%3A%3Aaid-bewi1%3E3.0.co%3B2-g">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200203%2925%3A1%3C1a%3A%3Aaid-bewi1%3E3.0.co%3B2-g">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Friedewald</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200203%2925%3A1%3C23%3A%3Aaid-bewi23%3E3.0.co%3B2-3">Rezension: Zwischen Wissenschaft und Wirtschaft von Ulrich Marsch</a></p>
+		<p>DOI: 10.1002/1522-2365(200203)25:1&lt;23::aid-bewi23&gt;3.0.co;2-3</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;1 (2002)</p></td>
+	<td>30&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200203%2925%3A1%3C23%3A%3Aaid-bewi23%3E3.0.co%3B2-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200203%2925%3A1%3C23%3A%3Aaid-bewi23%3E3.0.co%3B2-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200203%2925%3A1%3C23%3A%3Aaid-bewi23%3E3.0.co%3B2-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200203%2925%3A1%3C23%3A%3Aaid-bewi23%3E3.0.co%3B2-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cornelia Lüdecke</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200203%2925%3A1%3C25%3A%3Aaid-bewi25%3E3.0.co%3B2-s">"ein genußreiches Zusammenleben und -arbeiten": Friedrich Ratzels Zeit in München (1875-1886)</a></p>
+		<p>DOI: 10.1002/1522-2365(200203)25:1&lt;25::aid-bewi25&gt;3.0.co;2-s</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;1 (2002)</p></td>
+	<td>117&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200203%2925%3A1%3C25%3A%3Aaid-bewi25%3E3.0.co%3B2-s" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200203%2925%3A1%3C25%3A%3Aaid-bewi25%3E3.0.co%3B2-s">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200203%2925%3A1%3C25%3A%3Aaid-bewi25%3E3.0.co%3B2-s">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200203%2925%3A1%3C25%3A%3Aaid-bewi25%3E3.0.co%3B2-s">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Frank Leimkugel</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200203%2925%3A1%3C39%3A%3Aaid-bewi39%3E3.0.co%3B2-2">Rezension:  Christian Wilhelm Trommsdorff (1811-1884) von R. Lauterbach</a></p>
+		<p>DOI: 10.1002/1522-2365(200203)25:1&lt;39::aid-bewi39&gt;3.0.co;2-2</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;1 (2002)</p></td>
+	<td>26&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200203%2925%3A1%3C39%3A%3Aaid-bewi39%3E3.0.co%3B2-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200203%2925%3A1%3C39%3A%3Aaid-bewi39%3E3.0.co%3B2-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200203%2925%3A1%3C39%3A%3Aaid-bewi39%3E3.0.co%3B2-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200203%2925%3A1%3C39%3A%3Aaid-bewi39%3E3.0.co%3B2-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peer Hempel</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200203%2925%3A1%3C40%3A%3Aaid-bewi40%3E3.0.co%3B2-h">Rezension: Raketen und Menschen von Jewsejewitsch Tschertok</a></p>
+		<p>DOI: 10.1002/1522-2365(200203)25:1&lt;40::aid-bewi40&gt;3.0.co;2-h</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;1 (2002)</p></td>
+	<td>26&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200203%2925%3A1%3C40%3A%3Aaid-bewi40%3E3.0.co%3B2-h" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200203%2925%3A1%3C40%3A%3Aaid-bewi40%3E3.0.co%3B2-h">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200203%2925%3A1%3C40%3A%3Aaid-bewi40%3E3.0.co%3B2-h">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200203%2925%3A1%3C40%3A%3Aaid-bewi40%3E3.0.co%3B2-h">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fee-Alexandra Haase</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200203%2925%3A1%3C41%3A%3Aaid-bewi41%3E3.0.co%3B2-b">Ars critica. Der Rhetorlehrer Quintilian als Vorbild für Begriffe und Aufgaben von Kritik in neulateinischen Reden und Schriften Deutschlands im 18.Jahrhundert</a></p>
+		<p>DOI: 10.1002/1522-2365(200203)25:1&lt;41::aid-bewi41&gt;3.0.co;2-b</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;1 (2002)</p></td>
+	<td>76&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200203%2925%3A1%3C41%3A%3Aaid-bewi41%3E3.0.co%3B2-b" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200203%2925%3A1%3C41%3A%3Aaid-bewi41%3E3.0.co%3B2-b">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200203%2925%3A1%3C41%3A%3Aaid-bewi41%3E3.0.co%3B2-b">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200203%2925%3A1%3C41%3A%3Aaid-bewi41%3E3.0.co%3B2-b">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200203%2925%3A1%3C50%3A%3Aaid-bewi50%3E3.0.co%3B2-f">Dokumentation und Information: Ber.Wissenschaftsgesch. 1/2002</a></p>
+		<p>DOI: 10.1002/1522-2365(200203)25:1&lt;50::aid-bewi50&gt;3.0.co;2-f</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;1 (2002)</p></td>
+	<td>54&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200203%2925%3A1%3C50%3A%3Aaid-bewi50%3E3.0.co%3B2-f" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200203%2925%3A1%3C50%3A%3Aaid-bewi50%3E3.0.co%3B2-f">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200203%2925%3A1%3C50%3A%3Aaid-bewi50%3E3.0.co%3B2-f">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200203%2925%3A1%3C50%3A%3Aaid-bewi50%3E3.0.co%3B2-f">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Benedikt Stuchtey</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200203%2925%3A1%3C60%3A%3Aaid-bewi60%3E3.0.co%3B2-d">Rezension:  Nature's Government. Science, Imperial Britain, and the ,Improvement` of the World von Richard Drayton</a></p>
+		<p>DOI: 10.1002/1522-2365(200203)25:1&lt;60::aid-bewi60&gt;3.0.co;2-d</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;1 (2002)</p></td>
+	<td>30&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200203%2925%3A1%3C60%3A%3Aaid-bewi60%3E3.0.co%3B2-d" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200203%2925%3A1%3C60%3A%3Aaid-bewi60%3E3.0.co%3B2-d">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200203%2925%3A1%3C60%3A%3Aaid-bewi60%3E3.0.co%3B2-d">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200203%2925%3A1%3C60%3A%3Aaid-bewi60%3E3.0.co%3B2-d">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marcus Sandl</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200203%2925%3A1%3C61%3A%3Aaid-bewi61%3E3.0.co%3B2-7">Rezension: Kants naturtheoretische Begriffe (1774-1780) von Wolfgang Lefèvre und Falk Wunderlich</a></p>
+		<p>DOI: 10.1002/1522-2365(200203)25:1&lt;61::aid-bewi61&gt;3.0.co;2-7</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;1 (2002)</p></td>
+	<td>36&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200203%2925%3A1%3C61%3A%3Aaid-bewi61%3E3.0.co%3B2-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200203%2925%3A1%3C61%3A%3Aaid-bewi61%3E3.0.co%3B2-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200203%2925%3A1%3C61%3A%3Aaid-bewi61%3E3.0.co%3B2-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200203%2925%3A1%3C61%3A%3Aaid-bewi61%3E3.0.co%3B2-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Heinz Stübig</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200203%2925%3A1%3C63%3A%3Aaid-bewi63%3E3.0.co%3B2-w">Rezension: Pädagogik in Österreich von Wolfgang Brezinka</a></p>
+		<p>DOI: 10.1002/1522-2365(200203)25:1&lt;63::aid-bewi63&gt;3.0.co;2-w</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;1 (2002)</p></td>
+	<td>24&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200203%2925%3A1%3C63%3A%3Aaid-bewi63%3E3.0.co%3B2-w" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200203%2925%3A1%3C63%3A%3Aaid-bewi63%3E3.0.co%3B2-w">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200203%2925%3A1%3C63%3A%3Aaid-bewi63%3E3.0.co%3B2-w">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200203%2925%3A1%3C63%3A%3Aaid-bewi63%3E3.0.co%3B2-w">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fritz Krafft</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200203%2925%3A1%3C64%3A%3Aaid-bewi64%3E3.0.co%3B2-q">Rezension: Wissenschaftsgeschichte heute von Jürgen Büschenfeld, Heike Franz und Frank-Michael Kuhlemann (Hrsgg.)</a></p>
+		<p>DOI: 10.1002/1522-2365(200203)25:1&lt;64::aid-bewi64&gt;3.0.co;2-q</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;1 (2002)</p></td>
+	<td>46&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200203%2925%3A1%3C64%3A%3Aaid-bewi64%3E3.0.co%3B2-q" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200203%2925%3A1%3C64%3A%3Aaid-bewi64%3E3.0.co%3B2-q">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200203%2925%3A1%3C64%3A%3Aaid-bewi64%3E3.0.co%3B2-q">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200203%2925%3A1%3C64%3A%3Aaid-bewi64%3E3.0.co%3B2-q">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200203%2925%3A1%3C67%3A%3Aaid-bewi67%3E3.0.co%3B2-8">Tagungen: Ber. Wissenschaftsgesch. 1/2002</a></p>
+		<p>DOI: 10.1002/1522-2365(200203)25:1&lt;67::aid-bewi67&gt;3.0.co;2-8</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;1 (2002)</p></td>
+	<td>72&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200203%2925%3A1%3C67%3A%3Aaid-bewi67%3E3.0.co%3B2-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200203%2925%3A1%3C67%3A%3Aaid-bewi67%3E3.0.co%3B2-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200203%2925%3A1%3C67%3A%3Aaid-bewi67%3E3.0.co%3B2-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200203%2925%3A1%3C67%3A%3Aaid-bewi67%3E3.0.co%3B2-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fritz Krafft</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200206%2925%3A2%3C105%3A%3Aaid-bewi105%3E3.0.co%3B2-v">Rezension: Stoffwechsel im tierischen Organismus. Historische Studien zu Liebigs »Thier-Chemie« von Johannes Büttner/Wilhelm Lewicki</a></p>
+		<p>DOI: 10.1002/1522-2365(200206)25:2&lt;105::aid-bewi105&gt;3.0.co;2-v</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;2 (2002)</p></td>
+	<td>64&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200206%2925%3A2%3C105%3A%3Aaid-bewi105%3E3.0.co%3B2-v" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200206%2925%3A2%3C105%3A%3Aaid-bewi105%3E3.0.co%3B2-v">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200206%2925%3A2%3C105%3A%3Aaid-bewi105%3E3.0.co%3B2-v">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200206%2925%3A2%3C105%3A%3Aaid-bewi105%3E3.0.co%3B2-v">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fritz Krafft</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200206%2925%3A2%3C106%3A%3Aaid-bewi106%3E3.0.co%3B2-r">Rezension: Science in the Third Reich von Margit Szöllösi-Janze</a></p>
+		<p>DOI: 10.1002/1522-2365(200206)25:2&lt;106::aid-bewi106&gt;3.0.co;2-r</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;2 (2002)</p></td>
+	<td>32&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200206%2925%3A2%3C106%3A%3Aaid-bewi106%3E3.0.co%3B2-r" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200206%2925%3A2%3C106%3A%3Aaid-bewi106%3E3.0.co%3B2-r">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200206%2925%3A2%3C106%3A%3Aaid-bewi106%3E3.0.co%3B2-r">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200206%2925%3A2%3C106%3A%3Aaid-bewi106%3E3.0.co%3B2-r">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fritz Krafft</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200206%2925%3A2%3C106%3A%3Aaid-bewi1111106%3E3.0.co%3B2-j">Rezension: Der ungebändigte Galilei. Beiträge zu einem Symposion von Michael Segre/Eberhard Knobloch</a></p>
+		<p>DOI: 10.1002/1522-2365(200206)25:2&lt;106::aid-bewi1111106&gt;3.0.co;2-j</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;2 (2002)</p></td>
+	<td>32&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200206%2925%3A2%3C106%3A%3Aaid-bewi1111106%3E3.0.co%3B2-j" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200206%2925%3A2%3C106%3A%3Aaid-bewi1111106%3E3.0.co%3B2-j">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200206%2925%3A2%3C106%3A%3Aaid-bewi1111106%3E3.0.co%3B2-j">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200206%2925%3A2%3C106%3A%3Aaid-bewi1111106%3E3.0.co%3B2-j">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cornelius Borck</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200206%2925%3A2%3C107%3A%3Aaid-bewi107%3E3.0.co%3B2-n">Kopfarbeit. Die Suche nach einer präzisen Meßmethode für psychische Vorgänge</a></p>
+		<p>DOI: 10.1002/1522-2365(200206)25:2&lt;107::aid-bewi107&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;2 (2002)</p></td>
+	<td>579&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200206%2925%3A2%3C107%3A%3Aaid-bewi107%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200206%2925%3A2%3C107%3A%3Aaid-bewi107%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200206%2925%3A2%3C107%3A%3Aaid-bewi107%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200206%2925%3A2%3C107%3A%3Aaid-bewi107%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Herbert Mehrtens</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200206%2925%3A2%3C121%3A%3Aaid-bewi121%3E3.0.co%3B2-2">Arbeit und Zeit, Körper und Uhr: Die Konstruktion von ‚effektiver’ Arbeit im ‚Scientific Management’ des frühen 20. Jahrhunderts</a></p>
+		<p>DOI: 10.1002/1522-2365(200206)25:2&lt;121::aid-bewi121&gt;3.0.co;2-2</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;2 (2002)</p></td>
+	<td>120&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200206%2925%3A2%3C121%3A%3Aaid-bewi121%3E3.0.co%3B2-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200206%2925%3A2%3C121%3A%3Aaid-bewi121%3E3.0.co%3B2-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200206%2925%3A2%3C121%3A%3Aaid-bewi121%3E3.0.co%3B2-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200206%2925%3A2%3C121%3A%3Aaid-bewi121%3E3.0.co%3B2-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Reinhard Glasemann</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200206%2925%3A2%3C136%3A%3Aaid-bewi136%3E3.0.co%3B2-f">Rezension: Philosophia, Historia, Technica. Caspar Schotts <em>Magia Universalis</em> von Dietrich Unverzagt</a></p>
+		<p>DOI: 10.1002/1522-2365(200206)25:2&lt;136::aid-bewi136&gt;3.0.co;2-f</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;2 (2002)</p></td>
+	<td>28&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200206%2925%3A2%3C136%3A%3Aaid-bewi136%3E3.0.co%3B2-f" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200206%2925%3A2%3C136%3A%3Aaid-bewi136%3E3.0.co%3B2-f">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200206%2925%3A2%3C136%3A%3Aaid-bewi136%3E3.0.co%3B2-f">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200206%2925%3A2%3C136%3A%3Aaid-bewi136%3E3.0.co%3B2-f">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Salvatore Matteo Giacomuzzi; Gerhard Holzmüller; Gerhard Huemer †</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200206%2925%3A2%3C137%3A%3Aaid-bewi137%3E3.0.co%3B2-b">Ettore Majorana (1906—1938): Eine Bestandsaufnahme 64 Jahre nach seinem Verschwinden</a></p>
+		<p>DOI: 10.1002/1522-2365(200206)25:2&lt;137::aid-bewi137&gt;3.0.co;2-b</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;2 (2002)</p></td>
+	<td>128&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200206%2925%3A2%3C137%3A%3Aaid-bewi137%3E3.0.co%3B2-b" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200206%2925%3A2%3C137%3A%3Aaid-bewi137%3E3.0.co%3B2-b">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200206%2925%3A2%3C137%3A%3Aaid-bewi137%3E3.0.co%3B2-b">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200206%2925%3A2%3C137%3A%3Aaid-bewi137%3E3.0.co%3B2-b">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peer Hempel</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200206%2925%3A2%3C149%3A%3Aaid-bewi149%3E3.0.co%3B2-%23">Rezension: Der Rote Baron. Sein letzter Flug. Die Wahrheit über den Tod des deutschen Fliegerasses von Norman Franks/Alan Bennett</a></p>
+		<p>DOI: 10.1002/1522-2365(200206)25:2&lt;149::aid-bewi149&gt;3.0.co;2-#</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;2 (2002)</p></td>
+	<td>24&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200206%2925%3A2%3C149%3A%3Aaid-bewi149%3E3.0.co%3B2-%23" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200206%2925%3A2%3C149%3A%3Aaid-bewi149%3E3.0.co%3B2-%23">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200206%2925%3A2%3C149%3A%3Aaid-bewi149%3E3.0.co%3B2-%23">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200206%2925%3A2%3C149%3A%3Aaid-bewi149%3E3.0.co%3B2-%23">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Risto Vilkko</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200206%2925%3A2%3C150%3A%3Aaid-bewi150%3E3.0.co%3B2-v">Rezension: Geschichte der Logik des 19.Jahrhunderts. Eine kritische Einführung in die Anfänge der Erkenntnis- und Wissenschaftstheorie von Frank-Peter Hansen</a></p>
+		<p>DOI: 10.1002/1522-2365(200206)25:2&lt;150::aid-bewi150&gt;3.0.co;2-v</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;2 (2002)</p></td>
+	<td>28&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200206%2925%3A2%3C150%3A%3Aaid-bewi150%3E3.0.co%3B2-v" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200206%2925%3A2%3C150%3A%3Aaid-bewi150%3E3.0.co%3B2-v">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200206%2925%3A2%3C150%3A%3Aaid-bewi150%3E3.0.co%3B2-v">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200206%2925%3A2%3C150%3A%3Aaid-bewi150%3E3.0.co%3B2-v">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peer Hempel</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200206%2925%3A2%3C151%3A%3Aaid-bewi1111151%3E3.0.co%3B2-j">Rezension: Luftfahrtforschung und Luftfahrtmythos. Wissenschaftliche Ballonfahrt in Deutschland, 1880—1910 von Sabine Höhler</a></p>
+		<p>DOI: 10.1002/1522-2365(200206)25:2&lt;151::aid-bewi1111151&gt;3.0.co;2-j</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;2 (2002)</p></td>
+	<td>36&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200206%2925%3A2%3C151%3A%3Aaid-bewi1111151%3E3.0.co%3B2-j" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200206%2925%3A2%3C151%3A%3Aaid-bewi1111151%3E3.0.co%3B2-j">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200206%2925%3A2%3C151%3A%3Aaid-bewi1111151%3E3.0.co%3B2-j">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200206%2925%3A2%3C151%3A%3Aaid-bewi1111151%3E3.0.co%3B2-j">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peer Hempel</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200206%2925%3A2%3C151%3A%3Aaid-bewi151%3E3.0.co%3B2-r">Rezension: Geschichte der Raumfahrt. (Wissen in der Beck'schen Reihe) von Günter Siefarth</a></p>
+		<p>DOI: 10.1002/1522-2365(200206)25:2&lt;151::aid-bewi151&gt;3.0.co;2-r</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;2 (2002)</p></td>
+	<td>25&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200206%2925%3A2%3C151%3A%3Aaid-bewi151%3E3.0.co%3B2-r" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200206%2925%3A2%3C151%3A%3Aaid-bewi151%3E3.0.co%3B2-r">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200206%2925%3A2%3C151%3A%3Aaid-bewi151%3E3.0.co%3B2-r">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200206%2925%3A2%3C151%3A%3Aaid-bewi151%3E3.0.co%3B2-r">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ulrich van der Heyden</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2365%28200206%2925%3A2%3C152%3A%3Aaid-bewi152%3E3.0.co%3B2-n">Rezension: Zur Sammlungsgeschichte afrikanischer Ethnographica im Übersee-Museum Bremen 1841—1945. (Jahrbuch des Übersee-Museums in Bremen, Supplement 2000) von Bettina von Briskorn</a></p>
+		<p>DOI: 10.1002/1522-2365(200206)25:2&lt;152::aid-bewi152&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/2681">Berichte zur Wissenschaftsgeschichte</a><p>volume&nbsp;25, issue&nbsp;2 (2002)</p></td>
+	<td>28&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2365%28200206%2925%3A2%3C152%3A%3Aaid-bewi152%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2365%28200206%2925%3A2%3C152%3A%3Aaid-bewi152%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2365%28200206%2925%3A2%3C152%3A%3Aaid-bewi152%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2365%28200206%2925%3A2%3C152%3A%3Aaid-bewi152%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;277 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 92</span>
+	 <a href="/scimag/?journal=2681&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

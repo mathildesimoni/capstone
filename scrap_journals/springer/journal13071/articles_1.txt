@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/13071">Journal of Digital Imaging</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0897-1889</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1618-727X</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 103; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 103');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=13071&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;568 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 103</span>
+	 <a href="/scimag/?journal=13071&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Byrn Williamson; Nicholas Hangiandreou; Steve Langer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167611">Introduction to SCAR 2000: The 17th Symposium for Computer Applications in Radiology: “The Electronic Practice: Radiology and the Enterprise”</a></p>
+		<p>DOI: 10.1007/bf03167611</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>415&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167611" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167611">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167611">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167611">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167612">SCAR 2000 Program Committee</a></p>
+		<p>DOI: 10.1007/bf03167612</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>353&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167612" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167612">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167612">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167612">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Romlein; David Lyche; Anna Chacko; Michael Cawthon; David Vanderburgh; Ron Stokes</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167613">New facility picture archiving and communication system implementation strategy</a></p>
+		<p>DOI: 10.1007/bf03167613</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>626&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167613" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167613">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167613">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167613">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wesley N. Bridgewater; Neil Johnson; Gregory Garofolo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167614">How to effectively use consultants</a></p>
+		<p>DOI: 10.1007/bf03167614</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>734&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167614" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167614">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167614">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167614">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Leann C. Beird</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167615">How to satisfy both clinical and information technology goals in designing a successful picture archiving and communication system</a></p>
+		<p>DOI: 10.1007/bf03167615</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>617&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167615" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167615">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167615">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167615">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniela Crivianu-Gaita; P. Babyn; D. Gilday; B. O’Brien; Ellen Charkot</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167616">User acceptability — A critical success factor for picture archiving and communication system implementation</a></p>
+		<p>DOI: 10.1007/bf03167616</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>793&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167616" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167616">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167616">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167616">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Mack; J. Holstein; K. Kleber; D. H. W. Grönemeyer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167617">New aspects of image distribution and workflow in radiology</a></p>
+		<p>DOI: 10.1007/bf03167617</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>823&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167617" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167617">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167617">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167617">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eliot Siegel; Bruce Reiner; Michael Abiri; Anna Chacko; Rick Morin; D. W. Ro; Ken Spicer; Nicola Strickland; Jeremy Young</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167618">The filmless radiology reading room: A survey of established picture archiving and communication system sites</a></p>
+		<p>DOI: 10.1007/bf03167618</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>533&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167618" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167618">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167618">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167618">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christiane Franca; Daphne Levin-Plotnik; Vivek Sehgal; George T. Y. Chen; Ruth G. Ramsey</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167619">Use of three-dimensional spiral computed tomography imaging for staging and surgical planning of head and neck cancer</a></p>
+		<p>DOI: 10.1007/bf03167619</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>3.33&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167619" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167619">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167619">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167619">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Douglas P. Beall; Phillip D. Shelton; Thomas V. Kinsey; Maria C. Horton; Brian J. Fortman; Steffen Achenbach; Vadim Smirnoff; Daniel L. Courneya; Bill Carpenter; John T. Gironda</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167620">Image compression and chest radiograph interpretation: Image perception comparison between uncompressed chest radiographs and chest radiographs stored using 10∶1 JPEG compression</a></p>
+		<p>DOI: 10.1007/bf03167620</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>902&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167620" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167620">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167620">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167620">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Edward Hogan; Richard D. Bucholz; Indrajit Choudhuri; Kevin E. Mark; Chris S. Butler; Sarang Joshi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167621">Shape analysis of hippocampal surface structure in patients with unilateral mesial temporal sclerosis</a></p>
+		<p>DOI: 10.1007/bf03167621</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>915&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167621" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167621">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167621">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167621">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Craig A. Hildestad; Richard L. Morin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167622">Computed radiograpy printing problems: A quantitative, observer-independent solution</a></p>
+		<p>DOI: 10.1007/bf03167622</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>569&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167622" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167622">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167622">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167622">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kevin W. McEnery; Charles T. Suitor; Stan Hildebrand; Rebecca L. Downs</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167623">Radiologist’s clinical information review workstation interfaced with digital dictation system</a></p>
+		<p>DOI: 10.1007/bf03167623</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>916&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167623" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167623">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167623">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167623">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Curits P. Langlotz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167624">Enhancing the expressiveness of structured reporting systems</a></p>
+		<p>DOI: 10.1007/bf03167624</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>1.15&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167624" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167624">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167624">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167624">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bernice Capusten</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167625">Continuing professional development for radiologists using the web as a delivery vehicle</a></p>
+		<p>DOI: 10.1007/bf03167625</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>496&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167625" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167625">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167625">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167625">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christopher R. B. Merritt; Anthony Gerdeman; Richard Rovinelli; M. Paul Capp</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167626">American Board of Radiology computer test center</a></p>
+		<p>DOI: 10.1007/bf03167626</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>944&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167626" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167626">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167626">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167626">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ralph Martinez; Colin Cole; Jerzy Rozenblit; Jay F. Cook; Anna K. Chacko</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167627">Common object request broker architecture (CORBA)-based security services for the Virtual Radiology Environment</a></p>
+		<p>DOI: 10.1007/bf03167627</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>1.96&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167627" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167627">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167627">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167627">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Y. Xiao; J. Galvin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167628">A centralized dose calculation system for radiation therapy</a></p>
+		<p>DOI: 10.1007/bf03167628</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>739&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167628" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167628">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167628">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167628">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Katherine P. Andriole; David E. Avrin; Lloyd Yin; Robert G. Gould; David M. Luth; Ronald L. Arenson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167629">Relevant priors prefetching algorithm performance for a picture archiving and communication system</a></p>
+		<p>DOI: 10.1007/bf03167629</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>815&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167629" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167629">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167629">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167629">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gerald A. May; David D. Deer; Doreen Dackiewicz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167630">Impact of digital radiography on clinical workflow</a></p>
+		<p>DOI: 10.1007/bf03167630</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>764&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167630" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167630">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167630">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167630">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bruce Reiner; Eliot Siegel; Peter Kuzmak; Steve Severance</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167631">Transmission failure rate for computed tomography examinations in a filmless imaging department</a></p>
+		<p>DOI: 10.1007/bf03167631</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>714&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167631" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167631">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167631">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167631">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter M. Kuzmak; Bruce I. Reiner; Eliot L. Siegel; Stephen M. Severance; Ruth E. Dayhoff</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167632">Challenges associated with interfacing computed tomography to a picture archiving and communication system at the Baltimore Veterans Affairs Medical Center—A historical perspective</a></p>
+		<p>DOI: 10.1007/bf03167632</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>829&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167632" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167632">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167632">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167632">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John A. Carrino; Ramin Khorasani; William B. Hanlon; Steven E. Seltzer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167633">Modality interfacing: The impact of a relay station</a></p>
+		<p>DOI: 10.1007/bf03167633</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>829&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167633" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167633">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167633">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167633">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William F. Bennett; Dimitri G. Spigos; Kuldeep V. Vaswani; James E. Terrell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167634">Cable modem access to picture archiving and communication system images using a web browser over the internet</a></p>
+		<p>DOI: 10.1007/bf03167634</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>877&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167634" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167634">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167634">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167634">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. O. Redfern; S. C. Horii; E. Feingold; H. L. Kundel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03167635">Radiology workflow and patient volume: Effect of picture archiving and communication systems on technologists and radiologists</a></p>
+		<p>DOI: 10.1007/bf03167635</p>	</td>
+	<td><p><a href="/scimag/journals/13071">Journal of Digital Imaging</a><p>volume&nbsp;13, issue&nbsp;1 Supplement (2000)</p></td>
+	<td>729&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03167635" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03167635">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03167635">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03167635">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;568 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 103</span>
+	 <a href="/scimag/?journal=13071&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1783-7677</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1783-8738</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 14; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 14');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=16117&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">349 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 14</span>
+	 <a href="/scimag/?journal=16117&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Suzanne Kieffer; Noëlle Carbonell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02884427">How really effective are multimodal hints in enhancing visual target spotting? Some evidence from a usability study</a></p>
+		<p>DOI: 10.1007/bf02884427</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;1, issue&nbsp;1 (2007)</p></td>
+	<td>158&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02884427" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02884427">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02884427">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02884427">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alin G. Chiţu; Leon J. M. Rothkrantz; Pascal Wiggers; Jacek C. Wojdel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02884428">Comparison between different feature extraction techniques for audio-visual speech recognition</a></p>
+		<p>DOI: 10.1007/bf02884428</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;1, issue&nbsp;1 (2007)</p></td>
+	<td>538&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02884428" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02884428">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02884428">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02884428">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Olivier Martin; Irene Kotsia; Ioannis Pitas; Arman Savran; Jordi Adell; Ana Huerta; Raphael Sebbe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02884429">Synthesis of expressive facial animations: A multimodal caricatural mirror</a></p>
+		<p>DOI: 10.1007/bf02884429</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;1, issue&nbsp;1 (2007)</p></td>
+	<td>528&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02884429" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02884429">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02884429">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02884429">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nicolas D’Alessandro; Pascale Woodruff; Yohann Fabre; Thierry Dutoit; Sylvain Le Beux; Boris Doval; Christophe d’Alessandro</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02884430">Realtime and accurate musical control of expression in singing synthesis</a></p>
+		<p>DOI: 10.1007/bf02884430</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;1, issue&nbsp;1 (2007)</p></td>
+	<td>581&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02884430" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02884430">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02884430">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02884430">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hung-Hsuan Huang; Kateryna Tarasenko; Toyoaki Nishida; Aleksandra Cerekovic; Vjekoslav Levacic; Goranka Zoric; Igor S. Pandzic; Yukiko Nakano</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02884431">An agent based multicultural tour guide system with nonverbal user interface</a></p>
+		<p>DOI: 10.1007/bf02884431</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;1, issue&nbsp;1 (2007)</p></td>
+	<td>350&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02884431" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02884431">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02884431">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02884431">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexandre Benoit; Laurent Bonnaud; Alice Caplier; Frédéric Jourde; Laurence Nigay; Marcos Serrano; Ioannis Damousis; Dimitrios Tzovaras; Jean-Yves Lionel Lawson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02884432">Multimodal signal processing and interaction for a driving simulator: Component-based architecture</a></p>
+		<p>DOI: 10.1007/bf02884432</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;1, issue&nbsp;1 (2007)</p></td>
+	<td>905&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02884432" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02884432">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02884432">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02884432">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Benoit Macq</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02910053">Preface</a></p>
+		<p>DOI: 10.1007/bf02910053</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;1, issue&nbsp;2 (2007)</p></td>
+	<td>36&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02910053" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02910053">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02910053">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02910053">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-Sébastien Sottet; Gaëlle Calvary; Joëlle Coutaz; Jean-Marie Favre; Jean Vanderdonckt; Adrian Stanciulescu; Sophie Lepreux</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02910054">A language perspective on the development of plastic multimodal user interfaces</a></p>
+		<p>DOI: 10.1007/bf02910054</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;1, issue&nbsp;2 (2007)</p></td>
+	<td>1.29&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02910054" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02910054">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02910054">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02910054">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Konstantinos Kostopoulos; Konstantinos Moustakas; Dimitrios Tzovaras; Giorgos Nikolakis; Céline Thillou; Bernard Gosselin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02910055">Haptic access to conventional 2D maps for the visually impaired</a></p>
+		<p>DOI: 10.1007/bf02910055</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;1, issue&nbsp;2 (2007)</p></td>
+	<td>1.63&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02910055" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02910055">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02910055">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02910055">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexey Karpov; Andrey Ronzhin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02910056">ICANDO: Low cost multimodal interface for hand disabled people</a></p>
+		<p>DOI: 10.1007/bf02910056</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;1, issue&nbsp;2 (2007)</p></td>
+	<td>796&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02910056" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02910056">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02910056">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02910056">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Georgios N. Stamou; Michail Krinidis; Nikos Nikolaidis; Ioannis Pitas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02910057">A monocular system for person tracking: Implementation and testing</a></p>
+		<p>DOI: 10.1007/bf02910057</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;1, issue&nbsp;2 (2007)</p></td>
+	<td>2.38&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02910057" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02910057">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02910057">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02910057">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sascha Schimke; Claus Vielhauer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02910058">Similarity searching for on-line handwritten documents</a></p>
+		<p>DOI: 10.1007/bf02910058</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;1, issue&nbsp;2 (2007)</p></td>
+	<td>372&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02910058" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02910058">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02910058">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02910058">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniel Schreiber; Melanie Hartmann; Felix Flentge; Max Mühlhäuser; Manuel Görtz; Thomas Ziegert</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12193-008-0001-5">Web based evaluation of proactive user interfaces</a></p>
+		<p>DOI: 10.1007/s12193-008-0001-5</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;2, issue&nbsp;1 (2008)</p></td>
+	<td>808&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12193-008-0001-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12193-008-0001-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12193-008-0001-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12193-008-0001-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Beryl Plimmer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12193-008-0002-4">Experiences with digital pen, keyboard and mouse usability</a></p>
+		<p>DOI: 10.1007/s12193-008-0002-4</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;2, issue&nbsp;1 (2008)</p></td>
+	<td>557&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12193-008-0002-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12193-008-0002-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12193-008-0002-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12193-008-0002-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robbie Schaefer; Wolfgang Mueller</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12193-008-0003-3">Assessment of a multimodal interaction and rendering system against established design principles</a></p>
+		<p>DOI: 10.1007/s12193-008-0003-3</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;2, issue&nbsp;1 (2008)</p></td>
+	<td>834&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12193-008-0003-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12193-008-0003-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12193-008-0003-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12193-008-0003-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marie-Luce Bourguet; Jaeseung Chang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12193-008-0004-2">Design and usability evaluation of multimodal interaction with</a></p>
+		<p>DOI: 10.1007/s12193-008-0004-2</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;2, issue&nbsp;1 (2008)</p></td>
+	<td>639&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12193-008-0004-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12193-008-0004-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12193-008-0004-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12193-008-0004-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Julián García; José P. Molina; Diego Martínez; Arturo S. García; Pascual González; Jean Vanderdonckt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12193-008-0005-1">Prototyping and evaluating glove-based multimodal interfaces</a></p>
+		<p>DOI: 10.1007/s12193-008-0005-1</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;2, issue&nbsp;1 (2008)</p></td>
+	<td>991&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12193-008-0005-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12193-008-0005-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12193-008-0005-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12193-008-0005-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Brandon Paulson; Tracy Hammond</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12193-008-0006-0">MARQS: retrieving sketches learned from a single example using a dual-classifier</a></p>
+		<p>DOI: 10.1007/s12193-008-0006-0</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;2, issue&nbsp;1 (2008)</p></td>
+	<td>558&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12193-008-0006-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12193-008-0006-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12193-008-0006-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12193-008-0006-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Oya Aran; Ismail Ari; Lale Akarun; Erinc Dikici; Siddika Parlak; Murat Saraclar; Pavel Campr; Marek Hruz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12193-008-0007-z">Speech and sliding text aided sign retrieval from hearing impaired sign news videos</a></p>
+		<p>DOI: 10.1007/s12193-008-0007-z</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;2, issue&nbsp;2 (2008)</p></td>
+	<td>1.93&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12193-008-0007-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12193-008-0007-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12193-008-0007-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12193-008-0007-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Albert Ali Salah; Ramon Morros; Jordi Luque; Carlos Segura; Javier Hernando; Onkar Ambekar; Ben Schouten; Eric Pauwels</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12193-008-0008-y">Multimodal identification and localization of users in a smart environment</a></p>
+		<p>DOI: 10.1007/s12193-008-0008-y</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;2, issue&nbsp;2 (2008)</p></td>
+	<td>1.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12193-008-0008-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12193-008-0008-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12193-008-0008-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12193-008-0008-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ferda Ofli; Yasemin Demir; Yücel Yemez; Engin Erzin; A. Murat Tekalp; Koray Balcı; İdil Kızoğlu; Lale Akarun; Cristian Canton-Ferrer; Joëlle Tilmanne; Elif Bozkurt; A. Tanju Erdem</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12193-008-0009-x">An audio-driven dancing avatar</a></p>
+		<p>DOI: 10.1007/s12193-008-0009-x</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;2, issue&nbsp;2 (2008)</p></td>
+	<td>1.75&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12193-008-0009-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12193-008-0009-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12193-008-0009-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12193-008-0009-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nicolas d‘Alessandro; Onur Babacan; Baris Bozkurt; Thomas Dubuisson; Andre Holzapfel; Loic Kessous; Alexis Moinet; Maxime Vlieghe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12193-008-0010-4">RAMCESS 2.X framework—expressive voice analysis for realtime and accurate synthesis of singing</a></p>
+		<p>DOI: 10.1007/s12193-008-0010-4</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;2, issue&nbsp;2 (2008)</p></td>
+	<td>1.32&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12193-008-0010-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12193-008-0010-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12193-008-0010-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12193-008-0010-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean Vanderdonckt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12193-008-0011-3">Editorial</a></p>
+		<p>DOI: 10.1007/s12193-008-0011-3</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;2, issue&nbsp;1 (2008)</p></td>
+	<td>83&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12193-008-0011-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12193-008-0011-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12193-008-0011-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12193-008-0011-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Savvas Argyropoulos; Konstantinos Moustakas; Alexey A. Karpov; Oya Aran; Dimitrios Tzovaras; Thanos Tsakiris; Giovanna Varni; Byungjun Kwon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12193-008-0012-2">Multimodal user interface for the communication of the disabled</a></p>
+		<p>DOI: 10.1007/s12193-008-0012-2</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;2, issue&nbsp;2 (2008)</p></td>
+	<td>960&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12193-008-0012-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12193-008-0012-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12193-008-0012-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12193-008-0012-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bülent Sankur</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12193-008-0013-1">Guest Editorial of the special eNTERFACE issue</a></p>
+		<p>DOI: 10.1007/s12193-008-0013-1</p>	</td>
+	<td><p><a href="/scimag/journals/16117">Journal on Multimodal User Interfaces</a><p>volume&nbsp;2, issue&nbsp;2 (2008)</p></td>
+	<td>104&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12193-008-0013-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12193-008-0013-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12193-008-0013-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12193-008-0013-1">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">349 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 14</span>
+	 <a href="/scimag/?journal=16117&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

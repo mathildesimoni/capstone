@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4999">Concurrency Practice and Experience</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1040-3108</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1096-9128</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 11; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 11');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4999&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">267 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 11</span>
+	 <a href="/scimag/?journal=4999&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Daniel, J.W.H.; Moulding, M.R. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199601%298%3A1%3C1%3A%3Aaid-cpe192%3E3.0.co%3B2-5">Exploiting application parallelism in knowledge-based systems: an experimental method</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199601)8:1&lt;1::aid-cpe192&gt;3.0.co;2-5</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;1 (1996)</p></td>
+	<td>1.00&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199601%298%3A1%3C1%3A%3Aaid-cpe192%3E3.0.co%3B2-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199601%298%3A1%3C1%3A%3Aaid-cpe192%3E3.0.co%3B2-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199601%298%3A1%3C1%3A%3Aaid-cpe192%3E3.0.co%3B2-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199601%298%3A1%3C1%3A%3Aaid-cpe192%3E3.0.co%3B2-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hoekstra, A.G.; Sloot, P.M.A.; van der Linden, F.; van Muiswinkel, M.; Vesseur, J.J.J.; Hertzberger, L.O. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199601%298%3A1%3C19%3A%3Aaid-cpe193%3E3.0.co%3B2-9">Native and generic parallel programming environments on a transputer and a PowerPC platform</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199601)8:1&lt;19::aid-cpe193&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;1 (1996)</p></td>
+	<td>1.60&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199601%298%3A1%3C19%3A%3Aaid-cpe193%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199601%298%3A1%3C19%3A%3Aaid-cpe193%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199601%298%3A1%3C19%3A%3Aaid-cpe193%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199601%298%3A1%3C19%3A%3Aaid-cpe193%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dincer, Kivanc; Bozkus, Zeki; Ranka, Sanjay; Fox, Geoffrey </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199601%298%3A1%3C47%3A%3Aaid-cpe194%3E3.0.co%3B2-9">Benchmarking the computation and communication performance of the CM-5</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199601)8:1&lt;47::aid-cpe194&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;1 (1996)</p></td>
+	<td>1.12&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199601%298%3A1%3C47%3A%3Aaid-cpe194%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199601%298%3A1%3C47%3A%3Aaid-cpe194%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199601%298%3A1%3C47%3A%3Aaid-cpe194%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199601%298%3A1%3C47%3A%3Aaid-cpe194%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jézéquel, Jean-Marc; Jard, Claude </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199601%298%3A1%3C71%3A%3Aaid-cpe195%3E3.0.co%3B2-l">Building a global clock for observing computations in distributed memory parallel computers</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199601)8:1&lt;71::aid-cpe195&gt;3.0.co;2-l</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;1 (1996)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199601%298%3A1%3C71%3A%3Aaid-cpe195%3E3.0.co%3B2-l" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199601%298%3A1%3C71%3A%3Aaid-cpe195%3E3.0.co%3B2-l">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199601%298%3A1%3C71%3A%3Aaid-cpe195%3E3.0.co%3B2-l">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199601%298%3A1%3C71%3A%3Aaid-cpe195%3E3.0.co%3B2-l">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gorton, Ian; Jelly, Innes; Gray, Jonathan; Shoon Chan, Toong </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199603%298%3A2%3C125%3A%3Aaid-cpe197%3E3.0.co%3B2-1">Reliable parallel software construction using PARSE</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199603)8:2&lt;125::aid-cpe197&gt;3.0.co;2-1</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;2 (1996)</p></td>
+	<td>1.36&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199603%298%3A2%3C125%3A%3Aaid-cpe197%3E3.0.co%3B2-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199603%298%3A2%3C125%3A%3Aaid-cpe197%3E3.0.co%3B2-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199603%298%3A2%3C125%3A%3Aaid-cpe197%3E3.0.co%3B2-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199603%298%3A2%3C125%3A%3Aaid-cpe197%3E3.0.co%3B2-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Szafron, Duane; Schaeffer, Jonathan </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199603%298%3A2%3C147%3A%3Aaid-cpe199%3E3.0.co%3B2-o">An experiment to measure the usability of parallel programming systems</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199603)8:2&lt;147::aid-cpe199&gt;3.0.co;2-o</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;2 (1996)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199603%298%3A2%3C147%3A%3Aaid-cpe199%3E3.0.co%3B2-o" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199603%298%3A2%3C147%3A%3Aaid-cpe199%3E3.0.co%3B2-o">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199603%298%3A2%3C147%3A%3Aaid-cpe199%3E3.0.co%3B2-o">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199603%298%3A2%3C147%3A%3Aaid-cpe199%3E3.0.co%3B2-o">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Averbuch, A.; Dekel, R.; Gabber, E. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199603%298%3A2%3C91%3A%3Aaid-cpe196%3E3.0.co%3B2-d">Portable parallelizing Fortran compiler</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199603)8:2&lt;91::aid-cpe196&gt;3.0.co;2-d</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;2 (1996)</p></td>
+	<td>1.76&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199603%298%3A2%3C91%3A%3Aaid-cpe196%3E3.0.co%3B2-d" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199603%298%3A2%3C91%3A%3Aaid-cpe196%3E3.0.co%3B2-d">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199603%298%3A2%3C91%3A%3Aaid-cpe196%3E3.0.co%3B2-d">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199603%298%3A2%3C91%3A%3Aaid-cpe196%3E3.0.co%3B2-d">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Malfait, Maurits; Roose, Dirk </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199604%298%3A3%3C167%3A%3Aaid-cpe198%3E3.0.co%3B2-j">Convergence of concurrent Markov chain Monte-Carlo algorithms</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199604)8:3&lt;167::aid-cpe198&gt;3.0.co;2-j</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;3 (1996)</p></td>
+	<td>1.16&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199604%298%3A3%3C167%3A%3Aaid-cpe198%3E3.0.co%3B2-j" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199604%298%3A3%3C167%3A%3Aaid-cpe198%3E3.0.co%3B2-j">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199604%298%3A3%3C167%3A%3Aaid-cpe198%3E3.0.co%3B2-j">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199604%298%3A3%3C167%3A%3Aaid-cpe198%3E3.0.co%3B2-j">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Succi, Giancarlo; Uhrik, Carl </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199604%298%3A3%3C191%3A%3Aaid-cpe200%3E3.0.co%3B2-r">Towards a complete framework for parallel implementation of logic languages: the data parallel implementation of SEL</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199604)8:3&lt;191::aid-cpe200&gt;3.0.co;2-r</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;3 (1996)</p></td>
+	<td>784&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199604%298%3A3%3C191%3A%3Aaid-cpe200%3E3.0.co%3B2-r" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199604%298%3A3%3C191%3A%3Aaid-cpe200%3E3.0.co%3B2-r">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199604%298%3A3%3C191%3A%3Aaid-cpe200%3E3.0.co%3B2-r">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199604%298%3A3%3C191%3A%3Aaid-cpe200%3E3.0.co%3B2-r">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Naím, Oscar; Hey, Tony; Zaluska, Ed </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199604%298%3A3%3C205%3A%3Aaid-cpe204%3E3.0.co%3B2-9">Do-loop-surface: an abstract representation of parallel program performance</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199604)8:3&lt;205::aid-cpe204&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;3 (1996)</p></td>
+	<td>1.64&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199604%298%3A3%3C205%3A%3Aaid-cpe204%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199604%298%3A3%3C205%3A%3Aaid-cpe204%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199604%298%3A3%3C205%3A%3Aaid-cpe204%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199604%298%3A3%3C205%3A%3Aaid-cpe204%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pond, B.; Sharf, I. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199604%298%3A3%3C235%3A%3Aaid-cpe201%3E3.0.co%3B2-f">Dynamics simulation of multibody chains on a transputer system</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199604)8:3&lt;235::aid-cpe201&gt;3.0.co;2-f</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;3 (1996)</p></td>
+	<td>762&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199604%298%3A3%3C235%3A%3Aaid-cpe201%3E3.0.co%3B2-f" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199604%298%3A3%3C235%3A%3Aaid-cpe201%3E3.0.co%3B2-f">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199604%298%3A3%3C235%3A%3Aaid-cpe201%3E3.0.co%3B2-f">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199604%298%3A3%3C235%3A%3Aaid-cpe201%3E3.0.co%3B2-f">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fahringer, Thomas</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199605%298%3A4%3C261%3A%3Aaid-cpe205%3E3.0.co%3B2-6">On estimating the useful work distribution of parallel programs under P3T: a static performance estimator</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199605)8:4&lt;261::aid-cpe205&gt;3.0.co;2-6</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;4 (1996)</p></td>
+	<td>1.16&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199605%298%3A4%3C261%3A%3Aaid-cpe205%3E3.0.co%3B2-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199605%298%3A4%3C261%3A%3Aaid-cpe205%3E3.0.co%3B2-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199605%298%3A4%3C261%3A%3Aaid-cpe205%3E3.0.co%3B2-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199605%298%3A4%3C261%3A%3Aaid-cpe205%3E3.0.co%3B2-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Knop, Felipe; Rego, Vernon; Sunderam, Vaidy </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199605%298%3A4%3C283%3A%3Aaid-cpe224%3E3.0.co%3B2-%23">Fail-safe concurrency in theEcliPSe system</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199605)8:4&lt;283::aid-cpe224&gt;3.0.co;2-#</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;4 (1996)</p></td>
+	<td>1.79&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199605%298%3A4%3C283%3A%3Aaid-cpe224%3E3.0.co%3B2-%23" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199605%298%3A4%3C283%3A%3Aaid-cpe224%3E3.0.co%3B2-%23">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199605%298%3A4%3C283%3A%3Aaid-cpe224%3E3.0.co%3B2-%23">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199605%298%3A4%3C283%3A%3Aaid-cpe224%3E3.0.co%3B2-%23">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Reeve, J.S.; Rogers, M.C. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199605%298%3A4%3C313%3A%3Aaid-cpe227%3E3.0.co%3B2-v">MP: an application specific concurrent language</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199605)8:4&lt;313::aid-cpe227&gt;3.0.co;2-v</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;4 (1996)</p></td>
+	<td>992&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199605%298%3A4%3C313%3A%3Aaid-cpe227%3E3.0.co%3B2-v" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199605%298%3A4%3C313%3A%3Aaid-cpe227%3E3.0.co%3B2-v">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199605%298%3A4%3C313%3A%3Aaid-cpe227%3E3.0.co%3B2-v">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199605%298%3A4%3C313%3A%3Aaid-cpe227%3E3.0.co%3B2-v">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Narasimhan, V. Lakshmi; Armstrong, J. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199606%298%3A5%3C335%3A%3Aaid-cpe202%3E3.0.co%3B2-y">Performance modelling of three parallel sorting algorithms on a pipelined transputer network</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199606)8:5&lt;335::aid-cpe202&gt;3.0.co;2-y</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;5 (1996)</p></td>
+	<td>961&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199606%298%3A5%3C335%3A%3Aaid-cpe202%3E3.0.co%3B2-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199606%298%3A5%3C335%3A%3Aaid-cpe202%3E3.0.co%3B2-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199606%298%3A5%3C335%3A%3Aaid-cpe202%3E3.0.co%3B2-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199606%298%3A5%3C335%3A%3Aaid-cpe202%3E3.0.co%3B2-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jackson, David Jeff; Tinney, Greg Scott </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199606%298%3A5%3C357%3A%3Aaid-cpe228%3E3.0.co%3B2-6">Performance analysis of distributed implementations of a fractal image compression algorithm</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199606)8:5&lt;357::aid-cpe228&gt;3.0.co;2-6</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;5 (1996)</p></td>
+	<td>1.34&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199606%298%3A5%3C357%3A%3Aaid-cpe228%3E3.0.co%3B2-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199606%298%3A5%3C357%3A%3Aaid-cpe228%3E3.0.co%3B2-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199606%298%3A5%3C357%3A%3Aaid-cpe228%3E3.0.co%3B2-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199606%298%3A5%3C357%3A%3Aaid-cpe228%3E3.0.co%3B2-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Li, Xi; Ziavras, Sotirios G.; Manikopoulos, Constantine N. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199606%298%3A5%3C387%3A%3Aaid-cpe223%3E3.0.co%3B2-i">Parallel DSP algorithms on TurboNet: an experimental system with hybrid message-passing/shared-memory architecture</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199606)8:5&lt;387::aid-cpe223&gt;3.0.co;2-i</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;5 (1996)</p></td>
+	<td>1.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199606%298%3A5%3C387%3A%3Aaid-cpe223%3E3.0.co%3B2-i" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199606%298%3A5%3C387%3A%3Aaid-cpe223%3E3.0.co%3B2-i">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199606%298%3A5%3C387%3A%3Aaid-cpe223%3E3.0.co%3B2-i">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199606%298%3A5%3C387%3A%3Aaid-cpe223%3E3.0.co%3B2-i">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>van Dongen, Vincent</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199607%298%3A6%3C413%3A%3Aaid-cpe262%3E3.0.co%3B2-r">Editorial</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199607)8:6&lt;413::aid-cpe262&gt;3.0.co;2-r</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;6 (1996)</p></td>
+	<td>65&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199607%298%3A6%3C413%3A%3Aaid-cpe262%3E3.0.co%3B2-r" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199607%298%3A6%3C413%3A%3Aaid-cpe262%3E3.0.co%3B2-r">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199607%298%3A6%3C413%3A%3Aaid-cpe262%3E3.0.co%3B2-r">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199607%298%3A6%3C413%3A%3Aaid-cpe262%3E3.0.co%3B2-r">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Theobald, Kevin B.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199607%298%3A6%3C415%3A%3Aaid-cpe257%3E3.0.co%3B2-7">The W-Network: A low-cost fault-tolerant multistage interconnection network for fine-grain multiprocessing</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199607)8:6&lt;415::aid-cpe257&gt;3.0.co;2-7</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;6 (1996)</p></td>
+	<td>930&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199607%298%3A6%3C415%3A%3Aaid-cpe257%3E3.0.co%3B2-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199607%298%3A6%3C415%3A%3Aaid-cpe257%3E3.0.co%3B2-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199607%298%3A6%3C415%3A%3Aaid-cpe257%3E3.0.co%3B2-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199607%298%3A6%3C415%3A%3Aaid-cpe257%3E3.0.co%3B2-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hartenstein, Reiner W.; Becker, Jürgen; Kress, Rainer; Reinig, Helmut </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199607%298%3A6%3C429%3A%3Aaid-cpe252%3E3.0.co%3B2-9">High-performance computing using a reconfigurable accelerator</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199607)8:6&lt;429::aid-cpe252&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;6 (1996)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199607%298%3A6%3C429%3A%3Aaid-cpe252%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199607%298%3A6%3C429%3A%3Aaid-cpe252%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199607%298%3A6%3C429%3A%3Aaid-cpe252%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199607%298%3A6%3C429%3A%3Aaid-cpe252%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Le Fur, Marc</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199607%298%3A6%3C445%3A%3Aaid-cpe253%3E3.0.co%3B2-g">Scanning parameterized polyhedron using Fourier-Motzkin elimination</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199607)8:6&lt;445::aid-cpe253&gt;3.0.co;2-g</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;6 (1996)</p></td>
+	<td>812&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199607%298%3A6%3C445%3A%3Aaid-cpe253%3E3.0.co%3B2-g" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199607%298%3A6%3C445%3A%3Aaid-cpe253%3E3.0.co%3B2-g">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199607%298%3A6%3C445%3A%3Aaid-cpe253%3E3.0.co%3B2-g">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199607%298%3A6%3C445%3A%3Aaid-cpe253%3E3.0.co%3B2-g">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Meyer, Gerard G.L.; Pascale, Mike </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199607%298%3A6%3C461%3A%3Aaid-cpe256%3E3.0.co%3B2-h">A family of parallel QR factorization algorithms</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199607)8:6&lt;461::aid-cpe256&gt;3.0.co;2-h</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;6 (1996)</p></td>
+	<td>624&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199607%298%3A6%3C461%3A%3Aaid-cpe256%3E3.0.co%3B2-h" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199607%298%3A6%3C461%3A%3Aaid-cpe256%3E3.0.co%3B2-h">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199607%298%3A6%3C461%3A%3Aaid-cpe256%3E3.0.co%3B2-h">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199607%298%3A6%3C461%3A%3Aaid-cpe256%3E3.0.co%3B2-h">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Germain, Daniel; Laurendeau, Denis; Vézina, Guy </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199607%298%3A6%3C475%3A%3Aaid-cpe254%3E3.0.co%3B2-a">Visibility analysis on a massively data-parallel computer</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199607)8:6&lt;475::aid-cpe254&gt;3.0.co;2-a</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;6 (1996)</p></td>
+	<td>737&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199607%298%3A6%3C475%3A%3Aaid-cpe254%3E3.0.co%3B2-a" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199607%298%3A6%3C475%3A%3Aaid-cpe254%3E3.0.co%3B2-a">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199607%298%3A6%3C475%3A%3Aaid-cpe254%3E3.0.co%3B2-a">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199607%298%3A6%3C475%3A%3Aaid-cpe254%3E3.0.co%3B2-a">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Volken, W.; Schwab, P.; Kropf, P.G.; Neuenschwander, H. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199607%298%3A6%3C489%3A%3Aaid-cpe255%3E3.0.co%3B2-v">Parallelizing a powerful Monte Carlo method for electron beam dose calculations</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199607)8:6&lt;489::aid-cpe255&gt;3.0.co;2-v</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;6 (1996)</p></td>
+	<td>635&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199607%298%3A6%3C489%3A%3Aaid-cpe255%3E3.0.co%3B2-v" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199607%298%3A6%3C489%3A%3Aaid-cpe255%3E3.0.co%3B2-v">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199607%298%3A6%3C489%3A%3Aaid-cpe255%3E3.0.co%3B2-v">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199607%298%3A6%3C489%3A%3Aaid-cpe255%3E3.0.co%3B2-v">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mullin, L.M.R.; Jenkins, M.A. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199609%298%3A7%3C499%3A%3Aaid-cpe230%3E3.0.co%3B2-1">Effective data parallel computation using the Psi calculus</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199609)8:7&lt;499::aid-cpe230&gt;3.0.co;2-1</p>	</td>
+	<td><p><a href="/scimag/journals/4999">Concurrency Practice and Experience</a><p>volume&nbsp;8, issue&nbsp;7 (1996)</p></td>
+	<td>861&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199609%298%3A7%3C499%3A%3Aaid-cpe230%3E3.0.co%3B2-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199609%298%3A7%3C499%3A%3Aaid-cpe230%3E3.0.co%3B2-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199609%298%3A7%3C499%3A%3Aaid-cpe230%3E3.0.co%3B2-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199609%298%3A7%3C499%3A%3Aaid-cpe230%3E3.0.co%3B2-1">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">267 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 11</span>
+	 <a href="/scimag/?journal=4999&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

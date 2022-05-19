@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0932-383X</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1613-7620</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 139; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 139');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=6101&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;475 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 139</span>
+	 <a href="/scimag/?journal=6101&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Günther Brauner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053909">Energiesparendes Haus der Zukunft</a></p>
+		<p>DOI: 10.1007/bf03053909</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;4 (2003)</p></td>
+	<td>503&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053909" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053909">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053909">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053909">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Palensky; P. Rössler; D. Dietrich</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053910">Heim- und Gebäudeautomatisierung zur Effizienzsteigerung in Gebäuden</a></p>
+		<p>DOI: 10.1007/bf03053910</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;4 (2003)</p></td>
+	<td>1.76&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053910" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053910">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053910">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053910">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Brauner; G. Pöppl; G. Raschbacher</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053911">Dezentrale Energieversorgung mit Brennstoffzellen und Mikrogasturbinen</a></p>
+		<p>DOI: 10.1007/bf03053911</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;4 (2003)</p></td>
+	<td>1.76&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053911" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053911">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053911">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053911">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. Stieldorf; K. Kreč</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053912">Energiesparendes Bauen und Wohnen</a></p>
+		<p>DOI: 10.1007/bf03053912</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;4 (2003)</p></td>
+	<td>2.56&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053912" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053912">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053912">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053912">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Dell; Ch. Egger; Ch. Öhlinger</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053913">Vom Niedrigenergiehaus zum Passivhaus — vom Schlagwort in die Praxis</a></p>
+		<p>DOI: 10.1007/bf03053913</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;4 (2003)</p></td>
+	<td>1.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053913" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053913">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053913">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053913">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Dehner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053914">Einzug thermischer Solaranlagen ins Mehrfamilienhaus</a></p>
+		<p>DOI: 10.1007/bf03053914</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;4 (2003)</p></td>
+	<td>1.72&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053914" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053914">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053914">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053914">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Neuhäuser; H. Fechner; B. Bach</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053915">Solare Gebäudeklimatisierung — ein Überblick</a></p>
+		<p>DOI: 10.1007/bf03053915</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;4 (2003)</p></td>
+	<td>1.32&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053915" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053915">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053915">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053915">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053916">Impressum</a></p>
+		<p>DOI: 10.1007/bf03053916</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;4 (2003)</p></td>
+	<td>445&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053916" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053916">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053916">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053916">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053917">Themen & Autoren</a></p>
+		<p>DOI: 10.1007/bf03053917</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;4 (2003)</p></td>
+	<td>537&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053917" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053917">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053917">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053917">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053918">Aktuell</a></p>
+		<p>DOI: 10.1007/bf03053918</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;4 (2003)</p></td>
+	<td>6.28&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053918" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053918">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053918">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053918">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053919">Bücher</a></p>
+		<p>DOI: 10.1007/bf03053919</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;4 (2003)</p></td>
+	<td>3.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053919" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053919">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053919">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053919">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053920">Panorama</a></p>
+		<p>DOI: 10.1007/bf03053920</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;4 (2003)</p></td>
+	<td>4.80&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053920" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053920">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053920">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053920">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rainer Hauenschild</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053921">Interkulturelle Projektabwicklung — Dampfkraftwerk Neyveli, Indien</a></p>
+		<p>DOI: 10.1007/bf03053921</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;4 (2003)</p></td>
+	<td>4.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053921" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053921">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053921">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053921">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gernot Becker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053922">Symbiose von Architektur und Photovoltaik</a></p>
+		<p>DOI: 10.1007/bf03053922</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;4 (2003)</p></td>
+	<td>4.65&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053922" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053922">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053922">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053922">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053923">Globales Netzwerk der Zumtobel AG wird migriert</a></p>
+		<p>DOI: 10.1007/bf03053923</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;4 (2003)</p></td>
+	<td>2.45&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053923" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053923">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053923">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053923">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053924">Science news</a></p>
+		<p>DOI: 10.1007/bf03053924</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;4 (2003)</p></td>
+	<td>5.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053924" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053924">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053924">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053924">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053925">Firmen & produkte</a></p>
+		<p>DOI: 10.1007/bf03053925</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;4 (2003)</p></td>
+	<td>4.95&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053925" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053925">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053925">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053925">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053926">OVE news</a></p>
+		<p>DOI: 10.1007/bf03053926</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;4 (2003)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053926" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053926">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053926">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053926">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053927">Nachrichten des Österreichischen Elektrotechnischen Komitees beim OVE</a></p>
+		<p>DOI: 10.1007/bf03053927</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;4 (2003)</p></td>
+	<td>1.36&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053927" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053927">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053927">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053927">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Brauner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053928">Zuverlässigkeit und Sicherheit in der Energieversorgung</a></p>
+		<p>DOI: 10.1007/bf03053928</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;5 (2003)</p></td>
+	<td>1.47&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053928" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053928">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053928">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053928">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Kopacek</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053929">Automatisierungstechnik</a></p>
+		<p>DOI: 10.1007/bf03053929</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;5 (2003)</p></td>
+	<td>597&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053929" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053929">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053929">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053929">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Günter Fürnsinn</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053930">Die Einführung von Informationsmanagement-Standards in Fertigungsunternehmen</a></p>
+		<p>DOI: 10.1007/bf03053930</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;5 (2003)</p></td>
+	<td>587&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053930" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053930">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053930">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053930">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Kopacek; A. Weinmann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053931">Automatisierungstechnik: ausgewählte Beiträge Österreichs</a></p>
+		<p>DOI: 10.1007/bf03053931</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;5 (2003)</p></td>
+	<td>993&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053931" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053931">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053931">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053931">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. H. Osanna; G. Slanar; N. M. Durakbasa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053932">Messtechnik als Grundlage für die Steigerung der Qualität und Umweltverträglichkeit technischer Produkte und Anlagen</a></p>
+		<p>DOI: 10.1007/bf03053932</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;5 (2003)</p></td>
+	<td>1.80&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053932" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053932">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053932">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053932">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Kopacek; P. Kopacek</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03053933">Semi-automatisierte Demontage für Elektronikschrottrecycling</a></p>
+		<p>DOI: 10.1007/bf03053933</p>	</td>
+	<td><p><a href="/scimag/journals/6101">e &amp; i Elektrotechnik und Informationstechnik</a><p>volume&nbsp;120, issue&nbsp;5 (2003)</p></td>
+	<td>1.60&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03053933" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03053933">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03053933">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03053933">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;475 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 139</span>
+	 <a href="/scimag/?journal=6101&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/8932">Human Studies</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer Netherlands</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0163-8548</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-851X</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 103; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 103');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=8932&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;557 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 103</span>
+	 <a href="/scimag/?journal=8932&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Eduard Marbach</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00131490">Understanding the representational mind: A phenomenological perspective</a></p>
+		<p>DOI: 10.1007/bf00131490</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;19, issue&nbsp;2 (1996)</p></td>
+	<td>1.36&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00131490" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00131490">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00131490">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00131490">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David A. Jopling</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00131491">Sub-phenomenology</a></p>
+		<p>DOI: 10.1007/bf00131491</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;19, issue&nbsp;2 (1996)</p></td>
+	<td>1.70&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00131491" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00131491">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00131491">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00131491">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Helen Fielding</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00131492">Grounding agency in depth: The implications of Merleau-Ponty's thought for the politics of feminism</a></p>
+		<p>DOI: 10.1007/bf00131492</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;19, issue&nbsp;2 (1996)</p></td>
+	<td>872&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00131492" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00131492">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00131492">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00131492">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marc Hanes</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00131493">Paul Virilio and the articulation of post-reality</a></p>
+		<p>DOI: 10.1007/bf00131493</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;19, issue&nbsp;2 (1996)</p></td>
+	<td>1.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00131493" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00131493">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00131493">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00131493">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Weeks</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00131494">Synchrony lost, synchrony regained: The achievement of musical co-ordination</a></p>
+		<p>DOI: 10.1007/bf00131494</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;19, issue&nbsp;2 (1996)</p></td>
+	<td>2.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00131494" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00131494">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00131494">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00131494">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fred Dallmayr</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00131495">Splitting the difference: Comments on Calvin Schrag</a></p>
+		<p>DOI: 10.1007/bf00131495</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;19, issue&nbsp;2 (1996)</p></td>
+	<td>847&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00131495" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00131495">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00131495">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00131495">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alfred I. Tauber</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00131496">Book review</a></p>
+		<p>DOI: 10.1007/bf00131496</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;19, issue&nbsp;2 (1996)</p></td>
+	<td>630&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00131496" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00131496">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00131496">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00131496">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00131497">Announcement</a></p>
+		<p>DOI: 10.1007/bf00131497</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;19, issue&nbsp;2 (1996)</p></td>
+	<td>28&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00131497" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00131497">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00131497">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00131497">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>George Psathas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00142728">Phenomenology and the human sciences in Japan: A personal Odyssey</a></p>
+		<p>DOI: 10.1007/bf00142728</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;15, issue&nbsp;1 (1992)</p></td>
+	<td>1.12&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00142728" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00142728">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00142728">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00142728">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kazuhisa Nishihara</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00142729">Schutz in Japan: A brief history</a></p>
+		<p>DOI: 10.1007/bf00142729</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;15, issue&nbsp;1 (1992)</p></td>
+	<td>1.35&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00142729" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00142729">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00142729">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00142729">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Akihiro Yoshida</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00142730">On the why-what phenomenon: A phenomenological explication of the art of asking questions</a></p>
+		<p>DOI: 10.1007/bf00142730</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;15, issue&nbsp;1 (1992)</p></td>
+	<td>867&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00142730" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00142730">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00142730">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00142730">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shizuo Takiura</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00142731">Self and others in “private language”</a></p>
+		<p>DOI: 10.1007/bf00142731</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;15, issue&nbsp;1 (1992)</p></td>
+	<td>973&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00142731" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00142731">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00142731">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00142731">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Masataka Katagiri</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00142732">On privatization of meaning</a></p>
+		<p>DOI: 10.1007/bf00142732</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;15, issue&nbsp;1 (1992)</p></td>
+	<td>1.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00142732" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00142732">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00142732">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00142732">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hisashi Nasu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00142733">For the restoration of the private sphere: Thoughts on privatization theory</a></p>
+		<p>DOI: 10.1007/bf00142733</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;15, issue&nbsp;1 (1992)</p></td>
+	<td>1.32&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00142733" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00142733">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00142733">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00142733">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Takeshi Yamagishi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00142734">Landscape and the human being</a></p>
+		<p>DOI: 10.1007/bf00142734</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;15, issue&nbsp;1 (1992)</p></td>
+	<td>1.70&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00142734" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00142734">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00142734">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00142734">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Keiichi Noé</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00142735">“The Hermeneutic turn” in Husserl's phenomenology of language</a></p>
+		<p>DOI: 10.1007/bf00142735</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;15, issue&nbsp;1 (1992)</p></td>
+	<td>935&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00142735" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00142735">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00142735">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00142735">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Aug Nishizaka</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00142736">The use of ‘power’: The discursive organization of powerfulness</a></p>
+		<p>DOI: 10.1007/bf00142736</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;15, issue&nbsp;1 (1992)</p></td>
+	<td>1.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00142736" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00142736">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00142736">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00142736">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yutaka Kitazawa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00142737">Local interactional production of the rational practice of consumption</a></p>
+		<p>DOI: 10.1007/bf00142737</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;15, issue&nbsp;1 (1992)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00142737" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00142737">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00142737">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00142737">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00142738">About the contributors</a></p>
+		<p>DOI: 10.1007/bf00142738</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;15, issue&nbsp;1 (1992)</p></td>
+	<td>275&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00142738" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00142738">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00142738">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00142738">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00142739">Call for papers</a></p>
+		<p>DOI: 10.1007/bf00142739</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;15, issue&nbsp;1 (1992)</p></td>
+	<td>24&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00142739" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00142739">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00142739">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00142739">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00142740">Announcements</a></p>
+		<p>DOI: 10.1007/bf00142740</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;15, issue&nbsp;1 (1992)</p></td>
+	<td>102&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00142740" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00142740">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00142740">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00142740">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James M. Edie</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00142741">Husserl vs. Derrida</a></p>
+		<p>DOI: 10.1007/bf00142741</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;13, issue&nbsp;2 (1990)</p></td>
+	<td>1.27&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00142741" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00142741">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00142741">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00142741">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dan Martin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00142742">Anthropology on the boundary and the boundary in anthropology</a></p>
+		<p>DOI: 10.1007/bf00142742</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;13, issue&nbsp;2 (1990)</p></td>
+	<td>2.00&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00142742" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00142742">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00142742">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00142742">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. A. Paget</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00142743">“Unlearning to not speak”</a></p>
+		<p>DOI: 10.1007/bf00142743</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;13, issue&nbsp;2 (1990)</p></td>
+	<td>1.05&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00142743" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00142743">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00142743">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00142743">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James Bohman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00142744">A new phenomenological Marxism</a></p>
+		<p>DOI: 10.1007/bf00142744</p>	</td>
+	<td><p><a href="/scimag/journals/8932">Human Studies</a><p>volume&nbsp;13, issue&nbsp;2 (1990)</p></td>
+	<td>870&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00142744" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00142744">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00142744">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00142744">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;557 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 103</span>
+	 <a href="/scimag/?journal=8932&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

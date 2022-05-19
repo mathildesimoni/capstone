@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/23126">System Familie</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0933-3053</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1432-2226</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 3; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 3');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=23126&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">71 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 3</span>
+	 <a href="/scimag/?journal=23126&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Arndt Linsenhoff</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910000049">Mit Stundenbögen über Qualität nachdenken</a></p>
+		<p>DOI: 10.1007/s004910000049</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;13, issue&nbsp;3 (2000)</p></td>
+	<td>95&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910000049" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910000049">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910000049">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910000049">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Urban M. Studer; Bruno Hildenbrand</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910000050">Wie wird „Fallverstehen in der Begegnung" dokumentiert?</a></p>
+		<p>DOI: 10.1007/s004910000050</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;13, issue&nbsp;3 (2000)</p></td>
+	<td>71&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910000050" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910000050">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910000050">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910000050">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Harold Garfinkel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910000051">„Gute" organisatorische Gründe für „schlechte" Krankenakten</a></p>
+		<p>DOI: 10.1007/s004910000051</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;13, issue&nbsp;3 (2000)</p></td>
+	<td>92&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910000051" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910000051">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910000051">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910000051">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bruno Hildenbrand; Tom Levold</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050001">Arbeit im multikulturellen Kontext</a></p>
+		<p>DOI: 10.1007/s004910050001</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;13, issue&nbsp;1 (2000)</p></td>
+	<td>34&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mohammed El Hachimi; Arist von Schlippe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050002">Systemische Therapie und Supervision in multikulturellen Kontexten</a></p>
+		<p>DOI: 10.1007/s004910050002</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;13, issue&nbsp;1 (2000)</p></td>
+	<td>85&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Valburga Schmiedt Streck</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050003">Multiproblem-Familien im Kontext der Armut: Erfahrungen aus der Familienberatung in Lateinamerika</a></p>
+		<p>DOI: 10.1007/s004910050003</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;13, issue&nbsp;1 (2000)</p></td>
+	<td>66&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050004">Systemische Therapie in China</a></p>
+		<p>DOI: 10.1007/s004910050004</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;13, issue&nbsp;1 (2000)</p></td>
+	<td>77&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fritz B. Simon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050005">Grenzfunktionen der Familie</a></p>
+		<p>DOI: 10.1007/s004910050005</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;13, issue&nbsp;3 (2000)</p></td>
+	<td>73&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anna-Margarete Krätschell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050006">Die Vergangenheit ist nicht vergangen</a></p>
+		<p>DOI: 10.1007/s004910050006</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;13, issue&nbsp;3 (2000)</p></td>
+	<td>42&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050006" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050006">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050006">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050006">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rosmarie Welter-Enderlin; Bruno Hildenbrand</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050011">Editorial</a></p>
+		<p>DOI: 10.1007/s004910050011</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;10, issue&nbsp;3 (1997)</p></td>
+	<td>44&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050011" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050011">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050011">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050011">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tom Levold</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050012">Affekt und System</a></p>
+		<p>DOI: 10.1007/s004910050012</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;10, issue&nbsp;3 (1997)</p></td>
+	<td>72&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050012" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050012">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050012">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050012">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Luc Ciompi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050013">Zu den affektiven Grundlagen des Denkens</a></p>
+		<p>DOI: 10.1007/s004910050013</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;10, issue&nbsp;3 (1997)</p></td>
+	<td>59&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050013" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050013">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050013">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050013">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael B. Buchholz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050014">Affektiver Kontakt im therapeutischen Dreieck</a></p>
+		<p>DOI: 10.1007/s004910050014</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;10, issue&nbsp;3 (1997)</p></td>
+	<td>80&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050014" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050014">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050014">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050014">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bruno Hildenbrand,Rosmarie Welter-Enderlin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050015">Editorial</a></p>
+		<p>DOI: 10.1007/s004910050015</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;10, issue&nbsp;4 (1997)</p></td>
+	<td>43&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050015" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050015">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050015">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050015">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Klaus A. Schneewind</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050016">Ehe ja, Kinder nein — eine Lebensform mit Zukunft?</a></p>
+		<p>DOI: 10.1007/s004910050016</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;10, issue&nbsp;4 (1997)</p></td>
+	<td>48&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050016" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050016">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050016">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050016">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lucio Decurtins; Matthias Niklowitz; Peter C. Meyer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050017">Lebensformen nach dem Bruch</a></p>
+		<p>DOI: 10.1007/s004910050017</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;10, issue&nbsp;4 (1997)</p></td>
+	<td>79&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050017" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050017">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050017">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050017">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christoph Höger; Stella Reiter-Theil; Ludwig Reiter; Gaby Derichs; Monika Kastner-Voigt; Thomas Schulz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050018">Fallbezogene ethische Reflexion</a></p>
+		<p>DOI: 10.1007/s004910050018</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;10, issue&nbsp;4 (1997)</p></td>
+	<td>52&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050018" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050018">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050018">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050018">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050019">Editorial</a></p>
+		<p>DOI: 10.1007/s004910050019</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;11, issue&nbsp;1 (1998)</p></td>
+	<td>35&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050019" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050019">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050019">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050019">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hans Willenberg; Markus Bassler; Helmut Krauthauser</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050020">Familiendynamische Konstellationen als ätiologischer Faktor bei Anorexia nervosa und Bulimia nervosa</a></p>
+		<p>DOI: 10.1007/s004910050020</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;11, issue&nbsp;1 (1998)</p></td>
+	<td>72&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050020" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050020">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050020">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050020">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Monika Schimpf</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050021">Mütter rotieren verzweifelt - Väter verharren gequält...</a></p>
+		<p>DOI: 10.1007/s004910050021</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;11, issue&nbsp;1 (1998)</p></td>
+	<td>108&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050021" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050021">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050021">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050021">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rudolf Welter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050022">Über den Umgang mit Demenz aus umweltpsychologischer Sicht</a></p>
+		<p>DOI: 10.1007/s004910050022</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;11, issue&nbsp;1 (1998)</p></td>
+	<td>74&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050022" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050022">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050022">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050022">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jutta Eckert-Schirmer; Hans J. Hoch; Kurt Lüscher; Frank Ziegler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050023">Die Regulation von Familienbeziehungen durch das Kinder- und Jugendhilfegesetz am Beispiel der jugendamtlichen und vormundschaftsrichterlichen Regulation von Pflegekindschaftsverhältnissen (§ 33 KJHG)</a></p>
+		<p>DOI: 10.1007/s004910050023</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;11, issue&nbsp;1 (1998)</p></td>
+	<td>43&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050023" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050023">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050023">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050023">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bruno Hildenbrand</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050024">Editorial</a></p>
+		<p>DOI: 10.1007/s004910050024</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;11, issue&nbsp;2 (1998)</p></td>
+	<td>46&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050024" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050024">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050024">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050024">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael B. Buchholz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050025">Sprachliche Interaktion und Diagnosen</a></p>
+		<p>DOI: 10.1007/s004910050025</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;11, issue&nbsp;2 (1998)</p></td>
+	<td>106&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050025" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050025">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050025">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050025">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter F. Matthiessen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs004910050026">Die Diagnose — eine prognoseorientierte individuelle Therapieentscheidung</a></p>
+		<p>DOI: 10.1007/s004910050026</p>	</td>
+	<td><p><a href="/scimag/journals/23126">System Familie</a><p>volume&nbsp;11, issue&nbsp;2 (1998)</p></td>
+	<td>78&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs004910050026" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s004910050026">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s004910050026">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s004910050026">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">71 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 3</span>
+	 <a href="/scimag/?journal=23126&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

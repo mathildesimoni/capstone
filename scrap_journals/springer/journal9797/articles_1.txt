@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/9797">Interchange</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0826-4805</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-1790</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 70; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 70');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=9797&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;733 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 70</span>
+	 <a href="/scimag/?journal=9797&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Ian Winchester</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01187586">Introduction</a></p>
+		<p>DOI: 10.1007/bf01187586</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;16, issue&nbsp;1 (1985)</p></td>
+	<td>224&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01187586" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01187586">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01187586">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01187586">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sharon Bailin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01187587">On originality</a></p>
+		<p>DOI: 10.1007/bf01187587</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;16, issue&nbsp;1 (1985)</p></td>
+	<td>590&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01187587" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01187587">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01187587">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01187587">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David N. Perkins</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01187588">Reasoning as imagination</a></p>
+		<p>DOI: 10.1007/bf01187588</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;16, issue&nbsp;1 (1985)</p></td>
+	<td>880&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01187588" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01187588">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01187588">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01187588">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carl R. Hausman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01187589">Can computers create?</a></p>
+		<p>DOI: 10.1007/bf01187589</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;16, issue&nbsp;1 (1985)</p></td>
+	<td>780&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01187589" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01187589">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01187589">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01187589">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jagdish N. Hattiangadi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01187590">Novelty, creation, and society</a></p>
+		<p>DOI: 10.1007/bf01187590</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;16, issue&nbsp;1 (1985)</p></td>
+	<td>753&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01187590" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01187590">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01187590">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01187590">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joseph Agassi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01187591">The myth of the young genius</a></p>
+		<p>DOI: 10.1007/bf01187591</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;16, issue&nbsp;1 (1985)</p></td>
+	<td>760&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01187591" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01187591">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01187591">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01187591">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ian Winchester</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01187593">Creation and creativity in art and science</a></p>
+		<p>DOI: 10.1007/bf01187593</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;16, issue&nbsp;1 (1985)</p></td>
+	<td>492&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01187593" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01187593">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01187593">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01187593">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Steven A. M. Burns</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01187594">The Ionic bumblebee</a></p>
+		<p>DOI: 10.1007/bf01187594</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;16, issue&nbsp;1 (1985)</p></td>
+	<td>479&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01187594" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01187594">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01187594">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01187594">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ronald N. MacGregor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01187595">The role of context, code, and caption in the analysis of creative behavior</a></p>
+		<p>DOI: 10.1007/bf01187595</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;16, issue&nbsp;1 (1985)</p></td>
+	<td>635&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01187595" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01187595">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01187595">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01187595">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nick Webb</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01187596">Borderline creativity</a></p>
+		<p>DOI: 10.1007/bf01187596</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;16, issue&nbsp;1 (1985)</p></td>
+	<td>1.55&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01187596" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01187596">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01187596">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01187596">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Janet Clark; Ed Barbeau; Joseph Agassi; David Perkins; Sharon Bailin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01187597">Panel discussion</a></p>
+		<p>DOI: 10.1007/bf01187597</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;16, issue&nbsp;1 (1985)</p></td>
+	<td>1.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01187597" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01187597">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01187597">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01187597">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Frank Smith</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01187598">Essay review</a></p>
+		<p>DOI: 10.1007/bf01187598</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;16, issue&nbsp;1 (1985)</p></td>
+	<td>491&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01187598" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01187598">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01187598">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01187598">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01187599">Contributors</a></p>
+		<p>DOI: 10.1007/bf01187599</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;16, issue&nbsp;1 (1985)</p></td>
+	<td>61&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01187599" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01187599">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01187599">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01187599">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Heather Berkeley; Chad Gaffield; Gordon West</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188013">Children's rights in the Canadian context</a></p>
+		<p>DOI: 10.1007/bf01188013</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;8, issue&nbsp;1-2 (1977-1978)</p></td>
+	<td>345&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188013" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188013">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188013">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188013">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John R. Seeley</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188014">The Juvenile justice system and the helping professions</a></p>
+		<p>DOI: 10.1007/bf01188014</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;8, issue&nbsp;1-2 (1977-1978)</p></td>
+	<td>1.33&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188014" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188014">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188014">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188014">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patrick C. Lee</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188015">A status report on child advocacy in the United States</a></p>
+		<p>DOI: 10.1007/bf01188015</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;8, issue&nbsp;1-2 (1977-1978)</p></td>
+	<td>1.44&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188015" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188015">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188015">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188015">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Barbara A. Chisholm</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188016">Toward a position on children's rights</a></p>
+		<p>DOI: 10.1007/bf01188016</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;8, issue&nbsp;1-2 (1977-1978)</p></td>
+	<td>1001&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188016" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188016">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188016">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188016">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Romulo F. Magsino</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188017">Student rights in Canada: Nonsense upon stilts?</a></p>
+		<p>DOI: 10.1007/bf01188017</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;8, issue&nbsp;1-2 (1977-1978)</p></td>
+	<td>1.44&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188017" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188017">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188017">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188017">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Donald R. Raichle</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188018">School discipline and corporal punishment: An american retrospect</a></p>
+		<p>DOI: 10.1007/bf01188018</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;8, issue&nbsp;1-2 (1977-1978)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188018" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188018">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188018">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188018">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael E. Manley-Casimir</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188019">Discretion in school discipline</a></p>
+		<p>DOI: 10.1007/bf01188019</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;8, issue&nbsp;1-2 (1977-1978)</p></td>
+	<td>1.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188019" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188019">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188019">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188019">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vincent R. D&#039;Oyley</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188020">Schooling and ethnic rights</a></p>
+		<p>DOI: 10.1007/bf01188020</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;8, issue&nbsp;1-2 (1977-1978)</p></td>
+	<td>554&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188020" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188020">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188020">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188020">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert MacKay</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188021">Children's intellectual rights</a></p>
+		<p>DOI: 10.1007/bf01188021</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;8, issue&nbsp;1-2 (1977-1978)</p></td>
+	<td>690&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188021" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188021">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188021">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188021">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jim Bledsoe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188022">The world of the cave kid: The rightful recognition of children's knowledge</a></p>
+		<p>DOI: 10.1007/bf01188022</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;8, issue&nbsp;1-2 (1977-1978)</p></td>
+	<td>713&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188022" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188022">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188022">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188022">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Glenn Eastabrook</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188023">School change and the implications for students' rights</a></p>
+		<p>DOI: 10.1007/bf01188023</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;8, issue&nbsp;1-2 (1977-1978)</p></td>
+	<td>1.15&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188023" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188023">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188023">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188023">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ron Buston</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01188024">Family grouping: A structural innovation in elementary schools</a></p>
+		<p>DOI: 10.1007/bf01188024</p>	</td>
+	<td><p><a href="/scimag/journals/9797">Interchange</a><p>volume&nbsp;8, issue&nbsp;1-2 (1977-1978)</p></td>
+	<td>606&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01188024" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01188024">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01188024">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01188024">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;733 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 70</span>
+	 <a href="/scimag/?journal=9797&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

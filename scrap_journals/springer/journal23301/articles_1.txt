@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/23301">TEST</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1133-0686</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1863-8260</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 41; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 41');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=23301&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;003 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 41</span>
+	 <a href="/scimag/?journal=23301&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>E. Gutiérrez-Peña; A. F. M. Smith; José M. Bernardo; Guido Consonni; Piero Veronese; E. I. George; F. J. Girón; M. L. Martínez; G. Letac; Carl N. Morris</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02564426">Exponential and bayesian conjugate families: Review and extensions</a></p>
+		<p>DOI: 10.1007/bf02564426</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;6, issue&nbsp;1 (1997)</p></td>
+	<td>4.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02564426" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02564426">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02564426">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02564426">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Andel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02564427">On least-squares and naïve extrapolations in a non-linear AR(1) process</a></p>
+		<p>DOI: 10.1007/bf02564427</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;6, issue&nbsp;1 (1997)</p></td>
+	<td>310&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02564427" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02564427">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02564427">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02564427">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. O’Hagan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02564428">Properties of intrinsic and fractional Bayes factors</a></p>
+		<p>DOI: 10.1007/bf02564428</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;6, issue&nbsp;1 (1997)</p></td>
+	<td>890&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02564428" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02564428">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02564428">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02564428">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Sansó</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02564429">Simple approximations for location and ANOVA models with non-conjugate priors</a></p>
+		<p>DOI: 10.1007/bf02564429</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;6, issue&nbsp;1 (1997)</p></td>
+	<td>339&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02564429" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02564429">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02564429">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02564429">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Rueda; B. Salvador; M. A. Fernández</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02564430">A good property of the maximum likelihood estimator in a restricted normal model</a></p>
+		<p>DOI: 10.1007/bf02564430</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;6, issue&nbsp;1 (1997)</p></td>
+	<td>287&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02564430" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02564430">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02564430">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02564430">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gorui Bian</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02564431">Bayesian inference in location-scale distributions with independent bivariate priors</a></p>
+		<p>DOI: 10.1007/bf02564431</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;6, issue&nbsp;1 (1997)</p></td>
+	<td>926&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02564431" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02564431">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02564431">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02564431">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Ghosal</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02564432">Reference priors in multiparameter nonregular cases</a></p>
+		<p>DOI: 10.1007/bf02564432</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;6, issue&nbsp;1 (1997)</p></td>
+	<td>1.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02564432" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02564432">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02564432">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02564432">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Basu; S. Sarkar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02564433">Robust estimation in the errors variables model via weighted likelihood estimating equations</a></p>
+		<p>DOI: 10.1007/bf02564433</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;6, issue&nbsp;1 (1997)</p></td>
+	<td>825&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02564433" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02564433">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02564433">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02564433">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. T. B. Choy; A. F. M. Smith</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02564434">Hierarchical models with scale mixtures of normal distributions</a></p>
+		<p>DOI: 10.1007/bf02564434</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;6, issue&nbsp;1 (1997)</p></td>
+	<td>750&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02564434" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02564434">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02564434">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02564434">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Duc Devroye; J. Beirlant; R. Cao; R. Fraiman; P. Hall; M. C. Jones; Gábor Lugosi; E. Mammen; J. S. Marron; C. Sánchez-Sellero; J. de Uña; F. Udina; L. Devroye</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02564701">Universal smoothing factor selection in density estimation: theory and practice</a></p>
+		<p>DOI: 10.1007/bf02564701</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;6, issue&nbsp;2 (1997)</p></td>
+	<td>9.62&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02564701" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02564701">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02564701">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02564701">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ming-Hui Chen; Qi-Man Shao</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02564702">Performance study of marginal posterior density estimation via Kullback-Leibler divergence</a></p>
+		<p>DOI: 10.1007/bf02564702</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;6, issue&nbsp;2 (1997)</p></td>
+	<td>1.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02564702" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02564702">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02564702">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02564702">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. M. Barakat</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02564703">On the continuation of the limit distributions of the extreme and central terms of a sample</a></p>
+		<p>DOI: 10.1007/bf02564703</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;6, issue&nbsp;2 (1997)</p></td>
+	<td>748&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02564703" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02564703">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02564703">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02564703">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. D. Bunday; S. M. Husnain Bokhari; K. H. Khan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02564704">A new algorithm for the normal distribution function</a></p>
+		<p>DOI: 10.1007/bf02564704</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;6, issue&nbsp;2 (1997)</p></td>
+	<td>317&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02564704" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02564704">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02564704">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02564704">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Cipra; R. Romera</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02564705">Kalman filter with outliers and missing observations</a></p>
+		<p>DOI: 10.1007/bf02564705</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;6, issue&nbsp;2 (1997)</p></td>
+	<td>623&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02564705" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02564705">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02564705">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02564705">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. Llatas; A. J. Quiroz; J. M. Renóm</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02564706">A fast permutation-based algorithm for block clustering</a></p>
+		<p>DOI: 10.1007/bf02564706</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;6, issue&nbsp;2 (1997)</p></td>
+	<td>947&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02564706" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02564706">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02564706">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02564706">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. K. Srivastava; Shalabh</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02564707">Asymptotic efficiency properties of least squares in an ultrastructural model</a></p>
+		<p>DOI: 10.1007/bf02564707</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;6, issue&nbsp;2 (1997)</p></td>
+	<td>519&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02564707" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02564707">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02564707">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02564707">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dirk Bültel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02564708">Correction to “Foundations for a Robust Theory of Decision Making: the Simple Case” by David Ríos-Insua</a></p>
+		<p>DOI: 10.1007/bf02564708</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;6, issue&nbsp;2 (1997)</p></td>
+	<td>103&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02564708" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02564708">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02564708">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02564708">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nozer D. Singpurwalla; G. Box; D. R. Cox; D. K. Dey; A. Fries; J. K. Ghosh; M. A. Gómez-Villegas; T. Z. Irony; W. Kliemann; S. Kotz; D. V. Lindley; M. F. McGrath; D. Peña; N. D. Singpurwalla</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02565102">The stochastic control of process capability indices</a></p>
+		<p>DOI: 10.1007/bf02565102</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;7, issue&nbsp;1 (1998)</p></td>
+	<td>3.66&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02565102" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02565102">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02565102">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02565102">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Holger R. Scholl</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02565103">Shannon optimal priors on independent identically distributed statistical experiments converge weakly to Jeffreys' prior</a></p>
+		<p>DOI: 10.1007/bf02565103</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;7, issue&nbsp;1 (1998)</p></td>
+	<td>810&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02565103" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02565103">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02565103">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02565103">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Angelo Efoévi Koudou</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02565104">Lancaster bivariate probability distributions with Poisson, negative binomial and gamma margins</a></p>
+		<p>DOI: 10.1007/bf02565104</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;7, issue&nbsp;1 (1998)</p></td>
+	<td>630&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02565104" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02565104">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02565104">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02565104">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paolo Giudici; Maura Mezzetti</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02565105">Nonparametric estimation of survival functions by means of partial exchangeability structures</a></p>
+		<p>DOI: 10.1007/bf02565105</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;7, issue&nbsp;1 (1998)</p></td>
+	<td>1.03&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02565105" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02565105">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02565105">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02565105">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cinzia Carota; Giovanni Parmigiani</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02565106">A dirichlet process elaboration diagnostic for binomial goodness of fit</a></p>
+		<p>DOI: 10.1007/bf02565106</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;7, issue&nbsp;1 (1998)</p></td>
+	<td>562&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02565106" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02565106">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02565106">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02565106">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anne Philippe; Christian P. Robert</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02565107">A note on the confidence properties of reference priors for the calibration model</a></p>
+		<p>DOI: 10.1007/bf02565107</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;7, issue&nbsp;1 (1998)</p></td>
+	<td>583&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02565107" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02565107">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02565107">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02565107">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. T. Rabena</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02565108">Deriving Reference Decisions</a></p>
+		<p>DOI: 10.1007/bf02565108</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;7, issue&nbsp;1 (1998)</p></td>
+	<td>774&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02565108" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02565108">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02565108">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02565108">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carmen Fernández; Mark F. J. Steel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02565109">Reference priors for non-Normal two-sample problems</a></p>
+		<p>DOI: 10.1007/bf02565109</p>	</td>
+	<td><p><a href="/scimag/journals/23301">TEST</a><p>volume&nbsp;7, issue&nbsp;1 (1998)</p></td>
+	<td>1.34&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02565109" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02565109">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02565109">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02565109">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;003 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 41</span>
+	 <a href="/scimag/?journal=23301&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,379 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Elsevier Science</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0926-6577</td>
+	</tr>
+					</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 8; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 8');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=2764&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">181 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 8</span>
+	 <a href="/scimag/?journal=2764&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>John L. Mego</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990001-4">The effect of hadacidin on chloroplast development in non-dividing euglena cells</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90001-4</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>284&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990001-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990001-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990001-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990001-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gunter Zweig; Elaine Greenberg</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990002-6">Diffusion studies with photosynthesis inhibitions of chlorella</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90002-6</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>789&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990002-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990002-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990002-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990002-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joseph S. Kahn</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990003-8">A soluble protein-chlorophyll complex from spinach chloroplasts: I. Isolation of a photochemically active complex</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90003-8</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>364&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990003-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990003-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990003-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990003-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mitsuo Nishimura; Hidehiko Sakurai; Atusi Takamiya</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990004-x">Wavelength dependency of the inhibition of hill reaction and the analysis of the process by flashing light</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90004-x</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>467&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990004-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990004-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990004-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990004-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D.C. Fork; J.C. Goedheer</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990005-1">Studies on light-induced inhibition of respiration in purple bacteria: Action spectra for Rhodospirillum rubrum and Rhodopseudomonas spheroides</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90005-1</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>419&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990005-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990005-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990005-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990005-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Amesz</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990006-3">Spectrophotometric evidence for the participation of a quinone in photosynthesis of intact blue-green algae</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90006-3</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>534&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990006-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990006-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990006-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990006-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L.A. Feldman; E.S. Lindstrom</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990007-5">The effect of carotenoid pigments on photooxidations of some photosynthetic bacteria</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90007-5</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>394&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990007-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990007-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990007-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990007-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert H. McKay; Nathan O. Kaplan</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990008-7">Studies of protein and bound coenzyme fluorescence of lactate dehydrogenases</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90008-7</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>664&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990008-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990008-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990008-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990008-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Antonini; M. Brunori; A. Caputo; E. Chiancone; A.Rossi Fanelli; J. Wyman</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990009-9">Studies on the structure of hemoglobin: III. Physiochemical properties of reconstituted hemoglobins</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90009-9</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>880&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990009-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990009-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990009-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990009-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Maričič; Greta Pifat; V. Parvdič</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990010-5">Proton conductivity in the solid hydrated haemoglobin</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90010-5</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>492&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990010-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990010-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990010-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990010-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Hoshiko; B.D. Lindley</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990011-7">The relationship of ussing's flux-ratio equation to the thermodynamic description of membrane permeability</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90011-7</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>857&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990011-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990011-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990011-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990011-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John A. Jacquez</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990012-9">The kinetics of carrier-mediated transport: stationary-state approximations</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90012-9</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>525&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990012-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990012-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990012-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990012-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen W. Weinstein; H.G. Hempling</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990013-0">The effect of coenzyme Q0 on potassium transport in the ehrlich ascites-tumor cell</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90013-0</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>437&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990013-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990013-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990013-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990013-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patricia Hoffee; Ellis Englesberg; François Lamy</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990014-2">The glucose permease system in bacteria</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90014-2</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>837&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990014-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990014-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990014-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990014-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A.M. James; D.E.E. Loveday; D.T. Plummer</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990015-4">Some physical investigations of the behaviour of bacterial surfaces XI. The effect of phenol and substituted phenols on the electrophoretic mobility of Aerobacter aerogenes</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90015-4</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>783&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990015-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990015-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990015-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990015-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vladimir P. Gilëv</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990016-6">The ultrastructure of myofilaments application of negative staining to sectioned material</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90016-6</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>1.60&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990016-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990016-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990016-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990016-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Prem P. Batra; Gordon Tollin</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990017-8">Phototaxis in euglena: I. Isolation of the eye-spot granules and identification of the eye-spot pigments</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90017-8</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>1.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990017-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990017-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990017-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990017-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul A. Loach; Melvin Calvin</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990018-x">The interaction between manganese(IV)-hematoporphyrin IX and water</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90018-x</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>478&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990018-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990018-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990018-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990018-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Murray Vernon King</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990019-1">Standard preparations of ribonuclease crystals of modifications I and II</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90019-1</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>316&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990019-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990019-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990019-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990019-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stellan Hjertén</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990020-8">The preparation of agarose spheres for chromatography of molecules and particles</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90020-8</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>763&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990020-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990020-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990020-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990020-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Bengtsson; L. Philipson</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990021-x">Chromatography of animal viruses on pearl-condensed agar</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90021-x</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>597&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990021-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990021-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990021-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990021-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Franca Ascoli; Mauro De Cupis</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990022-1">Synthesis and conformation of a copolymer of ε-carbobenzoxy-l-lysine and S-carbobenzoxy-l-lysine</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90022-1</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>158&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990022-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990022-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990022-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990022-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K.S. Korgaonkar; Anasuya M. Desai</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990023-3">Changes in the monolayer properties of bovine serum albumin after methylation of its carboxyl groups</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90023-3</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>158&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990023-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990023-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990023-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990023-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert A. Lazzarini; Marjorie Woodruff</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990024-5">The photoinduction of transhydrogenase in Euglena</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90024-5</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>246&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990024-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990024-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990024-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990024-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nancy McCaig; Renzo Rendi</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6577%2864%2990025-7">Water extrusion in isolated subcellular fractions II. Presence of Me2+-EDTA dependent water extrusion system in various subcellular fractions</a></p>
+		<p>DOI: 10.1016/0926-6577(64)90025-7</p>	</td>
+	<td><p><a href="/scimag/journals/2764">Biochimica et Biophysica Acta (BBA) - Specialized Section on Biophysical Subjects</a><p>volume&nbsp;79, issue&nbsp;2 (1964)</p></td>
+	<td>184&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6577%2864%2990025-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6577%2864%2990025-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6577%2864%2990025-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6577%2864%2990025-7">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">181 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 8</span>
+	 <a href="/scimag/?journal=2764&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

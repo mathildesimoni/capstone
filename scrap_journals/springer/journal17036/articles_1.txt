@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/17036">Mathematical Programming</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0025-5610</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1436-4646</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 183; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 183');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=17036&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;559 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 183</span>
+	 <a href="/scimag/?journal=17036&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Christoph Helmberg; Franz Rendl</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580072">Solving quadratic (0,1)-problems by semidefinite programs and cutting planes</a></p>
+		<p>DOI: 10.1007/bf01580072</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;82, issue&nbsp;3 (1998)</p></td>
+	<td>1.65&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580072" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580072">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580072">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580072">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hichem Sellami</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580073">A homotopy continuation method for solving normal equations</a></p>
+		<p>DOI: 10.1007/bf01580073</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;82, issue&nbsp;3 (1998)</p></td>
+	<td>1.35&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580073" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580073">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580073">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580073">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nimrod Megiddo; Shinji Mizuno; Takashi Tsuchiya</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580074">A modified layered-step interior-point algorithm for linear programming</a></p>
+		<p>DOI: 10.1007/bf01580074</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;82, issue&nbsp;3 (1998)</p></td>
+	<td>1007&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580074" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580074">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580074">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580074">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kazuo Murota</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580075">Fenchel-type duality for matroid valuations</a></p>
+		<p>DOI: 10.1007/bf01580075</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;82, issue&nbsp;3 (1998)</p></td>
+	<td>1008&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580075" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580075">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580075">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580075">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ali Bouaricha; Robert B. Schnabel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580076">Tensor methods for large sparse systems of nonlinear equations</a></p>
+		<p>DOI: 10.1007/bf01580076</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;82, issue&nbsp;3 (1998)</p></td>
+	<td>1.47&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580076" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580076">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580076">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580076">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. S. R. Murthy; T. Parthasarathy</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580077">Fully copositive matrices</a></p>
+		<p>DOI: 10.1007/bf01580077</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;82, issue&nbsp;3 (1998)</p></td>
+	<td>655&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580077" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580077">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580077">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580077">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Spellucci</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580078">An SQP method for general nonlinear programs using only equality constrained subproblems</a></p>
+		<p>DOI: 10.1007/bf01580078</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;82, issue&nbsp;3 (1998)</p></td>
+	<td>2.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580078" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580078">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580078">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580078">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Charu C. Aggarwal; Ravindra K. Ahuja; Jianxiu Hao; James B. Orlin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580084">Diagnosing infeasibilities in network flow problems</a></p>
+		<p>DOI: 10.1007/bf01580084</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;81, issue&nbsp;3 (1998)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580084" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580084">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580084">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580084">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Renato DC Monteiro; Yin Zhang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580085">A unified analysis for a class of long-step primal-dual path-following interior-point algorithms for semidefinite programming</a></p>
+		<p>DOI: 10.1007/bf01580085</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;81, issue&nbsp;3 (1998)</p></td>
+	<td>1.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580085" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580085">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580085">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580085">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexander Shapiro; Tito Homem-de-Mello</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580086">A simulation-based approach to two-stage stochastic programming with recourse</a></p>
+		<p>DOI: 10.1007/bf01580086</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;81, issue&nbsp;3 (1998)</p></td>
+	<td>1.56&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580086" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580086">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580086">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580086">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>XQ Yang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580087">Second-order global optimality conditions for convex composite optimization</a></p>
+		<p>DOI: 10.1007/bf01580087</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;81, issue&nbsp;3 (1998)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580087" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580087">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580087">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580087">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gert A. Tijssen; Gerard Sierksma</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580088">Balinski—Tucker simplex tableaus: Dimensions, degeneracy degrees, and interior points of optimal faces</a></p>
+		<p>DOI: 10.1007/bf01580088</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;81, issue&nbsp;3 (1998)</p></td>
+	<td>1.39&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580088" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580088">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580088">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580088">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yair Censor; Alfredo N. Iusem; Stavros A. Zenios</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580089">An interior point method with Bregman functions for the variational inequality problem with paramonotone operators</a></p>
+		<p>DOI: 10.1007/bf01580089</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;81, issue&nbsp;3 (1998)</p></td>
+	<td>1.53&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580089" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580089">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580089">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580089">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paula M. J. Harris</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580108">Pivot selection methods of the Devex LP code</a></p>
+		<p>DOI: 10.1007/bf01580108</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;5, issue&nbsp;1 (1973)</p></td>
+	<td>1.05&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580108" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580108">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580108">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580108">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Václav Chvátal</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580109">Edmonds polytopes and weakly hamiltonian graphs</a></p>
+		<p>DOI: 10.1007/bf01580109</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;5, issue&nbsp;1 (1973)</p></td>
+	<td>409&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580109" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580109">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580109">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580109">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James W. Daniel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580110">Stability of the solution of definite quadratic programs</a></p>
+		<p>DOI: 10.1007/bf01580110</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;5, issue&nbsp;1 (1973)</p></td>
+	<td>503&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580110" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580110">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580110">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580110">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. P. Evans; R. E. Steuer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580111">A revised simplex method for linear multiple objective programs</a></p>
+		<p>DOI: 10.1007/bf01580111</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;5, issue&nbsp;1 (1973)</p></td>
+	<td>834&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580111" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580111">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580111">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580111">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gautam Appa; Cyril Smith</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580112">On L1and Chebyshev estimation</a></p>
+		<p>DOI: 10.1007/bf01580112</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;5, issue&nbsp;1 (1973)</p></td>
+	<td>598&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580112" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580112">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580112">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580112">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jack Edmonds; Ellis L. Johnson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580113">Matching, Euler tours and the Chinese postman</a></p>
+		<p>DOI: 10.1007/bf01580113</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;5, issue&nbsp;1 (1973)</p></td>
+	<td>1.80&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580113" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580113">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580113">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580113">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580114">Election of Council</a></p>
+		<p>DOI: 10.1007/bf01580114</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;5, issue&nbsp;1 (1973)</p></td>
+	<td>24&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580114" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580114">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580114">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580114">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580115">Editorial policy</a></p>
+		<p>DOI: 10.1007/bf01580115</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;5, issue&nbsp;1 (1973)</p></td>
+	<td>52&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580115" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580115">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580115">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580115">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580116">The Mathematical Programming Society</a></p>
+		<p>DOI: 10.1007/bf01580116</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;5, issue&nbsp;1 (1973)</p></td>
+	<td>50&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580116" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580116">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580116">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580116">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Fletcher</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580117">An exact penalty function for nonlinear programming with inequalities</a></p>
+		<p>DOI: 10.1007/bf01580117</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;5, issue&nbsp;1 (1973)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580117" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580117">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580117">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580117">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William W. Hogan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580118">Applications of a general convergence theory for outer approximation algorithms</a></p>
+		<p>DOI: 10.1007/bf01580118</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;5, issue&nbsp;1 (1973)</p></td>
+	<td>800&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580118" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580118">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580118">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580118">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James E. Falk</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580119">A linear max—min problem</a></p>
+		<p>DOI: 10.1007/bf01580119</p>	</td>
+	<td><p><a href="/scimag/journals/17036">Mathematical Programming</a><p>volume&nbsp;5, issue&nbsp;1 (1973)</p></td>
+	<td>774&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580119" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580119">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580119">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580119">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;559 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 183</span>
+	 <a href="/scimag/?journal=17036&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0948-6704</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1435-1269</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 100; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 100');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=25869&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;484 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 100</span>
+	 <a href="/scimag/?journal=25869&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>F.J. Illhardt; R. Wolf</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00007910">Suizid im Alter: Zusammenbruch der Wertorientierung?</a></p>
+		<p>DOI: 10.1007/pl00007910</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;31, issue&nbsp;1 (1998)</p></td>
+	<td>64&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00007910" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00007910">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00007910">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00007910">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Steiner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00007911">Profilierung Sozialer Arbeit in der stationären Altenhilfe</a></p>
+		<p>DOI: 10.1007/pl00007911</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;31, issue&nbsp;5 (1998)</p></td>
+	<td>56&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00007911" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00007911">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00007911">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00007911">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Borchelt; W. Vogel; E. Steinhagen-Thiessen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00007912">Das Geriatrische Minimum Data Set (Gemidas) der Bundesarbeitsgemeinschaft der Klinisch-Geriatrischen Einrichtungen e.V. als Instrument der Qualitätssicherung in der stationären Geriatrie</a></p>
+		<p>DOI: 10.1007/pl00007912</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;32, issue&nbsp;1 (1999)</p></td>
+	<td>466&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00007912" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00007912">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00007912">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00007912">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Kruse; H.-W. Wahl</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00007914">III. Soziale Beziehungen</a></p>
+		<p>DOI: 10.1007/pl00007914</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;32, issue&nbsp;5 (1999)</p></td>
+	<td>83&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00007914" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00007914">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00007914">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00007914">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Walker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00007915">Ageing in Europe – challenges and consequences</a></p>
+		<p>DOI: 10.1007/pl00007915</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;32, issue&nbsp;6 (1999)</p></td>
+	<td>48&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00007915" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00007915">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00007915">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00007915">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. -P. Meier-Baumgartner; L. Pientka</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00007916">Evidenz-basierte Medizin und der ältere Mensch</a></p>
+		<p>DOI: 10.1007/pl00007916</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;33, issue&nbsp;2 (2000)</p></td>
+	<td>15&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00007916" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00007916">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00007916">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00007916">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Th. Nikolaus; M. Jamour</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00007917">Wirksamkeit von speziellen Schlaganfalleinrichtungen (Stroke Units) in der Behandlung des akuten Schlaganfalls</a></p>
+		<p>DOI: 10.1007/pl00007917</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;33, issue&nbsp;2 (2000)</p></td>
+	<td>51&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00007917" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00007917">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00007917">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00007917">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Lauque; F. Nourhashemi; B. Vellas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00014616">Testwerkzeuge für die Ernährungsanamnese bei älteren Personen*</a></p>
+		<p>DOI: 10.1007/pl00014616</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;32, issue&nbsp;1 Supplement (1999)</p></td>
+	<td>357&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00014616" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00014616">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00014616">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00014616">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>O. von dem Knesebeck</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00391-002-0048-y">Soziale Ungleichheit und Gesundheit im Alter –Klassische oder alternative Statusindikatoren?</a></p>
+		<p>DOI: 10.1007/s00391-002-0048-y</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;35, issue&nbsp;3 (2002)</p></td>
+	<td>123&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00391-002-0048-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00391-002-0048-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00391-002-0048-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00391-002-0048-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rasvan E. Lalu; R. Schmitz-Scherzer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00391-002-0049-x">Zur Abschätzung der Verweildauer bei geriatrischen Rehabilitationspatienten</a></p>
+		<p>DOI: 10.1007/s00391-002-0049-x</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;35, issue&nbsp;3 (2002)</p></td>
+	<td>130&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00391-002-0049-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00391-002-0049-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00391-002-0049-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00391-002-0049-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. von Renteln-Kruse; K. Nogaschewski; H. P. Meier-Baumgartner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00391-002-0051-3">Krankheitswissen, Erwartungen und Urteile zur Behandlung älterer Schlaganfallpatienten und ihrer nächsten Angehörigen –Eine prospektive Untersuchung im Verlauf stationärer Behandlung</a></p>
+		<p>DOI: 10.1007/s00391-002-0051-3</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;35, issue&nbsp;3 (2002)</p></td>
+	<td>126&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00391-002-0051-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00391-002-0051-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00391-002-0051-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00391-002-0051-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Meinck; K. Freigang; B. John; C. Keitel; E. Puls; B.-P. Robra</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00391-002-0065-x">Wohnortnahe geriatrische Rehabilitation – Zur Struktur- und Prozessqualität eines mobilen und eines ambulanten Rehabilitationsmodells</a></p>
+		<p>DOI: 10.1007/s00391-002-0065-x</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;35, issue&nbsp;5 (2002)</p></td>
+	<td>192&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00391-002-0065-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00391-002-0065-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00391-002-0065-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00391-002-0065-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anke Jakob; Anja Busse; Steffi G. Riedel-Heller; Micaela Pavlicek; M. C. Angermeyer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00391-002-0066-9">Prävalenz und Inzidenz von Demenzerkrankungen in Alten- und Altenpflegeheimen im Vergleich mit Privathaushalten</a></p>
+		<p>DOI: 10.1007/s00391-002-0066-9</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;35, issue&nbsp;5 (2002)</p></td>
+	<td>113&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00391-002-0066-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00391-002-0066-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00391-002-0066-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00391-002-0066-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Thiele; L. Feichtinger; U. Baumann; H. Mitmansgruber; M. Somweber</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00391-002-0067-8">Der Umzug ins Seniorenheim – Erfahrungen von Senioren und Angehörigen</a></p>
+		<p>DOI: 10.1007/s00391-002-0067-8</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;35, issue&nbsp;6 (2002)</p></td>
+	<td>407&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00391-002-0067-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00391-002-0067-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00391-002-0067-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00391-002-0067-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Busse; C. Aurich; Michael Zaudig; S. Riedel-Heller; H. Matschinger; M. C. Angermeyer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00391-002-0068-7">Alters- und bildungsspezifische Normierung des kognitiven Tests des SIDAM</a></p>
+		<p>DOI: 10.1007/s00391-002-0068-7</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;35, issue&nbsp;6 (2002)</p></td>
+	<td>133&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00391-002-0068-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00391-002-0068-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00391-002-0068-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00391-002-0068-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>U. Junius; G. Fischer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00391-002-0069-6">Geriatrisches Assessment für die hausärztliche Praxis –Ergebnisse einer konzertierten Aktion aus sieben europäischen Ländern</a></p>
+		<p>DOI: 10.1007/s00391-002-0069-6</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;35, issue&nbsp;3 (2002)</p></td>
+	<td>207&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00391-002-0069-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00391-002-0069-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00391-002-0069-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00391-002-0069-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Driesch; G. Heuft</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00391-002-0077-6">Ressourcenallokation und Verteilungsgerechtigkeit in der medizinischen Versorgung Alternder</a></p>
+		<p>DOI: 10.1007/s00391-002-0077-6</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;35, issue&nbsp;4 (2002)</p></td>
+	<td>125&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00391-002-0077-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00391-002-0077-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00391-002-0077-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00391-002-0077-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anthony Chukwu; Udo Rauchfleisch</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00391-002-0078-5">Gottesvorstellungen älterer Menschen</a></p>
+		<p>DOI: 10.1007/s00391-002-0078-5</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;35, issue&nbsp;6 (2002)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00391-002-0078-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00391-002-0078-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00391-002-0078-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00391-002-0078-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ralf Kleinow; Franz Hessel; Jürgen Wasem</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00391-002-0079-4">Auswirkungen der Krankenhausfallpauschalen für Einrichtungen der geriatrischen Rehabilitation</a></p>
+		<p>DOI: 10.1007/s00391-002-0079-4</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;35, issue&nbsp;4 (2002)</p></td>
+	<td>91&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00391-002-0079-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00391-002-0079-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00391-002-0079-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00391-002-0079-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hans Bosma; Martin P. J. van Boxtel; R.W. H. M. Ponds; Marko Jelicic; Peter Houx; Job Metsemakers; Jelle Jolles</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00391-002-0080-y">Engaged lifestyle and cognitive function in middle and old-aged, non-demented persons: a reciprocal association?</a></p>
+		<p>DOI: 10.1007/s00391-002-0080-y</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;35, issue&nbsp;6 (2002)</p></td>
+	<td>105&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00391-002-0080-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00391-002-0080-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00391-002-0080-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00391-002-0080-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Gladisch</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00391-002-0083-8">Stellungnahme zur „Hamburger Erklärung“</a></p>
+		<p>DOI: 10.1007/s00391-002-0083-8</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;35, issue&nbsp;3 (2002)</p></td>
+	<td>64&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00391-002-0083-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00391-002-0083-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00391-002-0083-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00391-002-0083-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Esther Weitzel-Polzer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00391-002-0086-5">Demenz, Trauma und transkulturelle Pflege –Der komplexe Pflegebedarf in der jüdischen Altenpflege in Deutschland</a></p>
+		<p>DOI: 10.1007/s00391-002-0086-5</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;35, issue&nbsp;3 (2002)</p></td>
+	<td>127&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00391-002-0086-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00391-002-0086-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00391-002-0086-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00391-002-0086-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas Klie; Roland Schmidt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00391-002-0087-4">Begleitung von Menschen mit Demenz –Bestandsaufnahme und Formulierung demenzpolitischer Desiderate und Optionen</a></p>
+		<p>DOI: 10.1007/s00391-002-0087-4</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;35, issue&nbsp;3 (2002)</p></td>
+	<td>168&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00391-002-0087-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00391-002-0087-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00391-002-0087-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00391-002-0087-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anke Buhl; Hildegard Entzian</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00391-002-0089-2">Wandel gestalten – Wege zu lebensweltbezogenen Unterstützungsformen für gerontopsychiatrisch erkrankte Menschen und ihre Angehörigen, DGGG-Tagung, September 2001, Kiel</a></p>
+		<p>DOI: 10.1007/s00391-002-0089-2</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;35, issue&nbsp;3 (2002)</p></td>
+	<td>83&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00391-002-0089-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00391-002-0089-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00391-002-0089-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00391-002-0089-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Karla Kämmer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00391-002-0090-9">Der Beitrag professioneller Pflege zur Lebensweltgestaltung von Menschen mit Demenz</a></p>
+		<p>DOI: 10.1007/s00391-002-0090-9</p>	</td>
+	<td><p><a href="/scimag/journals/25869">Zeitschrift für Gerontologie und Geriatrie</a><p>volume&nbsp;35, issue&nbsp;3 (2002)</p></td>
+	<td>73&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00391-002-0090-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00391-002-0090-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00391-002-0090-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00391-002-0090-9">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;484 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 100</span>
+	 <a href="/scimag/?journal=25869&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

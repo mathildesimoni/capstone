@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/7823">Foundations of Science</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1233-1821</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-8471</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 36; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 36');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=7823&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">878 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 36</span>
+	 <a href="/scimag/?journal=7823&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Herbert Simon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00124609">Machine discovery</a></p>
+		<p>DOI: 10.1007/bf00124609</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;2 (1995)</p></td>
+	<td>1.67&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00124609" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00124609">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00124609">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00124609">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Margaret Boden</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00124610">Commentary on Simon's paper on “machine discovery”</a></p>
+		<p>DOI: 10.1007/bf00124610</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;2 (1995)</p></td>
+	<td>1.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00124610" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00124610">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00124610">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00124610">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00124611">Machine discovery: Reply to comments</a></p>
+		<p>DOI: 10.1007/bf00124611</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;2 (1995)</p></td>
+	<td>456&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00124611" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00124611">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00124611">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00124611">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wei-Min Shen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00124612">The process of discovery</a></p>
+		<p>DOI: 10.1007/bf00124612</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;2 (1995)</p></td>
+	<td>989&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00124612" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00124612">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00124612">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00124612">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jan M. Zytkow</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00124613">Creating a discoverer: Autonomous knowledge seeking agent</a></p>
+		<p>DOI: 10.1007/bf00124613</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;2 (1995)</p></td>
+	<td>1.69&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00124613" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00124613">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00124613">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00124613">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard Creath</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00124614">Are dinosaurs extinct?</a></p>
+		<p>DOI: 10.1007/bf00124614</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;2 (1995)</p></td>
+	<td>729&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00124614" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00124614">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00124614">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00124614">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Friedman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00124615">Poincaré's conventionalism and the logical positivists</a></p>
+		<p>DOI: 10.1007/bf00124615</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;2 (1995)</p></td>
+	<td>933&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00124615" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00124615">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00124615">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00124615">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00124616">Biographical notes</a></p>
+		<p>DOI: 10.1007/bf00124616</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;2 (1995)</p></td>
+	<td>112&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00124616" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00124616">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00124616">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00124616">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00124617">On the Association for Foundations of Science, Language and Cognition, AFOS</a></p>
+		<p>DOI: 10.1007/bf00124617</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;2 (1995)</p></td>
+	<td>98&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00124617" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00124617">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00124617">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00124617">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125782">Publisher’s note</a></p>
+		<p>DOI: 10.1007/bf00125782</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;4 (1995)</p></td>
+	<td>14&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125782" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125782">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125782">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125782">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ryszard Wójcicki</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125783">Theories, theoretical models, truth</a></p>
+		<p>DOI: 10.1007/bf00125783</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;4 (1995)</p></td>
+	<td>2.68&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125783" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125783">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125783">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125783">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paweł Zeidler; Danuta Sobczyńska</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125784">The idea of realism in the new experimentalism and the problem of the existence of theoretical entities in chemistry</a></p>
+		<p>DOI: 10.1007/bf00125784</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;4 (1995)</p></td>
+	<td>1.15&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125784" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125784">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125784">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125784">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ian Hacking</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125785">Scientific realism about some chemical entities</a></p>
+		<p>DOI: 10.1007/bf00125785</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;4 (1995)</p></td>
+	<td>322&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125785" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125785">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125785">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125785">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Glenn Shafer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125786">The situation of causality</a></p>
+		<p>DOI: 10.1007/bf00125786</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;4 (1995)</p></td>
+	<td>944&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125786" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125786">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125786">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125786">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125787">’97 Summer School for theory of knowledge</a></p>
+		<p>DOI: 10.1007/bf00125787</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;4 (1995)</p></td>
+	<td>42&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125787" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125787">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125787">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125787">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125788">The 20th International Wittgenstein Symposium</a></p>
+		<p>DOI: 10.1007/bf00125788</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;4 (1995)</p></td>
+	<td>37&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125788" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125788">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125788">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125788">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125789">On the Association for Foundations of Science, Language and Cognition, AFOS</a></p>
+		<p>DOI: 10.1007/bf00125789</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;4 (1995)</p></td>
+	<td>67&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125789" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125789">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125789">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125789">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125790">Constitution of the Association for the Foundations of Science, Language and Cognition</a></p>
+		<p>DOI: 10.1007/bf00125790</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;4 (1995)</p></td>
+	<td>258&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125790" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125790">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125790">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125790">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125791">AFOS the Association for Foundations of Science, Language and Cognition</a></p>
+		<p>DOI: 10.1007/bf00125791</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;4 (1995)</p></td>
+	<td>371&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125791" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125791">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125791">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125791">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul Humphreys; Ryszard Wójcicki</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00145400">Publisher's note</a></p>
+		<p>DOI: 10.1007/bf00145400</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;3 (1995)</p></td>
+	<td>19&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00145400" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00145400">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00145400">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00145400">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Susan Haack</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00145401">Science is neither sacred nor a confidence trick</a></p>
+		<p>DOI: 10.1007/bf00145401</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;3 (1995)</p></td>
+	<td>840&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00145401" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00145401">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00145401">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00145401">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ryszard Wójcicki</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00145402">Theories, theoretical models, truth</a></p>
+		<p>DOI: 10.1007/bf00145402</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;3 (1995)</p></td>
+	<td>4.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00145402" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00145402">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00145402">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00145402">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Guliano Toraldo di Francia</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00145403">Historical truth</a></p>
+		<p>DOI: 10.1007/bf00145403</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;3 (1995)</p></td>
+	<td>556&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00145403" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00145403">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00145403">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00145403">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Helena Eilstein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00145404">Comments on Guliano Toraldo di Francia's paper</a></p>
+		<p>DOI: 10.1007/bf00145404</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;3 (1995)</p></td>
+	<td>484&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00145404" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00145404">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00145404">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00145404">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Guliano Toraldo di Francia</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00145405">Answers to my discussants</a></p>
+		<p>DOI: 10.1007/bf00145405</p>	</td>
+	<td><p><a href="/scimag/journals/7823">Foundations of Science</a><p>volume&nbsp;1, issue&nbsp;3 (1995)</p></td>
+	<td>92&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00145405" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00145405">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00145405">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00145405">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">878 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 36</span>
+	 <a href="/scimag/?journal=7823&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/16770">Lung</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0341-2040</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1432-1750</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 375; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 375');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=16770&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">9&nbsp;352 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 375</span>
+	 <a href="/scimag/?journal=16770&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>M. R. Bye; J. M. Ewig; L. M. Quittell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164308">Cystic fibrosis</a></p>
+		<p>DOI: 10.1007/bf00164308</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;172, issue&nbsp;5 (1994)</p></td>
+	<td>1.28&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164308" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164308">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164308">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164308">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Formgren; Å. Sjökvist; E. Ståhl; J. E. Wirén</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164309">Terbutaline in COPD comparison between turbuhaler® and chlorofluorocarbon (CFC) inhaler</a></p>
+		<p>DOI: 10.1007/bf00164309</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;172, issue&nbsp;5 (1994)</p></td>
+	<td>450&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164309" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164309">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164309">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164309">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K.-R. Zhou; Y.-L. Lai</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164310">Oxygen radicals in exsanguination-induced bronchoconstriction of guinea pigs</a></p>
+		<p>DOI: 10.1007/bf00164310</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;172, issue&nbsp;5 (1994)</p></td>
+	<td>635&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164310" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164310">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164310">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164310">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Inoue; H. Aizawa; S. Takata; H. Koto; K. Matsumoto; M. Shigyo; N. Hara</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164311">Ipratropium bromide protects against bronchoconstriction during bronchoscopy</a></p>
+		<p>DOI: 10.1007/bf00164311</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;172, issue&nbsp;5 (1994)</p></td>
+	<td>327&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164311" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164311">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164311">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164311">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Matsumoto; S. Takano; N. Nakahata; T. Shimizu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164312">Effects of thromboxane A2agonist STA2on rapidly adapting pulmonary stretch receptors in vagotomized rabbits</a></p>
+		<p>DOI: 10.1007/bf00164312</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;172, issue&nbsp;5 (1994)</p></td>
+	<td>627&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164312" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164312">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164312">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164312">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164313">Book reviews</a></p>
+		<p>DOI: 10.1007/bf00164313</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;172, issue&nbsp;5 (1994)</p></td>
+	<td>161&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164313" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164313">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164313">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164313">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Hamacher; T. Schaberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164437">Adhesion molecules in lung diseases</a></p>
+		<p>DOI: 10.1007/bf00164437</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;172, issue&nbsp;4 (1994)</p></td>
+	<td>1.47&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164437" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164437">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164437">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164437">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Kantar; N. Oggiano; P. L. Giorgi; P. C. Braga; R. Fiorini</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164438">Polymorphonuclear leukocyte-generated oxygen metabolites decrease beat frequency of human respiratory cilia</a></p>
+		<p>DOI: 10.1007/bf00164438</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;172, issue&nbsp;4 (1994)</p></td>
+	<td>491&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164438" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164438">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164438">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164438">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Teramoto; Y. Fukuchi; Y. Uejima; K. Teramoto; H. Ito; H. Orimo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164439">Age-related changes in the antioxidant screen of the distal lung in mice</a></p>
+		<p>DOI: 10.1007/bf00164439</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;172, issue&nbsp;4 (1994)</p></td>
+	<td>429&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164439" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164439">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164439">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164439">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Wanke; M. Auinger; H. Lahrmann; M. Merkle; D. Formanek; K. Irsigler; H. Zwick</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164440">Diaphragmatic function in patients on continuous ambulatory peritoneal dialysis</a></p>
+		<p>DOI: 10.1007/bf00164440</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;172, issue&nbsp;4 (1994)</p></td>
+	<td>630&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164440" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164440">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164440">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164440">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Aizawa; K. Matsumoto; M. Shigyo; H. Inoue; H. Koto; S. Takata; N. Hara</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164441">Airway epithelial cells modulate cholinergic neurotransmission in dog trachea</a></p>
+		<p>DOI: 10.1007/bf00164441</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;172, issue&nbsp;4 (1994)</p></td>
+	<td>502&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164441" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164441">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164441">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164441">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. L. Almenoff; J. B. Brooks; A. Johnson; M. Lesser</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164632">Differentiation of sarcoidosis from tuberculosis by use of electron capture gas-liquid chromatography</a></p>
+		<p>DOI: 10.1007/bf00164632</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;174, issue&nbsp;6 (1996)</p></td>
+	<td>575&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164632" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164632">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164632">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164632">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. I. Shehata; W. M. Thurlbeck; H. S. Sekbon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164633">Cytodynamics of in vitro developing airways and interaction with extracellular matrix proteins</a></p>
+		<p>DOI: 10.1007/bf00164633</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;174, issue&nbsp;6 (1996)</p></td>
+	<td>1.47&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164633" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164633">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164633">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164633">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. W. Light; N.-S. Wang; J. A. Despars; S. E. Gruer; C. Sassoon; F. S. Vargas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164634">Comparison of mitoxantrone and tetracycline as pleural sclerosing agents in rabbits</a></p>
+		<p>DOI: 10.1007/bf00164634</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;174, issue&nbsp;6 (1996)</p></td>
+	<td>570&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164634" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164634">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164634">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164634">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Ratjent; E. Kreuzfelder</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164635">Immunoglobulin and β2-microglobulin concentrations in bronchoalveolar lavage of children and adults</a></p>
+		<p>DOI: 10.1007/bf00164635</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;174, issue&nbsp;6 (1996)</p></td>
+	<td>452&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164635" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164635">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164635">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164635">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. J. H. Ronday; A. Lelij; M. Wienesen; A. Rothova; J. S. Stilma; A. Kijlstra</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164636">Elevated serum angiotensin-converting enzyme activity in onchocerciasis</a></p>
+		<p>DOI: 10.1007/bf00164636</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;174, issue&nbsp;6 (1996)</p></td>
+	<td>280&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164636" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164636">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164636">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164636">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Y. Cormier; N. Samson; E. Isräel-Assayag</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164637">Viral infection enhances the response toSaccharopolyspora rectivirgulain mice prechallenged with this farmer's lung antigen</a></p>
+		<p>DOI: 10.1007/bf00164637</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;174, issue&nbsp;6 (1996)</p></td>
+	<td>524&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164637" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164637">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164637">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164637">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>MHW</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164638">Book review</a></p>
+		<p>DOI: 10.1007/bf00164638</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;174, issue&nbsp;6 (1996)</p></td>
+	<td>42&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164638" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164638">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164638">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164638">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patrick J. Hanly</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164751">Mechanisms and management of central sleep apnea</a></p>
+		<p>DOI: 10.1007/bf00164751</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;170, issue&nbsp;1 (1992)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164751" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164751">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164751">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164751">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Raphael Breuer; Zelig Tochner; Michael W. Conner; Abraham Nimrod; Marian Gorecki; Reuven Or; Shimon Slavin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164752">Superoxide dismutase inhibits radiation-induced lung injury in hamsters</a></p>
+		<p>DOI: 10.1007/bf00164752</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;170, issue&nbsp;1 (1992)</p></td>
+	<td>1.58&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164752" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164752">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164752">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164752">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Ono; N. F. Voelkel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164753">PAF receptor blockade inhibits lung vascular changes in the rat monocrotaline model</a></p>
+		<p>DOI: 10.1007/bf00164753</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;170, issue&nbsp;1 (1992)</p></td>
+	<td>613&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164753" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164753">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164753">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164753">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Elizabeth B. Tarnell; Bonnie L. Oliver; George M. Johnson; Florence L. Watts; Roger S. Thrall</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164754">Superoxide anion production by rat neutrophils at various stages of bleomycin-induced lung injury</a></p>
+		<p>DOI: 10.1007/bf00164754</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;170, issue&nbsp;1 (1992)</p></td>
+	<td>570&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164754" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164754">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164754">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164754">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William L. Eschenbacher; Thomas B. Moore; Thomas J. Lorenzen; John G. Weg; Kenneth B. Gross</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164755">Pulmonary responses of asthmatic and normal subjects to different temperature and humidity conditions in an environmental chamber</a></p>
+		<p>DOI: 10.1007/bf00164755</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;170, issue&nbsp;1 (1992)</p></td>
+	<td>703&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164755" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164755">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164755">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164755">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00164756">1991 referees</a></p>
+		<p>DOI: 10.1007/bf00164756</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;170, issue&nbsp;1 (1992)</p></td>
+	<td>45&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00164756" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00164756">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00164756">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00164756">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sung S. Park</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00165698">Flow-regulatory function of upper airway in health and disease: A unified pathogenetic view of sleep-disordered breathing</a></p>
+		<p>DOI: 10.1007/bf00165698</p>	</td>
+	<td><p><a href="/scimag/journals/16770">Lung</a><p>volume&nbsp;171, issue&nbsp;6 (1993)</p></td>
+	<td>1.56&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00165698" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00165698">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00165698">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00165698">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">9&nbsp;352 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 375</span>
+	 <a href="/scimag/?journal=16770&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

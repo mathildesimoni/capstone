@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/8263">German Research</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0172-1526</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1522-2322</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 24; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 24');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=8263&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">588 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 24</span>
+	 <a href="/scimag/?journal=8263&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C1%3A%3Aaid-germ1%3E3.0.co%3B2-x">Cover Picture: german research 2-3/2001</a></p>
+		<p>DOI: 10.1002/1522-2322(200105)23:2/3&lt;1::aid-germ1&gt;3.0.co;2-x</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;23, issue&nbsp;2-3 (2001)</p></td>
+	<td>353&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C1%3A%3Aaid-germ1%3E3.0.co%3B2-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2322%28200105%2923%3A2/3%3C1%3A%3Aaid-germ1%3E3.0.co%3B2-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2322%28200105%2923%3A2/3%3C1%3A%3Aaid-germ1%3E3.0.co%3B2-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2322%28200105%2923%3A2/3%3C1%3A%3Aaid-germ1%3E3.0.co%3B2-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C1%3A%3Aaid-germ11111%3E3.0.co%3B2-p">Contents: german research 2-3/2001</a></p>
+		<p>DOI: 10.1002/1522-2322(200105)23:2/3&lt;1::aid-germ11111&gt;3.0.co;2-p</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;23, issue&nbsp;2-3 (2001)</p></td>
+	<td>52&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C1%3A%3Aaid-germ11111%3E3.0.co%3B2-p" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2322%28200105%2923%3A2/3%3C1%3A%3Aaid-germ11111%3E3.0.co%3B2-p">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2322%28200105%2923%3A2/3%3C1%3A%3Aaid-germ11111%3E3.0.co%3B2-p">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2322%28200105%2923%3A2/3%3C1%3A%3Aaid-germ11111%3E3.0.co%3B2-p">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hans-Joachim Kuss</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C12%3A%3Aaid-germ12%3E3.0.co%3B2-c">Solid Data read from the Sand of Egypt</a></p>
+		<p>DOI: 10.1002/1522-2322(200105)23:2/3&lt;12::aid-germ12&gt;3.0.co;2-c</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;23, issue&nbsp;2-3 (2001)</p></td>
+	<td>371&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C12%3A%3Aaid-germ12%3E3.0.co%3B2-c" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2322%28200105%2923%3A2/3%3C12%3A%3Aaid-germ12%3E3.0.co%3B2-c">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2322%28200105%2923%3A2/3%3C12%3A%3Aaid-germ12%3E3.0.co%3B2-c">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2322%28200105%2923%3A2/3%3C12%3A%3Aaid-germ12%3E3.0.co%3B2-c">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gerhard Sauder; Rolf Paulus</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C15%3A%3Aaid-germ15%3E3.0.co%3B2-v">Maler Müller — a Life seen in Letters</a></p>
+		<p>DOI: 10.1002/1522-2322(200105)23:2/3&lt;15::aid-germ15&gt;3.0.co;2-v</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;23, issue&nbsp;2-3 (2001)</p></td>
+	<td>500&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C15%3A%3Aaid-germ15%3E3.0.co%3B2-v" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2322%28200105%2923%3A2/3%3C15%3A%3Aaid-germ15%3E3.0.co%3B2-v">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2322%28200105%2923%3A2/3%3C15%3A%3Aaid-germ15%3E3.0.co%3B2-v">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2322%28200105%2923%3A2/3%3C15%3A%3Aaid-germ15%3E3.0.co%3B2-v">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Margot Kahleyss</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C19%3A%3Aaid-germ19%3E3.0.co%3B2-7">Propaganda in the Halbmond Camp</a></p>
+		<p>DOI: 10.1002/1522-2322(200105)23:2/3&lt;19::aid-germ19&gt;3.0.co;2-7</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;23, issue&nbsp;2-3 (2001)</p></td>
+	<td>410&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C19%3A%3Aaid-germ19%3E3.0.co%3B2-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2322%28200105%2923%3A2/3%3C19%3A%3Aaid-germ19%3E3.0.co%3B2-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2322%28200105%2923%3A2/3%3C19%3A%3Aaid-germ19%3E3.0.co%3B2-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2322%28200105%2923%3A2/3%3C19%3A%3Aaid-germ19%3E3.0.co%3B2-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ernst-Ludwig Winnacker</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C2%3A%3Aaid-germ2%3E3.0.co%3B2-t">Commentary: A Pillar in International Competition</a></p>
+		<p>DOI: 10.1002/1522-2322(200105)23:2/3&lt;2::aid-germ2&gt;3.0.co;2-t</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;23, issue&nbsp;2-3 (2001)</p></td>
+	<td>97&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C2%3A%3Aaid-germ2%3E3.0.co%3B2-t" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2322%28200105%2923%3A2/3%3C2%3A%3Aaid-germ2%3E3.0.co%3B2-t">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2322%28200105%2923%3A2/3%3C2%3A%3Aaid-germ2%3E3.0.co%3B2-t">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2322%28200105%2923%3A2/3%3C2%3A%3Aaid-germ2%3E3.0.co%3B2-t">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dietmar Rothermund</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C22%3A%3Aaid-germ22%3E3.0.co%3B2-a">The Response to European Expansion</a></p>
+		<p>DOI: 10.1002/1522-2322(200105)23:2/3&lt;22::aid-germ22&gt;3.0.co;2-a</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;23, issue&nbsp;2-3 (2001)</p></td>
+	<td>362&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C22%3A%3Aaid-germ22%3E3.0.co%3B2-a" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2322%28200105%2923%3A2/3%3C22%3A%3Aaid-germ22%3E3.0.co%3B2-a">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2322%28200105%2923%3A2/3%3C22%3A%3Aaid-germ22%3E3.0.co%3B2-a">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2322%28200105%2923%3A2/3%3C22%3A%3Aaid-germ22%3E3.0.co%3B2-a">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert Geipel; Jürgen Pohl</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C24%3A%3Aaid-germ24%3E3.0.co%3B2-z">Coping with Latent Hazards</a></p>
+		<p>DOI: 10.1002/1522-2322(200105)23:2/3&lt;24::aid-germ24&gt;3.0.co;2-z</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;23, issue&nbsp;2-3 (2001)</p></td>
+	<td>631&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C24%3A%3Aaid-germ24%3E3.0.co%3B2-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2322%28200105%2923%3A2/3%3C24%3A%3Aaid-germ24%3E3.0.co%3B2-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2322%28200105%2923%3A2/3%3C24%3A%3Aaid-germ24%3E3.0.co%3B2-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2322%28200105%2923%3A2/3%3C24%3A%3Aaid-germ24%3E3.0.co%3B2-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ulrich Lamparter; Friedrich-Wilhelm Deneke; Ulrich Stuhr</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C28%3A%3Aaid-germ28%3E3.0.co%3B2-b">On the Influence of Experience</a></p>
+		<p>DOI: 10.1002/1522-2322(200105)23:2/3&lt;28::aid-germ28&gt;3.0.co;2-b</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;23, issue&nbsp;2-3 (2001)</p></td>
+	<td>166&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C28%3A%3Aaid-germ28%3E3.0.co%3B2-b" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2322%28200105%2923%3A2/3%3C28%3A%3Aaid-germ28%3E3.0.co%3B2-b">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2322%28200105%2923%3A2/3%3C28%3A%3Aaid-germ28%3E3.0.co%3B2-b">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2322%28200105%2923%3A2/3%3C28%3A%3Aaid-germ28%3E3.0.co%3B2-b">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Heiner Meulemann</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C30%3A%3Aaid-germ30%3E3.0.co%3B2-k">Arrival at Adulthood</a></p>
+		<p>DOI: 10.1002/1522-2322(200105)23:2/3&lt;30::aid-germ30&gt;3.0.co;2-k</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;23, issue&nbsp;2-3 (2001)</p></td>
+	<td>141&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C30%3A%3Aaid-germ30%3E3.0.co%3B2-k" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2322%28200105%2923%3A2/3%3C30%3A%3Aaid-germ30%3E3.0.co%3B2-k">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2322%28200105%2923%3A2/3%3C30%3A%3Aaid-germ30%3E3.0.co%3B2-k">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2322%28200105%2923%3A2/3%3C30%3A%3Aaid-germ30%3E3.0.co%3B2-k">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Weber</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C33%3A%3Aaid-germ33%3E3.0.co%3B2-2">The Clothes-cupboard as a Carbon Reservoir</a></p>
+		<p>DOI: 10.1002/1522-2322(200105)23:2/3&lt;33::aid-germ33&gt;3.0.co;2-2</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;23, issue&nbsp;2-3 (2001)</p></td>
+	<td>678&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C33%3A%3Aaid-germ33%3E3.0.co%3B2-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2322%28200105%2923%3A2/3%3C33%3A%3Aaid-germ33%3E3.0.co%3B2-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2322%28200105%2923%3A2/3%3C33%3A%3Aaid-germ33%3E3.0.co%3B2-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2322%28200105%2923%3A2/3%3C33%3A%3Aaid-germ33%3E3.0.co%3B2-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nils Brose; Ji-Ying Song</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C36%3A%3Aaid-germ36%3E3.0.co%3B2-l">The Rendezvous of Axon with Dendrite</a></p>
+		<p>DOI: 10.1002/1522-2322(200105)23:2/3&lt;36::aid-germ36&gt;3.0.co;2-l</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;23, issue&nbsp;2-3 (2001)</p></td>
+	<td>264&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C36%3A%3Aaid-germ36%3E3.0.co%3B2-l" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2322%28200105%2923%3A2/3%3C36%3A%3Aaid-germ36%3E3.0.co%3B2-l">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2322%28200105%2923%3A2/3%3C36%3A%3Aaid-germ36%3E3.0.co%3B2-l">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2322%28200105%2923%3A2/3%3C36%3A%3Aaid-germ36%3E3.0.co%3B2-l">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Volker Wissemann; Frank H. Hellwig; Fred-Günter Schroeder; Gerhard Wagenitz</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C38%3A%3Aaid-germ38%3E3.0.co%3B2-9">A Rose is a Rose is a Rose</a></p>
+		<p>DOI: 10.1002/1522-2322(200105)23:2/3&lt;38::aid-germ38&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;23, issue&nbsp;2-3 (2001)</p></td>
+	<td>563&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C38%3A%3Aaid-germ38%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2322%28200105%2923%3A2/3%3C38%3A%3Aaid-germ38%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2322%28200105%2923%3A2/3%3C38%3A%3Aaid-germ38%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2322%28200105%2923%3A2/3%3C38%3A%3Aaid-germ38%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Werner Mikus; Frank Werner; Jorge Beckel Richter</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C4%3A%3Aaid-germ4%3E3.0.co%3B2-l">Adapted Environmental Protection</a></p>
+		<p>DOI: 10.1002/1522-2322(200105)23:2/3&lt;4::aid-germ4&gt;3.0.co;2-l</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;23, issue&nbsp;2-3 (2001)</p></td>
+	<td>714&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C4%3A%3Aaid-germ4%3E3.0.co%3B2-l" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2322%28200105%2923%3A2/3%3C4%3A%3Aaid-germ4%3E3.0.co%3B2-l">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2322%28200105%2923%3A2/3%3C4%3A%3Aaid-germ4%3E3.0.co%3B2-l">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2322%28200105%2923%3A2/3%3C4%3A%3Aaid-germ4%3E3.0.co%3B2-l">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Teja Tscharnke; Andreas Kruess; Ingolf Steffan-Dewenter; Carsten Thies</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C42%3A%3Aaid-germ42%3E3.0.co%3B2-6">Flower Rape Beetles, Parasitic Wasps and Oil Radish</a></p>
+		<p>DOI: 10.1002/1522-2322(200105)23:2/3&lt;42::aid-germ42&gt;3.0.co;2-6</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;23, issue&nbsp;2-3 (2001)</p></td>
+	<td>807&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C42%3A%3Aaid-germ42%3E3.0.co%3B2-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2322%28200105%2923%3A2/3%3C42%3A%3Aaid-germ42%3E3.0.co%3B2-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2322%28200105%2923%3A2/3%3C42%3A%3Aaid-germ42%3E3.0.co%3B2-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2322%28200105%2923%3A2/3%3C42%3A%3Aaid-germ42%3E3.0.co%3B2-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hans Rainer Trebin</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C46%3A%3Aaid-germ46%3E3.0.co%3B2-j">Cracked Crystals — Durable Materials</a></p>
+		<p>DOI: 10.1002/1522-2322(200105)23:2/3&lt;46::aid-germ46&gt;3.0.co;2-j</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;23, issue&nbsp;2-3 (2001)</p></td>
+	<td>293&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C46%3A%3Aaid-germ46%3E3.0.co%3B2-j" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2322%28200105%2923%3A2/3%3C46%3A%3Aaid-germ46%3E3.0.co%3B2-j">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2322%28200105%2923%3A2/3%3C46%3A%3Aaid-germ46%3E3.0.co%3B2-j">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2322%28200105%2923%3A2/3%3C46%3A%3Aaid-germ46%3E3.0.co%3B2-j">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C48%3A%3Aaid-germ48%3E3.0.co%3B2-7">The Deutsche Forschungsgemeinschaft: german research 2-3/2001</a></p>
+		<p>DOI: 10.1002/1522-2322(200105)23:2/3&lt;48::aid-germ48&gt;3.0.co;2-7</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;23, issue&nbsp;2-3 (2001)</p></td>
+	<td>38&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C48%3A%3Aaid-germ48%3E3.0.co%3B2-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2322%28200105%2923%3A2/3%3C48%3A%3Aaid-germ48%3E3.0.co%3B2-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2322%28200105%2923%3A2/3%3C48%3A%3Aaid-germ48%3E3.0.co%3B2-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2322%28200105%2923%3A2/3%3C48%3A%3Aaid-germ48%3E3.0.co%3B2-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Herbert Lutz; Franz-Otto Neuffer</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C8%3A%3Aaid-germ8%3E3.0.co%3B2-5">A Climatic Archive with Hide and Hair</a></p>
+		<p>DOI: 10.1002/1522-2322(200105)23:2/3&lt;8::aid-germ8&gt;3.0.co;2-5</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;23, issue&nbsp;2-3 (2001)</p></td>
+	<td>847&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2322%28200105%2923%3A2%2F3%3C8%3A%3Aaid-germ8%3E3.0.co%3B2-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2322%28200105%2923%3A2/3%3C8%3A%3Aaid-germ8%3E3.0.co%3B2-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2322%28200105%2923%3A2/3%3C8%3A%3Aaid-germ8%3E3.0.co%3B2-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2322%28200105%2923%3A2/3%3C8%3A%3Aaid-germ8%3E3.0.co%3B2-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1619-8174%28200201%2924%3A1%3C1%3A%3Aaid-germ1%3E3.0.co%3B2-n">Cover Picture: german research 1/2002</a></p>
+		<p>DOI: 10.1002/1619-8174(200201)24:1&lt;1::aid-germ1&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;24, issue&nbsp;1 (2002)</p></td>
+	<td>244&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1619-8174%28200201%2924%3A1%3C1%3A%3Aaid-germ1%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1619-8174%28200201%2924%3A1%3C1%3A%3Aaid-germ1%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1619-8174%28200201%2924%3A1%3C1%3A%3Aaid-germ1%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1619-8174%28200201%2924%3A1%3C1%3A%3Aaid-germ1%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1619-8174%28200201%2924%3A1%3C1%3A%3Aaid-germ11111%3E3.0.co%3B2-f">Contents: german research 1/2002</a></p>
+		<p>DOI: 10.1002/1619-8174(200201)24:1&lt;1::aid-germ11111&gt;3.0.co;2-f</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;24, issue&nbsp;1 (2002)</p></td>
+	<td>50&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1619-8174%28200201%2924%3A1%3C1%3A%3Aaid-germ11111%3E3.0.co%3B2-f" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1619-8174%28200201%2924%3A1%3C1%3A%3Aaid-germ11111%3E3.0.co%3B2-f">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1619-8174%28200201%2924%3A1%3C1%3A%3Aaid-germ11111%3E3.0.co%3B2-f">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1619-8174%28200201%2924%3A1%3C1%3A%3Aaid-germ11111%3E3.0.co%3B2-f">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hanns-Christian Gunga; Karl Kirsch</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1619-8174%28200201%2924%3A1%3C10%3A%3Aaid-germ10%3E3.0.co%3B2-e">Of High Performances and Swinging Necks</a></p>
+		<p>DOI: 10.1002/1619-8174(200201)24:1&lt;10::aid-germ10&gt;3.0.co;2-e</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;24, issue&nbsp;1 (2002)</p></td>
+	<td>825&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1619-8174%28200201%2924%3A1%3C10%3A%3Aaid-germ10%3E3.0.co%3B2-e" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1619-8174%28200201%2924%3A1%3C10%3A%3Aaid-germ10%3E3.0.co%3B2-e">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1619-8174%28200201%2924%3A1%3C10%3A%3Aaid-germ10%3E3.0.co%3B2-e">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1619-8174%28200201%2924%3A1%3C10%3A%3Aaid-germ10%3E3.0.co%3B2-e">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin Aberhan</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1619-8174%28200201%2924%3A1%3C15%3A%3Aaid-germ15%3E3.0.co%3B2-l">Islands on a Far-Flung Migration</a></p>
+		<p>DOI: 10.1002/1619-8174(200201)24:1&lt;15::aid-germ15&gt;3.0.co;2-l</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;24, issue&nbsp;1 (2002)</p></td>
+	<td>238&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1619-8174%28200201%2924%3A1%3C15%3A%3Aaid-germ15%3E3.0.co%3B2-l" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1619-8174%28200201%2924%3A1%3C15%3A%3Aaid-germ15%3E3.0.co%3B2-l">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1619-8174%28200201%2924%3A1%3C15%3A%3Aaid-germ15%3E3.0.co%3B2-l">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1619-8174%28200201%2924%3A1%3C15%3A%3Aaid-germ15%3E3.0.co%3B2-l">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christine von Oertzen</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1619-8174%28200201%2924%3A1%3C17%3A%3Aaid-germ17%3E3.0.co%3B2-9">“At Home the House Falls on Top of You”</a></p>
+		<p>DOI: 10.1002/1619-8174(200201)24:1&lt;17::aid-germ17&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;24, issue&nbsp;1 (2002)</p></td>
+	<td>539&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1619-8174%28200201%2924%3A1%3C17%3A%3Aaid-germ17%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1619-8174%28200201%2924%3A1%3C17%3A%3Aaid-germ17%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1619-8174%28200201%2924%3A1%3C17%3A%3Aaid-germ17%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1619-8174%28200201%2924%3A1%3C17%3A%3Aaid-germ17%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ernst-Ludwig Winnacker</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1619-8174%28200201%2924%3A1%3C2%3A%3Aaid-germ2%3E3.0.co%3B2-j">Commentary: Assuring Good Scientific Practice</a></p>
+		<p>DOI: 10.1002/1619-8174(200201)24:1&lt;2::aid-germ2&gt;3.0.co;2-j</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;24, issue&nbsp;1 (2002)</p></td>
+	<td>106&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1619-8174%28200201%2924%3A1%3C2%3A%3Aaid-germ2%3E3.0.co%3B2-j" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1619-8174%28200201%2924%3A1%3C2%3A%3Aaid-germ2%3E3.0.co%3B2-j">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1619-8174%28200201%2924%3A1%3C2%3A%3Aaid-germ2%3E3.0.co%3B2-j">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1619-8174%28200201%2924%3A1%3C2%3A%3Aaid-germ2%3E3.0.co%3B2-j">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Max Klimburg</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1619-8174%28200201%2924%3A1%3C20%3A%3Aaid-germ20%3E3.0.co%3B2-c">Afghanistan: The Culture of the Kafirs</a></p>
+		<p>DOI: 10.1002/1619-8174(200201)24:1&lt;20::aid-germ20&gt;3.0.co;2-c</p>	</td>
+	<td><p><a href="/scimag/journals/8263">German Research</a><p>volume&nbsp;24, issue&nbsp;1 (2002)</p></td>
+	<td>1.18&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1619-8174%28200201%2924%3A1%3C20%3A%3Aaid-germ20%3E3.0.co%3B2-c" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1619-8174%28200201%2924%3A1%3C20%3A%3Aaid-germ20%3E3.0.co%3B2-c">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1619-8174%28200201%2924%3A1%3C20%3A%3Aaid-germ20%3E3.0.co%3B2-c">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1619-8174%28200201%2924%3A1%3C20%3A%3Aaid-germ20%3E3.0.co%3B2-c">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">588 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 24</span>
+	 <a href="/scimag/?journal=8263&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

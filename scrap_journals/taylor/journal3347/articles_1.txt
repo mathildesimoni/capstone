@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Taylor and Francis Group</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1749-8430</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1749-8341</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 16; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 16');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=3347&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">384 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 16</span>
+	 <a href="/scimag/?journal=3347&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430802025934">Recent publications</a></p>
+		<p>DOI: 10.1080/17498430802025934</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;23, issue&nbsp;2 (2008)</p></td>
+	<td>90&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430802025934" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430802025934">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430802025934">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430802025934">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Klein, David</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430601148762">A quarter century of US ‘math wars’ and political partisanship</a></p>
+		<p>DOI: 10.1080/17498430601148762</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;22, issue&nbsp;1 (2007)</p></td>
+	<td>126&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430601148762" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430601148762">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430601148762">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430601148762">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Silva, Jorge Nuno</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430.2011.560511">On mathematical games</a></p>
+		<p>DOI: 10.1080/17498430.2011.560511</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;26, issue&nbsp;2 (2011)</p></td>
+	<td>4.33&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430.2011.560511" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430.2011.560511">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430.2011.560511">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430.2011.560511">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mann, Tony</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498431003664455">From Sylvia Plath's <i>The bell jar</i> to the Bad Sex Award: a partial account of the uses of mathematics in fiction</a></p>
+		<p>DOI: 10.1080/17498431003664455</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;25, issue&nbsp;2 (2010)</p></td>
+	<td>118&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498431003664455" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498431003664455">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498431003664455">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498431003664455">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wardhaugh, Benjamin</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498431003659844">‘Let us put on the shade of Newton’: Isaac Newton on stage, 1829–2006 : Review Essay</a></p>
+		<p>DOI: 10.1080/17498431003659844</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;25, issue&nbsp;2 (2010)</p></td>
+	<td>148&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498431003659844" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498431003659844">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498431003659844">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498431003659844">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498431003664463">Other meetings</a></p>
+		<p>DOI: 10.1080/17498431003664463</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;25, issue&nbsp;2 (2010)</p></td>
+	<td>94&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498431003664463" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498431003664463">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498431003664463">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498431003664463">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498431003659877">News and notices</a></p>
+		<p>DOI: 10.1080/17498431003659877</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;25, issue&nbsp;2 (2010)</p></td>
+	<td>71&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498431003659877" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498431003659877">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498431003659877">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498431003659877">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James, Kathryn</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430.2010.504529">Reading numbers in early modern England</a></p>
+		<p>DOI: 10.1080/17498430.2010.504529</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;26, issue&nbsp;1 (2011)</p></td>
+	<td>3.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430.2010.504529" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430.2010.504529">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430.2010.504529">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430.2010.504529">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Craik, Alex D D; O&#039;Connor, John J</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430.2010.503555">Some unknown documents associated with William Wallace (1768–1843)</a></p>
+		<p>DOI: 10.1080/17498430.2010.503555</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;26, issue&nbsp;1 (2011)</p></td>
+	<td>247&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430.2010.503555" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430.2010.503555">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430.2010.503555">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430.2010.503555">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430.2010.529042">BSHM Meetings</a></p>
+		<p>DOI: 10.1080/17498430.2010.529042</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;26, issue&nbsp;1 (2011)</p></td>
+	<td>93&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430.2010.529042" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430.2010.529042">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430.2010.529042">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430.2010.529042">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Grabiner, Judith V; Drucker, Thomas L; Rowe, David E; Prévost, Jean-Guy; Mazliak, Laurent; Oaks, Jeffrey A</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430.2011.530165">Reviews</a></p>
+		<p>DOI: 10.1080/17498430.2011.530165</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;26, issue&nbsp;1 (2011)</p></td>
+	<td>161&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430.2011.530165" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430.2011.530165">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430.2011.530165">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430.2011.530165">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Decesare, Richard</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430.2011.529043">William Ludlam: portrait of an eighteenth-century mathematician</a></p>
+		<p>DOI: 10.1080/17498430.2011.529043</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;26, issue&nbsp;2 (2011)</p></td>
+	<td>314&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430.2011.529043" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430.2011.529043">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430.2011.529043">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430.2011.529043">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bruno, Giuseppe; Genovese, Andrea; Improta, Gennaro</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430.2011.560092">Routing problems: a historical perspective</a></p>
+		<p>DOI: 10.1080/17498430.2011.560092</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;26, issue&nbsp;2 (2011)</p></td>
+	<td>591&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430.2011.560092" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430.2011.560092">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430.2011.560092">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430.2011.560092">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ramsden, Jenny</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430.2011.560093">BSHM Meetings</a></p>
+		<p>DOI: 10.1080/17498430.2011.560093</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;26, issue&nbsp;2 (2011)</p></td>
+	<td>64&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430.2011.560093" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430.2011.560093">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430.2011.560093">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430.2011.560093">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wardhaugh, Benjamin</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430.2011.561090">Other Meetings</a></p>
+		<p>DOI: 10.1080/17498430.2011.561090</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;26, issue&nbsp;2 (2011)</p></td>
+	<td>71&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430.2011.561090" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430.2011.561090">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430.2011.561090">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430.2011.561090">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cuomo, Serafina</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430.2012.618101">Exploring ancient Greek and Roman numeracy</a></p>
+		<p>DOI: 10.1080/17498430.2012.618101</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;27, issue&nbsp;1 (2012)</p></td>
+	<td>674&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430.2012.618101" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430.2012.618101">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430.2012.618101">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430.2012.618101">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Craik, Alex D D</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430.2012.619085">The <i>Popular lectures and addresses</i> of William Thomson, Baron Kelvin of Largs (1824–1907)</a></p>
+		<p>DOI: 10.1080/17498430.2012.619085</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;27, issue&nbsp;1 (2012)</p></td>
+	<td>230&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430.2012.619085" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430.2012.619085">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430.2012.619085">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430.2012.619085">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430.2012.625343">BSHM meetings</a></p>
+		<p>DOI: 10.1080/17498430.2012.625343</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;27, issue&nbsp;1 (2012)</p></td>
+	<td>645&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430.2012.625343" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430.2012.625343">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430.2012.625343">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430.2012.625343">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430.2012.625345">Other meetings</a></p>
+		<p>DOI: 10.1080/17498430.2012.625345</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;27, issue&nbsp;1 (2012)</p></td>
+	<td>66&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430.2012.625345" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430.2012.625345">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430.2012.625345">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430.2012.625345">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Opitz, Donald L; Hodgkin, Luke; Lawrence, Snezana</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430.2012.625522">Reviews</a></p>
+		<p>DOI: 10.1080/17498430.2012.625522</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;27, issue&nbsp;1 (2012)</p></td>
+	<td>114&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430.2012.625522" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430.2012.625522">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430.2012.625522">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430.2012.625522">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430.2012.628514">News and notices</a></p>
+		<p>DOI: 10.1080/17498430.2012.628514</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;27, issue&nbsp;1 (2012)</p></td>
+	<td>60&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430.2012.628514" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430.2012.628514">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430.2012.628514">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430.2012.628514">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mann, Tony</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430.2012.660365">From prehistoric balls to contemporary fiction: what the history of mathematics has done for me</a></p>
+		<p>DOI: 10.1080/17498430.2012.660365</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;27, issue&nbsp;2 (2012)</p></td>
+	<td>108&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430.2012.660365" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430.2012.660365">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430.2012.660365">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430.2012.660365">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wess, Jane</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430.2012.622639">Avoiding arithmetic, or the material culture of not learning mathematics</a></p>
+		<p>DOI: 10.1080/17498430.2012.622639</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;27, issue&nbsp;2 (2012)</p></td>
+	<td>10.79&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430.2012.622639" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430.2012.622639">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430.2012.622639">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430.2012.622639">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Muntersbjorn, Madeline</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430.2012.658538">On the intellectual heritage of Henri Poincaré</a></p>
+		<p>DOI: 10.1080/17498430.2012.658538</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;27, issue&nbsp;2 (2012)</p></td>
+	<td>124&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430.2012.658538" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430.2012.658538">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430.2012.658538">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430.2012.658538">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wong, Ngai Ying; Tang, Kwok Chun</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17498430.2012.628480">Mathematics education in Hong Kong under colonial rule</a></p>
+		<p>DOI: 10.1080/17498430.2012.628480</p>	</td>
+	<td><p><a href="/scimag/journals/3347">BSHM Bulletin Journal of the British Society for the History of Mathematics</a><p>volume&nbsp;27, issue&nbsp;2 (2012)</p></td>
+	<td>100&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17498430.2012.628480" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17498430.2012.628480">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17498430.2012.628480">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17498430.2012.628480">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">384 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 16</span>
+	 <a href="/scimag/?journal=3347&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

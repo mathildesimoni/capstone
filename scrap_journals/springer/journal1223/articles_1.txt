@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1223">Analysis Mathematica</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0133-3852</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1588-273X</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 42; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 42');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1223&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;048 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 42</span>
+	 <a href="/scimag/?journal=1223&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>А. Г. Багдасарян</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771070">О промежуточных пространствах и о квазилинеаризуемости пары пространств типа Соболева-Лиувилля</a></p>
+		<p>DOI: 10.1007/bf02771070</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>472&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771070" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771070">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771070">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771070">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. Balser</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771071">A Laurent-type expansion for solutions of Stokes' equation in sectorial regions</a></p>
+		<p>DOI: 10.1007/bf02771071</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>633&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771071" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771071">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771071">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771071">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Leindler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771072">Remarks to a new result of P. L. Ul'yanov</a></p>
+		<p>DOI: 10.1007/bf02771072</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>321&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771072" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771072">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771072">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771072">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. K. Lerner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771073">Maximal functions with respect to differential bases measuring mean oscillation</a></p>
+		<p>DOI: 10.1007/bf02771073</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>671&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771073" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771073">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771073">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771073">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ferenc Weisz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771074">Martingale Hardy spaces and the dyadic derivative</a></p>
+		<p>DOI: 10.1007/bf02771074</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>612&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771074" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771074">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771074">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771074">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. I. Kolyada; L. Leindler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771075">BMO- andLp-conditions for power series and Dirichlet series with positive coefficients</a></p>
+		<p>DOI: 10.1007/bf02771075</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>329&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771075" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771075">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771075">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771075">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. D. Kudryavtsev</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771076">On the expansion with respect to Steklov means of the second differences of functions</a></p>
+		<p>DOI: 10.1007/bf02771076</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>627&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771076" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771076">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771076">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771076">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>А. Л. Лукашов</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771077">Алгебраические дроби Чебышева—Маркова на нескольких отрезках</a></p>
+		<p>DOI: 10.1007/bf02771077</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>789&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771077" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771077">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771077">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771077">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Simon; F. Weisz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771078">Hardy-Littlewood type inequalities for Vilenkin-Fourier coefficients</a></p>
+		<p>DOI: 10.1007/bf02771078</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>712&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771078" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771078">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771078">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771078">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tang Ping</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771079">On linear summation methods of Fourier-Laplace series. II</a></p>
+		<p>DOI: 10.1007/bf02771079</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>353&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771079" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771079">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771079">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771079">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Baron; H. Tietz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771080">Produktsätze für Verfahren zur Limitierung von Doppelfolgen. II</a></p>
+		<p>DOI: 10.1007/bf02771080</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>275&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771080" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771080">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771080">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771080">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Prem Chandra</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771081">Necessary conditions for the convergence of Lebesgue-Fourier series</a></p>
+		<p>DOI: 10.1007/bf02771081</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>325&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771081" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771081">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771081">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771081">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>В. С. Гулиев; Р. Ч. Мустафаев</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771082">Дробные интегралы в пространствах функций, определенных на пространствах однородного типа</a></p>
+		<p>DOI: 10.1007/bf02771082</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>656&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771082" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771082">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771082">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771082">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Leindler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771083">Inequalities for Dirichlet series with positive coefficients and related integrals</a></p>
+		<p>DOI: 10.1007/bf02771083</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>349&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771083" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771083">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771083">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771083">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. W. Onneweer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771084">Hörmander-type multipliers on locally compact Vilenkin groups: theL1(G)-case</a></p>
+		<p>DOI: 10.1007/bf02771084</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>255&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771084" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771084">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771084">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771084">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. K. Raina; R. N. Kalia</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771085">On convolution structures forH-function transformations</a></p>
+		<p>DOI: 10.1007/bf02771085</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>706&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771085" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771085">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771085">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771085">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>К. А. Бекмаганбетов; Е. Д. Нурсултанов</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771086">Метод многопараметрической интерполяции и теоремы вложения пространств Бесова(B_{vec p}^{vec alpha } left[ {0,2pi } ight))</a></p>
+		<p>DOI: 10.1007/bf02771086</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>828&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771086" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771086">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771086">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771086">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Luo Junbo; Liu Yongping</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771087">Average width and optimal recovery of the anisotropic classesWrHα(Rd) in the metricCk(Rd)</a></p>
+		<p>DOI: 10.1007/bf02771087</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>303&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771087" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771087">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771087">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771087">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. S. Manhas; R. K. Singh</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771088">Weighted composition operators on nonlocally convex weighted spaces of continuous functions</a></p>
+		<p>DOI: 10.1007/bf02771088</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>982&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771088" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771088">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771088">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771088">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Osilenker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771089">An analog of the trace formula for orthogonal polynomials with asymptoticallyN-periodic recurrence coefficients (N=2)</a></p>
+		<p>DOI: 10.1007/bf02771089</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>602&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771089" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771089">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771089">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771089">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Krzysztof Stempak</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02771090">A transplantation theorem for Fourier-Bessel coefficients</a></p>
+		<p>DOI: 10.1007/bf02771090</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;24, issue&nbsp;1 (1998)</p></td>
+	<td>309&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02771090" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02771090">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02771090">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02771090">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. M. Khan; M. F. Rahman; Ф. М. Хан; М. Ф. Рахман</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02789826">Infinite matrices and Ces</a></p>
+		<p>DOI: 10.1007/bf02789826</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;23, issue&nbsp;1 (1997)</p></td>
+	<td>326&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02789826" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02789826">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02789826">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02789826">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>С. В. Колесников; S. V. Kolesnikov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02789827">О мнозествах точек радиалянои непрерывности аналитических функции</a></p>
+		<p>DOI: 10.1007/bf02789827</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;23, issue&nbsp;1 (1997)</p></td>
+	<td>526&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02789827" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02789827">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02789827">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02789827">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. V. Kolushov; V. A. Yudin; А. В. Колущов; В. А. Удин</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02789828">Extremal dispositions of points on the sphere</a></p>
+		<p>DOI: 10.1007/bf02789828</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;23, issue&nbsp;1 (1997)</p></td>
+	<td>360&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02789828" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02789828">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02789828">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02789828">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. S. Quek; L. Y. H. Yap; Т. С. Квек; Л. И. X. Яп</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02789829">Measures inM(G)which satisfy certain integrability conditions</a></p>
+		<p>DOI: 10.1007/bf02789829</p>	</td>
+	<td><p><a href="/scimag/journals/1223">Analysis Mathematica</a><p>volume&nbsp;23, issue&nbsp;1 (1997)</p></td>
+	<td>364&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02789829" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02789829">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02789829">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02789829">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;048 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 42</span>
+	 <a href="/scimag/?journal=1223&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

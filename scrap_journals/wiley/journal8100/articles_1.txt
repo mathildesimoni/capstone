@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/8100">Genetic Epidemiology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0741-0395</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1098-2272</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 126; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 126');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=8100&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;137 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 126</span>
+	 <a href="/scimag/?journal=8100&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>X.L. Wang; R. Badenhop; K.E. Humphrey; D.E.L. Wilcken</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A1%3C1%3A%3Aaid-gepi1%3E3.0.co%3B2-d">New <em>MspI</em> polymorphism at +83 bp of the human apolipoprotein al gene: Association with increased circulating high density lipoprotein cholesterol levels</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:1&lt;1::aid-gepi1&gt;3.0.co;2-d</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;1 (1996)</p></td>
+	<td>622&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A1%3C1%3A%3Aaid-gepi1%3E3.0.co%3B2-d" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A1%3C1%3A%3Aaid-gepi1%3E3.0.co%3B2-d">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A1%3C1%3A%3Aaid-gepi1%3E3.0.co%3B2-d">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A1%3C1%3A%3Aaid-gepi1%3E3.0.co%3B2-d">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Douglas F. Levinson; Bryan J. Mowry; Lawrence Sharpe; Jean Endicott</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A1%3C11%3A%3Aaid-gepi2%3E3.0.co%3B2-9">Penetrance of schizophrenia-related disorders in multiplex families after correction for ascertainment</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:1&lt;11::aid-gepi2&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;1 (1996)</p></td>
+	<td>760&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A1%3C11%3A%3Aaid-gepi2%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A1%3C11%3A%3Aaid-gepi2%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A1%3C11%3A%3Aaid-gepi2%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A1%3C11%3A%3Aaid-gepi2%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Benjamin A. Rybicki; Doug Harrington; Marcie Major; Michael Simoff; John Popovich Jr.; Mary Maliarik; Michael C. Iannuzzi</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A1%3C23%3A%3Aaid-gepi3%3E3.0.co%3B2-7">Heterogeneity of familial risk in sarcoidosis</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:1&lt;23::aid-gepi3&gt;3.0.co;2-7</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;1 (1996)</p></td>
+	<td>605&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A1%3C23%3A%3Aaid-gepi3%3E3.0.co%3B2-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A1%3C23%3A%3Aaid-gepi3%3E3.0.co%3B2-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A1%3C23%3A%3Aaid-gepi3%3E3.0.co%3B2-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A1%3C23%3A%3Aaid-gepi3%3E3.0.co%3B2-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yue Chen; Sandra L. Horne; Donna C. Rennie; James A. Dosman</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A1%3C35%3A%3Aaid-gepi4%3E3.0.co%3B2-5">Segregation analysis of two lung function indices in a random sample of young families: The humboldt family study</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:1&lt;35::aid-gepi4&gt;3.0.co;2-5</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;1 (1996)</p></td>
+	<td>810&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A1%3C35%3A%3Aaid-gepi4%3E3.0.co%3B2-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A1%3C35%3A%3Aaid-gepi4%3E3.0.co%3B2-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A1%3C35%3A%3Aaid-gepi4%3E3.0.co%3B2-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A1%3C35%3A%3Aaid-gepi4%3E3.0.co%3B2-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D.I. Boomsma; H.J.M. Kempen; J.A. Gevers Leuven; L. Havekes; P. de Knijff; R.R. Frants</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A1%3C49%3A%3Aaid-gepi5%3E3.0.co%3B2-1">Genetic analysis of sex and generation differences in plasma lipid, lipoprotein, and apolipoprotein levels in adolescent twins and their parents</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:1&lt;49::aid-gepi5&gt;3.0.co;2-1</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;1 (1996)</p></td>
+	<td>777&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A1%3C49%3A%3Aaid-gepi5%3E3.0.co%3B2-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A1%3C49%3A%3Aaid-gepi5%3E3.0.co%3B2-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A1%3C49%3A%3Aaid-gepi5%3E3.0.co%3B2-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A1%3C49%3A%3Aaid-gepi5%3E3.0.co%3B2-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marie-Élise Parent; Parviz Ghadirian; André Lacroix</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A1%3C61%3A%3Aaid-gepi6%3E3.0.co%3B2-9">Familial clustering of obesity and breast cancer</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:1&lt;61::aid-gepi6&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;1 (1996)</p></td>
+	<td>1.05&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A1%3C61%3A%3Aaid-gepi6%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A1%3C61%3A%3Aaid-gepi6%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A1%3C61%3A%3Aaid-gepi6%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A1%3C61%3A%3Aaid-gepi6%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Viswanathan Ramakrishnan; Joanne M. Meyer; Jack Goldberg; William G. Henderson</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A1%3C79%3A%3Aaid-gepi7%3E3.0.co%3B2-1">Univariate analysis of dichotomous or ordinal data from twin pairs: A simulation study comparing structural equation modeling and logistic regression</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:1&lt;79::aid-gepi7&gt;3.0.co;2-1</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;1 (1996)</p></td>
+	<td>757&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A1%3C79%3A%3Aaid-gepi7%3E3.0.co%3B2-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A1%3C79%3A%3Aaid-gepi7%3E3.0.co%3B2-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A1%3C79%3A%3Aaid-gepi7%3E3.0.co%3B2-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A1%3C79%3A%3Aaid-gepi7%3E3.0.co%3B2-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Adam B. Olshen; Ellen M. Wijsman</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A1%3C91%3A%3Aaid-gepi8%3E3.0.co%3B2-9">Pedigree analysis package vs. MIXD: Fitting the mixed model on a large pedigree</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:1&lt;91::aid-gepi8&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;1 (1996)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A1%3C91%3A%3Aaid-gepi8%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A1%3C91%3A%3Aaid-gepi8%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A1%3C91%3A%3Aaid-gepi8%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A1%3C91%3A%3Aaid-gepi8%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Elizabeth R. Hauser; Michael Boehnke; Sun-Wei Guo; Neil Risch</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A2%3C117%3A%3Aaid-gepi1%3E3.0.co%3B2-5">Affected-sib-pair interval mapping and exclusion for complex genetic traits: Sampling considerations</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:2&lt;117::aid-gepi1&gt;3.0.co;2-5</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;2 (1996)</p></td>
+	<td>1.21&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A2%3C117%3A%3Aaid-gepi1%3E3.0.co%3B2-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A2%3C117%3A%3Aaid-gepi1%3E3.0.co%3B2-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A2%3C117%3A%3Aaid-gepi1%3E3.0.co%3B2-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A2%3C117%3A%3Aaid-gepi1%3E3.0.co%3B2-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Terri M. King; Terri H. Beaty; Kung-Yee Liang</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A2%3C139%3A%3Aaid-gepi2%3E3.0.co%3B2-3">Comparison of methods for survival analysis of dependent data</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:2&lt;139::aid-gepi2&gt;3.0.co;2-3</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;2 (1996)</p></td>
+	<td>1.35&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A2%3C139%3A%3Aaid-gepi2%3E3.0.co%3B2-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A2%3C139%3A%3Aaid-gepi2%3E3.0.co%3B2-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A2%3C139%3A%3Aaid-gepi2%3E3.0.co%3B2-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A2%3C139%3A%3Aaid-gepi2%3E3.0.co%3B2-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yechiel Friedlander; Eran Leitersdorf</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A2%3C159%3A%3Aaid-gepi3%3E3.0.co%3B2-3">Influence of apolipoprotein E genotypes on plasma lipid and lipoprotein concentrations: Results from a segregation analysis in pedigrees with molecularly defined familial hypercholesterolemia</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:2&lt;159::aid-gepi3&gt;3.0.co;2-3</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;2 (1996)</p></td>
+	<td>1.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A2%3C159%3A%3Aaid-gepi3%3E3.0.co%3B2-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A2%3C159%3A%3Aaid-gepi3%3E3.0.co%3B2-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A2%3C159%3A%3Aaid-gepi3%3E3.0.co%3B2-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A2%3C159%3A%3Aaid-gepi3%3E3.0.co%3B2-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-Louis Georges; Anne Régis-Bailly; Driss Salah; Roger Rakotovao; Gérard Siest; Sophie Visvikis; Laurence Tiret</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A2%3C179%3A%3Aaid-gepi4%3E3.0.co%3B2-3">Family study of lipoprotein lipase gene polymorphisms and plasma triglyceride levels</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:2&lt;179::aid-gepi4&gt;3.0.co;2-3</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;2 (1996)</p></td>
+	<td>839&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A2%3C179%3A%3Aaid-gepi4%3E3.0.co%3B2-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A2%3C179%3A%3Aaid-gepi4%3E3.0.co%3B2-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A2%3C179%3A%3Aaid-gepi4%3E3.0.co%3B2-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A2%3C179%3A%3Aaid-gepi4%3E3.0.co%3B2-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hoda Anton-Culver; Tom Kurosaki; Thomas H. Taylor; Maureen Gildea; Debra Brunner; Deborah Bringman</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A2%3C193%3A%3Aaid-gepi5%3E3.0.co%3B2-9">Validation of family history of breast cancer and identification of the BRCA1 and other syndromes using a population-based cancer registry</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:2&lt;193::aid-gepi5&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;2 (1996)</p></td>
+	<td>853&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A2%3C193%3A%3Aaid-gepi5%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A2%3C193%3A%3Aaid-gepi5%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A2%3C193%3A%3Aaid-gepi5%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A2%3C193%3A%3Aaid-gepi5%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Angela M. Tutera; Thomas A. Sellers; John D. Potter; Carol R. Drinkard; Georgia L. Wiesner; Aaron R. Folsom</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A2%3C207%3A%3Aaid-gepi6%3E3.0.co%3B2-4">Association between family history of cancer and breast cancer defined by estrogen and progesterone receptor status</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:2&lt;207::aid-gepi6&gt;3.0.co;2-4</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;2 (1996)</p></td>
+	<td>906&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A2%3C207%3A%3Aaid-gepi6%3E3.0.co%3B2-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A2%3C207%3A%3Aaid-gepi6%3E3.0.co%3B2-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A2%3C207%3A%3Aaid-gepi6%3E3.0.co%3B2-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A2%3C207%3A%3Aaid-gepi6%3E3.0.co%3B2-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Heiko Becher; Jenny Chang-Claude</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A3%3C229%3A%3Aaid-gepi1%3E3.0.co%3B2-1">Estimating disease risks for individuals with a given family history in different populations with an application to breast cancer</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:3&lt;229::aid-gepi1&gt;3.0.co;2-1</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;3 (1996)</p></td>
+	<td>813&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A3%3C229%3A%3Aaid-gepi1%3E3.0.co%3B2-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A3%3C229%3A%3Aaid-gepi1%3E3.0.co%3B2-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A3%3C229%3A%3Aaid-gepi1%3E3.0.co%3B2-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A3%3C229%3A%3Aaid-gepi1%3E3.0.co%3B2-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David A. Greenberg; Paolina Doneshka</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A3%3C243%3A%3Aaid-gepi2%3E3.0.co%3B2-7">Partitioned association-linkage test: distinguishing “necessary” from “susceptibility” loci</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:3&lt;243::aid-gepi2&gt;3.0.co;2-7</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;3 (1996)</p></td>
+	<td>611&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A3%3C243%3A%3Aaid-gepi2%3E3.0.co%3B2-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A3%3C243%3A%3Aaid-gepi2%3E3.0.co%3B2-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A3%3C243%3A%3Aaid-gepi2%3E3.0.co%3B2-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A3%3C243%3A%3Aaid-gepi2%3E3.0.co%3B2-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kung-Yee Liang; Ann E. Pulver</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A3%3C253%3A%3Aaid-gepi3%3E3.0.co%3B2-7">Analysis of case-control/family sampling design</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:3&lt;253::aid-gepi3&gt;3.0.co;2-7</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;3 (1996)</p></td>
+	<td>947&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A3%3C253%3A%3Aaid-gepi3%3E3.0.co%3B2-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A3%3C253%3A%3Aaid-gepi3%3E3.0.co%3B2-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A3%3C253%3A%3Aaid-gepi3%3E3.0.co%3B2-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A3%3C253%3A%3Aaid-gepi3%3E3.0.co%3B2-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tatiana I. Axenovich</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A3%3C271%3A%3Aaid-gepi4%3E3.0.co%3B2-9">Prediction of linkage phase by parental phenotypes</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:3&lt;271::aid-gepi4&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;3 (1996)</p></td>
+	<td>664&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A3%3C271%3A%3Aaid-gepi4%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A3%3C271%3A%3Aaid-gepi4%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A3%3C271%3A%3Aaid-gepi4%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A3%3C271%3A%3Aaid-gepi4%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ge Li; Jeremy M. Silverman; Larry D. Altstiel; Vahram Haroutunian; Daniel P. Perl; Dushyant Purohit; Sandra Birstein; Melinda Lantz; Richard C. Mohs; Kenneth L. Davis</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A3%3C285%3A%3Aaid-gepi5%3E3.0.co%3B2-5">Apolipoprotein E-η4 allele and familial risk in Alzheimer's disease</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:3&lt;285::aid-gepi5&gt;3.0.co;2-5</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;3 (1996)</p></td>
+	<td>910&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A3%3C285%3A%3Aaid-gepi5%3E3.0.co%3B2-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A3%3C285%3A%3Aaid-gepi5%3E3.0.co%3B2-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A3%3C285%3A%3Aaid-gepi5%3E3.0.co%3B2-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A3%3C285%3A%3Aaid-gepi5%3E3.0.co%3B2-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David J. Ciske; Stephen S. Rich; Richard A. King; V. Elving Anderson; Sue Bartow; Celine Vachon; Paul G. McGovern; Larry H. Kushi; Wei Zheng; Thomas A. Sellers</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A4%3C317%3A%3Aaid-gepi1%3E3.0.co%3B2-1">Segregation analysis of breast cancer: A comparison of type-dependent age-at-onset versus type-dependent susceptibility models</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:4&lt;317::aid-gepi1&gt;3.0.co;2-1</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;4 (1996)</p></td>
+	<td>786&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A4%3C317%3A%3Aaid-gepi1%3E3.0.co%3B2-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A4%3C317%3A%3Aaid-gepi1%3E3.0.co%3B2-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A4%3C317%3A%3Aaid-gepi1%3E3.0.co%3B2-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A4%3C317%3A%3Aaid-gepi1%3E3.0.co%3B2-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rosa M. Crum; Emily L. Harris</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A4%3C329%3A%3Aaid-gepi2%3E3.0.co%3B2-%23">Risk of alcoholism and parental history: Gender differences and a possible reporting bias</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:4&lt;329::aid-gepi2&gt;3.0.co;2-#</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;4 (1996)</p></td>
+	<td>834&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A4%3C329%3A%3Aaid-gepi2%3E3.0.co%3B2-%23" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A4%3C329%3A%3Aaid-gepi2%3E3.0.co%3B2-%23">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A4%3C329%3A%3Aaid-gepi2%3E3.0.co%3B2-%23">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A4%3C329%3A%3Aaid-gepi2%3E3.0.co%3B2-%23">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E.Kh. Ginsburg; T.I. Axenovich</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A4%3C343%3A%3Aaid-gepi3%3E3.0.co%3B2-5">On planning of samples for linkage analysis: Two ways of a sample size reduction</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:4&lt;343::aid-gepi3&gt;3.0.co;2-5</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;4 (1996)</p></td>
+	<td>655&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A4%3C343%3A%3Aaid-gepi3%3E3.0.co%3B2-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A4%3C343%3A%3Aaid-gepi3%3E3.0.co%3B2-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A4%3C343%3A%3Aaid-gepi3%3E3.0.co%3B2-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A4%3C343%3A%3Aaid-gepi3%3E3.0.co%3B2-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E.Kh. Ginsburg; T.I. Axenovich; D.W. Goodman</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A4%3C355%3A%3Aaid-gepi4%3E3.0.co%3B2-3">On estimation of linkage test power</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:4&lt;355::aid-gepi4&gt;3.0.co;2-3</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;4 (1996)</p></td>
+	<td>628&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A4%3C355%3A%3Aaid-gepi4%3E3.0.co%3B2-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A4%3C355%3A%3Aaid-gepi4%3E3.0.co%3B2-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A4%3C355%3A%3Aaid-gepi4%3E3.0.co%3B2-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A4%3C355%3A%3Aaid-gepi4%3E3.0.co%3B2-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carl A. Huether; Kristin Haroldson; Patricia M. Ellis; Colin N. Ramsay</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A4%3C367%3A%3Aaid-gepi5%3E3.0.co%3B2-1">Impact of prenatal diagnosis on revised livebirth prevalence estimates of Down syndrome in the Lothian region of Scotland, 1978–1992</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:4&lt;367::aid-gepi5&gt;3.0.co;2-1</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;4 (1996)</p></td>
+	<td>554&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A4%3C367%3A%3Aaid-gepi5%3E3.0.co%3B2-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A4%3C367%3A%3Aaid-gepi5%3E3.0.co%3B2-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A4%3C367%3A%3Aaid-gepi5%3E3.0.co%3B2-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A4%3C367%3A%3Aaid-gepi5%3E3.0.co%3B2-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zhaohai Li; D.C. Rao</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-2272%281996%2913%3A4%3C377%3A%3Aaid-gepi6%3E3.0.co%3B2-1">Random effects model for meta-analysis of multiple quantitative sibpair linkage studies</a></p>
+		<p>DOI: 10.1002/(sici)1098-2272(1996)13:4&lt;377::aid-gepi6&gt;3.0.co;2-1</p>	</td>
+	<td><p><a href="/scimag/journals/8100">Genetic Epidemiology</a><p>volume&nbsp;13, issue&nbsp;4 (1996)</p></td>
+	<td>335&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-2272%281996%2913%3A4%3C377%3A%3Aaid-gepi6%3E3.0.co%3B2-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-2272%281996%2913%3A4%3C377%3A%3Aaid-gepi6%3E3.0.co%3B2-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-2272%281996%2913%3A4%3C377%3A%3Aaid-gepi6%3E3.0.co%3B2-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-2272%281996%2913%3A4%3C377%3A%3Aaid-gepi6%3E3.0.co%3B2-1">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;137 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 126</span>
+	 <a href="/scimag/?journal=8100&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

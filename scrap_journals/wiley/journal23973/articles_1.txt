@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/23973">The Journal of Pathology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0022-3417</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1096-9896</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 639; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 639');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=23973&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">15&nbsp;956 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 639</span>
+	 <a href="/scimag/?journal=23973&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Bajema, Ingeborg M.; Bruijn, Jan A. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%280000%299999%3A9999%3Cn%2Fa%3A%3Aaid-path610%3E3.0.co%3B2-i">What stuff is this! A historical perspective on fibrinoid necrosis</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(0000)9999:9999&lt;n/a::aid-path610&gt;3.0.co;2-i</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;191, issue&nbsp;3 (2000)</p></td>
+	<td>152&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%280000%299999%3A9999%3Cn%2Fa%3A%3Aaid-path610%3E3.0.co%3B2-i" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%280000%299999%3A9999%3Cn/a%3A%3Aaid-path610%3E3.0.co%3B2-i">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%280000%299999%3A9999%3Cn/a%3A%3Aaid-path610%3E3.0.co%3B2-i">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%280000%299999%3A9999%3Cn/a%3A%3Aaid-path610%3E3.0.co%3B2-i">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>FAZZALARI, N. L.; PARKINSON, I. H. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C100%3A%3Aaid-path429%3E3.0.co%3B2-k">FRACTAL DIMENSION AND ARCHITECTURE OF TRABECULAR BONE</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;100::aid-path429&gt;3.0.co;2-k</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>588&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C100%3A%3Aaid-path429%3E3.0.co%3B2-k" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C100%3A%3Aaid-path429%3E3.0.co%3B2-k">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C100%3A%3Aaid-path429%3E3.0.co%3B2-k">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C100%3A%3Aaid-path429%3E3.0.co%3B2-k">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bharucha, H.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C106%3A%3Aaid-path463%3E3.0.co%3B2-s">BOOK REVIEW.William Boyd: Silver Tongue and Golden Pen. Ian Carr. Fitzhenry & Whiteside and Associated Medical Services Incorporated, 1993. Canadian Medical Lives, Series Editor: T. P. Morley. No of pages: 188. Price: $17.95.</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;106::aid-path463&gt;3.0.co;2-s</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>147&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C106%3A%3Aaid-path463%3E3.0.co%3B2-s" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C106%3A%3Aaid-path463%3E3.0.co%3B2-s">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C106%3A%3Aaid-path463%3E3.0.co%3B2-s">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C106%3A%3Aaid-path463%3E3.0.co%3B2-s">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Whimster, W. F.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C106%3A%3Aaid-path464%3E3.0.co%3B2-p">BOOK REVIEW.Image Analysis. A Primer for Pathologists.A. M. Marchevsky and P. H. Bartels (Eds). Raven Press, New York, 1994. No. of pages: 368. Price: $123.50. ISBN: 0 7817 0170 8.</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;106::aid-path464&gt;3.0.co;2-p</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>280&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C106%3A%3Aaid-path464%3E3.0.co%3B2-p" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C106%3A%3Aaid-path464%3E3.0.co%3B2-p">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C106%3A%3Aaid-path464%3E3.0.co%3B2-p">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C106%3A%3Aaid-path464%3E3.0.co%3B2-p">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Walsh, Maureen Y.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C107%3A%3Aaid-path465%3E3.0.co%3B2-l">BOOK REVIEW.Pediatric Dermatopathology. Clinical and Pathologic Correlations.Bernett L. Johnson, Paul J. Honig, Christine Jaworsky. 1994. No. of pages: 334. ISBN: 0 7506 9264 2.</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;107::aid-path465&gt;3.0.co;2-l</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>145&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C107%3A%3Aaid-path465%3E3.0.co%3B2-l" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C107%3A%3Aaid-path465%3E3.0.co%3B2-l">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C107%3A%3Aaid-path465%3E3.0.co%3B2-l">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C107%3A%3Aaid-path465%3E3.0.co%3B2-l">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Morley, A. R.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C107%3A%3Aaid-path466%3E3.0.co%3B2-i">BOOK REVIEW.A Manual of Renal Transplantation.R. D. M. Allen and J. R. Chapman. Edward Arnold, 1993. No. of pages: 311. Price: $45.</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;107::aid-path466&gt;3.0.co;2-i</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>145&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C107%3A%3Aaid-path466%3E3.0.co%3B2-i" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C107%3A%3Aaid-path466%3E3.0.co%3B2-i">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C107%3A%3Aaid-path466%3E3.0.co%3B2-i">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C107%3A%3Aaid-path466%3E3.0.co%3B2-i">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Morley, A. R.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C108%3A%3Aaid-path511%3E3.0.co%3B2-y">ANNOUNCEMENTS</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;108::aid-path511&gt;3.0.co;2-y</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>252&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C108%3A%3Aaid-path511%3E3.0.co%3B2-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C108%3A%3Aaid-path511%3E3.0.co%3B2-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C108%3A%3Aaid-path511%3E3.0.co%3B2-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C108%3A%3Aaid-path511%3E3.0.co%3B2-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>O&#039;LEARY, J. J.; CHETTY, R.; GRAHAM, A. K.; McGEE, J. O&#039;D. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C11%3A%3Aaid-path459%3E3.0.co%3B2-r">REVIEW ARTICLE.IN SITU PCR: PATHOLOGIST'S DREAM OR NIGHTMARE?</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;11::aid-path459&gt;3.0.co;2-r</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>987&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C11%3A%3Aaid-path459%3E3.0.co%3B2-r" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C11%3A%3Aaid-path459%3E3.0.co%3B2-r">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C11%3A%3Aaid-path459%3E3.0.co%3B2-r">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C11%3A%3Aaid-path459%3E3.0.co%3B2-r">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>COATES, PHILIP J.; HOBBS, R. CARL; CROCKER, JOHN; ROWLANDS, DAVID C.; MURRAY, PAUL; QUINLAN, ROY; HALL, PETER A. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C21%3A%3Aaid-path439%3E3.0.co%3B2-q">IDENTIFICATION OF THE ANTIGEN RECOGNIZED BY THE MONOCLONAL ANTIBODY BU31 AS LAMINS A AND C</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;21::aid-path439&gt;3.0.co;2-q</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>983&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C21%3A%3Aaid-path439%3E3.0.co%3B2-q" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C21%3A%3Aaid-path439%3E3.0.co%3B2-q">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C21%3A%3Aaid-path439%3E3.0.co%3B2-q">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C21%3A%3Aaid-path439%3E3.0.co%3B2-q">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>BOSMAN, FRED T.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C3%3A%3Aaid-path438%3E3.0.co%3B2-k">EDITORIAL. NUCLEAR STRUCTURE AND THE LAMINS</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;3::aid-path438&gt;3.0.co;2-k</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>223&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C3%3A%3Aaid-path438%3E3.0.co%3B2-k" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C3%3A%3Aaid-path438%3E3.0.co%3B2-k">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C3%3A%3Aaid-path438%3E3.0.co%3B2-k">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C3%3A%3Aaid-path438%3E3.0.co%3B2-k">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>LATIJNHOUWERS, MIEKE A.; BERGERS, MIEKE; VAN BERGEN, BERT H.; SPRUIJT, KARIN I.; ANDRIESSEN, MONIQUE P.; SCHALKWIJK, JOOST </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C30%3A%3Aaid-path442%3E3.0.co%3B2-7">TENASCIN EXPRESSION DURING WOUND HEALING IN HUMAN SKIN</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;30::aid-path442&gt;3.0.co;2-7</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>769&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C30%3A%3Aaid-path442%3E3.0.co%3B2-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C30%3A%3Aaid-path442%3E3.0.co%3B2-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C30%3A%3Aaid-path442%3E3.0.co%3B2-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C30%3A%3Aaid-path442%3E3.0.co%3B2-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>JASPARS, LIES H.; BONNET, PETRA; BLOEMENA, ELISABETH; MEIJER, CHRIS J. L. M. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C36%3A%3Aaid-path426%3E3.0.co%3B2-s">EXTRACELLULAR MATRIX AND β1 INTEGRIN EXPRESSION IN NODAL AND EXTRANODAL T-CELL LYMPHOMAS</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;36::aid-path426&gt;3.0.co;2-s</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>1.21&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C36%3A%3Aaid-path426%3E3.0.co%3B2-s" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C36%3A%3Aaid-path426%3E3.0.co%3B2-s">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C36%3A%3Aaid-path426%3E3.0.co%3B2-s">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C36%3A%3Aaid-path426%3E3.0.co%3B2-s">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>MURRAY, P. G.; NIEDOBITEK, G.; KREMMER, E.; GRÄSSER, F.; REYNOLDS, G. M.; CRUCHLEY, A.; WILLIAMS, D. M.; MÜLLER-LANTZSCH, N.; YOUNG, L. S. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C44%3A%3Aaid-path471%3E3.0.co%3B2-0">IN SITU DETECTION OF THE EPSTEIN-BARR VIRUS-ENCODED NUCLEAR ANTIGEN 1 IN ORAL HAIRY LEUKOPLAKIA AND VIRUS-ASSOCIATED CARCINOMAS</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;44::aid-path471&gt;3.0.co;2-0</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>519&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C44%3A%3Aaid-path471%3E3.0.co%3B2-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C44%3A%3Aaid-path471%3E3.0.co%3B2-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C44%3A%3Aaid-path471%3E3.0.co%3B2-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C44%3A%3Aaid-path471%3E3.0.co%3B2-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>NOZAWA, YOSHIHIRO; VAN BELZEN, NICO; VAN DER MADE, ANGELIQUE C. J.; DINJENS, WINAND N. M.; BOSMAN, FRED T. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C48%3A%3Aaid-path432%3E3.0.co%3B2-y">EXPRESSION OF NUCLEOPHOSMIN/B23 IN NORMAL AND NEOPLASTIC COLORECTAL MUCOSA</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;48::aid-path432&gt;3.0.co;2-y</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>668&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C48%3A%3Aaid-path432%3E3.0.co%3B2-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C48%3A%3Aaid-path432%3E3.0.co%3B2-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C48%3A%3Aaid-path432%3E3.0.co%3B2-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C48%3A%3Aaid-path432%3E3.0.co%3B2-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>SLAVIN, J.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C5%3A%3Aaid-path443%3E3.0.co%3B2-w">REVIEW ARTICLE. THE ROLE OF CYTOKINES IN WOUND HEALING</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;5::aid-path443&gt;3.0.co;2-w</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>704&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C5%3A%3Aaid-path443%3E3.0.co%3B2-w" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C5%3A%3Aaid-path443%3E3.0.co%3B2-w">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C5%3A%3Aaid-path443%3E3.0.co%3B2-w">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C5%3A%3Aaid-path443%3E3.0.co%3B2-w">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>DALQUEN, PETER; SAUTER, GUIDO; TORHORST, JOACHIM; SCHULTHEISS, ELISABETH; JORDAN, PAUL; LEHMANN, STEPHAN; SOLÈR, MARCUS; STULZ, PETER; MIHATSCH, MICHAEL J.; GUDAT, FRED </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C53%3A%3Aaid-path415%3E3.0.co%3B2-t">NUCLEAR p53 OVEREXPRESSION IS AN INDEPENDENT PROGNOSTIC PARAMETER IN NODE-NEGATIVE NON-SMALL CELL LUNG CARCINOMA</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;53::aid-path415&gt;3.0.co;2-t</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>614&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C53%3A%3Aaid-path415%3E3.0.co%3B2-t" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C53%3A%3Aaid-path415%3E3.0.co%3B2-t">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C53%3A%3Aaid-path415%3E3.0.co%3B2-t">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C53%3A%3Aaid-path415%3E3.0.co%3B2-t">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>LIPPONEN, PERTTI K.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C59%3A%3Aaid-path418%3E3.0.co%3B2-e">EXPRESSION OF CATHEPSIN D IN TRANSITIONAL CELL BLADDER TUMOURS</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;59::aid-path418&gt;3.0.co;2-e</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>639&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C59%3A%3Aaid-path418%3E3.0.co%3B2-e" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C59%3A%3Aaid-path418%3E3.0.co%3B2-e">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C59%3A%3Aaid-path418%3E3.0.co%3B2-e">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C59%3A%3Aaid-path418%3E3.0.co%3B2-e">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>TENTI, PATRIZIA; ZAPPATORE, RITA; ROMAGNOLI, SOLANGE; CIVARDI, EMILIO; GIUNTA, PAULO; SCELSI, ROBERTO; STELLA, GIORGIO; CARNEVALI, LUCIANO </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C65%3A%3Aaid-path451%3E3.0.co%3B2-w">p53 OVEREXPRESSION AND HUMAN PAPILLOMAVIRUS INFECTION IN TRANSITIONAL CELL CARCINOMA OF THE URINARY BLADDER: CORRELATION WITH HISTOLOGICAL PARAMETERS</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;65::aid-path451&gt;3.0.co;2-w</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>635&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C65%3A%3Aaid-path451%3E3.0.co%3B2-w" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C65%3A%3Aaid-path451%3E3.0.co%3B2-w">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C65%3A%3Aaid-path451%3E3.0.co%3B2-w">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C65%3A%3Aaid-path451%3E3.0.co%3B2-w">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>COATES, PHILIP J.; HALES, SALLY A.; HALL, PETER A. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C71%3A%3Aaid-path456%3E3.0.co%3B2-i">THE ASSOCIATION BETWEEN CELL PROLIFERATION AND APOPTOSIS: STUDIES USING THE CELL CYCLE-ASSOCIATED PROTEINS Ki67 AND DNA POLYMERASE ALPHA</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;71::aid-path456&gt;3.0.co;2-i</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>782&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C71%3A%3Aaid-path456%3E3.0.co%3B2-i" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C71%3A%3Aaid-path456%3E3.0.co%3B2-i">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C71%3A%3Aaid-path456%3E3.0.co%3B2-i">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C71%3A%3Aaid-path456%3E3.0.co%3B2-i">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>KAKUGAWA, YOICHIRO; GIAID, ADEL; YANAGISAWA, MASASHI; BAYNASH, AMY GREENSTEIN; MELNYK, PETER; ROSENBERG, LAWRENCE; DUGUID, WILLIAM P. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C78%3A%3Aaid-path423%3E3.0.co%3B2-n">EXPRESSION OF ENDOTHELIN-1 IN PANCREATIC TISSUE OF PATIENTS WITH CHRONIC PANCREATITIS</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;78::aid-path423&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>763&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C78%3A%3Aaid-path423%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C78%3A%3Aaid-path423%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C78%3A%3Aaid-path423%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C78%3A%3Aaid-path423%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>ANSTEY, ALEXANDER; MARKS, RONALD; LONG, COLIN; NAVABI, HOSSEIN; PEARSE, ANTHONY; WYNFORD-THOMAS, DAVID; JASANI, BHARAT </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C84%3A%3Aaid-path430%3E3.0.co%3B2-w">IN VIVO PHOTOINDUCTION OF METALLOTHIONEIN IN HUMAN SKIN BY ULTRAVIOLET IRRADIATION</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;84::aid-path430&gt;3.0.co;2-w</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>573&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C84%3A%3Aaid-path430%3E3.0.co%3B2-w" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C84%3A%3Aaid-path430%3E3.0.co%3B2-w">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C84%3A%3Aaid-path430%3E3.0.co%3B2-w">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C84%3A%3Aaid-path430%3E3.0.co%3B2-w">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>THOMPSON, ELIZABETH M.; HIGHES, JEREMY; VAN NOORDEN, SUSAN; SHARPE, JULIA; SAVILL, JOHN </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C89%3A%3Aaid-path457%3E3.0.co%3B2-4">EXPRESSION OF THE MULTIFUNCTIONAL EXTRACELLULAR MATRIX PROTEIN THROMBOSPONDIN IN CRESCENTIC GLOMERULONEPHRITIS</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;89::aid-path457&gt;3.0.co;2-4</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>768&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C89%3A%3Aaid-path457%3E3.0.co%3B2-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C89%3A%3Aaid-path457%3E3.0.co%3B2-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C89%3A%3Aaid-path457%3E3.0.co%3B2-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C89%3A%3Aaid-path457%3E3.0.co%3B2-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>OSHITANI, NOBUHIDE; CAMPBELL, ANNE; KITANO, ATSUO; KOBAYASHI, KENZO; JEWELL, DEREK P. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C95%3A%3Aaid-path402%3E3.0.co%3B2-p">IN SITU COMPARISON OF PHENOTYPICAL AND FUNCTIONAL ACTIVITY OF INFILTRATING CELLS IN ULCERATIVE COLITIS MUCOSA</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199601)178:1&lt;95::aid-path402&gt;3.0.co;2-p</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;1 (1996)</p></td>
+	<td>446&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199601%29178%3A1%3C95%3A%3Aaid-path402%3E3.0.co%3B2-p" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199601%29178%3A1%3C95%3A%3Aaid-path402%3E3.0.co%3B2-p">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C95%3A%3Aaid-path402%3E3.0.co%3B2-p">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199601%29178%3A1%3C95%3A%3Aaid-path402%3E3.0.co%3B2-p">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>WRIGHT, D. H.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199602%29178%3A2%3C111%3A%3Aaid-path490%3E3.0.co%3B2-y">EDITORIAL. LYMPHOMAS OF MUCOSA-ASSOCIATED LYMPHOID TISSUE AND ANTIGEN DRIVE</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199602)178:2&lt;111::aid-path490&gt;3.0.co;2-y</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;2 (1996)</p></td>
+	<td>202&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199602%29178%3A2%3C111%3A%3Aaid-path490%3E3.0.co%3B2-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199602%29178%3A2%3C111%3A%3Aaid-path490%3E3.0.co%3B2-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199602%29178%3A2%3C111%3A%3Aaid-path490%3E3.0.co%3B2-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199602%29178%3A2%3C111%3A%3Aaid-path490%3E3.0.co%3B2-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>HERBST, H.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9896%28199602%29178%3A2%3C113%3A%3Aaid-path445%3E3.0.co%3B2-m">EDITORIAL. t(2;5) TRANSLOCATIONS IN ANAPLASTIC LARGE CELL LYMPHOMAS AND HODGKIN'S DISEASE</a></p>
+		<p>DOI: 10.1002/(sici)1096-9896(199602)178:2&lt;113::aid-path445&gt;3.0.co;2-m</p>	</td>
+	<td><p><a href="/scimag/journals/23973">The Journal of Pathology</a><p>volume&nbsp;178, issue&nbsp;2 (1996)</p></td>
+	<td>385&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9896%28199602%29178%3A2%3C113%3A%3Aaid-path445%3E3.0.co%3B2-m" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9896%28199602%29178%3A2%3C113%3A%3Aaid-path445%3E3.0.co%3B2-m">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9896%28199602%29178%3A2%3C113%3A%3Aaid-path445%3E3.0.co%3B2-m">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9896%28199602%29178%3A2%3C113%3A%3Aaid-path445%3E3.0.co%3B2-m">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">15&nbsp;956 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 639</span>
+	 <a href="/scimag/?journal=23973&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

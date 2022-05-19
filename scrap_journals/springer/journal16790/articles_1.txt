@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/16790">Machine Learning</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0885-6125</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-0565</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 85; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 85');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=16790&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;107 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 85</span>
+	 <a href="/scimag/?journal=16790&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Shimon Whiteson; Nate Kohl; Risto Miikkulainen; Peter Stone</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0460-9">Evolving Soccer Keepaway Players Through Task Decomposition</a></p>
+		<p>DOI: 10.1007/s10994-005-0460-9</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;59, issue&nbsp;1-2 (2005)</p></td>
+	<td>317&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0460-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0460-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0460-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0460-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shin Ishii; Hajime Fujita; Masaoki Mitsutake; Tatsuya Yamazaki; Jun Matsuda; Yoichiro Matsuno</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0461-8">A Reinforcement Learning Scheme for a Partially-Observable Multi-Agent Game</a></p>
+		<p>DOI: 10.1007/s10994-005-0461-8</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;59, issue&nbsp;1-2 (2005)</p></td>
+	<td>581&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0461-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0461-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0461-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0461-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thore Graepel; Ralf Herbrich; John Shawe-Taylor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0462-7">PAC-Bayesian Compression Bounds on the Prediction Error of Learning Algorithms for Classification</a></p>
+		<p>DOI: 10.1007/s10994-005-0462-7</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;59, issue&nbsp;1-2 (2005)</p></td>
+	<td>204&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0462-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0462-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0462-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0462-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Glenn M. Fung; O. L. Mangasarian</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0463-6">Multicategory Proximal Support Vector Machine Classifiers</a></p>
+		<p>DOI: 10.1007/s10994-005-0463-6</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;59, issue&nbsp;1-2 (2005)</p></td>
+	<td>616&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0463-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0463-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0463-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0463-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nader H. Bshouty; Lynn Burroughs</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0464-5">Maximizing Agreements with One-Sided Error with Applications to Heuristic Learning</a></p>
+		<p>DOI: 10.1007/s10994-005-0464-5</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;59, issue&nbsp;1-2 (2005)</p></td>
+	<td>321&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0464-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0464-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0464-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0464-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gilles Stoltz; Gábor Lugosi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0465-4">Internal Regret in On-Line Portfolio Selection</a></p>
+		<p>DOI: 10.1007/s10994-005-0465-4</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;59, issue&nbsp;1-2 (2005)</p></td>
+	<td>264&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0465-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0465-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0465-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0465-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Niels Landwehr; Mark Hall; Eibe Frank</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0466-3">Logistic Model Trees</a></p>
+		<p>DOI: 10.1007/s10994-005-0466-3</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;59, issue&nbsp;1-2 (2005)</p></td>
+	<td>627&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0466-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0466-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0466-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0466-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pedro Larrañaga; Jose A. Lozano; Jose M. Peña; Iñaki Inza</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0468-1">Editorial</a></p>
+		<p>DOI: 10.1007/s10994-005-0468-1</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;59, issue&nbsp;3 (2005)</p></td>
+	<td>31&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0468-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0468-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0468-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0468-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Russell Greiner; Xiaoyuan Su; Bin Shen; Wei Zhou</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0469-0">Structural Extension to Logistic Regression: Discriminative Parameter Learning of Belief Net Classifiers</a></p>
+		<p>DOI: 10.1007/s10994-005-0469-0</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;59, issue&nbsp;3 (2005)</p></td>
+	<td>599&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0469-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0469-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0469-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0469-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jesús Cerquides; Ramon López de MÁntaras</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0470-7">TAN Classifiers Based on Decomposable Distributions</a></p>
+		<p>DOI: 10.1007/s10994-005-0470-7</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;59, issue&nbsp;3 (2005)</p></td>
+	<td>434&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0470-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0470-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0470-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0470-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Teemu Roos; Hannes Wettig; Peter Grünwald; Petri Myllymäki; Henry Tirri</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0471-6">On Discriminative Bayesian Network Classifiers and Logistic Regression</a></p>
+		<p>DOI: 10.1007/s10994-005-0471-6</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;59, issue&nbsp;3 (2005)</p></td>
+	<td>398&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0471-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0471-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0471-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0471-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Helge Langseth; Thomas D. Nielsen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0472-5">Latent Classification Models</a></p>
+		<p>DOI: 10.1007/s10994-005-0472-5</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;59, issue&nbsp;3 (2005)</p></td>
+	<td>1.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0472-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0472-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0472-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0472-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Silvia Acid; Luis M. de Campos; Javier G. Castellano</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0473-4">Learning Bayesian Network Classifiers: Searching in a Space of Partially Directed Acyclic Graphs</a></p>
+		<p>DOI: 10.1007/s10994-005-0473-4</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;59, issue&nbsp;3 (2005)</p></td>
+	<td>253&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0473-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0473-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0473-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0473-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. S. Keerthi; K. B. Duan; S. K. Shevade; A. N. Poo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0768-5">A Fast Dual Algorithm for Kernel Logistic Regression</a></p>
+		<p>DOI: 10.1007/s10994-005-0768-5</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;61, issue&nbsp;1-3 (2005)</p></td>
+	<td>184&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0768-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0768-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0768-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0768-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jun’ichi Kazama; Jun’ichi Tsujii</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0911-3">Maximum Entropy Models with Inequality Constraints: A Case Study on Text Categorization</a></p>
+		<p>DOI: 10.1007/s10994-005-0911-3</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;60, issue&nbsp;1-3 (2005)</p></td>
+	<td>514&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0911-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0911-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0911-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0911-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sameer Pradhan; Kadri Hacioglu; Valerie Krugler; Wayne Ward; James H. Martin; Daniel Jurafsky</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0912-2">Support Vector Learning for Semantic Argument Classification</a></p>
+		<p>DOI: 10.1007/s10994-005-0912-2</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;60, issue&nbsp;1-3 (2005)</p></td>
+	<td>316&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0912-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0912-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0912-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0912-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter D. Turney; Michael L. Littman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0913-1">Corpus-based Learning of Analogies and Semantic Relations</a></p>
+		<p>DOI: 10.1007/s10994-005-0913-1</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;60, issue&nbsp;1-3 (2005)</p></td>
+	<td>297&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0913-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0913-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0913-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0913-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hiyan Alshawi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0914-0">Online Multiclass Learning withk-Way Limited Feedback and an Application to Utterance Classification</a></p>
+		<p>DOI: 10.1007/s10994-005-0914-0</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;60, issue&nbsp;1-3 (2005)</p></td>
+	<td>246&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0914-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0914-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0914-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0914-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ismael García-Varea; Francisco Casacuberta</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0915-z">Maximum Entropy Modeling: A Suitable Framework to Learn Context-Dependent Lexicon Models for Statistical Machine Translation</a></p>
+		<p>DOI: 10.1007/s10994-005-0915-z</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;60, issue&nbsp;1-3 (2005)</p></td>
+	<td>253&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0915-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0915-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0915-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0915-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ahmad Emami; Frederick Jelinek</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0916-y">A Neural Syntactic Language Model</a></p>
+		<p>DOI: 10.1007/s10994-005-0916-y</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;60, issue&nbsp;1-3 (2005)</p></td>
+	<td>370&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0916-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0916-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0916-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0916-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Xavier Carreras; B. Lluís Màrquez; C. Jorge Castro</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0917-x">Filtering-Ranking Perceptron Learning for Partial Parsing</a></p>
+		<p>DOI: 10.1007/s10994-005-0917-x</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;60, issue&nbsp;1-3 (2005)</p></td>
+	<td>397&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0917-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0917-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0917-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0917-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Libin Shen; Aravind K. Joshi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0918-9">Ranking and Reranking with Perceptron</a></p>
+		<p>DOI: 10.1007/s10994-005-0918-9</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;60, issue&nbsp;1-3 (2005)</p></td>
+	<td>243&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0918-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0918-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0918-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0918-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Corinna Cortes; Mehryar Mohri</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0919-8">Moment Kernels for Regular Distributions</a></p>
+		<p>DOI: 10.1007/s10994-005-0919-8</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;60, issue&nbsp;1-3 (2005)</p></td>
+	<td>246&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0919-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0919-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0919-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0919-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shaojun Wang; Dale Schuurmans; Fuchun Peng; Yunxin Zhao</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-0928-7">Combining Statistical Language Models via the Latent Maximum Entropy Principle</a></p>
+		<p>DOI: 10.1007/s10994-005-0928-7</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;60, issue&nbsp;1-3 (2005)</p></td>
+	<td>221&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-0928-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-0928-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-0928-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-0928-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Duncan Potts; Claude Sammut</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10994-005-1121-8">Incremental Learning of Linear Model Trees</a></p>
+		<p>DOI: 10.1007/s10994-005-1121-8</p>	</td>
+	<td><p><a href="/scimag/journals/16790">Machine Learning</a><p>volume&nbsp;61, issue&nbsp;1-3 (2005)</p></td>
+	<td>1.40&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10994-005-1121-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10994-005-1121-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10994-005-1121-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10994-005-1121-8">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;107 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 85</span>
+	 <a href="/scimag/?journal=16790&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

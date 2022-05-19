@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/3270">British Journal of Educational Psychology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0007-0998</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>2044-8279</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 60; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 60');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=3270&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;477 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 60</span>
+	 <a href="/scimag/?journal=3270&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Dr. Avi Assor; Haya Kaplan; Guy Roth</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709902158883">Choice is good, but relevance is excellent: Autonomy-enhancing and suppressing teacher behaviours predicting students' engagement in schoolwork</a></p>
+		<p>DOI: 10.1348/000709902158883</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;72, issue&nbsp;2 (2002)</p></td>
+	<td>255&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709902158883" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709902158883">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709902158883">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709902158883">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andrew J. Martin</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709905x55389">Personal bests (PBs): A proposed multidimensional model and empirical analysis</a></p>
+		<p>DOI: 10.1348/000709905x55389</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;76, issue&nbsp;4 (2006)</p></td>
+	<td>260&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709905x55389" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709905x55389">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709905x55389">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709905x55389">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Saskia. de Graaff; Ludo. Verhoeven; Anna M. T. Bosman; Fred. Hasselman</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709906x160011">Integrated pictorial mnemonics and stimulus fading: Teaching kindergartners letter sounds</a></p>
+		<p>DOI: 10.1348/000709906x160011</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;77, issue&nbsp;3 (2007)</p></td>
+	<td>237&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709906x160011" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709906x160011">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709906x160011">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709906x160011">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David W. Putwain</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709906x161704">Test anxiety in UK schoolchildren: Prevalence and demographic patterns</a></p>
+		<p>DOI: 10.1348/000709906x161704</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;77, issue&nbsp;3 (2007)</p></td>
+	<td>141&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709906x161704" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709906x161704">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709906x161704">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709906x161704">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joanne C. Y. Chan; Shui-fong Lam</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709907x185509">Effects of competition on students' self-efficacy in vicarious learning</a></p>
+		<p>DOI: 10.1348/000709907x185509</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;78, issue&nbsp;1 (2008)</p></td>
+	<td>140&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709907x185509" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709907x185509">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709907x185509">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709907x185509">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dr Amanda Harris; Nicola Yuill; Rosemary Luckin</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709907x267067">The influence of context-specific and dispositional achievement goals on children's paired collaborative interaction</a></p>
+		<p>DOI: 10.1348/000709907x267067</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;78, issue&nbsp;3 (2008)</p></td>
+	<td>170&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709907x267067" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709907x267067">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709907x267067">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709907x267067">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Catherine Houlston; Peter K. Smith</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709908x293878">The impact of a peer counselling scheme to address bullying in an all-girl London secondary school: A short-term longitudinal study</a></p>
+		<p>DOI: 10.1348/000709908x293878</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;79, issue&nbsp;1 (2009)</p></td>
+	<td>162&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709908x293878" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709908x293878">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709908x293878">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709908x293878">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Francisco Cano; A. B. G. Berbén</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709908x314928">University students' achievement goals and approaches to learning in mathematics</a></p>
+		<p>DOI: 10.1348/000709908x314928</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;79, issue&nbsp;1 (2009)</p></td>
+	<td>215&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709908x314928" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709908x314928">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709908x314928">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709908x314928">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark Torrance; Glyn V. Thomas; Elizabeth J. Robinson</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709999157662">Individual differences in the writing behaviour of undergraduate students</a></p>
+		<p>DOI: 10.1348/000709999157662</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;69, issue&nbsp;2 (1999)</p></td>
+	<td>138&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709999157662" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709999157662">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709999157662">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709999157662">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Kember; Anthony Wong; Doris Y. P. Leung</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709999157752">Reconsidering the dimensions of approaches to learning</a></p>
+		<p>DOI: 10.1348/000709999157752</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;69, issue&nbsp;3 (1999)</p></td>
+	<td>216&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709999157752" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709999157752">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709999157752">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709999157752">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Shayer; Denise Ginsburg</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F978185408x383123">Thirty years on – a large anti-Flynn effect/ (II): 13- and 14-year-olds. Piagetian tests of formal operations norms 1976–2006/7</a></p>
+		<p>DOI: 10.1348/978185408x383123</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;79, issue&nbsp;3 (2009)</p></td>
+	<td>205&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F978185408x383123" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/978185408x383123">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/978185408x383123">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/978185408x383123">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alessandro Antonietti; Sabrina Ignazi; Patrizia Perego</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709900157921">Metacognitive knowledge about problem-solving methods</a></p>
+		<p>DOI: 10.1348/000709900157921</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;70, issue&nbsp;1 (2000)</p></td>
+	<td>125&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709900157921" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709900157921">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709900157921">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709900157921">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709900157930">Publications Received</a></p>
+		<p>DOI: 10.1348/000709900157930</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;70, issue&nbsp;1 (2000)</p></td>
+	<td>50&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709900157930" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709900157930">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709900157930">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709900157930">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David McIlroy</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709900157949">An evaluation of the factor structure and predictive utility of a test anxiety scale with reference to students’ past performance and personality indices</a></p>
+		<p>DOI: 10.1348/000709900157949</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;70, issue&nbsp;1 (2000)</p></td>
+	<td>131&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709900157949" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709900157949">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709900157949">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709900157949">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wilfried F. Admiraal; Fred A.J. Korthagen; Theo Wubbels</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709900157958">Effects of student teachers’ coping behaviour</a></p>
+		<p>DOI: 10.1348/000709900157958</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;70, issue&nbsp;1 (2000)</p></td>
+	<td>184&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709900157958" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709900157958">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709900157958">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709900157958">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bo Dahlin; David Watkins</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709900157976">The role of repetition in the processes of memorising and understanding: A comparison of the views of German and Chinese secondary school students in Hong Kong</a></p>
+		<p>DOI: 10.1348/000709900157976</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;70, issue&nbsp;1 (2000)</p></td>
+	<td>154&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709900157976" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709900157976">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709900157976">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709900157976">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andy Miller; Eamonn Ferguson; Irene Byrne</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709900157985">Pupils’ causal attributions for difficult classroom behaviour</a></p>
+		<p>DOI: 10.1348/000709900157985</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;70, issue&nbsp;1 (2000)</p></td>
+	<td>115&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709900157985" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709900157985">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709900157985">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709900157985">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robyn M. Gillies</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709900157994">The maintenance of cooperative and helping behaviours in cooperative groups</a></p>
+		<p>DOI: 10.1348/000709900157994</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;70, issue&nbsp;1 (2000)</p></td>
+	<td>133&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709900157994" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709900157994">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709900157994">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709900157994">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709900158010">Book Reviews</a></p>
+		<p>DOI: 10.1348/000709900158010</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;70, issue&nbsp;1 (2000)</p></td>
+	<td>229&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709900158010" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709900158010">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709900158010">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709900158010">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. H. F. Meyer</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709900158029">Variation in contrasting forms of ‘ memorising’ and associated observables</a></p>
+		<p>DOI: 10.1348/000709900158029</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;70, issue&nbsp;2 (2000)</p></td>
+	<td>148&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709900158029" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709900158029">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709900158029">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709900158029">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709900158038">Publications Received</a></p>
+		<p>DOI: 10.1348/000709900158038</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;70, issue&nbsp;2 (2000)</p></td>
+	<td>47&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709900158038" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709900158038">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709900158038">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709900158038">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Susan E. Gathercole; Susan J. Pickering</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709900158047">Working memory deficits in children with low achievements in the national curriculum at 7 years of age</a></p>
+		<p>DOI: 10.1348/000709900158047</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;70, issue&nbsp;2 (2000)</p></td>
+	<td>162&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709900158047" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709900158047">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709900158047">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709900158047">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Veerle Stevens; Ilse De Bourdeaudhuij; Paulette Van Oost</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709900158056">Bullying in Flemish schools: An evaluation of anti-bullying intervention in primary and secondary schools</a></p>
+		<p>DOI: 10.1348/000709900158056</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;70, issue&nbsp;2 (2000)</p></td>
+	<td>145&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709900158056" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709900158056">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709900158056">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709900158056">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Maria Kavussanu; Delwyn L. Harnisch</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709900158074">Self-esteem in children: Do goal orientations matter?</a></p>
+		<p>DOI: 10.1348/000709900158074</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;70, issue&nbsp;2 (2000)</p></td>
+	<td>141&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709900158074" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709900158074">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709900158074">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709900158074">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Adrian C. North; David J. Hargreaves; Susan A. O&#039;Neill</td>
+	<td>
+		<p><a href="/scimag/10.1348%2F000709900158083">The importance of music to adolescents</a></p>
+		<p>DOI: 10.1348/000709900158083</p>	</td>
+	<td><p><a href="/scimag/journals/3270">British Journal of Educational Psychology</a><p>volume&nbsp;70, issue&nbsp;2 (2000)</p></td>
+	<td>157&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1348%2F000709900158083" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1348/000709900158083">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1348/000709900158083">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1348/000709900158083">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;477 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 60</span>
+	 <a href="/scimag/?journal=3270&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

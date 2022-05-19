@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/5966">Distributed Computing</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0178-2770</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1432-0452</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 30; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 30');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=5966&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">727 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 30</span>
+	 <a href="/scimag/?journal=5966&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Douglas E. Comer; Larry L. Peterson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01558663">Understanding naming in distributed systems</a></p>
+		<p>DOI: 10.1007/bf01558663</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;3, issue&nbsp;2 (1989)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01558663" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01558663">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01558663">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01558663">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Amotz Bar-Noy; Michael Ben-Or; Danny Dolev</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01558664">Choice coordination with limited failure</a></p>
+		<p>DOI: 10.1007/bf01558664</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;3, issue&nbsp;2 (1989)</p></td>
+	<td>1.23&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01558664" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01558664">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01558664">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01558664">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. -J. R. Back; R. Kurki-Suonio</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01558665">Decentralization of process nets with centralized control</a></p>
+		<p>DOI: 10.1007/bf01558665</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;3, issue&nbsp;2 (1989)</p></td>
+	<td>1.43&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01558665" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01558665">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01558665">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01558665">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sanjay V. Rajopadhye</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01558666">Synthesizing systolic arrays with control signals from recurrence equations</a></p>
+		<p>DOI: 10.1007/bf01558666</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;3, issue&nbsp;2 (1989)</p></td>
+	<td>1.78&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01558666" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01558666">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01558666">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01558666">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Edmund M. Clarke</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01660030">Distributed computing issues in hardware design</a></p>
+		<p>DOI: 10.1007/bf01660030</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;1, issue&nbsp;4 (1986)</p></td>
+	<td>169&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01660030" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01660030">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01660030">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01660030">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William J. Dally; Charles L. Seitz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01660031">The torus routing chip</a></p>
+		<p>DOI: 10.1007/bf01660031</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;1, issue&nbsp;4 (1986)</p></td>
+	<td>1.67&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01660031" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01660031">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01660031">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01660031">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jan Tijmen Udding</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01660032">A formal model for defining and classifying delay-insensitive circuits and systems</a></p>
+		<p>DOI: 10.1007/bf01660032</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;1, issue&nbsp;4 (1986)</p></td>
+	<td>827&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01660032" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01660032">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01660032">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01660032">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David L. Black</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01660033">On the existence of delay-insensitive fair arbiters: Trace theory and its limitations</a></p>
+		<p>DOI: 10.1007/bf01660033</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;1, issue&nbsp;4 (1986)</p></td>
+	<td>1.95&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01660033" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01660033">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01660033">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01660033">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alain J. Martin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01660034">Compiling communicating processes into delay-insensitive VLSI circuits</a></p>
+		<p>DOI: 10.1007/bf01660034</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;1, issue&nbsp;4 (1986)</p></td>
+	<td>822&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01660034" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01660034">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01660034">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01660034">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert M. Keller; Prakash Panangaden</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01660035">Semantics of digital networks containing indeterminate modules</a></p>
+		<p>DOI: 10.1007/bf01660035</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;1, issue&nbsp;4 (1986)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01660035" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01660035">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01660035">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01660035">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. T. Kung; Jon A. Webb</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01660036">Mapping image processing operations onto a linear systolic machine</a></p>
+		<p>DOI: 10.1007/bf01660036</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;1, issue&nbsp;4 (1986)</p></td>
+	<td>1.33&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01660036" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01660036">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01660036">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01660036">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gregory R. Andrews; Ronald A. Olsson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01661168">The evolution of the SR language</a></p>
+		<p>DOI: 10.1007/bf01661168</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;1, issue&nbsp;3 (1986)</p></td>
+	<td>1.84&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01661168" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01661168">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01661168">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01661168">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. S. Anantharaman; E. M. Clarke; M. J. Foster; B. Mishra</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01661169">Compiling path expressions into VLSI circuits</a></p>
+		<p>DOI: 10.1007/bf01661169</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;1, issue&nbsp;3 (1986)</p></td>
+	<td>1.82&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01661169" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01661169">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01661169">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01661169">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yoram Moses; Danny Dolev; Joseph Y. Halpern</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01661170">Cheating husbands and other stories: A case study of knowledge, action, and communication</a></p>
+		<p>DOI: 10.1007/bf01661170</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;1, issue&nbsp;3 (1986)</p></td>
+	<td>1.25&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01661170" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01661170">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01661170">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01661170">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. Mani Chandy; J. Misra</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01661171">Systolic algorithms as programs</a></p>
+		<p>DOI: 10.1007/bf01661171</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;1, issue&nbsp;3 (1986)</p></td>
+	<td>534&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01661171" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01661171">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01661171">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01661171">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Udaya Shankar; Simon S. Lam</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01667079">Time-dependent distributed systems: proving safety, liveness and real-time properties</a></p>
+		<p>DOI: 10.1007/bf01667079</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;2, issue&nbsp;2 (1987)</p></td>
+	<td>1.88&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01667079" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01667079">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01667079">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01667079">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. K. Srikanth; Sam Toueg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01667080">Simulating authenticated broadcasts to derive simple fault-tolerant algorithms</a></p>
+		<p>DOI: 10.1007/bf01667080</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;2, issue&nbsp;2 (1987)</p></td>
+	<td>1.51&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01667080" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01667080">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01667080">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01667080">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vassos Hadzilacos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01667081">Connectivity requirements for Byzantine agreement under restricted types of failures</a></p>
+		<p>DOI: 10.1007/bf01667081</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;2, issue&nbsp;2 (1987)</p></td>
+	<td>1005&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01667081" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01667081">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01667081">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01667081">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Raymond E. Miller</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01667082">The construction of self-synchronizing finite state protocols</a></p>
+		<p>DOI: 10.1007/bf01667082</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;2, issue&nbsp;2 (1987)</p></td>
+	<td>818&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01667082" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01667082">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01667082">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01667082">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jan L. A. van de Snepscheut</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01667083">Fair mutual exclusion on a graph of processes</a></p>
+		<p>DOI: 10.1007/bf01667083</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;2, issue&nbsp;2 (1987)</p></td>
+	<td>255&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01667083" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01667083">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01667083">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01667083">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bowen Alpern; Fred B. Schneider</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01782772">Recognizing safety and liveness</a></p>
+		<p>DOI: 10.1007/bf01782772</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;2, issue&nbsp;3 (1987)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01782772" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01782772">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01782772">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01782772">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gabriel Bracha; Sam Toueg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01782773">Distributed deadlock detection</a></p>
+		<p>DOI: 10.1007/bf01782773</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;2, issue&nbsp;3 (1987)</p></td>
+	<td>1.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01782773" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01782773">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01782773">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01782773">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yaron I. Gold; Shlomo Moran</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01782774">Distributed algorithms for constructing a minimum-weight spanning tree in a broadcast network</a></p>
+		<p>DOI: 10.1007/bf01782774</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;2, issue&nbsp;3 (1987)</p></td>
+	<td>995&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01782774" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01782774">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01782774">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01782774">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. van Leeuwen; R. B. Tan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01782775">An improved upperbound for distributed election in bidirectional rings of processors</a></p>
+		<p>DOI: 10.1007/bf01782775</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;2, issue&nbsp;3 (1987)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01782775" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01782775">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01782775">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01782775">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Friedemann Mattern</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01782776">Algorithms for distributed termination detection</a></p>
+		<p>DOI: 10.1007/bf01782776</p>	</td>
+	<td><p><a href="/scimag/journals/5966">Distributed Computing</a><p>volume&nbsp;2, issue&nbsp;3 (1987)</p></td>
+	<td>1.53&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01782776" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01782776">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01782776">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01782776">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">727 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 30</span>
+	 <a href="/scimag/?journal=5966&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

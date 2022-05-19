@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0041-5995</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-9376</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 339; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 339');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=25207&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">8&nbsp;473 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 339</span>
+	 <a href="/scimag/?journal=25207&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>G. P. Bakhtina; A. K. Bakhtin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486435">On extremal problems for symmetric disjoint domains</a></p>
+		<p>DOI: 10.1007/bf02486435</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;2 (1997)</p></td>
+	<td>340&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486435" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486435">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486435">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486435">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. P. Goi; B. I. Ptashnik</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486436">Problem with nonlocal conditions for weakly nonlinear hyperbolic equations</a></p>
+		<p>DOI: 10.1007/bf02486436</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;2 (1997)</p></td>
+	<td>468&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486436" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486436">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486436">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486436">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. V. Gorunovich</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486437">Phase transition in an exactly solvable model of interacting bosons</a></p>
+		<p>DOI: 10.1007/bf02486437</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;2 (1997)</p></td>
+	<td>494&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486437" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486437">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486437">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486437">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. I. Kolyada</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486438">Mean oscillations and the convergence of Poisson integrals</a></p>
+		<p>DOI: 10.1007/bf02486438</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;2 (1997)</p></td>
+	<td>639&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486438" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486438">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486438">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486438">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. I. Martynyuk; V. Ya. Danilov; A. N. Stanzhitskii</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486439">Periodic solutions of systems of differential equations with random right-hand sides</a></p>
+		<p>DOI: 10.1007/bf02486439</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;2 (1997)</p></td>
+	<td>245&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486439" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486439">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486439">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486439">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. P. Mel’nichenko; S. A. Plaksa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486440">Potential fields with axial symmetry and algebras of monogenic functions of vector variables. III</a></p>
+		<p>DOI: 10.1007/bf02486440</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;2 (1997)</p></td>
+	<td>706&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486440" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486440">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486440">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486440">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yu. A. Mitropol’skii; A. A. Berezovskii; M. Kh. Shkhanukov-Lafishev</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486441">Nonlinear nonlocal problems for a parabolic equation in a two-dimensional domain</a></p>
+		<p>DOI: 10.1007/bf02486441</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;2 (1997)</p></td>
+	<td>425&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486441" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486441">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486441">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486441">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. V. Petrenko</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486442">On direct decompositions in modules over group rings</a></p>
+		<p>DOI: 10.1007/bf02486442</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;2 (1997)</p></td>
+	<td>410&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486442" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486442">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486442">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486442">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. A. Ruzhevich</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486443">On a limit theorem for an additive functional on a nonrecurrent Markovian chain</a></p>
+		<p>DOI: 10.1007/bf02486443</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;2 (1997)</p></td>
+	<td>417&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486443" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486443">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486443">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486443">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. M. Samoilenko; A. A. Boichuk; V. F. Zhuravlev</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486444">Weakly nonlinear boundary-value problems for operator equations with pulse influence</a></p>
+		<p>DOI: 10.1007/bf02486444</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;2 (1997)</p></td>
+	<td>822&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486444" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486444">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486444">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486444">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. N. Urumbaev</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486445">On finite-dimensional approximation of solutions of ill-posed problems</a></p>
+		<p>DOI: 10.1007/bf02486445</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;2 (1997)</p></td>
+	<td>297&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486445" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486445">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486445">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486445">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. P. Khoma; Ya. B. Petrovskii</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486446">The solvability of a boundary-value periodic problem</a></p>
+		<p>DOI: 10.1007/bf02486446</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;2 (1997)</p></td>
+	<td>242&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486446" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486446">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486446">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486446">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. G. Khoma; N. G. Khoma; A. O. Botyuk</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486447">Existence of the Vejvoda-Shtedry spaces</a></p>
+		<p>DOI: 10.1007/bf02486447</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;2 (1997)</p></td>
+	<td>276&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486447" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486447">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486447">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486447">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. M. Ateiwi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486448">On the problem on periodic solutions of one class of systems of difference equations</a></p>
+		<p>DOI: 10.1007/bf02486448</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;2 (1997)</p></td>
+	<td>256&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486448" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486448">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486448">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486448">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>O. M. Barnyak</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486449">A projective method for the construction of solutions of the problem of normal symmetric oscillations of viscous liquid</a></p>
+		<p>DOI: 10.1007/bf02486449</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;2 (1997)</p></td>
+	<td>339&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486449" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486449">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486449">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486449">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. F. Babenko; V. A. Kofanov; S. A. Pichugov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486450">On additive inequalities for intermediate derivatives of functions given on a finite interval</a></p>
+		<p>DOI: 10.1007/bf02486450</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;5 (1997)</p></td>
+	<td>504&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486450" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486450">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486450">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486450">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nguyen Buong</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486451">Convergence rates and finite-dimensional approximation for a class of ill-posed variational inequalities</a></p>
+		<p>DOI: 10.1007/bf02486451</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;5 (1997)</p></td>
+	<td>420&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486451" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486451">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486451">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486451">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. A. Gasanenko</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486452">Small deviations of solutions of stochastic differential equations in tube domains</a></p>
+		<p>DOI: 10.1007/bf02486452</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;5 (1997)</p></td>
+	<td>575&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486452" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486452">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486452">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486452">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. G. Zelenyuk</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486453">Topologically free subsets of universal algebras</a></p>
+		<p>DOI: 10.1007/bf02486453</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;5 (1997)</p></td>
+	<td>646&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486453" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486453">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486453">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486453">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. V. Kerekesha; S. Yu. Khachaturov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486454">Carleman problem for two pairs of functions in a ring</a></p>
+		<p>DOI: 10.1007/bf02486454</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;5 (1997)</p></td>
+	<td>432&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486454" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486454">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486454">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486454">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. V. Kostin; I. V. Skripnik</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486455">On asymptotic decompositions ofo-solutions in the theory of quasilinear systems of difference equations</a></p>
+		<p>DOI: 10.1007/bf02486455</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;5 (1997)</p></td>
+	<td>282&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486455" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486455">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486455">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486455">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. N. Liman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486456">On infinite groups whose noncyclic norm has a finite index</a></p>
+		<p>DOI: 10.1007/bf02486456</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;5 (1997)</p></td>
+	<td>421&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486456" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486456">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486456">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486456">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. I. Petryshyn; O. M. Pokhyla</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486457">Estimate of an error of the averaging method on a semiaxis for a multifrequency resonance system</a></p>
+		<p>DOI: 10.1007/bf02486457</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;5 (1997)</p></td>
+	<td>269&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486457" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486457">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486457">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486457">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. I. Skrypnik</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486458">Equilibrium in quantum systems of particles with magnetic interaction. Fermi and bose statistics</a></p>
+		<p>DOI: 10.1007/bf02486458</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;5 (1997)</p></td>
+	<td>354&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486458" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486458">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486458">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486458">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. G. Smirnov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02486459">On the Lie algebra structures connected with Hamiltonian dynamical systems</a></p>
+		<p>DOI: 10.1007/bf02486459</p>	</td>
+	<td><p><a href="/scimag/journals/25207">Ukrainian Mathematical Journal</a><p>volume&nbsp;49, issue&nbsp;5 (1997)</p></td>
+	<td>332&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02486459" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02486459">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02486459">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02486459">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">8&nbsp;473 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 339</span>
+	 <a href="/scimag/?journal=25207&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

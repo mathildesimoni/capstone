@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1617-4909</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1617-4917</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 70; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 70');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=19264&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;745 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 70</span>
+	 <a href="/scimag/?journal=19264&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Dorota M. Huizinga</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01299646">Special issue editorial: Mobile computing applications</a></p>
+		<p>DOI: 10.1007/bf01299646</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;1, issue&nbsp;3 (1997)</p></td>
+	<td>184&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01299646" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01299646">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01299646">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01299646">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jie Li; Hisao Kameda; Hideto Itoh</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01299647">Optimal assignment of cells in PCS networks</a></p>
+		<p>DOI: 10.1007/bf01299647</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;1, issue&nbsp;3 (1997)</p></td>
+	<td>873&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01299647" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01299647">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01299647">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01299647">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dorota M. Huizinga; Patrick Mann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01299648">Disconnected operation for heterogeneous servers: A practical approach</a></p>
+		<p>DOI: 10.1007/bf01299648</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;1, issue&nbsp;3 (1997)</p></td>
+	<td>907&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01299648" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01299648">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01299648">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01299648">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Geoffrey H. Kuenning; Peter Reiher; Gerald J. Popek</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01299649">Experience with an automated hoarding system</a></p>
+		<p>DOI: 10.1007/bf01299649</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;1, issue&nbsp;3 (1997)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01299649" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01299649">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01299649">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01299649">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Antonio Si; Hong Va Leong</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01299650">Adaptive caching and refreshing in mobile databases</a></p>
+		<p>DOI: 10.1007/bf01299650</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;1, issue&nbsp;3 (1997)</p></td>
+	<td>1.47&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01299650" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01299650">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01299650">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01299650">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gary D. Walborn; Panos K. Chrysanthis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01299651">PRO-MOTION: Support for mobile database access</a></p>
+		<p>DOI: 10.1007/bf01299651</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;1, issue&nbsp;3 (1997)</p></td>
+	<td>999&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01299651" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01299651">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01299651">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01299651">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin Maskarinec; Kathleen Neumann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01299652">Expanding a distributed deductive database with mobile computing</a></p>
+		<p>DOI: 10.1007/bf01299652</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;1, issue&nbsp;3 (1997)</p></td>
+	<td>492&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01299652" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01299652">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01299652">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01299652">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Omran Bukhres; Stuart Morton; Clement McDonald</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01299653">Mobile architecture for the Wishard Memorial Hospital Ambulatory Service</a></p>
+		<p>DOI: 10.1007/bf01299653</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;1, issue&nbsp;3 (1997)</p></td>
+	<td>782&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01299653" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01299653">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01299653">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01299653">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Olaf Zukunft</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01299654">Adaptation in mobile workflow management systems</a></p>
+		<p>DOI: 10.1007/bf01299654</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;1, issue&nbsp;3 (1997)</p></td>
+	<td>543&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01299654" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01299654">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01299654">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01299654">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hans-Werner Gellersen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01305314">Guest editorial: Handheld CSCW: Personal technologies for collaboration</a></p>
+		<p>DOI: 10.1007/bf01305314</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;3, issue&nbsp;1-2 (1999)</p></td>
+	<td>689&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01305314" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01305314">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01305314">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01305314">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kamal Ayad; Mark Day; Steve Foley; Dan Gruen; Steve Rohall; Quinton Zondervan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01305315">Pagers, pilots and prairie dog: Awareness via handheld devices</a></p>
+		<p>DOI: 10.1007/bf01305315</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;3, issue&nbsp;1-2 (1999)</p></td>
+	<td>803&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01305315" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01305315">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01305315">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01305315">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Olivier Liechti; Mark Sifer; Tadao Ichikawa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01305317">A non-obtrusive user interface for increasing social awareness on the World Wide Web</a></p>
+		<p>DOI: 10.1007/bf01305317</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;3, issue&nbsp;1-2 (1999)</p></td>
+	<td>2.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01305317" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01305317">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01305317">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01305317">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Keith Cheverst; Gordon Blair; Nigel Davies; Adrian Friday</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01305318">The support of mobile-awareness in collaborative groupware</a></p>
+		<p>DOI: 10.1007/bf01305318</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;3, issue&nbsp;1-2 (1999)</p></td>
+	<td>1.41&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01305318" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01305318">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01305318">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01305318">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Catherine C. Marshall; Morgan N. Price; Gene Golovchinsky; Bill N. Schilit</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01305319">Collaborating over portable reading appliances</a></p>
+		<p>DOI: 10.1007/bf01305319</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;3, issue&nbsp;1-2 (1999)</p></td>
+	<td>1.60&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01305319" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01305319">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01305319">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01305319">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Saul Greenberg; Michael Boyle; Jason Laberge</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01305320">PDAs and shared public displays: Making personal information public, and public information personal</a></p>
+		<p>DOI: 10.1007/bf01305320</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;3, issue&nbsp;1-2 (1999)</p></td>
+	<td>2.42&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01305320" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01305320">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01305320">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01305320">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jane Siegel; Elaine Hyder</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01305321">Enabling collaborative work: Work in progress</a></p>
+		<p>DOI: 10.1007/bf01305321</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;3, issue&nbsp;1-2 (1999)</p></td>
+	<td>1.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01305321" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01305321">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01305321">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01305321">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Billinghurst; J. Bowskill; M. Jessop; J. Morphett</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01305322">Spatial conferencing using a wearable computer</a></p>
+		<p>DOI: 10.1007/bf01305322</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;3, issue&nbsp;1-2 (1999)</p></td>
+	<td>1.37&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01305322" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01305322">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01305322">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01305322">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kori M. Inkpen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01305323">Designing handheld technologies for kids</a></p>
+		<p>DOI: 10.1007/bf01305323</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;3, issue&nbsp;1-2 (1999)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01305323" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01305323">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01305323">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01305323">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andrew Monk; David Frohlich</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01305333">Guest editorial: Computers and fun</a></p>
+		<p>DOI: 10.1007/bf01305333</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;3, issue&nbsp;3 (1999)</p></td>
+	<td>57&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01305333" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01305333">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01305333">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01305333">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dongseong Choi; Hoyoung Kim; Jinwoo Kim</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01305334">Toward the construction of fun computer games: Differences in the views of developers and players</a></p>
+		<p>DOI: 10.1007/bf01305334</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;3, issue&nbsp;3 (1999)</p></td>
+	<td>1.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01305334" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01305334">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01305334">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01305334">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chris Johnson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01305335">Taking fun seriously: Using cognitive models to reason about interaction with computer games</a></p>
+		<p>DOI: 10.1007/bf01305335</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;3, issue&nbsp;3 (1999)</p></td>
+	<td>1.60&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01305335" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01305335">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01305335">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01305335">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen W. Draper</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01305336">Analysing fun as a candidate software requirement</a></p>
+		<p>DOI: 10.1007/bf01305336</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;3, issue&nbsp;3 (1999)</p></td>
+	<td>586&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01305336" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01305336">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01305336">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01305336">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Adrian Williamson; Robert Ward</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01305337">Emotion in interactive systems: Applying transactional analysis</a></p>
+		<p>DOI: 10.1007/bf01305337</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;3, issue&nbsp;3 (1999)</p></td>
+	<td>869&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01305337" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01305337">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01305337">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01305337">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gil Weinberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01305338">The Musical Playpen: An immersive digital musical instrument</a></p>
+		<p>DOI: 10.1007/bf01305338</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;3, issue&nbsp;3 (1999)</p></td>
+	<td>518&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01305338" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01305338">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01305338">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01305338">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anu Mäkelä; Katja Battarbee</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01305339">It's fun to do things together: Two cases of explorative user studies</a></p>
+		<p>DOI: 10.1007/bf01305339</p>	</td>
+	<td><p><a href="/scimag/journals/19264">Personal and Ubiquitous Computing</a><p>volume&nbsp;3, issue&nbsp;3 (1999)</p></td>
+	<td>603&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01305339" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01305339">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01305339">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01305339">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;745 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 70</span>
+	 <a href="/scimag/?journal=19264&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

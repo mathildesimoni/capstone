@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/3001">Bipolar Disorders</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1398-5647</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1399-5618</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 101; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 101');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=3001&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;507 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 101</span>
+	 <a href="/scimag/?journal=3001&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Ronald R Fieve</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.010201.x">Lithium therapy at the millennium: a revolutionary drug used for 50 years faces competing options and possible demise</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.010201.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;2 (1999)</p></td>
+	<td>99&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.010201.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.010201.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.010201.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.010201.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert H Belmaker</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.010202.x">Antibipolar potential for transcranial magnetic stimulation</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.010202.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;2 (1999)</p></td>
+	<td>62&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.010202.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.010202.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.010202.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.010202.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ziad Nahas; Monica A Molloy; Patrick L Hughes; Nicholas C Oliver; George W Arana; S Craig Risch; Mark S George</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.010203.x">Repetitive transcranial magnetic stimulation: perspectives for application in the treatment of bipolar and unipolar disorders</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.010203.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;2 (1999)</p></td>
+	<td>265&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.010203.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.010203.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.010203.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.010203.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chang-Gyu Hahn; Eitan Friedman</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.010204.x">Abnormalities in protein kinase C signaling and the pathophysiology of bipolar disorder</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.010204.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;2 (1999)</p></td>
+	<td>237&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.010204.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.010204.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.010204.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.010204.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patricia C Salinas; Anita C Hall</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.010205.x">Lithium and synaptic plasticity</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.010205.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;2 (1999)</p></td>
+	<td>157&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.010205.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.010205.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.010205.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.010205.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ross J Baldessarini; Leonardo Tondo; John Hennen; Gianfranco Floris</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.010206.x">Latency and episodes before treatment: response to lithium maintenance in bipolar I and II disorders      </a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.010206.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;2 (1999)</p></td>
+	<td>235&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.010206.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.010206.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.010206.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.010206.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David S Janowsky; Shirley Morter; Liyi Hong; Laura Howe</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.010207.x">Myers Briggs Type Indicator and Tridimensional Personality Questionnaire differences between bipolar patients and unipolar depressed patients</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.010207.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;2 (1999)</p></td>
+	<td>180&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.010207.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.010207.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.010207.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.010207.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P Plenge; M Amin; Ak Agarwal; W Greil; M-J Kim; G Panteleyeva; J-M Park; L Prilipko; V Rayushkin; M Sharma; E Mellerup</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.010208.x">Prophylactic efficacy of lithium administered every second day: a WHO multicentre study</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.010208.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;2 (1999)</p></td>
+	<td>181&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.010208.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.010208.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.010208.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.010208.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vidyasagar R Vangala; E Sherwood Brown; Trisha Suppes</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.010210.x">Clozapine associated with decreased suicidality in bipolar disorder: a case report</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.010210.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;2 (1999)</p></td>
+	<td>93&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.010210.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.010210.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.010210.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.010210.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jair C Soares; Samuel Gershon</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.10101.x">Introductory Editorial for Bipolar Disorders – An International Journal of Psychiatry and Neurosciences</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.10101.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;1 (1999)</p></td>
+	<td>60&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.10101.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.10101.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.10101.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.10101.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alec Coppen</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.10102.x">50 Years of Lithium Treatment of Mood Disorders</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.10102.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;1 (1999)</p></td>
+	<td>81&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.10102.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.10102.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.10102.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.10102.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mogens Schou</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.10103.x">Perspectives on lithium treatment of bipolar disorder: action, efficacy, effect on suicidal behavior</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.10103.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;1 (1999)</p></td>
+	<td>128&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.10103.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.10103.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.10103.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.10103.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Guy M Goodwin</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.10104.x">“Perspectives on lithium treatment of bipolar disorder” – by Mogens Schou: a commentary</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.10104.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;1 (1999)</p></td>
+	<td>92&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.10104.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.10104.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.10104.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.10104.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gordon Johnson</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.10105.x">“Perspectives on lithium treatment of bipolar disorder” – by Mogens Schou: a commentary</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.10105.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;1 (1999)</p></td>
+	<td>102&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.10105.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.10105.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.10105.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.10105.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ross J Baldessarini; Leonardo Tondo; Adele C Viguera</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.10106.x">Discontinuing lithium maintenance treatment in bipolar disorders: risks and implications</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.10106.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;1 (1999)</p></td>
+	<td>201&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.10106.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.10106.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.10106.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.10106.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Russell T Joffe; L Trevor Young; Glenda M MacQueen</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.10107.x">A two-illness model of bipolar disorder </a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.10107.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;1 (1999)</p></td>
+	<td>119&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.10107.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.10107.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.10107.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.10107.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Charles L Bowden</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.10108.x">“A two-illness model of bipolar disorder” – by RT Joffe, LT Young, and GM MacQueen: a commentary</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.10108.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;1 (1999)</p></td>
+	<td>138&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.10108.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.10108.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.10108.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.10108.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David L Dunner</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.10109.x">“A two-illness model of bipolar disorder” – by RT Joffe, LT Young, and GM MacQueen: a commentary</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.10109.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;1 (1999)</p></td>
+	<td>91&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.10109.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.10109.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.10109.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.10109.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alan C Swann</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.10110.x">“A two-illness model of bipolar disorder” – by RT Joffe, LT Young, and GM MacQueen: a commentary</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.10110.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;1 (1999)</p></td>
+	<td>103&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.10110.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.10110.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.10110.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.10110.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kn Roy Chengappa; Dilip Rathore; Joseph Levine; Rebecca Atzert; Lalith Solai; Haranath Parepally; Harry Levin; Nicolas Moffa; Joyce Delaney; Jaspreet S Brar</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.10111.x">Topiramate as add-on treatment for patients with bipolar mania</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.10111.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;1 (1999)</p></td>
+	<td>220&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.10111.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.10111.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.10111.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.10111.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Max Fink</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.10112.x">Delirious mania</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.10112.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;1 (1999)</p></td>
+	<td>139&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.10112.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.10112.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.10112.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.10112.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lori L Altshuler; Paul E Keck Jr; Susan L McElroy; Trisha Suppes; E Sherwood Brown; Kirk Denicoff; Mark Frye; Michael Gitlin; Sun Hwang; Robyn Goodman; Gabriele Leverich; Williem Nolen; Ralph Kupka; Robert Post</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.1999.10113.x">Gabapentin in the acute treatment of refractory bipolar disorder</a></p>
+		<p>DOI: 10.1034/j.1399-5618.1999.10113.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;1, issue&nbsp;1 (1999)</p></td>
+	<td>134&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.1999.10113.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.1999.10113.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.1999.10113.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.1999.10113.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jair C Soares; Samuel Gershon</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.2000.020101.x">The diagnostic boundaries of bipolar disorder</a></p>
+		<p>DOI: 10.1034/j.1399-5618.2000.020101.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;2, issue&nbsp;1 (2000)</p></td>
+	<td>65&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.2000.020101.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.2000.020101.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.2000.020101.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.2000.020101.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ross J Baldessarini</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.2000.020102.x">A plea for integrity of the bipolar disorder concept</a></p>
+		<p>DOI: 10.1034/j.1399-5618.2000.020102.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;2, issue&nbsp;1 (2000)</p></td>
+	<td>112&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.2000.020102.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.2000.020102.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.2000.020102.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.2000.020102.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James B Potash; J Raymond DePaulo Jr</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1399-5618.2000.020103.x">Searching high and low: a review of the genetics of bipolar disorder</a></p>
+		<p>DOI: 10.1034/j.1399-5618.2000.020103.x</p>	</td>
+	<td><p><a href="/scimag/journals/3001">Bipolar Disorders</a><p>volume&nbsp;2, issue&nbsp;1 (2000)</p></td>
+	<td>310&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1399-5618.2000.020103.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1399-5618.2000.020103.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1399-5618.2000.020103.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1399-5618.2000.020103.x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;507 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 101</span>
+	 <a href="/scimag/?journal=3001&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

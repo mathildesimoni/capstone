@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer Netherlands</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1134-3060</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1886-1784</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 24; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 24');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1953&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">580 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 24</span>
+	 <a href="/scimag/?journal=1953&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Rui P. R. Cardoso; Jeong-Whan Yoon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736172">One point quadrature shell elements for sheet metal forming analysis</a></p>
+		<p>DOI: 10.1007/bf02736172</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;12, issue&nbsp;1 (2005)</p></td>
+	<td>2.73&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736172" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736172">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736172">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736172">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. D. Ledger; K. Morgan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736177">The application of thehp—finite element method to electromagnetic problems</a></p>
+		<p>DOI: 10.1007/bf02736177</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;12, issue&nbsp;3 (2005)</p></td>
+	<td>2.67&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736177" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736177">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736177">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736177">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. Doltsinis; F. Osterstock</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736178">Modelling and experimentation on the strength of porous ceramics</a></p>
+		<p>DOI: 10.1007/bf02736178</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;12, issue&nbsp;3 (2005)</p></td>
+	<td>5.68&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736178" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736178">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736178">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736178">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Givoli</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736182">Recent advances in the DtN FE Method</a></p>
+		<p>DOI: 10.1007/bf02736182</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;6, issue&nbsp;2 (1999)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736182" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736182">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736182">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736182">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. C. Nelli Silva; J. S. Ono Fonseca; F. Montero de Espinosa; A. T. Crumm; G. A. Brady; J. W. Halloran; N. Kikuchi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736183">Design of piezocomposite materials and piezoelectric transducers using topology optimization—Part I</a></p>
+		<p>DOI: 10.1007/bf02736183</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;6, issue&nbsp;2 (1999)</p></td>
+	<td>2.21&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736183" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736183">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736183">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736183">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. K. Choi; S. H. Kim; Y. M. Park; H. J. Chung</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736184">The best of the enhanced displacement non-conforming plate/ shell elements</a></p>
+		<p>DOI: 10.1007/bf02736184</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;7, issue&nbsp;1 (2000)</p></td>
+	<td>275&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736184" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736184">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736184">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736184">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. R. M. Lyra; K. Morgan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736185">A review and comparative study of upwind biased schemes for compressible flow computation. Part I: 1—D first—order schemes</a></p>
+		<p>DOI: 10.1007/bf02736185</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;7, issue&nbsp;1 (2000)</p></td>
+	<td>540&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736185" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736185">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736185">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736185">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Tinsley Oden; Serge Prudhomme; Leszek Demkowicz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736190">A posteriori error estimation for acoustic wave propagation problems</a></p>
+		<p>DOI: 10.1007/bf02736190</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;12, issue&nbsp;4 (2005)</p></td>
+	<td>619&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736190" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736190">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736190">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736190">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paolo Maria Mariano; Furio Lorenzo Stazi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736191">Computational aspects of the mechanics of complex materials</a></p>
+		<p>DOI: 10.1007/bf02736191</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;12, issue&nbsp;4 (2005)</p></td>
+	<td>1.99&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736191" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736191">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736191">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736191">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. D. Ngo; K. K. Tamma</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736208">Computational developments for simulation based design: Multi-scale physics and flow/thermal/cure/stress modeling, analysis, and validation for advanced manufacturing of composites with complex microstructures</a></p>
+		<p>DOI: 10.1007/bf02736208</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;10, issue&nbsp;1-2 (2003)</p></td>
+	<td>21.88&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736208" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736208">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736208">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736208">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. K. Tamma; X. Zhou; D. Sha</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736209">The time dimension: A theory towards the evolution, classification, characterization and design of computational algorithms for transient/ dynamic applications</a></p>
+		<p>DOI: 10.1007/bf02736209</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;7, issue&nbsp;2 (2000)</p></td>
+	<td>3.42&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736209" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736209">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736209">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736209">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. M. Habraken</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736210">Modelling the plastic anisotropy of metals</a></p>
+		<p>DOI: 10.1007/bf02736210</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;11, issue&nbsp;1 (2004)</p></td>
+	<td>3.37&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736210" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736210">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736210">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736210">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Kuhl; E. Ramm</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736211">Time integration in the context of energy control and locking free finite elements</a></p>
+		<p>DOI: 10.1007/bf02736211</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;7, issue&nbsp;3 (2000)</p></td>
+	<td>790&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736211" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736211">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736211">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736211">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. R. M. Lyra; K. Morgan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736212">A review and comparative study of upwind biased schemes for compressible flow computation. Part II: 1-D higher-order schemes</a></p>
+		<p>DOI: 10.1007/bf02736212</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;7, issue&nbsp;3 (2000)</p></td>
+	<td>631&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736212" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736212">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736212">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736212">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anand R. Mijar; Jasbir S. Arora</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736213">Study of variational inequality and equality formulations for elastostatic frictional contact problems</a></p>
+		<p>DOI: 10.1007/bf02736213</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;7, issue&nbsp;4 (2000)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736213" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736213">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736213">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736213">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. Elishakoff</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736214">A selective review of direct, semi-inverse and inverse eigenvalue problems for structures described by differential equations with variable coefficients</a></p>
+		<p>DOI: 10.1007/bf02736214</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;7, issue&nbsp;4 (2000)</p></td>
+	<td>649&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736214" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736214">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736214">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736214">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Erasmo Carrera</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736224">Theories and Finite Elements for Multilayered Plates and Shells:A Unified compact formulation with numerical assessment and benchmarking</a></p>
+		<p>DOI: 10.1007/bf02736224</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;10, issue&nbsp;3 (2003)</p></td>
+	<td>1.43&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736224" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736224">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736224">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736224">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Labourasse; P. Sagaut</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736227">Advance in RANS-LES coupling, a review and an insight on the NLDE approach</a></p>
+		<p>DOI: 10.1007/bf02736227</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;11, issue&nbsp;3 (2004)</p></td>
+	<td>1.77&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736227" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736227">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736227">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736227">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. J. Sinou; F. Thouverez; L. Jézéquel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736228">Methods to reduce non-linear mechanical systems for instability computation</a></p>
+		<p>DOI: 10.1007/bf02736228</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;11, issue&nbsp;3 (2004)</p></td>
+	<td>8.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736228" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736228">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736228">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736228">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Kiziltas; N. Kikuchi; J. L. Volakis; J. Halloran</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736229">Topology optimization of dielectric substrates for filters and antennas using SIMP</a></p>
+		<p>DOI: 10.1007/bf02736229</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;11, issue&nbsp;4 (2004)</p></td>
+	<td>832&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736229" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736229">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736229">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736229">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Mosler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736230">On the modeling of highly localized deformations induced by material failure: The strong discontinuity approach</a></p>
+		<p>DOI: 10.1007/bf02736230</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;11, issue&nbsp;4 (2004)</p></td>
+	<td>5.70&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736230" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736230">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736230">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736230">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Nithiarasu; K. N. Seetharamu; T. Sundararajan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736231">Finite element modelling of flow, heat and mass transfer in fluid saturated porous media</a></p>
+		<p>DOI: 10.1007/bf02736231</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;9, issue&nbsp;1 (2002)</p></td>
+	<td>2.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736231" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736231">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736231">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736231">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. Kovač; S. Gotovac; D. Poljak</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736232">A new front updating solution applied to some engineering problems</a></p>
+		<p>DOI: 10.1007/bf02736232</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;9, issue&nbsp;1 (2002)</p></td>
+	<td>753&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736232" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736232">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736232">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736232">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Cueto; N. Sukumar; B. Calvo; M. A. Martínez; J. Cegoñino; M. Doblaré</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736253">Overview and recent advances in natural neighbour galerkin methods</a></p>
+		<p>DOI: 10.1007/bf02736253</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;10, issue&nbsp;4 (2003)</p></td>
+	<td>9.81&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736253" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736253">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736253">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736253">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Erez Gal; Robert Levy</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736397">Geometrically nonlinear analysis of shell structures using a flat triangular shell finite element</a></p>
+		<p>DOI: 10.1007/bf02736397</p>	</td>
+	<td><p><a href="/scimag/journals/1953">Archives of Computational Methods in Engineering</a><p>volume&nbsp;13, issue&nbsp;3 (2006)</p></td>
+	<td>619&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736397" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736397">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736397">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736397">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">580 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 24</span>
+	 <a href="/scimag/?journal=1953&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

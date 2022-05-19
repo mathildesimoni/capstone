@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/990">American Business Law Journal</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0002-7766</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1744-1714</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 23; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 23');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=990&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">566 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 23</span>
+	 <a href="/scimag/?journal=990&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>O. Lee Reed</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1997.tb01001.x">A FREE SPEECH METAVALUE FOR THE NEXT MILLENNIUM: AUTONOMY OF CONSCIOUSNESS IN FIRST AMENDMENT THEORY AND PRACTICE</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1997.tb01001.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;35, issue&nbsp;1 (1997)</p></td>
+	<td>2.86&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1997.tb01001.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1997.tb01001.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1997.tb01001.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1997.tb01001.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Terry Morehead Dworkin</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1997.tb01002.x">IT'S MY LIFE - LEAVE ME ALONE: OFF - THE - JOB EMPLOYEE ASSOCIATIONAL PRIVACY RIGHTS</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1997.tb01002.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;35, issue&nbsp;1 (1997)</p></td>
+	<td>3.60&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1997.tb01002.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1997.tb01002.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1997.tb01002.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1997.tb01002.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Murray S. Levin</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1997.tb01003.x">THE ROLE OF SUBSTANTIVE LAW IN BUSINESS ARBITRATION AND THE IMPORTANCE OF VOLITION</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1997.tb01003.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;35, issue&nbsp;1 (1997)</p></td>
+	<td>4.78&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1997.tb01003.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1997.tb01003.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1997.tb01003.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1997.tb01003.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kenneth L. Shropshire</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1998.tb01004.x">INTRODUCTION: SPORTS LAW?</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1998.tb01004.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;35, issue&nbsp;2 (1998)</p></td>
+	<td>203&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1998.tb01004.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1998.tb01004.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1998.tb01004.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1998.tb01004.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ross D. Petty</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1998.tb01005.x">THE IMPACT OF THE SPORT OF BICYCLE RIDING ON SAFETY LAW</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1998.tb01005.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;35, issue&nbsp;2 (1998)</p></td>
+	<td>2.43&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1998.tb01005.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1998.tb01005.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1998.tb01005.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1998.tb01005.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Maureen Archer; Ronnie Cohen</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1998.tb01006.x">SIDELINED ON THE (JUDICIAL) BENCH SPORTS METAPHORS IN JUDICIAL OPINIONS</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1998.tb01006.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;35, issue&nbsp;2 (1998)</p></td>
+	<td>3.79&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1998.tb01006.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1998.tb01006.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1998.tb01006.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1998.tb01006.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alfred Dennis Mathewson</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1998.tb01007.x">MAJOR LEAGUE BASEBALL'S MONOPOLY POWER AND THE NEGRO LEAGUES</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1998.tb01007.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;35, issue&nbsp;2 (1998)</p></td>
+	<td>1.60&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1998.tb01007.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1998.tb01007.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1998.tb01007.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1998.tb01007.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ethan Lock</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1998.tb01008.x">THE REGULATORY SCHEME FOR PLAYER REPRESENTATIVES IN THE NATIONAL FOOTBALL LEAGUE: THE REAL POWER OF JERRY MAGUIRE</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1998.tb01008.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;35, issue&nbsp;2 (1998)</p></td>
+	<td>1.71&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1998.tb01008.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1998.tb01008.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1998.tb01008.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1998.tb01008.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jordan H. Leibman; Robert B. Bennett Jr.; Richard Fetter</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1998.tb01009.x">THE EFFECT OF LIFTING THE BLINDFOLD FROM CIVIL JURIES CHARGED WITH APPORTIONING DAMAGES IN MODIFIED COMPARATIVE FAULT CASES: AN EMPIRICAL STUDY OF THE ALTERNATIVES</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1998.tb01009.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;35, issue&nbsp;3 (1998)</p></td>
+	<td>3.16&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1998.tb01009.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1998.tb01009.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1998.tb01009.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1998.tb01009.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joan T. A. Gabel; Nancy R. Mansfield; Robert W. Klein</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1998.tb01010.x">THE NEW RELATIONSHIP BETWEEN INJURED WORKER AND EMPLOYER: AN OPPORTUNITY FOR RESTRUCTURING THE SYSTEM</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1998.tb01010.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;35, issue&nbsp;3 (1998)</p></td>
+	<td>2.36&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1998.tb01010.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1998.tb01010.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1998.tb01010.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1998.tb01010.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark S. Blodgett; Donald O. Mayer</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1998.tb01011.x">International Letters of Credit: Arbitral Alternatives to Litigating Fraud</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1998.tb01011.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;35, issue&nbsp;3 (1998)</p></td>
+	<td>1.55&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1998.tb01011.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1998.tb01011.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1998.tb01011.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1998.tb01011.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ronnie Cohen</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1998.tb01012.x">BOOK REVIEW: The Temple Bombing (Melissa Faye Greene, Fawcett Columbine, 1996,436 pages)</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1998.tb01012.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;35, issue&nbsp;3 (1998)</p></td>
+	<td>424&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1998.tb01012.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1998.tb01012.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1998.tb01012.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1998.tb01012.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>FRANK B. CROSS</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1998.tb01013.x">LAWYERS, THE ECONOMY, AND SOCIETY</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1998.tb01013.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;35, issue&nbsp;4 (1998)</p></td>
+	<td>1.72&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1998.tb01013.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1998.tb01013.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1998.tb01013.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1998.tb01013.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>WILLIAM H. DAUGHTREY JR.; DONNIE L. KIDD JR.</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1998.tb01014.x">SHIFTING ATTORNEY'S FEES IN LITIGATION ATTACKING COMMERCIAL ARBITRATION AWARDS: A DISINCENTIVE FOR MERITLESS MOTIONS FOR CORRECTION, MODIFICATION, OR VACATUR</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1998.tb01014.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;35, issue&nbsp;4 (1998)</p></td>
+	<td>2.83&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1998.tb01014.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1998.tb01014.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1998.tb01014.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1998.tb01014.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>ROBERT W. EMERSON</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1998.tb01015.x">FRANCHISE TERMINATION: LEGAL RIGHTS AND PRACTICAL EFFECTS WHEN FRANCHISEES CLAIM THE FRANCHISOR DISCRIMINATES</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1998.tb01015.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;35, issue&nbsp;4 (1998)</p></td>
+	<td>5.68&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1998.tb01015.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1998.tb01015.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1998.tb01015.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1998.tb01015.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. NEIL BROWNE; TERRI J. KEELEY; WESLEY J. HIERS</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1998.tb01016.x">THE EPISTEMOLOGICAL ROLE OF EXPERT WITNESSES AND TOXIC TORTS</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1998.tb01016.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;36, issue&nbsp;1 (1998)</p></td>
+	<td>4.68&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1998.tb01016.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1998.tb01016.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1998.tb01016.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1998.tb01016.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>SANDRA K. MILLER</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1998.tb01017.x">PIERCING THE CORPORATE VEIL AMONG AFFILIATED COMPANIES IN THE EUROPEAN COMMUNITY AND IN THE US.: A COMPARATIVE ANALYSIS OF U.S., GERMAN, AND U.K. VEIL-PIERCING APPROACHES</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1998.tb01017.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;36, issue&nbsp;1 (1998)</p></td>
+	<td>4.95&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1998.tb01017.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1998.tb01017.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1998.tb01017.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1998.tb01017.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>TERRY MOREHEAD DWORKIN; ELLETTA SANGREY CALLAHAN</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1998.tb01018.x">BUYING SILENCE</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1998.tb01018.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;36, issue&nbsp;1 (1998)</p></td>
+	<td>2.57&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1998.tb01018.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1998.tb01018.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1998.tb01018.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1998.tb01018.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>DANIEL T. OSTAS</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1998.tb01019.x">POSTMODERN ECONOMIC ANALYSIS OF LAW: EXTENDING THE PRAGMATIC VISIONS OF RICHARD A. POSNER</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1998.tb01019.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;36, issue&nbsp;1 (1998)</p></td>
+	<td>2.81&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1998.tb01019.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1998.tb01019.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1998.tb01019.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1998.tb01019.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>ROBERTA PRENTICE; VERNON J. RICHARDSON; SUSAN SCHOLZ</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1999.tb00263.x">CORPORATE WEB SITE DISCLOSURE AND RULE 10b-5: AN EMPIRICAL EVALUATION</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1999.tb00263.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;36, issue&nbsp;4 (1999)</p></td>
+	<td>4.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1999.tb00263.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1999.tb00263.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1999.tb00263.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1999.tb00263.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>SANDRAK MILLER</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1999.tb00264.x">HOW SHOULD U.K. AND U.S. MINORITY SHAREHOLDER REMEDIES FOR UNFAIRLY PREJUDICIAL OR OPPRESSIVE CONDUCT BE REFORMED?</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1999.tb00264.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;36, issue&nbsp;4 (1999)</p></td>
+	<td>3.35&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1999.tb00264.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1999.tb00264.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1999.tb00264.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1999.tb00264.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>ROBBIN DERRY; TIMOTHY L. FORT; WILLIAM C. FREDERICK; NANCY R. HAUSERMAN</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1999.tb00265.x">NATURE'S PLACE IN LEGAL AND ETHICAL REASONING: AN INTERACTIVE COMMENTARY ON WILLIAM FREDERICK'S VALUES, NATURE AND CULTURE IN THE AMERICAN CORPORATION</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1999.tb00265.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;36, issue&nbsp;4 (1999)</p></td>
+	<td>2.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1999.tb00265.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1999.tb00265.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1999.tb00265.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1999.tb00265.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>LYNDA J. OSWALD</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1999.tb00266.x">SPECIAL EDITOR'S INTRODUCTION</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1999.tb00266.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;37, issue&nbsp;1 (1999)</p></td>
+	<td>123&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1999.tb00266.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1999.tb00266.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1999.tb00266.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1999.tb00266.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>MARTIN A. MCCRORY</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1999.tb00267.x">WHO'S ON FIRST: CERCLA COST RECOVERY, CONTRIBUTION, AND PROTECTION</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1999.tb00267.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;37, issue&nbsp;1 (1999)</p></td>
+	<td>1.87&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1999.tb00267.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1999.tb00267.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1999.tb00267.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1999.tb00267.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>PAULA C. MURRAY</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1744-1714.1999.tb00268.x">INCHING TOWARD ENVIRONMENTAL REGULATORY REFORM—ISO 14000: MUCH ADO ABOUT NOTHING OR A REINVENTION TOOL?</a></p>
+		<p>DOI: 10.1111/j.1744-1714.1999.tb00268.x</p>	</td>
+	<td><p><a href="/scimag/journals/990">American Business Law Journal</a><p>volume&nbsp;37, issue&nbsp;1 (1999)</p></td>
+	<td>2.36&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1744-1714.1999.tb00268.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1744-1714.1999.tb00268.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1744-1714.1999.tb00268.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1744-1714.1999.tb00268.x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">566 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 23</span>
+	 <a href="/scimag/?journal=990&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

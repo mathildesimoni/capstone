@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/8095">GeneScreen</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1466-920X</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1466-9218</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 2; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 2');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=8095&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">38 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 2</span>
+	 <a href="/scimag/?journal=8095&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Bruce M. Psaty; Mary Cushman; Frits R. Rosendaal</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-920x.2001.00035.x">Simulation of a putative susceptibility risk factor to explain the findings of the Heart and Estrogen/progestin Replacement Study (HERS)</a></p>
+		<p>DOI: 10.1046/j.1466-920x.2001.00035.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;3 (2001)</p></td>
+	<td>164&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-920x.2001.00035.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-920x.2001.00035.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-920x.2001.00035.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-920x.2001.00035.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joel S. Bader; Aruna Bansal; Pak Sham</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-920x.2001.00036.x">Efficient SNP-based tests of association for quantitative phenotypes using pooled DNA</a></p>
+		<p>DOI: 10.1046/j.1466-920x.2001.00036.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;3 (2001)</p></td>
+	<td>477&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-920x.2001.00036.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-920x.2001.00036.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-920x.2001.00036.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-920x.2001.00036.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. M. Mayosi; M. A. Vickers; F. R. Green; P. J. Ratcliffe; C. Julier; G. M. Lathrop; H. Watkins; B. Keavney</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-920x.2001.00037.x">Evidence for a quantitative trait locus for plasma fibrinogen from a family–based association study</a></p>
+		<p>DOI: 10.1046/j.1466-920x.2001.00037.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;3 (2001)</p></td>
+	<td>234&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-920x.2001.00037.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-920x.2001.00037.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-920x.2001.00037.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-920x.2001.00037.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Isabelle Arnould; Lynn M. Schriml; Catherine Prades; Marcia Lachtermacher-Triunfol;  Thomas Schneider; Christelle Maintoux; Cendrine Lemoine; Delphine Debono; Catherine Devaud; Laurent Naudin; Stéphanie Bauché; Mélanie Annat; Tarmo Annilo; Rando Allikmets; Bert Gold; Patrice Denèfle; Marie Rosier; Michael Dean</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-920x.2001.00038.x">Identifying and characterizing a five-gene cluster of ATP-binding cassette transporters mapping to human chromosome 17q24: a new subgroup within the ABCA subfamily</a></p>
+		<p>DOI: 10.1046/j.1466-920x.2001.00038.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;3 (2001)</p></td>
+	<td>444&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-920x.2001.00038.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-920x.2001.00038.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-920x.2001.00038.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-920x.2001.00038.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chad Garner; Thanusak Tatu; Laurence Game; Lon R. Cardon; Tim D. Spector; Martin Farrall; Swee Lay Thein</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00001.x">A candidate gene study of F cell levels in sibling pairs using a joint linkage and association analysis</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00001.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>363&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00001.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00001.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00001.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00001.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lucia Corrado; Paola Riva; Marco Venturin; Angela Bentivegna; Cristina Gervasini; Lidia Larizza</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00002.x">Mapping of genes and ESTs assigned to 17q11.2 to a YAC contig centred on the <em>NF1</em> gene</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00002.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>536&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00002.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00002.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00002.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00002.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexandre Alcaïs; Laurent Abel</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00003.x">Robustness of the maximum-likelihood-binomial approach for linkage analysis of quantitative trait loci with non-normal phenotypic data</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00003.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>282&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00003.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00003.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00003.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00003.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tuncay Kayademir; Ian Rosewell; Nikolaus Blin; Peter Gött</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00004.x">Genomic structure of the mouse trefoil factor (Tff) gene cluster in 17q</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00004.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>357&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00004.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00004.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00004.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00004.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Mancama; M. J. Arranz; J. Munro; A. Makoff; R. Kerwin</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00005.x">The histamine 1 and histamine 2 receptor genes—candidates for schizophrenia and clozapine drug response</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00005.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>330&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00005.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00005.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00005.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00005.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul J. Coucke; Lut Van Laer; Johan Meyers; Peter Van Hauwe; Natacha Ottschytsch; Jan G. Wauters; Philip Kelley; Patrick J. Willems; Guy Van Camp</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00006.x">Identification of a new connexin gene <em>GJA11</em> (<em>Cx59</em>) using degenerate PCR primers     </a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00006.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>553&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00006.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00006.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00006.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00006.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zhaoxi Wang; Tianhua Niu; K. L. Lunetta; Xin Xu; Zhian Fang; Xiping Xu</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00007.x">Observation of null alleles of microsatellite markers in a Chinese population</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00007.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>434&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00007.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00007.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00007.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00007.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anne Barton; Jane Worthington; W. E. R. Ollier</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00008.x">Syntenic mapping of human disease genes using animal models of autoimmunity</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00008.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>278&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00008.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00008.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00008.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00008.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ian Peake;  Editors Gordon Duff</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00011.x">Editorial</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00011.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>107&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00011.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00011.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00011.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00011.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. J. MacGregor</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00016.x">The genetic characteristics of the osteoporosis phenotype</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00016.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>249&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00016.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00016.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00016.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00016.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark McCarthy</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00017.x">The genetics of type 2 diabetes: the consequences of complexity</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00017.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>199&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00017.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00017.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00017.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00017.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Phillips</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00018.x">Do placentation issues bias twin studies?</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00018.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>206&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00018.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00018.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00018.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00018.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Snieder; Ejcg Van Den Oord; M. Chiano; Aj MacGregor;  Td Spector</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00019.x">Sib-TDT analysis of human <em> TGF-β1</em> gene single nucleotide polymorphisms in female twins: evidence for linkage and association with blood pressure at the codon 263 polymorphism</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00019.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>198&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00019.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00019.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00019.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00019.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tim D. Spector; Alex J. MacGregor; Harold Snieder</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00020.x">Uses of twins in studying the genetics of complex traits</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00020.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>164&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00020.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00020.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00020.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00020.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Edwin J. C. G. Van Den Oord</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00021.x">Some principles for modelling genotype–environment correlations and interactions with quantitative trait loci</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00021.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>196&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00021.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00021.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00021.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00021.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cathryn M. Lewis; Sheila A. Fisher</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00022.x">Power of the TDT to detect association: effect of linkage disequilibrium between genetic markers and an unobserved disease mutation</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00022.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>204&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00022.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00022.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00022.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00022.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Norman L. Kaplan; Stephanie A. Monks; Eden R. Martin</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00023.x">A test for linkage and association in general pedigrees</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00023.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>175&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00023.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00023.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00023.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00023.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lon R. Cardon; Gonçalo R. Abecasis</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00025.x">Regression models for association studies of quantitative trait loci in humans</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00025.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>204&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00025.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00025.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00025.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00025.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David M. Evans; Nicholas G. Martin</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00027.x">The validity of twin studies</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00027.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>166&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00027.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00027.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00027.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00027.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert C. Elston; Sanjay S. Shete</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00028.x">Adding power to Haseman and Elston’s (1972) method</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00028.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>144&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00028.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00028.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00028.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00028.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. C. Whittaker; A. P. Morris; D. J. Balding</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1466-9218.2000.00030.x">Fine-scale mapping of disease loci</a></p>
+		<p>DOI: 10.1046/j.1466-9218.2000.00030.x</p>	</td>
+	<td><p><a href="/scimag/journals/8095">GeneScreen</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>161&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1466-9218.2000.00030.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1466-9218.2000.00030.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1466-9218.2000.00030.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1466-9218.2000.00030.x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">38 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 2</span>
+	 <a href="/scimag/?journal=8095&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

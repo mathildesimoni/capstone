@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/22214">Silicon</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer Netherlands</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1876-990X</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1876-9918</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 71; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 71');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=22214&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;752 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 71</span>
+	 <a href="/scimag/?journal=22214&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Anke Schwarzer; Ines C. Schilling; Wilhelm Seichter; Edwin Weber</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-008-9000-0">Synthesis and X-ray Crystal Structures of New Tetrahedral Arylethynyl Substituted Silanes</a></p>
+		<p>DOI: 10.1007/s12633-008-9000-0</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;1 (2009)</p></td>
+	<td>339&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-008-9000-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-008-9000-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-008-9000-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-008-9000-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wayne T. Ferrar; William T. Gruenbaum; Xin Jin; Michel F. Molaire; J. Robin Cowdery; David S. Weiss</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9001-7">Hole-Transporting Silsesquioxanes</a></p>
+		<p>DOI: 10.1007/s12633-009-9001-7</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;1 (2009)</p></td>
+	<td>170&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9001-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9001-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9001-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9001-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yadagiri Poojari; Aniruddha S. Palsule; Stephen J. Clarson; Richard A. Gross</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9002-6">Immobilization and Activity of Pepsin in Silicone Elastomers</a></p>
+		<p>DOI: 10.1007/s12633-009-9002-6</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;1 (2009)</p></td>
+	<td>250&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9002-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9002-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9002-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9002-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael James Owen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9003-5">Tom Lane: Taking Silicon to the Forefront</a></p>
+		<p>DOI: 10.1007/s12633-009-9003-5</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;3 (2009)</p></td>
+	<td>81&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9003-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9003-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9003-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9003-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark Frampton; Razvan Simionescu; Paul M. Zelisko</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9004-4">Enzyme-mediated Synthesis of Silsesquioxanes</a></p>
+		<p>DOI: 10.1007/s12633-009-9004-4</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;1 (2009)</p></td>
+	<td>1.40&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9004-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9004-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9004-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9004-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Manuel Weinberger; Thomas Fröschl; Stephan Puchegger; Herwig Peterlik; Nicola Hüsing</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9005-3">Organosilica Monoliths with Multiscale Porosity: Detailed Investigation of the Influence of the Surfactant on Structure Formation</a></p>
+		<p>DOI: 10.1007/s12633-009-9005-3</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;1 (2009)</p></td>
+	<td>512&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9005-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9005-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9005-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9005-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen J. Clarson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9006-2">Some Reflections on the Element Silicon</a></p>
+		<p>DOI: 10.1007/s12633-009-9006-2</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;1 (2009)</p></td>
+	<td>110&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9006-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9006-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9006-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9006-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James V. Crivello</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9007-1">Redox Initiated Cationic Polymerization: Reduction of Triarylsulfonium Salts by Silanes</a></p>
+		<p>DOI: 10.1007/s12633-009-9007-1</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;2 (2009)</p></td>
+	<td>320&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9007-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9007-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9007-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9007-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carlo Congiusta; Justin Y. Granleese; Daniel Graiver; Lee Hoffman; Simon Mathew; Dave Clarke; Martin Johnston; Stephen R. Clarke</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9008-0">Novel Grafting onto Silica via Aldehyde Functionality</a></p>
+		<p>DOI: 10.1007/s12633-009-9008-0</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;1 (2009)</p></td>
+	<td>236&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9008-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9008-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9008-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9008-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen J. Clarson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9009-z">Bogdan Marciniec, Hydrosilylation: A Comprehensive Review on Recent Advances</a></p>
+		<p>DOI: 10.1007/s12633-009-9009-z</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;1 (2009)</p></td>
+	<td>71&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9009-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9009-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9009-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9009-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Liliane Bokobza</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9010-6">Some Issues in Rubber Nanocomposites: New Opportunities for Silicone Materials</a></p>
+		<p>DOI: 10.1007/s12633-009-9010-6</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;3 (2009)</p></td>
+	<td>173&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9010-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9010-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9010-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9010-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gui Lin; Xiujuan Zhang; Sai R. Kumar; James E. Mark</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9011-5">Improved Hydrophilicity from Poly(ethylene glycol) in Amphiphilic Conetworks with Poly(dimethylsiloxane)</a></p>
+		<p>DOI: 10.1007/s12633-009-9011-5</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;3 (2009)</p></td>
+	<td>298&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9011-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9011-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9011-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9011-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Akhilesh Rai; Carole C. Perry</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9012-4">Fabrication of Tuneable Thickness Silica Films on Solid Surfaces Using Amines and Proteins</a></p>
+		<p>DOI: 10.1007/s12633-009-9012-4</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;2 (2009)</p></td>
+	<td>535&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9012-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9012-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9012-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9012-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yadagiri Poojari; Stephen J. Clarson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9013-3">Lipase Catalyzed Synthesis of Poly(ε-Caprolactone)−Poly(Dimethylsiloxane)−Poly(ε-Caprolactone) Triblock Copolymers</a></p>
+		<p>DOI: 10.1007/s12633-009-9013-3</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;3 (2009)</p></td>
+	<td>199&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9013-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9013-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9013-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9013-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Melanie J. Leng; George E. A. Swann; Martin J. Hodson; Jonathan J. Tyler; Siddharth V. Patwardhan; Hilary J. Sloane</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9014-2">The Potential use of Silicon Isotope Composition of Biogenic Silica as a Proxy for Environmental Change</a></p>
+		<p>DOI: 10.1007/s12633-009-9014-2</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;2 (2009)</p></td>
+	<td>572&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9014-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9014-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9014-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9014-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Madhumita Sarangi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9015-1">Effect of an Iron Catalyst and Process Parameters on Si-Based Ceramic Materials Synthesized From Rice Husks</a></p>
+		<p>DOI: 10.1007/s12633-009-9015-1</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;2 (2009)</p></td>
+	<td>374&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9015-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9015-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9015-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9015-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rakesh Kumar Gupta; Raghwesh Mishra; Kingsuk Mukhopadhyay; Rajesh Kumar Tiwari; Ashok Ranjan; Arvind Kumar Saxena</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9016-0">A New Technique for Coating Silicon Carbide Onto Carbon Nanotubes Using a Polycarbosilane Precursor</a></p>
+		<p>DOI: 10.1007/s12633-009-9016-0</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;2 (2009)</p></td>
+	<td>277&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9016-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9016-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9016-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9016-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tahir Rahman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9017-z">How One Tiny Silicon Disc Took the Messages of Mankind to the Moon</a></p>
+		<p>DOI: 10.1007/s12633-009-9017-z</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;4 (2009)</p></td>
+	<td>300&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9017-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9017-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9017-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9017-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen J. Clarson; Miriam Steinitz-Kannan; Siddharth V. Patwardhan; Ramamurthi Kannan; Ryan Hartig; Louis Schloesser; Douglas W. Hamilton; Jeffrey K. A. Fusaro; Ryan Beltz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9018-y">Some Observations of Diatoms Under Turbulence</a></p>
+		<p>DOI: 10.1007/s12633-009-9018-y</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;2 (2009)</p></td>
+	<td>608&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9018-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9018-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9018-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9018-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen J. Clarson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9019-x">Petar R. Dvornic and Michael J. Owen, Silicon-Containing Dendritic Polymers</a></p>
+		<p>DOI: 10.1007/s12633-009-9019-x</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;2 (2009)</p></td>
+	<td>179&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9019-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9019-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9019-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9019-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen J. Clarson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9020-4">Charles Darwin and Silicon</a></p>
+		<p>DOI: 10.1007/s12633-009-9020-4</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;2 (2009)</p></td>
+	<td>414&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9020-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9020-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9020-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9020-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark B. Frampton; Paul Martin Zelisko</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9021-3">Organosilicon Biotechnology</a></p>
+		<p>DOI: 10.1007/s12633-009-9021-3</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;3 (2009)</p></td>
+	<td>386&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9021-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9021-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9021-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9021-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Timo T. Heikkinen; Jukka P. Matinlinna; Pekka K. Vallittu; Lippo V. J. Lassila</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9022-2">Dental Zirconia Adhesion with Silicon Compounds Using Some Experimental and Conventional Surface Conditioning Methods</a></p>
+		<p>DOI: 10.1007/s12633-009-9022-2</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;3 (2009)</p></td>
+	<td>191&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9022-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9022-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9022-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9022-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ana Dzambaski; Judith Baumgartner; Michaela Flock; Karl Hassler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9023-1">Conformation Control of Oligosilanes by Trimethylsilyl Groups: Dodecamethyl-, Undecamethyl-2-trimethylsilyl- and Decamethyl-2, 4-bis(trimethylsilyl)-n-pentasilane Studied by Raman Spectroscopy and Quantum Chemical Calculations</a></p>
+		<p>DOI: 10.1007/s12633-009-9023-1</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;1, issue&nbsp;4 (2009)</p></td>
+	<td>454&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9023-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9023-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9023-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9023-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Majid S. Al-Ruqeishi; Roslan Md Nor; Yusoff Mohd Amin; Khalifa Al-Azri</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12633-009-9024-0">Carbon Assisted Growth and Photoluminescence of Silicon Nanowires Fabricated Without a Catalyst</a></p>
+		<p>DOI: 10.1007/s12633-009-9024-0</p>	</td>
+	<td><p><a href="/scimag/journals/22214">Silicon</a><p>volume&nbsp;2, issue&nbsp;1 (2010)</p></td>
+	<td>588&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12633-009-9024-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12633-009-9024-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12633-009-9024-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12633-009-9024-0">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;752 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 71</span>
+	 <a href="/scimag/?journal=22214&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

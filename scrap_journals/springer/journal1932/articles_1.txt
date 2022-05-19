@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1932">Archives and Museum Informatics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1042-1467</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-7500</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 22; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 22');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1932&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">534 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 22</span>
+	 <a href="/scimag/?journal=1932&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02769310">January–June 1991 Calendar</a></p>
+		<p>DOI: 10.1007/bf02769310</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;4, issue&nbsp;4 (1990)</p></td>
+	<td>121&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02769310" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02769310">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02769310">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02769310">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02769311">Museum Computer Network Meeting</a></p>
+		<p>DOI: 10.1007/bf02769311</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;4, issue&nbsp;4 (1990)</p></td>
+	<td>251&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02769311" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02769311">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02769311">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02769311">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02769312">Automation in archives</a></p>
+		<p>DOI: 10.1007/bf02769312</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;4, issue&nbsp;4 (1990)</p></td>
+	<td>131&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02769312" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02769312">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02769312">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02769312">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02769313">Asis meets in Canada</a></p>
+		<p>DOI: 10.1007/bf02769313</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;4, issue&nbsp;4 (1990)</p></td>
+	<td>131&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02769313" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02769313">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02769313">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02769313">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Perkins</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02769314">First CIMI Committee Meeting</a></p>
+		<p>DOI: 10.1007/bf02769314</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;4, issue&nbsp;4 (1990)</p></td>
+	<td>247&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02769314" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02769314">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02769314">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02769314">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02769315">In-box</a></p>
+		<p>DOI: 10.1007/bf02769315</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;4, issue&nbsp;4 (1990)</p></td>
+	<td>350&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02769315" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02769315">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02769315">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02769315">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02769316">News</a></p>
+		<p>DOI: 10.1007/bf02769316</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;4, issue&nbsp;4 (1990)</p></td>
+	<td>116&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02769316" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02769316">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02769316">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02769316">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Bearman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02769317">Mars—The manuscript and archives reference system</a></p>
+		<p>DOI: 10.1007/bf02769317</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;4, issue&nbsp;4 (1990)</p></td>
+	<td>248&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02769317" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02769317">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02769317">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02769317">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02769318">Membership and development update</a></p>
+		<p>DOI: 10.1007/bf02769318</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;4, issue&nbsp;4 (1990)</p></td>
+	<td>225&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02769318" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02769318">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02769318">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02769318">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02769319">Standards</a></p>
+		<p>DOI: 10.1007/bf02769319</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;4, issue&nbsp;4 (1990)</p></td>
+	<td>486&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02769319" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02769319">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02769319">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02769319">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James B. Pick</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02770067">Artistic computing in art museums: Findings from a national survey</a></p>
+		<p>DOI: 10.1007/bf02770067</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;4, issue&nbsp;1 (1990)</p></td>
+	<td>477&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02770067" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02770067">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02770067">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02770067">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Bearman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02770068">Electronic records issues</a></p>
+		<p>DOI: 10.1007/bf02770068</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;4, issue&nbsp;1 (1990)</p></td>
+	<td>296&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02770068" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02770068">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02770068">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02770068">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Margaret Hedstrom; David Bearman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02770069">Conferences</a></p>
+		<p>DOI: 10.1007/bf02770069</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;4, issue&nbsp;1 (1990)</p></td>
+	<td>695&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02770069" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02770069">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02770069">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02770069">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02770070">Calendar</a></p>
+		<p>DOI: 10.1007/bf02770070</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;4, issue&nbsp;1 (1990)</p></td>
+	<td>91&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02770070" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02770070">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02770070">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02770070">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02770071">Publications</a></p>
+		<p>DOI: 10.1007/bf02770071</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;4, issue&nbsp;1 (1990)</p></td>
+	<td>215&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02770071" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02770071">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02770071">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02770071">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Bearman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02770072">Accession</a></p>
+		<p>DOI: 10.1007/bf02770072</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;4, issue&nbsp;1 (1990)</p></td>
+	<td>358&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02770072" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02770072">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02770072">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02770072">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Bearman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02770073">Collection Management System (CMS)</a></p>
+		<p>DOI: 10.1007/bf02770073</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;4, issue&nbsp;1 (1990)</p></td>
+	<td>339&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02770073" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02770073">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02770073">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02770073">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02770074">Standards</a></p>
+		<p>DOI: 10.1007/bf02770074</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;4, issue&nbsp;1 (1990)</p></td>
+	<td>115&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02770074" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02770074">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02770074">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02770074">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02770315">PromisingDevelopments on the path to a critical mass</a></p>
+		<p>DOI: 10.1007/bf02770315</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;8, issue&nbsp;2 (1994)</p></td>
+	<td>127&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02770315" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02770315">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02770315">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02770315">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02770316">From Toni Petersen, Director Art and Architecture Thesaurus</a></p>
+		<p>DOI: 10.1007/bf02770316</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;8, issue&nbsp;2 (1994)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02770316" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02770316">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02770316">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02770316">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Bearman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02770317">Strategies for cultural heritage information standards in a networked world</a></p>
+		<p>DOI: 10.1007/bf02770317</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;8, issue&nbsp;2 (1994)</p></td>
+	<td>926&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02770317" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02770317">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02770317">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02770317">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David A. Wallace</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02770318">The internet</a></p>
+		<p>DOI: 10.1007/bf02770318</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;8, issue&nbsp;2 (1994)</p></td>
+	<td>849&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02770318" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02770318">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02770318">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02770318">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xavier Perrot</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02770319">European Museum reports</a></p>
+		<p>DOI: 10.1007/bf02770319</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;8, issue&nbsp;2 (1994)</p></td>
+	<td>380&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02770319" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02770319">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02770319">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02770319">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02770320">Upcoming Conferences: Calender</a></p>
+		<p>DOI: 10.1007/bf02770320</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;8, issue&nbsp;2 (1994)</p></td>
+	<td>62&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02770320" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02770320">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02770320">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02770320">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02770321">Humanities and arts on the information highways:</a></p>
+		<p>DOI: 10.1007/bf02770321</p>	</td>
+	<td><p><a href="/scimag/journals/1932">Archives and Museum Informatics</a><p>volume&nbsp;8, issue&nbsp;2 (1994)</p></td>
+	<td>249&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02770321" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02770321">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02770321">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02770321">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">534 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 22</span>
+	 <a href="/scimag/?journal=1932&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

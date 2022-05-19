@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer US</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0929-5313</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-6873</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 46; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 46');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=12867&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;149 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 46</span>
+	 <a href="/scimag/?journal=12867&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00158334">Editorial</a></p>
+		<p>DOI: 10.1007/bf00158334</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>76&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00158334" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00158334">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00158334">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00158334">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Hansel; H. Sompolinsky</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00158335">Chaos and synchrony in a model of a hypercolumn in visual cortex</a></p>
+		<p>DOI: 10.1007/bf00158335</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>2.31&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00158335" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00158335">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00158335">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00158335">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Sivan; H. Parnas; D. Dolev</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00158336">Relationship between burst properties and sensitivity to input: A theoretical analysis</a></p>
+		<p>DOI: 10.1007/bf00158336</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00158336" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00158336">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00158336">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00158336">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-Pierre Rospars; Petr Lánský; Henry C. Tuckwell; Arthur Vermeulen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00158337">Coding of odor intensity in a steady-state deterministic model of an olfactory receptor neuron</a></p>
+		<p>DOI: 10.1007/bf00158337</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>1.86&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00158337" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00158337">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00158337">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00158337">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas Wachtler; Christian Wehrhahn; Barry B. Lee</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00158338">A simple model of human foveal ganglion cell responses to hyperacuity stimuli</a></p>
+		<p>DOI: 10.1007/bf00158338</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>916&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00158338" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00158338">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00158338">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00158338">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00158339">Erratum</a></p>
+		<p>DOI: 10.1007/bf00158339</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>25&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00158339" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00158339">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00158339">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00158339">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul Bush; Terrence Sejnowski</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00160806">Inhibition synchronizes sparsely connected cortical neurons within and between columns in realistic network models</a></p>
+		<p>DOI: 10.1007/bf00160806</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;2 (1996)</p></td>
+	<td>1.79&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00160806" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00160806">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00160806">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00160806">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gary Strangman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00160807">Searching for cell assemblies: How many electrodes do I need?</a></p>
+		<p>DOI: 10.1007/bf00160807</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;2 (1996)</p></td>
+	<td>1.25&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00160807" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00160807">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00160807">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00160807">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ursula Fuentes; Raphael Ritz; Wulfram Gerstner; J. Hemmen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00160808">Vertical signal flow and oscillations in a three-layer model of the cortex</a></p>
+		<p>DOI: 10.1007/bf00160808</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;2 (1996)</p></td>
+	<td>1.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00160808" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00160808">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00160808">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00160808">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joshua W. Fost; Gregory A. Clark</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00160809">ModelingHermissenda: I. Differential contributions ofIAandICto type-B cell plasticity</a></p>
+		<p>DOI: 10.1007/bf00160809</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;2 (1996)</p></td>
+	<td>1.53&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00160809" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00160809">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00160809">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00160809">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joshua W. Fost; Gregory A. Clark</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00160810">ModelingHermissenda: II. Effects of variations in type-B cell excitability, synaptic strength, and network architecture</a></p>
+		<p>DOI: 10.1007/bf00160810</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;2 (1996)</p></td>
+	<td>1.82&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00160810" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00160810">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00160810">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00160810">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Don H. Johnson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161089">Point process models of single-neuron discharges</a></p>
+		<p>DOI: 10.1007/bf00161089</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;4 (1996)</p></td>
+	<td>2.44&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161089" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161089">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161089">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161089">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Izchak Z. Steinberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161090">On the analytic solution of electrotonic spread in branched passive dendritic trees</a></p>
+		<p>DOI: 10.1007/bf00161090</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;4 (1996)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161090" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161090">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161090">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161090">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexander Borst; Juergen Haag</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161091">The intrinsic electrophysiological characteristics of fly lobula plate tangential cells: I. Passive membrane properties</a></p>
+		<p>DOI: 10.1007/bf00161091</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;4 (1996)</p></td>
+	<td>6.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161091" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161091">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161091">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161091">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ronnie J.H. Wilmink; Peter J. Slot; Thomas Sinkjær</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161092">Modeling of the H-reflex facilitation during ramp and hold contractions</a></p>
+		<p>DOI: 10.1007/bf00161092</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;4 (1996)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161092" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161092">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161092">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161092">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kathleen E. Cullen; Claudio G. Rey; Daniel Guitton; Henrietta L. Galiana</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161093">The use of system identification techniques in the analysis of oculomotor burst neuron spike train dynamics</a></p>
+		<p>DOI: 10.1007/bf00161093</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;4 (1996)</p></td>
+	<td>2.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161093" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161093">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161093">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161093">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. E. Sauer; R. B. Driesang; A. Büschges; U. Bässler; A. Borst</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161131">Distributed processing on the basis of parallel and antagonistic pathways simulation of the femur-tibia control system in the stick insect</a></p>
+		<p>DOI: 10.1007/bf00161131</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;3 (1996)</p></td>
+	<td>1.35&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161131" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161131">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161131">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161131">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. J. Butera; J. W. Clark; J. H. Byrne; John Rinzel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161132">Dissection and reduction of a modeled bursting neuron</a></p>
+		<p>DOI: 10.1007/bf00161132</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;3 (1996)</p></td>
+	<td>1.96&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161132" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161132">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161132">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161132">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christiane Linste; Rémi Gervais</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161133">Investigation of the role of interneurons and their modulation by centrifugal fibers in a neural model of the olfactory bulb</a></p>
+		<p>DOI: 10.1007/bf00161133</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;3 (1996)</p></td>
+	<td>1.50&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161133" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161133">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161133">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161133">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David J. Pinto; Joshua C. Brumberg; Daniel J. Simons; G. Bard Ermentrout; Roger Traub</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161134">A quantitative population model of whisker barrels: Re-examining the Wilson-Cowan equations</a></p>
+		<p>DOI: 10.1007/bf00161134</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;3 (1996)</p></td>
+	<td>1.38&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161134" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161134">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161134">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161134">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00161135">Erratum</a></p>
+		<p>DOI: 10.1007/bf00161135</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;3, issue&nbsp;3 (1996)</p></td>
+	<td>19&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00161135" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00161135">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00161135">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00161135">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joshua Heller; John A. Hertz; Troels W. Kjær; Barry J. Richmond</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00961433">Information flow and temporal coding in primate pattern vision</a></p>
+		<p>DOI: 10.1007/bf00961433</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;2, issue&nbsp;3 (1995)</p></td>
+	<td>1.44&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00961433" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00961433">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00961433">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00961433">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rolf Kötter; Jeff Wickens</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00961434">Interactions of glutamate and dopamine in a computational model of the striatum</a></p>
+		<p>DOI: 10.1007/bf00961434</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;2, issue&nbsp;3 (1995)</p></td>
+	<td>2.31&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00961434" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00961434">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00961434">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00961434">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Farzan Nadim; Øystein H. Olsen; Erik Schutter; Ronald L. Calabrese</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00961435">Modeling the leech heartbeat elemental oscillator I. Interactions of intrinsic and synaptic currents</a></p>
+		<p>DOI: 10.1007/bf00961435</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;2, issue&nbsp;3 (1995)</p></td>
+	<td>1.63&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00961435" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00961435">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00961435">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00961435">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Øystein H. Olsen; Farzan Nadim; Ronald L. Calabrese</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00961436">Modeling the leech heartbeat elemental oscillator II. Exploring the parameter space</a></p>
+		<p>DOI: 10.1007/bf00961436</p>	</td>
+	<td><p><a href="/scimag/journals/12867">Journal of Computational Neuroscience</a><p>volume&nbsp;2, issue&nbsp;3 (1995)</p></td>
+	<td>1.54&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00961436" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00961436">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00961436">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00961436">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;149 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 46</span>
+	 <a href="/scimag/?journal=12867&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

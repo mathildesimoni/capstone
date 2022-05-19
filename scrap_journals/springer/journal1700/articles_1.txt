@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0273-2289</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1559-0291</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 366; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 366');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1700&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">9&nbsp;149 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 366</span>
+	 <a href="/scimag/?journal=1700&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Meng-Yun Tung; Chen-Tien Chang; Yun-Chin Chung</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02685934">Biochemical properties of genetic recombinant xylanase II</a></p>
+		<p>DOI: 10.1007/bf02685934</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;136, issue&nbsp;1 (2007)</p></td>
+	<td>1.86&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02685934" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02685934">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02685934">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02685934">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gang-Liang Huang; Heng Yang; Xin-Ya Mei; Man-Xi Liu; Yu-Ting Ma</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02685935">Fluorophore-assisted carbohydrate electrophoresis as detection method for carbohydrate-protein interactions</a></p>
+		<p>DOI: 10.1007/bf02685935</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;136, issue&nbsp;1 (2007)</p></td>
+	<td>1.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02685935" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02685935">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02685935">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02685935">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Victor H. Perez; Everson A. Miranda; Gustavo P. Valença</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02685936">Kinetics of gas-phase hydrolysis of ethyl acetate catalyzed by immobilized lipase</a></p>
+		<p>DOI: 10.1007/bf02685936</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;136, issue&nbsp;1 (2007)</p></td>
+	<td>755&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02685936" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02685936">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02685936">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02685936">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hayato Yamanaka; Kunihiko Moriyoshi; Takashi Ohmoto; Tatsuhiko Ohe; Kiyofumi Sakai</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02685937">Degradation of bisphenol A byBacillus pumilusisolated from kimchi, a traditionally fermented food</a></p>
+		<p>DOI: 10.1007/bf02685937</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;136, issue&nbsp;1 (2007)</p></td>
+	<td>341&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02685937" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02685937">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02685937">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02685937">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Sukumar; A. Sivasamy; G. Swaminathan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02685938">Decolorization of textile dye effluent by genetically improved bacterial strains</a></p>
+		<p>DOI: 10.1007/bf02685938</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;136, issue&nbsp;1 (2007)</p></td>
+	<td>458&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02685938" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02685938">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02685938">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02685938">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patricia L. Marconi; María A. Alvarez; Sandra I. Pitta-Alvarez</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02685939">How polyamine synthesis inhibitors and cinnamic acid affect tropane alkaloid production</a></p>
+		<p>DOI: 10.1007/bf02685939</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;136, issue&nbsp;1 (2007)</p></td>
+	<td>545&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02685939" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02685939">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02685939">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02685939">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zhen-Xing Tang; Jun-Qing Qian; Lu-E Shi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02685940">Preparation of chitosan nanoparticles as carrier for immobilized enzyme</a></p>
+		<p>DOI: 10.1007/bf02685940</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;136, issue&nbsp;1 (2007)</p></td>
+	<td>1.87&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02685940" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02685940">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02685940">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02685940">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Udeme J. Ndon; Jin C. Zhao; Marta Larroya Siguan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02685941">Modeling and computational simulation of dilution and biochemical materials balance equations for partially emptied batch reactors</a></p>
+		<p>DOI: 10.1007/bf02685941</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;136, issue&nbsp;1 (2007)</p></td>
+	<td>4.74&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02685941" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02685941">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02685941">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02685941">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Quo-Qing Ying; Lu-E Shi; Xiao-Ying Zhang; Wei Chen; Yu Yi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02685942">Characterization of immobilized nuclease P1</a></p>
+		<p>DOI: 10.1007/bf02685942</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;136, issue&nbsp;1 (2007)</p></td>
+	<td>824&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02685942" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02685942">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02685942">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02685942">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jian-Rong Li; Ping Yu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02685943">Expression of Cu, Zn-superoxide dismutase gene fromSaccharomyces cerevisiaeinPichia pastorisand its resistance to oxidative stress</a></p>
+		<p>DOI: 10.1007/bf02685943</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;136, issue&nbsp;1 (2007)</p></td>
+	<td>804&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02685943" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02685943">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02685943">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02685943">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hüseyin Alkan; Zübeyde Baysal; Fikret Uyar; Mehmet Dogru</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02686016">Production of lipase by a newly isolatedBacillus coagulansunder solid-state fermentation using melon wastes</a></p>
+		<p>DOI: 10.1007/bf02686016</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;136, issue&nbsp;2 (2007)</p></td>
+	<td>182&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02686016" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02686016">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02686016">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02686016">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Silvia Ainara Cardoso Agibert; Mariana Bueno Moreira; Suzana Maria Ratusznei; José Alberto Domingues Rodrigues; Marcelo Zaiat; Eugênio Foresti</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02686017">Influence of temperature on performance of an anaerobic sequencing biofilm batch reactor with circulation applied to treatment of low-strength wastewater</a></p>
+		<p>DOI: 10.1007/bf02686017</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;136, issue&nbsp;2 (2007)</p></td>
+	<td>369&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02686017" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02686017">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02686017">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02686017">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. E. Ghaly; N. S. Mahmoud</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02686018">Effects of tetrazolium chloride concentration, O2, and cell age on dehydrogenase activity ofAspergillus niger</a></p>
+		<p>DOI: 10.1007/bf02686018</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;136, issue&nbsp;2 (2007)</p></td>
+	<td>339&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02686018" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02686018">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02686018">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02686018">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sima Zahrai; Gunilla Wikström</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02686019">Mathematical modeling of flow and kinetics in a reactor for dilute-acid hydrolysis of cellulose particles</a></p>
+		<p>DOI: 10.1007/bf02686019</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;136, issue&nbsp;2 (2007)</p></td>
+	<td>587&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02686019" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02686019">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02686019">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02686019">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jing Gao; Yanjun Jiang; Zhihong Huang; Liya Zhou</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02686020">Evaluation of kinetic parameters for enzymatic interesterification synthesis of L-ascorbyl lactate by response surface methodology</a></p>
+		<p>DOI: 10.1007/bf02686020</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;136, issue&nbsp;2 (2007)</p></td>
+	<td>447&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02686020" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02686020">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02686020">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02686020">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fábio C. Sampaio; Paolo Torre; Flávia M. Lopes Passos; Célia Alencar de Moraes; Patrizia Perego; Attilio Converti</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02686021">Influence of inhibitory compounds and minor sugars on xylitol production byDebaryomyces hansenii</a></p>
+		<p>DOI: 10.1007/bf02686021</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;136, issue&nbsp;2 (2007)</p></td>
+	<td>219&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02686021" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02686021">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02686021">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02686021">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. R. Rupesh; K. R. Padma; P. Saravanan; S. Jayachandran</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02729059">Cloning, expression, and sequence analysis of diaminopropionate ammonia lyase gene from a nonvirulentsalmonella typhimuriumPU011</a></p>
+		<p>DOI: 10.1007/bf02729059</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;141, issue&nbsp;2-3 (2007)</p></td>
+	<td>9.70&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02729059" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02729059">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02729059">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02729059">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mi Suk Jeong; Jeong Soon Park; Se Bok Jang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02729060">Cloning, overexpression, purification, and characterization of receptor-interacting protein 3 truncation inEscherichia coli</a></p>
+		<p>DOI: 10.1007/bf02729060</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;141, issue&nbsp;2-3 (2007)</p></td>
+	<td>1.48&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02729060" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02729060">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02729060">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02729060">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Radhika Tatineni; Kiran Kumar Doddapaneni; Ravi Chandra Potumarthi; Lakshmi Narasu Mangamoori</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02729061">Optimization of keratinase production and enzyme activity using response surface methodology with streptomyces sp7</a></p>
+		<p>DOI: 10.1007/bf02729061</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;141, issue&nbsp;2-3 (2007)</p></td>
+	<td>1.85&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02729061" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02729061">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02729061">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02729061">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yun-Qi Wang; Ji-Ye Cai</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02729062">High-level expression of acidic partner-mediated antimicrobial peptide from tandem genes inEscherichia coli</a></p>
+		<p>DOI: 10.1007/bf02729062</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;141, issue&nbsp;2-3 (2007)</p></td>
+	<td>962&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02729062" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02729062">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02729062">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02729062">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Silvio S. Silva; Solange I. Mussatto; Júlio C. Santos; Diego T. Santos; Juliana Polizel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02729063">Cell immobilization and xylitol production using sugarcane bagasse as raw material</a></p>
+		<p>DOI: 10.1007/bf02729063</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;141, issue&nbsp;2-3 (2007)</p></td>
+	<td>1.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02729063" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02729063">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02729063">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02729063">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Saurabh Saran; Jasmine Isar; Rajendra Kumar Saxena</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02729064">Statistical optimization of conditions for protease production fromBacillussp. and its scale-up in a bioreactor</a></p>
+		<p>DOI: 10.1007/bf02729064</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;141, issue&nbsp;2-3 (2007)</p></td>
+	<td>956&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02729064" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02729064">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02729064">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02729064">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hsiao-Ning Wang; Tsan-Zon Liu; Ya-Lei Chen; David Shiuan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02729065">Protective effects of a freeze-dried extract of vegetables and fruits on the hydroxyl radical-mediated oxidative damage of DNA and decrease of erythrocytes deformability</a></p>
+		<p>DOI: 10.1007/bf02729065</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;141, issue&nbsp;2-3 (2007)</p></td>
+	<td>867&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02729065" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02729065">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02729065">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02729065">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ikram-ul-Haq; Hamad Ashraf; Sikander Ali; M. A. Qadeer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02729066">Kinetic characterization of extracellular α-amylase from a derepressed mutant ofBacillus licheniformis</a></p>
+		<p>DOI: 10.1007/bf02729066</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;141, issue&nbsp;2-3 (2007)</p></td>
+	<td>654&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02729066" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02729066">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02729066">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02729066">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bariş Binay; Nevin Gül Karagüler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02729067">Attempting to remove the substrate inhibition ofL-lactate dehydrogenase fromBacillus stearothermophilusby site-directed mutagenesis</a></p>
+		<p>DOI: 10.1007/bf02729067</p>	</td>
+	<td><p><a href="/scimag/journals/1700">Applied Biochemistry and Biotechnology</a><p>volume&nbsp;141, issue&nbsp;2-3 (2007)</p></td>
+	<td>634&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02729067" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02729067">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02729067">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02729067">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">9&nbsp;149 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 366</span>
+	 <a href="/scimag/?journal=1700&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

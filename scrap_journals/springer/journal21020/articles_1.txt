@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/21020">Research on Language &amp; Computation</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1570-7075</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-8706</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 6; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 6');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=21020&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">145 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 6</span>
+	 <a href="/scimag/?journal=21020&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Ingo Reich</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-004-0902-8">Association with Focus and Choice Functions – A Binding Approach</a></p>
+		<p>DOI: 10.1007/s11168-004-0902-8</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;2, issue&nbsp;3 (2004)</p></td>
+	<td>189&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-004-0902-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-004-0902-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-004-0902-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-004-0902-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Klaus Heusinger; Ruth Kempson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-004-0903-7">Choice Functions in Semantics</a></p>
+		<p>DOI: 10.1007/s11168-004-0903-7</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;2, issue&nbsp;3 (2004)</p></td>
+	<td>31&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-004-0903-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-004-0903-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-004-0903-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-004-0903-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Klaus von Heusinger</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-004-0904-6">Choice Functions and the Anaphoric Semantics of Definite NPs</a></p>
+		<p>DOI: 10.1007/s11168-004-0904-6</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;2, issue&nbsp;3 (2004)</p></td>
+	<td>151&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-004-0904-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-004-0904-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-004-0904-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-004-0904-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul Dekker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-004-0905-5">The Pragmatic Dimension of Indefinites</a></p>
+		<p>DOI: 10.1007/s11168-004-0905-5</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;2, issue&nbsp;3 (2004)</p></td>
+	<td>210&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-004-0905-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-004-0905-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-004-0905-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-004-0905-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Philippe Schlenker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-004-0908-2">Conditionals as Definite Descriptions</a></p>
+		<p>DOI: 10.1007/s11168-004-0908-2</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;2, issue&nbsp;3 (2004)</p></td>
+	<td>273&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-004-0908-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-004-0908-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-004-0908-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-004-0908-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yoad Winter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-004-0909-1">Functional Quantification</a></p>
+		<p>DOI: 10.1007/s11168-004-0909-1</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;2, issue&nbsp;3 (2004)</p></td>
+	<td>226&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-004-0909-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-004-0909-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-004-0909-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-004-0909-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert Rooy</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-004-1975-0">Utility of Mention-Some Questions</a></p>
+		<p>DOI: 10.1007/s11168-004-1975-0</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;2, issue&nbsp;3 (2004)</p></td>
+	<td>100&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-004-1975-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-004-1975-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-004-1975-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-004-1975-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Erhard W. Hinrichs; Kiril Simov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-004-7425-1">Treebanks and Linguistic Theories: Introduction to this Special Issue</a></p>
+		<p>DOI: 10.1007/s11168-004-7425-1</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;2, issue&nbsp;4 (2004)</p></td>
+	<td>41&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-004-7425-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-004-7425-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-004-7425-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-004-7425-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kiril Simov; Petya Osenova; Alexander Simov; Milen Kouylekov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-004-7427-z">Design and Implementation of the Bulgarian HPSG-based Treebank</a></p>
+		<p>DOI: 10.1007/s11168-004-7427-z</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;2, issue&nbsp;4 (2004)</p></td>
+	<td>258&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-004-7427-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-004-7427-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-004-7427-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-004-7427-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Burke; Aoife Cahill; Mairéad Mccarthy; Ruth O’donovan; Josef Van Genabith; Andy Way</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-004-7428-y">Evaluating Automatic LFG F-Structure Annotation for the Penn-II Treebank</a></p>
+		<p>DOI: 10.1007/s11168-004-7428-y</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;2, issue&nbsp;4 (2004)</p></td>
+	<td>224&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-004-7428-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-004-7428-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-004-7428-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-004-7428-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Montserrat Civit; Ma Antònia Martí</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-004-7429-x">Building Cast3LB: A Spanish Treebank</a></p>
+		<p>DOI: 10.1007/s11168-004-7429-x</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;2, issue&nbsp;4 (2004)</p></td>
+	<td>245&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-004-7429-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-004-7429-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-004-7429-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-004-7429-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephan Oepen; Dan Flickinger; Kristina Toutanova; Christopher D. Manning</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-004-7430-4">LinGO Redwoods</a></p>
+		<p>DOI: 10.1007/s11168-004-7430-4</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;2, issue&nbsp;4 (2004)</p></td>
+	<td>215&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-004-7430-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-004-7430-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-004-7430-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-004-7430-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sabine Brants; Stefanie Dipper; Peter Eisenberg; Silvia Hansen-Schirra; Esther König; Wolfgang Lezius; Christian Rohrer; George Smith; Hans Uszkoreit</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-004-7431-3">TIGER: Linguistic Interpretation of a German Corpus</a></p>
+		<p>DOI: 10.1007/s11168-004-7431-3</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;2, issue&nbsp;4 (2004)</p></td>
+	<td>406&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-004-7431-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-004-7431-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-004-7431-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-004-7431-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Erhard W. Hinrichs; Julia S. Trushkina</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-004-7432-2">Forging Agreement: Morphological Disambiguation of Noun Phrases</a></p>
+		<p>DOI: 10.1007/s11168-004-7432-2</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;2, issue&nbsp;4 (2004)</p></td>
+	<td>149&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-004-7432-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-004-7432-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-004-7432-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-004-7432-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alon Altman; Yoad Winter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-005-1285-1">Computing Scope Dominance with Upward Monotone Quantifiers</a></p>
+		<p>DOI: 10.1007/s11168-005-1285-1</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;3, issue&nbsp;1 (2005)</p></td>
+	<td>388&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-005-1285-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-005-1285-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-005-1285-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-005-1285-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Claudia Casadio; Jim Lambek</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-005-1286-0">A Computational Algebraic Approach to Latin Grammar</a></p>
+		<p>DOI: 10.1007/s11168-005-1286-0</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;3, issue&nbsp;1 (2005)</p></td>
+	<td>115&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-005-1286-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-005-1286-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-005-1286-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-005-1286-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Berthold Crysmann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-005-1287-z">Relative Clause Extraposition in German: An Efficient and Portable Implementation</a></p>
+		<p>DOI: 10.1007/s11168-005-1287-z</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;3, issue&nbsp;1 (2005)</p></td>
+	<td>134&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-005-1287-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-005-1287-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-005-1287-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-005-1287-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kristina Toutanova; Christopher D. Manning; Dan Flickinger; Stephan Oepen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-005-1288-y">Stochastic HPSG Parse Disambiguation using the Redwoods Corpus</a></p>
+		<p>DOI: 10.1007/s11168-005-1288-y</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;3, issue&nbsp;1 (2005)</p></td>
+	<td>175&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-005-1288-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-005-1288-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-005-1288-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-005-1288-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Relja Vulanović</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-005-1289-x">The Combinatorics of Cases and Word Order</a></p>
+		<p>DOI: 10.1007/s11168-005-1289-x</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;3, issue&nbsp;1 (2005)</p></td>
+	<td>155&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-005-1289-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-005-1289-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-005-1289-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-005-1289-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Emily M. Bender; Dan Flickinger; Frederik Fouvry; Melanie Siegel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-005-1293-1">Shared Representation in Multilingual Grammar Engineering</a></p>
+		<p>DOI: 10.1007/s11168-005-1293-1</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;3, issue&nbsp;2-3 (2005)</p></td>
+	<td>62&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-005-1293-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-005-1293-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-005-1293-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-005-1293-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pavel Smrž</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-005-1294-0">A Parallel Metagrammar for Closely Related Languages – A Case Study of Czech and Russian</a></p>
+		<p>DOI: 10.1007/s11168-005-1294-0</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;3, issue&nbsp;2-3 (2005)</p></td>
+	<td>144&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-005-1294-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-005-1294-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-005-1294-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-005-1294-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tracy Holloway King; Martin Forst; Jonas Kuhn; Miriam Butt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-005-1295-z">The Feature Space in Parallel Grammar Writing</a></p>
+		<p>DOI: 10.1007/s11168-005-1295-z</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;3, issue&nbsp;2-3 (2005)</p></td>
+	<td>163&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-005-1295-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-005-1295-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-005-1295-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-005-1295-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Aoife Cahill; Michael Burke; Martin Forst; Ruth O’donovan; Christian Rohrer; Josef van Genabith; Andy Way</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-005-1296-y">Treebank-Based Acquisition of Multilingual Unification Grammar Resources</a></p>
+		<p>DOI: 10.1007/s11168-005-1296-y</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;3, issue&nbsp;2-3 (2005)</p></td>
+	<td>268&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-005-1296-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-005-1296-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-005-1296-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-005-1296-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kaja Borthen; Petter Haugereid</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-005-1297-x">Representing Referential Properties of Nominals</a></p>
+		<p>DOI: 10.1007/s11168-005-1297-x</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;3, issue&nbsp;2-3 (2005)</p></td>
+	<td>184&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-005-1297-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-005-1297-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-005-1297-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-005-1297-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John A. Bateman; Ivana Kruijff-Korbayová; Geert-Jan Kruijff</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11168-005-1298-9">Multilingual Resource Sharing Across Both Related and Unrelated Languages: An Implemented, Open-Source Framework for Practical Natural Language Generation</a></p>
+		<p>DOI: 10.1007/s11168-005-1298-9</p>	</td>
+	<td><p><a href="/scimag/journals/21020">Research on Language &amp; Computation</a><p>volume&nbsp;3, issue&nbsp;2-3 (2005)</p></td>
+	<td>223&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11168-005-1298-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11168-005-1298-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11168-005-1298-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11168-005-1298-9">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">145 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 6</span>
+	 <a href="/scimag/?journal=21020&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/929">Algorithmica</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0178-4617</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1432-0541</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 121; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 121');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=929&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;012 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 121</span>
+	 <a href="/scimag/?journal=929&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Vladimir Batagelj; Simona Korenjak-Černe; Sandi Klavžar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01182769">Dynamic programming and convex clustering</a></p>
+		<p>DOI: 10.1007/bf01182769</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;11, issue&nbsp;2 (1994)</p></td>
+	<td>400&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01182769" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01182769">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01182769">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01182769">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rudolf Fleischer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01182770">A tight lower bound for the worst case of Bottom-Up-Heapsort</a></p>
+		<p>DOI: 10.1007/bf01182770</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;11, issue&nbsp;2 (1994)</p></td>
+	<td>569&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01182770" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01182770">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01182770">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01182770">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bernard Chazelle; Herbert Edelsbrunner; Leonidas J. Guibas; Micha Sharir</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01182771">Algorithms for bichromatic line-segment problems and polyhedral terrains</a></p>
+		<p>DOI: 10.1007/bf01182771</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;11, issue&nbsp;2 (1994)</p></td>
+	<td>1.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01182771" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01182771">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01182771">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01182771">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Reuven Bar-Yehuda; Sergio Fogel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01182772">Variations on ray shooting</a></p>
+		<p>DOI: 10.1007/bf01182772</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;11, issue&nbsp;2 (1994)</p></td>
+	<td>725&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01182772" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01182772">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01182772">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01182772">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Johan Jeuring</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01182773">The derivation of on-line algorithms, with an application to finding palindromes</a></p>
+		<p>DOI: 10.1007/bf01182773</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;11, issue&nbsp;2 (1994)</p></td>
+	<td>1.82&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01182773" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01182773">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01182773">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01182773">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pankaj K. Agarwal; Micha Sharir</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01182774">Planar geometric location problems</a></p>
+		<p>DOI: 10.1007/bf01182774</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;11, issue&nbsp;2 (1994)</p></td>
+	<td>632&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01182774" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01182774">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01182774">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01182774">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. S. Vitter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01185205">Guest editor's introduction</a></p>
+		<p>DOI: 10.1007/bf01185205</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;12, issue&nbsp;2-3 (1994)</p></td>
+	<td>168&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01185205" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01185205">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01185205">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01185205">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Alpern; L. Carter; E. Feig; T. Selker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01185206">The uniform memory hierarchy model of computation</a></p>
+		<p>DOI: 10.1007/bf01185206</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;12, issue&nbsp;2-3 (1994)</p></td>
+	<td>2.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01185206" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01185206">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01185206">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01185206">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. S. Vitter; E. A. M. Shriver</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01185207">Algorithms for parallel memory, I: Two-level memories</a></p>
+		<p>DOI: 10.1007/bf01185207</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;12, issue&nbsp;2-3 (1994)</p></td>
+	<td>1.77&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01185207" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01185207">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01185207">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01185207">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. S. Vitter; E. A. M. Shriver</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01185208">Algorithms for parallel memory, II: Hierarchical multilevel memories</a></p>
+		<p>DOI: 10.1007/bf01185208</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;12, issue&nbsp;2-3 (1994)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01185208" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01185208">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01185208">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01185208">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Chin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01185209">Locality-preserving hash functions for general purpose parallel computation</a></p>
+		<p>DOI: 10.1007/bf01185209</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;12, issue&nbsp;2-3 (1994)</p></td>
+	<td>695&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01185209" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01185209">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01185209">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01185209">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Hellerstein; G. A. Gibson; R. M. Karp; R. H. Katz; D. A. Patterson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01185210">Coding techniques for handling failures in large disk arrays</a></p>
+		<p>DOI: 10.1007/bf01185210</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;12, issue&nbsp;2-3 (1994)</p></td>
+	<td>1.63&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01185210" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01185210">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01185210">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01185210">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Newberg; D. Wolfe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01185211">String layouts for a redundant array of inexpensive disks</a></p>
+		<p>DOI: 10.1007/bf01185211</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;12, issue&nbsp;2-3 (1994)</p></td>
+	<td>854&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01185211" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01185211">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01185211">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01185211">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Blum; W. Evans; P. Gemmell; S. Kannan; M. Naor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01185212">Checking the correctness of memories</a></p>
+		<p>DOI: 10.1007/bf01185212</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;12, issue&nbsp;2-3 (1994)</p></td>
+	<td>1.23&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01185212" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01185212">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01185212">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01185212">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Z. Hwang; R. C. T. Lee; R. C. Chang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01185335">The slab dividing approach to solve the EuclideanP-Center problem</a></p>
+		<p>DOI: 10.1007/bf01185335</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;9, issue&nbsp;1 (1993)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01185335" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01185335">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01185335">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01185335">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Philip Klein; Clifford Stein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01185336">A parallel algorithm for approximating the minimum cycle cover</a></p>
+		<p>DOI: 10.1007/bf01185336</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;9, issue&nbsp;1 (1993)</p></td>
+	<td>694&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01185336" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01185336">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01185336">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01185336">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Manfred Kunde</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01185337">Packet routing on grids of processors</a></p>
+		<p>DOI: 10.1007/bf01185337</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;9, issue&nbsp;1 (1993)</p></td>
+	<td>1.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01185337" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01185337">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01185337">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01185337">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Kaufmann; F. Miller Maley</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01185338">Parity conditions in homotopic knock-knee routing</a></p>
+		<p>DOI: 10.1007/bf01185338</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;9, issue&nbsp;1 (1993)</p></td>
+	<td>1.41&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01185338" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01185338">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01185338">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01185338">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael J. Todd; Yufei Wang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01185339">On combined phase 1-phase 2 projective methods for linear programming</a></p>
+		<p>DOI: 10.1007/bf01185339</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;9, issue&nbsp;1 (1993)</p></td>
+	<td>1.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01185339" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01185339">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01185339">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01185339">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Sarrafzadeh; R. D. Lou</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01185340">Maximumk-covering of weighted transitive graphs with applications</a></p>
+		<p>DOI: 10.1007/bf01185340</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;9, issue&nbsp;1 (1993)</p></td>
+	<td>1.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01185340" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01185340">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01185340">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01185340">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alberto Apostolico</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01185426">Guest editor's foreword special issue on string algorithmics and its applications</a></p>
+		<p>DOI: 10.1007/bf01185426</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;12, issue&nbsp;4-5 (1994)</p></td>
+	<td>113&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01185426" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01185426">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01185426">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01185426">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Crochemore; A. Czumaj; L. Gasieniec; S. Jarominek; T. Lecroq; W. Plandowski; W. Rytter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01185427">Speeding up two string-matching algorithms</a></p>
+		<p>DOI: 10.1007/bf01185427</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;12, issue&nbsp;4-5 (1994)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01185427" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01185427">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01185427">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01185427">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. A. Baeza-Yates; C. Choffrut; G. H. Gonnet</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01185428">On Boyer-Moore automata</a></p>
+		<p>DOI: 10.1007/bf01185428</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;12, issue&nbsp;4-5 (1994)</p></td>
+	<td>1.16&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01185428" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01185428">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01185428">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01185428">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Chin; C. K. Poon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01185429">Performance analysis of some simple heuristics for computing longest common subsequences</a></p>
+		<p>DOI: 10.1007/bf01185429</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;12, issue&nbsp;4-5 (1994)</p></td>
+	<td>955&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01185429" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01185429">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01185429">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01185429">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Gusfield; K. Balasubramanian; D. Naor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01185430">Parametric optimization of sequence alignment</a></p>
+		<p>DOI: 10.1007/bf01185430</p>	</td>
+	<td><p><a href="/scimag/journals/929">Algorithmica</a><p>volume&nbsp;12, issue&nbsp;4-5 (1994)</p></td>
+	<td>1.18&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01185430" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01185430">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01185430">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01185430">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;012 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 121</span>
+	 <a href="/scimag/?journal=929&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

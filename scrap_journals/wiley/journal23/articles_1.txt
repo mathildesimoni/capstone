@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/23">Abacus</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0001-3072</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1467-6281</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 42; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 42');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=23&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;047 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 42</span>
+	 <a href="/scimag/?journal=23&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>John Richard Edwards; Malcolm Anderson; Derek Matthews</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00001">Accountability in a Free-Market Economy: The British Company Audit, 1886</a></p>
+		<p>DOI: 10.1111/1467-6281.00001</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;33, issue&nbsp;1 (1997)</p></td>
+	<td>174&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W.P. Hogan</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00002">Corporate Governance: Lessons From Barings</a></p>
+		<p>DOI: 10.1111/1467-6281.00002</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;33, issue&nbsp;1 (1997)</p></td>
+	<td>151&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Briers; Peter Luckett; Chee Chow</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00003">Data Fixation and the Use of Traditional Versus Activity-Based Costing Systems</a></p>
+		<p>DOI: 10.1111/1467-6281.00003</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;33, issue&nbsp;1 (1997)</p></td>
+	<td>205&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Roger L. Burritt; Stephen Welch</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00004">Australian Commonwealth Entities: An Analysis of Their Environmental Disclosures</a></p>
+		<p>DOI: 10.1111/1467-6281.00004</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;33, issue&nbsp;1 (1997)</p></td>
+	<td>168&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Laurence Van Lent</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00005">Pressure and Politics in Financial Accounting Regulation: The Case of the Financial Conglomerates in the Netherlands</a></p>
+		<p>DOI: 10.1111/1467-6281.00005</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;33, issue&nbsp;1 (1997)</p></td>
+	<td>174&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stewart Jones; Nina Puglisi</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00006">The Relevance of AAS 29 to the Australian Public Sector: A Cause for Doubt?</a></p>
+		<p>DOI: 10.1111/1467-6281.00006</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;33, issue&nbsp;1 (1997)</p></td>
+	<td>143&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00006" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00006">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00006">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00006">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Gibbins; Roger J. Willett</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00009">New Light on Accrual, Aggregation and Allocation, Using an Axiomatic Analysis of Accounting Numbers' Fundamental and Statistical Character</a></p>
+		<p>DOI: 10.1111/1467-6281.00009</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;33, issue&nbsp;2 (1997)</p></td>
+	<td>210&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00009" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00009">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00009">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00009">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert W. Ingram; Thomas A. Lee</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00010">Information Provided by Accrual and Cash-Flow Measures of Operating Activities</a></p>
+		<p>DOI: 10.1111/1467-6281.00010</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;33, issue&nbsp;2 (1997)</p></td>
+	<td>143&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00010" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00010">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00010">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00010">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Tabart-Gay; P.W. Wolnizer</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00011">Business Firms as Adaptive Entities: The Case of the Major Australian Banks 1983–94</a></p>
+		<p>DOI: 10.1111/1467-6281.00011</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;33, issue&nbsp;2 (1997)</p></td>
+	<td>160&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00011" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00011">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00011">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00011">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. DeZoort</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00012">An Investigation of Audit Committees' Oversight Responsibilities</a></p>
+		<p>DOI: 10.1111/1467-6281.00012</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;33, issue&nbsp;2 (1997)</p></td>
+	<td>286&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00012" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00012">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00012">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00012">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Aitken; Alex Frino; Elvis Jarnecic</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00013">Intraday Returns and the Frequency of Trading at the Ask on the Sydney Futures Exchange: A Research Note</a></p>
+		<p>DOI: 10.1111/1467-6281.00013</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;33, issue&nbsp;2 (1997)</p></td>
+	<td>126&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00013" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00013">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00013">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00013">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Graeme Dean</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00014-i2">Editorial</a></p>
+		<p>DOI: 10.1111/1467-6281.00014-i2</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;35, issue&nbsp;3 (1999)</p></td>
+	<td>64&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00014-i2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00014-i2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00014-i2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00014-i2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Graeme Dean</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00014-i3">Editorial</a></p>
+		<p>DOI: 10.1111/1467-6281.00014-i3</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;36, issue&nbsp;3 (2000)</p></td>
+	<td>284&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00014-i3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00014-i3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00014-i3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00014-i3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Graeme Dean</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00014">Editorial</a></p>
+		<p>DOI: 10.1111/1467-6281.00014</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;34, issue&nbsp;1 (1998)</p></td>
+	<td>44&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00014" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00014">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00014">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00014">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. W. Dean</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00015">A Modern Phoenix?</a></p>
+		<p>DOI: 10.1111/1467-6281.00015</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;34, issue&nbsp;1 (1998)</p></td>
+	<td>65&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00015" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00015">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00015">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00015">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard Mattessich</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00016">In Search of a Framework for Deprival Value and Other Purpose-Oriented Valuation Methods</a></p>
+		<p>DOI: 10.1111/1467-6281.00016</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;34, issue&nbsp;1 (1998)</p></td>
+	<td>94&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00016" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00016">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00016">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00016">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Frank L. Clarke</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00017">Deprival Value and Optimized Deprival Value in Australasian Public Sector Accounting: Unwarranted Drift and Contestable Serviceability</a></p>
+		<p>DOI: 10.1111/1467-6281.00017</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;34, issue&nbsp;1 (1998)</p></td>
+	<td>139&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00017" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00017">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00017">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00017">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kees Camfferman</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00018">Deprival Value in the Netherlands: History and Current Status</a></p>
+		<p>DOI: 10.1111/1467-6281.00018</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;34, issue&nbsp;1 (1998)</p></td>
+	<td>136&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00018" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00018">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00018">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00018">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Geoffrey Whittington</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00019">Deprival Value and Price Change Accounting in the U.K.</a></p>
+		<p>DOI: 10.1111/1467-6281.00019</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;34, issue&nbsp;1 (1998)</p></td>
+	<td>68&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00019" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00019">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00019">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00019">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dieter Schneider</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00020">German Reflections on Asset Valuation</a></p>
+		<p>DOI: 10.1111/1467-6281.00020</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;34, issue&nbsp;1 (1998)</p></td>
+	<td>85&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00020" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00020">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00020">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00020">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. J. Chambers</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00021">Wanted: Foundations of Accounting Measurement</a></p>
+		<p>DOI: 10.1111/1467-6281.00021</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;34, issue&nbsp;1 (1998)</p></td>
+	<td>159&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00021" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00021">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00021">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00021">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. G. Walker; Janet Mack</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00022">The Influence of Regulation on the Publication of Consolidated Statements</a></p>
+		<p>DOI: 10.1111/1467-6281.00022</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;34, issue&nbsp;1 (1998)</p></td>
+	<td>299&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00022" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00022">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00022">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00022">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Hillier; Michael McCrae</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00023">The Earnings Smoothing Potential of Systematic Depreciation</a></p>
+		<p>DOI: 10.1111/1467-6281.00023</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;34, issue&nbsp;1 (1998)</p></td>
+	<td>200&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00023" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00023">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00023">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00023">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard K. Fleischman; Thomas N. Tyson</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00024">The Evolution of Standard Costing in the U.K. and U.S.: From Decision Making to Control</a></p>
+		<p>DOI: 10.1111/1467-6281.00024</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;34, issue&nbsp;1 (1998)</p></td>
+	<td>294&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00024" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00024">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00024">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00024">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pamela Kent; Ron Weber</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6281.00025">Auditor Expertise and the Estimation of Dollar Error in Accounts</a></p>
+		<p>DOI: 10.1111/1467-6281.00025</p>	</td>
+	<td><p><a href="/scimag/journals/23">Abacus</a><p>volume&nbsp;34, issue&nbsp;1 (1998)</p></td>
+	<td>227&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6281.00025" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6281.00025">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6281.00025">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6281.00025">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;047 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 42</span>
+	 <a href="/scimag/?journal=23&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

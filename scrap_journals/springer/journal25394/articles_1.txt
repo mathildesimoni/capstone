@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/25394">Virchows Archiv</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0945-6317</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1432-2307</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 841; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 841');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=25394&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">21&nbsp;010 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 841</span>
+	 <a href="/scimag/?journal=25394&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Anton E. Becker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00189569">A European school for cardiovascular pathology</a></p>
+		<p>DOI: 10.1007/bf00189569</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;425, issue&nbsp;4 (1994)</p></td>
+	<td>106&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00189569" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00189569">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00189569">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00189569">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00189570">Announcement</a></p>
+		<p>DOI: 10.1007/bf00189570</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;425, issue&nbsp;4 (1994)</p></td>
+	<td>106&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00189570" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00189570">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00189570">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00189570">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. M. Genta; D. Y. Graham</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00189571">Helicobacter pylori: the new bug on the (paraffin) block</a></p>
+		<p>DOI: 10.1007/bf00189571</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;425, issue&nbsp;4 (1994)</p></td>
+	<td>3.46&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00189571" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00189571">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00189571">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00189571">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. G. Jónasson; J. Hrafnkelsson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00189572">Nuclear DNA analysis and prognosis in carcinoma of the thyroid gland</a></p>
+		<p>DOI: 10.1007/bf00189572</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;425, issue&nbsp;4 (1994)</p></td>
+	<td>735&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00189572" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00189572">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00189572">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00189572">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Sessa; E. Solcia; C. Capella; M. Bonato; A. Scarpa; G. Zamboni; N. S. Pellegata; G. N. Ranzani; F. Rickaert; G. Klöppel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00189573">Intraductal papillary-mucinous tumours represent a distinct group of pancreatic neoplasms: an investigation of tumour cell differentiation and K-ras, p53 and c-erbB-2 abnormalities in 26 patients</a></p>
+		<p>DOI: 10.1007/bf00189573</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;425, issue&nbsp;4 (1994)</p></td>
+	<td>3.16&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00189573" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00189573">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00189573">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00189573">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>O. Tiitta; I. Virtanen; P. Sipponen; V. Gould</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00189574">Tenascin expression in inflammatory, dysplastic and neoplastic lesions of the human stomach</a></p>
+		<p>DOI: 10.1007/bf00189574</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;425, issue&nbsp;4 (1994)</p></td>
+	<td>3.39&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00189574" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00189574">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00189574">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00189574">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Mechtersheimer; T. Barth; P. Möller; W. Hartschuh; T. Lehnert</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00189575">In situexpression of β1, β3 and β4 integrin subunits in non-neoplastic endothelium and vascular tumours</a></p>
+		<p>DOI: 10.1007/bf00189575</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;425, issue&nbsp;4 (1994)</p></td>
+	<td>2.67&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00189575" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00189575">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00189575">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00189575">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Kato; S. Azagami; M. Morimastu; Y. Sasaguri; R. Nakano; T. Hamada; N. Arima; A. Tanimoto</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00189576">Ambient pressure stimulates immortalized human aortic endothelial cells to increase DNA synthesis and matrix metalloproteinase 1 (tissue collagenase) production</a></p>
+		<p>DOI: 10.1007/bf00189576</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;425, issue&nbsp;4 (1994)</p></td>
+	<td>1.39&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00189576" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00189576">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00189576">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00189576">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Ringstead; G. B. Robinson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00189577">Cell culture from rat renal glomeruli</a></p>
+		<p>DOI: 10.1007/bf00189577</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;425, issue&nbsp;4 (1994)</p></td>
+	<td>3.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00189577" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00189577">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00189577">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00189577">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Akashi; T. Shirasawa; K. Hirokawa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00189578">Gene expression of CD24 core polypeptide molecule in normal rat tissues and human tumor cell lines</a></p>
+		<p>DOI: 10.1007/bf00189578</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;425, issue&nbsp;4 (1994)</p></td>
+	<td>2.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00189578" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00189578">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00189578">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00189578">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Kojima; N. Sawada; Y. Zhong; M. Oyamada; M. Mori</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00189579">Sequential changes in intercellular junctions between hepatocytes during the course of acute liver injury and restoration after thioacetamide treatment</a></p>
+		<p>DOI: 10.1007/bf00189579</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;425, issue&nbsp;4 (1994)</p></td>
+	<td>3.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00189579" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00189579">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00189579">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00189579">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. M. Hembry; M. R. Bagga; J. T. Dingle; P. Page Thomas; J. J. Reynolds</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00189580">Metalloproteinase production by rabbit articular cartilage: comparison of the effects of interleukin-1α in vitro and in vivo</a></p>
+		<p>DOI: 10.1007/bf00189580</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;425, issue&nbsp;4 (1994)</p></td>
+	<td>4.65&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00189580" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00189580">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00189580">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00189580">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. Horiba; Y. Fukuda</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00189581">Synchronous appearance of fibronectin, integrin α5β1, vinculin and actin in epithelial cells and fibroblasts during rat tracheal wound healing</a></p>
+		<p>DOI: 10.1007/bf00189581</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;425, issue&nbsp;4 (1994)</p></td>
+	<td>4.55&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00189581" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00189581">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00189581">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00189581">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. Takayama; M. A. Fujiino; Y. Fujii; S. Ohno</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00189582">X-ray microanalysis of rat mast cells stimulated with compound 48/80 in combination with quick-freezing method</a></p>
+		<p>DOI: 10.1007/bf00189582</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;425, issue&nbsp;4 (1994)</p></td>
+	<td>952&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00189582" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00189582">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00189582">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00189582">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. I. Boer; J. M. J. Rebel; C. D. E. M. Thijssen; M. Vermey; T. H. Kwast; A. J. M. Eijnden-van Raaij</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00189583">Hyperplasia of epithelium adjacent to transitional cell carcinoma can be induced by growth factors through paracrine pathways</a></p>
+		<p>DOI: 10.1007/bf00189583</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;425, issue&nbsp;4 (1994)</p></td>
+	<td>1.03&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00189583" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00189583">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00189583">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00189583">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. M. Ott; J. G. Müller; H. K. Müller-Hermelink; M. Rehn; J. Martius; T. Steck; A. Gruss</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00189584">Vaginal clear cell carcinoma in a young patient with ectopic termination of the left ureter in the vagina</a></p>
+		<p>DOI: 10.1007/bf00189584</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;425, issue&nbsp;4 (1994)</p></td>
+	<td>1.47&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00189584" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00189584">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00189584">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00189584">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Dockhorn-Dworniczak; C. Poremba; R. Dantcheva; A. Stücker; E. Brömmelkamp; S. Blasius; W. Böcker; W. Mellin; A. Roessner; D. Yandell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00190553">Rapid detection of loss of heterozygosity of chromosome 17p by polymerase chain reaction-based variable number of tandem repeat analysis and detection of single-strand conformation polymorphism of intragenicp53polymorphisms</a></p>
+		<p>DOI: 10.1007/bf00190553</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;424, issue&nbsp;4 (1994)</p></td>
+	<td>765&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00190553" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00190553">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00190553">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00190553">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Auer; K. Heselmeyer; A. Zetterberg; R. Steinbeck; E. Munck-Wikland</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00190554">The relationship between aneuploidy andp53overexpression during genesis of colorectal adenocarcinoma</a></p>
+		<p>DOI: 10.1007/bf00190554</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;424, issue&nbsp;4 (1994)</p></td>
+	<td>573&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00190554" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00190554">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00190554">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00190554">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Kamel; Y. Soini; K. Nuorva; P. Pääkkö; A. Khalifa; A. Mangoud; K. Vähäkangas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00190555">p53and c-erbB-2 expression in schistosomal urinary bladder carcinomas and schistosomal cystitis with premalignant lesions</a></p>
+		<p>DOI: 10.1007/bf00190555</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;424, issue&nbsp;4 (1994)</p></td>
+	<td>1.49&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00190555" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00190555">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00190555">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00190555">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Wiethege; K. M. Müller; B. Voss</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00190556">p53accumulation in polynuclear-giant-cells</a></p>
+		<p>DOI: 10.1007/bf00190556</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;424, issue&nbsp;4 (1994)</p></td>
+	<td>1.69&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00190556" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00190556">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00190556">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00190556">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Motoyama; H. Watanabe; T. Kumanishi; H. Usui; H. Hashimoto; T. Hachisu; I. Fukamachi; T. Arai; K. Takehara</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00190557">Functional and morphological effects of tumour necrosis factor α in an interleukin 6-producing pulmonary large cell carcinoma with sarcomatoid features</a></p>
+		<p>DOI: 10.1007/bf00190557</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;424, issue&nbsp;4 (1994)</p></td>
+	<td>2.00&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00190557" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00190557">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00190557">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00190557">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. M. Silini; F. Bosi; E. Solcia; R. Fiocca; N. S. Pellegata; G. N. Ranzani; G. Volpato; A. Romano; S. Nazari; C. Tinelli</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00190558">K-rasgene mutations: an unfavorable prognostic marker in stage I lung adenocarcinoma</a></p>
+		<p>DOI: 10.1007/bf00190558</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;424, issue&nbsp;4 (1994)</p></td>
+	<td>1.05&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00190558" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00190558">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00190558">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00190558">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Matsui; H. Shiozaki; M. Inoue; S. Tamura; Y. Doki; T. Kadowaki; T. Iwazawa; K. Shimaya; T. Mori; A. Nagafuchi; S. Tsukita</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00190559">Immunohistochemical evaluation of alpha-catenin expression in human gastric cancer</a></p>
+		<p>DOI: 10.1007/bf00190559</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;424, issue&nbsp;4 (1994)</p></td>
+	<td>4.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00190559" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00190559">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00190559">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00190559">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Thiele; H. M. Kvasnicka; T. Amend; R. Fischer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00190560">Megakaryocytes and sinus walls in primary osteomyelofibrosis: transendothelial migration as revealed by three-dimensional reconstruction of serial sections following sequential double-immunostaining</a></p>
+		<p>DOI: 10.1007/bf00190560</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;424, issue&nbsp;4 (1994)</p></td>
+	<td>4.66&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00190560" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00190560">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00190560">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00190560">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Rohde; C. Wickenhauser; S. Denecke; A. Stach; J. Lorenzen; M. -L. Hansmann; J. Thiele; R. Fischer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00190561">Cytokine release by human bone marrow cells: analysis at the single cell level</a></p>
+		<p>DOI: 10.1007/bf00190561</p>	</td>
+	<td><p><a href="/scimag/journals/25394">Virchows Archiv</a><p>volume&nbsp;424, issue&nbsp;4 (1994)</p></td>
+	<td>2.54&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00190561" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00190561">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00190561">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00190561">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">21&nbsp;010 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 841</span>
+	 <a href="/scimag/?journal=25394&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

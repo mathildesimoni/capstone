@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/18763">Operational Research</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1109-2858</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1866-1505</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 31; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 31');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=18763&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">768 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 31</span>
+	 <a href="/scimag/?journal=18763&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>T. K. Shih; F. Chia-I Chang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936288">Strategic assessment: Using influence diagrams to design distance learning courseware</a></p>
+		<p>DOI: 10.1007/bf02936288</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;1, issue&nbsp;2 (2001)</p></td>
+	<td>1.45&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936288" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936288">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936288">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936288">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Angel M. Gento; Ma Dolores Minambres; Alfonso Redondo; Ma Elena Perez</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936289">QFD application in a service environment: A new approach in risk management in an university</a></p>
+		<p>DOI: 10.1007/bf02936289</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;1, issue&nbsp;2 (2001)</p></td>
+	<td>1000&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936289" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936289">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936289">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936289">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Artikis; A. Voudouri; D. Jerwood</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936290">Risk management decision making based on random sums incorporating thinned renewal processes in random time</a></p>
+		<p>DOI: 10.1007/bf02936290</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;1, issue&nbsp;2 (2001)</p></td>
+	<td>684&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936290" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936290">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936290">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936290">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nikitas A. Assimakopoulos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936291">A systemic approach in modeling and analysis of interactions in virtual enterprises</a></p>
+		<p>DOI: 10.1007/bf02936291</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;1, issue&nbsp;2 (2001)</p></td>
+	<td>1.37&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936291" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936291">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936291">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936291">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Nikolarakos; N. Georgopoulos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936292">Sourcing: Issues to be considered for the make-or-buy decisions</a></p>
+		<p>DOI: 10.1007/bf02936292</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;1, issue&nbsp;2 (2001)</p></td>
+	<td>1.28&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936292" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936292">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936292">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936292">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. M. Emiris; D. E. Koulouriotis; N. F. Matsatsinis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936293">Modeling of business processes and functions of an industrial unit for ERP system application</a></p>
+		<p>DOI: 10.1007/bf02936293</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;1, issue&nbsp;2 (2001)</p></td>
+	<td>802&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936293" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936293">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936293">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936293">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Doumpos; Constantin Zopounidis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936323">Editorial</a></p>
+		<p>DOI: 10.1007/bf02936323</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;2, issue&nbsp;2 (2002)</p></td>
+	<td>124&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936323" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936323">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936323">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936323">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>George A Christodoulakis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936324">Sharpe style analysis in the msci sector portfolios: a monte carlo integration approach</a></p>
+		<p>DOI: 10.1007/bf02936324</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;2, issue&nbsp;2 (2002)</p></td>
+	<td>877&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936324" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936324">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936324">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936324">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Elisa Luciano; Marina Marena</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936325">Copulae as a new tool in financial modelling</a></p>
+		<p>DOI: 10.1007/bf02936325</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;2, issue&nbsp;2 (2002)</p></td>
+	<td>831&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936325" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936325">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936325">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936325">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mauro D’Amico; Gianluca Fusai; Aldo Tagliani</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936326">Valuation of exotic options using moments</a></p>
+		<p>DOI: 10.1007/bf02936326</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;2, issue&nbsp;2 (2002)</p></td>
+	<td>1.18&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936326" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936326">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936326">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936326">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jyoti Gupta; Alain Chevalier</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936327">Pertinence of real options approach to the valuation of internet companies</a></p>
+		<p>DOI: 10.1007/bf02936327</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;2, issue&nbsp;2 (2002)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936327" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936327">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936327">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936327">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Athanasios Migdalas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936328">Applications of game theory in finance and managerial accounting</a></p>
+		<p>DOI: 10.1007/bf02936328</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;2, issue&nbsp;2 (2002)</p></td>
+	<td>2.12&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936328" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936328">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936328">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936328">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nikolaos F Matsatsinis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936329">An intelligent decision support system for credit card assessment based on a machine learning technique</a></p>
+		<p>DOI: 10.1007/bf02936329</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;2, issue&nbsp;2 (2002)</p></td>
+	<td>1.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936329" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936329">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936329">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936329">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Doumpos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936330">A Stacked generalization framework for credit risk assessment</a></p>
+		<p>DOI: 10.1007/bf02936330</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;2, issue&nbsp;2 (2002)</p></td>
+	<td>1.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936330" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936330">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936330">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936330">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kyriaki Kosmidou; Constantin Zopounidis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936331">An optimization scenario methodology for bank asset liability management</a></p>
+		<p>DOI: 10.1007/bf02936331</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;2, issue&nbsp;2 (2002)</p></td>
+	<td>510&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936331" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936331">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936331">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936331">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vangelis Th. Paschos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936352">On-line independent set by coloring vertices</a></p>
+		<p>DOI: 10.1007/bf02936352</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;1, issue&nbsp;3 (2001)</p></td>
+	<td>551&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936352" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936352">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936352">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936352">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Karagiannidis; G. Perkoulidis; N. Moussiopoulos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936353">Multi-objective ranking of pareto-optimal scenarios for regional solid waste management in Central Greece</a></p>
+		<p>DOI: 10.1007/bf02936353</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;1, issue&nbsp;3 (2001)</p></td>
+	<td>988&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936353" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936353">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936353">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936353">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Papageorgiou; A. Kotsialos; A. Poulimenos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936354">Long term sales forecasting for industrial supply chain management</a></p>
+		<p>DOI: 10.1007/bf02936354</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;1, issue&nbsp;3 (2001)</p></td>
+	<td>1.05&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936354" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936354">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936354">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936354">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Constantin Zopounidis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936355">Preference disaggregation in financial modeling: Basic features and some examples</a></p>
+		<p>DOI: 10.1007/bf02936355</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;1, issue&nbsp;3 (2001)</p></td>
+	<td>1.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936355" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936355">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936355">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936355">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Katsavounis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936356">A greedy algorithm for scheduling tasks on production lines</a></p>
+		<p>DOI: 10.1007/bf02936356</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;1, issue&nbsp;3 (2001)</p></td>
+	<td>545&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936356" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936356">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936356">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936356">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Mavrotas; D. Diakoulaki; Y. Caloghirou</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936357">A combinatorial multicriteria approach for corporate funding under policy restrictions</a></p>
+		<p>DOI: 10.1007/bf02936357</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;1, issue&nbsp;3 (2001)</p></td>
+	<td>925&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936357" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936357">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936357">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936357">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. P. Anagnostopoulos; L. Kotsikas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936358">Time-cost trade off in cpm networks by simulated annealing</a></p>
+		<p>DOI: 10.1007/bf02936358</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;1, issue&nbsp;3 (2001)</p></td>
+	<td>829&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936358" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936358">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936358">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936358">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. P. Anagnostopoulos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936386">Editorial</a></p>
+		<p>DOI: 10.1007/bf02936386</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;2, issue&nbsp;3 (2002)</p></td>
+	<td>126&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936386" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936386">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936386">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936386">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Doumpos; Constantin Zopounidis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936387">Business failure prediction: A comparison of classification methods</a></p>
+		<p>DOI: 10.1007/bf02936387</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;2, issue&nbsp;3 (2002)</p></td>
+	<td>1.00&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936387" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936387">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936387">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936387">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Evangelia Krassadaki; Evangelos Grigoroudis; Nikolaos Matsatsinis; Yannis Siskos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02936388">The evaluation of studies and training in information technology: A multicriteria approach</a></p>
+		<p>DOI: 10.1007/bf02936388</p>	</td>
+	<td><p><a href="/scimag/journals/18763">Operational Research</a><p>volume&nbsp;2, issue&nbsp;3 (2002)</p></td>
+	<td>1.12&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02936388" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02936388">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02936388">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02936388">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">768 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 31</span>
+	 <a href="/scimag/?journal=18763&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

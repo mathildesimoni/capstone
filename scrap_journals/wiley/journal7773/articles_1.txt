@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/7773">forschung</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0172-1518</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1522-2357</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 32; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 32');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=7773&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">791 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 32</span>
+	 <a href="/scimag/?journal=7773&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200110%2926%3A4%3C1%3A%3Aaid-fors1%3E3.0.co%3B2-f">Titelbild: Forschung 4/2001</a></p>
+		<p>DOI: 10.1002/1522-2357(200110)26:4&lt;1::aid-fors1&gt;3.0.co;2-f</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;26, issue&nbsp;4 (2001)</p></td>
+	<td>81&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200110%2926%3A4%3C1%3A%3Aaid-fors1%3E3.0.co%3B2-f" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200110%2926%3A4%3C1%3A%3Aaid-fors1%3E3.0.co%3B2-f">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200110%2926%3A4%3C1%3A%3Aaid-fors1%3E3.0.co%3B2-f">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200110%2926%3A4%3C1%3A%3Aaid-fors1%3E3.0.co%3B2-f">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200110%2926%3A4%3C1%3A%3Aaid-fors11111%3E3.0.co%3B2-7">Inhalt: Forschung 4/2001</a></p>
+		<p>DOI: 10.1002/1522-2357(200110)26:4&lt;1::aid-fors11111&gt;3.0.co;2-7</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;26, issue&nbsp;4 (2001)</p></td>
+	<td>43&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200110%2926%3A4%3C1%3A%3Aaid-fors11111%3E3.0.co%3B2-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200110%2926%3A4%3C1%3A%3Aaid-fors11111%3E3.0.co%3B2-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200110%2926%3A4%3C1%3A%3Aaid-fors11111%3E3.0.co%3B2-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200110%2926%3A4%3C1%3A%3Aaid-fors11111%3E3.0.co%3B2-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ernst-Ludwig Winnacker</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200110%2926%3A4%3C1%3A%3Aaid-fors2%3E3.0.co%3B2-c">Gute wissenschaftliche Praxis sichern</a></p>
+		<p>DOI: 10.1002/1522-2357(200110)26:4&lt;1::aid-fors2&gt;3.0.co;2-c</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;26, issue&nbsp;4 (2001)</p></td>
+	<td>74&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200110%2926%3A4%3C1%3A%3Aaid-fors2%3E3.0.co%3B2-c" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200110%2926%3A4%3C1%3A%3Aaid-fors2%3E3.0.co%3B2-c">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200110%2926%3A4%3C1%3A%3Aaid-fors2%3E3.0.co%3B2-c">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200110%2926%3A4%3C1%3A%3Aaid-fors2%3E3.0.co%3B2-c">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stefan Lange; Monika Rajewski; Ludger Leineman; Hans Hattemer</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200110%2926%3A4%3C10%3A%3Aaid-fors10%3E3.0.co%3B2-9">Fremdpaarung im Wald - Das Liebesleben der Eibe</a></p>
+		<p>DOI: 10.1002/1522-2357(200110)26:4&lt;10::aid-fors10&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;26, issue&nbsp;4 (2001)</p></td>
+	<td>701&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200110%2926%3A4%3C10%3A%3Aaid-fors10%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200110%2926%3A4%3C10%3A%3Aaid-fors10%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200110%2926%3A4%3C10%3A%3Aaid-fors10%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200110%2926%3A4%3C10%3A%3Aaid-fors10%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jörn Thiede; Christian Haas; Wilfried Jokat; Richard Mühe; Robert Spielhagen; Jonathan Snow</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200110%2926%3A4%3C14%3A%3Aaid-fors14%3E3.0.co%3B2-m">Expedition zu den Vulkanen der Arktis</a></p>
+		<p>DOI: 10.1002/1522-2357(200110)26:4&lt;14::aid-fors14&gt;3.0.co;2-m</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;26, issue&nbsp;4 (2001)</p></td>
+	<td>912&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200110%2926%3A4%3C14%3A%3Aaid-fors14%3E3.0.co%3B2-m" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200110%2926%3A4%3C14%3A%3Aaid-fors14%3E3.0.co%3B2-m">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200110%2926%3A4%3C14%3A%3Aaid-fors14%3E3.0.co%3B2-m">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200110%2926%3A4%3C14%3A%3Aaid-fors14%3E3.0.co%3B2-m">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Max Klimburg</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200110%2926%3A4%3C20%3A%3Aaid-fors20%3E3.0.co%3B2-7">Afghanistan: Die Kultur der Kafiren</a></p>
+		<p>DOI: 10.1002/1522-2357(200110)26:4&lt;20::aid-fors20&gt;3.0.co;2-7</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;26, issue&nbsp;4 (2001)</p></td>
+	<td>1.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200110%2926%3A4%3C20%3A%3Aaid-fors20%3E3.0.co%3B2-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200110%2926%3A4%3C20%3A%3Aaid-fors20%3E3.0.co%3B2-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200110%2926%3A4%3C20%3A%3Aaid-fors20%3E3.0.co%3B2-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200110%2926%3A4%3C20%3A%3Aaid-fors20%3E3.0.co%3B2-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200110%2926%3A4%3C27%3A%3Aaid-fors27%3E3.0.co%3B2-2">Freie Wahl der Publikationsform</a></p>
+		<p>DOI: 10.1002/1522-2357(200110)26:4&lt;27::aid-fors27&gt;3.0.co;2-2</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;26, issue&nbsp;4 (2001)</p></td>
+	<td>107&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200110%2926%3A4%3C27%3A%3Aaid-fors27%3E3.0.co%3B2-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200110%2926%3A4%3C27%3A%3Aaid-fors27%3E3.0.co%3B2-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200110%2926%3A4%3C27%3A%3Aaid-fors27%3E3.0.co%3B2-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200110%2926%3A4%3C27%3A%3Aaid-fors27%3E3.0.co%3B2-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200110%2926%3A4%3C32%3A%3Aaid-fors32%3E3.0.co%3B2-u">Die Deutsche Forschungsgemeinschaft</a></p>
+		<p>DOI: 10.1002/1522-2357(200110)26:4&lt;32::aid-fors32&gt;3.0.co;2-u</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;26, issue&nbsp;4 (2001)</p></td>
+	<td>37&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200110%2926%3A4%3C32%3A%3Aaid-fors32%3E3.0.co%3B2-u" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200110%2926%3A4%3C32%3A%3Aaid-fors32%3E3.0.co%3B2-u">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200110%2926%3A4%3C32%3A%3Aaid-fors32%3E3.0.co%3B2-u">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200110%2926%3A4%3C32%3A%3Aaid-fors32%3E3.0.co%3B2-u">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Klaus-Heiko Wassill; Herbert Kaufmann</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200110%2926%3A4%3C4%3A%3Aaid-fors4%3E3.0.co%3B2-3">Wenn das Schielen zum Problem wird</a></p>
+		<p>DOI: 10.1002/1522-2357(200110)26:4&lt;4::aid-fors4&gt;3.0.co;2-3</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;26, issue&nbsp;4 (2001)</p></td>
+	<td>702&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200110%2926%3A4%3C4%3A%3Aaid-fors4%3E3.0.co%3B2-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200110%2926%3A4%3C4%3A%3Aaid-fors4%3E3.0.co%3B2-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200110%2926%3A4%3C4%3A%3Aaid-fors4%3E3.0.co%3B2-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200110%2926%3A4%3C4%3A%3Aaid-fors4%3E3.0.co%3B2-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Steffen Harzsch</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200110%2926%3A4%3C7%3A%3Aaid-fors7%3E3.0.co%3B2-s">Im Reich der vielen Füße</a></p>
+		<p>DOI: 10.1002/1522-2357(200110)26:4&lt;7::aid-fors7&gt;3.0.co;2-s</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;26, issue&nbsp;4 (2001)</p></td>
+	<td>264&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200110%2926%3A4%3C7%3A%3Aaid-fors7%3E3.0.co%3B2-s" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200110%2926%3A4%3C7%3A%3Aaid-fors7%3E3.0.co%3B2-s">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200110%2926%3A4%3C7%3A%3Aaid-fors7%3E3.0.co%3B2-s">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200110%2926%3A4%3C7%3A%3Aaid-fors7%3E3.0.co%3B2-s">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C1%3A%3Aaid-fors1%3E3.0.co%3B2-q">Titelbild: forschung 1-2/2002</a></p>
+		<p>DOI: 10.1002/1522-2357(200209)27:1/2&lt;1::aid-fors1&gt;3.0.co;2-q</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;27, issue&nbsp;1-2 (2002)</p></td>
+	<td>145&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C1%3A%3Aaid-fors1%3E3.0.co%3B2-q" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200209%2927%3A1/2%3C1%3A%3Aaid-fors1%3E3.0.co%3B2-q">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200209%2927%3A1/2%3C1%3A%3Aaid-fors1%3E3.0.co%3B2-q">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200209%2927%3A1/2%3C1%3A%3Aaid-fors1%3E3.0.co%3B2-q">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C1%3A%3Aaid-fors11111%3E3.0.co%3B2-i">Inhalt: forschung 1-2/2002</a></p>
+		<p>DOI: 10.1002/1522-2357(200209)27:1/2&lt;1::aid-fors11111&gt;3.0.co;2-i</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;27, issue&nbsp;1-2 (2002)</p></td>
+	<td>52&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C1%3A%3Aaid-fors11111%3E3.0.co%3B2-i" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200209%2927%3A1/2%3C1%3A%3Aaid-fors11111%3E3.0.co%3B2-i">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200209%2927%3A1/2%3C1%3A%3Aaid-fors11111%3E3.0.co%3B2-i">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200209%2927%3A1/2%3C1%3A%3Aaid-fors11111%3E3.0.co%3B2-i">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hermann J. Heege; Stefan Reusch; Gabriele Thumann</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C10%3A%3Aaid-fors10%3E3.0.co%3B2-k">Neue Zellen für die alte Netzhaut</a></p>
+		<p>DOI: 10.1002/1522-2357(200209)27:1/2&lt;10::aid-fors10&gt;3.0.co;2-k</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;27, issue&nbsp;1-2 (2002)</p></td>
+	<td>223&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C10%3A%3Aaid-fors10%3E3.0.co%3B2-k" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200209%2927%3A1/2%3C10%3A%3Aaid-fors10%3E3.0.co%3B2-k">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200209%2927%3A1/2%3C10%3A%3Aaid-fors10%3E3.0.co%3B2-k">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200209%2927%3A1/2%3C10%3A%3Aaid-fors10%3E3.0.co%3B2-k">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William Martin</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C13%3A%3Aaid-fors13%3E3.0.co%3B2-2">Die biologische Art der Wiedervereinigung</a></p>
+		<p>DOI: 10.1002/1522-2357(200209)27:1/2&lt;13::aid-fors13&gt;3.0.co;2-2</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;27, issue&nbsp;1-2 (2002)</p></td>
+	<td>265&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C13%3A%3Aaid-fors13%3E3.0.co%3B2-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200209%2927%3A1/2%3C13%3A%3Aaid-fors13%3E3.0.co%3B2-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200209%2927%3A1/2%3C13%3A%3Aaid-fors13%3E3.0.co%3B2-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200209%2927%3A1/2%3C13%3A%3Aaid-fors13%3E3.0.co%3B2-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C16%3A%3Aaid-fors16%3E3.0.co%3B2-l">Wissenschaftliche Exzellenz wird belohnt</a></p>
+		<p>DOI: 10.1002/1522-2357(200209)27:1/2&lt;16::aid-fors16&gt;3.0.co;2-l</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;27, issue&nbsp;1-2 (2002)</p></td>
+	<td>345&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C16%3A%3Aaid-fors16%3E3.0.co%3B2-l" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200209%2927%3A1/2%3C16%3A%3Aaid-fors16%3E3.0.co%3B2-l">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200209%2927%3A1/2%3C16%3A%3Aaid-fors16%3E3.0.co%3B2-l">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200209%2927%3A1/2%3C16%3A%3Aaid-fors16%3E3.0.co%3B2-l">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gerhard Dziuk; Alfred Schmidt</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C19%3A%3Aaid-fors19%3E3.0.co%3B2-3">Wenn Kristalle im Computer wachsen</a></p>
+		<p>DOI: 10.1002/1522-2357(200209)27:1/2&lt;19::aid-fors19&gt;3.0.co;2-3</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;27, issue&nbsp;1-2 (2002)</p></td>
+	<td>214&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C19%3A%3Aaid-fors19%3E3.0.co%3B2-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200209%2927%3A1/2%3C19%3A%3Aaid-fors19%3E3.0.co%3B2-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200209%2927%3A1/2%3C19%3A%3Aaid-fors19%3E3.0.co%3B2-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200209%2927%3A1/2%3C19%3A%3Aaid-fors19%3E3.0.co%3B2-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ernst-Ludwig Winnacker</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C2%3A%3Aaid-fors2%3E3.0.co%3B2-m">Kommentar: Ein Tarifvertrag für die Wissenschaft</a></p>
+		<p>DOI: 10.1002/1522-2357(200209)27:1/2&lt;2::aid-fors2&gt;3.0.co;2-m</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;27, issue&nbsp;1-2 (2002)</p></td>
+	<td>108&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C2%3A%3Aaid-fors2%3E3.0.co%3B2-m" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200209%2927%3A1/2%3C2%3A%3Aaid-fors2%3E3.0.co%3B2-m">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200209%2927%3A1/2%3C2%3A%3Aaid-fors2%3E3.0.co%3B2-m">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200209%2927%3A1/2%3C2%3A%3Aaid-fors2%3E3.0.co%3B2-m">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jutta Rateike</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C21%3A%3Aaid-fors21%3E3.0.co%3B2-c">Nach Deutschland der Karriere wegen</a></p>
+		<p>DOI: 10.1002/1522-2357(200209)27:1/2&lt;21::aid-fors21&gt;3.0.co;2-c</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;27, issue&nbsp;1-2 (2002)</p></td>
+	<td>74&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C21%3A%3Aaid-fors21%3E3.0.co%3B2-c" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200209%2927%3A1/2%3C21%3A%3Aaid-fors21%3E3.0.co%3B2-c">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200209%2927%3A1/2%3C21%3A%3Aaid-fors21%3E3.0.co%3B2-c">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200209%2927%3A1/2%3C21%3A%3Aaid-fors21%3E3.0.co%3B2-c">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jürgen Lenz; Matthias Thies; Karl Schweizerhof</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C22%3A%3Aaid-fors22%3E3.0.co%3B2-6">Im Dienste der Krone</a></p>
+		<p>DOI: 10.1002/1522-2357(200209)27:1/2&lt;22::aid-fors22&gt;3.0.co;2-6</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;27, issue&nbsp;1-2 (2002)</p></td>
+	<td>408&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C22%3A%3Aaid-fors22%3E3.0.co%3B2-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200209%2927%3A1/2%3C22%3A%3Aaid-fors22%3E3.0.co%3B2-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200209%2927%3A1/2%3C22%3A%3Aaid-fors22%3E3.0.co%3B2-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200209%2927%3A1/2%3C22%3A%3Aaid-fors22%3E3.0.co%3B2-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C26%3A%3Aaid-fors26%3E3.0.co%3B2-j">Mehr Freiraum für die Forschung</a></p>
+		<p>DOI: 10.1002/1522-2357(200209)27:1/2&lt;26::aid-fors26&gt;3.0.co;2-j</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;27, issue&nbsp;1-2 (2002)</p></td>
+	<td>472&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C26%3A%3Aaid-fors26%3E3.0.co%3B2-j" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200209%2927%3A1/2%3C26%3A%3Aaid-fors26%3E3.0.co%3B2-j">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200209%2927%3A1/2%3C26%3A%3Aaid-fors26%3E3.0.co%3B2-j">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200209%2927%3A1/2%3C26%3A%3Aaid-fors26%3E3.0.co%3B2-j">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ulrich Köhler</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C32%3A%3Aaid-fors32%3E3.0.co%3B2-4">Auf dem Schlachtfeld von Chiapas</a></p>
+		<p>DOI: 10.1002/1522-2357(200209)27:1/2&lt;32::aid-fors32&gt;3.0.co;2-4</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;27, issue&nbsp;1-2 (2002)</p></td>
+	<td>909&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C32%3A%3Aaid-fors32%3E3.0.co%3B2-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200209%2927%3A1/2%3C32%3A%3Aaid-fors32%3E3.0.co%3B2-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200209%2927%3A1/2%3C32%3A%3Aaid-fors32%3E3.0.co%3B2-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200209%2927%3A1/2%3C32%3A%3Aaid-fors32%3E3.0.co%3B2-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Beate Krais; Sandra Beaufaÿs</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C36%3A%3Aaid-fors36%3E3.0.co%3B2-h">Das Geschlecht und die Karriere</a></p>
+		<p>DOI: 10.1002/1522-2357(200209)27:1/2&lt;36::aid-fors36&gt;3.0.co;2-h</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;27, issue&nbsp;1-2 (2002)</p></td>
+	<td>95&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C36%3A%3Aaid-fors36%3E3.0.co%3B2-h" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200209%2927%3A1/2%3C36%3A%3Aaid-fors36%3E3.0.co%3B2-h">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200209%2927%3A1/2%3C36%3A%3Aaid-fors36%3E3.0.co%3B2-h">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200209%2927%3A1/2%3C36%3A%3Aaid-fors36%3E3.0.co%3B2-h">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anno Mungen</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C38%3A%3Aaid-fors38%3E3.0.co%3B2-5">Der Mann am Klavier oder wie der Ton zum Bild kam</a></p>
+		<p>DOI: 10.1002/1522-2357(200209)27:1/2&lt;38::aid-fors38&gt;3.0.co;2-5</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;27, issue&nbsp;1-2 (2002)</p></td>
+	<td>472&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C38%3A%3Aaid-fors38%3E3.0.co%3B2-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200209%2927%3A1/2%3C38%3A%3Aaid-fors38%3E3.0.co%3B2-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200209%2927%3A1/2%3C38%3A%3Aaid-fors38%3E3.0.co%3B2-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200209%2927%3A1/2%3C38%3A%3Aaid-fors38%3E3.0.co%3B2-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin Baehr</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C4%3A%3Aaid-fors4%3E3.0.co%3B2-e">Das Refugium unter der Borke</a></p>
+		<p>DOI: 10.1002/1522-2357(200209)27:1/2&lt;4::aid-fors4&gt;3.0.co;2-e</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;27, issue&nbsp;1-2 (2002)</p></td>
+	<td>752&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C4%3A%3Aaid-fors4%3E3.0.co%3B2-e" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200209%2927%3A1/2%3C4%3A%3Aaid-fors4%3E3.0.co%3B2-e">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200209%2927%3A1/2%3C4%3A%3Aaid-fors4%3E3.0.co%3B2-e">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200209%2927%3A1/2%3C4%3A%3Aaid-fors4%3E3.0.co%3B2-e">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C41%3A%3Aaid-fors41%3E3.0.co%3B2-8">Frühe Förderung von Exzellenz</a></p>
+		<p>DOI: 10.1002/1522-2357(200209)27:1/2&lt;41::aid-fors41&gt;3.0.co;2-8</p>	</td>
+	<td><p><a href="/scimag/journals/7773">forschung</a><p>volume&nbsp;27, issue&nbsp;1-2 (2002)</p></td>
+	<td>365&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1522-2357%28200209%2927%3A1%2F2%3C41%3A%3Aaid-fors41%3E3.0.co%3B2-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1522-2357%28200209%2927%3A1/2%3C41%3A%3Aaid-fors41%3E3.0.co%3B2-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1522-2357%28200209%2927%3A1/2%3C41%3A%3Aaid-fors41%3E3.0.co%3B2-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1522-2357%28200209%2927%3A1/2%3C41%3A%3Aaid-fors41%3E3.0.co%3B2-8">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">791 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 32</span>
+	 <a href="/scimag/?journal=7773&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

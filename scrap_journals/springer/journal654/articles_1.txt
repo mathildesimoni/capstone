@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/654">Advances in Therapy</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer Healthcare Communications</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0741-238X</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1865-8652</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 100; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 100');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=654&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;479 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 100</span>
+	 <a href="/scimag/?journal=654&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Mark B. Abelson; Matthew J. Chapin; Barry M. Kapik; Naveed B. K. Shams</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848691">Ocular tolerability and safety of ketotifen fumarate ophthalmic solution</a></p>
+		<p>DOI: 10.1007/bf02848691</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;19, issue&nbsp;4 (2002)</p></td>
+	<td>152&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848691" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848691">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848691">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848691">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bikash Bose; Michael A. Balzarini</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848692">Bone graft gel: Autologous growth factors used with autograft bone for lumbar spine fusions</a></p>
+		<p>DOI: 10.1007/bf02848692</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;19, issue&nbsp;4 (2002)</p></td>
+	<td>859&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848692" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848692">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848692">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848692">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nurgul Ozpoyraz; Lut Tamam; Emel Kulan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848693">Thyroid abnormalities in lithium-treated patients</a></p>
+		<p>DOI: 10.1007/bf02848693</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;19, issue&nbsp;4 (2002)</p></td>
+	<td>153&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848693" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848693">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848693">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848693">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jack V. Greiner; Clifford Michaelson; Cecilia L. McWhirter; Naveed B. K. Shams</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848694">Single dose of ketotifen fumarate .025% vs 2 weeks of cromolyn sodium 4% for allergic conjunctivitis</a></p>
+		<p>DOI: 10.1007/bf02848694</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;19, issue&nbsp;4 (2002)</p></td>
+	<td>231&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848694" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848694">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848694">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848694">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sercan Akpinar; Murat A. Hersekli; Huseyin Demirors; Reha N. Tandogan; Fazilet Kayaselcuk</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848695">Effects of methylprednisolone and betamethasone injections on the rotator cuff: An experimental study in rats</a></p>
+		<p>DOI: 10.1007/bf02848695</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;19, issue&nbsp;4 (2002)</p></td>
+	<td>932&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848695" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848695">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848695">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848695">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James Kemp; Charles J. Turck; Dwight L. Varner; John M. York</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848768">Evaluation of albuterol 1.25 mg and 0.62 mg for nebulization in 6- to 12-year-old children with moderately severe asthma</a></p>
+		<p>DOI: 10.1007/bf02848768</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>323&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848768" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848768">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848768">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848768">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Oguz Cebesoy; Kamil Cagri Kose; Ilhami Kuru; Levent Altinel; Rauf Gul; Mehmet Demirtas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848769">Use of a splint following open carpal tunnel release: A comparative study</a></p>
+		<p>DOI: 10.1007/bf02848769</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>234&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848769" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848769">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848769">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848769">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gurkan Ersoy; M. Firat Kaynak; Osman Yilmaz; Ulkumen Rodoplu; Fikret Maltepe; Necati Gokmen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848770">Hemostatic effects of Microporous Polysaccharide Hemosphere® in a rat model with severe femoral artery bleeding</a></p>
+		<p>DOI: 10.1007/bf02848770</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>184&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848770" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848770">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848770">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848770">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Huseyin Bozbas; Aylin Yildirir; Serdar Mermer; Didem Konas; Ilyas Atar; Alp Aydinalp; Bulent Ozin; Mehmet E. Korkmaz; Haldun Muderrisoglu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848771">Does pravastatin therapy affect cardiac enzyme levels after percutaneous coronary intervention?</a></p>
+		<p>DOI: 10.1007/bf02848771</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>296&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848771" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848771">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848771">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848771">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yi-Fu He; Wei Wei; Zi-Min Sun; Chu-Shu Ji; Gang Wang; Man-Ping Chen; Chang-Lu Hu; Bing Hu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848772">Fatal lactic acidosis and hypoglycemia in a patient with relapsed natural killer/T-cell lymphoma</a></p>
+		<p>DOI: 10.1007/bf02848772</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>188&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848772" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848772">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848772">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848772">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Osman Kurukahvecioglu; Ferit Taneri; Osman Yüksel; Altan Aydin; Ekmel Tezel; Erhan Onuk</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848773">Total thyroidectomy for the treatment of Hashimoto’s thyroiditis coexisting with papillary thyroid carcinoma</a></p>
+		<p>DOI: 10.1007/bf02848773</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>276&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848773" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848773">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848773">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848773">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carl Fossaceca</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848774">Outcomes analysis of daptomycin use in a community hospital</a></p>
+		<p>DOI: 10.1007/bf02848774</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>216&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848774" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848774">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848774">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848774">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. Türkmen; Bülent Eren; R. Fedakar; N. Çomunoglu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848775">An unusual cause of sudden death: Cardiac myxoma</a></p>
+		<p>DOI: 10.1007/bf02848775</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>272&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848775" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848775">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848775">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848775">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Subramanian Vaidyanathan; Peter L. Hughes; Bakul M. Soni</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848776">Bilateral renal milk of calcium masquerading as nephrolithiasis in patients with spinal cord injury</a></p>
+		<p>DOI: 10.1007/bf02848776</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>377&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848776" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848776">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848776">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848776">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Russell D. White</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848777">The treat-to-target A1C approach to control type 2 diabetes and prevent complications</a></p>
+		<p>DOI: 10.1007/bf02848777</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>295&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848777" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848777">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848777">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848777">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Recep Canis; Sevtap Sipahi Demirkok; Zeynep Osar; Huriye Balci; Günay Can</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848778">Effects of inhaled budesonide on insulin sensitivity in nondiabetic patients with asthma and chronic obstructive pulmonary disease</a></p>
+		<p>DOI: 10.1007/bf02848778</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>219&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848778" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848778">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848778">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848778">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Afsun Sahin; Nilgun Yildirim; Emre Cingi; Metin A. Atasoy</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848779">Frontoethmoid sinus osteoma as a cause of subperiosteal orbital abscess</a></p>
+		<p>DOI: 10.1007/bf02848779</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>208&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848779" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848779">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848779">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848779">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Manfredi Rizzo; Giovam Battista Rini; Kaspar Berneis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848780">Effects of statins, fibrates, rosuvastatin, and ezetimibe beyond cholesterol: The modulation of LDL size and subclasses in high-risk patients</a></p>
+		<p>DOI: 10.1007/bf02848780</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>205&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848780" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848780">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848780">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848780">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hande Köksal; Hasan Bostanci; B. Bülent Mentes</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848781">Importance of sentinel lymph nodes in colorectal cancer: A pilot study</a></p>
+		<p>DOI: 10.1007/bf02848781</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>222&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848781" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848781">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848781">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848781">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ken-Sheng Cheng; Huei-Lin Tang; Chang-Hu Hsu; Hsueh-Chou Lai; Cheng-Ju Yu; Fu-Tsan Chou</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848782">A clinical survey ofKlebsiella pneumoniaevirulence and genotype in pyogenic liver abscess</a></p>
+		<p>DOI: 10.1007/bf02848782</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>245&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848782" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848782">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848782">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848782">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Olcay Eser; Murat Cosar; Adem Aslan; Onder Sahin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848783">Bone wax as a cause of foreign body reaction after lumbar disc surgery: A case report</a></p>
+		<p>DOI: 10.1007/bf02848783</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>268&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848783" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848783">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848783">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848783">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jun Tao Feng; Cheng Ping Hu; Xiao Zhao Li</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848784">Dorsal root ganglion: The target of acupuncture in the treatment of asthma</a></p>
+		<p>DOI: 10.1007/bf02848784</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>176&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848784" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848784">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848784">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848784">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Levent Yilmaz; Esra Selver Saygili-Yilmaz; Ramazan Gunesacar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848785">Interleukin-10 and -12 in human milk at 3 stages of lactation: A longitudinal study</a></p>
+		<p>DOI: 10.1007/bf02848785</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>206&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848785" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848785">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848785">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848785">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sevim Sureyya Cerci; Yusuf Tamam; Halil Kaya; Mustafa Yildiz; Seyfi Arslan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848786">Effect of rivastigmine on regional cerebral blood flow in Alzheimer’s disease</a></p>
+		<p>DOI: 10.1007/bf02848786</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>323&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848786" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848786">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848786">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848786">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Muhammet Gozdemir; Huseyin Sert; Nisa Yilmaz; Orhan Kanbak; Burhanettin Usta; Ruveyda Irem Demircioglu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02848787">Remifentanil-propofol in vertebral disk operations: Hemodynamics and recovery versus desflurane-N2O inhalation anesthesia</a></p>
+		<p>DOI: 10.1007/bf02848787</p>	</td>
+	<td><p><a href="/scimag/journals/654">Advances in Therapy</a><p>volume&nbsp;24, issue&nbsp;3 (2007)</p></td>
+	<td>277&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02848787" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02848787">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02848787">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02848787">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;479 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 100</span>
+	 <a href="/scimag/?journal=654&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

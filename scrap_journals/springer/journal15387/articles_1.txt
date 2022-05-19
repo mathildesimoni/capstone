@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/15387">Journal of Superconductivity</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0896-1107</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-9605</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 300; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 300');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=15387&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">7&nbsp;481 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 300</span>
+	 <a href="/scimag/?journal=15387&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617462">Important announcement</a></p>
+		<p>DOI: 10.1007/bf00617462</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;3, issue&nbsp;4 (1990)</p></td>
+	<td>14&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617462" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617462">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617462">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617462">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ctirad Uher</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617463">Thermal conductivity of high-Tcsuperconductors</a></p>
+		<p>DOI: 10.1007/bf00617463</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;3, issue&nbsp;4 (1990)</p></td>
+	<td>5.23&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617463" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617463">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617463">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617463">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Miu; A. Crisan; S. Popa; V. Sandu; Leona Nistor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617464">On the limiting factors of the critical current density in high-Tcsuperconducting ceramics</a></p>
+		<p>DOI: 10.1007/bf00617464</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;3, issue&nbsp;4 (1990)</p></td>
+	<td>286&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617464" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617464">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617464">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617464">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. Y. Kwok; P. C. W. Fung</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617465">Consequences of the formation of Cooper-pairs near oxygen-deficient sites</a></p>
+		<p>DOI: 10.1007/bf00617465</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;3, issue&nbsp;4 (1990)</p></td>
+	<td>697&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617465" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617465">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617465">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617465">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. Radha; H. K. Barik; T. K. Dey</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617466">Nature of thermodynamic fluctuations in the electrical conductivity of Y-Ba-Cu-O pellets and tapes containing silver</a></p>
+		<p>DOI: 10.1007/bf00617466</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;3, issue&nbsp;4 (1990)</p></td>
+	<td>347&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617466" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617466">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617466">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617466">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Junichi Sato; Shozo Ikeda; Keikichi Nakamura</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617467">Effect ofin Situcooling on superconductivity of artificially layered BSCCO films with 2223 structure</a></p>
+		<p>DOI: 10.1007/bf00617467</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;3, issue&nbsp;4 (1990)</p></td>
+	<td>824&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617467" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617467">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617467">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617467">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. A. Sergeenkov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617468">Thermoelectric effects in superconductors: The role of fluctuations and weak links</a></p>
+		<p>DOI: 10.1007/bf00617468</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;3, issue&nbsp;4 (1990)</p></td>
+	<td>119&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617468" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617468">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617468">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617468">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Grammatikakis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617469">Transformation of the YBa2Cu3Oxsuperconducting phase to an insulator-nonsuperconducting phase</a></p>
+		<p>DOI: 10.1007/bf00617469</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;3, issue&nbsp;4 (1990)</p></td>
+	<td>178&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617469" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617469">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617469">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617469">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xi Zhengping; Ji Chunlin; Zhou Lian</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617470">Effect of Bi/Pb ratio and annealing temperature onTcand formation of high-Tcphase in Bi-Pb-Sr-Ca-Cu-O superconductor</a></p>
+		<p>DOI: 10.1007/bf00617470</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;3, issue&nbsp;4 (1990)</p></td>
+	<td>220&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617470" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617470">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617470">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617470">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Szasz; J. Hajdu; J. Kojnok; Z. Dankhazi; W. Krasser; T. Trager; J. Bankuti</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617471">Interdependence of the thermal properties and electronic structure of Y1Ba2CuxOy, (1.5≤x≤9) ceramics</a></p>
+		<p>DOI: 10.1007/bf00617471</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;3, issue&nbsp;4 (1990)</p></td>
+	<td>380&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617471" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617471">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617471">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617471">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zoltan Homonnay; Amar Nath</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617472">Dynamics of the Cu-O chain in YBa2Cu3O7−δ: Emission Mössbauer studies</a></p>
+		<p>DOI: 10.1007/bf00617472</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;3, issue&nbsp;4 (1990)</p></td>
+	<td>660&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617472" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617472">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617472">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617472">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Y. Huang; H. Jiang; H. How; C. Vittoria; A. Widom; R. Boerstler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617473">Observation of X-band SQUID signals in a High-Tcsuperconducting film device</a></p>
+		<p>DOI: 10.1007/bf00617473</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;3, issue&nbsp;4 (1990)</p></td>
+	<td>707&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617473" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617473">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617473">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617473">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Moshe Dayan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617474">The generalized Hartree-Fock theory of nonmagnetic high-temperature superconductors</a></p>
+		<p>DOI: 10.1007/bf00617474</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;6, issue&nbsp;5 (1993)</p></td>
+	<td>506&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617474" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617474">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617474">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617474">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Z. J. Yang; R. A. Dunlap; D. J. W. Geldart</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617475">Polarization of a neutron beam using a superconductor</a></p>
+		<p>DOI: 10.1007/bf00617475</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;6, issue&nbsp;5 (1993)</p></td>
+	<td>419&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617475" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617475">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617475">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617475">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. A. El-Hamalaway</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617476">The role of Y/Ba on the formation of high-Tcsuperconducting phase in Y-based system</a></p>
+		<p>DOI: 10.1007/bf00617476</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;6, issue&nbsp;5 (1993)</p></td>
+	<td>466&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617476" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617476">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617476">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617476">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. Riess; O. Porat; H. L. Tuller</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617477">Investigation of the dominant point defects in tetragonal YBa2Cu3Oxat elevated temperatures</a></p>
+		<p>DOI: 10.1007/bf00617477</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;6, issue&nbsp;5 (1993)</p></td>
+	<td>284&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617477" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617477">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617477">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617477">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. N. Efimov; A. O. Lebedev</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617478">Optimal perovskite-type substrates for high-temperature superconductor layers</a></p>
+		<p>DOI: 10.1007/bf00617478</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;6, issue&nbsp;5 (1993)</p></td>
+	<td>345&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617478" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617478">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617478">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617478">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Crisan; L. Tătaru</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617479">Toward a microscopic analysis of the marginal fermi liquid</a></p>
+		<p>DOI: 10.1007/bf00617479</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;6, issue&nbsp;5 (1993)</p></td>
+	<td>359&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617479" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617479">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617479">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617479">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. C. W. Fung; J. C. L. Chow; J. Gao</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617480">On crystal alignment in polycrystalline YBCO materials based on TEM observation</a></p>
+		<p>DOI: 10.1007/bf00617480</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;6, issue&nbsp;5 (1993)</p></td>
+	<td>2.71&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617480" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617480">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617480">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617480">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. B. Lu; S. F. Xu; Y. J. Tian; D. F. Cui; Z. H. Chen; Y. Z. Zhang; L. Li; G. Z. Yang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617481">Preparation of large-area high-quality YBCO thin films by pulsed laser deposition with Si heater and composite scanning of laser and target</a></p>
+		<p>DOI: 10.1007/bf00617481</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;6, issue&nbsp;5 (1993)</p></td>
+	<td>262&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617481" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617481">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617481">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617481">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Guha; D. Peebles; V. Browning; T. Wieting; D. Chandler-Horowitz; M. Norton</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617482">Optical conductivity of single crystals of Ba1−xMxBiO3(M=K, Rb, x=0.04, 0.37)</a></p>
+		<p>DOI: 10.1007/bf00617482</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;6, issue&nbsp;5 (1993)</p></td>
+	<td>839&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617482" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617482">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617482">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617482">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Raveau; C. Michel; M. Hervieu; D. Groult; A. Maignan; J. Provost</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617621">How to optimize high-Tcsuperconductive cuprates</a></p>
+		<p>DOI: 10.1007/bf00617621</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;5, issue&nbsp;3 (1992)</p></td>
+	<td>1.65&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617621" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617621">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617621">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617621">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Fujita; S. Watanabe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617622">Theory of superconductivity. 3. 2D conduction bands for high Tc. Bose-Einstein condensation transition of the third order</a></p>
+		<p>DOI: 10.1007/bf00617622</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;5, issue&nbsp;3 (1992)</p></td>
+	<td>1.68&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617622" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617622">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617622">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617622">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. G. Luo; A. L. Ding; K. S. Chan; G. G. Shi; A. Cheng; E. C. M. Young</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617623">In-situ deposition of superconducting YBCO thin films by magnetron sputtering from powder target</a></p>
+		<p>DOI: 10.1007/bf00617623</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;5, issue&nbsp;3 (1992)</p></td>
+	<td>443&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617623" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617623">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617623">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617623">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. K. Roul; V. R. Kalvey; P. Pramanik</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00617624">Magnetic and microwave properties of Sm1−xBa2Cu3+xO7−δsuperconductors at 4.2 K prepared by an organic carbonate coprecipitation route</a></p>
+		<p>DOI: 10.1007/bf00617624</p>	</td>
+	<td><p><a href="/scimag/journals/15387">Journal of Superconductivity</a><p>volume&nbsp;5, issue&nbsp;3 (1992)</p></td>
+	<td>452&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00617624" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00617624">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00617624">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00617624">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">7&nbsp;481 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 300</span>
+	 <a href="/scimag/?journal=15387&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

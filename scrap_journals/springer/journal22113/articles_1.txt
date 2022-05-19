@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/22113">Sepsis</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1385-0229</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-7411</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 6; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 6');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=22113&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">143 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 6</span>
+	 <a href="/scimag/?journal=22113&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Christopher A. Bombeck; Timothy R. Billiar</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009703100222">The Involvement of Apoptosis in Inflammatory Liver Failure</a></p>
+		<p>DOI: 10.1023/a:1009703100222</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;2, issue&nbsp;1 (1998)</p></td>
+	<td>99&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009703100222" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009703100222">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009703100222">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009703100222">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Edward Abraham</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009703132434">Anti-TNF Strategies</a></p>
+		<p>DOI: 10.1023/a:1009703132434</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;1, issue&nbsp;1 (1997)</p></td>
+	<td>122&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009703132434" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009703132434">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009703132434">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009703132434">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Timothy R. Billiar</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009704706609">Introduction for SEPSIS</a></p>
+		<p>DOI: 10.1023/a:1009704706609</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;1, issue&nbsp;2 (1998)</p></td>
+	<td>61&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009704706609" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009704706609">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009704706609">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009704706609">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Maureen O. Meade; David Creery; John C. Marshall</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009707200575">Systematic Review of Outcome Measures in Randomized Trials of Mediator-Directed Therapies in Sepsis</a></p>
+		<p>DOI: 10.1023/a:1009707200575</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;1, issue&nbsp;1 (1997)</p></td>
+	<td>140&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009707200575" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009707200575">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009707200575">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009707200575">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gordon Bernard</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009711301483">The Brussels Score</a></p>
+		<p>DOI: 10.1023/a:1009711301483</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;1, issue&nbsp;1 (1997)</p></td>
+	<td>108&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009711301483" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009711301483">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009711301483">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009711301483">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John C. Marshall</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009715402392">The Multiple Organ Dysfunction (MOD) Score</a></p>
+		<p>DOI: 10.1023/a:1009715402392</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;1, issue&nbsp;1 (1997)</p></td>
+	<td>134&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009715402392" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009715402392">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009715402392">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009715402392">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Milton Gaviria; David C. Dale; Richard K. Root</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009717806924">Neutrophils: Function and Role in Sepsis Syndrome</a></p>
+		<p>DOI: 10.1023/a:1009717806924</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;2, issue&nbsp;2 (1998)</p></td>
+	<td>136&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009717806924" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009717806924">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009717806924">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009717806924">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Steven M. Opal; Alan S. Cross</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009719520139">The Microbial Consequences of Antimediator Therapy for Sepsis</a></p>
+		<p>DOI: 10.1023/a:1009719520139</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;1, issue&nbsp;1 (1997)</p></td>
+	<td>190&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009719520139" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009719520139">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009719520139">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009719520139">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert Kilbourn</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009720323448">The Discovery of Nitric Oxide as a Key Mediator in Septic Shock</a></p>
+		<p>DOI: 10.1023/a:1009720323448</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;1, issue&nbsp;2 (1998)</p></td>
+	<td>168&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009720323448" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009720323448">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009720323448">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009720323448">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-Marc Cavaillon</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009722008742">Pathophysiological Role of Pro- and Anti-Inflammatory Cytokines in Sepsis</a></p>
+		<p>DOI: 10.1023/a:1009722008742</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;2, issue&nbsp;2 (1998)</p></td>
+	<td>178&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009722008742" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009722008742">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009722008742">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009722008742">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael R. Pinsky</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009723604209">Measuring the Biological Efficacy of Mediator-Directed Therapy</a></p>
+		<p>DOI: 10.1023/a:1009723604209</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;1, issue&nbsp;1 (1997)</p></td>
+	<td>114&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009723604209" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009723604209">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009723604209">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009723604209">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Allan M. Lefer</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009724424356">Nitric Oxide Donors in Endotoxic and Septic Shock: Evidence Against Nitric Oxide as a Mediator of Shock</a></p>
+		<p>DOI: 10.1023/a:1009724424356</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;1, issue&nbsp;2 (1998)</p></td>
+	<td>117&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009724424356" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009724424356">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009724424356">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009724424356">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John C. Marshall; Gordon Bernard; Jean-Roger Le Gall; Jean-Louis Vincent</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009726810937">Conclusions</a></p>
+		<p>DOI: 10.1023/a:1009726810937</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;1, issue&nbsp;1 (1997)</p></td>
+	<td>94&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009726810937" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009726810937">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009726810937">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009726810937">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mair Powell</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009727705118">Regulatory Factors in the EU–Possible Considerations for the Drug Development Process</a></p>
+		<p>DOI: 10.1023/a:1009727705118</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;1, issue&nbsp;1 (1997)</p></td>
+	<td>97&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009727705118" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009727705118">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009727705118">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009727705118">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alison E. Fox-Robichaud; Paul Kubes</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009728525265">Nitric Oxide and Control of Endothelial Cell-Leukocyte Interactions</a></p>
+		<p>DOI: 10.1023/a:1009728525265</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;1, issue&nbsp;2 (1998)</p></td>
+	<td>169&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009728525265" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009728525265">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009728525265">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009728525265">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Konrad Reinhart; Waheedullah Karzai</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009728706016">Early and Proper Diagnosis of Sepsis—Still a Problem and Matter of Controversy</a></p>
+		<p>DOI: 10.1023/a:1009728706016</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;2, issue&nbsp;2 (1998)</p></td>
+	<td>42&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009728706016" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009728706016">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009728706016">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009728706016">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael S. Niederman</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009729023991">Respiratory Infection in the Critically Ill: Mechanisms and the Role of Apoptosis in the Response to Infection</a></p>
+		<p>DOI: 10.1023/a:1009729023991</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;1, issue&nbsp;3 (1998)</p></td>
+	<td>117&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009729023991" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009729023991">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009729023991">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009729023991">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ralf R. Schumann</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009730226489">Recognition of Bacterial Endotoxin and Modulation of the Inflammatory Response: The LBP/CD14 Pathway During the Acute Phase</a></p>
+		<p>DOI: 10.1023/a:1009730226489</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;2, issue&nbsp;2 (1998)</p></td>
+	<td>93&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009730226489" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009730226489">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009730226489">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009730226489">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John C. Marshall; Gordon Bernard; Jean-Roger Le Gall; Jean-Louis Vincent</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009731826866">The Measurement of Organ Dysfunction/Failure as an ICU Outcome</a></p>
+		<p>DOI: 10.1023/a:1009731826866</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;1, issue&nbsp;1 (1997)</p></td>
+	<td>86&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009731826866" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009731826866">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009731826866">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009731826866">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Roland C. Blantz; Joseph Satriano; Doron Schwartz</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009732626174">The Renal Response to Sepsis and the Role of NOS Isoforms</a></p>
+		<p>DOI: 10.1023/a:1009732626174</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;1, issue&nbsp;2 (1998)</p></td>
+	<td>113&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009732626174" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009732626174">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009732626174">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009732626174">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Charles Feldman</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009733224900">Cytokines and Acute Respiratory Infections</a></p>
+		<p>DOI: 10.1023/a:1009733224900</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;1, issue&nbsp;3 (1998)</p></td>
+	<td>89&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009733224900" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009733224900">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009733224900">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009733224900">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. Reinhart; W. Karzai; C. Hartog-Schier</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009734327397">Procalcitonin (PCT) and its Role in the Diagnosis of Sepsis</a></p>
+		<p>DOI: 10.1023/a:1009734327397</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;2, issue&nbsp;2 (1998)</p></td>
+	<td>77&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009734327397" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009734327397">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009734327397">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009734327397">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D.L.R. Yamamura; L.A. Mandell</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009737325809">Antimicrobial Therapy in the Patient Hospitalized with Pneumonia</a></p>
+		<p>DOI: 10.1023/a:1009737325809</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;1, issue&nbsp;3 (1998)</p></td>
+	<td>104&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009737325809" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009737325809">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009737325809">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009737325809">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dennis C. Gore; Cornelius Dyke; Joseph Dalton; Eric J. DeMaria</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009738411467">Triiodothyronine (T3) Administration in Patients with Sepsis Induced Euthyroid Sick Syndrome: Hemodynamic and Metabolic Effects</a></p>
+		<p>DOI: 10.1023/a:1009738411467</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;2, issue&nbsp;2 (1998)</p></td>
+	<td>93&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009738411467" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009738411467">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009738411467">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009738411467">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard G. Wunderink</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1009741426717">Attributable Mortality of Ventilator-Associated Pneumonia</a></p>
+		<p>DOI: 10.1023/a:1009741426717</p>	</td>
+	<td><p><a href="/scimag/journals/22113">Sepsis</a><p>volume&nbsp;1, issue&nbsp;3 (1998)</p></td>
+	<td>132&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1009741426717" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1009741426717">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1009741426717">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1009741426717">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">143 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 6</span>
+	 <a href="/scimag/?journal=22113&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

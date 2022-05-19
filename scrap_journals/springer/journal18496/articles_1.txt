@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/18496">Numerical Algorithms</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer US</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1017-1398</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-9265</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 120; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 120');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=18496&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;982 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 120</span>
+	 <a href="/scimag/?journal=18496&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>I. D. Coope; P. R. Graves-Morris</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02108462">The rise and fall of the vector epsilon algorithm</a></p>
+		<p>DOI: 10.1007/bf02108462</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;6 (1993)</p></td>
+	<td>474&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02108462" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02108462">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02108462">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02108462">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bernd Fischer; Jan Modersitzki</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02108463">An algorithm for complex linear approximation based on semi-infinite programming</a></p>
+		<p>DOI: 10.1007/bf02108463</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;6 (1993)</p></td>
+	<td>480&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02108463" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02108463">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02108463">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02108463">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. -P. Istace; J. -P. Thiran</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02108464">On computing best Chebyshev complex rational approximants</a></p>
+		<p>DOI: 10.1007/bf02108464</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;6 (1993)</p></td>
+	<td>497&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02108464" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02108464">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02108464">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02108464">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kristján Jónasson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02108465">A projected conjugate gradient method for sparse minimax problems</a></p>
+		<p>DOI: 10.1007/bf02108465</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;6 (1993)</p></td>
+	<td>750&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02108465" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02108465">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02108465">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02108465">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jack Williams; Z. Kalogiratou</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02108466">Nonlinear Chebyshev fitting from the solution of ordinary differential equations</a></p>
+		<p>DOI: 10.1007/bf02108466</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;6 (1993)</p></td>
+	<td>547&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02108466" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02108466">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02108466">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02108466">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. P. Butler; A. B. Forbes</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02108663">An algorithm for combining data sets having different frames of reference</a></p>
+		<p>DOI: 10.1007/bf02108663</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;10 (1993)</p></td>
+	<td>466&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02108663" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02108663">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02108663">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02108663">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patrizia Ciarlini; Franco Pavese</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02108664">Application of special reduction procedures to metrological data</a></p>
+		<p>DOI: 10.1007/bf02108664</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;10 (1993)</p></td>
+	<td>513&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02108664" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02108664">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02108664">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02108664">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. G. Cox; P. M. Harris; D. A. Humphreys</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02108665">An algorithm for the removal of noise and jitter in signals and its application to picosecond electrical measurement</a></p>
+		<p>DOI: 10.1007/bf02108665</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;10 (1993)</p></td>
+	<td>786&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02108665" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02108665">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02108665">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02108665">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rudolf Drieschner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02108666">Chebyshev approximation to data by geometric elements</a></p>
+		<p>DOI: 10.1007/bf02108666</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;10 (1993)</p></td>
+	<td>867&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02108666" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02108666">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02108666">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02108666">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. B. Forbes</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02108667">Generalised regression problems in metrology</a></p>
+		<p>DOI: 10.1007/bf02108667</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;10 (1993)</p></td>
+	<td>530&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02108667" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02108667">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02108667">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02108667">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. -P. Helfrich; D. Zwick</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02108668">A trust region method for implicit orthogonal distance regression</a></p>
+		<p>DOI: 10.1007/bf02108668</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;10 (1993)</p></td>
+	<td>495&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02108668" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02108668">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02108668">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02108668">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Claudio Barone; Ezio Venturino</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02109183">On the numerical evaluation of Cauchy transforms</a></p>
+		<p>DOI: 10.1007/bf02109183</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;9 (1993)</p></td>
+	<td>340&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02109183" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02109183">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02109183">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02109183">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Brutman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02109184">An application of the generalized alternating polynomials to the numerical solution of Fredholm integral equations</a></p>
+		<p>DOI: 10.1007/bf02109184</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;9 (1993)</p></td>
+	<td>275&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02109184" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02109184">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02109184">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02109184">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Dagnino; V. Demichelis; E. Santi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02109185">An algorithm for numerical integration based on quasi-interpolating splines</a></p>
+		<p>DOI: 10.1007/bf02109185</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;9 (1993)</p></td>
+	<td>352&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02109185" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02109185">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02109185">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02109185">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Manfred Tasche</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02109186">Fast algorithms for discrete Chebyshev-Vandermonde transforms and applications</a></p>
+		<p>DOI: 10.1007/bf02109186</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;9 (1993)</p></td>
+	<td>422&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02109186" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02109186">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02109186">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02109186">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. T. Bozzini; C. Paracelli</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02109195">An algorithm for constrained smoothing functions</a></p>
+		<p>DOI: 10.1007/bf02109195</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;7 (1993)</p></td>
+	<td>339&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02109195" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02109195">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02109195">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02109195">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Raymond H. Chan; Ping Tak Peter Tang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02109196">Constrained minimax approximation and optimal preconditioned for Toeplitz matrices</a></p>
+		<p>DOI: 10.1007/bf02109196</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;7 (1993)</p></td>
+	<td>467&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02109196" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02109196">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02109196">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02109196">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. H. Elliott</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02109197">Least squares data fitting using shape preserving piecewise approximations</a></p>
+		<p>DOI: 10.1007/bf02109197</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;7 (1993)</p></td>
+	<td>283&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02109197" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02109197">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02109197">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02109197">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. G. Cox; J. C. Mason</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02109277">Dedication</a></p>
+		<p>DOI: 10.1007/bf02109277</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;1 (1993)</p></td>
+	<td>48&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02109277" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02109277">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02109277">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02109277">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. G. Cox; J. C. Mason</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02109278">Preface</a></p>
+		<p>DOI: 10.1007/bf02109278</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;1 (1993)</p></td>
+	<td>49&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02109278" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02109278">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02109278">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02109278">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02109279">List of contributors</a></p>
+		<p>DOI: 10.1007/bf02109279</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;1 (1993)</p></td>
+	<td>157&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02109279" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02109279">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02109279">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02109279">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carl Boor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02109280">On the evaluation of box splines</a></p>
+		<p>DOI: 10.1007/bf02109280</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;1 (1993)</p></td>
+	<td>844&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02109280" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02109280">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02109280">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02109280">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. C. Mason; G. Rodriguez; S. Seatzu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02109281">Orthogonal splines based on B-splines — with applications to least squares, smoothing and regularisation problems</a></p>
+		<p>DOI: 10.1007/bf02109281</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;1 (1993)</p></td>
+	<td>603&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02109281" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02109281">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02109281">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02109281">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. L. MacCarthy; C. S. Syan; M. Caulfield-Browne</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02109282">Splines in motion — An introduction to MODUS and some unresolved approximation problems</a></p>
+		<p>DOI: 10.1007/bf02109282</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;1 (1993)</p></td>
+	<td>514&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02109282" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02109282">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02109282">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02109282">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gerlind Plonka</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02109283">An efficient algorithm for periodic Hermite spline interpolation with shifted nodes</a></p>
+		<p>DOI: 10.1007/bf02109283</p>	</td>
+	<td><p><a href="/scimag/journals/18496">Numerical Algorithms</a><p>volume&nbsp;5, issue&nbsp;1 (1993)</p></td>
+	<td>402&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02109283" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02109283">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02109283">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02109283">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;982 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 120</span>
+	 <a href="/scimag/?journal=18496&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

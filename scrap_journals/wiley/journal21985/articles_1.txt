@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/21985">Security and Communication Networks</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1939-0114</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1939-0122</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 102; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 102');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=21985&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;534 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 102</span>
+	 <a href="/scimag/?journal=21985&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Romano Fantacci; Francesco Chiti; Leonardo Maccari</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.1">Fast distributed bi-directional authentication for wireless sensor networks</a></p>
+		<p>DOI: 10.1002/sec.1</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;1, issue&nbsp;1 (2008)</p></td>
+	<td>118&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daisuke Takahashi; Yang Xiao</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.10">Retrieving knowledge from auditing log-files for computer and network forensics and accountability</a></p>
+		<p>DOI: 10.1002/sec.10</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;1, issue&nbsp;2 (2008)</p></td>
+	<td>335&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.10" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.10">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.10">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.10">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ling Dong; Kefei Chen; Xuejia Lai; Mi Wen</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.100">When is a key establishment protocol correct?</a></p>
+		<p>DOI: 10.1002/sec.100</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;2, issue&nbsp;6 (2009)</p></td>
+	<td>172&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.100" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.100">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.100">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.100">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lei Tang; Xiaoyan Hong; Susan Vrbsky</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.101">Using camouflaging mobility to protect privacy in mobile <em>ad hoc</em> networks</a></p>
+		<p>DOI: 10.1002/sec.101</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;2, issue&nbsp;6 (2009)</p></td>
+	<td>434&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.101" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.101">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.101">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.101">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Panayiotis Kotzanikolaou; Emmanouil Magkos; Dimitrios Vergados; Michalis Stefanidakis</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.102">Secure and practical key establishment for distributed sensor networks</a></p>
+		<p>DOI: 10.1002/sec.102</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;2, issue&nbsp;6 (2009)</p></td>
+	<td>405&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.102" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.102">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.102">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.102">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.103">Call for Papers: Privacy and Security in Pervasive e-Health and Assistive Environments (Security and Communication Networks)</a></p>
+		<p>DOI: 10.1002/sec.103</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;2, issue&nbsp;2 (2009)</p></td>
+	<td>36&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.103" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.103">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.103">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.103">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christian Callegari; Stefano Giordano; Michele Pagano</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.104">New statistical approaches for anomaly detection</a></p>
+		<p>DOI: 10.1002/sec.104</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;2, issue&nbsp;6 (2009)</p></td>
+	<td>281&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.104" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.104">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.104">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.104">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Juan C. Pelaez; Eduardo B. Fernandez; Maria M. Larrondo-Petrie</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.105">Misuse patterns in VoIP</a></p>
+		<p>DOI: 10.1002/sec.105</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;2, issue&nbsp;6 (2009)</p></td>
+	<td>272&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.105" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.105">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.105">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.105">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dai Thanh Tran; Johnson I. Agbinya</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.106">Combating key-swapping collusion attack on random pairwise key pre-distribution schemes for wireless sensor networks</a></p>
+		<p>DOI: 10.1002/sec.106</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;4, issue&nbsp;2 (2011)</p></td>
+	<td>1.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.106" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.106">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.106">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.106">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ke Meng; Yang Xiao; Susan V. Vrbsky</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.107">Building a wireless capturing tool for WiFi</a></p>
+		<p>DOI: 10.1002/sec.107</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;2, issue&nbsp;6 (2009)</p></td>
+	<td>394&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.107" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.107">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.107">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.107">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wei Wang; Hong Man; Yu Liu</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.108">A framework for intrusion detection systems by social network analysis methods in <em>ad hoc</em> networks</a></p>
+		<p>DOI: 10.1002/sec.108</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;2, issue&nbsp;6 (2009)</p></td>
+	<td>558&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.108" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.108">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.108">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.108">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jun Shao; Zhenfu Cao; Peng Liu</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.109">SCCR: a generic approach to simultaneously achieve CCA security and collusion-resistance in proxy re-encryption</a></p>
+		<p>DOI: 10.1002/sec.109</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;4, issue&nbsp;2 (2011)</p></td>
+	<td>230&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.109" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.109">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.109">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.109">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rolf Oppliger; Ralf Hauser</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.11">Protecting TLS-SA implementations for the challenge-response feature of EMV-CAP against challenge collision attacks</a></p>
+		<p>DOI: 10.1002/sec.11</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;1, issue&nbsp;2 (2008)</p></td>
+	<td>120&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.11" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.11">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.11">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.11">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yingbin Liang; H. Vincent Poor; Shlomo Shamai (Shitz)</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.110">Physical layer security in broadcast networks</a></p>
+		<p>DOI: 10.1002/sec.110</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;2, issue&nbsp;3 (2009)</p></td>
+	<td>234&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.110" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.110">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.110">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.110">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yoon-Chan Jhi; Peng Liu; Lunquan Li; Qijun Gu; Jiwu Jing; George Kesidis</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.112">PWC: a proactive worm containment solution for enterprise networks</a></p>
+		<p>DOI: 10.1002/sec.112</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;3, issue&nbsp;4 (2010)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.112" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.112">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.112">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.112">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Sathish Babu; Pallapa Venkataram</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.113">Random security scheme selection for mobile transactions</a></p>
+		<p>DOI: 10.1002/sec.113</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;2, issue&nbsp;6 (2009)</p></td>
+	<td>439&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.113" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.113">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.113">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.113">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zoltán Faigl; Stefan Lindskog; Anna Brunstrom</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.114">Performance evaluation of IKEv2 authentication methods in next generation wireless networks</a></p>
+		<p>DOI: 10.1002/sec.114</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;3, issue&nbsp;1 (2010)</p></td>
+	<td>1.12&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.114" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.114">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.114">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.114">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Randall W. Klein; Michael A. Temple; Michael J. Mendenhall</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.115">Application of wavelet denoising to improve OFDM-based signal detection and classification</a></p>
+		<p>DOI: 10.1002/sec.115</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;3, issue&nbsp;1 (2010)</p></td>
+	<td>348&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.115" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.115">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.115">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.115">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Abderrezak Rachedi; Abderrahim Benslimane</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.116">A secure and resistant architecture against attacks for mobile ad hoc networks</a></p>
+		<p>DOI: 10.1002/sec.116</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;3, issue&nbsp;2-3 (2010)</p></td>
+	<td>671&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.116" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.116">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.116">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.116">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.117">Call for Papers: Special issue on security challenges in emerging and next-generation wireless communication networks (security and communication networks)</a></p>
+		<p>DOI: 10.1002/sec.117</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;2, issue&nbsp;4 (2009)</p></td>
+	<td>35&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.117" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.117">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.117">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.117">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. Salah; K. Sattar; M. Sqalli; Ehab Al-Shaer</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.118">A potential low-rate DoS attack against network firewalls</a></p>
+		<p>DOI: 10.1002/sec.118</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;4, issue&nbsp;2 (2011)</p></td>
+	<td>271&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.118" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.118">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.118">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.118">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stylianos Basagiannis; Panagiotis Katsaros; Andrew Pombortsis</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.119">Synthesis of attack actions using model checking for the verification of security protocols</a></p>
+		<p>DOI: 10.1002/sec.119</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;4, issue&nbsp;2 (2011)</p></td>
+	<td>1018&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.119" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.119">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.119">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.119">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jieyan Fan; Dapeng Wu; Kejie Lu; Antonio Nucci</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.12">An efficient data structure for network anomaly detection</a></p>
+		<p>DOI: 10.1002/sec.12</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;1, issue&nbsp;2 (2008)</p></td>
+	<td>528&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.12" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.12">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.12">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.12">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mauro Conti; Roberto Di Pietro; Luigi V. Mancini; Angelo Spognardi</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.120">eRIPP-FS: Enforcing privacy and security in RFID</a></p>
+		<p>DOI: 10.1002/sec.120</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;3, issue&nbsp;1 (2010)</p></td>
+	<td>211&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.120" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.120">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.120">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.120">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen Dabideen; Bradley R. Smith; J. J. Garcia-Luna-Aceves</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fsec.121">An end-to-end approach to secure routing in MANETs</a></p>
+		<p>DOI: 10.1002/sec.121</p>	</td>
+	<td><p><a href="/scimag/journals/21985">Security and Communication Networks</a><p>volume&nbsp;3, issue&nbsp;2-3 (2010)</p></td>
+	<td>528&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fsec.121" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/sec.121">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/sec.121">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/sec.121">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;534 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 102</span>
+	 <a href="/scimag/?journal=21985&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

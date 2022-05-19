@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/266">Acta Informatica</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0001-5903</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1432-0525</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 65; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 65');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=266&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;609 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 65</span>
+	 <a href="/scimag/?journal=266&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>R. J. R. Back; J. Wright</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00259469">Duality in specification languages: a lattice-theoretical approach</a></p>
+		<p>DOI: 10.1007/bf00259469</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;27, issue&nbsp;7 (1990)</p></td>
+	<td>1.78&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00259469" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00259469">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00259469">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00259469">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lin Yu; Daniel J. Rosenkrantz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00259470">Minimizing time-space cost for database version control</a></p>
+		<p>DOI: 10.1007/bf00259470</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;27, issue&nbsp;7 (1990)</p></td>
+	<td>1.69&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00259470" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00259470">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00259470">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00259470">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Michael Berman; Marvin C. Paull; Barbara G. Ryder</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00259471">Proving relative lower bounds for incremental algorithms</a></p>
+		<p>DOI: 10.1007/bf00259471</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;27, issue&nbsp;7 (1990)</p></td>
+	<td>1018&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00259471" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00259471">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00259471">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00259471">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. L. London; J. V. Guttag; J. J. Horning; B. W. Lampson; J. G. Mitchell; G. J. Popek</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00260921">Proof rules for the programming language Euclid</a></p>
+		<p>DOI: 10.1007/bf00260921</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;10, issue&nbsp;1 (1978)</p></td>
+	<td>1.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00260921" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00260921">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00260921">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00260921">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. V. Guttag; J. J. Horning</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00260922">The algebraic specification of abstract data types</a></p>
+		<p>DOI: 10.1007/bf00260922</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;10, issue&nbsp;1 (1978)</p></td>
+	<td>1.40&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00260922" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00260922">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00260922">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00260922">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William E. Howden</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00260923">Algebraic program testing</a></p>
+		<p>DOI: 10.1007/bf00260923</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;10, issue&nbsp;1 (1978)</p></td>
+	<td>837&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00260923" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00260923">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00260923">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00260923">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Teuvo Laurinolli</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00260924">Bounded quantification and relations recognizable by finite automata</a></p>
+		<p>DOI: 10.1007/bf00260924</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;10, issue&nbsp;1 (1978)</p></td>
+	<td>578&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00260924" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00260924">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00260924">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00260924">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Karel Culik</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00260925">The ultimate equivalence problem for DOL systems</a></p>
+		<p>DOI: 10.1007/bf00260925</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;10, issue&nbsp;1 (1978)</p></td>
+	<td>346&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00260925" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00260925">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00260925">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00260925">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carlo Montangero; Giuliano Pacini; Maria Simi; Franco Turini</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00260926">Information management in context trees</a></p>
+		<p>DOI: 10.1007/bf00260926</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;10, issue&nbsp;1 (1978)</p></td>
+	<td>459&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00260926" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00260926">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00260926">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00260926">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jane W. S. Liu; C. L. Liu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00260927">Performance analysis of multiprocessor systems containing functionally dedicated processors</a></p>
+		<p>DOI: 10.1007/bf00260927</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;10, issue&nbsp;1 (1978)</p></td>
+	<td>396&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00260927" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00260927">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00260927">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00260927">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Bartsch; G. Bolch</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00260928">A conservation law for G/G/m queueing systems</a></p>
+		<p>DOI: 10.1007/bf00260928</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;10, issue&nbsp;1 (1978)</p></td>
+	<td>158&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00260928" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00260928">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00260928">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00260928">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas J. Ostrand; Marvin C. Paull; Elaine J. Weyuker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00261256">Parsing regular grammars with finite lookahead</a></p>
+		<p>DOI: 10.1007/bf00261256</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;16, issue&nbsp;2 (1981)</p></td>
+	<td>795&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00261256" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00261256">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00261256">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00261256">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Volker Claus</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00261257">The (n, k)-bounded emptiness-problem for probabilistic acceptors and related problems</a></p>
+		<p>DOI: 10.1007/bf00261257</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;16, issue&nbsp;2 (1981)</p></td>
+	<td>942&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00261257" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00261257">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00261257">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00261257">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ernst-Rüdiger Olderog</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00261258">Sound and complete Hoare-like calculi based on copy rules</a></p>
+		<p>DOI: 10.1007/bf00261258</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;16, issue&nbsp;2 (1981)</p></td>
+	<td>2.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00261258" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00261258">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00261258">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00261258">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andrzej Blikle</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00261259">The clean termination of iterative programs</a></p>
+		<p>DOI: 10.1007/bf00261259</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;16, issue&nbsp;2 (1981)</p></td>
+	<td>975&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00261259" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00261259">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00261259">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00261259">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alain J. Martin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00261260">An axiomatic definition of synchronization primitives</a></p>
+		<p>DOI: 10.1007/bf00261260</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;16, issue&nbsp;2 (1981)</p></td>
+	<td>766&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00261260" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00261260">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00261260">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00261260">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. I. Fenner; G. Loizou</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00261261">An analysis of two related loop-free algorithms for generating integer partitions</a></p>
+		<p>DOI: 10.1007/bf00261261</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;16, issue&nbsp;2 (1981)</p></td>
+	<td>752&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00261261" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00261261">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00261261">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00261261">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Gergely; L. Úry</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00262972">A theory of interactive programming</a></p>
+		<p>DOI: 10.1007/bf00262972</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;17, issue&nbsp;1 (1982)</p></td>
+	<td>815&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00262972" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00262972">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00262972">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00262972">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Arnold</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00262973">Synchronized behaviours of processes and rational relations</a></p>
+		<p>DOI: 10.1007/bf00262973</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;17, issue&nbsp;1 (1982)</p></td>
+	<td>409&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00262973" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00262973">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00262973">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00262973">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. L. Liu; Jane W. S. Liu; Arthur L. Liestman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00262974">Scheduling with slack time</a></p>
+		<p>DOI: 10.1007/bf00262974</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;17, issue&nbsp;1 (1982)</p></td>
+	<td>463&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00262974" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00262974">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00262974">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00262974">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John E. Shore</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00262975">Information theoretic approximations forM/G/1 andG/G/1 queuing systems</a></p>
+		<p>DOI: 10.1007/bf00262975</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;17, issue&nbsp;1 (1982)</p></td>
+	<td>925&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00262975" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00262975">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00262975">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00262975">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Satoru Miyano</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00262976">A hierarchy theorem for multihead stack-counter automata</a></p>
+		<p>DOI: 10.1007/bf00262976</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;17, issue&nbsp;1 (1982)</p></td>
+	<td>235&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00262976" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00262976">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00262976">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00262976">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Rozenberg; R. Verraedt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00262977">Vompleteness ofE0Lforms is decidable</a></p>
+		<p>DOI: 10.1007/bf00262977</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;17, issue&nbsp;1 (1982)</p></td>
+	<td>823&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00262977" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00262977">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00262977">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00262977">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thiet-Dung Huynh</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00262978">Remarks on the complexity of an invariant of context-free grammars</a></p>
+		<p>DOI: 10.1007/bf00262978</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;17, issue&nbsp;1 (1982)</p></td>
+	<td>434&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00262978" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00262978">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00262978">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00262978">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michel Martinez</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00262979">Program behavior prediction and prepaging</a></p>
+		<p>DOI: 10.1007/bf00262979</p>	</td>
+	<td><p><a href="/scimag/journals/266">Acta Informatica</a><p>volume&nbsp;17, issue&nbsp;1 (1982)</p></td>
+	<td>882&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00262979" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00262979">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00262979">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00262979">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;609 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 65</span>
+	 <a href="/scimag/?journal=266&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

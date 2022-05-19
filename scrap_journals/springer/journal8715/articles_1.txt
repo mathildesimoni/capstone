@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/8715">Higher Education</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0018-1560</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-174X</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 288; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 288');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=8715&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">7&nbsp;196 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 288</span>
+	 <a href="/scimag/?journal=8715&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Diana Eugenie Kornbrot</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128419">Degree performance as a function of discipline studied, parental occupation and gender</a></p>
+		<p>DOI: 10.1007/bf00128419</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;16, issue&nbsp;5 (1987)</p></td>
+	<td>1.25&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128419" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128419">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128419">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128419">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Bergenhenegouwen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128420">Hidden curriculum in the university</a></p>
+		<p>DOI: 10.1007/bf00128420</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;16, issue&nbsp;5 (1987)</p></td>
+	<td>524&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128420" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128420">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128420">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128420">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. A. Akpan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128421">The spatial aspects of higher education in Nigeria</a></p>
+		<p>DOI: 10.1007/bf00128421</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;16, issue&nbsp;5 (1987)</p></td>
+	<td>567&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128421" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128421">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128421">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128421">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Sizer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128422">The impacts of financial reductions on British universities: 1981–84</a></p>
+		<p>DOI: 10.1007/bf00128422</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;16, issue&nbsp;5 (1987)</p></td>
+	<td>1.26&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128422" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128422">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128422">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128422">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jill Johnes; Jim Taylor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128423">Degree quality: An investigation into differences between UK universities</a></p>
+		<p>DOI: 10.1007/bf00128423</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;16, issue&nbsp;5 (1987)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128423" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128423">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128423">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128423">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ortrun Zuber-Skerritt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128424">A repertory grid study of staff and students' personal constructs of educational research</a></p>
+		<p>DOI: 10.1007/bf00128424</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;16, issue&nbsp;5 (1987)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128424" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128424">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128424">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128424">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Margaret Cuthbert</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128425">Recent trends in Business Masters degrees in the United Kingdom</a></p>
+		<p>DOI: 10.1007/bf00128425</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;16, issue&nbsp;5 (1987)</p></td>
+	<td>924&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128425" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128425">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128425">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128425">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Steven B. Sample; Sue Tatum; Gordon A. Inkster; James Calderhead; John S. Andrews</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128426">Book reviews</a></p>
+		<p>DOI: 10.1007/bf00128426</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;16, issue&nbsp;5 (1987)</p></td>
+	<td>705&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128426" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128426">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128426">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128426">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Giliberto Capano</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128432">Political science and the comparative study of policy change in higher education: theoretico-methodological notes from a policy perspective</a></p>
+		<p>DOI: 10.1007/bf00128432</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;31, issue&nbsp;3 (1996)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128432" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128432">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128432">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128432">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Howard Buchbinder; Pinayur Rajagopal</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128433">Canadian universities: The impact of free trade and globalization</a></p>
+		<p>DOI: 10.1007/bf00128433</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;31, issue&nbsp;3 (1996)</p></td>
+	<td>830&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128433" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128433">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128433">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128433">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Stina Lyon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128434">Success with qualifications: comparative perspectives on women graduates in the labour market</a></p>
+		<p>DOI: 10.1007/bf00128434</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;31, issue&nbsp;3 (1996)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128434" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128434">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128434">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128434">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wim Jochems; Joke Snippe; Harm Jan Smid; Agnes Verweij</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128435">The academic progress of foreign students: study achievement and study behaviour</a></p>
+		<p>DOI: 10.1007/bf00128435</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;31, issue&nbsp;3 (1996)</p></td>
+	<td>692&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128435" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128435">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128435">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128435">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Kember</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128436">The intention to both memorise and understand: Another approach to learning?</a></p>
+		<p>DOI: 10.1007/bf00128436</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;31, issue&nbsp;3 (1996)</p></td>
+	<td>694&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128436" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128436">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128436">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128436">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Greg Ryan; Susan Toohey; Chris Hughes</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128437">The purpose, value and structure of the practicum in higher education: a literature review</a></p>
+		<p>DOI: 10.1007/bf00128437</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;31, issue&nbsp;3 (1996)</p></td>
+	<td>1.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128437" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128437">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128437">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128437">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. J. Mckinlay; H. M. Pattison; H. Gross</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128438">An exploratory investigation of the effects of a cultural orientation programme on the psychological well-being of international university students</a></p>
+		<p>DOI: 10.1007/bf00128438</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;31, issue&nbsp;3 (1996)</p></td>
+	<td>799&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128438" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128438">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128438">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128438">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128439">Book reviews</a></p>
+		<p>DOI: 10.1007/bf00128439</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;31, issue&nbsp;3 (1996)</p></td>
+	<td>249&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128439" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128439">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128439">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128439">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ernest T. Pascarella; John C. Smart; Mark A. Smylie</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128447">College tuition costs and early career socioeconomic achievement: do you get what you pay for?</a></p>
+		<p>DOI: 10.1007/bf00128447</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;24, issue&nbsp;3 (1992)</p></td>
+	<td>792&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128447" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128447">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128447">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128447">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. H. F. Meyer; T. T. Dunne; A. R. Sass</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128448">Impressions of disadvantage: I — school versus university study orchestration and consequences for academic support</a></p>
+		<p>DOI: 10.1007/bf00128448</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;24, issue&nbsp;3 (1992)</p></td>
+	<td>1.28&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128448" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128448">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128448">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128448">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Indhu Rajagopal; William D. Farr</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128449">Hidden academics: the part-time faculty in Canada</a></p>
+		<p>DOI: 10.1007/bf00128449</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;24, issue&nbsp;3 (1992)</p></td>
+	<td>755&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128449" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128449">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128449">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128449">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Margareta Bertilsson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128450">From university to comprehensive higher education: on the widening gap between ‘Lehre und Leben’</a></p>
+		<p>DOI: 10.1007/bf00128450</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;24, issue&nbsp;3 (1992)</p></td>
+	<td>964&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128450" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128450">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128450">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128450">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Graham Webb</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128451">On pretexts for higher education development activities</a></p>
+		<p>DOI: 10.1007/bf00128451</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;24, issue&nbsp;3 (1992)</p></td>
+	<td>606&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128451" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128451">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128451">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128451">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin M. Ahumada</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128452">U.S. methods for costing in higher education: taking the technology abroad</a></p>
+		<p>DOI: 10.1007/bf00128452</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;24, issue&nbsp;3 (1992)</p></td>
+	<td>768&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128452" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128452">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128452">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128452">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fiona Clark; Gary Anderson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128453">Benefits adults experience through participation in continuing higher education</a></p>
+		<p>DOI: 10.1007/bf00128453</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;24, issue&nbsp;3 (1992)</p></td>
+	<td>594&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128453" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128453">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128453">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128453">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Donal A. Dineen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128454">Europeanisation of Irish universities</a></p>
+		<p>DOI: 10.1007/bf00128454</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;24, issue&nbsp;3 (1992)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128454" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128454">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128454">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128454">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. O. Berdahl; M. L. Shattock</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00128559">Editorial</a></p>
+		<p>DOI: 10.1007/bf00128559</p>	</td>
+	<td><p><a href="/scimag/journals/8715">Higher Education</a><p>volume&nbsp;13, issue&nbsp;5 (1984)</p></td>
+	<td>109&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00128559" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00128559">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00128559">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00128559">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">7&nbsp;196 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 288</span>
+	 <a href="/scimag/?journal=8715&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

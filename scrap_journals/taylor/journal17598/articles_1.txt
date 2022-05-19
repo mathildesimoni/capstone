@@ -1,0 +1,379 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Taylor and Francis Group</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1058-725X</td>
+	</tr>
+					</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 280; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 280');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=17598&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">6&nbsp;989 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 280</span>
+	 <a href="/scimag/?journal=17598&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Delaire, J. A.; Fanton-Maltey, I.; Chauvin, J.; Nakatani, K.; Irie, M. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587250008023924">Nonlinear Optical Properties of Diarylethenes</a></p>
+		<p>DOI: 10.1080/10587250008023924</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;345, issue&nbsp;1 (2000)</p></td>
+	<td>254&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587250008023924" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587250008023924">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587250008023924">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587250008023924">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kim, Jong-Min; Lee, Hyun-Woo; Kim, Young-Han; Kwon, Young-Soo; Muramatsu, Hiroshi; Chang, Sang-Mok </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587259808044477">In-Situ Viscoelastic Characteristics of the Electrochemically Polymerized Ppy Thin Film Using Quartz Crystal Analyzer</a></p>
+		<p>DOI: 10.1080/10587259808044477</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;316, issue&nbsp;1 (1998)</p></td>
+	<td>146&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587259808044477" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587259808044477">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587259808044477">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587259808044477">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Woliński, Tomasz R.; Bock, Wojtek J.; Dąbrowski, Roman </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587259408038664">Fiber Optic Pressure Measurement with Cholesteric Liquid Crystals</a></p>
+		<p>DOI: 10.1080/10587259408038664</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;249, issue&nbsp;1 (1994)</p></td>
+	<td>329&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587259408038664" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587259408038664">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587259408038664">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587259408038664">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eichenlaub, Nancy S.; Crawford, Gregory P.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587259908025970">Novel Microstructures from Confined Reactive Mesogens</a></p>
+		<p>DOI: 10.1080/10587259908025970</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;329, issue&nbsp;1 (1999)</p></td>
+	<td>416&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587259908025970" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587259908025970">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587259908025970">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587259908025970">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cairns, Darran R.; Eichenlaub, Nancy S.; Crawford, Gregory P.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587250008023185">Ordered Polymer Microstructures Synthesized from Dispersions of Liquid Crystal Mesogens</a></p>
+		<p>DOI: 10.1080/10587250008023185</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;352, issue&nbsp;1 (2000)</p></td>
+	<td>475&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587250008023185" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587250008023185">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587250008023185">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587250008023185">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nikolenko, Yu. M.; Ziatdinov, A. M. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587250008025500">Semi-Ionic Type Bonds in Fluorinated Carbon Compounds</a></p>
+		<p>DOI: 10.1080/10587250008025500</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;340, issue&nbsp;1 (2000)</p></td>
+	<td>327&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587250008025500" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587250008025500">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587250008025500">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587250008025500">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Avdeev, Victor V.; Tverezovskaya, Olga A.; Sorokina, Natalya E.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587250008025456">Spontaneous and Electrochemical Intercalation of HNO<sub>3</sub> into Graphite</a></p>
+		<p>DOI: 10.1080/10587250008025456</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;340, issue&nbsp;1 (2000)</p></td>
+	<td>226&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587250008025456" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587250008025456">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587250008025456">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587250008025456">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Davidenko, N.; Ishchenko, A.; Derevyankob, N.; Pavlov, V.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587250108025720">Influence of Ionic Forms of Polymethine Dyes on the Photoconductivity of Doped Films of Poly-N-Epoxypropylcarbazole</a></p>
+		<p>DOI: 10.1080/10587250108025720</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;361, issue&nbsp;1 (2001)</p></td>
+	<td>297&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587250108025720" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587250108025720">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587250108025720">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587250108025720">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lee, Jinhyoung; Lee, Sin-Doo</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587259408036088">Ferroelectric Liquid Crystalline Ordering of Rigid Rods with Dipolar Interactions</a></p>
+		<p>DOI: 10.1080/10587259408036088</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;254, issue&nbsp;1 (1994)</p></td>
+	<td>363&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587259408036088" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587259408036088">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587259408036088">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587259408036088">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ohoka, H.; Ozaki, M.; Blinov, L. M.; Barnik, ; Shtykov, N. M.; Yoshino, K.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587250108023971">POLARIZATION MEASUREMENT IN NEMATIC LIQUID CRYSTAL BASED ON THE PYROELECTRIC RESPONSE TO LASER IRRADIATION</a></p>
+		<p>DOI: 10.1080/10587250108023971</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;366, issue&nbsp;1 (2001)</p></td>
+	<td>350&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587250108023971" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587250108023971">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587250108023971">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587250108023971">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Motherwell, W. D. S.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587250108023734">Crystal Structure Prediction and the Cambridge Structural Database</a></p>
+		<p>DOI: 10.1080/10587250108023734</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;356, issue&nbsp;1 (2001)</p></td>
+	<td>373&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587250108023734" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587250108023734">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587250108023734">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587250108023734">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Onoe, Jun; Nakayama, Tomonobu; Nakao, Aiko; Hashi, Yuichi; Esfarjani, Keivan; Kawazoe, Yoshiyuki; Aono, Masakazu; Takeuchi, Kazuo</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587250008025548"><i>In Situ</i> FTIR, XPS, and STM Studies of the Nano-Structure of a Photopolymerized C<sub>60</sub> Film</a></p>
+		<p>DOI: 10.1080/10587250008025548</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;340, issue&nbsp;1 (2000)</p></td>
+	<td>274&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587250008025548" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587250008025548">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587250008025548">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587250008025548">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Oh-ide, T.; Kobayashi, S.; Seo, D. S.; Matsuda, H.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587259308032475">Alignment of Nematic Liquid Crystal(5CB) on the Treated Substrates: Characterization of Orientation Films, Generation of Pretilt Angles, and Surface Anchoring Strength</a></p>
+		<p>DOI: 10.1080/10587259308032475</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;224, issue&nbsp;1 (1993)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587259308032475" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587259308032475">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587259308032475">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587259308032475">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sharkov, A. V.; Varo, G.; Gillbro, T.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587259608037880">Linear Stark Effect in Bacteriorhodopsin-Containing Oriented Purple Membrane Films</a></p>
+		<p>DOI: 10.1080/10587259608037880</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;283, issue&nbsp;1 (1996)</p></td>
+	<td>402&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587259608037880" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587259608037880">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587259608037880">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587259608037880">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Prasad, V.; Sadashiva, B. K.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587259308036236">Liquid Crystalline Properties of <i>o</i>-Hydroxy Substituted Schiff's Bases and their Copper(II) and Palladium(II) Complexes</a></p>
+		<p>DOI: 10.1080/10587259308036236</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;225, issue&nbsp;1 (1993)</p></td>
+	<td>454&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587259308036236" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587259308036236">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587259308036236">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587259308036236">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Demikhov, E.; Niggemann, E.; Stegemeyer, H.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587259408027188">Interference Study of the Optical Anisotropy of the Cubic Blue Phase I</a></p>
+		<p>DOI: 10.1080/10587259408027188</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;251, issue&nbsp;1 (1994)</p></td>
+	<td>567&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587259408027188" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587259408027188">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587259408027188">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587259408027188">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Singh, Upindranath; Hunte, Carlos; Gibbs, Peter</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587259908025602">A Complete Phase Diagram for the Blue Phases in CB15-E9 Mixtures</a></p>
+		<p>DOI: 10.1080/10587259908025602</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;330, issue&nbsp;1 (1999)</p></td>
+	<td>282&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587259908025602" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587259908025602">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587259908025602">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587259908025602">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chiccoli, C.; Guzzetti, S.; Pasini, P.; Zannoni, C.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587250108025702">Computer Simulations of Nematic Displays</a></p>
+		<p>DOI: 10.1080/10587250108025702</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;360, issue&nbsp;1 (2001)</p></td>
+	<td>491&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587250108025702" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587250108025702">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587250108025702">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587250108025702">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Han, K. Y.; Uchtda, T.; Kwon, S. B.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587259708041823">A Nod Optical Measurement Method for the Determination of LC Pretilt Angle without a Restriction of Pretilt Magnitude and a Cell Gap of LC</a></p>
+		<p>DOI: 10.1080/10587259708041823</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;302, issue&nbsp;1 (1997)</p></td>
+	<td>298&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587259708041823" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587259708041823">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587259708041823">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587259708041823">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kęldzierski, J.; Raszewski, Z.; Rutkowska, J.; Opara, T.; Zieliński, J.; Żmija, J.; Dąbrowski, R.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587259408038662">Technical Aspects of Measurement of Elastic Constants and Diamagnetic Anisotropy of Nematic Liquid Crystals</a></p>
+		<p>DOI: 10.1080/10587259408038662</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;249, issue&nbsp;1 (1994)</p></td>
+	<td>798&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587259408038662" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587259408038662">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587259408038662">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587259408038662">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kurik, M.; Mikityuk, Z.; Fechan, A.; Vistak, M.; Nevmerzhitska, O.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587259708042761">Determination of Elastic Constants of Nematic-Cholesteric Mixtures</a></p>
+		<p>DOI: 10.1080/10587259708042761</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;293, issue&nbsp;1 (1997)</p></td>
+	<td>288&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587259708042761" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587259708042761">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587259708042761">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587259708042761">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>van Tiggelen, Bart A.; Heiderich, Anne; Maynard, Roger</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587259708042773">Light Diffusion in Oriented Nematic Liquid Crystals</a></p>
+		<p>DOI: 10.1080/10587259708042773</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;293, issue&nbsp;1 (1997)</p></td>
+	<td>1.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587259708042773" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587259708042773">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587259708042773">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587259708042773">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Salemi-Decvaux, C.; Giusti, G.; Guglielmetti, R.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587259708036142">High Photodegradability of Spirocfluorene-[2H]-Chromenes]</a></p>
+		<p>DOI: 10.1080/10587259708036142</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;298, issue&nbsp;1 (1997)</p></td>
+	<td>409&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587259708036142" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587259708036142">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587259708036142">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587259708036142">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Miyazawa, Kazutoshi; Meijere, Armin De</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587250108025023">Liquid Crystalline Compounds with 2,2-Disubstituted Cyclopropane End Groups in their Side Chains</a></p>
+		<p>DOI: 10.1080/10587250108025023</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;364, issue&nbsp;1 (2001)</p></td>
+	<td>788&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587250108025023" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587250108025023">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587250108025023">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587250108025023">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Smith, George W.; Vaz, Nuno A.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F10587259308030140">Methods for Determination of Solubility Limits of Polymer-Dispersed Liquid Crystals</a></p>
+		<p>DOI: 10.1080/10587259308030140</p>	</td>
+	<td><p><a href="/scimag/journals/17598">Molecular Crystals and Liquid Crystals Science and Technology Section A Molecular Crystals and Liquid Crystals</a><p>volume&nbsp;237, issue&nbsp;1 (1993)</p></td>
+	<td>1.38&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F10587259308030140" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/10587259308030140">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/10587259308030140">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/10587259308030140">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">6&nbsp;989 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 280</span>
+	 <a href="/scimag/?journal=17598&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

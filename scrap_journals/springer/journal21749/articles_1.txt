@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/21749">Russian Physics Journal</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1064-8887</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-9228</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 622; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 622');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=21749&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">15&nbsp;528 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 622</span>
+	 <a href="/scimag/?journal=21749&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>G. V. Mayer; O. K. Bazyl&#039;; V. Ya. Artyukhov; I. V. Sokolova</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508212">Electronically excited states of phenol and its water complexes and photoprocesses in them</a></p>
+		<p>DOI: 10.1007/bf02508212</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;5 (1999)</p></td>
+	<td>358&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508212" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508212">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508212">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508212">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. A. Zvereva; I. I. Ippolitov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508213">Theoretical investigation into electron density redistribution in theS0→S1transition for (H2O)n,n=2–6, complexes with hydrogen bonding</a></p>
+		<p>DOI: 10.1007/bf02508213</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;5 (1999)</p></td>
+	<td>331&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508213" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508213">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508213">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508213">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. V. Zaitsev; T. A. Guseva</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508214">A spectroscopic method in studying the dissociation kinetics of hydrogen molecules</a></p>
+		<p>DOI: 10.1007/bf02508214</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;5 (1999)</p></td>
+	<td>371&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508214" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508214">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508214">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508214">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. V. Zaitsev; A. V. Mashkov; P. N. Baranov; T. A. Guseva</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508215">The physical parameters and unit processes in the plasma of noble/electronegative gas mixtures in high-energy systems</a></p>
+		<p>DOI: 10.1007/bf02508215</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;5 (1999)</p></td>
+	<td>444&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508215" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508215">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508215">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508215">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. V. Kuptsova</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508216">Rotation spectra of the polarization plane and circular dichroism of alkaline atoms in strong radiation fields</a></p>
+		<p>DOI: 10.1007/bf02508216</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;5 (1999)</p></td>
+	<td>346&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508216" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508216">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508216">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508216">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>O. N. Ulenikov; S. N. Yurchenko</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508217">On second-order anharmonic constants forXY2molecules in the local-mode approach</a></p>
+		<p>DOI: 10.1007/bf02508217</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;5 (1999)</p></td>
+	<td>257&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508217" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508217">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508217">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508217">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. G. Gusev</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508218">Double-exposure recording of a lensless fourier spectrogram for forming a shear interferogram</a></p>
+		<p>DOI: 10.1007/bf02508218</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;5 (1999)</p></td>
+	<td>265&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508218" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508218">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508218">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508218">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. S. Zadorin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508219">Spatial dependence of the dynamic optical transfer function of a transparent medium perturbed by an acoustic signal</a></p>
+		<p>DOI: 10.1007/bf02508219</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;5 (1999)</p></td>
+	<td>609&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508219" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508219">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508219">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508219">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. N. Davydov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508220">Photoinduced noise amplification in semiconductor structures</a></p>
+		<p>DOI: 10.1007/bf02508220</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;5 (1999)</p></td>
+	<td>658&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508220" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508220">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508220">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508220">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. G. Bondarenko; V. V. Andreev; V. G. Baryshev; A. A. Stolyarov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508221">Charge instability in mis structures with dielectric silicon dioxide-phosphoro-silicate glass layers under conditions of high-field tunnel injection</a></p>
+		<p>DOI: 10.1007/bf02508221</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;5 (1999)</p></td>
+	<td>367&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508221" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508221">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508221">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508221">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. P. Surzhikov; V. V. Peshev; A. M. Pritulov; S. A. Gyngazov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508222">Grain-boundary diffusion of oxygen in polycrystalline ferrites</a></p>
+		<p>DOI: 10.1007/bf02508222</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;5 (1999)</p></td>
+	<td>394&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508222" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508222">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508222">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508222">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. M. Mikhailov; V. V. Sharafutdinova</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508223">Accumulation of intrinsic point defects in powdered zinc oxide and reflective coatings based on it under the action of electromagnetic radiation imitating the solar spectrum</a></p>
+		<p>DOI: 10.1007/bf02508223</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;5 (1999)</p></td>
+	<td>414&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508223" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508223">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508223">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508223">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. Yu. Man&#039;kov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508224">Influence of a magnetic-microinhomogeneity field on the stability-region boundaries of an isolated cylindrical magnetic domain</a></p>
+		<p>DOI: 10.1007/bf02508224</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;5 (1999)</p></td>
+	<td>329&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508224" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508224">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508224">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508224">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. V. Rudenko; A. S. Khlystov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508225">Dipole magnetic anisotropy fields in rhombohedral antiferromagnetic materials</a></p>
+		<p>DOI: 10.1007/bf02508225</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;5 (1999)</p></td>
+	<td>257&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508225" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508225">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508225">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508225">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. P. Arzhanukhina; K. P. Kornev; Yu. V. Seleznev</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508237">Photosensitivity spectra of a gallium arsenide heterojunction with amorphous arsenic trisulfide</a></p>
+		<p>DOI: 10.1007/bf02508237</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;1 (1999)</p></td>
+	<td>388&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508237" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508237">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508237">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508237">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. P. Barashev; V. V. Belov; A. S. Vshivtsev; A. G. Kisun&#039;ko</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508238">Some properties of the thermodynamics of ideal systems with nonlinear interactions</a></p>
+		<p>DOI: 10.1007/bf02508238</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;1 (1999)</p></td>
+	<td>548&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508238" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508238">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508238">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508238">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. D. Vilisova; I. V. Ivonin; T. V. Korableva; L. G. Lavrent&#039;eva; V. S. Lukash; S. V. Subach; I. T. Shulepov; M. P. Yakubenya</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508239">Formation of a transition layer during heteroepitaxy of III–V compound semiconductors in gas-phase epitaxy systems</a></p>
+		<p>DOI: 10.1007/bf02508239</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;1 (1999)</p></td>
+	<td>588&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508239" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508239">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508239">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508239">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. I. Patskun; I. I. Tychina; I. A. Kolesnik</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508240">Study of resonant two-photon absorption in the tetragonal modification of CdP2</a></p>
+		<p>DOI: 10.1007/bf02508240</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;1 (1999)</p></td>
+	<td>348&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508240" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508240">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508240">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508240">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. N. Polyakov; A. E. Shevchenko</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508241">Galvanomagnetic phenomena in semiconductor single crystals and films</a></p>
+		<p>DOI: 10.1007/bf02508241</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;1 (1999)</p></td>
+	<td>584&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508241" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508241">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508241">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508241">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>O. V. Anisimov; V. P. Germogenov; L. S. Khludkova; O. V. Yurkovskii</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508242">Surface effect on the reverse current of AlxGa1−xSbp−nstructures</a></p>
+		<p>DOI: 10.1007/bf02508242</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;1 (1999)</p></td>
+	<td>528&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508242" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508242">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508242">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508242">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. P. Zemskov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508243">A potential of the double well type at finite temperature</a></p>
+		<p>DOI: 10.1007/bf02508243</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;1 (1999)</p></td>
+	<td>482&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508243" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508243">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508243">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508243">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. G. Tret&#039;yakov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508244">Structural chaos and a quasi-crystalline stochastic web in low dimensional nonlinear systems</a></p>
+		<p>DOI: 10.1007/bf02508244</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;1 (1999)</p></td>
+	<td>331&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508244" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508244">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508244">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508244">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. A. Stolyarov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508245">Charge degradation of an mis system with nonuniform tunnel-injected current density distribution</a></p>
+		<p>DOI: 10.1007/bf02508245</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;1 (1999)</p></td>
+	<td>381&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508245" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508245">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508245">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508245">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. A. Ageev; M. B. Belonenko</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508246">Second harmonic generation in order-disorder ferroelectrics</a></p>
+		<p>DOI: 10.1007/bf02508246</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;1 (1999)</p></td>
+	<td>257&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508246" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508246">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508246">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508246">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. V. Randoshkin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02508247">Dynamics of domain walls in orthoferrites in the light of results obtained for ferrite-garnet films</a></p>
+		<p>DOI: 10.1007/bf02508247</p>	</td>
+	<td><p><a href="/scimag/journals/21749">Russian Physics Journal</a><p>volume&nbsp;42, issue&nbsp;1 (1999)</p></td>
+	<td>331&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02508247" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02508247">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02508247">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02508247">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">15&nbsp;528 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 622</span>
+	 <a href="/scimag/?journal=21749&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

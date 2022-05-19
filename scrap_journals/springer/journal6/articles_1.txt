@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1619-4500</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1614-2411</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 22; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 22');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=6&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">539 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 22</span>
+	 <a href="/scimag/?journal=6&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Denis Bouyssou; Silvano Martello; Frank Plastria</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-002-0001-3">4ORfor what purpose?</a></p>
+		<p>DOI: 10.1007/s10288-002-0001-3</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;1 (2003)</p></td>
+	<td>59&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-002-0001-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-002-0001-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-002-0001-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-002-0001-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cyriel Van Nuffelen; Kristel Van Rompay</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-002-0002-2">Upper bounds on the independence and the clique covering number</a></p>
+		<p>DOI: 10.1007/s10288-002-0002-2</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;1 (2003)</p></td>
+	<td>82&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-002-0002-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-002-0002-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-002-0002-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-002-0002-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Claude Lemaréchal</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-002-0003-1">The omnipresence of Lagrange</a></p>
+		<p>DOI: 10.1007/s10288-002-0003-1</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;1 (2003)</p></td>
+	<td>157&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-002-0003-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-002-0003-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-002-0003-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-002-0003-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Emilio Spedicato; Elena Bodon; Antonino Del Popolo; Nezam Mahdavi-Amiri</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-002-0004-0">ABS methods and ABSPACK for linear systems and optimization: A review</a></p>
+		<p>DOI: 10.1007/s10288-002-0004-0</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;1 (2003)</p></td>
+	<td>131&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-002-0004-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-002-0004-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-002-0004-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-002-0004-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marco A. Boschetti; Aristide Mingozzi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-002-0005-z">The two-dimensional finite bin packing problem. Part I: New lower bounds for the oriented case</a></p>
+		<p>DOI: 10.1007/s10288-002-0005-z</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;1 (2003)</p></td>
+	<td>155&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-002-0005-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-002-0005-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-002-0005-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-002-0005-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marco A. Boschetti; Aristide Mingozzi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-002-0006-y">The Two-Dimensional Finite Bin Packing Problem. Part II: New lower and upper bounds</a></p>
+		<p>DOI: 10.1007/s10288-002-0006-y</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;2 (2003)</p></td>
+	<td>128&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-002-0006-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-002-0006-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-002-0006-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-002-0006-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alessandro Agnetis; Paolo Detti; Carlo Meloni</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-002-0007-x">Process selection and sequencing in a two-agents production system</a></p>
+		<p>DOI: 10.1007/s10288-002-0007-x</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;2 (2003)</p></td>
+	<td>197&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-002-0007-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-002-0007-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-002-0007-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-002-0007-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Roberto Aringhieri; Pierre Hansen; Federico Malucelli</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-002-0008-9">Chemical trees enumeration algorithms</a></p>
+		<p>DOI: 10.1007/s10288-002-0008-9</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;1 (2003)</p></td>
+	<td>140&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-002-0008-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-002-0008-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-002-0008-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-002-0008-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-François Cordeau; Gilbert Laporte</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-002-0009-8">The Dial-a-Ride Problem (DARP): Variants, modeling issues and algorithms</a></p>
+		<p>DOI: 10.1007/s10288-002-0009-8</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;2 (2003)</p></td>
+	<td>98&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-002-0009-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-002-0009-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-002-0009-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-002-0009-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ernesto Q. V. Martins; Marta M. B. Pascoal</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-002-0010-2">A new implementation of Yen’s ranking loopless paths algorithm</a></p>
+		<p>DOI: 10.1007/s10288-002-0010-2</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;2 (2003)</p></td>
+	<td>132&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-002-0010-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-002-0010-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-002-0010-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-002-0010-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michele Monaci</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-002-0011-1">Algorithms for packing and scheduling problems</a></p>
+		<p>DOI: 10.1007/s10288-002-0011-1</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;1 (2003)</p></td>
+	<td>37&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-002-0011-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-002-0011-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-002-0011-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-002-0011-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>AdamN. Letchford; Andrea Lodi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-003-0012-8">Primal separation algorithms</a></p>
+		<p>DOI: 10.1007/s10288-003-0012-8</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;3 (2003)</p></td>
+	<td>141&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-003-0012-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-003-0012-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-003-0012-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-003-0012-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Francesco Maffioli</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-003-0013-7">The vehicle routing problem: A book review</a></p>
+		<p>DOI: 10.1007/s10288-003-0013-7</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;2 (2003)</p></td>
+	<td>46&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-003-0013-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-003-0013-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-003-0013-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-003-0013-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tito A. Ciriani; Yves Colombani; Susanne Heipcke</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-003-0014-6">Embedding optimisation algorithms with Mosel</a></p>
+		<p>DOI: 10.1007/s10288-003-0014-6</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;2 (2003)</p></td>
+	<td>107&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-003-0014-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-003-0014-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-003-0014-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-003-0014-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Luc Muyldermans</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-003-0015-5">Routing, districting and location for arc traversal problems</a></p>
+		<p>DOI: 10.1007/s10288-003-0015-5</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;2 (2003)</p></td>
+	<td>46&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-003-0015-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-003-0015-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-003-0015-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-003-0015-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Quentin Louveaux; LaurenceA. Wolsey</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-003-0016-4">Lifting, superadditivity, mixed integer rounding and single node flow sets revisited</a></p>
+		<p>DOI: 10.1007/s10288-003-0016-4</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;3 (2003)</p></td>
+	<td>260&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-003-0016-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-003-0016-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-003-0016-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-003-0016-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jérôme Monnot; Olivier Spanjaard</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-003-0017-3">Bottleneck shortest paths on a partially ordered scale</a></p>
+		<p>DOI: 10.1007/s10288-003-0017-3</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;3 (2003)</p></td>
+	<td>194&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-003-0017-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-003-0017-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-003-0017-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-003-0017-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Roberto Montemanni</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-003-0018-2">Upper and lower bounds for the fixed spectrum frequency assignment problem</a></p>
+		<p>DOI: 10.1007/s10288-003-0018-2</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;3 (2003)</p></td>
+	<td>41&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-003-0018-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-003-0018-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-003-0018-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-003-0018-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kenneth Sörensen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-003-0019-1">A framework for robust and flexible optimisation using metaheuristics</a></p>
+		<p>DOI: 10.1007/s10288-003-0019-1</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;4 (2003)</p></td>
+	<td>57&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-003-0019-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-003-0019-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-003-0019-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-003-0019-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Benoít Colson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-003-0020-8">Trust-region algorithms for derivative-free optimization and nonlinear bilevel programming</a></p>
+		<p>DOI: 10.1007/s10288-003-0020-8</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;2, issue&nbsp;1 (2004)</p></td>
+	<td>49&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-003-0020-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-003-0020-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-003-0020-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-003-0020-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marta Pascoal; M.Eugénia Captivo; João Clímaco</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-003-0021-7">A note on a new variant of Murty’s ranking assignments algorithm</a></p>
+		<p>DOI: 10.1007/s10288-003-0021-7</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;3 (2003)</p></td>
+	<td>145&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-003-0021-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-003-0021-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-003-0021-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-003-0021-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>KarenI. Aardal; StanP.M. Hoesel; ArieM.C.A. Koster; Carlo Mannino; Antonio Sassano</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-003-0022-6">Models and solution techniques for frequency assignment problems</a></p>
+		<p>DOI: 10.1007/s10288-003-0022-6</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;4 (2003)</p></td>
+	<td>554&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-003-0022-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-003-0022-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-003-0022-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-003-0022-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alberto Ceselli</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-003-0023-5">Two exact algorithms for the capacitated p-median problem</a></p>
+		<p>DOI: 10.1007/s10288-003-0023-5</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;1, issue&nbsp;4 (2003)</p></td>
+	<td>165&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-003-0023-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-003-0023-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-003-0023-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-003-0023-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Philippe Baptiste; Peter Brucker; Sigrid Knust; Vadim G. Timkovsky</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-003-0024-4">Ten notes on equal-processing-time scheduling</a></p>
+		<p>DOI: 10.1007/s10288-003-0024-4</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;2, issue&nbsp;2 (2004)</p></td>
+	<td>164&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-003-0024-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-003-0024-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-003-0024-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-003-0024-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-François Maurras; Sonia Vanier</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10288-003-0025-3">Network synthesis under survivability constraints</a></p>
+		<p>DOI: 10.1007/s10288-003-0025-3</p>	</td>
+	<td><p><a href="/scimag/journals/6">4OR: A Quarterly Journal of Operations Research</a><p>volume&nbsp;2, issue&nbsp;1 (2004)</p></td>
+	<td>142&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10288-003-0025-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10288-003-0025-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10288-003-0025-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10288-003-0025-3">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">539 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 22</span>
+	 <a href="/scimag/?journal=6&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

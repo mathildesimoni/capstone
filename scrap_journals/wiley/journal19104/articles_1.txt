@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/19104">Parliamentary History</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0264-2824</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1750-0206</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 64; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 64');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=19104&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;578 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 64</span>
+	 <a href="/scimag/?journal=19104&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>STANFORD LEHMBERG</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00216.x">Sir Geoffrey Elton as a Parliamentary Historian: An Appreciation</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00216.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;3 (1995)</p></td>
+	<td>299&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00216.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00216.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00216.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00216.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>PATRICK McNALLY</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00217.x">The Hanoverian Accession and the Tory Party in Ireland*</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00217.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;3 (1995)</p></td>
+	<td>1.41&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00217.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00217.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00217.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00217.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>RICHARD CONNORS</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00218.x">‘The Grand Inquest of the Nation’: Parliamentary Committees and Social Policy in Mid-Eighteenth-Century England*</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00218.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;3 (1995)</p></td>
+	<td>2.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00218.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00218.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00218.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00218.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. J. CROWSON</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00219.x">Conservative Parliamentary Dissent Over Foreign Policy During the Premiership of Neville Chamberlain: Myth or Reality?</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00219.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;3 (1995)</p></td>
+	<td>1.49&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00219.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00219.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00219.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00219.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>MARK GOLDIE</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00220.x">Thomas Erle's Instructions for the Revolution Parliament, December 1688</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00220.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;3 (1995)</p></td>
+	<td>753&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00220.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00220.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00220.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00220.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00221.x">REVIEWS</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00221.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;3 (1995)</p></td>
+	<td>2.99&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00221.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00221.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00221.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00221.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>PHILIP LAWSON</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00484.x">Introduction: Onward and Westward: Expanding Parliamentary History over the Atlantic</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00484.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;1 (1995)</p></td>
+	<td>268&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00484.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00484.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00484.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00484.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>PHILIP LAWSON</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00485.x">Sources, Schools and Separation: The Many Faces of Parliament's Role in Anglo-American History to 1783</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00485.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;1 (1995)</p></td>
+	<td>1.56&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00485.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00485.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00485.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00485.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>IAN K. STEELE</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00486.x">The British Parliament and the Atlantic Colonies to 1760: New Approaches to Enduring Questions</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00486.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;1 (1995)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00486.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00486.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00486.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00486.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>JACK P. GREENE</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00487.x">Competing Authorities: The Debate over Parliamentary Imperial Jurisdiction, 1763–1776</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00487.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;1 (1995)</p></td>
+	<td>1.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00487.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00487.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00487.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00487.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>DAVID MILOBAR</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00488.x">Quebec Reform, the British Constitution and the Atlantic Empire: 1774–1775</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00488.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;1 (1995)</p></td>
+	<td>1.59&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00488.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00488.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00488.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00488.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>MICHAEL WATSON</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00489.x">The British West Indian Legislatures in the Seventeenth and Eighteenth Centuries: An Historiographical Introduction</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00489.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;1 (1995)</p></td>
+	<td>747&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00489.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00489.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00489.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00489.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. J. POLLARD</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00490.x">The Lancastrian Constitutional Experiment Revisited: Henry IV, Sir John Tiptoft and the Parliament of 1406</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00490.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;2 (1995)</p></td>
+	<td>1.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00490.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00490.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00490.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00490.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>COLIN G. C. TITE</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00491.x">The Cotton Library in the Seventeenth Century and its Manuscript Records of the English Parliament</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00491.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;2 (1995)</p></td>
+	<td>1.29&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00491.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00491.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00491.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00491.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. V. BECKETT</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00492.x">George Grenville, Prime Minister 1763–1765: Career Politician or Country Gentleman?</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00492.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;2 (1995)</p></td>
+	<td>595&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00492.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00492.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00492.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00492.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>DOUGLAS F. SHEPPARD</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00493.x">The Cave of Adullam, Household Suffrage, and the Passage of the Second Reform Act</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00493.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;2 (1995)</p></td>
+	<td>1.53&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00493.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00493.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00493.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00493.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>JULIAN GOODARE</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00494.x">Who was the Scottish Parliament?</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00494.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;2 (1995)</p></td>
+	<td>422&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00494.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00494.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00494.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00494.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>JOHN MORRILL</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00495.x">Paying One's D'Ewes</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00495.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;2 (1995)</p></td>
+	<td>489&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00495.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00495.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00495.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00495.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>JUSTIN A. I. CHAMPION</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00496.x">Philosophy, State and Religon: Languages of Political Theory in Early Modern England</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00496.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;2 (1995)</p></td>
+	<td>860&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00496.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00496.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00496.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00496.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1995.tb00497.x">REVIEWS</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1995.tb00497.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;14, issue&nbsp;2 (1995)</p></td>
+	<td>3.77&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1995.tb00497.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1995.tb00497.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1995.tb00497.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1995.tb00497.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>WILLIAM FERGUSON</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1996.tb00313.x">Introduction</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1996.tb00313.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;15, issue&nbsp;1 (1996)</p></td>
+	<td>675&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1996.tb00313.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1996.tb00313.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1996.tb00313.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1996.tb00313.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>JULIAN GOODARE</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1996.tb00314.x">The Estates in the Scottish Parliament, 1286–1707</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1996.tb00314.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;15, issue&nbsp;1 (1996)</p></td>
+	<td>1.31&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1996.tb00314.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1996.tb00314.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1996.tb00314.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1996.tb00314.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>ALAN BORTHWICK</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1996.tb00315.x"><em>Montrose</em> v. <em>Dundee</em> and the Jurisdiction of Parliament and Council over Fee and Heritage in the Mid-Fifteenth century</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1996.tb00315.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;15, issue&nbsp;1 (1996)</p></td>
+	<td>1.26&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1996.tb00315.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1996.tb00315.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1996.tb00315.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1996.tb00315.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>JOHN J. SCALLY</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1996.tb00316.x">Constitutional Revolution, Party and Faction n the Scottish Parliaments of Charles I</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1996.tb00316.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;15, issue&nbsp;1 (1996)</p></td>
+	<td>1.28&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1996.tb00316.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1996.tb00316.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1996.tb00316.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1996.tb00316.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>DAVID HAYTON</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1750-0206.1996.tb00317.x">Traces of Party Politics in Early Eighteenth-Century Scottish Elections</a></p>
+		<p>DOI: 10.1111/j.1750-0206.1996.tb00317.x</p>	</td>
+	<td><p><a href="/scimag/journals/19104">Parliamentary History</a><p>volume&nbsp;15, issue&nbsp;1 (1996)</p></td>
+	<td>1.66&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1750-0206.1996.tb00317.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1750-0206.1996.tb00317.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1750-0206.1996.tb00317.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1750-0206.1996.tb00317.x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;578 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 64</span>
+	 <a href="/scimag/?journal=19104&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/3970">Central European Journal of Operations Research</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1435-246X</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1613-9178</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 28; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 28');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=3970&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">696 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 28</span>
+	 <a href="/scimag/?journal=3970&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Jafar Fathali; Hossein T. Kakhki; Rainer E. Burkard</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0001-z">An ant colony algorithm for the pos/neg weightedp-median problem</a></p>
+		<p>DOI: 10.1007/s10100-006-0001-z</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;14, issue&nbsp;3 (2006)</p></td>
+	<td>192&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0001-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0001-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0001-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0001-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alessandra Buratto; Luca Grosset</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0002-y">A communication mix for an event planning: a linear quadratic approach</a></p>
+		<p>DOI: 10.1007/s10100-006-0002-y</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;14, issue&nbsp;3 (2006)</p></td>
+	<td>181&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0002-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0002-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0002-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0002-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yong He; György Dósa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0003-x">Extension of algorithm list scheduling for a semi-online scheduling problem</a></p>
+		<p>DOI: 10.1007/s10100-006-0003-x</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;15, issue&nbsp;1 (2007)</p></td>
+	<td>130&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0003-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0003-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0003-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0003-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pu Chen; Carl Chiarella; Peter Flaschel; Willi Semmler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0004-9">The feedback channels in macroeconomics: analytical foundations for structural econometric model building</a></p>
+		<p>DOI: 10.1007/s10100-006-0004-9</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;14, issue&nbsp;3 (2006)</p></td>
+	<td>634&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0004-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0004-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0004-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0004-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marco Lehmann-Waffenschmidt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0005-8">A note on continuously decomposed evolving exchange economies</a></p>
+		<p>DOI: 10.1007/s10100-006-0005-8</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;14, issue&nbsp;3 (2006)</p></td>
+	<td>145&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0005-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0005-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0005-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0005-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James Falk; Jana Hranaiova; Harry de Gorter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0006-7">Constrained equilibrium in a bidding problem</a></p>
+		<p>DOI: 10.1007/s10100-006-0006-7</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;14, issue&nbsp;3 (2006)</p></td>
+	<td>159&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0006-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0006-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0006-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0006-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sleman Saliba</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0007-6">Heuristics for the lexicographic max-ordering vehicle routing problem</a></p>
+		<p>DOI: 10.1007/s10100-006-0007-6</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;14, issue&nbsp;3 (2006)</p></td>
+	<td>413&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0007-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0007-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0007-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0007-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin Beckenkamp</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0008-5">A game-theoretic taxonomy of social dilemmas</a></p>
+		<p>DOI: 10.1007/s10100-006-0008-5</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;14, issue&nbsp;3 (2006)</p></td>
+	<td>197&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0008-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0008-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0008-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0008-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fátima C. C. Dargam; António J. L. Rodrigues</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0009-4">Methods and strategies for decision and management problems</a></p>
+		<p>DOI: 10.1007/s10100-006-0009-4</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;14, issue&nbsp;4 (2006)</p></td>
+	<td>47&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0009-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0009-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0009-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0009-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dmitrii Lozovanu; Stefan Pickl</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0010-y">An approach for an algorithmic solution of discrete optimal control problems and their game-theoretical extension</a></p>
+		<p>DOI: 10.1007/s10100-006-0010-y</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;14, issue&nbsp;4 (2006)</p></td>
+	<td>249&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0010-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0010-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0010-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0010-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniel Eckert; Christian Klamler; Johann Mitlöhner; Christian Schlötterer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0011-x">A distance-based comparison of basic voting rules</a></p>
+		<p>DOI: 10.1007/s10100-006-0011-x</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;14, issue&nbsp;4 (2006)</p></td>
+	<td>180&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0011-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0011-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0011-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0011-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alessio Ishizaka; Markus Lusti</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0012-9">How to derive priorities in AHP: a comparative study</a></p>
+		<p>DOI: 10.1007/s10100-006-0012-9</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;14, issue&nbsp;4 (2006)</p></td>
+	<td>277&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0012-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0012-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0012-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0012-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bernd Brandl; Christian Keber; Matthias G. Schuster</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0013-8">An automated econometric decision support system: forecasts for foreign exchange trades</a></p>
+		<p>DOI: 10.1007/s10100-006-0013-8</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;14, issue&nbsp;4 (2006)</p></td>
+	<td>323&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0013-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0013-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0013-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0013-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Simone Alfarano; Iván Barreda-Tarrazona; Eva Camacho-Cuena</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0014-7">On the role of heterogeneous and imperfect information in a laboratory financial market</a></p>
+		<p>DOI: 10.1007/s10100-006-0014-7</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;14, issue&nbsp;4 (2006)</p></td>
+	<td>326&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0014-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0014-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0014-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0014-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vera Hofer; Klaus Ladner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0015-6">Positioning of new brands in an experiment</a></p>
+		<p>DOI: 10.1007/s10100-006-0015-6</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;14, issue&nbsp;4 (2006)</p></td>
+	<td>275&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0015-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0015-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0015-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0015-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Henryk Gurgul; Paweł Majdosz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0016-5">The informational content of insider trading disclosures: empirical results for the Polish stock market</a></p>
+		<p>DOI: 10.1007/s10100-006-0016-5</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;15, issue&nbsp;1 (2007)</p></td>
+	<td>359&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0016-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0016-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0016-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0016-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. M. García-Sánchez</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0017-4">Efficiency and effectiveness of Spanish football teams: a three-stage-DEA approach</a></p>
+		<p>DOI: 10.1007/s10100-006-0017-4</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;15, issue&nbsp;1 (2007)</p></td>
+	<td>314&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0017-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0017-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0017-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0017-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christian Almeder; Gustav Feichtinger; Warren C. Sanderson; Vladimir M. Veliov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0018-3">Prevention and medication of HIV/AIDS: the case of Botswana</a></p>
+		<p>DOI: 10.1007/s10100-006-0018-3</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;15, issue&nbsp;1 (2007)</p></td>
+	<td>293&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0018-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0018-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0018-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0018-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Axel Ostmann; Holger I. Meinhardt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0019-2">Non-binding agreements and fairness in commons dilemma games</a></p>
+		<p>DOI: 10.1007/s10100-006-0019-2</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;15, issue&nbsp;1 (2007)</p></td>
+	<td>696&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0019-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0019-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0019-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0019-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Luca Lambertini; Raimondello Orsini</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0020-9">Network externalities in a dynamic monopoly</a></p>
+		<p>DOI: 10.1007/s10100-006-0020-9</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;15, issue&nbsp;1 (2007)</p></td>
+	<td>181&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0020-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0020-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0020-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0020-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bernd Irlenbusch</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0157-6">Experimental perspectives on incentives in organisations</a></p>
+		<p>DOI: 10.1007/s10100-006-0157-6</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;14, issue&nbsp;1 (2006)</p></td>
+	<td>1.53&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0157-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0157-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0157-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0157-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. Kosmidou; F. Pasiouras; M. Doumpos; C. Zopounidis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0158-5">Assessing performance factors in the UK banking sector: A multicriteria methodology</a></p>
+		<p>DOI: 10.1007/s10100-006-0158-5</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;14, issue&nbsp;1 (2006)</p></td>
+	<td>1.21&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0158-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0158-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0158-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0158-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard F. Hartl; Gagik T. Kirakossian; Stanislav R. Hakobyan; Artyom H. Markaryan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0159-4">A dynamical model of water recycling in a mine-processing enterprise</a></p>
+		<p>DOI: 10.1007/s10100-006-0159-4</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;14, issue&nbsp;1 (2006)</p></td>
+	<td>597&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0159-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0159-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0159-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0159-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Walter J. Gutjahr</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0160-y">Interaction dynamics of two reinforcement learners</a></p>
+		<p>DOI: 10.1007/s10100-006-0160-y</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;14, issue&nbsp;1 (2006)</p></td>
+	<td>1.50&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0160-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0160-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0160-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0160-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Johannes Leitner; Robert Schmidt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10100-006-0161-x">A systematic comparison of professional exchange rate forecasts with the judgemental forecasts of novices</a></p>
+		<p>DOI: 10.1007/s10100-006-0161-x</p>	</td>
+	<td><p><a href="/scimag/journals/3970">Central European Journal of Operations Research</a><p>volume&nbsp;14, issue&nbsp;1 (2006)</p></td>
+	<td>925&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10100-006-0161-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10100-006-0161-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10100-006-0161-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10100-006-0161-x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">696 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 28</span>
+	 <a href="/scimag/?journal=3970&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

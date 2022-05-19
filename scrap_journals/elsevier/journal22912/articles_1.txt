@@ -1,0 +1,379 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Elsevier Science</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1369-8486</td>
+	</tr>
+					</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 54; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 54');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=22912&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;334 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 54</span>
+	 <a href="/scimag/?journal=22912&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Uljana Feest</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2011.11.008">Husserl’s Crisis as a crisis of psychology</a></p>
+		<p>DOI: 10.1016/j.shpsc.2011.11.008</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;43, issue&nbsp;2 (2012)</p></td>
+	<td>135&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2011.11.008" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2011.11.008">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2011.11.008">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2011.11.008">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Loes Kater; Rob Houtepen; Raymond De Vries; Guy Widdershoven</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.09.001">Health care ethics and health law in the Dutch discussion on end-of-life decisions: a historical analysis of the dynamics and development of both disciplines</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.09.001</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;34, issue&nbsp;4 (2003)</p></td>
+	<td>108&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.09.001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.09.001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.09.001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.09.001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ursula Klein</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.09.002">Experimental history and Herman Boerhaave’s chemistry of plants</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.09.002</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;34, issue&nbsp;4 (2003)</p></td>
+	<td>259&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.09.002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.09.002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.09.002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.09.002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hubertus Nederbragt</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.09.003">Strategies to improve the reliability of a theory: the experiment of bacterial invasion into cultured epithelial cells</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.09.003</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;34, issue&nbsp;4 (2003)</p></td>
+	<td>132&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.09.003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.09.003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.09.003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.09.003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ethan Toombs</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.09.005">Harmony, explanatory coherence and the debate between the reticular theory and neuron theory of nerve cell structure: ECHO’s resolution of a quiet revolution</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.09.005</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;34, issue&nbsp;4 (2003)</p></td>
+	<td>119&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.09.005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.09.005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.09.005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.09.005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andre Ariew</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.09.007">Richard Lewontin as Elvis Costello?: The triple helix: gene, organism and environmentRichard Lewontin; Harvard University Press, Cambridge, MA & London, 2000, pp. 1+135, Price $25 hardback, ISBN 0-674-00159-1, Price $15 paperback, ISBN 0-674-00677-1.</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.09.007</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;34, issue&nbsp;4 (2003)</p></td>
+	<td>45&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.09.007" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.09.007">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.09.007">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.09.007">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Castle</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.09.008">The moral significance of agricultural biotechnology</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.09.008</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;34, issue&nbsp;4 (2003)</p></td>
+	<td>72&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.09.008" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.09.008">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.09.008">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.09.008">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Samir Okasha</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.09.009">Could religion be a group-level adaptation of Homo sapiens?: Darwin’s cathedral: evolution, religion and the nature of societyDavid Sloan Wilson; University of Chicago Press, 2002, pp. v+268, Price $25 hardback, ISBN 0-226-90134-3.</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.09.009</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;34, issue&nbsp;4 (2003)</p></td>
+	<td>55&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.09.009" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.09.009">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.09.009">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.09.009">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gerhard Schlosser</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.09.010">Naturalizing functions—unity beyond pluralism?: Functions—New essays in the philosophy of psychology and biologyAndré Ariew, Robert Cummins, & Mark Perlman (Eds.); Oxford University Press, Oxford, 2002, pp.viii+449, Price £50.00 hardback, ISBN 0-19-925580-6, Price £16.99 paperback, ISBN 0-19-925581-4.</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.09.010</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;34, issue&nbsp;4 (2003)</p></td>
+	<td>94&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.09.010" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.09.010">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.09.010">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.09.010">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.12.001">Announcement</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.12.001</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>23&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.12.001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.12.001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.12.001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.12.001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David N. Livingstone</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.12.002">Public spectacle and scientific theory: William Robertson Smith and the reading of evolution in Victorian Scotland</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.12.002</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>473&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.12.002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.12.002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.12.002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.12.002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sarah Davis</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.12.004">Darwin, Tegetmeier and the bees</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.12.004</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>592&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.12.004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.12.004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.12.004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.12.004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Helen Blackman</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.12.005">A spiritual leader? Cambridge zoology, mountaineering and the death of F.M. Balfour</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.12.005</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>199&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.12.005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.12.005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.12.005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.12.005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.12.006">Contents</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.12.006</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>21&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.12.006" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.12.006">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.12.006">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.12.006">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tim Lewens</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.12.007">Is something wrong with bioethics?</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.12.007</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>35&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.12.007" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.12.007">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.12.007">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.12.007">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carl Elliott</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.12.008">Six problems with pharma-funded bioethics</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.12.008</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>74&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.12.008" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.12.008">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.12.008">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.12.008">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hallvard Lillehammer</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.12.009">Who needs bioethicists?</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.12.009</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>124&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.12.009" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.12.009">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.12.009">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.12.009">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tim Lewens</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.12.010">The commercial exploitation of ethics</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.12.010</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>92&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.12.010" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.12.010">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.12.010">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.12.010">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard E. Ashcroft</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.12.011">Bioethics and conflicts of interest</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.12.011</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>114&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.12.011" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.12.011">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.12.011">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.12.011">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John McMillan</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.12.012">Is corporate money bad for bioethics?</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.12.012</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>91&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.12.012" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.12.012">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.12.012">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.12.012">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen John</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.12.013">Titanic ethics, pirate ethics, bioethics: Bioethics Ellen Frankel Paul, Fred D. Miller, Jr., & Jeffrey Paul (Eds.); Cambridge University Press, Cambridge, New York & Melbourne, 2002, pp. xvii+396, Price £15.95 paperback, ISBN 0-521-52526-8.</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.12.013</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>58&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.12.013" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.12.013">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.12.013">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.12.013">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lisbet Rausing</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.12.014">Nemesis divina: Nemesis divina Carl von Linne, edited and translated with explanatory notes by M.J. Petry. International Archives of the History of Ideas. Kluwer Academic Publishers, Dordrecht, 2001, pp. 504, Price £119 hardback, ISBN 0-7923-6820-7.</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.12.014</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>49&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.12.014" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.12.014">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.12.014">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.12.014">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul White</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.12.015">Desmond/Huxley: the hot-blooded historian Although his world view ultimately sank into orthodoxy, he never lost his love of battle.: Huxley: From devil’s disciple to evolution’s high priest Adrian Desmond; Penguin, London, 1998, pp. xxii+820, Price £10.99 paperback, ISBN 0-14-017309-9.</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.12.015</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>68&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.12.015" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.12.015">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.12.015">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.12.015">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rebecca Stott</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.12.016">Masculinities in nineteenth-century science: Huxley, Darwin, Kingsley and the evolution of the scientist: Thomas Huxley: Making the ‘man of science’ Paul White; Cambridge University Press, Cambridge, 2003, pp. 205, Price £16.95 paperback, ISBN 0-521-64967-6.</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.12.016</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>67&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.12.016" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.12.016">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.12.016">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.12.016">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark E. Borrello</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.shpsc.2003.12.017">Radicals and revolution: The structure of evolutionary theory Stephen Jay Gould; Harvard University Press, Cambridge, MA & London, 2002, pp. xxi+1433, Price $39.95 hardback, ISBN 0-674-00613-5.</a></p>
+		<p>DOI: 10.1016/j.shpsc.2003.12.017</p>	</td>
+	<td><p><a href="/scimag/journals/22912">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>65&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.shpsc.2003.12.017" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.shpsc.2003.12.017">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.shpsc.2003.12.017">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.shpsc.2003.12.017">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;334 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 54</span>
+	 <a href="/scimag/?journal=22912&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

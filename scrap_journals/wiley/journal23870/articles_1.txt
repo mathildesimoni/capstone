@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/23870">The Journal of Finance</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0022-1082</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1540-6261</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 498; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 498');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=23870&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">12&nbsp;438 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 498</span>
+	 <a href="/scimag/?journal=23870&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>John M. Griffin; Jeffrey H. Harris; Selim Topaloglu</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1540-6261.2003.00606.x">The Dynamics of Institutional and Individual Trading</a></p>
+		<p>DOI: 10.1046/j.1540-6261.2003.00606.x</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;58, issue&nbsp;6 (2003)</p></td>
+	<td>433&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1540-6261.2003.00606.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1540-6261.2003.00606.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1540-6261.2003.00606.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1540-6261.2003.00606.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Y. Campbell; Glen B. Taksler</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1540-6261.2003.00607.x">Equity Volatility and Corporate Bond Yields</a></p>
+		<p>DOI: 10.1046/j.1540-6261.2003.00607.x</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;58, issue&nbsp;6 (2003)</p></td>
+	<td>421&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1540-6261.2003.00607.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1540-6261.2003.00607.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1540-6261.2003.00607.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1540-6261.2003.00607.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jay C. Hartzell; Laura T. Starks</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1540-6261.2003.00608.x">Institutional Investors and Executive Compensation</a></p>
+		<p>DOI: 10.1046/j.1540-6261.2003.00608.x</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;58, issue&nbsp;6 (2003)</p></td>
+	<td>199&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1540-6261.2003.00608.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1540-6261.2003.00608.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1540-6261.2003.00608.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1540-6261.2003.00608.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joel Hasbrouck</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1540-6261.2003.00609.x">Intraday Price Formation in U.S. Equity Index Markets</a></p>
+		<p>DOI: 10.1046/j.1540-6261.2003.00609.x</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;58, issue&nbsp;6 (2003)</p></td>
+	<td>278&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1540-6261.2003.00609.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1540-6261.2003.00609.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1540-6261.2003.00609.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1540-6261.2003.00609.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stijn Claessens; Luc Laeven</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1540-6261.2003.00610.x">Financial Development, Property Rights, and Growth</a></p>
+		<p>DOI: 10.1046/j.1540-6261.2003.00610.x</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;58, issue&nbsp;6 (2003)</p></td>
+	<td>257&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1540-6261.2003.00610.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1540-6261.2003.00610.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1540-6261.2003.00610.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1540-6261.2003.00610.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patrick De Fontnouvelle; Raymond P. H. Fishe; Jeffrey H. Harris</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1540-6261.2003.00611.x">The Behavior of Bid–Ask Spreads and Volume in Options Markets during the Competition for Listings in 1999</a></p>
+		<p>DOI: 10.1046/j.1540-6261.2003.00611.x</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;58, issue&nbsp;6 (2003)</p></td>
+	<td>190&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1540-6261.2003.00611.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1540-6261.2003.00611.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1540-6261.2003.00611.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1540-6261.2003.00611.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Raman Uppal; Tan Wang</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1540-6261.2003.00612.x">Model Misspecification and Underdiversification</a></p>
+		<p>DOI: 10.1046/j.1540-6261.2003.00612.x</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;58, issue&nbsp;6 (2003)</p></td>
+	<td>225&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1540-6261.2003.00612.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1540-6261.2003.00612.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1540-6261.2003.00612.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1540-6261.2003.00612.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Warren Bailey; Haitao Li; Connie X. Mao; Rui Zhong</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1540-6261.2003.00613.x">Regulation Fair Disclosure and Earnings Information: Market, Analyst, and Corporate Responses</a></p>
+		<p>DOI: 10.1046/j.1540-6261.2003.00613.x</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;58, issue&nbsp;6 (2003)</p></td>
+	<td>208&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1540-6261.2003.00613.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1540-6261.2003.00613.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1540-6261.2003.00613.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1540-6261.2003.00613.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John M. Griffin; Xiuqing Ji; J. Spencer  Martin</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1540-6261.2003.00614.x">Momentum Investing and Business Cycle Risk: Evidence from Pole to Pole</a></p>
+		<p>DOI: 10.1046/j.1540-6261.2003.00614.x</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;58, issue&nbsp;6 (2003)</p></td>
+	<td>287&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1540-6261.2003.00614.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1540-6261.2003.00614.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1540-6261.2003.00614.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1540-6261.2003.00614.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael F. Ferguson; Richard L. Shockley</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1540-6261.2003.00615.x">Equilibrium “Anomalies”</a></p>
+		<p>DOI: 10.1046/j.1540-6261.2003.00615.x</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;58, issue&nbsp;6 (2003)</p></td>
+	<td>297&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1540-6261.2003.00615.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1540-6261.2003.00615.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1540-6261.2003.00615.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1540-6261.2003.00615.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Carr; Liuren Wu</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1540-6261.2003.00616.x">What Type of Process Underlies Options? A Simple Robust Test</a></p>
+		<p>DOI: 10.1046/j.1540-6261.2003.00616.x</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;58, issue&nbsp;6 (2003)</p></td>
+	<td>466&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1540-6261.2003.00616.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1540-6261.2003.00616.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1540-6261.2003.00616.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1540-6261.2003.00616.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John R. Graham; Roni Michaely; Michael R. Roberts</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1540-6261.2003.00617.x">Do Price Discreteness and Transactions Costs Affect Stock Returns? Comparing Ex-Dividend Pricing before and after Decimalization</a></p>
+		<p>DOI: 10.1046/j.1540-6261.2003.00617.x</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;58, issue&nbsp;6 (2003)</p></td>
+	<td>206&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1540-6261.2003.00617.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1540-6261.2003.00617.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1540-6261.2003.00617.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1540-6261.2003.00617.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael J. Barclay; Terrence Hendershott; D. Timothy McCormick</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1540-6261.2003.00618.x">Competition among Trading Venues: Information and Trading on Electronic Communications Networks</a></p>
+		<p>DOI: 10.1046/j.1540-6261.2003.00618.x</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;58, issue&nbsp;6 (2003)</p></td>
+	<td>228&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1540-6261.2003.00618.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1540-6261.2003.00618.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1540-6261.2003.00618.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1540-6261.2003.00618.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>George Allayannis; Gregory W. Brown; Leora F. Klapper</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1540-6261.2003.00619.x">Capital Structure and Financial Risk: Evidence from Foreign Debt Use in East Asia</a></p>
+		<p>DOI: 10.1046/j.1540-6261.2003.00619.x</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;58, issue&nbsp;6 (2003)</p></td>
+	<td>336&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1540-6261.2003.00619.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1540-6261.2003.00619.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1540-6261.2003.00619.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1540-6261.2003.00619.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Amy Dittmar; Anil Shivdasani</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1540-6261.2003.00620.x">Divestitures and Divisional Investment Policies</a></p>
+		<p>DOI: 10.1046/j.1540-6261.2003.00620.x</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;58, issue&nbsp;6 (2003)</p></td>
+	<td>236&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1540-6261.2003.00620.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1540-6261.2003.00620.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1540-6261.2003.00620.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1540-6261.2003.00620.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Viral V. Acharya</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1540-6261.2003.00621.x">Is the International Convergence of Capital Adequacy Regulation Desirable?</a></p>
+		<p>DOI: 10.1046/j.1540-6261.2003.00621.x</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;58, issue&nbsp;6 (2003)</p></td>
+	<td>313&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1540-6261.2003.00621.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1540-6261.2003.00621.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1540-6261.2003.00621.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1540-6261.2003.00621.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Benjamin C. Ayers; Craig E. Lefanowicz; John R. Robinson</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1540-6261.2003.00622.x">Shareholder Taxes in Acquisition Premiums: The Effect of Capital Gains Taxation</a></p>
+		<p>DOI: 10.1046/j.1540-6261.2003.00622.x</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;58, issue&nbsp;6 (2003)</p></td>
+	<td>162&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1540-6261.2003.00622.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1540-6261.2003.00622.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1540-6261.2003.00622.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1540-6261.2003.00622.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1540-6261.2003.00623.x">Miscellanea</a></p>
+		<p>DOI: 10.1046/j.1540-6261.2003.00623.x</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;58, issue&nbsp;6 (2003)</p></td>
+	<td>24&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1540-6261.2003.00623.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1540-6261.2003.00623.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1540-6261.2003.00623.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1540-6261.2003.00623.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1540-6261.2003.00624.x">Index to Volume LVIII</a></p>
+		<p>DOI: 10.1046/j.1540-6261.2003.00624.x</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;58, issue&nbsp;6 (2003)</p></td>
+	<td>55&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1540-6261.2003.00624.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1540-6261.2003.00624.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1540-6261.2003.00624.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1540-6261.2003.00624.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0022-1082.00018">Miscellanea</a></p>
+		<p>DOI: 10.1111/0022-1082.00018</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;53, issue&nbsp;1 (1998)</p></td>
+	<td>76&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0022-1082.00018" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0022-1082.00018">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0022-1082.00018">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0022-1082.00018">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0022-1082.00035">Miscellanea</a></p>
+		<p>DOI: 10.1111/0022-1082.00035</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;53, issue&nbsp;2 (1998)</p></td>
+	<td>69&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0022-1082.00035" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0022-1082.00035">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0022-1082.00035">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0022-1082.00035">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eugene F. Fama; Kenneth R. French</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0022-1082.00036">Taxes, Financing Decisions, and Firm Value</a></p>
+		<p>DOI: 10.1111/0022-1082.00036</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;53, issue&nbsp;3 (1998)</p></td>
+	<td>136&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0022-1082.00036" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0022-1082.00036">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0022-1082.00036">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0022-1082.00036">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark Carey; Mitch Post; Steven A. Sharpe</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0022-1082.00037">Does Corporate Lending by Banks and Finance Companies Differ? Evidence on Specialization in Private Debt Contracting</a></p>
+		<p>DOI: 10.1111/0022-1082.00037</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;53, issue&nbsp;3 (1998)</p></td>
+	<td>276&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0022-1082.00037" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0022-1082.00037">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0022-1082.00037">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0022-1082.00037">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kathryn L. Dewenter; Vincent A. Warther</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0022-1082.00038">Dividends, Asymmetric Information, and Agency Conflicts: Evidence from a Comparison of the Dividend Policies of Japanese and U.S. Firms</a></p>
+		<p>DOI: 10.1111/0022-1082.00038</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;53, issue&nbsp;3 (1998)</p></td>
+	<td>130&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0022-1082.00038" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0022-1082.00038">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0022-1082.00038">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0022-1082.00038">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Luigi Zingales</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0022-1082.00039">Survival of the Fittest or the Fattest? Exit and Financing in the Trucking Industry</a></p>
+		<p>DOI: 10.1111/0022-1082.00039</p>	</td>
+	<td><p><a href="/scimag/journals/23870">The Journal of Finance</a><p>volume&nbsp;53, issue&nbsp;3 (1998)</p></td>
+	<td>156&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0022-1082.00039" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0022-1082.00039">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0022-1082.00039">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0022-1082.00039">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">12&nbsp;438 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 498</span>
+	 <a href="/scimag/?journal=23870&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

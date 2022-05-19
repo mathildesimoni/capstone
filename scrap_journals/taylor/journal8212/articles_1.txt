@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/8212">Geomicrobiology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Taylor and Francis Group</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0149-0451</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1521-0529</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 80; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 80');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=8212&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;979 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 80</span>
+	 <a href="/scimag/?journal=8212&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Islam, Ekramul; Paul, Dhiraj; Sar, Pinaki </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490451.2014.907375">Microbial Diversity in Uranium Deposits from Jaduguda and Bagjata Uranium Mines, India as Revealed by Clone Library and Denaturing Gradient Gel Electrophoresis Analyses</a></p>
+		<p>DOI: 10.1080/01490451.2014.907375</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;31, issue&nbsp;10 (2014)</p></td>
+	<td>604&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490451.2014.907375" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490451.2014.907375">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490451.2014.907375">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490451.2014.907375">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. G. Ferris, K. O. Konhauser, B. L, </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F014904599270677">Accumulation of Metals by Bacteriogenic Iron Oxides in a Subterranean Environment</a></p>
+		<p>DOI: 10.1080/014904599270677</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;16, issue&nbsp;2 (1999)</p></td>
+	<td>406&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F014904599270677" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/014904599270677">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/014904599270677">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/014904599270677">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. C. Bennett, J. R. Rogers, W. J., </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490450151079734">Silicates, Silicate Weathering, and Microbial Ecology</a></p>
+		<p>DOI: 10.1080/01490450151079734</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;18, issue&nbsp;1 (2001)</p></td>
+	<td>656&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490450151079734" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490450151079734">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490450151079734">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490450151079734">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hyun, Jung-Ho; Mok, Jin-Sook; You, Ok-Rye; Kim, Dongseon; Choi, Dong-Lim</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490450903456731">Variations and Controls of Sulfate Reduction in the Continental Slope and Rise of the Ulleung Basin off the Southeast Korean Upwelling System in the East Sea</a></p>
+		<p>DOI: 10.1080/01490450903456731</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;27, issue&nbsp;2 (2010)</p></td>
+	<td>776&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490450903456731" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490450903456731">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490450903456731">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490450903456731">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yee, Nathan; Fein, Jeremy B.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490450303887">Quantifying Metal Adsorption onto Bacteria Mixtures: A Test and Application of the Surface Complexation Model</a></p>
+		<p>DOI: 10.1080/01490450303887</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;20, issue&nbsp;1 (2003)</p></td>
+	<td>296&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490450303887" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490450303887">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490450303887">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490450303887">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rivadeneyra, María Angustias; Martín-Algarra, Agustín; Sánchez-Navas, Antonio; Martíin-Ramos, Daniel </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490450500533882">Carbonate and Phosphate Precipitation by              <i>Chromohalobacter marismortui</i></a></p>
+		<p>DOI: 10.1080/01490450500533882</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;23, issue&nbsp;2 (2006)</p></td>
+	<td>7.84&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490450500533882" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490450500533882">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490450500533882">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490450500533882">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Burbank, Malcolm B.; Weaver, Thomas J.; Williams, Barbara C.; Crawford, Ronald L.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490451.2011.575913">Urease Activity of Ureolytic Bacteria Isolated from Six Soils in which Calcite was Precipitated by Indigenous Bacteria</a></p>
+		<p>DOI: 10.1080/01490451.2011.575913</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;29, issue&nbsp;4 (2012)</p></td>
+	<td>158&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490451.2011.575913" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490451.2011.575913">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490451.2011.575913">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490451.2011.575913">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Julies, Elsabé M.; Fuchs, Bernhard M.; Arnosti, Carol; Brüchert, Volker</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490450903410464">Organic Carbon Degradation in Anoxic Organic-Rich Shelf Sediments: Biogeochemical Rates and Microbial Abundance</a></p>
+		<p>DOI: 10.1080/01490450903410464</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;27, issue&nbsp;4 (2010)</p></td>
+	<td>361&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490450903410464" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490450903410464">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490450903410464">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490450903410464">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gadd, Geoffrey M.; Raven, John A.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490451003703006">Geomicrobiology of Eukaryotic Microorganisms</a></p>
+		<p>DOI: 10.1080/01490451003703006</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;27, issue&nbsp;6 (2010)</p></td>
+	<td>260&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490451003703006" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490451003703006">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490451003703006">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490451003703006">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Takai, Ken; Nunoura, Takuro; Horikoshi, Koki; Shibuya, Takazo; Nakamura, Kentaro; Suzuki, Yohey; Stott, Matthew; Massoth, Gary J.; Christenson, B. W.; deRonde, Cornel E. J.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490450903304949">Variability in Microbial Communities in Black Smoker Chimneys at the NW Caldera Vent Field, Brothers Volcano, Kermadec Arc</a></p>
+		<p>DOI: 10.1080/01490450903304949</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;26, issue&nbsp;8 (2009)</p></td>
+	<td>6.97&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490450903304949" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490450903304949">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490450903304949">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490450903304949">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lehours, Anne-Catherine; Batisson, Isabelle; Guedon, Annie; Mailhot, Gilles; Fonty, Gerard</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490450902744012">Diversity of Culturable Bacteria, from the Anaerobic Zone of the Meromictic Lake Pavin, Able to Perform Dissimilatory-Iron Reduction in Different in Vitro Conditions</a></p>
+		<p>DOI: 10.1080/01490450902744012</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;26, issue&nbsp;3 (2009)</p></td>
+	<td>1.24&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490450902744012" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490450902744012">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490450902744012">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490450902744012">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Oren, Aharon</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490459709378046">Mycosporine‐like amino acids as osmotic solutes in a community of halophilic cyanobacteria</a></p>
+		<p>DOI: 10.1080/01490459709378046</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;14, issue&nbsp;3 (1997)</p></td>
+	<td>693&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490459709378046" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490459709378046">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490459709378046">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490459709378046">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zimmermann, J.; Gonzalez, J. M.; Saiz-Jimenez, C.; Ludwig, W.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490450500248986">Detection and Phylogenetic Relationships of Highly Diverse Uncultured Acidobacterial Communities in Altamira Cave Using 23S rRNA Sequence Analyses</a></p>
+		<p>DOI: 10.1080/01490450500248986</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;22, issue&nbsp;7 (2005)</p></td>
+	<td>680&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490450500248986" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490450500248986">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490450500248986">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490450500248986">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Doig, F.; Lollar, B. Sherwood; Ferris, F. G.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490459509378008">Microbial communities in deep Canadian shield groundwaters—an in situ biofilm experiment</a></p>
+		<p>DOI: 10.1080/01490459509378008</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;13, issue&nbsp;2 (1995)</p></td>
+	<td>1.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490459509378008" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490459509378008">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490459509378008">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490459509378008">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Oremland, Ronald; Silverman, Melvin</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490457909377741">Microbial sulfate reduction measured by an automated electrical impedance technique</a></p>
+		<p>DOI: 10.1080/01490457909377741</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;1, issue&nbsp;4 (1979)</p></td>
+	<td>782&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490457909377741" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490457909377741">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490457909377741">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490457909377741">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nagaosa, Kazuyo; Maruyama, Tomoko; Welikala, Nihal; Yamashita, Yohei; Saito, Yui; Kato, Kenji; Fortin, Danielle; Nanba, Kenji; Miyasaka, Iku; Fukunaga, Sakae</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490450802006793">Active Bacterial Populations and Grazing Impact Revealed by an In Situ Experiment in a Shallow Aquifer</a></p>
+		<p>DOI: 10.1080/01490450802006793</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;25, issue&nbsp;3 (2008)</p></td>
+	<td>5.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490450802006793" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490450802006793">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490450802006793">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490450802006793">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Novarino, Gianfranco; Warren, Alan; Kinner, Nancy E.; Harvey, Ronald W.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490459409377968">Protists from a sewage‐contaminated aquifer on cape cod, Massachusetts</a></p>
+		<p>DOI: 10.1080/01490459409377968</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;12, issue&nbsp;1 (1994)</p></td>
+	<td>988&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490459409377968" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490459409377968">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490459409377968">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490459409377968">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Canaveras, J. C.; Laiz, L.; Saiz-Jimenez, C.; Bedoya, J.; Luque, L.; Sanchez-Moral, S.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F713851131">Biomediated Precipitation of Calcium Carbonate Metastable Phases in Hypogean Environments: A Short Review</a></p>
+		<p>DOI: 10.1080/713851131</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;20, issue&nbsp;5 (2003)</p></td>
+	<td>269&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F713851131" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/713851131">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/713851131">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/713851131">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Perry, Randall S.; Engel, Michael H.; Botta, Oliver; Staley, James T. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F713851132">Amino Acid Analyses of Desert Varnish from the Sonoran and Mojave Deserts</a></p>
+		<p>DOI: 10.1080/713851132</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;20, issue&nbsp;5 (2003)</p></td>
+	<td>862&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F713851132" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/713851132">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/713851132">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/713851132">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zhao, Weidong; Song, Zhaoqi; Jiang, Hongcheng; Li, Wenjun; Mou, Xiaozhen; Romanek, Christopher S.; Wiegel, Juergen; Dong, Hailiang; Zhang, Chuanlun L.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490451003753076">Ammonia-oxidizing Archaea in Kamchatka Hot Springs</a></p>
+		<p>DOI: 10.1080/01490451003753076</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;28, issue&nbsp;2 (2011)</p></td>
+	<td>557&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490451003753076" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490451003753076">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490451003753076">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490451003753076">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gavrilov, Sergey N.; Lloyd, Jonathan R.; Kostrikina, Nadezhda A.; Slobodkin, Alexander I. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490451.2011.635755">Fe(III) Oxide Reduction by a Gram-positive Thermophile: Physiological Mechanisms for Dissimilatory Reduction of Poorly Crystalline Fe(III) Oxide by a Thermophilic Gram-positive Bacterium              <i>Carboxydothermus ferrireducens</i></a></p>
+		<p>DOI: 10.1080/01490451.2011.635755</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;29, issue&nbsp;9 (2012)</p></td>
+	<td>613&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490451.2011.635755" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490451.2011.635755">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490451.2011.635755">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490451.2011.635755">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chu, Jian; Stabnikov, Viktor; Ivanov, Volodymyr</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490451.2011.592929">Microbially Induced Calcium Carbonate Precipitation on Surface or in the Bulk of Soil</a></p>
+		<p>DOI: 10.1080/01490451.2011.592929</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;29, issue&nbsp;6 (2012)</p></td>
+	<td>310&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490451.2011.592929" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490451.2011.592929">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490451.2011.592929">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490451.2011.592929">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Poulson, Simon R.; Colberg, Patricia J.S.; Drever, James I.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490459709378032">Toxicity of heavy metals (Ni, Zn) to <i>desulfovibrio desulfuricans</i></a></p>
+		<p>DOI: 10.1080/01490459709378032</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;14, issue&nbsp;1 (1997)</p></td>
+	<td>568&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490459709378032" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490459709378032">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490459709378032">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490459709378032">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kepkay, Paul E.; Burdige, David J.; Nealson, Kenneth H.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490458409377801">Kinetics of bacterial manganese binding and oxidation in the chemostat</a></p>
+		<p>DOI: 10.1080/01490458409377801</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;3, issue&nbsp;3 (1984)</p></td>
+	<td>715&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490458409377801" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490458409377801">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490458409377801">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490458409377801">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lyalikova, Natalie N.; Petushkova, Yulia P.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01490459109385991">Role of microorganisms in the weathering of minerals in building stone of historical buildings</a></p>
+		<p>DOI: 10.1080/01490459109385991</p>	</td>
+	<td><p><a href="/scimag/journals/8212">Geomicrobiology</a><p>volume&nbsp;9, issue&nbsp;2 (1991)</p></td>
+	<td>642&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01490459109385991" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01490459109385991">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01490459109385991">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01490459109385991">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;979 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 80</span>
+	 <a href="/scimag/?journal=8212&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

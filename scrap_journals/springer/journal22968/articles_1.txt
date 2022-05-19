@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/22968">Sugar Tech</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0972-1525</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>0974-0740</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 59; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 59');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=22968&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;457 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 59</span>
+	 <a href="/scimag/?journal=22968&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Yang-Rui Li</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942410">Heralding a new era for sugar industry in China: Post IS-2004 scenario</a></p>
+		<p>DOI: 10.1007/bf02942410</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>242&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942410" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942410">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942410">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942410">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. N. G. Kee Kwong</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942411">Status of sugar industry in Mauritius: Constraints and future research strategies</a></p>
+		<p>DOI: 10.1007/bf02942411</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>566&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942411" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942411">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942411">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942411">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. S. G. Lee; E. A. Bressan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942412">Clean cane with nitrogen fixing bacteria</a></p>
+		<p>DOI: 10.1007/bf02942412</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>556&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942412" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942412">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942412">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942412">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. D. Singh; G. P. Rao</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942413">Stevia: The herbal sugar of 21stcentury</a></p>
+		<p>DOI: 10.1007/bf02942413</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>2.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942413" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942413">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942413">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942413">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ze-Lin Qin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942414">Effects of market liberalization on income from sugarcane farming in Guangxi, China</a></p>
+		<p>DOI: 10.1007/bf02942414</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>866&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942414" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942414">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942414">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942414">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. M. Bokhtiar; Katsutoshi Sakurai</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942415">Effect of application of inorganic and organic fertilizers on growth, yield and quality of sugarcane</a></p>
+		<p>DOI: 10.1007/bf02942415</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>701&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942415" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942415">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942415">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942415">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Gomathi; T. V. Thandapani</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942416">Salt stress in relation to nutrient accumulation and quality of sugarcane genotypes</a></p>
+		<p>DOI: 10.1007/bf02942416</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>758&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942416" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942416">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942416">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942416">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zi-Zhang Wang; Shu-Zhen Zhang; Ben-Peng Yang; Yang-Rui Li</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942417">Trehalose synthase gene transfer mediated byAgrobacterium tumefaciensenhances resistance to osmotic stress in sugarcane</a></p>
+		<p>DOI: 10.1007/bf02942417</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942417" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942417">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942417">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942417">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. V. Nair; A. Selvi; T. V. Sreenivasan; K. N. Pushpalatha; Sheji Mary</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942418">Molecular diversity amongSaccharum, Erianthus, Sorghum, Zeaand their hybrids</a></p>
+		<p>DOI: 10.1007/bf02942418</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>539&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942418" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942418">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942418">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942418">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Viswanathan; M. Balamuralikrishnan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942419">Impact of mosaic infection on growth and yield of sugarcane</a></p>
+		<p>DOI: 10.1007/bf02942419</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>2.48&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942419" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942419">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942419">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942419">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Rakkiyappan; S. Thangavelu; R. M. Shanthi; S. Alarmelu; R. Radhamani</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942420">Uptake of major nutrients in above ground parts of promising mid late maturing sugarcane clones</a></p>
+		<p>DOI: 10.1007/bf02942420</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>322&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942420" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942420">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942420">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942420">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. V. Levites; A. M. Svirshchevskaya; S. S. Kirikovich; L. V. Mil’ko</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942421">Variation at isozyme loci in culturedin vitrosugar beet regenerants of gynogenetic origin</a></p>
+		<p>DOI: 10.1007/bf02942421</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>962&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942421" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942421">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942421">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942421">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sanjay K. Solomon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942422">Environmental pollution and its management in sugar industry in India: An appraisal</a></p>
+		<p>DOI: 10.1007/bf02942422</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>434&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942422" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942422">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942422">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942422">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Neelamathi; P. Ramya; S. Mallika</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942423">Effect of riboflavin on initiation and multiplication of shoot cultures of sugarcane</a></p>
+		<p>DOI: 10.1007/bf02942423</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>216&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942423" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942423">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942423">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942423">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. W. Pawar; D. B. More; V. T. Amodkar; Snehal Joshi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942424">Effect of intersettling spacing on sugarcane yield and quality</a></p>
+		<p>DOI: 10.1007/bf02942424</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>258&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942424" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942424">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942424">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942424">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Avtar Singh; H. K. Virk; Charanjeet Kaur</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942425">Evaluation of zero tillage technique in sugarcane under the different methods of weed control</a></p>
+		<p>DOI: 10.1007/bf02942425</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>185&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942425" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942425">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942425">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942425">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942426">A brief report on International Symposium on Sustainable Sugarcane and Sugar Production Technology 29thNovember–2ndDecember, 2004Nanning, China</a></p>
+		<p>DOI: 10.1007/bf02942426</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>5.99&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942426" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942426">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942426">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942426">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zhong-Wen Tan; Ashok Kumar Shrivastava</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942427">Sugarcane: Production management and agro-industrial imperatives</a></p>
+		<p>DOI: 10.1007/bf02942427</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>222&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942427" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942427">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942427">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942427">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942428">Sugar industry news</a></p>
+		<p>DOI: 10.1007/bf02942428</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>455&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942428" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942428">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942428">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942428">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942429">Vacancies available</a></p>
+		<p>DOI: 10.1007/bf02942429</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>143&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942429" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942429">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942429">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942429">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942430">Meetings calendar</a></p>
+		<p>DOI: 10.1007/bf02942430</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>184&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942430" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942430">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942430">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942430">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942431">President and Vice President of The Society for Sugar Research and Promotion (SSRP) honoured during International Symposium IS-2004 in China</a></p>
+		<p>DOI: 10.1007/bf02942431</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;7, issue&nbsp;1 (2005)</p></td>
+	<td>1.44&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942431" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942431">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942431">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942431">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. V. Levites</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942475">Theoretical and practical aspects of studies in epigenetic variability in sugarbeet</a></p>
+		<p>DOI: 10.1007/bf02942475</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;5, issue&nbsp;4 (2003)</p></td>
+	<td>260&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942475" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942475">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942475">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942475">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yangrui Li; S. Solomon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942476">Ethephon : A versatile growth regulator for sugar cane industry</a></p>
+		<p>DOI: 10.1007/bf02942476</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;5, issue&nbsp;4 (2003)</p></td>
+	<td>1.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942476" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942476">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942476">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942476">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tincilley Abraham; S. Easwaramoorthy; G. Santhalakshmi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02942477">Mass production ofbeauveria bassianaisolated from sugarcane root borer,emmalocera depresellaswinhoe</a></p>
+		<p>DOI: 10.1007/bf02942477</p>	</td>
+	<td><p><a href="/scimag/journals/22968">Sugar Tech</a><p>volume&nbsp;5, issue&nbsp;4 (2003)</p></td>
+	<td>400&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02942477" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02942477">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02942477">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02942477">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;457 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 59</span>
+	 <a href="/scimag/?journal=22968&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

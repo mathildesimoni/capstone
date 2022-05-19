@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4980">Computing</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer Vienna</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0010-485X</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1436-5057</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 127; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 127');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4980&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;160 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 127</span>
+	 <a href="/scimag/?journal=4980&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>S. Maghsoodloo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234038">An investigation by high speed sampling of the frequency distribution of rank correlation</a></p>
+		<p>DOI: 10.1007/bf02234038</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>429&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234038" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234038">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234038">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234038">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ronald Guenther</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234039">A transform method for solving certain systems of linear algebraic equations</a></p>
+		<p>DOI: 10.1007/bf02234039</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>220&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234039" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234039">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234039">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234039">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Gessner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234040">Approximationsprobleme mit gewöhnlichen Differentialgleichungssystemen als Nebenbedingung</a></p>
+		<p>DOI: 10.1007/bf02234040</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>575&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234040" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234040">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234040">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234040">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Elsner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234041">Verfahren zur Berechnung des Spektralradius nichtnegativer irreduzibler Matrizen</a></p>
+		<p>DOI: 10.1007/bf02234041</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>334&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234041" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234041">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234041">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234041">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Wenzel; Th. Scheidemandel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234042">Multivariate Modelle in der chemischen Industrie</a></p>
+		<p>DOI: 10.1007/bf02234042</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>1.00&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234042" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234042">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234042">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234042">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Hieber</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234043">Ein Hybrid-System mit Stapelverarbeitung</a></p>
+		<p>DOI: 10.1007/bf02234043</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>767&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234043" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234043">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234043">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234043">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Schütt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234044">A generalized concept of automaton automorphisms</a></p>
+		<p>DOI: 10.1007/bf02234044</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>236&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234044" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234044">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234044">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234044">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. F. Böhme</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234045">Diagnostische Vorgabeexperimente mit stochastischen Automaten</a></p>
+		<p>DOI: 10.1007/bf02234045</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234045" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234045">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234045">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234045">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Noltemeier</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234046">Ein Branch-and-Bound-Verfahren-Generator</a></p>
+		<p>DOI: 10.1007/bf02234046</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>478&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234046" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234046">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234046">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234046">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. Scheiber</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234047">Berechnung der OC- und ASN-Funktionen geschlossener Sequentialtests bei Binomialverteilung</a></p>
+		<p>DOI: 10.1007/bf02234047</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>301&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234047" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234047">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234047">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234047">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Tinhofer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234048">Mehrdimensionale Zuordnungsprobleme und Netzwerkflüsse mit vorgegebenen Wertemengen</a></p>
+		<p>DOI: 10.1007/bf02234048</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>390&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234048" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234048">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234048">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234048">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. Pirzl</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234049">Optimierung unter Nebenbedingungen Struktur einer Klasse von Algorithmen I</a></p>
+		<p>DOI: 10.1007/bf02234049</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234049" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234049">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234049">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234049">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. Hofmann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234050">Monotoniesätze für Regula-falsi- und Newton-Verfahren</a></p>
+		<p>DOI: 10.1007/bf02234050</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>750&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234050" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234050">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234050">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234050">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. L. Allgower; C. L. Keller</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234051">A search routine for a Sperner simplex</a></p>
+		<p>DOI: 10.1007/bf02234051</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>353&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234051" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234051">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234051">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234051">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. Pirzl</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234052">Ein Beitrag zu Existenzkriterien in der Optimierungstheorie</a></p>
+		<p>DOI: 10.1007/bf02234052</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>282&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234052" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234052">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234052">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234052">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Braess</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234053">Die Bestimmung kürzester Pfade in Graphen und passende Datenstrukturen</a></p>
+		<p>DOI: 10.1007/bf02234053</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>590&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234053" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234053">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234053">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234053">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Avenhaus</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234054">Ein Verfahren zur Einschließung der Lösung des Anfangswertproblems</a></p>
+		<p>DOI: 10.1007/bf02234054</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>453&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234054" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234054">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234054">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234054">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Tinhofer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234055">Flüsse in antisymmetrischen Netzwerken</a></p>
+		<p>DOI: 10.1007/bf02234055</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>520&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234055" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234055">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234055">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234055">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Späth</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234056">Berichtigung zu Algorithmus 10</a></p>
+		<p>DOI: 10.1007/bf02234056</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>63&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234056" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234056">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234056">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234056">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. Baron; H. J. Stetter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234057">Buchbesprechungen</a></p>
+		<p>DOI: 10.1007/bf02234057</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>84&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234057" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234057">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234057">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234057">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Bukovics</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234102">Herrn Prof. Dr. Rudolf Inzinger zum 65. Geburtstag</a></p>
+		<p>DOI: 10.1007/bf02234102</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;3-4 (1971)</p></td>
+	<td>360&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234102" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234102">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234102">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234102">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. W. Schmidt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234103">Eingrenzung von Lösungen nichtlinearer Gleichungen durch Verfahren mit höherer Konvergenzgeschwindigkeit</a></p>
+		<p>DOI: 10.1007/bf02234103</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;3-4 (1971)</p></td>
+	<td>400&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234103" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234103">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234103">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234103">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Henning Esser</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234104">Bemerkungen zu einem Satz von G. Freud über Quadraturkonvergenz</a></p>
+		<p>DOI: 10.1007/bf02234104</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;3-4 (1971)</p></td>
+	<td>194&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234104" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234104">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234104">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234104">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Königshofer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234105">Das modifizierte Ergänzungsverfahren zur Invertierung von Matrizen</a></p>
+		<p>DOI: 10.1007/bf02234105</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;3-4 (1971)</p></td>
+	<td>876&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234105" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234105">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234105">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234105">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Feldmann; H. Oberquelle; C. -P. Ortlieb</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02234106">Eine einfache universelle Turingmaschine in ALGOL 60 Simulation</a></p>
+		<p>DOI: 10.1007/bf02234106</p>	</td>
+	<td><p><a href="/scimag/journals/4980">Computing</a><p>volume&nbsp;8, issue&nbsp;3-4 (1971)</p></td>
+	<td>441&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02234106" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02234106">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02234106">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02234106">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;160 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 127</span>
+	 <a href="/scimag/?journal=4980&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

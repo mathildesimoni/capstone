@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/9640">Information Technology for Development</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Taylor and Francis Group</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0268-1102</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1554-0170</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 30; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 30');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=9640&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">749 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 30</span>
+	 <a href="/scimag/?journal=9640&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Dr. William K. Darley</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.1590100102">Public policy challenges and implications of the Internet and the emerging e-commerce for sub-Saharan Africa: A business perspective</a></p>
+		<p>DOI: 10.1002/itdj.1590100102</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;10, issue&nbsp;1 (2003)</p></td>
+	<td>57&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.1590100102" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.1590100102">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.1590100102">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.1590100102">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fabian A. Ehikhamenor</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.1590100103">Information technology in Nigerian banks: The limits of expectations</a></p>
+		<p>DOI: 10.1002/itdj.1590100103</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;10, issue&nbsp;1 (2003)</p></td>
+	<td>54&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.1590100103" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.1590100103">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.1590100103">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.1590100103">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sagren Moodley</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.1590100104">Whither business-to-business electronic commerce in developing economies? The case of the South African manufacturing sector</a></p>
+		<p>DOI: 10.1002/itdj.1590100104</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;10, issue&nbsp;1 (2003)</p></td>
+	<td>104&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.1590100104" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.1590100104">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.1590100104">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.1590100104">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. J. Rodrigues; S. Govinda</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.1590100105">Towards an integrated management information system: A case of the University of Mauritius</a></p>
+		<p>DOI: 10.1002/itdj.1590100105</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;10, issue&nbsp;1 (2003)</p></td>
+	<td>138&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.1590100105" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.1590100105">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.1590100105">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.1590100105">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Said S. Al-Gahtani</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.1590100106">Computer technology adoption in Saudi Arabia: Correlates of perceived innovation attributes</a></p>
+		<p>DOI: 10.1002/itdj.1590100106</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;10, issue&nbsp;1 (2003)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.1590100106" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.1590100106">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.1590100106">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.1590100106">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sajda Qureshi</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.1590100202">Letter from the editor</a></p>
+		<p>DOI: 10.1002/itdj.1590100202</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;10, issue&nbsp;2 (2003)</p></td>
+	<td>11&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.1590100202" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.1590100202">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.1590100202">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.1590100202">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Simone Cecchini; Christopher Scott</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.1590100203">Can information and communications technology applications contribute to poverty reduction? Lessons from rural India</a></p>
+		<p>DOI: 10.1002/itdj.1590100203</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;10, issue&nbsp;2 (2003)</p></td>
+	<td>64&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.1590100203" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.1590100203">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.1590100203">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.1590100203">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Raul Roman; Royal D. Colle</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.1590100204">Content creation for ICT development projects: Integrating normative approaches and community demand</a></p>
+		<p>DOI: 10.1002/itdj.1590100204</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;10, issue&nbsp;2 (2003)</p></td>
+	<td>46&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.1590100204" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.1590100204">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.1590100204">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.1590100204">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Maria Mercedes T. Rodrigo</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.1590100205">Tradition or transformation? An evaluation of ICTs in Metro Manila schools</a></p>
+		<p>DOI: 10.1002/itdj.1590100205</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;10, issue&nbsp;2 (2003)</p></td>
+	<td>150&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.1590100205" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.1590100205">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.1590100205">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.1590100205">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard Duncombe; Richard Heeks</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.1590100206">An information systems perspective on ethical trade and self-regulation</a></p>
+		<p>DOI: 10.1002/itdj.1590100206</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;10, issue&nbsp;2 (2003)</p></td>
+	<td>189&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.1590100206" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.1590100206">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.1590100206">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.1590100206">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sajda Qureshi</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.1590100302">Movement in the information technology for development debate: How can it meet the challenges of global competition?</a></p>
+		<p>DOI: 10.1002/itdj.1590100302</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;10, issue&nbsp;3 (2003)</p></td>
+	<td>15&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.1590100302" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.1590100302">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.1590100302">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.1590100302">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mina Baliamoune-Lutz</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.1590100303">An analysis of the determinants and effects of ICT diffusion in developing countries</a></p>
+		<p>DOI: 10.1002/itdj.1590100303</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;10, issue&nbsp;3 (2003)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.1590100303" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.1590100303">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.1590100303">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.1590100303">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mohammad A. Rob</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.1590100304">Some challenges of integrating spatial and non-spatial datasets using a geographical information system</a></p>
+		<p>DOI: 10.1002/itdj.1590100304</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;10, issue&nbsp;3 (2003)</p></td>
+	<td>207&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.1590100304" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.1590100304">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.1590100304">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.1590100304">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. K. Puri; Sundeep Sahay</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.1590100305">Participation through communicative action: A case study of GIS for addressing land/water development in India</a></p>
+		<p>DOI: 10.1002/itdj.1590100305</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;10, issue&nbsp;3 (2003)</p></td>
+	<td>138&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.1590100305" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.1590100305">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.1590100305">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.1590100305">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gert-Jan de Vreede; Rabson J. S. Mgaya; Sajda Qureshi</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.1590100306">Field experiences with collaboration technology: A comparative study in Tanzania and South Africa</a></p>
+		<p>DOI: 10.1002/itdj.1590100306</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;10, issue&nbsp;3 (2003)</p></td>
+	<td>93&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.1590100306" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.1590100306">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.1590100306">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.1590100306">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eliud Dismas Moyi</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.1590100402">Networks, information and small enterprises: New technologies and the ambiguity of empowerment</a></p>
+		<p>DOI: 10.1002/itdj.1590100402</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;10, issue&nbsp;4 (2003)</p></td>
+	<td>55&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.1590100402" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.1590100402">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.1590100402">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.1590100402">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. J. Salazar Alvarez</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.1590100403">Towards an interpretative integrative framework to conceptualise social processes in large information systems implementations</a></p>
+		<p>DOI: 10.1002/itdj.1590100403</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;10, issue&nbsp;4 (2003)</p></td>
+	<td>80&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.1590100403" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.1590100403">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.1590100403">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.1590100403">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gamila Shoib; Joe Nandhakumar</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.1590100404">Cross-cultural IS adoption in multinational corporations: A study of rationality</a></p>
+		<p>DOI: 10.1002/itdj.1590100404</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;10, issue&nbsp;4 (2003)</p></td>
+	<td>60&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.1590100404" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.1590100404">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.1590100404">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.1590100404">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patience Idaraesit Akpan</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.1590100405">Basic-needs to globalization: Are ICTs the missing link?</a></p>
+		<p>DOI: 10.1002/itdj.1590100405</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;10, issue&nbsp;4 (2003)</p></td>
+	<td>70&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.1590100405" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.1590100405">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.1590100405">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.1590100405">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sajda Qureshi</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.20000">Offshore outsourcing across the digital divide</a></p>
+		<p>DOI: 10.1002/itdj.20000</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;11, issue&nbsp;1 (2005)</p></td>
+	<td>41&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.20000" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.20000">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.20000">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.20000">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jan Pries-Heje; Richard Baskerville; Galina Ianshina Hansen</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.20001">Strategy models for enabling offshore outsourcing: Russian short-cycle-time software development</a></p>
+		<p>DOI: 10.1002/itdj.20001</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;11, issue&nbsp;1 (2005)</p></td>
+	<td>166&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.20001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.20001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.20001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.20001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen Hawk; William McHenry</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.20002">The maturation of the Russian offshore software industry</a></p>
+		<p>DOI: 10.1002/itdj.20002</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;11, issue&nbsp;1 (2005)</p></td>
+	<td>221&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.20002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.20002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.20002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.20002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniel Chudnovsky; Andrés López</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.20003">The software and information services sector in Argentina: The pros and cons of an inward-oriented development strategy</a></p>
+		<p>DOI: 10.1002/itdj.20003</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;11, issue&nbsp;1 (2005)</p></td>
+	<td>163&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.20003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.20003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.20003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.20003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tony Salvador; John W. Sherry; Alvaro E. Urrutia</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.20004">Less cyber, more café: Enhancing existing small businesses across the digital divide with ICTs</a></p>
+		<p>DOI: 10.1002/itdj.20004</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;11, issue&nbsp;1 (2005)</p></td>
+	<td>427&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.20004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.20004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.20004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.20004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James George Chacko</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fitdj.20005">Paradise lost? Reinstating the human development agenda in ICT policies and strategies</a></p>
+		<p>DOI: 10.1002/itdj.20005</p>	</td>
+	<td><p><a href="/scimag/journals/9640">Information Technology for Development</a><p>volume&nbsp;11, issue&nbsp;1 (2005)</p></td>
+	<td>52&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fitdj.20005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/itdj.20005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/itdj.20005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/itdj.20005">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">749 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 30</span>
+	 <a href="/scimag/?journal=9640&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

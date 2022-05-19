@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/8092">Genes to Cells</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1356-9597</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1365-2443</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 97; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 97');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=8092&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;401 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 97</span>
+	 <a href="/scimag/?journal=8092&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Keiko Ikeda; Thomas Stuehler; Michael Meisterernst</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2001.00492.x">The H1 and H2 regions of the activation domain of herpes simplex virion protein 16 stimulate transcription through distinct molecular mechanisms</a></p>
+		<p>DOI: 10.1046/j.1356-9597.2001.00492.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;7, issue&nbsp;1 (2002)</p></td>
+	<td>531&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2001.00492.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2001.00492.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2001.00492.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2001.00492.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Takashi Umehara; Takahiko Chimura; Natsuko Ichikawa; Masami Horikoshi</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2001.00493.x">Polyanionic stretch-deleted histone chaperone cia1/Asf1p is functional both <em>in vivo</em> and <em>in vitro</em></a></p>
+		<p>DOI: 10.1046/j.1356-9597.2001.00493.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;7, issue&nbsp;1 (2002)</p></td>
+	<td>810&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2001.00493.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2001.00493.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2001.00493.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2001.00493.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kazuhiro Nishimura; Fubito Nakatsu; Keiko Kashiwagi; Hiroshi Ohno; Takashi Saito; Kazuei Igarashi</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2001.00494.x">Essential role of <em>S</em>-adenosylmethionine decarboxylase in mouse embryonic development</a></p>
+		<p>DOI: 10.1046/j.1356-9597.2001.00494.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;7, issue&nbsp;1 (2002)</p></td>
+	<td>412&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2001.00494.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2001.00494.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2001.00494.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2001.00494.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Takahiko Utsugi; Masayo Minemura; Aiko Hirata; Mitsuhiro Abe; Daisuke Watanabe; Yoshikazu Ohya</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2001.00495.x">Movement of yeast 1,3-β-glucan synthase is essential for uniform cell wall synthesis</a></p>
+		<p>DOI: 10.1046/j.1356-9597.2001.00495.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;7, issue&nbsp;1 (2002)</p></td>
+	<td>518&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2001.00495.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2001.00495.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2001.00495.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2001.00495.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>You-Chan Kim; Min-Ho Lee; Sung-Shin Ryu; Ji-Hoon Kim; Hyeon-Sook Koo</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2001.00496.x">Coaction of DNA topoisomerase IIIα and a RecQ homologue during the germ-line mitosis in <em>Caenorhabditis elegans</em></a></p>
+		<p>DOI: 10.1046/j.1356-9597.2001.00496.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;7, issue&nbsp;1 (2002)</p></td>
+	<td>473&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2001.00496.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2001.00496.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2001.00496.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2001.00496.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cyril Berthet; Fabienne Guéhenneux; Valérie Revol; Christiane Samarut;  Agnès Lukaszewicz; Colette Dehay; Charles Dumontet; Jean-Pierre Magaud;  Jean-Pierre Rouault</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2001.00497.x">Interaction of PRMT1 with BTG/TOB proteins in cell signalling: molecular analysis and functional aspects</a></p>
+		<p>DOI: 10.1046/j.1356-9597.2001.00497.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;7, issue&nbsp;1 (2002)</p></td>
+	<td>525&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2001.00497.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2001.00497.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2001.00497.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2001.00497.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hidemasa Goto; Yoshihiro Yasui; Erich A. Nigg; Masaki Inagaki</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2001.00498.x">Aurora-B phosphorylates Histone H3 at serine28 with regard to the mitotic chromosome condensation</a></p>
+		<p>DOI: 10.1046/j.1356-9597.2001.00498.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;7, issue&nbsp;1 (2002)</p></td>
+	<td>404&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2001.00498.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2001.00498.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2001.00498.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2001.00498.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hiroyuki Mukaiyama; Masahide Oku; Misuzu Baba; Takeshi Samizo; Adam T. Hammond; Benjamin S. Glick; Nobuo Kato; Yasuyoshi Sakai</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2001.00499.x">Paz2 and 13 other <em>PAZ</em> gene products regulate vacuolar engulfment of peroxisomes during micropexophagy</a></p>
+		<p>DOI: 10.1046/j.1356-9597.2001.00499.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;7, issue&nbsp;1 (2002)</p></td>
+	<td>1009&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2001.00499.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2001.00499.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2001.00499.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2001.00499.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tatsuyuki Ohto; Hiroshi Uchida; Hiroshi Yamazaki; Kazuko Keino-Masu; Akira Matsui; Masayuki Masu</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2001.00502.x">Identification of a novel nonlysosomal sulphatase expressed in the floor plate, choroid plexus and cartilage</a></p>
+		<p>DOI: 10.1046/j.1356-9597.2001.00502.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;7, issue&nbsp;2 (2002)</p></td>
+	<td>953&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2001.00502.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2001.00502.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2001.00502.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2001.00502.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yasufumi Shigeyoshi; Elizabeth Meyer-Bernstein; Kazuhiro Yagita; Weili Fu; Yifeng Chen; Toru Takumi; Peter Schotland; Amita Sehgal; Hitoshi Okamura</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2001.00503.x">Restoration of circadian behavioural rhythms in a period null <em>Drosophila</em> mutant (<em>per</em><em>01</em>) by mammalian period homologues <em>mPer1</em> and <em>mPer2</em></a></p>
+		<p>DOI: 10.1046/j.1356-9597.2001.00503.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;7, issue&nbsp;2 (2002)</p></td>
+	<td>556&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2001.00503.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2001.00503.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2001.00503.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2001.00503.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hidemasa Goto; Kazushi Tanabe; Edward Manser; Louis Lim; Yoshihiro Yasui; Masaki Inagaki</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2001.00504.x">Phosphorylation and reorganization of vimentin by p21-activated kinase (PAK)</a></p>
+		<p>DOI: 10.1046/j.1356-9597.2001.00504.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;7, issue&nbsp;2 (2002)</p></td>
+	<td>382&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2001.00504.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2001.00504.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2001.00504.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2001.00504.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Keiko Satoh; Masakazu Takeuchi; Yoshiya Oda; Maki Deguchi-Tawarada; Yoshimasa Sakamoto; Kaho Matsubara; Takeshi Nagasu; Yoshimi Takai</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2001.00505.x">Identification of activity-regulated proteins in the postsynaptic density fraction</a></p>
+		<p>DOI: 10.1046/j.1356-9597.2001.00505.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;7, issue&nbsp;2 (2002)</p></td>
+	<td>412&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2001.00505.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2001.00505.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2001.00505.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2001.00505.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hitoshi Suzuki; Yui Jin; Hifumi Otani; Kunio Yasuda; Kunio Inoue</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2001.00506.x">Regulation of alternative splicing of α-actinin transcript by Bruno-like proteins</a></p>
+		<p>DOI: 10.1046/j.1356-9597.2001.00506.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;7, issue&nbsp;2 (2002)</p></td>
+	<td>559&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2001.00506.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2001.00506.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2001.00506.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2001.00506.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Budi Utama; Derek Kennedy; Kelin Ru; John S. Mattick</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2001.00507.x">Isolation and characterization of a new nucleolar protein, Nrap, that is conserved from yeast to humans</a></p>
+		<p>DOI: 10.1046/j.1356-9597.2001.00507.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;7, issue&nbsp;2 (2002)</p></td>
+	<td>1.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2001.00507.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2001.00507.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2001.00507.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2001.00507.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Katsuki Johzuka; Takashi Horiuchi</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2001.00508.x">Replication fork block protein, Fob1, acts as an rDNA region specific recombinator in <em>S. cerevisiae</em></a></p>
+		<p>DOI: 10.1046/j.1356-9597.2001.00508.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;7, issue&nbsp;2 (2002)</p></td>
+	<td>677&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2001.00508.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2001.00508.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2001.00508.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2001.00508.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Masayuki Nitta; Hiromasa Tsuiki; Yoshimi Arima; Kei Harada; Takahumi Nishizaki; Kousuke Sasaki; Tatsuyuki Mimori; Yukitaka Ushio; Hideyuki Saya</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2001.00509.x">Hyperploidy induced by drugs that inhibit formation of microtubule promotes chromosome instability</a></p>
+		<p>DOI: 10.1046/j.1356-9597.2001.00509.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;7, issue&nbsp;2 (2002)</p></td>
+	<td>835&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2001.00509.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2001.00509.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2001.00509.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2001.00509.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Masayo Morishita; Fusako Morimoto; Kenji Kitamura; Takako Koga; Yasuhisa Fukui; Hiromi Maekawa; Ichiro Yamashita; Chikashi Shimoda</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2001.00510.x">Phosphatidylinositol 3-phosphate 5-kinase is required for the cellular response to nutritional starvation and mating pheromone signals in <em>Schizosaccharomyces pombe</em></a></p>
+		<p>DOI: 10.1046/j.1356-9597.2001.00510.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;7, issue&nbsp;2 (2002)</p></td>
+	<td>947&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2001.00510.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2001.00510.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2001.00510.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2001.00510.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Takahiro Tougan; Yasuyoshi Chiba; Yoshito Kakihara; Aiko Hirata; Hiroshi Nojima</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2001.00511.x">Meu10 is required for spore wall maturation in <em>Schizosaccharomyces pombe</em></a></p>
+		<p>DOI: 10.1046/j.1356-9597.2001.00511.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;7, issue&nbsp;2 (2002)</p></td>
+	<td>947&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2001.00511.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2001.00511.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2001.00511.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2001.00511.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Takeshi Iida; Shinichiro Mine; Hiroko Fujimoto; Koji Suzuki; Yasuhiro Minami; Yoshiya Tanaka</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2001.00512.x">Hypoxia-inducible factor-1α induces cell cycle arrest of endothelial cells</a></p>
+		<p>DOI: 10.1046/j.1356-9597.2001.00512.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;7, issue&nbsp;2 (2002)</p></td>
+	<td>613&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2001.00512.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2001.00512.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2001.00512.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2001.00512.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hiroshi Sakurai; Naoya Hashikawa; Hiromi Imazu; Toshio Fukasawa</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2003.00689.x">Carboxy-terminal region of the yeast heat shock factor contains two domains that make transcription independent of the TFIIH protein kinase</a></p>
+		<p>DOI: 10.1046/j.1356-9597.2003.00689.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;8, issue&nbsp;12 (2003)</p></td>
+	<td>297&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2003.00689.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2003.00689.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2003.00689.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2003.00689.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Akio Yamada; Kenji Irie; Maki Deguchi-Tawarada; Toshihisa Ohtsuka; Yoshimi Takai</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2003.00690.x">Nectin-dependent localization of synaptic scaffolding molecule (S-SCAM) at the puncta adherentia junctions formed between the mossy fibre terminals and the dendrites of pyramidal cells in the CA3 area of the mouse hippocampus</a></p>
+		<p>DOI: 10.1046/j.1356-9597.2003.00690.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;8, issue&nbsp;12 (2003)</p></td>
+	<td>253&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2003.00690.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2003.00690.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2003.00690.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2003.00690.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ken-ichi Sato; Tomomi Nagao; Tetsushi Iwasaki; Yusuke Nishihira; Yasuo Fukami</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1356-9597.2003.00691.x">Src-dependent phosphorylation of the EGF receptor Tyr-845 mediates Stat-p21waf1 pathway in A431 cells</a></p>
+		<p>DOI: 10.1046/j.1356-9597.2003.00691.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;8, issue&nbsp;12 (2003)</p></td>
+	<td>310&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1356-9597.2003.00691.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1356-9597.2003.00691.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1356-9597.2003.00691.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1356-9597.2003.00691.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yukinobu Nakaseko; Kentaro Nabeshima; Kazuhisa Kinoshita; Mitsuhiro Yanagida</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-2443.1996.00253.x"><b>Dissection of fission yeast microtubule associating protein p93<sup>Dis1</sup>: regions implicated in regulated localization and microtubule interaction</b></a></p>
+		<p>DOI: 10.1046/j.1365-2443.1996.00253.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;1, issue&nbsp;7 (1996)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-2443.1996.00253.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-2443.1996.00253.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-2443.1996.00253.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-2443.1996.00253.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Osamu Hatano; Akira Takakusu; Masatoshi Nomura; Ken-ichirou Morohashi</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-2443.1996.00254.x"><b>Identical origin of adrenal cortex and gonad revealed by expression profiles of Ad4BP/SF-1</b></a></p>
+		<p>DOI: 10.1046/j.1365-2443.1996.00254.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;1, issue&nbsp;7 (1996)</p></td>
+	<td>854&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-2443.1996.00254.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-2443.1996.00254.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-2443.1996.00254.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-2443.1996.00254.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Natasha L. Harvey; Joseph A. Trapani; Teresa Fernandes-Alnemri; Gerald Litwack; Emad S. Alnemri; Sharad Kumar</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-2443.1996.00255.x"><b>Processing of the Nedd2 precursor by ICE-like proteases and granzyme B</b></a></p>
+		<p>DOI: 10.1046/j.1365-2443.1996.00255.x</p>	</td>
+	<td><p><a href="/scimag/journals/8092">Genes to Cells</a><p>volume&nbsp;1, issue&nbsp;7 (1996)</p></td>
+	<td>734&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-2443.1996.00255.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-2443.1996.00255.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-2443.1996.00255.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-2443.1996.00255.x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;401 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 97</span>
+	 <a href="/scimag/?journal=8092&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

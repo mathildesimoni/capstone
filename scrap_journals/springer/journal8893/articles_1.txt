@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/8893">Human Ecology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0300-7839</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-9915</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 159; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 159');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=8893&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;966 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 159</span>
+	 <a href="/scimag/?journal=8893&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Jean Treloggen Peterson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00887853">Game, farming, and interethnic relations in Northeastern Luzon, Philippines</a></p>
+		<p>DOI: 10.1007/bf00887853</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;9, issue&nbsp;1 (1981)</p></td>
+	<td>1.21&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00887853" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00887853">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00887853">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00887853">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marvin S. Soroos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00887854">Trends in the perception of ecological problems in the United Nations general debates</a></p>
+		<p>DOI: 10.1007/bf00887854</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;9, issue&nbsp;1 (1981)</p></td>
+	<td>1.26&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00887854" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00887854">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00887854">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00887854">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael West</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00887855">Agricultural resource use in an andean coastal ecosystem</a></p>
+		<p>DOI: 10.1007/bf00887855</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;9, issue&nbsp;1 (1981)</p></td>
+	<td>2.32&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00887855" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00887855">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00887855">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00887855">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kristen Hawkes</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00887856">A third explanation for female infanticide</a></p>
+		<p>DOI: 10.1007/bf00887856</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;9, issue&nbsp;1 (1981)</p></td>
+	<td>1.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00887856" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00887856">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00887856">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00887856">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mildred Dickemann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00887857">Comment on K. Hawkes' “A third explanation for female infanticide”</a></p>
+		<p>DOI: 10.1007/bf00887857</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;9, issue&nbsp;1 (1981)</p></td>
+	<td>467&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00887857" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00887857">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00887857">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00887857">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kristen Hawkes</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00887858">Comment on “A third explanation for female infanticide”</a></p>
+		<p>DOI: 10.1007/bf00887858</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;9, issue&nbsp;1 (1981)</p></td>
+	<td>136&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00887858" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00887858">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00887858">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00887858">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gerald L. Young; Demitri B. Shimkin; Michael Micklin; Robert F. Murphy; Dan Rose; Jonathan G. Taylor; Sandra L. Kirmeyer; Ben Wisner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00887859">Book reviews: A special issue</a></p>
+		<p>DOI: 10.1007/bf00887859</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;9, issue&nbsp;1 (1981)</p></td>
+	<td>1.59&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00887859" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00887859">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00887859">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00887859">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Terrence McCabe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00887997">Drought and recovery: Livestock dynamics among the Ngisonyoka Turkana of Kenya</a></p>
+		<p>DOI: 10.1007/bf00887997</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;15, issue&nbsp;4 (1987)</p></td>
+	<td>852&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00887997" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00887997">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00887997">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00887997">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Scott Cane</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00887998">Australian Aboriginal subsistence in the Western desert</a></p>
+		<p>DOI: 10.1007/bf00887998</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;15, issue&nbsp;4 (1987)</p></td>
+	<td>2.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00887998" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00887998">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00887998">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00887998">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lesley Head</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00887999">The Holocene Prehistory of a coastal wetland system: Discovery Bay, Southeastern Australia</a></p>
+		<p>DOI: 10.1007/bf00887999</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;15, issue&nbsp;4 (1987)</p></td>
+	<td>1.65&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00887999" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00887999">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00887999">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00887999">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas N. Headland</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00888000">The wild yam question: How well could independent hunter-gatherers live in a tropical rain forest ecosystem?</a></p>
+		<p>DOI: 10.1007/bf00888000</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;15, issue&nbsp;4 (1987)</p></td>
+	<td>1.81&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00888000" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00888000">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00888000">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00888000">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andrew P. Vayda</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00888001">Explaining what people eat: A review article</a></p>
+		<p>DOI: 10.1007/bf00888001</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;15, issue&nbsp;4 (1987)</p></td>
+	<td>1.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00888001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00888001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00888001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00888001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marvin Harris</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00888002">Comment on Vayda's review of good to eat: Riddles of food and culture</a></p>
+		<p>DOI: 10.1007/bf00888002</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;15, issue&nbsp;4 (1987)</p></td>
+	<td>385&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00888002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00888002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00888002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00888002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andrew P. Vayda</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00888003">Reply to Harris</a></p>
+		<p>DOI: 10.1007/bf00888003</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;15, issue&nbsp;4 (1987)</p></td>
+	<td>132&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00888003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00888003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00888003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00888003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter J. Richerson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00888004">Book review</a></p>
+		<p>DOI: 10.1007/bf00888004</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;15, issue&nbsp;4 (1987)</p></td>
+	<td>193&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00888004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00888004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00888004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00888004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Margaret D. Chapman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00888026">Women's fishing in Oceania</a></p>
+		<p>DOI: 10.1007/bf00888026</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;15, issue&nbsp;3 (1987)</p></td>
+	<td>1.23&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00888026" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00888026">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00888026">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00888026">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen J. Clark; Richard W. Thompson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00888027">Seasonal distribution of live births in a rural community in the southern United States</a></p>
+		<p>DOI: 10.1007/bf00888027</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;15, issue&nbsp;3 (1987)</p></td>
+	<td>692&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00888027" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00888027">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00888027">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00888027">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>George E. B. Morren; David C. Hyndman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00888028">The taro monoculture of central New Guinea</a></p>
+		<p>DOI: 10.1007/bf00888028</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;15, issue&nbsp;3 (1987)</p></td>
+	<td>981&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00888028" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00888028">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00888028">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00888028">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William S. Abruzzi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00888029">Ecological stability and community diversity during mormon colonization of the Little Colorado River Basin</a></p>
+		<p>DOI: 10.1007/bf00888029</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;15, issue&nbsp;3 (1987)</p></td>
+	<td>1.32&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00888029" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00888029">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00888029">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00888029">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael J. Eden; Angela Andrade</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00888030">Ecological aspects of swidden cultivation among the Andoke and Witoto Indians of the Colombian Amazon</a></p>
+		<p>DOI: 10.1007/bf00888030</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;15, issue&nbsp;3 (1987)</p></td>
+	<td>1.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00888030" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00888030">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00888030">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00888030">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David R. M. White; M. Estellie Smith; Sandra Brown</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00888031">Book reviews</a></p>
+		<p>DOI: 10.1007/bf00888031</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;15, issue&nbsp;3 (1987)</p></td>
+	<td>583&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00888031" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00888031">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00888031">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00888031">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patricia Lyons Johnson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00888088">Women and development: A highland New Guinea example</a></p>
+		<p>DOI: 10.1007/bf00888088</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;16, issue&nbsp;2 (1988)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00888088" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00888088">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00888088">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00888088">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Scott M. Swinton</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00888089">Drought survival tactics of subsistence farmers in Niger</a></p>
+		<p>DOI: 10.1007/bf00888089</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;16, issue&nbsp;2 (1988)</p></td>
+	<td>1.18&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00888089" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00888089">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00888089">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00888089">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stewart Odend&#039;hal</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00888090">Human and cattle population changes in upland West Bental, India between 1977–1978 and 1987</a></p>
+		<p>DOI: 10.1007/bf00888090</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;16, issue&nbsp;2 (1988)</p></td>
+	<td>441&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00888090" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00888090">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00888090">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00888090">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kim Hill</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00888091">Macronutrient modifications of optimal foraging theory: An approach using indifference curves applied to some modern foragers</a></p>
+		<p>DOI: 10.1007/bf00888091</p>	</td>
+	<td><p><a href="/scimag/journals/8893">Human Ecology</a><p>volume&nbsp;16, issue&nbsp;2 (1988)</p></td>
+	<td>2.52&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00888091" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00888091">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00888091">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00888091">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;966 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 159</span>
+	 <a href="/scimag/?journal=8893&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/20292">PROSPECTS</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer Netherlands</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0033-1538</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-9090</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 100; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 100');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=20292&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;483 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 100</span>
+	 <a href="/scimag/?journal=20292&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Juan Carlos Tedesco</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736593">Editorial</a></p>
+		<p>DOI: 10.1007/bf02736593</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;4 (1997)</p></td>
+	<td>39&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736593" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736593">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736593">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736593">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Victoria Camps</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736594">Education for democracy</a></p>
+		<p>DOI: 10.1007/bf02736594</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;4 (1997)</p></td>
+	<td>425&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736594" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736594">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736594">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736594">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen P. Heyneman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736595">Economic growth and the international trade in educational reform</a></p>
+		<p>DOI: 10.1007/bf02736595</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;4 (1997)</p></td>
+	<td>2.18&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736595" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736595">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736595">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736595">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Juan Carlos Tedesco</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736596">Educational change from the perspective of decision makers</a></p>
+		<p>DOI: 10.1007/bf02736596</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;4 (1997)</p></td>
+	<td>493&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736596" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736596">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736596">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736596">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martine Brunschwig Graf</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736597">Switzerland: In a changing world, schools, too, are gradually changing</a></p>
+		<p>DOI: 10.1007/bf02736597</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;4 (1997)</p></td>
+	<td>426&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736597" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736597">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736597">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736597">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Álvaro Marchesi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736598">Spain: The decision-making process in educational reform</a></p>
+		<p>DOI: 10.1007/bf02736598</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;4 (1997)</p></td>
+	<td>667&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736598" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736598">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736598">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736598">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Olli-Pekka Heinonen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736599">Finland: Restructuring higher education</a></p>
+		<p>DOI: 10.1007/bf02736599</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;4 (1997)</p></td>
+	<td>738&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736599" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736599">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736599">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736599">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Benedek András</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736600">Hungary: Priorities—partners—implementation</a></p>
+		<p>DOI: 10.1007/bf02736600</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;4 (1997)</p></td>
+	<td>391&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736600" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736600">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736600">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736600">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vladimir Dmitrievich Shadrikov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736601">The Russian federation: The humanization of education</a></p>
+		<p>DOI: 10.1007/bf02736601</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;4 (1997)</p></td>
+	<td>558&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736601" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736601">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736601">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736601">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Susana Beatriz Decibe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736602">Argentina: Priorities in the education sector and how they are identified</a></p>
+		<p>DOI: 10.1007/bf02736602</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;4 (1997)</p></td>
+	<td>437&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736602" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736602">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736602">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736602">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ernesto Schiefelbein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736603">Chile: Generating social consensus for a long-term reform of education</a></p>
+		<p>DOI: 10.1007/bf02736603</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;4 (1997)</p></td>
+	<td>866&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736603" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736603">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736603">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736603">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mamadou Ndoye</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736604">Senegal: Defining and implementing priorities in the education sector</a></p>
+		<p>DOI: 10.1007/bf02736604</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;4 (1997)</p></td>
+	<td>546&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736604" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736604">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736604">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736604">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zeferino Martins</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736605">Mozambique: Some considerations on educational research, policy formulation and decision making</a></p>
+		<p>DOI: 10.1007/bf02736605</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;4 (1997)</p></td>
+	<td>507&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736605" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736605">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736605">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736605">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Munther W. Masri</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736606">Jordan: The dynamics of educational decision making</a></p>
+		<p>DOI: 10.1007/bf02736606</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;4 (1997)</p></td>
+	<td>551&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736606" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736606">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736606">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736606">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ahmed Fathy Sorour</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736607">Egypt: A strategy for educational reform</a></p>
+		<p>DOI: 10.1007/bf02736607</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;4 (1997)</p></td>
+	<td>419&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736607" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736607">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736607">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736607">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Victor Ordoñez; Rupert Maclean</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736608">Asia: The impact of educational research on decision making</a></p>
+		<p>DOI: 10.1007/bf02736608</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;4 (1997)</p></td>
+	<td>655&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736608" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736608">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736608">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736608">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Juan Carlos Tedesco</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736634">Editorial</a></p>
+		<p>DOI: 10.1007/bf02736634</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;3 (1997)</p></td>
+	<td>135&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736634" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736634">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736634">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736634">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Howard Gardner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736635">Fostering diversity through personalized education: Implications of a new understanding of human intelligence</a></p>
+		<p>DOI: 10.1007/bf02736635</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;3 (1997)</p></td>
+	<td>1.18&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736635" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736635">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736635">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736635">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Evgueni Khvilon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736636">Introduction to the open file</a></p>
+		<p>DOI: 10.1007/bf02736636</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;3 (1997)</p></td>
+	<td>246&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736636" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736636">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736636">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736636">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vladimir G. Kinelev</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736637">Education and civilization</a></p>
+		<p>DOI: 10.1007/bf02736637</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;3 (1997)</p></td>
+	<td>832&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736637" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736637">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736637">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736637">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. A. Motsoaledi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736638">The penetration of new technologies into developing countries: Cultural hegemony or mutual exchange?</a></p>
+		<p>DOI: 10.1007/bf02736638</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;3 (1997)</p></td>
+	<td>508&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736638" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736638">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736638">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736638">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Heinz-Werner Poelchau</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736639">New information technologies: International Co-operation from the German point of view</a></p>
+		<p>DOI: 10.1007/bf02736639</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;3 (1997)</p></td>
+	<td>644&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736639" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736639">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736639">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736639">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>José Armando Valente</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736640">The role of computers in education: Achievement and comprehension</a></p>
+		<p>DOI: 10.1007/bf02736640</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;3 (1997)</p></td>
+	<td>783&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736640" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736640">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736640">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736640">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Blagovest Sendov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736641">Towards global wisdom in the ERA of digitalization and communication</a></p>
+		<p>DOI: 10.1007/bf02736641</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;3 (1997)</p></td>
+	<td>791&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736641" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736641">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736641">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736641">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tjeerd Plomp; Alfons ten Brummelhuis; Willem J. Pelgrum</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02736642">New approaches for teaching, learning and using information and communication technologies in education</a></p>
+		<p>DOI: 10.1007/bf02736642</p>	</td>
+	<td><p><a href="/scimag/journals/20292">PROSPECTS</a><p>volume&nbsp;27, issue&nbsp;3 (1997)</p></td>
+	<td>1.49&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02736642" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02736642">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02736642">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02736642">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;483 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 100</span>
+	 <a href="/scimag/?journal=20292&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

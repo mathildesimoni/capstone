@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/42">Academic Questions</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer US</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0895-4852</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1936-4709</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 82; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 82');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=42&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;040 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 82</span>
+	 <a href="/scimag/?journal=42&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682725">The issue at a glance</a></p>
+		<p>DOI: 10.1007/bf02682725</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;3, issue&nbsp;2 (1990)</p></td>
+	<td>74&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682725" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682725">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682725">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682725">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Herbert I. London</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682726">Leveraging feminism at Barnard</a></p>
+		<p>DOI: 10.1007/bf02682726</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;3, issue&nbsp;2 (1990)</p></td>
+	<td>113&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682726" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682726">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682726">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682726">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joseph D. Grano</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682727">Free speech v. the University of Michigan</a></p>
+		<p>DOI: 10.1007/bf02682727</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;3, issue&nbsp;2 (1990)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682727" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682727">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682727">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682727">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lloyd R. Cohen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682728">On harassment</a></p>
+		<p>DOI: 10.1007/bf02682728</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;3, issue&nbsp;2 (1990)</p></td>
+	<td>810&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682728" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682728">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682728">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682728">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alan Charles Kors</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682729">The politicization of extracurricular life</a></p>
+		<p>DOI: 10.1007/bf02682729</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;3, issue&nbsp;2 (1990)</p></td>
+	<td>304&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682729" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682729">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682729">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682729">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Arthur Versluis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682730">Some new tricks of rhetoric</a></p>
+		<p>DOI: 10.1007/bf02682730</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;3, issue&nbsp;2 (1990)</p></td>
+	<td>412&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682730" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682730">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682730">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682730">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Alvis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682731">In recognition of superior sophistry:A guide to MLA documentation</a></p>
+		<p>DOI: 10.1007/bf02682731</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;3, issue&nbsp;2 (1990)</p></td>
+	<td>562&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682731" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682731">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682731">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682731">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas Doherty</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682732">At the movies, at the university</a></p>
+		<p>DOI: 10.1007/bf02682732</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;3, issue&nbsp;2 (1990)</p></td>
+	<td>626&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682732" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682732">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682732">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682732">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Gaeffke</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682733">A rock in the tides of time: Oriental studies then and now</a></p>
+		<p>DOI: 10.1007/bf02682733</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;3, issue&nbsp;2 (1990)</p></td>
+	<td>529&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682733" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682733">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682733">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682733">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin Trow</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682734">Reflections on China and Carleton’s ethical investment policy</a></p>
+		<p>DOI: 10.1007/bf02682734</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;3, issue&nbsp;2 (1990)</p></td>
+	<td>333&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682734" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682734">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682734">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682734">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James W. Tuttleton; John C. Chalberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682735">Book reviews</a></p>
+		<p>DOI: 10.1007/bf02682735</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;3, issue&nbsp;2 (1990)</p></td>
+	<td>836&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682735" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682735">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682735">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682735">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Shaw; Howard Dickman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682736">Books and articles of academic interest</a></p>
+		<p>DOI: 10.1007/bf02682736</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;3, issue&nbsp;2 (1990)</p></td>
+	<td>55&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682736" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682736">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682736">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682736">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Philip Siegelman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682737">Letters</a></p>
+		<p>DOI: 10.1007/bf02682737</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;1, issue&nbsp;3 (1988)</p></td>
+	<td>193&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682737" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682737">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682737">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682737">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas Short</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682738">“Diversity” and “Breaking the disciplines”: Two new assaults on the curriculum</a></p>
+		<p>DOI: 10.1007/bf02682738</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;1, issue&nbsp;3 (1988)</p></td>
+	<td>1.48&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682738" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682738">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682738">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682738">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Herbert I. London</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682739">Peace studies in the academy</a></p>
+		<p>DOI: 10.1007/bf02682739</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;1, issue&nbsp;3 (1988)</p></td>
+	<td>741&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682739" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682739">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682739">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682739">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lee Congdon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682740">Anti-anti-communism</a></p>
+		<p>DOI: 10.1007/bf02682740</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;1, issue&nbsp;3 (1988)</p></td>
+	<td>832&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682740" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682740">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682740">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682740">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Nelson Ong</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682741">Radicals reflect: The first twenty years of the caucus for a new political science</a></p>
+		<p>DOI: 10.1007/bf02682741</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;1, issue&nbsp;3 (1988)</p></td>
+	<td>292&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682741" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682741">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682741">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682741">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Irving Louis Horowitz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682742">On legitimacy, force, and jeane J. Kirkpatrick</a></p>
+		<p>DOI: 10.1007/bf02682742</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;1, issue&nbsp;3 (1988)</p></td>
+	<td>209&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682742" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682742">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682742">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682742">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William R. Beer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682743">The fault lies not in our “starrs” but in our sociology</a></p>
+		<p>DOI: 10.1007/bf02682743</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;1, issue&nbsp;3 (1988)</p></td>
+	<td>602&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682743" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682743">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682743">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682743">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert A. Gordon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682744">Thunder from the left</a></p>
+		<p>DOI: 10.1007/bf02682744</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;1, issue&nbsp;3 (1988)</p></td>
+	<td>1.36&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682744" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682744">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682744">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682744">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682745">Books and articles of academic interest</a></p>
+		<p>DOI: 10.1007/bf02682745</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;1, issue&nbsp;3 (1988)</p></td>
+	<td>61&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682745" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682745">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682745">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682745">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682746">The issue at a glance</a></p>
+		<p>DOI: 10.1007/bf02682746</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;2, issue&nbsp;4 (1989)</p></td>
+	<td>98&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682746" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682746">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682746">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682746">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lawrence Cranberg; R. W. Clack; George Sim Johnston</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682747">The status of evolutionary theory: Barry R. Gross and critics</a></p>
+		<p>DOI: 10.1007/bf02682747</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;2, issue&nbsp;4 (1989)</p></td>
+	<td>773&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682747" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682747">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682747">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682747">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Earl C. Ravenal</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682748">Teaching American foreign policy</a></p>
+		<p>DOI: 10.1007/bf02682748</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;2, issue&nbsp;4 (1989)</p></td>
+	<td>175&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682748" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682748">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682748">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682748">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Herbert I. London</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02682749">Fair play for college athletes: Racism and NCAA rules</a></p>
+		<p>DOI: 10.1007/bf02682749</p>	</td>
+	<td><p><a href="/scimag/journals/42">Academic Questions</a><p>volume&nbsp;2, issue&nbsp;4 (1989)</p></td>
+	<td>172&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02682749" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02682749">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02682749">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02682749">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;040 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 82</span>
+	 <a href="/scimag/?journal=42&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

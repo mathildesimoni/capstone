@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1436-6274</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1436-6282</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 100; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 100');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=25050&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;498 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 100</span>
+	 <a href="/scimag/?journal=25050&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Horst-Rainer Kortmann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010928">Wirbelsäulenverletzungen</a></p>
+		<p>DOI: 10.1007/pl00010928</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;2, issue&nbsp;3 (2000)</p></td>
+	<td>43&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010928" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010928">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010928">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010928">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Horst-Rainer Kortmann; Christoph Eggers; Markus Schofer; Peter-Michael Hax</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010929">Diagnostik und Therapie der Verletzungen der oberen Halswirbelsäule</a></p>
+		<p>DOI: 10.1007/pl00010929</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;2, issue&nbsp;3 (2000)</p></td>
+	<td>540&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010929" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010929">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010929">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010929">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hermann-Josef Böhm; Horst-Rainer Kortmann; Christian H. A. Westerhoff</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010930">Spätrekonstruktive Eingriffe nach Verletzungen der Halswirbelsäule</a></p>
+		<p>DOI: 10.1007/pl00010930</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;2, issue&nbsp;3 (2000)</p></td>
+	<td>165&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010930" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010930">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010930">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010930">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Könings; Georg Böhmer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010931">Verletzungen des thorakolumbalen Übergangs</a></p>
+		<p>DOI: 10.1007/pl00010931</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;2, issue&nbsp;3 (2000)</p></td>
+	<td>180&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010931" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010931">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010931">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010931">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter-Michael Hax; Horst-Rainer Kortmann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010932">Indikationen zum kombinierten dorsoventralen Vorgehen bei instabilen Frakturen der Brust- und Lendenwirbelsäule</a></p>
+		<p>DOI: 10.1007/pl00010932</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;2, issue&nbsp;3 (2000)</p></td>
+	<td>308&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010932" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010932">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010932">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010932">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas Ambacher; Klaus-Peter Riesener; Son Truong; Reinhard Kasperk; Volker Schumpelick</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010933">Systematische sonographische Diagnostik des Abdomens beim Traumapatienten</a></p>
+		<p>DOI: 10.1007/pl00010933</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;2, issue&nbsp;3 (2000)</p></td>
+	<td>206&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010933" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010933">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010933">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010933">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Reinhard E. Friedrich; Kai Plambeck; Sylva Bartel-Friedrich; Manfred Giese; Rainer Schmelzle</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010934">Stellenwert der B-Bild-Sonographie in der Frakturdiagnostik des Gelenkfortsatzes des Unterkiefers</a></p>
+		<p>DOI: 10.1007/pl00010934</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;2, issue&nbsp;3 (2000)</p></td>
+	<td>194&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010934" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010934">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010934">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010934">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas Ambacher; Bernd Wittner; Ulrich Holz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010935">Therapiekonzept nach traumatischer Schulterluxation</a></p>
+		<p>DOI: 10.1007/pl00010935</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;2, issue&nbsp;4 (2000)</p></td>
+	<td>170&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010935" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010935">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010935">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010935">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Axel Ekkernkamp</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010936">Verletzungen des Kopfes und der Körperhöhlen</a></p>
+		<p>DOI: 10.1007/pl00010936</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;3, issue&nbsp;1 (2001)</p></td>
+	<td>47&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010936" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010936">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010936">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010936">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dirk Stengel; Kai Bauwens; Franz Porzsolt; Jalid Sehouli; Grit Rademacher; Sven Mutze; Axel Ekkernkamp</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010937">Abdominale Organverletzung und freie Flüssigkeit: Was kann die Schockraumsonographie tatsächlich leisten?</a></p>
+		<p>DOI: 10.1007/pl00010937</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;3, issue&nbsp;1 (2001)</p></td>
+	<td>239&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010937" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010937">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010937">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010937">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin Walter; Kai Bauwens; Harald Puhl; Rudolf König; Axel Ekkernkamp; Volker Lange</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010938">Verbesserung der Dokumentation und Zeitersparnis für den Arzt – ein nicht lösbarer Widerspruch?</a></p>
+		<p>DOI: 10.1007/pl00010938</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;3, issue&nbsp;1 (2001)</p></td>
+	<td>145&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010938" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010938">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010938">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010938">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Reinhold Alexander Laun; Dörthe Lisa Herrmann; Ove Schröder; Klaus-Martin Schulte; Hans-Dietrich Röher; Axel Ekkernkamp</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010939">Polytraumaprognoseforschung</a></p>
+		<p>DOI: 10.1007/pl00010939</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;3, issue&nbsp;1 (2001)</p></td>
+	<td>149&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010939" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010939">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010939">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010939">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Helmut Ehnes; Karlheinz Guldner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010940">Quarz – Silikose – Lungenkrebs?</a></p>
+		<p>DOI: 10.1007/pl00010940</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;3, issue&nbsp;2 (2001)</p></td>
+	<td>211&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010940" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010940">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010940">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010940">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nicola Kotschy-Lang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010941">Beruflich verursachte Lungentumoren</a></p>
+		<p>DOI: 10.1007/pl00010941</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;3, issue&nbsp;2 (2001)</p></td>
+	<td>93&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010941" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010941">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010941">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010941">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tilman Brusis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010942">Berufsbedingte Erkrankungen im Hals-Nasen-Ohren-Gebiet</a></p>
+		<p>DOI: 10.1007/pl00010942</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;3, issue&nbsp;2 (2001)</p></td>
+	<td>79&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010942" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010942">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010942">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010942">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Ernst Wenzl; Stefan Fuchs</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010943">Berufsbedingte Erkrankungen des Meniskus</a></p>
+		<p>DOI: 10.1007/pl00010943</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;3, issue&nbsp;2 (2001)</p></td>
+	<td>155&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010943" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010943">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010943">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010943">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dietmar Wolter; Uwe Grüßner; Arne Sachisthal; Michael Neikes; Jörg Meyer; Klaus Seide</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010944">Kurzzeitige lokale Antibiotikumanwendung durch ein Wunddrain mit endständigem Gentamicin-PMMA-Stift</a></p>
+		<p>DOI: 10.1007/pl00010944</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;3, issue&nbsp;2 (2001)</p></td>
+	<td>224&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010944" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010944">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010944">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010944">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Thomas; Achim Dippold</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010945">Kniemessplatz zur Qualitätskontrolle des Behandlungsverlaufs</a></p>
+		<p>DOI: 10.1007/pl00010945</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;3, issue&nbsp;2 (2001)</p></td>
+	<td>214&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010945" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010945">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010945">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010945">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephan Brandenburg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010946">Verwaltungsverfahren bei Berufskrankheiten</a></p>
+		<p>DOI: 10.1007/pl00010946</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;3, issue&nbsp;2 (2001)</p></td>
+	<td>67&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010946" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010946">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010946">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010946">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wolfgang Raab; Michael Stegbauer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010947">Asbestbedingte Lungen- und Pleuraerkrankungen</a></p>
+		<p>DOI: 10.1007/pl00010947</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;3, issue&nbsp;2 (2001)</p></td>
+	<td>177&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010947" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010947">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010947">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010947">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rudolf Beisse; Michael Potulski; Volker Bühren</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00014737">Ventrale Rekonstruktion der Wirbelsäule nach Trauma</a></p>
+		<p>DOI: 10.1007/pl00014737</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;3, issue&nbsp;3 Supplement (2001)</p></td>
+	<td>190&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00014737" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00014737">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00014737">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00014737">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bernhard Kügelgen; Cecilija Kügelgen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00014738">HWS-Schleudertrauma</a></p>
+		<p>DOI: 10.1007/pl00014738</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;3, issue&nbsp;3 Supplement (2001)</p></td>
+	<td>169&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00014738" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00014738">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00014738">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00014738">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Friedrich Baumgaertel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00014739">Strukturelle Schäden an der Halswirbelsäule nach „Schleudertrauma“</a></p>
+		<p>DOI: 10.1007/pl00014739</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;3, issue&nbsp;3 Supplement (2001)</p></td>
+	<td>58&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00014739" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00014739">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00014739">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00014739">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bernhard Kügelgen; Cecilija Kügelgen; Friedrich Baumgaertel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00014740">HWS-Schleudertrauma</a></p>
+		<p>DOI: 10.1007/pl00014740</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;3, issue&nbsp;3 Supplement (2001)</p></td>
+	<td>188&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00014740" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00014740">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00014740">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00014740">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Norbert Erlinghagen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00014741">HWS-Schleudertrauma</a></p>
+		<p>DOI: 10.1007/pl00014741</p>	</td>
+	<td><p><a href="/scimag/journals/25050">Trauma und Berufskrankheit</a><p>volume&nbsp;3, issue&nbsp;3 Supplement (2001)</p></td>
+	<td>86&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00014741" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00014741">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00014741">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00014741">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;498 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 100</span>
+	 <a href="/scimag/?journal=25050&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/65">Accounting Forum</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Elsevier Science</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0155-9982</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1467-6303</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 25; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 25');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=65&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">611 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 25</span>
+	 <a href="/scimag/?journal=65&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Christine Cooper; Dean Neu; Glen Lehman</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1467-6303.2003.00110.x">Globalisation and its Discontents: A Concern about Growth and Globalization</a></p>
+		<p>DOI: 10.1046/j.1467-6303.2003.00110.x</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;27, issue&nbsp;4 (2003)</p></td>
+	<td>57&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1467-6303.2003.00110.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1467-6303.2003.00110.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1467-6303.2003.00110.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1467-6303.2003.00110.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jeffery Everett</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1467-6303.2003.t01-1-00112.x">Globalization and Its New Spaces for (Alternative) Accounting Research</a></p>
+		<p>DOI: 10.1046/j.1467-6303.2003.t01-1-00112.x</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;27, issue&nbsp;4 (2003)</p></td>
+	<td>123&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1467-6303.2003.t01-1-00112.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1467-6303.2003.t01-1-00112.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1467-6303.2003.t01-1-00112.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1467-6303.2003.t01-1-00112.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jeffrey Unerman</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1467-6303.2003.t01-1-00113.x">Enhancing Organizational Global Hegemony with Narrative Accounting Disclosures: An Early Example</a></p>
+		<p>DOI: 10.1046/j.1467-6303.2003.t01-1-00113.x</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;27, issue&nbsp;4 (2003)</p></td>
+	<td>110&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1467-6303.2003.t01-1-00113.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1467-6303.2003.t01-1-00113.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1467-6303.2003.t01-1-00113.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1467-6303.2003.t01-1-00113.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cameron Graham; Dean Neu</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1467-6303.2003.t01-1-00114.x">Accounting for Globalization</a></p>
+		<p>DOI: 10.1046/j.1467-6303.2003.t01-1-00114.x</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;27, issue&nbsp;4 (2003)</p></td>
+	<td>110&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1467-6303.2003.t01-1-00114.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1467-6303.2003.t01-1-00114.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1467-6303.2003.t01-1-00114.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1467-6303.2003.t01-1-00114.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Prem Sikka</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1467-6303.2003.t01-2-00111.x">The Role of Offshore Financial Centres in Globalization</a></p>
+		<p>DOI: 10.1046/j.1467-6303.2003.t01-2-00111.x</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;27, issue&nbsp;4 (2003)</p></td>
+	<td>155&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1467-6303.2003.t01-2-00111.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1467-6303.2003.t01-2-00111.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1467-6303.2003.t01-2-00111.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1467-6303.2003.t01-2-00111.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Glen Lehman</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00001">Introduction: Special Issue on International Audit Research</a></p>
+		<p>DOI: 10.1111/1467-6303.00001</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;1 (1999)</p></td>
+	<td>44&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00002">Editorial: Contemporary Audit Controversies</a></p>
+		<p>DOI: 10.1111/1467-6303.00002</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;1 (1999)</p></td>
+	<td>126&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stuart Manson; Mahbub Zaman</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00003">Lobbying the Auditing Practices Board: Analysis of Responses to the Expanded Audit Report</a></p>
+		<p>DOI: 10.1111/1467-6303.00003</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;1 (1999)</p></td>
+	<td>199&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Dunn; Margaret Stewart</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00004">Resignation or Abdication—the Credibility of Auditor Resignation Statements</a></p>
+		<p>DOI: 10.1111/1467-6303.00004</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;1 (1999)</p></td>
+	<td>165&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pam Edwards; Jean Shaoul</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00005">Reporting Accounting?</a></p>
+		<p>DOI: 10.1111/1467-6303.00005</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;1 (1999)</p></td>
+	<td>242&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. A. Van Peursem; A. Hauriasi</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00006">Auditors’ Reputation: an Analysis of Press Coverage in New Zealand</a></p>
+		<p>DOI: 10.1111/1467-6303.00006</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;1 (1999)</p></td>
+	<td>166&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00006" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00006">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00006">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00006">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lee Parker; Graeme Gould</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00007">Changing public sector accountability: critiquing new directions</a></p>
+		<p>DOI: 10.1111/1467-6303.00007</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;2 (1999)</p></td>
+	<td>180&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00007" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00007">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00007">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00007">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carol A Tilt; Christopher F Symes</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00008">Environmental disclosure by Australian mining companies: environmental conscience or commercial reality?</a></p>
+		<p>DOI: 10.1111/1467-6303.00008</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;2 (1999)</p></td>
+	<td>165&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00008" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00008">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00008">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00008">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stewart A Leech; Nicole Clark; Philip A Collier</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00009">A generalized model of decision-making processes for companies in financial distress</a></p>
+		<p>DOI: 10.1111/1467-6303.00009</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;2 (1999)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00009" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00009">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00009">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00009">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fraser Bell; Glen Lehman</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00010">Recent trends in environment accounting: how green are your accounts?</a></p>
+		<p>DOI: 10.1111/1467-6303.00010</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;2 (1999)</p></td>
+	<td>149&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00010" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00010">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00010">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00010">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rick Newby; Malcolm Smith</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00011">A comparison of the impact of franchising on return and risk for two Australian industries</a></p>
+		<p>DOI: 10.1111/1467-6303.00011</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;2 (1999)</p></td>
+	<td>147&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00011" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00011">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00011">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00011">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00012">Directions and Possible Futures</a></p>
+		<p>DOI: 10.1111/1467-6303.00012</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;3 (1999)</p></td>
+	<td>51&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00012" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00012">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00012">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00012">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Takiah Mohd Iskandar; Errol R Iselin</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00013">A review of materiality research</a></p>
+		<p>DOI: 10.1111/1467-6303.00013</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;3 (1999)</p></td>
+	<td>212&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00013" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00013">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00013">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00013">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ed O’Donnell; Mark Lehman</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00014">Information Processing Strategy During Analytical Procedures: Where and How Auditors Focus Their Attention</a></p>
+		<p>DOI: 10.1111/1467-6303.00014</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;3 (1999)</p></td>
+	<td>316&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00014" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00014">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00014">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00014">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rick Sarre; Brenton Fiedler</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00015">Investigating and Preventing Fraud Against Australian Businesses: Counting the Costs and Exploring The Strategies</a></p>
+		<p>DOI: 10.1111/1467-6303.00015</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;3 (1999)</p></td>
+	<td>164&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00015" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00015">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00015">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00015">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Greg Tower; Phil Hancock; Ross H. Taplin</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00016">A Regional Study Of Listed Companies’ Compliance with International Accounting Standards</a></p>
+		<p>DOI: 10.1111/1467-6303.00016</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;3 (1999)</p></td>
+	<td>140&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00016" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00016">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00016">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00016">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chris Warrell</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00017">Harmonisation and Proposed Standard-Setting Reforms</a></p>
+		<p>DOI: 10.1111/1467-6303.00017</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;3 (1999)</p></td>
+	<td>151&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00017" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00017">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00017">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00017">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00018">Book Reviews</a></p>
+		<p>DOI: 10.1111/1467-6303.00018</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;3 (1999)</p></td>
+	<td>88&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00018" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00018">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00018">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00018">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mike Metcalfe; Glen Lehman</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00019">Accounting and Information Systems: Call For Papers</a></p>
+		<p>DOI: 10.1111/1467-6303.00019</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;4 (1999)</p></td>
+	<td>72&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00019" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00019">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00019">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00019">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jesse F Dillard; Howard L Smith</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1467-6303.00020">The Effect of the Prospective Payment System on Rural Health Care</a></p>
+		<p>DOI: 10.1111/1467-6303.00020</p>	</td>
+	<td><p><a href="/scimag/journals/65">Accounting Forum</a><p>volume&nbsp;23, issue&nbsp;4 (1999)</p></td>
+	<td>466&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1467-6303.00020" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1467-6303.00020">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1467-6303.00020">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1467-6303.00020">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">611 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 25</span>
+	 <a href="/scimag/?journal=65&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/12441">Journal of Biological Physics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer Netherlands</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0092-0606</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-0689</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 50; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 50');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=12441&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;226 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 50</span>
+	 <a href="/scimag/?journal=12441&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>S. P. Sitko; V. V. Gizhko</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00383785">Towards a quantum physics of the living state</a></p>
+		<p>DOI: 10.1007/bf00383785</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;18, issue&nbsp;1 (1991)</p></td>
+	<td>1.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00383785" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00383785">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00383785">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00383785">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andrew A. Cochran</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00383786">Living organisms and the quantum-mechanical wave properties of matter</a></p>
+		<p>DOI: 10.1007/bf00383786</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;18, issue&nbsp;1 (1991)</p></td>
+	<td>465&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00383786" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00383786">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00383786">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00383786">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kyle Forinash; John Keeney</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00383787">Nonlinearly coupled double chain systems</a></p>
+		<p>DOI: 10.1007/bf00383787</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;18, issue&nbsp;1 (1991)</p></td>
+	<td>634&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00383787" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00383787">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00383787">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00383787">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rein Kilkson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00383788">Evolution of structure and information processing in the nervous system: Part IV of a general theory</a></p>
+		<p>DOI: 10.1007/bf00383788</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;18, issue&nbsp;1 (1991)</p></td>
+	<td>882&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00383788" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00383788">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00383788">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00383788">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kamales Bhaumik; Viney Kumar Jain</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00383789">Determinants of oxygen tension in normal and tumour tissues: A theoretical study</a></p>
+		<p>DOI: 10.1007/bf00383789</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;18, issue&nbsp;1 (1991)</p></td>
+	<td>757&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00383789" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00383789">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00383789">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00383789">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. R. Jovanic; Lj. D. Zekovic; B. Radenkovic</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00383790">Red fluorescence spectra as a new means of determining the rate of damage to photosynthesis apparatus in plants caused by stress</a></p>
+		<p>DOI: 10.1007/bf00383790</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;18, issue&nbsp;1 (1991)</p></td>
+	<td>413&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00383790" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00383790">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00383790">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00383790">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. A. Serikov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00383791">Weak field influence on biomolecular changes</a></p>
+		<p>DOI: 10.1007/bf00383791</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;18, issue&nbsp;1 (1991)</p></td>
+	<td>797&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00383791" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00383791">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00383791">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00383791">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Finegold Leonard</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00383792">Letters to the editor</a></p>
+		<p>DOI: 10.1007/bf00383792</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;18, issue&nbsp;1 (1991)</p></td>
+	<td>150&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00383792" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00383792">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00383792">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00383792">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. L. Reid</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00383793">Reply from Dr B. L. Reid (28 August 1990)</a></p>
+		<p>DOI: 10.1007/bf00383793</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;18, issue&nbsp;1 (1991)</p></td>
+	<td>203&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00383793" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00383793">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00383793">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00383793">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Georges Mallet; Jean Lematre; Dan Vasilescu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00383818">Interaction of the alkylating agent mechlorethamine with DNA in presence and in absence of the radioprotector WR-1065: A transient electric birefringence study</a></p>
+		<p>DOI: 10.1007/bf00383818</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;22, issue&nbsp;1 (1996)</p></td>
+	<td>778&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00383818" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00383818">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00383818">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00383818">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Kargol</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00383819">A more general form of Kedem and Katchalsky's practical equations</a></p>
+		<p>DOI: 10.1007/bf00383819</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;22, issue&nbsp;1 (1996)</p></td>
+	<td>609&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00383819" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00383819">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00383819">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00383819">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Tass</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00383820">Resetting biological oscillators—A stochastic approach</a></p>
+		<p>DOI: 10.1007/bf00383820</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;22, issue&nbsp;1 (1996)</p></td>
+	<td>2.16&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00383820" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00383820">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00383820">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00383820">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Liu Bingzheng; Zhao Zhenye; Chen Liansong</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00386598">A mathematical model of the regulation system of the secretion of glucocorticoids</a></p>
+		<p>DOI: 10.1007/bf00386598</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;17, issue&nbsp;4 (1990)</p></td>
+	<td>512&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00386598" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00386598">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00386598">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00386598">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James G. McNally</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00386599">Scale-invariant pattern in the algaMicrasterias</a></p>
+		<p>DOI: 10.1007/bf00386599</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;17, issue&nbsp;4 (1990)</p></td>
+	<td>989&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00386599" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00386599">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00386599">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00386599">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Brzezinski</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00386600">A reaction cycle for cytochromecoxidase as an electron-transport-driven proton pump: The effect of electrochemical potential and slips</a></p>
+		<p>DOI: 10.1007/bf00386600</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;17, issue&nbsp;4 (1990)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00386600" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00386600">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00386600">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00386600">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Yarman; N. Kiyak</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00386601">A simple mathematical modeling of the growth of microorganism colonies</a></p>
+		<p>DOI: 10.1007/bf00386601</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;17, issue&nbsp;4 (1990)</p></td>
+	<td>341&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00386601" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00386601">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00386601">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00386601">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Feddersen; P. L. Christiansen; M. P. Soerensen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00386602">Global bifurcations in the FitzHugh-Nagumo equations for nerve wave propagation</a></p>
+		<p>DOI: 10.1007/bf00386602</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;17, issue&nbsp;4 (1990)</p></td>
+	<td>496&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00386602" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00386602">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00386602">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00386602">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. Doster; Ch. Holzhey; H. Miesmer; F. Post; R. A. Tahir-Kheli</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00386603">The effect of heterogeneous structural diffusion on ligand binding to heme proteins</a></p>
+		<p>DOI: 10.1007/bf00386603</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;17, issue&nbsp;4 (1990)</p></td>
+	<td>837&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00386603" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00386603">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00386603">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00386603">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00393322">Editorial</a></p>
+		<p>DOI: 10.1007/bf00393322</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;17, issue&nbsp;1 (1989)</p></td>
+	<td>89&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00393322" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00393322">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00393322">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00393322">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. C. Scott; L. Bernstein; J. C. Eilbeck</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00393323">Energy levels of the quantized discrete self-trapping equation</a></p>
+		<p>DOI: 10.1007/bf00393323</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;17, issue&nbsp;1 (1989)</p></td>
+	<td>765&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00393323" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00393323">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00393323">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00393323">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. A. Tuszyński; E. Kimberly Strong</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00393324">Application of the Fröhlich theory to the modelling of rouleau formation in human erythrocytes</a></p>
+		<p>DOI: 10.1007/bf00393324</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;17, issue&nbsp;1 (1989)</p></td>
+	<td>1.28&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00393324" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00393324">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00393324">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00393324">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Bolterauer; J. A. Tuszyński</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00393325">Fröhlich's condensation in a biological membrane viewed as a Davydov soliton</a></p>
+		<p>DOI: 10.1007/bf00393325</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;17, issue&nbsp;1 (1989)</p></td>
+	<td>595&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00393325" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00393325">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00393325">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00393325">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Pedrajas; J. Cotrino</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00393326">Nonthermal effect of microwave irradiation on nitrite uptake inChlamydomonas reinhardtii</a></p>
+		<p>DOI: 10.1007/bf00393326</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;17, issue&nbsp;1 (1989)</p></td>
+	<td>293&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00393326" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00393326">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00393326">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00393326">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. L. Reid; K. J. Pryor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00393327">Effect of a mass of lead in the incubator space of growing cells</a></p>
+		<p>DOI: 10.1007/bf00393327</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;17, issue&nbsp;1 (1989)</p></td>
+	<td>2.25&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00393327" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00393327">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00393327">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00393327">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. Bakarudin; M. A. Slifkin; C. W. Smith</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00395055">A study of dielectric dispersions of bacteriorhodopsin</a></p>
+		<p>DOI: 10.1007/bf00395055</p>	</td>
+	<td><p><a href="/scimag/journals/12441">Journal of Biological Physics</a><p>volume&nbsp;18, issue&nbsp;2 (1991)</p></td>
+	<td>449&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00395055" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00395055">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00395055">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00395055">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;226 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 50</span>
+	 <a href="/scimag/?journal=12441&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/6669">English Literary Renaissance</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0013-8312</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1475-6757</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 42; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 42');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=6669&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;047 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 42</span>
+	 <a href="/scimag/?journal=6669&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>JAMES KEARNEY</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00001"><em>Enshrining Idolatry in</em> The Faerie Queene</a></p>
+		<p>DOI: 10.1111/1475-6757.00001</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;32, issue&nbsp;1 (2002)</p></td>
+	<td>2.98&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>KIMBERLY ANNE COLES</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00002">“Perfect hole”: Elizabeth I, Spenser, and Chaste Productions</a></p>
+		<p>DOI: 10.1111/1475-6757.00002</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;32, issue&nbsp;1 (2002)</p></td>
+	<td>1.74&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>DAVID SCOTT WILSON-OKAMURA</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00003">Spenser and the Two Queens</a></p>
+		<p>DOI: 10.1111/1475-6757.00003</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;32, issue&nbsp;1 (2002)</p></td>
+	<td>1.34&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>BART VAN ES</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00005"><em>Discourses of Conquest:</em> The Faerie Queene, <em>the Society of Antiquaries, and</em> A View of the Present State of Ireland</a></p>
+		<p>DOI: 10.1111/1475-6757.00005</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;32, issue&nbsp;1 (2002)</p></td>
+	<td>2.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>WALTER DAVIS</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00006">Spenser and the History of Allegory</a></p>
+		<p>DOI: 10.1111/1475-6757.00006</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;32, issue&nbsp;1 (2002)</p></td>
+	<td>897&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00006" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00006">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00006">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00006">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>GORAN V. STANIVUKOVIC</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00007">RECENT STUDIES OF ENGLISH RENAISSANCE LITERATURE OF THE MEDITERRANEAN</a></p>
+		<p>DOI: 10.1111/1475-6757.00007</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;32, issue&nbsp;1 (2002)</p></td>
+	<td>1.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00007" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00007">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00007">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00007">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>CAROLINE MCMANUS</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00008">Queen Elizabeth, Dol Common, and the Performance of the Royal Maundy</a></p>
+		<p>DOI: 10.1111/1475-6757.00008</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;32, issue&nbsp;2 (2002)</p></td>
+	<td>1.46&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00008" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00008">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00008">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00008">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>STEVE SOHMER</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00009">The “Double Time” Crux in Othello Solved</a></p>
+		<p>DOI: 10.1111/1475-6757.00009</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;32, issue&nbsp;2 (2002)</p></td>
+	<td>1.45&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00009" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00009">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00009">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00009">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>PAULINA KEWES</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00010">Roman History and Early Stuart Drama: Thomas Heywood's The Rape of Lucrece</a></p>
+		<p>DOI: 10.1111/1475-6757.00010</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;32, issue&nbsp;2 (2002)</p></td>
+	<td>1.75&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00010" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00010">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00010">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00010">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>MONIKA SMIALKOWSKA</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00011">“Out of the authority of ancient and late writers”: Ben Jonson's Use of Textual Sources in The Masque of Queens</a></p>
+		<p>DOI: 10.1111/1475-6757.00011</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;32, issue&nbsp;2 (2002)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00011" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00011">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00011">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00011">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>BARBARA RAVELHOFER</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00012">“Beasts of Recreacion”: Henslowe's White Bears</a></p>
+		<p>DOI: 10.1111/1475-6757.00012</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;32, issue&nbsp;2 (2002)</p></td>
+	<td>2.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00012" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00012">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00012">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00012">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>RICHARD DUTTON</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00013">The Revels Office and the Boy Companies, 1600–1613: New Perspectives</a></p>
+		<p>DOI: 10.1111/1475-6757.00013</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;32, issue&nbsp;2 (2002)</p></td>
+	<td>1.69&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00013" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00013">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00013">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00013">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>ROBERT E. STILLMAN</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00014">The Scope of Sidney's Defence of Poesy: The New Hermeneutic and Early Modern Poetics</a></p>
+		<p>DOI: 10.1111/1475-6757.00014</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;32, issue&nbsp;3 (2002)</p></td>
+	<td>1.95&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00014" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00014">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00014">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00014">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>COLLEEN SHEA</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00015">Literary Authority as Cultural Criticism in Aemilia Lanyer's The Authors Dreame</a></p>
+		<p>DOI: 10.1111/1475-6757.00015</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;32, issue&nbsp;3 (2002)</p></td>
+	<td>1.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00015" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00015">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00015">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00015">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>IRENE BURGESS</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00018">RECENT STUDIES IN MARGARET CAVENDISH, DUCHESS OF NEWCASTLE (1623–1674); WILLIAM CAVENDISH, DUKE OF NEWCASTLE (1593–1676); ELIZABETH CAVENDISH EGERTON (1627–1663); AND JANE CAVENDISH CHEYNE (1622–1669)</a></p>
+		<p>DOI: 10.1111/1475-6757.00018</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;32, issue&nbsp;3 (2002)</p></td>
+	<td>980&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00018" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00018">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00018">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00018">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>PATRICK H. MARTIN; JOHN FINNIS</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00019">Thomas Thorpe, “WS.,” and the Catholic Intelligencers</a></p>
+		<p>DOI: 10.1111/1475-6757.00019</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;33, issue&nbsp;1 (2003)</p></td>
+	<td>2.66&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00019" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00019">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00019">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00019">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>JAMES ELLISON</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00020">Measure for Measure and the Executions of Catholics in 1604</a></p>
+		<p>DOI: 10.1111/1475-6757.00020</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;33, issue&nbsp;1 (2003)</p></td>
+	<td>2.47&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00020" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00020">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00020">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00020">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>ANDREW SHIFFLETT</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00021">Kings, Poets, and the Power of Forgiveness, 1642–1660</a></p>
+		<p>DOI: 10.1111/1475-6757.00021</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;33, issue&nbsp;1 (2003)</p></td>
+	<td>1.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00021" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00021">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00021">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00021">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>DOUGLAS A. BROOKS</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00022_1">Recent Studies in the English Renaissance</a></p>
+		<p>DOI: 10.1111/1475-6757.00022_1</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;33, issue&nbsp;1 (2003)</p></td>
+	<td>2.79&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00022_1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00022_1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00022_1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00022_1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Douglas A. Brooks</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00022_2">Recent Studies in Ben Jonson (1991 – mid-2001)</a></p>
+		<p>DOI: 10.1111/1475-6757.00022_2</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;33, issue&nbsp;1 (2003)</p></td>
+	<td>317&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00022_2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00022_2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00022_2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00022_2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Meredith Skura</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00023">Anthony Munday's “Gentrification” of Robin Hood</a></p>
+		<p>DOI: 10.1111/1475-6757.00023</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;33, issue&nbsp;2 (2003)</p></td>
+	<td>195&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00023" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00023">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00023">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00023">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lee Beier</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00024">On the Boundaries of New and Old Historicisms: Thomas Harman and the Literature of Roguery</a></p>
+		<p>DOI: 10.1111/1475-6757.00024</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;33, issue&nbsp;2 (2003)</p></td>
+	<td>425&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00024" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00024">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00024">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00024">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Linda Woodbridge</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00025">Jest Books, the Literature of Roguery, and the Vagrant Poor in Renaissance England</a></p>
+		<p>DOI: 10.1111/1475-6757.00025</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;33, issue&nbsp;2 (2003)</p></td>
+	<td>125&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00025" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00025">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00025">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00025">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patricia Fumerton</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00026">Making Vagrancy (In)Visible: The Economics of Disguise in Early Modern Rogue Pamphlets</a></p>
+		<p>DOI: 10.1111/1475-6757.00026</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;33, issue&nbsp;2 (2003)</p></td>
+	<td>198&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00026" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00026">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00026">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00026">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William N. West</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-6757.00027">Talking the Talk: Cant on the Jacobean Stage</a></p>
+		<p>DOI: 10.1111/1475-6757.00027</p>	</td>
+	<td><p><a href="/scimag/journals/6669">English Literary Renaissance</a><p>volume&nbsp;33, issue&nbsp;2 (2003)</p></td>
+	<td>222&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-6757.00027" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-6757.00027">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-6757.00027">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-6757.00027">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;047 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 42</span>
+	 <a href="/scimag/?journal=6669&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

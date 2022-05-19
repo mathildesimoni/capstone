@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1978">Archives of Medical Research</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Elsevier Science</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0188-4409</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>0188-0128</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 115; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 115');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1978&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;856 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 115</span>
+	 <a href="/scimag/?journal=1978&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Jesús Martínez-Sámano; Patricia V. Torres-Durán; Marco Antonio Juárez-Oropeza; Leticia Verdugo-Díaz</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2012.04.003">Effect of Acute Extremely Low Frequency Electromagnetic Field Exposure on the Antioxidant Status and Lipid Levels in Rat Brain</a></p>
+		<p>DOI: 10.1016/j.arcmed.2012.04.003</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;43, issue&nbsp;3 (2012)</p></td>
+	<td>366&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2012.04.003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2012.04.003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2012.04.003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2012.04.003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W.H Linda Kao; Candace M Kammerer; Jennifer L Schneider; Richard L Bauer; Braxton D Mitchell</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2002.07.001">Type 2 diabetes is associated with increased bone mineral density in Mexican-American women</a></p>
+		<p>DOI: 10.1016/j.arcmed.2002.07.001</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>129&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2002.07.001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2002.07.001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2002.07.001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2002.07.001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Noé Jurado; Carlos Torner; Gerhard Heinze; Guadalupe López; José Mendoza-Sotelo; Alejandro Lazo-Langner; Julia Moreno</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.03.001">Methodologic pitfalls in measurement of 5-hydroxytriptamine uptake transporters in human platelets by [3H]-paroxetine binding assay</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.03.001</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>168&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.03.001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.03.001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.03.001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.03.001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alarcos Cieza; Petra Maier; Ernst Pöppel</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.05.001">Effects of Ginkgo biloba on mental functioning in healthy volunteers</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.05.001</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>218&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.05.001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.05.001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.05.001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.05.001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lexin Wang; Rongguo Yao</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.06.001">Radiofrequency catheter ablation of accessory pathway-mediated tachycardia is a safe and effective long-term therapy</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.06.001</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>89&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.06.001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.06.001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.06.001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.06.001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ernesto Roldán-Valadéz; Pedro Hernández-Martı́nez; Sandra Osorio-Peralta; Irma Elizalde-Acosta; Verónica Espinoza-Cruz; Gustavo Casián-Castellanos</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.06.002">Imaging diagnosis of subclavian steal syndrome secondary to takayasu arteritis affecting a left-side subclavian artery</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.06.002</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>322&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.06.002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.06.002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.06.002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.06.002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rubén Lisker</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.06.003">Ethical and legal issues in therapeutic cloning and the study of stem cells</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.06.003</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;34, issue&nbsp;6 (2003)</p></td>
+	<td>85&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.06.003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.06.003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.06.003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.06.003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen J Szilvassy</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.06.004">The biology of hematopoietic stem cells</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.06.004</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;34, issue&nbsp;6 (2003)</p></td>
+	<td>320&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.06.004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.06.004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.06.004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.06.004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Maina P Kava; Milind S Tullu; Mamta N Muranjan; K.M Girisha</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.06.005">Down syndrome:: Clinical profile from India</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.06.005</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>87&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.06.005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.06.005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.06.005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.06.005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carlos A Aguilar-Salinas; Rosalba Rojas; Francisco J Gómez-Pérez; Victoria Valles; Juan Manuel Rı́os-Torres; Aurora Franco; Gustavo Olaiz; Juan A Rull; Jaime Sepúlveda</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.06.006">High prevalence of metabolic syndrome in Mexico</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.06.006</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>158&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.06.006" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.06.006">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.06.006">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.06.006">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eduardo Lazcano-Ponce; Angélica Angeles-Llerenas; Asunción Alvarez-del Rı́o; Eduardo Salazar-Martı́nez; Betania Allen; Mauricio Hernández-Avila; Arnoldo Kraus</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.06.007">Ethics and communication between physicians and their patients with cancer, HIV/AIDS, and rheumatoid arthritis in Mexico</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.06.007</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>187&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.06.007" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.06.007">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.06.007">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.06.007">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marı́a-Ester Brandan; César Ruiz-Trejo; Maricela Verdejo-Silva; Martha Guevara; Horacio Lozano-Zalce; Luis Madero-Preciado; Julia Martı́n; Louise-Marie Noel-Etienne; José-Luis Ramı́rez-Arias; Jesús Soto; Yolanda Villaseñor</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.06.008">Evaluation of equipment performance, patient dose, imaging quality, and diagnostic coincidence in five Mexico City mammography services</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.06.008</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>239&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.06.008" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.06.008">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.06.008">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.06.008">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ge Miao</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.06.009">Normal reference value of hemoglobin of infant girls and altitude in China</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.06.009</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>87&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.06.009" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.06.009">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.06.009">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.06.009">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marko Kljaković-Gašpić; Darko Hren; Ana Marušić; Matko Marušić</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.07.001">Peer review time: how late is late in a small medical journal?</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.07.001</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>92&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.07.001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.07.001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.07.001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.07.001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sally Arai; Hans-G Klingemann</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.07.002">Hematopoietic stem cell transplantation: bone marrow vs. mobilized peripheral blood</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.07.002</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;34, issue&nbsp;6 (2003)</p></td>
+	<td>145&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.07.002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.07.002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.07.002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.07.002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Matthew J Greenwood; Peter M Lansdorp</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.07.003">Telomeres, telomerase, and hematopoietic stem cell biology</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.07.003</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;34, issue&nbsp;6 (2003)</p></td>
+	<td>118&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.07.003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.07.003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.07.003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.07.003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carlos José Castro-Sansores; Renán A Góngora-Biachi; Pedro González-Martı́nez</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.07.004">HIV-Encephalopathy as initial manifestation of acquired immunodeficiency Syndrome in Yucatán State, Mexico</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.07.004</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>89&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.07.004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.07.004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.07.004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.07.004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>José Antonio Enciso-Moreno; Norma Pernas-Buitrón; Maribel Ortiz-Herrera; Rafael Coria-Jiménez</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.07.005">Identification of Serratia marcescens populations of nosocomial origin by RAPD-PCR</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.07.005</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>170&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.07.005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.07.005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.07.005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.07.005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patricia Clark; Pilar Lavielle; Carolina Duarte</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.07.006">Patient ratings of care at a rheumatology out-patient unit</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.07.006</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>85&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.07.006" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.07.006">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.07.006">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.07.006">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carmen Lara-Muñoz; Sergio Ponce de Leon; Alvan R. Feinstein; Alicia Puente; Carolyn K. Wells</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.07.007">Comparison of Three Rating Scales for Measuring Subjective Phenomena in Clinical Research: I. Use of Experimentally Controlled Auditory Stimuli</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.07.007</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>95&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.07.007" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.07.007">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.07.007">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.07.007">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Juan M Miranda; José Alvarez-Nemegyei; Miguel A Saavedra; Leobardo Terán; Federico Galván-Villegas; José Garcı́a-Figueroa; Luis J Jara; Leonor Barile; The GRECIA Group</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.07.008">A Randomized, Double-Blind, Multicenter, Controlled Clinical Trial of Cyclosporine Plus Chloroquine vs. Cyclosporine Plus Placebo in Early-Onset Rheumatoid Arthritis</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.07.008</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;35, issue&nbsp;1 (2004)</p></td>
+	<td>110&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.07.008" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.07.008">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.07.008">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.07.008">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sergio Ponce de Leon; Carmen Lara-Muñoz; Alvan R Feinstein; Carolyn K Wells</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.07.009">A comparison of three rating scales for measuring subjective phenomena in clinical research: II. Use of experimentally controlled visual stimuli</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.07.009</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;35, issue&nbsp;2 (2004)</p></td>
+	<td>98&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.07.009" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.07.009">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.07.009">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.07.009">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Emiliano Tesoro-Cruz; Rafael Hernández-González; Roberto Kretschmer-Schmid; Alvaro Aguilar-Setién</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.08.001">Cross-reactivity between caprine arthritis-encephalitis virus and type 1 human immunodeficiency virus</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.08.001</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>174&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.08.001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.08.001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.08.001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.08.001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.08.002">Erratum</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.08.002</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;34, issue&nbsp;5 (2003)</p></td>
+	<td>35&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.08.002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.08.002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.08.002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.08.002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Héctor Mayani; John E Wagner</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.arcmed.2003.08.003">Preface</a></p>
+		<p>DOI: 10.1016/j.arcmed.2003.08.003</p>	</td>
+	<td><p><a href="/scimag/journals/1978">Archives of Medical Research</a><p>volume&nbsp;34, issue&nbsp;6 (2003)</p></td>
+	<td>41&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.arcmed.2003.08.003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.arcmed.2003.08.003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.arcmed.2003.08.003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.arcmed.2003.08.003">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;856 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 115</span>
+	 <a href="/scimag/?journal=1978&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

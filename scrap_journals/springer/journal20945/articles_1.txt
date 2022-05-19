@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/20945">Research in Engineering Design</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0934-9839</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1435-6066</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 26; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 26');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=20945&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">635 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 26</span>
+	 <a href="/scimag/?journal=20945&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Patrick A. Fitzhorn</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01578993">Editorial</a></p>
+		<p>DOI: 10.1007/bf01578993</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;2, issue&nbsp;3 (1991)</p></td>
+	<td>159&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01578993" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01578993">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01578993">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01578993">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Scott Mullins; James R. Rinderle</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01578994">Grammatical approaches to engineering design, part I: An introduction and commentary</a></p>
+		<p>DOI: 10.1007/bf01578994</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;2, issue&nbsp;3 (1991)</p></td>
+	<td>1.51&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01578994" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01578994">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01578994">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01578994">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James R. Rinderle</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01578995">Grammatical approaches to engineering design, part II: Melding configuration and parametric design using attribute grammars</a></p>
+		<p>DOI: 10.1007/bf01578995</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;2, issue&nbsp;3 (1991)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01578995" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01578995">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01578995">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01578995">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sheng-H. Chuang; Mark R. Henderson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01578996">Compound feature recognition by web grammar parsing</a></p>
+		<p>DOI: 10.1007/bf01578996</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;2, issue&nbsp;3 (1991)</p></td>
+	<td>1.16&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01578996" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01578996">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01578996">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01578996">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Steven N. Longenecker; Patrick A. Fitzhorn</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01578997">A shape grammar for non-manifold modeling</a></p>
+		<p>DOI: 10.1007/bf01578997</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;2, issue&nbsp;3 (1991)</p></td>
+	<td>1.39&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01578997" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01578997">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01578997">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01578997">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>George Stiny</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01578998">The algebras of design</a></p>
+		<p>DOI: 10.1007/bf01578998</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;2, issue&nbsp;3 (1991)</p></td>
+	<td>1.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01578998" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01578998">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01578998">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01578998">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John R. Dixon; Susan Finger</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01579216">Editorial: Improving Engineering Design</a></p>
+		<p>DOI: 10.1007/bf01579216</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;2, issue&nbsp;4 (1991)</p></td>
+	<td>82&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01579216" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01579216">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01579216">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01579216">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Charles M. Eastman; Alan H. Bond; Scott C. Chase</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01579217">Application and evaluation of an engineering data model</a></p>
+		<p>DOI: 10.1007/bf01579217</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;2, issue&nbsp;4 (1991)</p></td>
+	<td>2.24&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01579217" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01579217">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01579217">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01579217">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John C. Tang; Larry J. Leifer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01579218">An observational methodology for studying group design activity</a></p>
+		<p>DOI: 10.1007/bf01579218</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;2, issue&nbsp;4 (1991)</p></td>
+	<td>1.52&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01579218" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01579218">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01579218">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01579218">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Srikanth M. Kannapan; Kurt M. Marshek</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01579219">Design synthetic reasoning: A methodology for mechanical design</a></p>
+		<p>DOI: 10.1007/bf01579219</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;2, issue&nbsp;4 (1991)</p></td>
+	<td>1.99&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01579219" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01579219">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01579219">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01579219">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yogesh Jaluria; D. Lombardi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01579220">Use of expert systems in the design of thermal equipment and processes</a></p>
+		<p>DOI: 10.1007/bf01579220</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;2, issue&nbsp;4 (1991)</p></td>
+	<td>1.39&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01579220" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01579220">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01579220">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01579220">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Charles M. Eastman; Alan H. Bond; Scott C. Chase</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01579252">A formal approach for product model information</a></p>
+		<p>DOI: 10.1007/bf01579252</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;2, issue&nbsp;2 (1991)</p></td>
+	<td>1.71&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01579252" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01579252">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01579252">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01579252">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul D. Hauck; Dean L. Taylor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01579253">Deriving physical design constraints from functional topologies</a></p>
+		<p>DOI: 10.1007/bf01579253</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;2, issue&nbsp;2 (1991)</p></td>
+	<td>1.46&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01579253" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01579253">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01579253">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01579253">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jami J. Shah</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01579254">Conceptual development of form features and feature modelers</a></p>
+		<p>DOI: 10.1007/bf01579254</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;2, issue&nbsp;2 (1991)</p></td>
+	<td>1.79&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01579254" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01579254">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01579254">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01579254">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Gero; Richard Coyne; Mary Lou Maher</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01579255">Design Computing Unit: University of Sydney</a></p>
+		<p>DOI: 10.1007/bf01579255</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;2, issue&nbsp;2 (1991)</p></td>
+	<td>872&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01579255" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01579255">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01579255">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01579255">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01579256">Announcements</a></p>
+		<p>DOI: 10.1007/bf01579256</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;2, issue&nbsp;2 (1991)</p></td>
+	<td>126&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01579256" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01579256">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01579256">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01579256">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Luis M. Bozzo; Gregory L. Fenves</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01579984">Qualitative reasoning and the representation of fundamental principles in structural engineering</a></p>
+		<p>DOI: 10.1007/bf01579984</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;6, issue&nbsp;2 (1994)</p></td>
+	<td>1.27&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01579984" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01579984">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01579984">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01579984">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Luis M. Bozzo; Gregory L. Fenves</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01579985">Qualitative reasoning inference strategy and its application to structural engineering</a></p>
+		<p>DOI: 10.1007/bf01579985</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;6, issue&nbsp;2 (1994)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01579985" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01579985">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01579985">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01579985">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Timothy A. Mashburn; David C. Anderson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01579986">Automatically deriving behavior constraints for performance variables in mechanical design</a></p>
+		<p>DOI: 10.1007/bf01579986</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;6, issue&nbsp;2 (1994)</p></td>
+	<td>1.94&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01579986" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01579986">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01579986">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01579986">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rakesh Gupta; Mark J. Jakiela</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01579987">Simulation and shape synthesis of kinematic pairs via small-scale interference detection</a></p>
+		<p>DOI: 10.1007/bf01579987</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;6, issue&nbsp;2 (1994)</p></td>
+	<td>2.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01579987" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01579987">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01579987">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01579987">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John R. Dixon; Susan Finger</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01579998">Editorial</a></p>
+		<p>DOI: 10.1007/bf01579998</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;1, issue&nbsp;1 (1989)</p></td>
+	<td>80&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01579998" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01579998">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01579998">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01579998">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Karl T. Ulrich; Warren P. Seering</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01579999">Synthesis of schematic descriptions in mechanical design</a></p>
+		<p>DOI: 10.1007/bf01579999</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;1, issue&nbsp;1 (1989)</p></td>
+	<td>1.83&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01579999" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01579999">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01579999">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01579999">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tetsuo Tomiyama; Takashia Kiriyama; Hideaki Takeda; Deye Xue; Hiroyuki Yoshikawa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580000">Metamodel: A key to intelligent CAD systems</a></p>
+		<p>DOI: 10.1007/bf01580000</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;1, issue&nbsp;1 (1989)</p></td>
+	<td>1.86&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580000" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580000">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580000">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580000">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Beth Adelson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580001">Cognitive research: Uncovering how designers design; cognitive modeling: Explaining and predicting how designers design</a></p>
+		<p>DOI: 10.1007/bf01580001</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;1, issue&nbsp;1 (1989)</p></td>
+	<td>1.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. K. Shaw; M. Susan Bloor; A. de Pennington</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01580002">Product data models</a></p>
+		<p>DOI: 10.1007/bf01580002</p>	</td>
+	<td><p><a href="/scimag/journals/20945">Research in Engineering Design</a><p>volume&nbsp;1, issue&nbsp;1 (1989)</p></td>
+	<td>915&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01580002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01580002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01580002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01580002">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">635 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 26</span>
+	 <a href="/scimag/?journal=20945&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

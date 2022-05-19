@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/8656">Helvetica Chimica Acta</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0018-019X</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1522-2675</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 980; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 980');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=8656&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">24&nbsp;499 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 980</span>
+	 <a href="/scimag/?journal=8656&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Grzegorz Mlostoń; Tomasz Gendek; Heinz Heimgartner</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1585%3A%3Aaid-hlca1585%3E3.0.co%3B2-n">First Examples of Reactions of Azole <em>N</em>-Oxides with Thioketones: A Novel Type of Sulfur-Transfer Reaction</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19980909)81:9&lt;1585::aid-hlca1585&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;9 (1998)</p></td>
+	<td>141&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1585%3A%3Aaid-hlca1585%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1585%3A%3Aaid-hlca1585%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1585%3A%3Aaid-hlca1585%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1585%3A%3Aaid-hlca1585%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Volker Stanjek; Wilhelm Boland</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1596%3A%3Aaid-hlca1596%3E3.0.co%3B2-f">Biosynthesis of Angular Furanocoumarins: Mechanism and Stereochemistry of the Oxidative Dealkylation of Columbianetin to Angelicin in <em>Heracleum mantegazzianum</em> (Apiaceae)</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19980909)81:9&lt;1596::aid-hlca1596&gt;3.0.co;2-f</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;9 (1998)</p></td>
+	<td>189&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1596%3A%3Aaid-hlca1596%3E3.0.co%3B2-f" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1596%3A%3Aaid-hlca1596%3E3.0.co%3B2-f">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1596%3A%3Aaid-hlca1596%3E3.0.co%3B2-f">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1596%3A%3Aaid-hlca1596%3E3.0.co%3B2-f">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andrea Sinz; Rudolf Matusch; Thomas Kämpchen; Winfried Fiedler; Jürgen Schmidt; Thawatchai Santisuk; Sirichai Wangcharoentrakul; Suttiporn Chaichana; Vichai Reutrakul</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1608%3A%3Aaid-hlca1608%3E3.0.co%3B2-f">Novel Acetogenins from the Leaves of <em>Dasymaschalon sootepense</em></a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19980909)81:9&lt;1608::aid-hlca1608&gt;3.0.co;2-f</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;9 (1998)</p></td>
+	<td>118&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1608%3A%3Aaid-hlca1608%3E3.0.co%3B2-f" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1608%3A%3Aaid-hlca1608%3E3.0.co%3B2-f">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1608%3A%3Aaid-hlca1608%3E3.0.co%3B2-f">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1608%3A%3Aaid-hlca1608%3E3.0.co%3B2-f">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christof Brändli; Thomas R. Ward</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1616%3A%3Aaid-hlca1616%3E3.0.co%3B2-p">Libraries <em>via</em> Metathesis of Internal Olefins</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19980909)81:9&lt;1616::aid-hlca1616&gt;3.0.co;2-p</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;9 (1998)</p></td>
+	<td>116&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1616%3A%3Aaid-hlca1616%3E3.0.co%3B2-p" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1616%3A%3Aaid-hlca1616%3E3.0.co%3B2-p">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1616%3A%3Aaid-hlca1616%3E3.0.co%3B2-p">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1616%3A%3Aaid-hlca1616%3E3.0.co%3B2-p">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Karin Boog-Wick; Paul S. Pregosin; Michael Wörle; Alberto Albinati</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1622%3A%3Aaid-hlca1622%3E3.0.co%3B2-a">Structural Chemistry of Methyl- and Allylpalladium(II) Complexes Containing Chiral Thioether Auxiliaries</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19980909)81:9&lt;1622::aid-hlca1622&gt;3.0.co;2-a</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;9 (1998)</p></td>
+	<td>231&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1622%3A%3Aaid-hlca1622%3E3.0.co%3B2-a" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1622%3A%3Aaid-hlca1622%3E3.0.co%3B2-a">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1622%3A%3Aaid-hlca1622%3E3.0.co%3B2-a">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1622%3A%3Aaid-hlca1622%3E3.0.co%3B2-a">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lovro Selič; Branko Stanovnik</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1634%3A%3Aaid-hlca1634%3E3.0.co%3B2-x">Transformations of Ethyl 3-{[1-(Alkoxycarbonyl)-2-(dimethylamino)ethenyl]amino}-2-cyanoprop-2-enoates: Synthesis of Dialkyl 3-Aminopyrrole-2,4-dicarboxylates</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19980909)81:9&lt;1634::aid-hlca1634&gt;3.0.co;2-x</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;9 (1998)</p></td>
+	<td>99&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1634%3A%3Aaid-hlca1634%3E3.0.co%3B2-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1634%3A%3Aaid-hlca1634%3E3.0.co%3B2-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1634%3A%3Aaid-hlca1634%3E3.0.co%3B2-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1634%3A%3Aaid-hlca1634%3E3.0.co%3B2-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Veith; Astrid Koban; Volker Huch</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1640%3A%3Aaid-hlca1640%3E3.0.co%3B2-i">Ring Opening of Thiophene: Synthesis and Crystal Structure of Bis(diethyl ether)bis(<em>μ</em>4-{(3,4-<em>η</em>)-4-[1,1,3,3-tetramethyl-3-(2-thienyl)disilazan-1-yl-<em>κ</em><em>N</em> : <em>κ</em><em>N</em>]but-1-en-3-yne-1-thiolato(2−)-<em>κ</em><em>S</em> : <em>κ</em><em>S</em> : <em>κ</em><em>S</em>})tetralithium ([(C4H3S)SiMe2−N(Li)−SiMe2−C≡C−CH=CH−SLi⋅OEt2]2)</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19980909)81:9&lt;1640::aid-hlca1640&gt;3.0.co;2-i</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;9 (1998)</p></td>
+	<td>90&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1640%3A%3Aaid-hlca1640%3E3.0.co%3B2-i" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1640%3A%3Aaid-hlca1640%3E3.0.co%3B2-i">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1640%3A%3Aaid-hlca1640%3E3.0.co%3B2-i">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1640%3A%3Aaid-hlca1640%3E3.0.co%3B2-i">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alberto Madinaveitia; Gabriel de la Fuente; Antonio González</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1645%3A%3Aaid-hlca1645%3E3.0.co%3B2-p">The Absolute Configuration at C(7) of Voacangine Hydroxyindolenine</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19980909)81:9&lt;1645::aid-hlca1645&gt;3.0.co;2-p</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;9 (1998)</p></td>
+	<td>143&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1645%3A%3Aaid-hlca1645%3E3.0.co%3B2-p" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1645%3A%3Aaid-hlca1645%3E3.0.co%3B2-p">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1645%3A%3Aaid-hlca1645%3E3.0.co%3B2-p">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1645%3A%3Aaid-hlca1645%3E3.0.co%3B2-p">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nikolay Youhnovski; Laurent Bigler; Christa Werner; Manfred Hesse</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1654%3A%3Aaid-hlca1654%3E3.0.co%3B2-t">On-Line Coupling of High-Performance Liquid Chromatography to Atmospheric Pressure Chemical Ionization Mass Spectrometry (HPLC/APCI-MS and MS/MS). The Pollen Analysis of <em>Hippeastrum</em> x hortorum (Amaryllidaceae)</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19980909)81:9&lt;1654::aid-hlca1654&gt;3.0.co;2-t</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;9 (1998)</p></td>
+	<td>396&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1654%3A%3Aaid-hlca1654%3E3.0.co%3B2-t" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1654%3A%3Aaid-hlca1654%3E3.0.co%3B2-t">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1654%3A%3Aaid-hlca1654%3E3.0.co%3B2-t">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1654%3A%3Aaid-hlca1654%3E3.0.co%3B2-t">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jaroslaw Kiegiel; Christian Chapuis; Zofia Urbañczyk-Lipkowska; Janusz Jurczak</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1672%3A%3Aaid-hlca1672%3E3.0.co%3B2-0">Asymmetric Hetero-<em>Diels-Alder</em> Addition of 1-Methoxybuta-1,3-diene to (2<em>R</em>)-<em>N</em>-Pyruvoyl- and (2<em>R</em>)-<em>N</em>-(Phenylglyoxyloyl)bornane-10,2-sultam</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19980909)81:9&lt;1672::aid-hlca1672&gt;3.0.co;2-0</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;9 (1998)</p></td>
+	<td>156&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1672%3A%3Aaid-hlca1672%3E3.0.co%3B2-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1672%3A%3Aaid-hlca1672%3E3.0.co%3B2-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1672%3A%3Aaid-hlca1672%3E3.0.co%3B2-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1672%3A%3Aaid-hlca1672%3E3.0.co%3B2-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ines Mancini; Graziano Guella; Andrea Defant; M. Luz Candenas; Cristina P. Armesto; Daniela Depentori; Francesco Pietra</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1681%3A%3Aaid-hlca1681%3E3.0.co%3B2-4">Polar Metabolites of the Tropical Green Seaweed <em>Caulerpa taxifolia</em> Which Is Spreading in the Mediterranean Sea: Glycoglycerolipids and Stable Enols (<em>α</em>=Keto Esters)</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19980909)81:9&lt;1681::aid-hlca1681&gt;3.0.co;2-4</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;9 (1998)</p></td>
+	<td>140&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1681%3A%3Aaid-hlca1681%3E3.0.co%3B2-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1681%3A%3Aaid-hlca1681%3E3.0.co%3B2-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1681%3A%3Aaid-hlca1681%3E3.0.co%3B2-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1681%3A%3Aaid-hlca1681%3E3.0.co%3B2-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Heiko Jacobsen; Heinz Berke; Thomas Brackemeyer; Tanja Eisenblätter; Gerhard Erker; Roland Fröhlich; Oliver Meyer; Klaus Bergander</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1692%3A%3Aaid-hlca1692%3E3.0.co%3B2-x">Comparison of Characteristic Structural Features among the Triade of Tris(cyclopentadienyl)(Group-4 Metal) Complex Cations: a Combined Theoretical and Experimental Study</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19980909)81:9&lt;1692::aid-hlca1692&gt;3.0.co;2-x</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;9 (1998)</p></td>
+	<td>257&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1692%3A%3Aaid-hlca1692%3E3.0.co%3B2-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1692%3A%3Aaid-hlca1692%3E3.0.co%3B2-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1692%3A%3Aaid-hlca1692%3E3.0.co%3B2-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1692%3A%3Aaid-hlca1692%3E3.0.co%3B2-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stefan Vonhoff; Tom D. Heightman; Andrea Vasella</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1710%3A%3Aaid-hlca1710%3E3.0.co%3B2-i">Inhibition of Glycosidases by Lactam Oximes: Influence of the Aglycon in Disaccharide Analogues</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19980909)81:9&lt;1710::aid-hlca1710&gt;3.0.co;2-i</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;9 (1998)</p></td>
+	<td>231&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1710%3A%3Aaid-hlca1710%3E3.0.co%3B2-i" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1710%3A%3Aaid-hlca1710%3E3.0.co%3B2-i">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1710%3A%3Aaid-hlca1710%3E3.0.co%3B2-i">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1710%3A%3Aaid-hlca1710%3E3.0.co%3B2-i">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Julia Späth; Fiona Stuart; Luyong Jiang; John A. Robinson</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1726%3A%3Aaid-hlca1726%3E3.0.co%3B2-h">Stabilization of a <em>β</em>-Hairpin Conformation in a Cyclic Peptide Using the Templating Effect of a Heterochiral Diproline Unit</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19980909)81:9&lt;1726::aid-hlca1726&gt;3.0.co;2-h</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;9 (1998)</p></td>
+	<td>313&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819980909%2981%3A9%3C1726%3A%3Aaid-hlca1726%3E3.0.co%3B2-h" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1726%3A%3Aaid-hlca1726%3E3.0.co%3B2-h">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1726%3A%3Aaid-hlca1726%3E3.0.co%3B2-h">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819980909%2981%3A9%3C1726%3A%3Aaid-hlca1726%3E3.0.co%3B2-h">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Willi Bannwarth; Patrick Iaiza</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1739%3A%3Aaid-hlca1739%3E3.0.co%3B2-5">The Utility of Capped Duplex DNA (<em>σ</em>-DNA) in Triplex Interaction Studies</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19981007)81:10&lt;1739::aid-hlca1739&gt;3.0.co;2-5</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;10 (1998)</p></td>
+	<td>177&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1739%3A%3Aaid-hlca1739%3E3.0.co%3B2-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1739%3A%3Aaid-hlca1739%3E3.0.co%3B2-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1739%3A%3Aaid-hlca1739%3E3.0.co%3B2-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1739%3A%3Aaid-hlca1739%3E3.0.co%3B2-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fabian Gerson; Pascal Merstetter; Mark Mascal; Nicholas M. Hext</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1749%3A%3Aaid-hlca1749%3E3.0.co%3B2-3">The Radical Cation of Azatriquinane: An ESR Study</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19981007)81:10&lt;1749::aid-hlca1749&gt;3.0.co;2-3</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;10 (1998)</p></td>
+	<td>86&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1749%3A%3Aaid-hlca1749%3E3.0.co%3B2-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1749%3A%3Aaid-hlca1749%3E3.0.co%3B2-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1749%3A%3Aaid-hlca1749%3E3.0.co%3B2-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1749%3A%3Aaid-hlca1749%3E3.0.co%3B2-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hassan Imogaï; Gérald Bernardinelli; Christian Gränicher; Mary Moran; Jean-Claude Rossier; Paul Müller</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1754%3A%3Aaid-hlca1754%3E3.0.co%3B2-v"><em>cis</em>-Disubstituted Cyclopropanes <em>via</em> Asymmetric Catalytic Cyclopropenation: Synthesis of Cyclopropyl-dehydroamino Acids and of Dictyopterene C′</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19981007)81:10&lt;1754::aid-hlca1754&gt;3.0.co;2-v</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;10 (1998)</p></td>
+	<td>146&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1754%3A%3Aaid-hlca1754%3E3.0.co%3B2-v" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1754%3A%3Aaid-hlca1754%3E3.0.co%3B2-v">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1754%3A%3Aaid-hlca1754%3E3.0.co%3B2-v">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1754%3A%3Aaid-hlca1754%3E3.0.co%3B2-v">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Antonio Comparone; Thomas A. Kaden</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1765%3A%3Aaid-hlca1765%3E3.0.co%3B2-n">Copper(II) and Nickel(II) Complexes of `<em>trans</em>'-Difunctionalized Tetraaza Macrocycles</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19981007)81:10&lt;1765::aid-hlca1765&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;10 (1998)</p></td>
+	<td>118&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1765%3A%3Aaid-hlca1765%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1765%3A%3Aaid-hlca1765%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1765%3A%3Aaid-hlca1765%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1765%3A%3Aaid-hlca1765%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Konstantin Drandarov; Armin Guggisberg; Anthony Linden; Manfred Hesse</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1773%3A%3Aaid-hlca1773%3E3.0.co%3B2-x">Chiroptical Properties of the Protoverbine Class of Macrocyclic Spermine Alkaloids</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19981007)81:10&lt;1773::aid-hlca1773&gt;3.0.co;2-x</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;10 (1998)</p></td>
+	<td>287&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1773%3A%3Aaid-hlca1773%3E3.0.co%3B2-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1773%3A%3Aaid-hlca1773%3E3.0.co%3B2-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1773%3A%3Aaid-hlca1773%3E3.0.co%3B2-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1773%3A%3Aaid-hlca1773%3E3.0.co%3B2-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fabian Fischer; Daniel Berger; Markus Neuenschwander</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1792%3A%3Aaid-hlca1792%3E3.0.co%3B2-z">Umlagerung von 5-Amino-5-X-pentadienalen zu 2-Aminopyrylium-Salzen </a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19981007)81:10&lt;1792::aid-hlca1792&gt;3.0.co;2-z</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;10 (1998)</p></td>
+	<td>155&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1792%3A%3Aaid-hlca1792%3E3.0.co%3B2-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1792%3A%3Aaid-hlca1792%3E3.0.co%3B2-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1792%3A%3Aaid-hlca1792%3E3.0.co%3B2-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1792%3A%3Aaid-hlca1792%3E3.0.co%3B2-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pablo Wessig; Jutta Schwarz</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1803%3A%3Aaid-hlca1803%3E3.0.co%3B2-4">Enantioselective Preparation of (2<em>R</em>)- and (2<em>S</em>)-Azetidine-2-carboxylic Acids</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19981007)81:10&lt;1803::aid-hlca1803&gt;3.0.co;2-4</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;10 (1998)</p></td>
+	<td>181&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1803%3A%3Aaid-hlca1803%3E3.0.co%3B2-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1803%3A%3Aaid-hlca1803%3E3.0.co%3B2-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1803%3A%3Aaid-hlca1803%3E3.0.co%3B2-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1803%3A%3Aaid-hlca1803%3E3.0.co%3B2-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>József Deli; Péter Molnár; Zoltán Matus; Gyula Tóth; Andrea Steck; Urs A. Niggli; Hanspeter Pfander</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1815%3A%3Aaid-hlca1815%3E3.0.co%3B2-r">Aesculaxanthin, a New Carotenoid Isolated from Pollens of <em>Aesculus hippocastanum</em></a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19981007)81:10&lt;1815::aid-hlca1815&gt;3.0.co;2-r</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;10 (1998)</p></td>
+	<td>85&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1815%3A%3Aaid-hlca1815%3E3.0.co%3B2-r" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1815%3A%3Aaid-hlca1815%3E3.0.co%3B2-r">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1815%3A%3Aaid-hlca1815%3E3.0.co%3B2-r">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1815%3A%3Aaid-hlca1815%3E3.0.co%3B2-r">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Junes Ipaktschi; Rahman Hosseinzadeh; Peter Schlaf; Erhard Dreiseidler; Richard Goddard</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1821%3A%3Aaid-hlca1821%3E3.0.co%3B2-c">Selbstorganisation von Molekülen über kovalente Bindungen: Selektive Tetramerisierung eines <em>p</em>-Chinodimethans</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19981007)81:10&lt;1821::aid-hlca1821&gt;3.0.co;2-c</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;10 (1998)</p></td>
+	<td>211&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1821%3A%3Aaid-hlca1821%3E3.0.co%3B2-c" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1821%3A%3Aaid-hlca1821%3E3.0.co%3B2-c">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1821%3A%3Aaid-hlca1821%3E3.0.co%3B2-c">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1821%3A%3Aaid-hlca1821%3E3.0.co%3B2-c">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-Pascal Bourgeois; François Diederich; Luis Echegoyen; Jean-François Nierengarten</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1835%3A%3Aaid-hlca1835%3E3.0.co%3B2-n">Synthesis, and Optical and Electrochemical Properties of Cyclophane-Type Molecular Dyads Containing a Porphyrin in Close, Tangential Orientation Relative to the Surface of <em>trans-1</em> Functionalized C60. Preliminary Communication</a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19981007)81:10&lt;1835::aid-hlca1835&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;10 (1998)</p></td>
+	<td>170&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1835%3A%3Aaid-hlca1835%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1835%3A%3Aaid-hlca1835%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1835%3A%3Aaid-hlca1835%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1835%3A%3Aaid-hlca1835%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas Matt; Dieter Seebach</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1845%3A%3Aaid-hlca1845%3E3.0.co%3B2-l"><em>C</em>-Alkylation of Peptides Containing Aminomalonate  and (Amino)(cyano)acetate Residues </a></p>
+		<p>DOI: 10.1002/(sici)1522-2675(19981007)81:10&lt;1845::aid-hlca1845&gt;3.0.co;2-l</p>	</td>
+	<td><p><a href="/scimag/journals/8656">Helvetica Chimica Acta</a><p>volume&nbsp;81, issue&nbsp;10 (1998)</p></td>
+	<td>624&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2675%2819981007%2981%3A10%3C1845%3A%3Aaid-hlca1845%3E3.0.co%3B2-l" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1845%3A%3Aaid-hlca1845%3E3.0.co%3B2-l">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1845%3A%3Aaid-hlca1845%3E3.0.co%3B2-l">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2675%2819981007%2981%3A10%3C1845%3A%3Aaid-hlca1845%3E3.0.co%3B2-l">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">24&nbsp;499 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 980</span>
+	 <a href="/scimag/?journal=8656&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

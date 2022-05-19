@@ -1,0 +1,379 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Elsevier Science</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1388-1981</td>
+	</tr>
+					</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 149; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 149');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=2753&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;716 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 149</span>
+	 <a href="/scimag/?journal=2753&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Amanda D. Gillon; Catherine F. Latham; Elizabeth A. Miller</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2012.01.005">Vesicle-mediated ER export of proteins and lipids</a></p>
+		<p>DOI: 10.1016/j.bbalip.2012.01.005</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1821, issue&nbsp;8 (2012)</p></td>
+	<td>679&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2012.01.005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2012.01.005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2012.01.005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2012.01.005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fei Gao; Xinkui Tian; Dawei Wen; Jie Liao; Tao Wang; Huwei Liu</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2006.03.022">Analysis of phospholipid species in rat peritoneal surface layer by liquid chromatography/electrospray ionization ion-trap mass spectrometry</a></p>
+		<p>DOI: 10.1016/j.bbalip.2006.03.022</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1761, issue&nbsp;7 (2006)</p></td>
+	<td>230&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2006.03.022" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2006.03.022">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2006.03.022">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2006.03.022">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Laura Perez-Fons; Sabine Steiger; Reena Khaneja; Peter M. Bramley; Simon M. Cutting; Gerhard Sandmann; Paul D. Fraser</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2010.12.009">Identification and the developmental formation of carotenoid pigments in the yellow/orange Bacillus spore-formers</a></p>
+		<p>DOI: 10.1016/j.bbalip.2010.12.009</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1811, issue&nbsp;3 (2011)</p></td>
+	<td>604&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2010.12.009" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2010.12.009">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2010.12.009">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2010.12.009">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>José Pedro De La Cruz; Lourdes Quintero; Marı́a Auxiliadora Villalobos; F. Sánchez de la Cuesta</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1388-1981%2800%2900027-5">Lipid peroxidation and glutathione system in hyperlipemic rabbits: influence of olive oil administration</a></p>
+		<p>DOI: 10.1016/s1388-1981(00)00027-5</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1485, issue&nbsp;1 (2000)</p></td>
+	<td>178&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1388-1981%2800%2900027-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1388-1981%2800%2900027-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1388-1981%2800%2900027-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1388-1981%2800%2900027-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vance, Jean E.; Tasseva, Guergana </td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2012.08.016">Formation and function of phosphatidylserine and phosphatidylethanolamine in mammalian cells</a></p>
+		<p>DOI: 10.1016/j.bbalip.2012.08.016</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1831, issue&nbsp;3 (2013)</p></td>
+	<td>443&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2012.08.016" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2012.08.016">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2012.08.016">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2012.08.016">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kentaro Hanada; Keigo Kumagai; Nario Tomishige; Toshiyuki Yamaji</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2009.01.006">CERT-mediated trafficking of ceramide</a></p>
+		<p>DOI: 10.1016/j.bbalip.2009.01.006</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1791, issue&nbsp;7 (2009)</p></td>
+	<td>675&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2009.01.006" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2009.01.006">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2009.01.006">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2009.01.006">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Claudia Elena; Claudia Banchio</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2010.01.005">Specific interaction between E2F1 and Sp1 regulates the expression of murine CTP:phosphocholine cytidylyltransferase alpha during the S phase</a></p>
+		<p>DOI: 10.1016/j.bbalip.2010.01.005</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1801, issue&nbsp;4 (2010)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2010.01.005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2010.01.005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2010.01.005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2010.01.005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paola Sperandeo; Gianni Dehò; Alessandra Polissi</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2009.01.011">The lipopolysaccharide transport system of Gram-negative bacteria</a></p>
+		<p>DOI: 10.1016/j.bbalip.2009.01.011</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1791, issue&nbsp;7 (2009)</p></td>
+	<td>935&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2009.01.011" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2009.01.011">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2009.01.011">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2009.01.011">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Evgeny V. Berdyshev</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2011.08.018">Mass spectrometry of fatty aldehydes</a></p>
+		<p>DOI: 10.1016/j.bbalip.2011.08.018</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1811, issue&nbsp;11 (2011)</p></td>
+	<td>1.60&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2011.08.018" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2011.08.018">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2011.08.018">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2011.08.018">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Egidio Iorio; Massimo Di Vito; Francesca Spadaro; Carlo Ramoni; Emanuela Lococo; Roberto Carnevale; Luisa Lenti; Roberto Strom; Franca Podo</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2003.07.001">Triacsin C inhibits the formation of 1H NMR-visible mobile lipids and lipid bodies in HuT 78 apoptotic cells</a></p>
+		<p>DOI: 10.1016/j.bbalip.2003.07.001</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1634, issue&nbsp;1-2 (2003)</p></td>
+	<td>1.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2003.07.001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2003.07.001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2003.07.001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2003.07.001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Casper G Schalkwijk; Alexi Baidoshvili; Coen D.A Stehouwer; Victor W.M van Hinsbergh; Hans W.M Niessen</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2003.07.002">Increased accumulation of the glycoxidation product Nε-(carboxymethyl)lysine in hearts of diabetic patients: generation and characterisation of a monoclonal anti-CML antibody</a></p>
+		<p>DOI: 10.1016/j.bbalip.2003.07.002</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1636, issue&nbsp;2-3 (2004)</p></td>
+	<td>333&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2003.07.002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2003.07.002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2003.07.002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2003.07.002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert F.A Zwaal; Paul Comfurius; Edouard M Bevers</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2003.07.003">Scott syndrome, a bleeding disorder caused by defective scrambling of membrane phospholipids</a></p>
+		<p>DOI: 10.1016/j.bbalip.2003.07.003</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1636, issue&nbsp;2-3 (2004)</p></td>
+	<td>322&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2003.07.003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2003.07.003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2003.07.003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2003.07.003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G.D Sprott; S Larocque; N Cadotte; C.J Dicaire; M McGee; J.R Brisson</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2003.08.001">Novel polar lipids of halophilic eubacterium Planococcus H8 and archaeon Haloferax volcanii</a></p>
+		<p>DOI: 10.1016/j.bbalip.2003.08.001</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1633, issue&nbsp;3 (2003)</p></td>
+	<td>448&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2003.08.001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2003.08.001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2003.08.001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2003.08.001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Roy M. Talbot; Jessica D. del Rio; David S. Leake; Peter D. Weinberg</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2003.08.002">Oxidation affects the flow-induced aggregation of low density lipoprotein and its inhibition by albumin</a></p>
+		<p>DOI: 10.1016/j.bbalip.2003.08.002</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1634, issue&nbsp;1-2 (2003)</p></td>
+	<td>258&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2003.08.002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2003.08.002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2003.08.002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2003.08.002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>YaHua Zhang; André Schneider; Reena Rao; Wendell J. Lu; XueFeng Fan; Linda Davis; Richard M. Breyer; Matthew D. Breyer; YouFei Guan</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2003.08.003">Genomic structure and genitourinary expression of mouse cytosolic prostaglandin E2 synthase gene</a></p>
+		<p>DOI: 10.1016/j.bbalip.2003.08.003</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1634, issue&nbsp;1-2 (2003)</p></td>
+	<td>1.03&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2003.08.003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2003.08.003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2003.08.003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2003.08.003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Armaz Aschrafi; Rochus Franzen; Soheyla Shabahang; Doriano Fabbro; Josef Pfeilschifter; Andrea Huwiler</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2003.08.004">Ceramide induces translocation of protein kinase C-α to the Golgi compartment of human embryonic kidney cells by interacting with the C2 domain</a></p>
+		<p>DOI: 10.1016/j.bbalip.2003.08.004</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1634, issue&nbsp;1-2 (2003)</p></td>
+	<td>1.59&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2003.08.004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2003.08.004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2003.08.004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2003.08.004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marı&amp;amp;#x0301;a Iturralde; Susana Gamen; Julián Pardo; Alberto Bosque; Andrés Piñeiro; Marı&amp;amp;#x0301;a Angeles Alava; Javier Naval; Alberto Anel</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2003.08.005">Saturated free fatty acid release and intracellular ceramide generation during apoptosis induction are closely related processes</a></p>
+		<p>DOI: 10.1016/j.bbalip.2003.08.005</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1634, issue&nbsp;1-2 (2003)</p></td>
+	<td>418&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2003.08.005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2003.08.005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2003.08.005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2003.08.005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anne-Marie Justin; Jean-Claude Kader; Sylvie Collin</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2003.08.006">Synthetic capacity of Arabidopsis phosphatidylinositol synthase 1 expressed in Escherichia coli</a></p>
+		<p>DOI: 10.1016/j.bbalip.2003.08.006</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1634, issue&nbsp;1-2 (2003)</p></td>
+	<td>394&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2003.08.006" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2003.08.006">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2003.08.006">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2003.08.006">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tomoji Nishioka; Rick Havinga; Susumu Tazuma; Frans Stellaard; Folkert Kuipers; Henkjan J Verkade</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2003.08.007">Administration of phosphatidylcholine–cholesterol liposomes partially reconstitutes fat absorption in chronically bile-diverted rats</a></p>
+		<p>DOI: 10.1016/j.bbalip.2003.08.007</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1636, issue&nbsp;2-3 (2004)</p></td>
+	<td>428&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2003.08.007" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2003.08.007">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2003.08.007">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2003.08.007">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michiel H.M van der Sanden; Martin Houweling; Daniël Duijsings; Arie B Vaandrager; Lambert M.G van Golde</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2003.08.008">Inhibition of phosphatidylcholine synthesis is not the primary pathway in hexadecylphosphocholine-induced apoptosis</a></p>
+		<p>DOI: 10.1016/j.bbalip.2003.08.008</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1636, issue&nbsp;2-3 (2004)</p></td>
+	<td>330&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2003.08.008" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2003.08.008">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2003.08.008">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2003.08.008">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Claudia M van Tiel; Martijn Schenning; Gerry T Snoek; Karel W.A Wirtz</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2003.08.009">Overexpression of phosphatidylinositol transfer protein β in NIH3T3 cells has a stimulatory effect on sphingomyelin synthesis and apoptosis</a></p>
+		<p>DOI: 10.1016/j.bbalip.2003.08.009</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1636, issue&nbsp;2-3 (2004)</p></td>
+	<td>384&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2003.08.009" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2003.08.009">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2003.08.009">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2003.08.009">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andrea Huwiler; Cuiyan Xin; Anja-Kristina Brust; Verena A Briner; Josef Pfeilschifter</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2003.08.010">Differential binding of ceramide to MEKK1 in glomerular endothelial and mesangial cells</a></p>
+		<p>DOI: 10.1016/j.bbalip.2003.08.010</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1636, issue&nbsp;2-3 (2004)</p></td>
+	<td>1.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2003.08.010" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2003.08.010">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2003.08.010">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2003.08.010">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Henry A. Choy; Xu-Ping Wang; Michael C. Schotz</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2003.09.001">Reduced atherosclerosis in hormone-sensitive lipase transgenic mice overexpressing cholesterol acceptors</a></p>
+		<p>DOI: 10.1016/j.bbalip.2003.09.001</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1634, issue&nbsp;3 (2003)</p></td>
+	<td>254&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2003.09.001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2003.09.001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2003.09.001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2003.09.001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kerstin Lundell; Kjell Wikvall</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2003.09.002">Gene structure of pig sterol 12α-hydroxylase (CYP8B1) and expression in fetal liver: comparison with expression of taurochenodeoxycholic acid 6α-hydroxylase (CYP4A21)</a></p>
+		<p>DOI: 10.1016/j.bbalip.2003.09.002</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1634, issue&nbsp;3 (2003)</p></td>
+	<td>778&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2003.09.002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2003.09.002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2003.09.002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2003.09.002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ryoko Ninomiya; Keisuke Matsuoka; Yoshikiyo Moroi</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.bbalip.2003.09.003">Micelle formation of sodium chenodeoxycholate and solubilization into the micelles: comparison with other unconjugated bile salts</a></p>
+		<p>DOI: 10.1016/j.bbalip.2003.09.003</p>	</td>
+	<td><p><a href="/scimag/journals/2753">Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids</a><p>volume&nbsp;1634, issue&nbsp;3 (2003)</p></td>
+	<td>693&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.bbalip.2003.09.003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.bbalip.2003.09.003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.bbalip.2003.09.003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.bbalip.2003.09.003">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;716 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 149</span>
+	 <a href="/scimag/?journal=2753&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

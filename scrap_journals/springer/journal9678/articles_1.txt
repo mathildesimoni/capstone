@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1614-5046</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1614-5054</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 16; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 16');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=9678&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">390 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 16</span>
+	 <a href="/scimag/?journal=9678&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Roy Sterritt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0001-5">Autonomic computing</a></p>
+		<p>DOI: 10.1007/s11334-005-0001-5</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>135&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0001-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0001-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0001-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0001-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Antonio Cerone; George J. Milne</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0002-4">Property verification of asynchronous systems</a></p>
+		<p>DOI: 10.1007/s11334-005-0002-4</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>355&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0002-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0002-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0002-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0002-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Phan C. Vinh; Jonathan P. Bowen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0003-3">Continuity aspects of embedded reconfigurable computing</a></p>
+		<p>DOI: 10.1007/s11334-005-0003-3</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>431&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0003-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0003-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0003-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0003-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ali Mili; Frederick Sheldon; Fatma Mili; Jules Desharnais</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0004-2">Recoverability preservation: a measure of last resort</a></p>
+		<p>DOI: 10.1007/s11334-005-0004-2</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>197&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0004-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0004-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0004-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0004-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Norman F. Schneidewind</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0005-1">Predicting risk as a function of risk factors</a></p>
+		<p>DOI: 10.1007/s11334-005-0005-1</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>179&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0005-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0005-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0005-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0005-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean Hartmann; Marlon Vieira; Herbert Foster; Axel Ruder</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0006-0">A UML-based approach to system testing</a></p>
+		<p>DOI: 10.1007/s11334-005-0006-0</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>586&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0006-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0006-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0006-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0006-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mikael Lindvall; Ioana Rus; Forrest Shull; Marvin Zelkowitz; Paolo Donzelli; Atif Memon; Victor Basili; Patricia Costa; Roseanne Tvedt; Lorin Hochstein; Sima Asgari; Chris Ackermann; Dan Pech</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0007-z">An evolutionary testbed for software technology evaluation</a></p>
+		<p>DOI: 10.1007/s11334-005-0007-z</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>158&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0007-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0007-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0007-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0007-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shawn A. Bohner; Mike Hinchey</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0008-y">Introduction to Innovations in System and Software Engineering</a></p>
+		<p>DOI: 10.1007/s11334-005-0008-y</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>92&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0008-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0008-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0008-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0008-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Phillip A. Laplante; Colin J. Neill</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0009-x">Modeling uncertainty in software engineering using rough sets</a></p>
+		<p>DOI: 10.1007/s11334-005-0009-x</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;1, issue&nbsp;1 (2005)</p></td>
+	<td>198&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0009-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0009-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0009-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0009-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jonah Z. Lavi; Joseph Kudish</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0010-4">Systems modeling & requirements specification using ECSAM: an analysis method for embedded & computer-based systems</a></p>
+		<p>DOI: 10.1007/s11334-005-0010-4</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (2005)</p></td>
+	<td>526&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0010-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0010-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0010-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0010-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Suresh Yadla; Jane Huffman Hayes; Alex Dekhtyar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0011-3">Tracing requirements to defect reports: an application of information retrieval techniques</a></p>
+		<p>DOI: 10.1007/s11334-005-0011-3</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (2005)</p></td>
+	<td>317&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0011-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0011-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0011-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0011-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Omolade Saliu; Guenther Ruhe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0012-2">Software release planning for evolving systems</a></p>
+		<p>DOI: 10.1007/s11334-005-0012-2</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (2005)</p></td>
+	<td>350&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0012-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0012-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0012-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0012-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andrew J. Kornecki; Janusz Zalewski</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0013-1">Experimental evaluation of software development tools for safety-critical real-time systems</a></p>
+		<p>DOI: 10.1007/s11334-005-0013-1</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (2005)</p></td>
+	<td>366&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0013-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0013-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0013-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0013-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marcel Oliveira; Ana Cavalcanti; Jim Woodcock</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0014-0">Formal development of industrial-scale systems inCircus</a></p>
+		<p>DOI: 10.1007/s11334-005-0014-0</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (2005)</p></td>
+	<td>515&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0014-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0014-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0014-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0014-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rajesh Mathew; Mohamed Younis; Sameh M. Elsharkawy</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0015-z">Energy-efficient bootstrapping for wireless sensor networks</a></p>
+		<p>DOI: 10.1007/s11334-005-0015-z</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (2005)</p></td>
+	<td>275&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0015-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0015-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0015-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0015-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tiziana Margaria; Harald Raffelt; Bernhard Steffen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0016-y">Knowledge-based relevance filtering for efficient system-level test-based model generation</a></p>
+		<p>DOI: 10.1007/s11334-005-0016-y</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (2005)</p></td>
+	<td>564&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0016-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0016-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0016-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0016-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jonathan Sprinkle; Aaron D. Ames; J. Mikael Eklund; Ian M. Mitchell; S. Shankar Sastry</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0017-x">Online safety calculations for glide-slope recapture</a></p>
+		<p>DOI: 10.1007/s11334-005-0017-x</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (2005)</p></td>
+	<td>1.27&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0017-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0017-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0017-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0017-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Walt Truszkowski; Christopher Rouff; Sidney Bailin; Mike Riley</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0018-9">Progressive autonomy: a method for gradually introducing autonomy into space missions</a></p>
+		<p>DOI: 10.1007/s11334-005-0018-9</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (2005)</p></td>
+	<td>402&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0018-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0018-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0018-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0018-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Denis Gračanin; Krešimir Matković; Mohamed Eltoweissy</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0019-8">Software visualization</a></p>
+		<p>DOI: 10.1007/s11334-005-0019-8</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;1, issue&nbsp;2 (2005)</p></td>
+	<td>137&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0019-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0019-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0019-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0019-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shengchao Qin; Wei-Ngan Chin; Jifeng He; Zongyan Qiu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-005-0020-2">From Statecharts to Verilog: a formal approach to hardware/software co-specification</a></p>
+		<p>DOI: 10.1007/s11334-005-0020-2</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;2, issue&nbsp;1 (2006)</p></td>
+	<td>509&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-005-0020-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-005-0020-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-005-0020-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-005-0020-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Karine Arnout; Bertrand Meyer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-006-0001-0">Pattern Componentization: The Factory Example</a></p>
+		<p>DOI: 10.1007/s11334-006-0001-0</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;2, issue&nbsp;2 (2006)</p></td>
+	<td>281&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-006-0001-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-006-0001-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-006-0001-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-006-0001-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kalpesh Kapoor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-006-0002-z">Formal Analysis of Coupling Hypothesis for Logical Faults</a></p>
+		<p>DOI: 10.1007/s11334-006-0002-z</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;2, issue&nbsp;2 (2006)</p></td>
+	<td>203&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-006-0002-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-006-0002-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-006-0002-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-006-0002-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Markus Bajohr; Tiziana Margaria</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-006-0003-y">MaTRICS: A service-based management tool for remote intelligent configuration of systems</a></p>
+		<p>DOI: 10.1007/s11334-006-0003-y</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;2, issue&nbsp;2 (2006)</p></td>
+	<td>852&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-006-0003-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-006-0003-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-006-0003-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-006-0003-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sue Black</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-006-0004-x">Is ripple effect intuitive? A pilot study</a></p>
+		<p>DOI: 10.1007/s11334-006-0004-x</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;2, issue&nbsp;2 (2006)</p></td>
+	<td>573&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-006-0004-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-006-0004-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-006-0004-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-006-0004-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Antonio Mendes da Silva Filho; Ivanilton Polato</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11334-006-0005-9">Component behavior-based adaptation in embedded software</a></p>
+		<p>DOI: 10.1007/s11334-006-0005-9</p>	</td>
+	<td><p><a href="/scimag/journals/9678">Innovations in Systems and Software Engineering</a><p>volume&nbsp;2, issue&nbsp;3-4 (2006)</p></td>
+	<td>183&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11334-006-0005-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11334-006-0005-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11334-006-0005-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11334-006-0005-9">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">390 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 16</span>
+	 <a href="/scimag/?journal=9678&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

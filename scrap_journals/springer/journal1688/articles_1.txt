@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1688">Applications of Mathematics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0862-7940</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-9109</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 33; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 33');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1688&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">818 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 33</span>
+	 <a href="/scimag/?journal=1688&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Jan Mach</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-004-6401-2">Finite Element Analysis of Free Material Optimization Problem</a></p>
+		<p>DOI: 10.1007/s10492-004-6401-2</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;49, issue&nbsp;4 (2004)</p></td>
+	<td>261&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-004-6401-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-004-6401-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-004-6401-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-004-6401-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Olaf Klein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-004-6402-1">Asymptotic Behaviour for a Phase-Field Model with Hysteresis in One-Dimensional Thermo-Visco-Plasticity</a></p>
+		<p>DOI: 10.1007/s10492-004-6402-1</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;49, issue&nbsp;4 (2004)</p></td>
+	<td>264&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-004-6402-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-004-6402-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-004-6402-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-004-6402-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dag Lukkassen; Jaak Peetre; Lars-Erik Persson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-004-6403-0">On Some Iterated Means Arising in Homogenization Theory</a></p>
+		<p>DOI: 10.1007/s10492-004-6403-0</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;49, issue&nbsp;4 (2004)</p></td>
+	<td>140&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-004-6403-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-004-6403-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-004-6403-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-004-6403-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Petr Procházka; Jiří Šejnoha</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-004-6404-z">Extended Hashin-Shtrikman Variational Principles</a></p>
+		<p>DOI: 10.1007/s10492-004-6404-z</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;49, issue&nbsp;4 (2004)</p></td>
+	<td>162&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-004-6404-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-004-6404-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-004-6404-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-004-6404-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ulf von Kalckreuth; Manfred Krtscha</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-004-6405-y">Stable Solutions to Homogeneous Difference-Differential Equations with Constant Coefficients: Analytical Instruments and an Application to Monetary Theory</a></p>
+		<p>DOI: 10.1007/s10492-004-6405-y</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;49, issue&nbsp;4 (2004)</p></td>
+	<td>141&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-004-6405-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-004-6405-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-004-6405-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-004-6405-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-004-6406-x">Errata</a></p>
+		<p>DOI: 10.1007/s10492-004-6406-x</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;49, issue&nbsp;4 (2004)</p></td>
+	<td>21&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-004-6406-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-004-6406-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-004-6406-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-004-6406-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eduard Feireisl; Josef Málek; Antonín Novotný; Mirko Rokyta; Michael Růžička</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-004-6429-3">Foreword</a></p>
+		<p>DOI: 10.1007/s10492-004-6429-3</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;49, issue&nbsp;6 (2004)</p></td>
+	<td>40&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-004-6429-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-004-6429-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-004-6429-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-004-6429-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rinaldo M. Colombo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-004-6430-x">Wave Front Tracking in Systems of Conservation Laws</a></p>
+		<p>DOI: 10.1007/s10492-004-6430-x</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;49, issue&nbsp;6 (2004)</p></td>
+	<td>362&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-004-6430-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-004-6430-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-004-6430-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-004-6430-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Benoît Perthame</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-004-6431-9">PDE Models for Chemotactic Movements: Parabolic, Hyperbolic and Kinetic</a></p>
+		<p>DOI: 10.1007/s10492-004-6431-9</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;49, issue&nbsp;6 (2004)</p></td>
+	<td>952&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-004-6431-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-004-6431-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-004-6431-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-004-6431-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Růžička</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-004-6432-8">Modeling, Mathematical and Numerical Analysis of Electrorheological Fluids</a></p>
+		<p>DOI: 10.1007/s10492-004-6432-8</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;49, issue&nbsp;6 (2004)</p></td>
+	<td>414&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-004-6432-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-004-6432-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-004-6432-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-004-6432-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Charalambos C. Baniotopoulos; Jaroslav Haslinger; Zuzana Morávková</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-005-0001-7">Mathematical modeling of delamination and nonmonotone friction problems by hemivariational inequalities</a></p>
+		<p>DOI: 10.1007/s10492-005-0001-7</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;50, issue&nbsp;1 (2005)</p></td>
+	<td>322&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-005-0001-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-005-0001-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-005-0001-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-005-0001-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Juan Antonio López Molina; Macarena Trujuillo Guillén</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-005-0002-6">Hyperbolic heat conduction in two semi-infinite bodies in contact</a></p>
+		<p>DOI: 10.1007/s10492-005-0002-6</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;50, issue&nbsp;1 (2005)</p></td>
+	<td>367&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-005-0002-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-005-0002-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-005-0002-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-005-0002-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marzia Bisi; Maria Groppi; Giampiero Spiga</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-005-0003-5">Fluid-dynamic equations for reacting gas mixtures</a></p>
+		<p>DOI: 10.1007/s10492-005-0003-5</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;50, issue&nbsp;1 (2005)</p></td>
+	<td>158&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-005-0003-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-005-0003-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-005-0003-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-005-0003-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michal Vyroai</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-005-0004-4">Kolmogorov equation and large-time behaviour for fractional brownian motion driven linear sde’s</a></p>
+		<p>DOI: 10.1007/s10492-005-0004-4</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;50, issue&nbsp;1 (2005)</p></td>
+	<td>177&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-005-0004-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-005-0004-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-005-0004-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-005-0004-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Salim Yüce; Nuri Kuruoğlu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-005-0005-3">A generalization of the Holditch Theorem for the planar homothetic motions</a></p>
+		<p>DOI: 10.1007/s10492-005-0005-3</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;50, issue&nbsp;2 (2005)</p></td>
+	<td>97&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-005-0005-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-005-0005-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-005-0005-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-005-0005-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ladislav Adamec</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-005-0006-2">A note on a generalization of Diliberto’s Theorem for certain differential equations of higher dimension</a></p>
+		<p>DOI: 10.1007/s10492-005-0006-2</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;50, issue&nbsp;2 (2005)</p></td>
+	<td>132&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-005-0006-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-005-0006-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-005-0006-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-005-0006-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Buhagiar; Emanuel Chetcuti</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-005-0007-1">On complete-cocomplete subspaces of an inner product space</a></p>
+		<p>DOI: 10.1007/s10492-005-0007-1</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;50, issue&nbsp;2 (2005)</p></td>
+	<td>159&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-005-0007-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-005-0007-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-005-0007-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-005-0007-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yan Gao; Xuewen Li</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-005-0008-0">Nonsmooth equations approach to a constrained minimax problem</a></p>
+		<p>DOI: 10.1007/s10492-005-0008-0</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;50, issue&nbsp;2 (2005)</p></td>
+	<td>172&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-005-0008-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-005-0008-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-005-0008-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-005-0008-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anders Holmbom; Nils Svanstedt; Niklas Wellander</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-005-0009-z">Multiscale convergence and reiterated homogenization of parabolic problems</a></p>
+		<p>DOI: 10.1007/s10492-005-0009-z</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;50, issue&nbsp;2 (2005)</p></td>
+	<td>197&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-005-0009-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-005-0009-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-005-0009-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-005-0009-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jaroslav Haslinger; Oldřich Vlach</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-005-0010-6">Signorini problem with a solution dependent coefficient of friction (model with given friction): approximation and numerical realization</a></p>
+		<p>DOI: 10.1007/s10492-005-0010-6</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;50, issue&nbsp;2 (2005)</p></td>
+	<td>315&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-005-0010-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-005-0010-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-005-0010-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-005-0010-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Radim Blaheta</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-005-0011-5">Iterative Methods, Preconditioning & Numerical PDEs (IMET 2004). Preface</a></p>
+		<p>DOI: 10.1007/s10492-005-0011-5</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;50, issue&nbsp;3 (2005)</p></td>
+	<td>27&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-005-0011-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-005-0011-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-005-0011-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-005-0011-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Radim Blaheta; Ivo Marek</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-005-0012-4">Laudatio to Owe Axelsson</a></p>
+		<p>DOI: 10.1007/s10492-005-0012-4</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;50, issue&nbsp;3 (2005)</p></td>
+	<td>50&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-005-0012-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-005-0012-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-005-0012-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-005-0012-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Erik Bangtsson; Maya Neytcheva</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-005-0013-3">Numerical simulations of glacial rebound using preconditioned iterative solution methods</a></p>
+		<p>DOI: 10.1007/s10492-005-0013-3</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;50, issue&nbsp;3 (2005)</p></td>
+	<td>219&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-005-0013-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-005-0013-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-005-0013-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-005-0013-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Igor Bock; Jan Lovisek</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-005-0014-2">On a contact problem for a viscoelastic von Karman plate and its semidiscretization</a></p>
+		<p>DOI: 10.1007/s10492-005-0014-2</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;50, issue&nbsp;3 (2005)</p></td>
+	<td>139&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-005-0014-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-005-0014-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-005-0014-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-005-0014-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Erich Bohl; Ivo Marek</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10492-005-0015-1">Input-output systems in biology and chemistry and a class of mathematical models describing them</a></p>
+		<p>DOI: 10.1007/s10492-005-0015-1</p>	</td>
+	<td><p><a href="/scimag/journals/1688">Applications of Mathematics</a><p>volume&nbsp;50, issue&nbsp;3 (2005)</p></td>
+	<td>196&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10492-005-0015-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10492-005-0015-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10492-005-0015-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10492-005-0015-1">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">818 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 33</span>
+	 <a href="/scimag/?journal=1688&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

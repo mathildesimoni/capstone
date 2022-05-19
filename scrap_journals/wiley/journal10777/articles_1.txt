@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1049-8931</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1234-988X</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 32; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 32');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=10777&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">776 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 32</span>
+	 <a href="/scimag/?journal=10777&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Dr Corrado Barbui; Michela Nosè; Gianluca Rambaldelli; Chiara Bonetto; Deborah Levi; Scott B. Patten; Michele Tansella</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.1">Development of a registry for monitoring psychotropic drug prescriptions: aims, methods and implications for ordinary practice and research</a></p>
+		<p>DOI: 10.1002/mpr.1</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;14, issue&nbsp;3 (2005)</p></td>
+	<td>114&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ioannis Kavasis; Maria Samakouri; Dimitrios Mallis; Aikaterini Terzoudi; Evagelia Papanastassiou; Nikos Tzavaras; Miltos Livaditis</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.10">Translation and validation of the Depression Outcomes Module (DOM) in Greece</a></p>
+		<p>DOI: 10.1002/mpr.10</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;14, issue&nbsp;4 (2005)</p></td>
+	<td>120&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.10" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.10">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.10">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.10">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Professor Dr Hans-Ulrich Wittchen; Jürgen Hoyer; Robert Friis</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.100">Generalized anxiety disorder – a risk factor for depression?</a></p>
+		<p>DOI: 10.1002/mpr.100</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;10, issue&nbsp;1 (2001)</p></td>
+	<td>472&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.100" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.100">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.100">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.100">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniel Chisholm; Marianne Amir; Marcelo Fleck; Helen Herrman; Aleksandr Lomachenkov; Ramona Lucas; Donald Patrick</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.101">Longitudinal Investigation of Depression Outcomes (the LIDO study) in primary care in six countries: comparative assessment of local health systems and resource utilization</a></p>
+		<p>DOI: 10.1002/mpr.101</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;10, issue&nbsp;2 (2001)</p></td>
+	<td>1.36&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.101" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.101">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.101">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.101">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rene Carbonneau; Michael Rutter; Emily Simonoff; Judy L. Silberg; Hermine H. Maes; Lindon J. Eaves</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.102">The Twin Inventory of Relationships and Experiences (TIRE): psychometric properties of a measure of the non-shared and shared environmental experiences of twins and singletons</a></p>
+		<p>DOI: 10.1002/mpr.102</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;10, issue&nbsp;2 (2001)</p></td>
+	<td>95&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.102" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.102">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.102">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.102">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Katrin Reuter; Martin Härter</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.103">Screening for mental disorders in cancer patients – discriminant validity of HADS and GHQ-12 assessed by standardized clinical interview</a></p>
+		<p>DOI: 10.1002/mpr.103</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;10, issue&nbsp;2 (2001)</p></td>
+	<td>3.84&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.103" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.103">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.103">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.103">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Maria Orlando; M. Audrey Burnam; Cathy D. Sherbourne; Sally C. Morton; Andrew S. London; Ron D. Hays; Eric G. Bing</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.104">Brief screening of psychiatric disorders among a national sample of HIV-positive adults: concordance between the Composite International Diagnostic Interview (CIDI) and the CIDI Short Form (CIDI-SF)</a></p>
+		<p>DOI: 10.1002/mpr.104</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;10, issue&nbsp;2 (2001)</p></td>
+	<td>8.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.104" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.104">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.104">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.104">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Professor J. Wancata; M. Krautgartner; R. Alexandrowicz; U. Meise</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.105">General Health Questionnaire (GHQ) in general hospitals: selecting a set of items using a stepwise hierarchical procedure</a></p>
+		<p>DOI: 10.1002/mpr.105</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;10, issue&nbsp;2 (2001)</p></td>
+	<td>82&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.105" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.105">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.105">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.105">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.106">‘Reliability in multi-site psychiatric studies’, by Morven Leese et al., published in IJMPR 10(2)</a></p>
+		<p>DOI: 10.1002/mpr.106</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;10, issue&nbsp;2 (2001)</p></td>
+	<td>33&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.106" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.106">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.106">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.106">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Art M. Noda; Helena Chmura Kraemer; Jerome A. Yesavage; Vyjeyanthi S. Periyakoil</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.107">How many raters are needed for a reliable diagnosis?</a></p>
+		<p>DOI: 10.1002/mpr.107</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;10, issue&nbsp;3 (2001)</p></td>
+	<td>2.43&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.107" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.107">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.107">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.107">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joanna Moncrieff; Rachel Churchill; D. Colin Drummond; Hugh McGuire</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.108">Development of a quality assessment instrument for trials of treatments for depression and neurosis</a></p>
+		<p>DOI: 10.1002/mpr.108</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;10, issue&nbsp;3 (2001)</p></td>
+	<td>60&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.108" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.108">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.108">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.108">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vibeke Noerholm; Lillian Svensson; Per Bech</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.109">Individual quality of life in schizophrenic patients – description and applicability of GRIDQoL in a computer-based version</a></p>
+		<p>DOI: 10.1002/mpr.109</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;10, issue&nbsp;3 (2001)</p></td>
+	<td>1.90&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.109" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.109">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.109">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.109">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lamiya Samad; Chris Hollis; Martin Prince; Robert Goodman</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.11">International Journal of Methods in Psychiatric Research, 2005; Vol.14, No.3, 158–166</a></p>
+		<p>DOI: 10.1002/mpr.11</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;14, issue&nbsp;4 (2005)</p></td>
+	<td>47&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.11" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.11">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.11">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.11">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dinesh Bhugra; Oyedeji Ayonrinde; Rosemarie Mallett; Julian Leff</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.110">Measurement of racial life events in schizophrenia: development of a new schedule – a pilot study</a></p>
+		<p>DOI: 10.1002/mpr.110</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;10, issue&nbsp;3 (2001)</p></td>
+	<td>56&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.110" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.110">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.110">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.110">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ajit Shah; Katharina Hoxey</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.111">Depression in acutely medically ill elderly inpatients: prevalence, correlates and longitudinal stability</a></p>
+		<p>DOI: 10.1002/mpr.111</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;10, issue&nbsp;3 (2001)</p></td>
+	<td>65&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.111" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.111">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.111">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.111">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carlo Faravelli; Daniela Bartolozzi; Laura Cimminiello; Cristiana Cecchi; Fiammetta Cosci; Donato D&#039;Adamo; Cinzia Di Matteo; Carlo Di Primio; Cecilia Fabbri; Beatrice Lo Iacono; Alessandra Paionni; Angela Perone; Simone Rosi; Maria Alessandra Scarpato; Andrea Serena; Alejandra Taberna</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.112">The Florence Psychiatric Interview</a></p>
+		<p>DOI: 10.1002/mpr.112</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;10, issue&nbsp;4 (2001)</p></td>
+	<td>84&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.112" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.112">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.112">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.112">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Klaus Schmeck; Kirstin Goth; Fritz Poustka; Robert C. Cloninger</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.113">Reliability and validity of the Junior Temperament and Character Inventory</a></p>
+		<p>DOI: 10.1002/mpr.113</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;10, issue&nbsp;4 (2001)</p></td>
+	<td>75&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.113" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.113">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.113">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.113">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marc Corbière; Alain D. Lesage; Daniel Reinharz; André-Pierre Contandriopoulos</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.114">A French, abridged version of the Hospitals and Hostels Practices Profile Schedule</a></p>
+		<p>DOI: 10.1002/mpr.114</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;10, issue&nbsp;4 (2001)</p></td>
+	<td>59&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.114" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.114">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.114">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.114">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Falissard; E. Corruble; Luc Mallet; P. Hardy</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.115">Focused principal component analysis: a promising approach for confirming findings of exploratory analysis?</a></p>
+		<p>DOI: 10.1002/mpr.115</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;10, issue&nbsp;4 (2001)</p></td>
+	<td>803&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.115" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.115">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.115">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.115">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jae Eun Lee; Jung Hye Sung</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.116">Rasch analysis of the Korean version of the VF-14: calibration and unidimensionality</a></p>
+		<p>DOI: 10.1002/mpr.116</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;10, issue&nbsp;4 (2001)</p></td>
+	<td>1.97&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.116" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.116">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.116">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.116">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jae-Min Kim; Martin James Prince; Il-Seon Shin; Professor Jin-Sang Yoon</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.117">Validity of Korean form of Geriatric Depression Scale (KGDS) among cognitively impaired Korean elderly and development of a 15-item short version (KGDS-15)</a></p>
+		<p>DOI: 10.1002/mpr.117</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;10, issue&nbsp;4 (2001)</p></td>
+	<td>58&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.117" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.117">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.117">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.117">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Frank Jacobi; Hans-Ulrich Wittchen; Christoph Hölting; Sieghard Sommer; Roselind Lieb; Michael Höfler; Hildegard Pfister</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.118">Estimating the prevalence of mental and somatic disorders in the community: aims and methods of the German National Health Interview and Examination Survey</a></p>
+		<p>DOI: 10.1002/mpr.118</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;11, issue&nbsp;1 (2002)</p></td>
+	<td>9.43&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.118" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.118">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.118">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.118">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Linden; C. Borgmann; R.W. Dittmann</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.119">Cognitive impairment in depressed outpatients as measured with the Dementia Checklist: a simple method for primary care and in field research</a></p>
+		<p>DOI: 10.1002/mpr.119</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;11, issue&nbsp;1 (2002)</p></td>
+	<td>14.67&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.119" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.119">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.119">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.119">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Professor Dr Hans-Ulrich Wittchen; Dr Kathleen R. Merikangas</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.12">Editorial</a></p>
+		<p>DOI: 10.1002/mpr.12</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;14, issue&nbsp;1 (2005)</p></td>
+	<td>76&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.12" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.12">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.12">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.12">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Małgorzata Rzewuska</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fmpr.120">Validity and reliability of the Polish version of the Positive and Negative Syndrome Scale (PANSS)</a></p>
+		<p>DOI: 10.1002/mpr.120</p>	</td>
+	<td><p><a href="/scimag/journals/10777">International Journal of Methods in Psychiatric Research</a><p>volume&nbsp;11, issue&nbsp;1 (2002)</p></td>
+	<td>59&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fmpr.120" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/mpr.120">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/mpr.120">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/mpr.120">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">776 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 32</span>
+	 <a href="/scimag/?journal=10777&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

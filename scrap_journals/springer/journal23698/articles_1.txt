@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/23698">The HUGO Journal</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1877-6558</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1877-6566</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 5; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 5');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=23698&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">119 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 5</span>
+	 <a href="/scimag/?journal=23698&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Nadia Chuzhanova; David N. Cooper; Claude Férec; Jian-Min Chen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-006-9000-3">Searching for potential microRNA-binding site mutations amongst known disease-associated 3′ UTR variants</a></p>
+		<p>DOI: 10.1007/s11568-006-9000-3</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;1, issue&nbsp;1-2 (2007)</p></td>
+	<td>390&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-006-9000-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-006-9000-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-006-9000-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-006-9000-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dhavendra Kumar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-007-9001-x">Genome Mirror-2006</a></p>
+		<p>DOI: 10.1007/s11568-007-9001-x</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;1, issue&nbsp;1-2 (2007)</p></td>
+	<td>121&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-007-9001-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-007-9001-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-007-9001-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-007-9001-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jian-Min Chen; Claude Férec; David N. Cooper</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-007-9002-9">Mechanism ofAluintegration into the human genome</a></p>
+		<p>DOI: 10.1007/s11568-007-9002-9</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;1, issue&nbsp;1-2 (2007)</p></td>
+	<td>3.88&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-007-9002-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-007-9002-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-007-9002-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-007-9002-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dhavendra Kumar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-007-9003-8">Genomic medicine: a new frontier of medicine in the twenty first century</a></p>
+		<p>DOI: 10.1007/s11568-007-9003-8</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;1, issue&nbsp;1-2 (2007)</p></td>
+	<td>109&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-007-9003-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-007-9003-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-007-9003-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-007-9003-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ming Zhan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-007-9004-7">Deciphering modular and dynamic behaviors of transcriptional networks</a></p>
+		<p>DOI: 10.1007/s11568-007-9004-7</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;1, issue&nbsp;1-2 (2007)</p></td>
+	<td>325&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-007-9004-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-007-9004-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-007-9004-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-007-9004-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sarah Wordsworth; James Buchanan; Regina Regan; Val Davison; Kim Smith; Sara Dyer; Carolyn Campbell; Edward Blair; Eddy Maher; Jenny Taylor; Samantha J. L. Knight</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-007-9005-6">Diagnosing idiopathic learning disability: a cost-effectiveness analysis of microarray technology in the National Health Service of the United Kingdom</a></p>
+		<p>DOI: 10.1007/s11568-007-9005-6</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;1, issue&nbsp;1-2 (2007)</p></td>
+	<td>326&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-007-9005-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-007-9005-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-007-9005-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-007-9005-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andrei Anghel; Bogdan Mut-Vitcu; Lorand Savu; Catalin Marian; Edward Seclaman; Raluca Iman; Adriana-Maria Neghina; Stefan I. Dragulescu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-007-9006-5">Clinical improvement after treatment with VEGF165in patients with severe chronic lower limb ischaemia</a></p>
+		<p>DOI: 10.1007/s11568-007-9006-5</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;1, issue&nbsp;1-2 (2007)</p></td>
+	<td>314&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-007-9006-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-007-9006-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-007-9006-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-007-9006-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Diogo André Pilger; Patrícia Luciana da Costa Lopez; Fábio Segal; Sandra Leistner-Segal</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-007-9007-4">Analysis of R213R and 13494 g→a polymorphisms of the p53 gene in individuals with esophagitis, intestinal metaplasia of the cardia and Barrett’s Esophagus compared with a control group</a></p>
+		<p>DOI: 10.1007/s11568-007-9007-4</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;1, issue&nbsp;1-2 (2007)</p></td>
+	<td>189&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-007-9007-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-007-9007-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-007-9007-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-007-9007-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sabine Leybrand; Eva Rossier; Gotthold Barbi; David N. Cooper; Hildegard Kehrer-Sawatzki</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-007-9008-3">Molecular cytogenetic characterization of two independent karyotypic anomalies in a patient with severe mental retardation and juvenile idiopathic arthritis</a></p>
+		<p>DOI: 10.1007/s11568-007-9008-3</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;1, issue&nbsp;1-2 (2007)</p></td>
+	<td>232&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-007-9008-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-007-9008-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-007-9008-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-007-9008-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. J. Weatherall</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-007-9009-2">Foreword</a></p>
+		<p>DOI: 10.1007/s11568-007-9009-2</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;1, issue&nbsp;1-2 (2007)</p></td>
+	<td>77&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-007-9009-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-007-9009-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-007-9009-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-007-9009-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Min Fang; Sue Ann Wee; Karyn Ronski; Hongran Fan; Shiying Tao; Qun Lin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-007-9010-9">Evidence ofEGR1as a differentially expressed gene among proliferative skin diseases</a></p>
+		<p>DOI: 10.1007/s11568-007-9010-9</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;1, issue&nbsp;1-2 (2007)</p></td>
+	<td>563&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-007-9010-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-007-9010-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-007-9010-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-007-9010-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joshua Merritt; Kim G. Roberts; James A. Butz; Jeremy S. Edwards</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-007-9011-8">Parallel analysis of tetramerization domain mutants of the human p53 protein using PCR colonies</a></p>
+		<p>DOI: 10.1007/s11568-007-9011-8</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;1, issue&nbsp;3-4 (2007)</p></td>
+	<td>357&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-007-9011-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-007-9011-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-007-9011-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-007-9011-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sandra Mahr; Brigitte Müller-Hilke</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-007-9012-7">Transcriptional activity of theRHOBgene is influenced by regulatory polymorphisms in its promoter region</a></p>
+		<p>DOI: 10.1007/s11568-007-9012-7</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;1, issue&nbsp;3-4 (2007)</p></td>
+	<td>244&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-007-9012-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-007-9012-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-007-9012-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-007-9012-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dhavendra Kumar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-007-9013-6">From evidence-based medicine to genomic medicine</a></p>
+		<p>DOI: 10.1007/s11568-007-9013-6</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;1, issue&nbsp;3-4 (2007)</p></td>
+	<td>282&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-007-9013-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-007-9013-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-007-9013-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-007-9013-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dhavendra Kumar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-007-9014-5">Genome mirror-2007</a></p>
+		<p>DOI: 10.1007/s11568-007-9014-5</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;1, issue&nbsp;3-4 (2007)</p></td>
+	<td>102&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-007-9014-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-007-9014-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-007-9014-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-007-9014-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Muin J. Khoury; Linda A. Bradley</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-007-9015-4">Why should genomic medicine become more evidence-based?</a></p>
+		<p>DOI: 10.1007/s11568-007-9015-4</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;1, issue&nbsp;3-4 (2007)</p></td>
+	<td>127&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-007-9015-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-007-9015-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-007-9015-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-007-9015-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kevin McDonald; Rachel Iredale; Gary Higgs</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-008-9016-y">The geography of genetics: an analysis of referral patterns to a cancer genetics service</a></p>
+		<p>DOI: 10.1007/s11568-008-9016-y</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;1, issue&nbsp;3-4 (2007)</p></td>
+	<td>481&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-008-9016-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-008-9016-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-008-9016-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-008-9016-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hamza Aziz; Aimee Zaas; Geoffrey S. Ginsburg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-008-9017-x">Peripheral blood gene expression profiling for cardiovascular disease assessment</a></p>
+		<p>DOI: 10.1007/s11568-008-9017-x</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;1, issue&nbsp;3-4 (2007)</p></td>
+	<td>172&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-008-9017-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-008-9017-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-008-9017-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-008-9017-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mikhail G. Dozmorov; Qing Yang; Adam Matwalli; Robert E. Hurst; Daniel J. Culkin; Bradley P. Kropp; Hsueh-Kung Lin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-008-9018-9">5α-androstane-3α,17β-diol selectively activates the canonical PI3K/AKT pathway: a bioinformatics-based evidence for androgen-activated cytoplasmic signaling</a></p>
+		<p>DOI: 10.1007/s11568-008-9018-9</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;1, issue&nbsp;3-4 (2007)</p></td>
+	<td>340&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-008-9018-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-008-9018-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-008-9018-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-008-9018-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. George Priya Doss; R. Rajasekaran; C. Sudandiradoss; K. Ramanathan; R. Purohit; R. Sethumadhavan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-008-9019-8">A novel computational and structural analysis of nsSNPs inCFTRgene</a></p>
+		<p>DOI: 10.1007/s11568-008-9019-8</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;2, issue&nbsp;1-2 (2008)</p></td>
+	<td>283&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-008-9019-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-008-9019-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-008-9019-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-008-9019-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jeantine E. Lunshof; Ruth Chadwick; George M. Church</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-008-9020-2">Hippocrates revisited? Old ideals and new realities</a></p>
+		<p>DOI: 10.1007/s11568-008-9020-2</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;2, issue&nbsp;1-2 (2008)</p></td>
+	<td>135&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-008-9020-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-008-9020-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-008-9020-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-008-9020-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yoshiji Yamada</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-008-9021-1">The electronic health record as a primary source of clinical phenotype for genetic epidemiological studies</a></p>
+		<p>DOI: 10.1007/s11568-008-9021-1</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;2, issue&nbsp;1-2 (2008)</p></td>
+	<td>79&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-008-9021-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-008-9021-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-008-9021-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-008-9021-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dhavendra Kumar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-008-9022-0">Genome mirror 2008</a></p>
+		<p>DOI: 10.1007/s11568-008-9022-0</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;2, issue&nbsp;1-2 (2008)</p></td>
+	<td>169&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-008-9022-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-008-9022-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-008-9022-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-008-9022-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Craig Wood; Christopher D. Still; Xin Chu; Meghan Susek; Robert Erdman; Christina Hartman; Stephanie Yeager; Mary Ann Blosky; Wanda Krum; David J. Carey; Kimberly A. Skelding; Peter Benotti; Walter F. Stewart; Glenn S. Gerhard</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-008-9023-z">Association of chromosome 9p21 SNPs with cardiovascular phenotypes in morbid obesity using electronic health record data</a></p>
+		<p>DOI: 10.1007/s11568-008-9023-z</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;2, issue&nbsp;1-2 (2008)</p></td>
+	<td>468&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-008-9023-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-008-9023-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-008-9023-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-008-9023-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ming Ta Michael Lee; Anne Chun-Hui Tsai; Ching-Heng Chou; Feng-Mei Sun; Li-Chen Huang; Pauline Yen; Chyi-Chyang Lin; Chih-Yang Liu; Jer-Yuarn Wu; Yuan-Tsong Chen; Fuu-Jen Tsai</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11568-008-9024-y">Intragenic microdeletion ofRUNX2is a novel mechanism for cleidocranial dysplasia</a></p>
+		<p>DOI: 10.1007/s11568-008-9024-y</p>	</td>
+	<td><p><a href="/scimag/journals/23698">The HUGO Journal</a><p>volume&nbsp;2, issue&nbsp;1-2 (2008)</p></td>
+	<td>252&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11568-008-9024-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11568-008-9024-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11568-008-9024-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11568-008-9024-y">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">119 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 5</span>
+	 <a href="/scimag/?journal=23698&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

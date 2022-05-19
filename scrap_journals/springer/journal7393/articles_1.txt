@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/7393">Expert Evidence</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0965-3643</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-9694</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 4; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 4');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=7393&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">78 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 4</span>
+	 <a href="/scimag/?journal=7393&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Claire Nee</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008804712356">Classifying Arsonists -- Offender Behaviour and Characteristics</a></p>
+		<p>DOI: 10.1023/a:1008804712356</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;6, issue&nbsp;4 (1998)</p></td>
+	<td>13&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008804712356" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008804712356">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008804712356">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008804712356">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark Kebbell</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008805515747">Eyewitness Confidence and Accuracy</a></p>
+		<p>DOI: 10.1023/a:1008805515747</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;6, issue&nbsp;4 (1998)</p></td>
+	<td>8&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008805515747" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008805515747">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008805515747">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008805515747">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Frans Willem Winkel; Aldert Vrij</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008808100199">Who is in Need of Victim Support?: The Issue of Accountable, Empirically Validated Selection and Victim Referral</a></p>
+		<p>DOI: 10.1023/a:1008808100199</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;6, issue&nbsp;1 (1998)</p></td>
+	<td>215&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008808100199" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008808100199">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008808100199">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008808100199">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ingrid Lunt; Bob Denman</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008813730802">Legal responsibilities for educational psychologists</a></p>
+		<p>DOI: 10.1023/a:1008813730802</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;6, issue&nbsp;2 (1998)</p></td>
+	<td>65&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008813730802" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008813730802">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008813730802">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008813730802">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Daniel Yarmey</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008818205752">Probative v. prejudicial value of eyewitness memory research</a></p>
+		<p>DOI: 10.1023/a:1008818205752</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;5, issue&nbsp;3 (1997)</p></td>
+	<td>712&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008818205752" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008818205752">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008818205752">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008818205752">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert F. Schopp; Marc Pearce; Mario J. Scalora</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008820318005">Expert Testimony and Sexual Predator Statutes after Hendricks</a></p>
+		<p>DOI: 10.1023/a:1008820318005</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;6, issue&nbsp;1 (1998)</p></td>
+	<td>82&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008820318005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008820318005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008820318005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008820318005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>George K. Barr; Ariba Bd</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008822306661">The search for verbal fingerprints</a></p>
+		<p>DOI: 10.1023/a:1008822306661</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;5, issue&nbsp;3 (1997)</p></td>
+	<td>230&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008822306661" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008822306661">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008822306661">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008822306661">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lucy Akehurst</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008824320481">Dowdall, G.W, Babbie, E. and Halley, F., Adventures in Criminal Justice Research: Data Analysis Using SPSS for Windows</a></p>
+		<p>DOI: 10.1023/a:1008824320481</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;6, issue&nbsp;3 (1998)</p></td>
+	<td>9&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008824320481" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008824320481">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008824320481">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008824320481">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Daniel Yarmey</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008826227184">Police as Witnesses</a></p>
+		<p>DOI: 10.1023/a:1008826227184</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;6, issue&nbsp;3 (1998)</p></td>
+	<td>12&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008826227184" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008826227184">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008826227184">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008826227184">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark Kebbell</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008830600464">The Influence of Co-Witness Information on Witness Accuracy</a></p>
+		<p>DOI: 10.1023/a:1008830600464</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;6, issue&nbsp;2 (1998)</p></td>
+	<td>10&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008830600464" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008830600464">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008830600464">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008830600464">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Brian R Clifford</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008831120514">A commentary on Ebbesen and Konecni‘s ‘Eyewitness memory research: Probative v. prejudicial value‘</a></p>
+		<p>DOI: 10.1023/a:1008831120514</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;5, issue&nbsp;4 (1997)</p></td>
+	<td>257&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008831120514" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008831120514">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008831120514">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008831120514">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B.R. Clifford</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008834013918">Children vs. Adults: Showups vs. Lineups</a></p>
+		<p>DOI: 10.1023/a:1008834013918</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;6, issue&nbsp;2 (1998)</p></td>
+	<td>22&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008834013918" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008834013918">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008834013918">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008834013918">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Clare Wilson</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008834701373">Children's Accounts</a></p>
+		<p>DOI: 10.1023/a:1008834701373</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;6, issue&nbsp;2 (1998)</p></td>
+	<td>9&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008834701373" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008834701373">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008834701373">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008834701373">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dr Aldert Vrij; Sally Graham</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008835204584">Individual differences between liars and the ability to detect lies</a></p>
+		<p>DOI: 10.1023/a:1008835204584</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;5, issue&nbsp;4 (1997)</p></td>
+	<td>350&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008835204584" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008835204584">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008835204584">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008835204584">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark Kebbell</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008835826355">Predicting the Likelihood of a Confession</a></p>
+		<p>DOI: 10.1023/a:1008835826355</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;6, issue&nbsp;4 (1998)</p></td>
+	<td>8&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008835826355" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008835826355">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008835826355">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008835826355">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Aldert Vrij</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008837629105">Mistakes at Lineups</a></p>
+		<p>DOI: 10.1023/a:1008837629105</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;6, issue&nbsp;4 (1998)</p></td>
+	<td>8&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008837629105" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008837629105">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008837629105">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008837629105">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martine Powell</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008838802281">Peer Support and Children's Memory</a></p>
+		<p>DOI: 10.1023/a:1008838802281</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;6, issue&nbsp;3 (1998)</p></td>
+	<td>11&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008838802281" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008838802281">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008838802281">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008838802281">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Amina Memon</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008840813175">Childhood Trauma</a></p>
+		<p>DOI: 10.1023/a:1008840813175</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;6, issue&nbsp;4 (1998)</p></td>
+	<td>8&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008840813175" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008840813175">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008840813175">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008840813175">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pam Newlands</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008854216394">Witnesses' Descriptions of Offenders</a></p>
+		<p>DOI: 10.1023/a:1008854216394</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;6, issue&nbsp;2 (1998)</p></td>
+	<td>14&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008854216394" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008854216394">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008854216394">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008854216394">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eitan Elaad</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008855511254">The Challenge of the Concealed Knowledge Polygraph Test</a></p>
+		<p>DOI: 10.1023/a:1008855511254</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;6, issue&nbsp;3 (1998)</p></td>
+	<td>88&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008855511254" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008855511254">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008855511254">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008855511254">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Catherine Hyde</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008858122208">Expert Evidence for the Practical Prosecutor</a></p>
+		<p>DOI: 10.1023/a:1008858122208</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;6, issue&nbsp;3 (1998)</p></td>
+	<td>46&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008858122208" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008858122208">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008858122208">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008858122208">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J.L. Jackson; R. Sijlbing; M.G. Thiecke</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008870222591">The role of human memory processes in witness reporting</a></p>
+		<p>DOI: 10.1023/a:1008870222591</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;5, issue&nbsp;3 (1997)</p></td>
+	<td>654&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008870222591" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008870222591">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008870222591">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008870222591">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Clare MacMartin; A. Daniel Yarmey</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008870515308">Repression, Dissociation, and the Recovered Memory Debate: Constructing Scientific Evidence and Expertise</a></p>
+		<p>DOI: 10.1023/a:1008870515308</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;6, issue&nbsp;3 (1998)</p></td>
+	<td>82&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008870515308" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008870515308">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008870515308">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008870515308">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Brian A. Thomas-Peter; Sarah Warren</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008871314661">Legal Responsibilities of Forensic Psychologists</a></p>
+		<p>DOI: 10.1023/a:1008871314661</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;6, issue&nbsp;2 (1998)</p></td>
+	<td>97&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008871314661" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008871314661">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008871314661">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008871314661">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael E. Lamb; Kathleen J. Sternberg; Ross A. Thompson</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1008873721682">The effects of divorce and custody arrangements on children's behaviour, development and adjustment</a></p>
+		<p>DOI: 10.1023/a:1008873721682</p>	</td>
+	<td><p><a href="/scimag/journals/7393">Expert Evidence</a><p>volume&nbsp;5, issue&nbsp;3 (1997)</p></td>
+	<td>461&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1008873721682" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1008873721682">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1008873721682">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1008873721682">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">78 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 4</span>
+	 <a href="/scimag/?journal=7393&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

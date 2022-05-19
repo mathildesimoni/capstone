@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/23290">Terra Nova</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0954-4879</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1365-3121</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 95; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 95');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=23290&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;354 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 95</span>
+	 <a href="/scimag/?journal=23290&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Timothy P. Jones; Steven M. Fortier; Volker Mosbrugger; Jochen Roessler; Thorsen Utescher; Abdul R. Ashraf</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-1.x">13C/12C ratio double cyclicity in a Miocene browncoal: isotopic signals and orbital forcing</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-1.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;1 (1997)</p></td>
+	<td>156&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-1.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-1.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-1.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-1.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hébert</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-10.x">Mineral and fluid thermobarometry within the Variscan shearzone of Monteferro-El Rosal (NW Galicia, Spain): a preliminary investigation</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-10.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;1 (1997)</p></td>
+	<td>256&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-10.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-10.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-10.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-10.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Arkadiy S.  Karakhanian; Vladimir G.  Trifonov; Ovanes G.  Azizbekian; David G.  Hondkarian</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-11.x">Relationship of late Quaternary tectonics and volcanism in the Khanarassar active fault zone, the Armenian Upland</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-11.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;3 (1997)</p></td>
+	<td>284&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-11.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-11.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-11.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-11.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Claudio Faccenna; Massimo Mattei; Renato Funiciello; Laurent Jolivet</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-12.x">Styles of back-arc extension in the Central Mediterranean</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-12.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;3 (1997)</p></td>
+	<td>321&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-12.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-12.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-12.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-12.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J.  Fruehn; R. S.  White; T. A.  Minshull</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-13.x">Internal deformation and compaction of the Makran accretionary wedge</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-13.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;3 (1997)</p></td>
+	<td>509&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-13.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-13.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-13.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-13.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andreas Klügel; Thor H.  Hansteen; Hans-Ulrich Schmincke</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-15.x">Rates of magma ascent and depths of magma reservoirs beneath La Palma (Canary Islands)</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-15.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;3 (1997)</p></td>
+	<td>267&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-15.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-15.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-15.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-15.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wolf Meinken; Ingrid Stober</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-16.x">Permeability distribution in the Quaternary of the Upper Rhine glacio-fluvial aquifer</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-16.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;3 (1997)</p></td>
+	<td>272&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-16.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-16.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-16.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-16.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. A.  Jacobs</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-17.x">The Earth’s inner core</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-17.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;3 (1997)</p></td>
+	<td>212&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-17.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-17.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-17.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-17.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carlo Doglioni; Erwan Gueguen; Francesc Sàbat; Manuel Fernandez</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-18.x">The Western Mediterranean extensional basins and the Alpine orogen</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-18.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;3 (1997)</p></td>
+	<td>270&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-18.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-18.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-18.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-18.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Maria Mutti; Daniel Bernoulli; Peter Stille</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-19.x">Temperate carbonate platform drowning linked to Miocene oceanographic events: Maiella platform margin, Italy</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-19.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;3 (1997)</p></td>
+	<td>314&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-19.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-19.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-19.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-19.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christopher R. Fielding; Christopher J. Stephens; Rodney J. Holcombe</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-2.x">Submarine mass-wasting deposits as an indicator of the onset of foreland thrust loading—Late Permian Bowen Basin, Queensland, Australia</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-2.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;1 (1997)</p></td>
+	<td>196&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-2.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-2.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-2.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-2.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Elizabeth A.  Eide; Trond H.  Torsvik; Torgeir B.  Andersen</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-21.x">Absolute dating of brittle fault movements: Late Permian and late Jurassic extensional fault breccias in western Norway</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-21.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;3 (1997)</p></td>
+	<td>300&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-21.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-21.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-21.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-21.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. A. Vera; J. M. Molina; P. Montero; F. Bea</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-22.x">Jurassic guyots on the Southern Iberian Continental Margin: a model of isolated carbonate platforms on volcanic submarine edifices</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-22.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;4 (1997)</p></td>
+	<td>284&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-22.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-22.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-22.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-22.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hartwig Frimmel</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-23.x">Detrital origin of hydrothermal Witwatersrand gold—a review</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-23.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;4 (1997)</p></td>
+	<td>315&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-23.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-23.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-23.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-23.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>André Michard; Bruno Goffé; Mohamed Bouybaouene; Omar Saddiqi</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-24.x">Late Hercynian–Mesozoic thinning in the Alboran domain: metamorphic data from the northern Rif, Morocco</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-24.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;4 (1997)</p></td>
+	<td>277&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-24.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-24.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-24.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-24.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin Meschede; Ulrich Asprion; Klaus Reicherter</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-25.x">Visualization of tectonic structures in shallow-depth high-resolution ground-penetrating radar (GPR) profiles</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-25.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;4 (1997)</p></td>
+	<td>313&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-25.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-25.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-25.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-25.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pierre Cartigny; Stuart Boyd; Jeff. Harris; Marc Javoy</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-26.x">Nitrogen isotopes in peridotitic diamonds from Fuxian, China: the mantle signature</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-26.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;4 (1997)</p></td>
+	<td>295&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-26.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-26.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-26.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-26.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Helmut Echtler; Ralf Hetzel Hetzel</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-27.x">Main Uralian Thrust and Main Uralian Normal Fault: non-extensional Palaeozoic high-P rock exhumation, oblique collision, and normal faulting in the Southern Urals</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-27.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;4 (1997)</p></td>
+	<td>323&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-27.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-27.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-27.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-27.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Gueguen; C. Doglioni; M. Fernandez</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-28.x">Lithospheric boudinage in the Western Mediterranean back-arc basin</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-28.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;4 (1997)</p></td>
+	<td>267&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-28.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-28.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-28.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-28.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Fischer; R. Schneider; P. J. Müller; G. Wefer</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-29.x">Anthropogenic CO2 in Southern Ocean surface waters: evidence from stable organic carbon isotopes</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-29.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;4 (1997)</p></td>
+	<td>283&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-29.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-29.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-29.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-29.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yotzo Yanev; Jacques-Marie Bardintzeff</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-3.x">Petrology, volcanology and metallogeny of Palaeogene collision-related volcanism of the Eastern Rhodopes (Bulgaria)</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-3.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;1 (1997)</p></td>
+	<td>346&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-3.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-3.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-3.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-3.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Rochette</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-30.x">Moons’ magnetism: from Io’s and Ganymede’s present magnetic signatures to the ancient lunar dynamo</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-30.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;4 (1997)</p></td>
+	<td>254&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-30.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-30.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-30.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-30.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. X. Peng; J. L. Van Genderen; G. F. Kang; H. Y. Guan; Y. J. Tan</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-31.x">Estimating the depth of underground coal fires using data integration techniques</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-31.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;4 (1997)</p></td>
+	<td>283&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-31.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-31.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-31.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-31.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hikaru Iwamori</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-4.x">Compression melting in subduction zones</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-4.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;1 (1997)</p></td>
+	<td>257&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-4.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-4.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-4.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-4.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Biella; R. Polino; R. de Franco; P.M. Rossi; P. Clari; A. Corsi; R. Gelati</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1365-3121.1997.d01-5.x">The crustal structure of the western Po plain: reconstruction from integrated geological and seismic data</a></p>
+		<p>DOI: 10.1046/j.1365-3121.1997.d01-5.x</p>	</td>
+	<td><p><a href="/scimag/journals/23290">Terra Nova</a><p>volume&nbsp;9, issue&nbsp;1 (1997)</p></td>
+	<td>285&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1365-3121.1997.d01-5.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1365-3121.1997.d01-5.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1365-3121.1997.d01-5.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1365-3121.1997.d01-5.x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;354 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 95</span>
+	 <a href="/scimag/?journal=23290&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

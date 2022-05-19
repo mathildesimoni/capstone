@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/12864">Journal of Computational Electronics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1569-8025</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-8137</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 75; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 75');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=12864&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;869 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 75</span>
+	 <a href="/scimag/?journal=12864&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Ahmed A. Abouelsaood; Sahar A. El-Naggar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-0312-z">A Rigorous, Coupled-Wave Transfer Matrix Method for Two-Dimensional Threshold Analysis of Distributed Feedback Semiconductor Lasers</a></p>
+		<p>DOI: 10.1007/s10825-004-0312-z</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;2 (2004)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-0312-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-0312-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-0312-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-0312-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Louis Tirino; Michael Weber; Kevin F. Brennan; Enrico Bellotti</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-0313-y">A General Monte Carlo Model Including the Effect of the Acoustic Deformation Potential on the Transport Properties</a></p>
+		<p>DOI: 10.1007/s10825-004-0313-y</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;2 (2004)</p></td>
+	<td>1.77&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-0313-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-0313-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-0313-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-0313-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carl L. Gardner; Gerhard Klimeck; Christian Ringhofer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-0314-x">Smooth Quantum Hydrodynamic Model vs. NEMO Simulation of Resonant Tunneling Diodes</a></p>
+		<p>DOI: 10.1007/s10825-004-0314-x</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;2 (2004)</p></td>
+	<td>289&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-0314-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-0314-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-0314-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-0314-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wei-Choon Ng; Yang Liu; Karl Hess</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-0315-9">Lattice Temperature Model and Temperature Effects in Oxide-Confined VCSEL’s</a></p>
+		<p>DOI: 10.1007/s10825-004-0315-9</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;2 (2004)</p></td>
+	<td>425&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-0315-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-0315-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-0315-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-0315-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Aboud; D. Marreiro; M. Saraniti; R. Eisenberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-0316-8">A Poisson P3M Force Field Scheme for Particle-Based Simulations of Ionic Liquids</a></p>
+		<p>DOI: 10.1007/s10825-004-0316-8</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;2 (2004)</p></td>
+	<td>1.42&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-0316-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-0316-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-0316-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-0316-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark Lundstrom; Gerhard Klimeck</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7034-0">Editorial</a></p>
+		<p>DOI: 10.1007/s10825-004-7034-0</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>76&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7034-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7034-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7034-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7034-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andreas Gehring; Siegfried Selberherr</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7035-z">Evolution of Current Transport Models for Engineering Applications</a></p>
+		<p>DOI: 10.1007/s10825-004-7035-z</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>828&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7035-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7035-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7035-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7035-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christoph Jungemann; Bernd Meinerzhagen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7036-y">A Legendre Polynomial Solver for the Langevin Boltzmann Equation</a></p>
+		<p>DOI: 10.1007/s10825-004-7036-y</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>204&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7036-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7036-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7036-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7036-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Borna Obradovic; Philippe Matagne; Lucian Shifren; Everett Wang; Mark Stettler; Jun He; Martin D. Giles</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7037-x">A Physically-Based Analytic Model for Stress-Induced Hole Mobility Enhancement</a></p>
+		<p>DOI: 10.1007/s10825-004-7037-x</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>223&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7037-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7037-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7037-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7037-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Haldun Kufluoglu; Muhammad Ashraful Alam</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7038-9">A Computational Model of NBTI and Hot Carrier Injection Time-Exponents for MOSFET Reliability</a></p>
+		<p>DOI: 10.1007/s10825-004-7038-9</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>686&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7038-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7038-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7038-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7038-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Yang; J. R. Watling; F. Adamu-Lema; A. Asenov; J. R. Barker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7039-8">Simulations of Sub-100 nm Strained Si MOSFETs with High-κ Gate Stacks</a></p>
+		<p>DOI: 10.1007/s10825-004-7039-8</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>996&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7039-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7039-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7039-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7039-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin D. Giles</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7040-2">TCAD Process/Device Modeling Challenges and Opportunities for the Next Decade</a></p>
+		<p>DOI: 10.1007/s10825-004-7040-2</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>739&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7040-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7040-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7040-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7040-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tibor Grasser; Robert Kosik; Christoph Jungemann; Bernd Meinerzhagen; Hans Kosina; Siegfried Selberherr</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7041-1">A Non-Parabolic Six Moments Model for the Simulation of Sub-100 nm Semiconductor Devices</a></p>
+		<p>DOI: 10.1007/s10825-004-7041-1</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>189&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7041-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7041-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7041-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7041-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. G. Ancona; K. Lilja</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7042-0">Multi-Dimensional Tunneling in Density-Gradient Theory</a></p>
+		<p>DOI: 10.1007/s10825-004-7042-0</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>402&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7042-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7042-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7042-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7042-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. D. Nguyen; A. T. Pham; C. Jungemann; B. Meinerzhagen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7043-z">TCAD Ready Density Gradient Calculation of Channel Charge for Strained Si/Strained Si1−xGexDual Channel pMOSFETs on (001) Relaxed Si1−yGey</a></p>
+		<p>DOI: 10.1007/s10825-004-7043-z</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>244&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7043-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7043-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7043-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7043-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Iannaccone</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7044-y">Analytical and Numerical Investigation of Noise in Nanoscale Ballistic Field Effect Transistors</a></p>
+		<p>DOI: 10.1007/s10825-004-7044-y</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>187&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7044-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7044-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7044-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7044-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fikru Adamu-Lema; Gareth Roy; Andrew R. Brown; Asen Asenov; Scott Roy</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7045-x">Intrinsic Parameter Fluctuations in Conventional MOSFETs at the Scaling Limit: A Statistical Study</a></p>
+		<p>DOI: 10.1007/s10825-004-7045-x</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>276&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7045-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7045-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7045-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7045-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Saint Martin; V. Aubry-Fortuna; A. Bournel; P. Dollfus; S. Galdin; C. Chassat</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7046-9">Influence of Ballistic Effects in Ultra-Small MOSFETs</a></p>
+		<p>DOI: 10.1007/s10825-004-7046-9</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>478&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7046-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7046-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7046-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7046-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Petru Andrei; Isaak Mayergoyz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7047-8">Random Doping Fluctuations of Small-Signal Parameters in Nanoscale Semiconductor Devices</a></p>
+		<p>DOI: 10.1007/s10825-004-7047-8</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>300&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7047-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7047-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7047-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7047-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Csontos; S. E. Ulloa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7048-7">Modeling of Transport Through Submicron Semiconductor Structures: A Direct Solution to the Coupled Poisson-Boltzmann Equations</a></p>
+		<p>DOI: 10.1007/s10825-004-7048-7</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>178&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7048-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7048-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7048-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7048-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andreas Domaingo; Ferdinand Schürrer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7049-6">Simulation of Schottky Barrier Diodes with a Direct Solver for the Boltzmann-Poisson System</a></p>
+		<p>DOI: 10.1007/s10825-004-7049-6</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>680&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7049-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7049-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7049-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7049-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chris Duffy; Paul Hasler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7050-0">Scaling pFET Hot-Electron Injection</a></p>
+		<p>DOI: 10.1007/s10825-004-7050-0</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>244&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7050-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7050-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7050-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7050-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. I. Fedoseyev; A. Przekwas; M. Turowski; M. S. Wartak</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7051-z">Robust Computational Models of Quantum Transport in Electronic Devices</a></p>
+		<p>DOI: 10.1007/s10825-004-7051-z</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>777&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7051-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7051-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7051-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7051-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. González; A. Godoy; F. Gámiz; J. A. Carrillo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7052-y">Accurate Deterministic Numerical Simulation of p-n Junctions</a></p>
+		<p>DOI: 10.1007/s10825-004-7052-y</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>284&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7052-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7052-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7052-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7052-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Hagenbeck; S. Decker; F. Lau; P. Haibach; J.-M. Schley; M. Isler; T. Mikolajick; G. Tempel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10825-004-7053-x">Modeling and Simulation of Electron Injection during Programming in Twin FlashTMDevices Based on Energy Transport and the Non-Local Lucky Electron Concept</a></p>
+		<p>DOI: 10.1007/s10825-004-7053-x</p>	</td>
+	<td><p><a href="/scimag/journals/12864">Journal of Computational Electronics</a><p>volume&nbsp;3, issue&nbsp;3-4 (2004)</p></td>
+	<td>415&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10825-004-7053-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10825-004-7053-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10825-004-7053-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10825-004-7053-x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;869 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 75</span>
+	 <a href="/scimag/?journal=12864&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/2456">Australian Journal of Psychology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0004-9530</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1742-9536</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 37; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 37');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=2456&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">908 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 37</span>
+	 <a href="/scimag/?journal=2456&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>TRANG THOMAS</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2002.tb01869.x">Preface</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2002.tb01869.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;54, issue&nbsp;S1 (2002)</p></td>
+	<td>56&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2002.tb01869.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2002.tb01869.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2002.tb01869.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2002.tb01869.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bill Warren</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2002.tb01870.x">The Abstracts of the 11th Australasian Conference on Personal Construct Psychology 17–20 July 2002 University of Sydney, NSW</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2002.tb01870.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;54, issue&nbsp;S1 (2002)</p></td>
+	<td>687&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2002.tb01870.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2002.tb01870.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2002.tb01870.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2002.tb01870.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mary Katsikitis</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2002.tb01871.x">The Abstracts of the 37th Annual Conference of the Australian Psychological Society 27 September-10 October 2002 Gold Coast, QLD</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2002.tb01871.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;54, issue&nbsp;S1 (2002)</p></td>
+	<td>7.43&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2002.tb01871.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2002.tb01871.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2002.tb01871.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2002.tb01871.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Karen Sullivan</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2002.tb01872.x">The Abstracts of the 8th National Conference of the APS College of Clinical Neuropsychologists 3–6 October 2002 Maroochydore, QLD</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2002.tb01872.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;54, issue&nbsp;S1 (2002)</p></td>
+	<td>1.77&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2002.tb01872.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2002.tb01872.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2002.tb01872.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2002.tb01872.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kate Moore</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2002.tb01873.x">The Abstracts of the 2nd Annual Conference of the Australian Psychological Society's Psychology of Relationships Interest Group 16–17 November 2002 Deakin University, Victoria</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2002.tb01873.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;54, issue&nbsp;S1 (2002)</p></td>
+	<td>1.49&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2002.tb01873.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2002.tb01873.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2002.tb01873.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2002.tb01873.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jessica L. Irons; Roger W. Remington; John P. McLean</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00001.x">Not so fast: Rethinking the effects of action video games on attentional capacity</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00001.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;4 (2011)</p></td>
+	<td>395&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00001.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00001.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00001.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00001.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Anke M. van Eekelen; Craig A. Olsson; Justine A. Ellis; Wei Ang; Delyse Hutchinson; Stephen R. Zubrick; Craig E. Pennell</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00002.x">Identification and genetic determination of an early life risk disposition for depressive disorder: Atypical stress-related behaviour in early childhood</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00002.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;1 (2011)</p></td>
+	<td>511&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00002.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00002.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00002.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00002.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul B. Badcock; Elya Moore; Elizabeth Williamson; Michael Berk; Lana J. Williams; Ottar Bjerkeset; Hans M. Nordahl; George C. Patton; Craig A. Olsson</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00003.x">Modeling gene-environment interaction in longitudinal data: Risk for neuroticism due to interaction between maternal care and the Dopamine 4 Receptor gene (<em>DRD4</em>)</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00003.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;1 (2011)</p></td>
+	<td>211&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00003.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00003.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00003.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00003.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Meredith O&#039;Connor; Mary T. Hawkins; John W. Toumbourou; Ann Sanson; Primrose Letcher; Craig A. Olsson</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00004.x">The relationship between social capital and depression during the transition to adulthood</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00004.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;1 (2011)</p></td>
+	<td>241&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00004.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00004.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00004.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00004.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Evalill Karevold; Robert Coplan; Mike Stoolmiller; Kristin S. Mathiesen</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00005.x">A longitudinal study of the links between temperamental shyness, activity, and trajectories of internalising problems from infancy to middle childhood</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00005.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;1 (2011)</p></td>
+	<td>207&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00005.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00005.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00005.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00005.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tara Renae McGee; Mohammad R. Hayatbakhsh; William Bor; Michael Cerruto; Angela Dean; Rosa Alati; Ryan Mills; Gail M. Williams; Michael O&#039;Callaghan; Jake M. Najman</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00006.x">Antisocial behaviour across the life course: An examination of the effects of early onset desistence and early onset persistent antisocial behaviour in adulthood</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00006.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;1 (2011)</p></td>
+	<td>207&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00006.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00006.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00006.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00006.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ann Sanson; Diana Smart; Sebastian Misson</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00007.x">Children's socio-emotional, physical, and cognitive outcomes: Do they share the same drivers?</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00007.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;1 (2011)</p></td>
+	<td>257&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00007.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00007.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00007.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00007.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Artemis Chang; Lynda Thi Nguyen</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00008.x">The mediating effects of time structure on the relationships between time management behaviour, job satisfaction, and psychological well-being</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00008.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;4 (2011)</p></td>
+	<td>373&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00008.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00008.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00008.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00008.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jessica E. Koschade; Robert M. Lynd-Stevenson</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00009.x">The stigma of having a parent with mental illness: Genetic attributions and associative stigma</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00009.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;2 (2011)</p></td>
+	<td>161&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00009.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00009.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00009.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00009.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kathryn Jane Gardner; Pamela Qualter; Helen Whiteley</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00010.x">Developmental correlates of emotional intelligence: Temperament, family environment and childhood trauma</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00010.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;2 (2011)</p></td>
+	<td>167&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00010.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00010.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00010.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00010.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joseph Ciorciari; Alicia Marotte</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00011.x">Implications of MDMA use for prospective memory function and substance use patterns in an Australian sample: A web-based pilot study</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00011.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;3 (2011)</p></td>
+	<td>165&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00011.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00011.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00011.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00011.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Angela Cooney; Alfred Allan; Maria M. Allan; Dianne McKillop; Deirdre G. Drake</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00012.x">The forgiveness process in primary and secondary victims of violent and sexual offences</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00012.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;2 (2011)</p></td>
+	<td>189&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00012.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00012.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00012.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00012.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Debra Slocum; Alfred Allan; Maria M. Allan</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00013.x">An emerging theory of apology</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00013.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;2 (2011)</p></td>
+	<td>295&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00013.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00013.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00013.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00013.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Nguyen; Nenagh Kemp; Stephen C. Want</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00014.x">The effects of funny and serious task content and expectations of fun versus importance on children's cognitive performance</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00014.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;3 (2011)</p></td>
+	<td>204&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00014.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00014.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00014.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00014.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jin Yong Park; Kyungdo Park; Alan J. Dubinsky</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00015.x">Impact of retailer image on private brand attitude: Halo effect and summary construct</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00015.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;3 (2011)</p></td>
+	<td>229&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00015.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00015.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00015.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00015.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Megan L. Trickey; John Farhall; Eleanor Hedy Wertheim; Cindi Hinch; Ben Ong</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00016.x">An examination of the relationships among emotion management, interpersonal hassles, and depressive symptomatology</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00016.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;2 (2011)</p></td>
+	<td>167&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00016.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00016.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00016.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00016.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Elizabeth A. Hardie</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00017.x">Australian community responses to the use of genetic testing for personalised health promotion</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00017.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;2 (2011)</p></td>
+	<td>238&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00017.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00017.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00017.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00017.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Haw</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00018.x">Improving psychological critical thinking in Australian university students</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00018.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;3 (2011)</p></td>
+	<td>143&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00018.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00018.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00018.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00018.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Melanie J. Zimmer-Gembeck; Danielle Lees; Ellen A. Skinner</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00019.x">Children's emotions and coping with interpersonal stress as correlates of social competence</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00019.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;3 (2011)</p></td>
+	<td>209&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00019.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00019.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00019.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00019.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ian T. Zajac; Nicholas R. Burns</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1742-9536.2011.00020.x">Relationships between three auditory inspection time tasks and processing speed</a></p>
+		<p>DOI: 10.1111/j.1742-9536.2011.00020.x</p>	</td>
+	<td><p><a href="/scimag/journals/2456">Australian Journal of Psychology</a><p>volume&nbsp;63, issue&nbsp;3 (2011)</p></td>
+	<td>451&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1742-9536.2011.00020.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1742-9536.2011.00020.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1742-9536.2011.00020.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1742-9536.2011.00020.x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">908 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 37</span>
+	 <a href="/scimag/?journal=2456&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

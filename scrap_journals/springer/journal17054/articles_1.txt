@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0932-4194</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1435-568X</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 23; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 23');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=17054&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">575 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 23</span>
+	 <a href="/scimag/?journal=17054&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Witold Respondek; Michail Zhitomirskii</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01209688">Feedback classification of nonlinear control systems on 3-manifolds</a></p>
+		<p>DOI: 10.1007/bf01209688</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;8, issue&nbsp;4 (1995)</p></td>
+	<td>1.59&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01209688" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01209688">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01209688">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01209688">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. A. Ball; I. Gohberg; M. A. Kaashoek</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01209689">A frequency response function for linear, time-varying systems</a></p>
+		<p>DOI: 10.1007/bf01209689</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;8, issue&nbsp;4 (1995)</p></td>
+	<td>982&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01209689" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01209689">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01209689">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01209689">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Avraham Feintuch</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01209690">The time-varying gap and coprime factor perturbations</a></p>
+		<p>DOI: 10.1007/bf01209690</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;8, issue&nbsp;4 (1995)</p></td>
+	<td>812&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01209690" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01209690">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01209690">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01209690">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joseph M. Francos; Boaz Porat; A. Zvi Meiri</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01209691">Orthogonal decompositions of 2-D nonhomogeneous discrete random fields</a></p>
+		<p>DOI: 10.1007/bf01209691</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;8, issue&nbsp;4 (1995)</p></td>
+	<td>801&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01209691" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01209691">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01209691">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01209691">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. K. Boukas; H. Yang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01209692">Stability of discrete-time linear systems with Markovian jumping parameters</a></p>
+		<p>DOI: 10.1007/bf01209692</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;8, issue&nbsp;4 (1995)</p></td>
+	<td>538&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01209692" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01209692">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01209692">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01209692">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Hinrichsen; V. L. Kharitonov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01210203">Stability of polynomials with conic uncertainty</a></p>
+		<p>DOI: 10.1007/bf01210203</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;8, issue&nbsp;2 (1995)</p></td>
+	<td>1.03&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01210203" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01210203">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01210203">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01210203">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. V. Peller; N. J. Young</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01210204">Construction of superoptimal approximants</a></p>
+		<p>DOI: 10.1007/bf01210204</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;8, issue&nbsp;2 (1995)</p></td>
+	<td>812&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01210204" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01210204">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01210204">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01210204">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William M. McEneaney</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01210205">Robust control and differential games on a finite time horizon</a></p>
+		<p>DOI: 10.1007/bf01210205</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;8, issue&nbsp;2 (1995)</p></td>
+	<td>1.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01210205" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01210205">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01210205">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01210205">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Olof J. Staffans</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01210206">Quadratic optimal control of stable systems through spectral factorization</a></p>
+		<p>DOI: 10.1007/bf01210206</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;8, issue&nbsp;2 (1995)</p></td>
+	<td>1.51&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01210206" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01210206">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01210206">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01210206">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Z. -P. Jiang; A. R. Teel; L. Praly</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211469">Small-gain theorem for ISS systems and applications</a></p>
+		<p>DOI: 10.1007/bf01211469</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;7, issue&nbsp;2 (1994)</p></td>
+	<td>1.18&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211469" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211469">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211469">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211469">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xuan Kong; Victor Solo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211470">Stochastic averaging analysis of a steepest-descent-type adaptive time-delay estimation algorithm</a></p>
+		<p>DOI: 10.1007/bf01211470</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;7, issue&nbsp;2 (1994)</p></td>
+	<td>1.15&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211470" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211470">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211470">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211470">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gilead Tadmorf</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211471">A time-varying Beurling-Lax theorem and a related interpolation problem</a></p>
+		<p>DOI: 10.1007/bf01211471</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;7, issue&nbsp;2 (1994)</p></td>
+	<td>1017&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211471" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211471">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211471">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211471">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fabio Fagnani; Jan C. Willems</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211472">Interconnections and symmetries of linear differential systems</a></p>
+		<p>DOI: 10.1007/bf01211472</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;7, issue&nbsp;2 (1994)</p></td>
+	<td>1.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211472" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211472">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211472">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211472">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. d&#039;Andréa-Novel; F. Boustany; F. Conrad; B. P. Rao</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211483">Feedback stabilization of a hybrid PDE-ODE system: Application to an overhead crane</a></p>
+		<p>DOI: 10.1007/bf01211483</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;7, issue&nbsp;1 (1994)</p></td>
+	<td>838&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211483" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211483">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211483">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211483">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>George Weiss</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211484">Regular linear systems with feedback</a></p>
+		<p>DOI: 10.1007/bf01211484</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;7, issue&nbsp;1 (1994)</p></td>
+	<td>1.63&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211484" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211484">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211484">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211484">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard M. Murray</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211485">Nilpotent bases for a class of nonintegrable distributions with applications to trajectory generation for nonholonomic systems</a></p>
+		<p>DOI: 10.1007/bf01211485</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;7, issue&nbsp;1 (1994)</p></td>
+	<td>905&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211485" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211485">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211485">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211485">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Takao Nambu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211486">Approximation algorithm for an infinite-dimensional operator equation XL−BX=C</a></p>
+		<p>DOI: 10.1007/bf01211486</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;7, issue&nbsp;1 (1994)</p></td>
+	<td>823&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211486" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211486">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211486">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211486">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tryphon T. Georgiou</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211498">Differential stability and robust control of nonlinear systems</a></p>
+		<p>DOI: 10.1007/bf01211498</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;6, issue&nbsp;4 (1993)</p></td>
+	<td>914&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211498" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211498">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211498">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211498">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Corrado de Concini; Fabio Fagnani</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211499">Symmetries of differential behaviors and finite group actions on free modules over a polynomial ring</a></p>
+		<p>DOI: 10.1007/bf01211499</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;6, issue&nbsp;4 (1993)</p></td>
+	<td>754&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211499" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211499">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211499">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211499">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniel E. Miller; Edward J. Davison</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211500">On asymptotic model matching</a></p>
+		<p>DOI: 10.1007/bf01211500</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;6, issue&nbsp;4 (1993)</p></td>
+	<td>851&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211500" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211500">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211500">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211500">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Antonio Pastor; Vicente Hernández</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211501">Differential periodic Riccati equations: Existence and uniqueness of nonnegative definite solutions</a></p>
+		<p>DOI: 10.1007/bf01211501</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;6, issue&nbsp;4 (1993)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211501" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211501">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211501">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211501">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yu-fan Zhengt; Li Cao</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211502">Reduced inverse for controlled systems</a></p>
+		<p>DOI: 10.1007/bf01211502</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;6, issue&nbsp;4 (1993)</p></td>
+	<td>767&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211502" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211502">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211502">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211502">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. R. Barmish; C. M. Lagoa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211503">The uniform distribution: A rigorous justification for its use in robustness analysis</a></p>
+		<p>DOI: 10.1007/bf01211503</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;10, issue&nbsp;3 (1997)</p></td>
+	<td>986&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211503" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211503">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211503">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211503">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andreas Fischer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211504">Stability radii of infinite-dimensional positive systems</a></p>
+		<p>DOI: 10.1007/bf01211504</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;10, issue&nbsp;3 (1997)</p></td>
+	<td>622&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211504" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211504">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211504">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211504">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Cohen de Lara</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211505">Characterization of a subclass of finite-dimensional estimation algebras with maximal rank application to filtering</a></p>
+		<p>DOI: 10.1007/bf01211505</p>	</td>
+	<td><p><a href="/scimag/journals/17054">Mathematics of Control, Signals, and Systems (MCSS)</a><p>volume&nbsp;10, issue&nbsp;3 (1997)</p></td>
+	<td>444&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211505" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211505">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211505">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211505">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">575 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 23</span>
+	 <a href="/scimag/?journal=17054&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

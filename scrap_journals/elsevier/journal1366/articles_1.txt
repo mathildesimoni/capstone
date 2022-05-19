@@ -1,0 +1,379 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Elsevier Science</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0003-4339</td>
+	</tr>
+					</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 2; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 2');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1366&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">38 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 2</span>
+	 <a href="/scimag/?journal=1366&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Chahrazed El Hedfi-Bel Haj Khelil</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2800%2900101-5">Utilisation de l'analyse canonique discriminante dans la recherche des caractères morphométriques les plus discriminants chez deux espèces du genre Synisoma (Crustacea, Isopoda, Valvifera)</a></p>
+		<p>DOI: 10.1016/s0003-4339(00)00101-5</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;21, issue&nbsp;1 (2000)</p></td>
+	<td>775&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2800%2900101-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2800%2900101-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2800%2900101-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2800%2900101-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas Stach</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2800%2900102-7">Ultrastructural characterization of a rostral secretory gland present in larval Branchiostoma lanceolatum</a></p>
+		<p>DOI: 10.1016/s0003-4339(00)00102-7</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;21, issue&nbsp;1 (2000)</p></td>
+	<td>841&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2800%2900102-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2800%2900102-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2800%2900102-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2800%2900102-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jacques Castanet; Sylvie Pinto; Marie-Madeleine Loth; Maxime Lamotte</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2800%2900103-9">Âge individuel, longévité et dynamique de croissance osseuse chez un amphibien vivipare, Nectophrynoides occidentalis (Anoure, Bufonidé)</a></p>
+		<p>DOI: 10.1016/s0003-4339(00)00103-9</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;21, issue&nbsp;1 (2000)</p></td>
+	<td>784&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2800%2900103-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2800%2900103-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2800%2900103-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2800%2900103-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lorenzo Alibardi</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2800%2900104-0">Epidermal structure of normal and regenerating skin of the agamine lizard Physignatus lesueurii (McCoy, 1878) with emphasis on the formation of the shedding layer</a></p>
+		<p>DOI: 10.1016/s0003-4339(00)00104-0</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;21, issue&nbsp;1 (2000)</p></td>
+	<td>1.42&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2800%2900104-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2800%2900104-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2800%2900104-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2800%2900104-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Elamrani; M. Idaomar</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2800%2900105-2">Conséquences des préférences maternelles pour des alcools primaires ou secondaires sur les traits adaptatifs de deux populations géographiques de Drosophila melanogaster</a></p>
+		<p>DOI: 10.1016/s0003-4339(00)00105-2</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;21, issue&nbsp;2 (2000)</p></td>
+	<td>1.33&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2800%2900105-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2800%2900105-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2800%2900105-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2800%2900105-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pascal P. Deynat</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2800%2900106-4">Les denticules myrmécoïdes, un nouveau caractère diagnostique pour les Rajidae (Chondrichtyes, Batoidea)</a></p>
+		<p>DOI: 10.1016/s0003-4339(00)00106-4</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;21, issue&nbsp;2 (2000)</p></td>
+	<td>1.81&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2800%2900106-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2800%2900106-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2800%2900106-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2800%2900106-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gregorio Fernandez-Leborans; Mercedes Castro de Zaldumbide</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2800%2900107-6">Annual cycle of protozoan communities in an estuarine epibenthic sublittoral area</a></p>
+		<p>DOI: 10.1016/s0003-4339(00)00107-6</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;21, issue&nbsp;2 (2000)</p></td>
+	<td>1.21&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2800%2900107-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2800%2900107-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2800%2900107-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2800%2900107-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2800%2980001-5">Comité de direction</a></p>
+		<p>DOI: 10.1016/s0003-4339(00)80001-5</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;21, issue&nbsp;1 (2000)</p></td>
+	<td>127&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2800%2980001-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2800%2980001-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2800%2980001-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2800%2980001-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mohamed Ramzu; François J. Meunier</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2800%2986973-7">Descripteurs morphologiques de la zonation de la colonne vertébrale chez la truite arc-en-ciel Oncorhynchus mykiss (Walbaum, 1792) (Teleostei, Salmoniforme)</a></p>
+		<p>DOI: 10.1016/s0003-4339(00)86973-7</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;20, issue&nbsp;3 (1999)</p></td>
+	<td>1017&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2800%2986973-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2800%2986973-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2800%2986973-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2800%2986973-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michel Laurin; Marc Girondot</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2800%2986974-9">Embryo retention in sarcopterygians, and the origin of the extra-embryonic membranes of the amniotic egg</a></p>
+		<p>DOI: 10.1016/s0003-4339(00)86974-9</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;20, issue&nbsp;3 (1999)</p></td>
+	<td>658&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2800%2986974-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2800%2986974-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2800%2986974-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2800%2986974-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carlos Jared; Marta Maria Antoniazzi; Eduardo Katchburian; Reynaldo Cicero Toledo; Edna Freymüller</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2800%2986975-0">Some aspects of the natural history of the casque-headed tree frog Corythomantis greeningi Boulenger (Hylidae)</a></p>
+		<p>DOI: 10.1016/s0003-4339(00)86975-0</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;20, issue&nbsp;3 (1999)</p></td>
+	<td>1.42&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2800%2986975-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2800%2986975-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2800%2986975-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2800%2986975-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shunping He; Mireille Gayet; François J. Meunier</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2800%2988881-4">Phylogeny of the Amphiliidae (Teleostei: Siluriformes)</a></p>
+		<p>DOI: 10.1016/s0003-4339(00)88881-4</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;20, issue&nbsp;4 (1999)</p></td>
+	<td>2.81&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2800%2988881-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2800%2988881-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2800%2988881-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2800%2988881-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Johan Chevalier; Matthew H. Godfrey; Marc Girondot</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2800%2988882-6">Significant difference of temperature-dependent sex determination between French Guiana (Atlantic) and Playa Grande (Costa-Rica, Pacific) leatherbacks (Dermochelys coriacea)</a></p>
+		<p>DOI: 10.1016/s0003-4339(00)88882-6</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;20, issue&nbsp;4 (1999)</p></td>
+	<td>628&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2800%2988882-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2800%2988882-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2800%2988882-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2800%2988882-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jorge Cubo; Liesbet Menten; Adrià Casinos</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2800%2988883-8">Sagittal long bone curvature in birds</a></p>
+		<p>DOI: 10.1016/s0003-4339(00)88883-8</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;20, issue&nbsp;4 (1999)</p></td>
+	<td>644&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2800%2988883-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2800%2988883-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2800%2988883-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2800%2988883-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dionisios Youlatos</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2800%2988884-x">Comparative locomotion of six sympatric primates in Ecuador</a></p>
+		<p>DOI: 10.1016/s0003-4339(00)88884-x</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;20, issue&nbsp;4 (1999)</p></td>
+	<td>770&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2800%2988884-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2800%2988884-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2800%2988884-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2800%2988884-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pierre Ngassam; Jean Grain</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2898%2980001-4">Ciliés Hysterocinetidae des genres Amieta et Thurstonia: description de 4 espèces, dont 3 nouvelles, endocommensales de l'Oligochète Alma nilotica</a></p>
+		<p>DOI: 10.1016/s0003-4339(98)80001-4</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;19, issue&nbsp;2 (1998)</p></td>
+	<td>601&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2898%2980001-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2898%2980001-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2898%2980001-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2898%2980001-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Arestides Massao Nachi; Francisco Javier Hernandez-Blazquez; Renato Lamorinier Barbieri; Rudolfo Guião Leite; Sylvio Ferri; Mikico Tokumaru Phan</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2898%2980002-6">Intestinal histology of a detritivorous (iliophagous) fish Prochilodus scrofa (characiformes, prochilodontidae)</a></p>
+		<p>DOI: 10.1016/s0003-4339(98)80002-6</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;19, issue&nbsp;2 (1998)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2898%2980002-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2898%2980002-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2898%2980002-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2898%2980002-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carlos Jared; Marta Marta Antoniazzi; Edna Freymüller; Luiz Carlos Uchôa Junquerira</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2898%2980003-8">A possible advantage of displaying the tail: a comparison between the tail and body integument structure in Amphisbaena alba and Leposternon microcephalum (Squamata, Amphisbaenia)</a></p>
+		<p>DOI: 10.1016/s0003-4339(98)80003-8</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;19, issue&nbsp;2 (1998)</p></td>
+	<td>1.34&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2898%2980003-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2898%2980003-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2898%2980003-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2898%2980003-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michel Laurin</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2898%2980004-x">The importance of global parsimony and historical bias in understanding tetrapod evolution. Part II. Vertebral centrum, costal ventilation, and paedomorphosis</a></p>
+		<p>DOI: 10.1016/s0003-4339(98)80004-x</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;19, issue&nbsp;2 (1998)</p></td>
+	<td>1.47&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2898%2980004-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2898%2980004-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2898%2980004-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2898%2980004-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michel Laurin</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2898%2980132-9">The importance of global parsimony and historical bias in understanding tetrapod evolution. Part I. Systematics, middle ear evolution and jaw suspension</a></p>
+		<p>DOI: 10.1016/s0003-4339(98)80132-9</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;19, issue&nbsp;1 (1998)</p></td>
+	<td>4.12&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2898%2980132-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2898%2980132-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2898%2980132-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2898%2980132-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Albert Raynaud; Paulette Kan; Gérard Bouche; Anne-Marie Duprat</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2898%2980133-0">Somites et prolongements somitiques impliqués dans la formation des membres chez les reptiles. L'amélie chez les serpents</a></p>
+		<p>DOI: 10.1016/s0003-4339(98)80133-0</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;19, issue&nbsp;1 (1998)</p></td>
+	<td>877&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2898%2980133-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2898%2980133-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2898%2980133-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2898%2980133-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jorge Cubo; Adrià Casinos</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2898%2980134-2">The variation of the cross-sectional shape in the long bones of birds and mammals</a></p>
+		<p>DOI: 10.1016/s0003-4339(98)80134-2</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;19, issue&nbsp;1 (1998)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2898%2980134-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2898%2980134-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2898%2980134-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2898%2980134-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jacint Ventura; María José López-Fuster</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2898%2980135-4">The blood supply to the abdominal and pelvic regions in talpids: character analysis and implications for specific relationships among Insectivora</a></p>
+		<p>DOI: 10.1016/s0003-4339(98)80135-4</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;19, issue&nbsp;1 (1998)</p></td>
+	<td>986&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2898%2980135-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2898%2980135-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2898%2980135-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2898%2980135-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Maria Gràcia Bozzo; Montserrat Poquet; Mercedes Durfort</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2899%2980001-x">Peculiar features of the sperm of a calanoid copepod Arctodiaptomus salinus</a></p>
+		<p>DOI: 10.1016/s0003-4339(99)80001-x</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;19, issue&nbsp;3-4 (1998)</p></td>
+	<td>990&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2899%2980001-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2899%2980001-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2899%2980001-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2899%2980001-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jacques Bouchard</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0003-4339%2899%2980002-1">Évaluation de l'impact de produits toxiques sur le criquet de montagne Gomphocerus sibiricus (colchicine et 6-mercaptopurine)</a></p>
+		<p>DOI: 10.1016/s0003-4339(99)80002-1</p>	</td>
+	<td><p><a href="/scimag/journals/1366">Annales des Sciences Naturelles - Zoologie et Biologie Animale</a><p>volume&nbsp;19, issue&nbsp;3-4 (1998)</p></td>
+	<td>1.37&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0003-4339%2899%2980002-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0003-4339%2899%2980002-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0003-4339%2899%2980002-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0003-4339%2899%2980002-1">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">38 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 2</span>
+	 <a href="/scimag/?journal=1366&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

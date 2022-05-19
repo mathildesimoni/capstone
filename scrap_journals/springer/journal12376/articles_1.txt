@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/12376">Journal of Automated Reasoning</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer Netherlands</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0168-7433</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-0670</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 50; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 50');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=12376&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;226 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 50</span>
+	 <a href="/scimag/?journal=12376&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Robert Boyer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00242999">Note on verification</a></p>
+		<p>DOI: 10.1007/bf00242999</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;5, issue&nbsp;2 (1989)</p></td>
+	<td>34&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00242999" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00242999">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00242999">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00242999">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Avra Cohn</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243000">The notion of proof in hardware verification</a></p>
+		<p>DOI: 10.1007/bf00243000</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;5, issue&nbsp;2 (1989)</p></td>
+	<td>823&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243000" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243000">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243000">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243000">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tie-Cheng Wang; Rick Stevens</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243001">Solving open problems in right alternative rings with Z-module reasoning</a></p>
+		<p>DOI: 10.1007/bf00243001</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;5, issue&nbsp;2 (1989)</p></td>
+	<td>1.23&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Teodor C. Przymusinski</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243002">On the declarative and procedural semantics of logic programs</a></p>
+		<p>DOI: 10.1007/bf00243002</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;5, issue&nbsp;2 (1989)</p></td>
+	<td>2.05&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. S. Leung; W. Lam</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243003">A fuzzy expert system shell using both exact and inexact reasoning</a></p>
+		<p>DOI: 10.1007/bf00243003</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;5, issue&nbsp;2 (1989)</p></td>
+	<td>1.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Larry Wos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243004">The problem of determining the size of a complete set of reductions</a></p>
+		<p>DOI: 10.1007/bf00243004</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;5, issue&nbsp;2 (1989)</p></td>
+	<td>117&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cynthia A. Wick; William W. McCune</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243005">Automated reasoning about elementary point-set topology</a></p>
+		<p>DOI: 10.1007/bf00243005</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;5, issue&nbsp;2 (1989)</p></td>
+	<td>704&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J Strother Moore</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243130">System verification</a></p>
+		<p>DOI: 10.1007/bf00243130</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;5, issue&nbsp;4 (1989)</p></td>
+	<td>83&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243130" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243130">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243130">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243130">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William R. Bevier; Warren A. Hunt; J Strother Moore; William D. Young</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243131">An approach to systems verification</a></p>
+		<p>DOI: 10.1007/bf00243131</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;5, issue&nbsp;4 (1989)</p></td>
+	<td>956&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243131" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243131">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243131">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243131">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Warren A. Hunt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243132">Microprocessor design verification</a></p>
+		<p>DOI: 10.1007/bf00243132</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;5, issue&nbsp;4 (1989)</p></td>
+	<td>1.54&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243132" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243132">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243132">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243132">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J Strother Moore</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243133">A mechanically verified language implementation</a></p>
+		<p>DOI: 10.1007/bf00243133</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;5, issue&nbsp;4 (1989)</p></td>
+	<td>1.65&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243133" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243133">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243133">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243133">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William D. Young</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243134">A mechanically verified code generator</a></p>
+		<p>DOI: 10.1007/bf00243134</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;5, issue&nbsp;4 (1989)</p></td>
+	<td>1.23&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243134" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243134">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243134">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243134">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William R. Bevier</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243135">Kit and the short stack</a></p>
+		<p>DOI: 10.1007/bf00243135</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;5, issue&nbsp;4 (1989)</p></td>
+	<td>572&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243135" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243135">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243135">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243135">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Larry Wos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243136">The problem of guaranteeing the absence of a complete set of reductions</a></p>
+		<p>DOI: 10.1007/bf00243136</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;5, issue&nbsp;4 (1989)</p></td>
+	<td>88&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243136" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243136">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243136">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243136">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. H. Chisholm; B. T. Smith; A. S. Wojcik</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243137">An automated reasoning problem associated with proving claims about programs using Floyd-Hoare inductive assertion methods</a></p>
+		<p>DOI: 10.1007/bf00243137</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;5, issue&nbsp;4 (1989)</p></td>
+	<td>393&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243137" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243137">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243137">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243137">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anthony G. Cohn</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243207">A more expressive formulation of many sorted logic</a></p>
+		<p>DOI: 10.1007/bf00243207</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;3, issue&nbsp;2 (1987)</p></td>
+	<td>4.28&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243207" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243207">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243207">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243207">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Larry Wos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243208">The problem of choosing the inference rule to employ</a></p>
+		<p>DOI: 10.1007/bf00243208</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;3, issue&nbsp;2 (1987)</p></td>
+	<td>379&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243208" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243208">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243208">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243208">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rick L. Stevens</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243209">Some experiments in nonassociative ring theory with an automated theorem prover</a></p>
+		<p>DOI: 10.1007/bf00243209</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;3, issue&nbsp;2 (1987)</p></td>
+	<td>432&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243209" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243209">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243209">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243209">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243210">Announcement</a></p>
+		<p>DOI: 10.1007/bf00243210</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;3, issue&nbsp;2 (1987)</p></td>
+	<td>55&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243210" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243210">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243210">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243210">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. V. Reeves</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243790">Adding equality to semantic tableaux</a></p>
+		<p>DOI: 10.1007/bf00243790</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;3, issue&nbsp;3 (1987)</p></td>
+	<td>1009&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243790" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243790">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243790">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243790">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexander Herold; Jörg H. Siekmann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243791">Unification in Abelian semigroups</a></p>
+		<p>DOI: 10.1007/bf00243791</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;3, issue&nbsp;3 (1987)</p></td>
+	<td>1.65&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243791" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243791">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243791">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243791">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark E. Stickel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243792">A comparison of the variable-abstraction and constant-abstraction methods for associative-commutative unification</a></p>
+		<p>DOI: 10.1007/bf00243792</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;3, issue&nbsp;3 (1987)</p></td>
+	<td>295&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243792" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243792">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243792">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243792">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shang-Ching Chou</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243793">A method for the mechanical derivation of formulas in elementary geometry</a></p>
+		<p>DOI: 10.1007/bf00243793</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;3, issue&nbsp;3 (1987)</p></td>
+	<td>378&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243793" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243793">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243793">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243793">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. -L. Lassez; K. Marriott</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243794">Explicit representation of terms defined by counter examples</a></p>
+		<p>DOI: 10.1007/bf00243794</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;3, issue&nbsp;3 (1987)</p></td>
+	<td>793&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243794" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243794">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243794">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243794">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Larry Wos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00243795">The problem of extending the set of support strategy</a></p>
+		<p>DOI: 10.1007/bf00243795</p>	</td>
+	<td><p><a href="/scimag/journals/12376">Journal of Automated Reasoning</a><p>volume&nbsp;3, issue&nbsp;3 (1987)</p></td>
+	<td>491&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00243795" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00243795">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00243795">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00243795">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;226 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 50</span>
+	 <a href="/scimag/?journal=12376&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

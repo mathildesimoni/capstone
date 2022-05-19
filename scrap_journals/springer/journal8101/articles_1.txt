@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1389-2576</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-7632</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 22; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 22');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=8101&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">531 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 22</span>
+	 <a href="/scimag/?journal=8101&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Giovanni Squillero</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-2985-x">MicroGP—An Evolutionary Assembly Program Generator</a></p>
+		<p>DOI: 10.1007/s10710-005-2985-x</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;3 (2005)</p></td>
+	<td>884&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-2985-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-2985-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-2985-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-2985-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-2986-9">Molecular Computing</a></p>
+		<p>DOI: 10.1007/s10710-005-2986-9</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;3 (2005)</p></td>
+	<td>109&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-2986-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-2986-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-2986-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-2986-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lukáš Sekanina; Michal Bidlo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-2987-8">Evolutionary Design of Arbitrarily Large Sorting Networks Using Development</a></p>
+		<p>DOI: 10.1007/s10710-005-2987-8</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;3 (2005)</p></td>
+	<td>2.03&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-2987-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-2987-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-2987-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-2987-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Matthew G. Smith; Larry Bull</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-2988-7">Genetic Programming with a Genetic Algorithm for Feature Construction and Selection</a></p>
+		<p>DOI: 10.1007/s10710-005-2988-7</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;3 (2005)</p></td>
+	<td>337&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-2988-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-2988-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-2988-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-2988-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ivan Tanev; Michael Brzozowski; Katsunori Shimohara</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-2989-6">Evolution, Generality and Robustness of Emerged Surrounding Behavior in Continuous Predators-Prey Pursuit Problem</a></p>
+		<p>DOI: 10.1007/s10710-005-2989-6</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;3 (2005)</p></td>
+	<td>2.33&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-2989-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-2989-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-2989-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-2989-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yaniv Azaria; Moshe Sipper</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-2990-0">GP-Gammon: Genetically Programming Backgammon Players</a></p>
+		<p>DOI: 10.1007/s10710-005-2990-0</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;3 (2005)</p></td>
+	<td>359&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-2990-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-2990-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-2990-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-2990-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Katya Rodríguez Vázquez</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-2991-z">Ant Colony Optimization</a></p>
+		<p>DOI: 10.1007/s10710-005-2991-z</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;4 (2005)</p></td>
+	<td>82&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-2991-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-2991-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-2991-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-2991-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sancho Salcedo-Sanz; Yong Xu; Xin Yao</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-3295-z">Meta-Heuristic Algorithms for FPGA Segmented Channel Routing Problems with Non-standard Cost Functions</a></p>
+		<p>DOI: 10.1007/s10710-005-3295-z</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;4 (2005)</p></td>
+	<td>1.45&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-3295-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-3295-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-3295-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-3295-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tughrul Arslan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-3718-x">Evolvable Components—From Theory to Hardware Implementations</a></p>
+		<p>DOI: 10.1007/s10710-005-3718-x</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;4 (2005)</p></td>
+	<td>79&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-3718-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-3718-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-3718-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-3718-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Keith L. Downing</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-4803-x">Tantrix: A Minute to Learn, 100 (Genetic Algorithm) Generations to Master</a></p>
+		<p>DOI: 10.1007/s10710-005-4803-x</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;4 (2005)</p></td>
+	<td>3.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-4803-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-4803-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-4803-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-4803-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. McGregor; I. Harvey</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-4804-9">Embracing Plagiarism: Theoretical, Biological and Empirical Justification for Copy Operators in Genetic Optimisation</a></p>
+		<p>DOI: 10.1007/s10710-005-4804-9</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;4 (2005)</p></td>
+	<td>346&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-4804-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-4804-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-4804-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-4804-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Man Leung Wong; Tuen Mun</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-4805-8">Evolving Recursive Programs by Using Adaptive Grammar Based Genetic Programming</a></p>
+		<p>DOI: 10.1007/s10710-005-4805-8</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;4 (2005)</p></td>
+	<td>1.48&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-4805-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-4805-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-4805-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-4805-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Radhika Nagpal</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-5971-4">On Growth, Form and Computers</a></p>
+		<p>DOI: 10.1007/s10710-005-5971-4</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;4 (2005)</p></td>
+	<td>325&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-5971-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-5971-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-5971-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-5971-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wolfgang Banzhaf</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-6162-z">Editorial</a></p>
+		<p>DOI: 10.1007/s10710-005-6162-z</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;2 (2005)</p></td>
+	<td>26&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-6162-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-6162-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-6162-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-6162-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. Banzhaf</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-6163-y">Acknowledgment</a></p>
+		<p>DOI: 10.1007/s10710-005-6163-y</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;2 (2005)</p></td>
+	<td>19&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-6163-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-6163-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-6163-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-6163-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carlos A. Coello Coello; Nareli Cruz Cortés</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-6164-x">Solving Multiobjective Optimization Problems Using an Artificial Immune System</a></p>
+		<p>DOI: 10.1007/s10710-005-6164-x</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;2 (2005)</p></td>
+	<td>435&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-6164-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-6164-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-6164-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-6164-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. B. Langdon; S. Gustafson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-6165-9">Genetic Programming and Evolvable Machines: Five Years of Reviews</a></p>
+		<p>DOI: 10.1007/s10710-005-6165-9</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;2 (2005)</p></td>
+	<td>89&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-6165-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-6165-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-6165-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-6165-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mehrdad Salami; Tim Hendtlass</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-7578-1">The Fast Evaluation Strategy for Evolvable Hardware</a></p>
+		<p>DOI: 10.1007/s10710-005-7578-1</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;2 (2005)</p></td>
+	<td>1.18&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-7578-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-7578-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-7578-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-7578-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cyril Fonlupt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-7579-0">Book Review: Genetic Programming IV: Routine Human-Competitive Machine Intelligence</a></p>
+		<p>DOI: 10.1007/s10710-005-7579-0</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;2 (2005)</p></td>
+	<td>33&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-7579-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-7579-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-7579-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-7579-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Emma Hart; Peter Ross; David Corne</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-7580-7">Evolutionary Scheduling: A Review</a></p>
+		<p>DOI: 10.1007/s10710-005-7580-7</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;2 (2005)</p></td>
+	<td>216&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-7580-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-7580-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-7580-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-7580-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael L. Raymer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-7581-6">Book Review: Evolutionary Computation in Bioinformatics</a></p>
+		<p>DOI: 10.1007/s10710-005-7581-6</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;2 (2005)</p></td>
+	<td>27&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-7581-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-7581-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-7581-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-7581-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James A. Foster; Erick Cantú-Paz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-7616-z">Introduction</a></p>
+		<p>DOI: 10.1007/s10710-005-7616-z</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;1 (2005)</p></td>
+	<td>26&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-7616-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-7616-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-7616-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-7616-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hans-George Beyer; Dirk V. Arnold; Silja Meyer-Nieberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-7617-y">A New Approach for Predicting the Final Outcome of Evolution Strategy Optimization Under Noise</a></p>
+		<p>DOI: 10.1007/s10710-005-7617-y</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;1 (2005)</p></td>
+	<td>276&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-7617-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-7617-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-7617-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-7617-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gunnar Buason; Nicklas Bergfeldt; Tom Ziemke</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-7618-x">Brains, Bodies, and Beyond: Competitive Co-Evolution of Robot Controllers, Morphologies and Environments</a></p>
+		<p>DOI: 10.1007/s10710-005-7618-x</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;1 (2005)</p></td>
+	<td>830&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-7618-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-7618-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-7618-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-7618-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin V. Butz; Kumara Sastry; David E. Goldberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10710-005-7619-9">Strong, Stable, and Reliable Fitness Pressure in XCS due to Tournament Selection</a></p>
+		<p>DOI: 10.1007/s10710-005-7619-9</p>	</td>
+	<td><p><a href="/scimag/journals/8101">Genetic Programming and Evolvable Machines</a><p>volume&nbsp;6, issue&nbsp;1 (2005)</p></td>
+	<td>476&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10710-005-7619-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10710-005-7619-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10710-005-7619-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10710-005-7619-9">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">531 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 22</span>
+	 <a href="/scimag/?journal=8101&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

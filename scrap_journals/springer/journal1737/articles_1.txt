@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1737">Applied Intelligence</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer US</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0924-669X</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-7497</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 98; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 98');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1737&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;449 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 98</span>
+	 <a href="/scimag/?journal=1737&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Walter D. Potter; John A. Miller; Bruce E. Tonn; Ravi V. Gandham; Chito N. Lapena</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058573">Improving the reliability of heuristic multiple fault diagnosis via the EC-based Genetic Algorithm</a></p>
+		<p>DOI: 10.1007/bf00058573</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;2, issue&nbsp;1 (1992)</p></td>
+	<td>1.59&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058573" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058573">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058573">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058573">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Halasz; Philippe Davidson; Suhayya Abu-Hakima; Sieu Phan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058574">JETA: A knowledge-based approach to aircraft gas turbine engine maintenance</a></p>
+		<p>DOI: 10.1007/bf00058574</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;2, issue&nbsp;1 (1992)</p></td>
+	<td>1.56&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058574" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058574">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058574">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058574">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ashwin Ram; Lawrence Hunter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058575">The use of explicit goals for knowledge to guide inference and learning</a></p>
+		<p>DOI: 10.1007/bf00058575</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;2, issue&nbsp;1 (1992)</p></td>
+	<td>2.32&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058575" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058575">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058575">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058575">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christoph F. Eick</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058576">Activation pattern controlled rules: Towards an integration of data-driven and command-driven programming</a></p>
+		<p>DOI: 10.1007/bf00058576</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;2, issue&nbsp;1 (1992)</p></td>
+	<td>1.46&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058576" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058576">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058576">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058576">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Li-Min Fu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058577">A connectionist approach to rule refinement</a></p>
+		<p>DOI: 10.1007/bf00058577</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;2, issue&nbsp;1 (1992)</p></td>
+	<td>824&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058577" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058577">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058577">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058577">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nitin Indurkhya; Sholom M. Weiss</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058649">Heuristic configuration of single hidden-layer feed-forward neural networks</a></p>
+		<p>DOI: 10.1007/bf00058649</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;2, issue&nbsp;4 (1992)</p></td>
+	<td>590&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058649" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058649">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058649">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058649">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ronald R. Yager</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058650">A general approach to rule aggregation in fuzzy logic control</a></p>
+		<p>DOI: 10.1007/bf00058650</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;2, issue&nbsp;4 (1992)</p></td>
+	<td>1.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058650" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058650">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058650">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058650">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nadim Obeid</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058651">Answers to modal and hypothetical questions in knowledge base systems</a></p>
+		<p>DOI: 10.1007/bf00058651</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;2, issue&nbsp;4 (1992)</p></td>
+	<td>1.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058651" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058651">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058651">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058651">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andreas Günter; Roman Cunis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058652">Flexible control in expert systems for construction tasks</a></p>
+		<p>DOI: 10.1007/bf00058652</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;2, issue&nbsp;4 (1992)</p></td>
+	<td>1.24&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058652" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058652">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058652">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058652">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058757">Introdution</a></p>
+		<p>DOI: 10.1007/bf00058757</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;2, issue&nbsp;2 (1992)</p></td>
+	<td>251&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058757" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058757">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058757">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058757">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. R. Weisbin; M. D. Montemerlo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058758">NASA's Telerobotics research program</a></p>
+		<p>DOI: 10.1007/bf00058758</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;2, issue&nbsp;2 (1992)</p></td>
+	<td>1.05&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058758" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058758">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058758">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058758">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. K. Khosla; N. P. Papanikolopoulos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058759">Telerobotic visual servoing</a></p>
+		<p>DOI: 10.1007/bf00058759</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;2, issue&nbsp;2 (1992)</p></td>
+	<td>1.65&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058759" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058759">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058759">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058759">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jack E. Pennington</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058760">Teleoperation to robotics at Langley Research Center</a></p>
+		<p>DOI: 10.1007/bf00058760</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;2, issue&nbsp;2 (1992)</p></td>
+	<td>647&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058760" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058760">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058760">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058760">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Reid Simmons; Eric Krotkov; William Whittaker; Brian Albrecht; John Bares; Christopher Fedor; Regis Hoffman; Henning Pangels; David Wettergreen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058761">Progress towards robotic exploration of extreme terrain</a></p>
+		<p>DOI: 10.1007/bf00058761</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;2, issue&nbsp;2 (1992)</p></td>
+	<td>1.35&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058761" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058761">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058761">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058761">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Brian H. Wilcox</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058762">Robotic vehicles for planetary exploration</a></p>
+		<p>DOI: 10.1007/bf00058762</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;2, issue&nbsp;2 (1992)</p></td>
+	<td>1.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058762" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058762">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058762">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058762">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. C. You; C. N. Chu; R. L. Kashyap</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058877">Symbolic representation of three-dimensional objects to aid local and global shape analysis for defect prediction of casting design</a></p>
+		<p>DOI: 10.1007/bf00058877</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;1, issue&nbsp;2 (1991)</p></td>
+	<td>1.68&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058877" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058877">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058877">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058877">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yuval Lirov; On-Ching Yue</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058878">Automated network troubleshooting knowledge acquisition</a></p>
+		<p>DOI: 10.1007/bf00058878</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;1, issue&nbsp;2 (1991)</p></td>
+	<td>788&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058878" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058878">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058878">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058878">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Diane J. Cook</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058879">Application of parallelized analogical planning to engineering design</a></p>
+		<p>DOI: 10.1007/bf00058879</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;1, issue&nbsp;2 (1991)</p></td>
+	<td>927&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058879" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058879">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058879">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058879">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tibor Gyires</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058880">A heuristic algorithm for distributed control in manufacturing systems</a></p>
+		<p>DOI: 10.1007/bf00058880</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;1, issue&nbsp;2 (1991)</p></td>
+	<td>844&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058880" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058880">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058880">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058880">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sabrina Sestito; Tharam Dillon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00058881">Using single-layered neural networks for the extraction of conjunctive rules and hierarchical classifications</a></p>
+		<p>DOI: 10.1007/bf00058881</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;1, issue&nbsp;2 (1991)</p></td>
+	<td>1.21&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00058881" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00058881">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00058881">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00058881">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Frank D. Anger; Rita V. Rodríguez; Hans W. Guesgen; Johan Benthem</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00117597">Space, time, and computation: Trends and problems</a></p>
+		<p>DOI: 10.1007/bf00117597</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>446&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00117597" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00117597">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00117597">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00117597">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hans W. Guesgen; Joachim Hertzberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00117598">Spatial persistence</a></p>
+		<p>DOI: 10.1007/bf00117598</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>1.40&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00117598" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00117598">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00117598">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00117598">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Frank D. Anger; Rita V. Rodríguez</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00117599">Lattice structure of temporal interval relations</a></p>
+		<p>DOI: 10.1007/bf00117599</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>783&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00117599" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00117599">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00117599">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00117599">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Debasis Mitra; Rasiah Loganantharaj</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00117600">Experimenting with a temporal constraint propagation algorithm</a></p>
+		<p>DOI: 10.1007/bf00117600</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>789&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00117600" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00117600">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00117600">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00117600">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kai Zimmermann; Christian Freksa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00117601">Qualitative spatial reasoning using orientation, distance, and path knowledge</a></p>
+		<p>DOI: 10.1007/bf00117601</p>	</td>
+	<td><p><a href="/scimag/journals/1737">Applied Intelligence</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>767&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00117601" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00117601">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00117601">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00117601">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;449 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 98</span>
+	 <a href="/scimag/?journal=1737&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

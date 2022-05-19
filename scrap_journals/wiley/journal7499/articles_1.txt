@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1048-4078</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1520-6513</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 20; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 20');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=7499&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">479 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 20</span>
+	 <a href="/scimag/?journal=7499&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Michael A. West</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.1000">Editor's Corner</a></p>
+		<p>DOI: 10.1002/ffej.1000</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;12, issue&nbsp;2 (2001)</p></td>
+	<td>178&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.1000" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.1000">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.1000">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.1000">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael A. West</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.1001">Interview with Rear Admiral Larry C. Baucom, Director of the Environmental Protection, Safety, and Occupational Health Division of the Department of the Navy</a></p>
+		<p>DOI: 10.1002/ffej.1001</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;12, issue&nbsp;2 (2001)</p></td>
+	<td>551&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.1001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.1001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.1001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.1001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael A. West</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10012">Editor's Corner</a></p>
+		<p>DOI: 10.1002/ffej.10012</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;12, issue&nbsp;4 (2002)</p></td>
+	<td>75&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10012" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10012">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10012">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10012">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael A. West</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10013">Interview with Patricia Rivers, Chief of the Environmental Division of the U.S. Army Corps of Engineers</a></p>
+		<p>DOI: 10.1002/ffej.10013</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;12, issue&nbsp;4 (2002)</p></td>
+	<td>89&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10013" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10013">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10013">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10013">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Frederick W. Boecher; Gary W. Moulder</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10014">Commonwealth of Pennsylvania and Department of Defense Cooperative Multi-Site Agreement Pilot Study Program</a></p>
+		<p>DOI: 10.1002/ffej.10014</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;12, issue&nbsp;4 (2002)</p></td>
+	<td>108&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10014" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10014">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10014">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10014">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael A. West</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10015">Interview with Colonel Thomas Lillie, Military Liaison for the Department of the Air Force with the Department of the Interior</a></p>
+		<p>DOI: 10.1002/ffej.10015</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;12, issue&nbsp;4 (2002)</p></td>
+	<td>122&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10015" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10015">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10015">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10015">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10018">Congressional Actions Relating to DOD Environmental Activities</a></p>
+		<p>DOI: 10.1002/ffej.10018</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;12, issue&nbsp;4 (2002)</p></td>
+	<td>274&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10018" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10018">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10018">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10018">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Niel J. Wark; Frances J. Verrier</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10019">Australian Defence Organisation Environmental Management Initiatives—Shoalwater Bay Training Area</a></p>
+		<p>DOI: 10.1002/ffej.10019</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;13, issue&nbsp;1 (2002)</p></td>
+	<td>236&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10019" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10019">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10019">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10019">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. L. Van Antwerp</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.1002">Encroachment Impacts on Army Installations and How to Deal with Them</a></p>
+		<p>DOI: 10.1002/ffej.1002</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;12, issue&nbsp;2 (2001)</p></td>
+	<td>1.93&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.1002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.1002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.1002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.1002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael A. West</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10020">Editor's Corner</a></p>
+		<p>DOI: 10.1002/ffej.10020</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;13, issue&nbsp;1 (2002)</p></td>
+	<td>69&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10020" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10020">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10020">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10020">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Loren Phillips; Bernard Perry</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10021">Assessment of Potential Environmental Health Risks of Residue of High-Explosive Munitions on Military Test Ranges—Comparison in a Humid and Arid Climate</a></p>
+		<p>DOI: 10.1002/ffej.10021</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;13, issue&nbsp;1 (2002)</p></td>
+	<td>207&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10021" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10021">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10021">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10021">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David D. Jones; Manette Messenger; Ron Webster; Rudy Stine</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10022">Installation Sustainability: Transforming—The Army's Future</a></p>
+		<p>DOI: 10.1002/ffej.10022</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;13, issue&nbsp;1 (2002)</p></td>
+	<td>114&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10022" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10022">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10022">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10022">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James R. Spotila; Harold W. Avery</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10023">Lessons from the Expansion of the National Training Center at Fort Irwin</a></p>
+		<p>DOI: 10.1002/ffej.10023</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;13, issue&nbsp;1 (2002)</p></td>
+	<td>271&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10023" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10023">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10023">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10023">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Greenberg; Karen Lowrie; Henry Mayer; Michael Frisch</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10024">External Stakeholders' Influence on the DOE's Long-Term Stewardship Programs</a></p>
+		<p>DOI: 10.1002/ffej.10024</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;13, issue&nbsp;1 (2002)</p></td>
+	<td>112&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10024" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10024">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10024">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10024">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kip R. Huston; Tomiann McDaniel</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10025">Program Achievements in the Formerly Utilized Sites Remedial Action Program</a></p>
+		<p>DOI: 10.1002/ffej.10025</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;13, issue&nbsp;1 (2002)</p></td>
+	<td>207&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10025" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10025">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10025">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10025">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10026">DOE Environmental Funding and Legislative Provisions</a></p>
+		<p>DOI: 10.1002/ffej.10026</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;13, issue&nbsp;1 (2002)</p></td>
+	<td>91&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10026" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10026">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10026">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10026">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Turlough F. Guerin</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10027">Managing Contaminated Sites and the Role of Domestic and International Forums</a></p>
+		<p>DOI: 10.1002/ffej.10027</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;13, issue&nbsp;1 (2002)</p></td>
+	<td>165&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10027" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10027">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10027">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10027">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-Paul Schwitzguébel</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10028">Hype or Hope: The Potential of Phytoremediation as an Emerging Green Technology</a></p>
+		<p>DOI: 10.1002/ffej.10028</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;13, issue&nbsp;1 (2002)</p></td>
+	<td>141&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10028" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10028">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10028">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10028">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael A. West</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10029">Editor's Corner</a></p>
+		<p>DOI: 10.1002/ffej.10029</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;13, issue&nbsp;2 (2002)</p></td>
+	<td>54&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10029" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10029">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10029">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10029">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Scott M. Farley; Scott C. Belfit</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.1003">Addressing Encroachment with Cooperative Agreements and Conservation</a></p>
+		<p>DOI: 10.1002/ffej.1003</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;12, issue&nbsp;2 (2001)</p></td>
+	<td>117&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.1003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.1003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.1003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.1003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Charles H. Eccleston</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10030">NEPA and Terrorism: Is It Time for a Paradigm Shift?</a></p>
+		<p>DOI: 10.1002/ffej.10030</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;13, issue&nbsp;2 (2002)</p></td>
+	<td>214&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10030" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10030">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10030">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10030">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kevin J. Luster</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10031">Using Conservation Easements to Save the Upper San Pedro River</a></p>
+		<p>DOI: 10.1002/ffej.10031</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;13, issue&nbsp;2 (2002)</p></td>
+	<td>195&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10031" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10031">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10031">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10031">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tammy J. Mitnik; J. Douglas Ripley; Benjamin W. Speakthunder</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10032">Planning the Montana Air National Guard Range: A Model for Successful Public Involvement</a></p>
+		<p>DOI: 10.1002/ffej.10032</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;13, issue&nbsp;2 (2002)</p></td>
+	<td>126&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10032" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10032">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10032">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10032">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Garry C. Zettersten; Raymond K. Best; Debra A. Dale</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10033">Wastewater Treatment during Contingency Operations: The Balkans Challenge</a></p>
+		<p>DOI: 10.1002/ffej.10033</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;13, issue&nbsp;2 (2002)</p></td>
+	<td>154&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10033" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10033">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10033">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10033">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gerald H. Yamada</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fffej.10034">Redirection for Environmental Justice</a></p>
+		<p>DOI: 10.1002/ffej.10034</p>	</td>
+	<td><p><a href="/scimag/journals/7499">Federal Facilities Environmental Journal</a><p>volume&nbsp;13, issue&nbsp;2 (2002)</p></td>
+	<td>89&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fffej.10034" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/ffej.10034">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/ffej.10034">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/ffej.10034">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">479 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 20</span>
+	 <a href="/scimag/?journal=7499&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

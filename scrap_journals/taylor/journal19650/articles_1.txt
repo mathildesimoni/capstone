@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/19650">Planning Practice and Research</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Taylor and Francis Group</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0269-7459</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1360-0583</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 50; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 50');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=19650&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;227 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 50</span>
+	 <a href="/scimag/?journal=19650&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Gallent, Nick</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697450601090872">The Rural–Urban fringe: A new priority for planning policy?</a></p>
+		<p>DOI: 10.1080/02697450601090872</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;21, issue&nbsp;3 (2006)</p></td>
+	<td>120&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697450601090872" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697450601090872">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697450601090872">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697450601090872">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Deepak Gopinath, Manik</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697459.2011.582572">Britain's New Towns: Garden Cities to Sustainable Communities</a></p>
+		<p>DOI: 10.1080/02697459.2011.582572</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;26, issue&nbsp;4 (2011)</p></td>
+	<td>71&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697459.2011.582572" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697459.2011.582572">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697459.2011.582572">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697459.2011.582572">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nadin, Vincent</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697459.2012.669928">International Comparative Planning Methodology: Introduction to the Theme Issue</a></p>
+		<p>DOI: 10.1080/02697459.2012.669928</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;27, issue&nbsp;1 (2012)</p></td>
+	<td>73&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697459.2012.669928" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697459.2012.669928">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697459.2012.669928">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697459.2012.669928">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Janin Rivolin, Umberto</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697459.2012.661181">Planning Systems as Institutional Technologies: a Proposed Conceptualization and the Implications for Comparison</a></p>
+		<p>DOI: 10.1080/02697459.2012.661181</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;27, issue&nbsp;1 (2012)</p></td>
+	<td>828&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697459.2012.661181" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697459.2012.661181">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697459.2012.661181">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697459.2012.661181">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stead, Dominic</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697459.2011.644084">Best Practices and Policy Transfer in Spatial Planning</a></p>
+		<p>DOI: 10.1080/02697459.2011.644084</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;27, issue&nbsp;1 (2012)</p></td>
+	<td>133&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697459.2011.644084" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697459.2011.644084">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697459.2011.644084">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697459.2011.644084">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Getimis, Panagiotis</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697459.2012.659520">Comparing Spatial Planning Systems and Planning Cultures in Europe. The Need for a Multi-scalar Approach</a></p>
+		<p>DOI: 10.1080/02697459.2012.659520</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;27, issue&nbsp;1 (2012)</p></td>
+	<td>139&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697459.2012.659520" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697459.2012.659520">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697459.2012.659520">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697459.2012.659520">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Servillo, Loris Antonio; Van Den Broeck, Pieter</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697459.2012.661179">The Social Construction of Planning Systems: A Strategic-Relational Institutionalist Approach</a></p>
+		<p>DOI: 10.1080/02697459.2012.661179</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;27, issue&nbsp;1 (2012)</p></td>
+	<td>377&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697459.2012.661179" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697459.2012.661179">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697459.2012.661179">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697459.2012.661179">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Preston, John; Wall, Graham</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697450802423641">The <i>Ex-ante</i> and <i>Ex-post</i> Economic and Social Impacts of the Introduction of High-speed Trains in South East England</a></p>
+		<p>DOI: 10.1080/02697450802423641</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;23, issue&nbsp;3 (2008)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697450802423641" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697450802423641">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697450802423641">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697450802423641">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Healey, Patsy</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697459650036350">Consensus-building across Difficult Divisions: New approaches to collaborative strategy making</a></p>
+		<p>DOI: 10.1080/02697459650036350</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;11, issue&nbsp;2 (1996)</p></td>
+	<td>165&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697459650036350" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697459650036350">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697459650036350">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697459650036350">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cray, Talia M</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00222938100770021">Delivering Healthy Babies: Transportation and Healthcare Access</a></p>
+		<p>DOI: 10.1080/00222938100770021</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;15, issue&nbsp;1 (2000)</p></td>
+	<td>208&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00222938100770021" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00222938100770021">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00222938100770021">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00222938100770021">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Valler, David</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697458908722753">Economic development strategy formulation: The case of Norwich city council</a></p>
+		<p>DOI: 10.1080/02697458908722753</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;4, issue&nbsp;3 (1989)</p></td>
+	<td>269&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697458908722753" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697458908722753">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697458908722753">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697458908722753">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Simmie, James</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697459408722906">Technopole planning in Britain, France, Japan and the USA</a></p>
+		<p>DOI: 10.1080/02697459408722906</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;9, issue&nbsp;1 (1994)</p></td>
+	<td>813&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697459408722906" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697459408722906">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697459408722906">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697459408722906">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nadin, Vincent</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697450701455934">The emergence of the spatial planning approach in England</a></p>
+		<p>DOI: 10.1080/02697450701455934</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;22, issue&nbsp;1 (2007)</p></td>
+	<td>184&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697450701455934" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697450701455934">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697450701455934">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697450701455934">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bertolini, L.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697459915724">Spatial Development Patterns and Public Transport: The Application of an Analytical Model in the Netherlands</a></p>
+		<p>DOI: 10.1080/02697459915724</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;14, issue&nbsp;2 (1999)</p></td>
+	<td>335&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697459915724" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697459915724">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697459915724">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697459915724">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bianchini, Franco</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697459550036667">Night Cultures, Night Economies</a></p>
+		<p>DOI: 10.1080/02697459550036667</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;10, issue&nbsp;2 (1995)</p></td>
+	<td>120&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697459550036667" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697459550036667">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697459550036667">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697459550036667">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>March, Alan; Rijal, Yogita; Wilkinson, Sara; Firidin Özgür, Ebru </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697459.2012.715813">Measuring Building Adaptability and Street Vitality</a></p>
+		<p>DOI: 10.1080/02697459.2012.715813</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;27, issue&nbsp;5 (2012)</p></td>
+	<td>2.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697459.2012.715813" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697459.2012.715813">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697459.2012.715813">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697459.2012.715813">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dühr, Stefanie; Stead, Dominic; Zonneveld, Wil </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697450701688245">The Europeanization of spatial planning through territorial cooperation</a></p>
+		<p>DOI: 10.1080/02697450701688245</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;22, issue&nbsp;3 (2007)</p></td>
+	<td>903&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697450701688245" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697450701688245">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697450701688245">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697450701688245">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gallent, Nick; Carmona, Matthew </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F0269745042000284386">Planning for housing: Unravelling the frictions in local practice</a></p>
+		<p>DOI: 10.1080/0269745042000284386</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;19, issue&nbsp;2 (2004)</p></td>
+	<td>191&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F0269745042000284386" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/0269745042000284386">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/0269745042000284386">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/0269745042000284386">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lo Piccolo, Francesco</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697459650036369">Urban Renewal in the Historic Centre of Palermo</a></p>
+		<p>DOI: 10.1080/02697459650036369</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;11, issue&nbsp;2 (1996)</p></td>
+	<td>330&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697459650036369" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697459650036369">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697459650036369">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697459650036369">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Allmendinger, Philip; Barker, Adam; Stead, Selina </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697450220145931">Delivering Integrated Coastal-zone Management through Land-use Planning</a></p>
+		<p>DOI: 10.1080/02697450220145931</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;17, issue&nbsp;2 (2002)</p></td>
+	<td>228&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697450220145931" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697450220145931">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697450220145931">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697450220145931">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Brand, Peter</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697459550036829">Ecologism and Urban Space: Nature, urbanisation and city planning in Medellin, Colombia</a></p>
+		<p>DOI: 10.1080/02697459550036829</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;10, issue&nbsp;1 (1995)</p></td>
+	<td>173&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697459550036829" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697459550036829">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697459550036829">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697459550036829">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carmona, Matthew</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697459915814">Residential Design Policy and Guidance: Content, Analytical Basis, Prescription and Regional Emphasis</a></p>
+		<p>DOI: 10.1080/02697459915814</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;14, issue&nbsp;1 (1999)</p></td>
+	<td>264&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697459915814" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697459915814">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697459915814">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697459915814">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carmona, Matthew</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697459815969">Residential Design Policy and Guidance: Prevalence, Hierarchy and Currency</a></p>
+		<p>DOI: 10.1080/02697459815969</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;13, issue&nbsp;4 (1998)</p></td>
+	<td>206&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697459815969" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697459815969">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697459815969">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697459815969">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697459008722776">Research reports</a></p>
+		<p>DOI: 10.1080/02697459008722776</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;5, issue&nbsp;3 (1990)</p></td>
+	<td>343&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697459008722776" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697459008722776">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697459008722776">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697459008722776">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Angotti, Tom</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F02697459716716">New York City's '197-a' Community Planning Experience: Power to the People or Less Work for Planners?</a></p>
+		<p>DOI: 10.1080/02697459716716</p>	</td>
+	<td><p><a href="/scimag/journals/19650">Planning Practice and Research</a><p>volume&nbsp;12, issue&nbsp;1 (1997)</p></td>
+	<td>222&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F02697459716716" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/02697459716716">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/02697459716716">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/02697459716716">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;227 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 50</span>
+	 <a href="/scimag/?journal=19650&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

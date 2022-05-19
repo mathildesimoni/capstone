@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/16447">Language Policy</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1568-4555</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-1863</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 29; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 29');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=16447&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">703 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 29</span>
+	 <a href="/scimag/?journal=16447&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Alastair Pennycook</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-004-3533-x">Language Policy and Ehe Ecological Turn</a></p>
+		<p>DOI: 10.1007/s10993-004-3533-x</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;3, issue&nbsp;3 (2005)</p></td>
+	<td>167&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-004-3533-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-004-3533-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-004-3533-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-004-3533-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Clyne; Felicity Grey; Sandra Kipp</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-004-3538-5">Matching Policy Implementation With Demography</a></p>
+		<p>DOI: 10.1007/s10993-004-3538-5</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;3, issue&nbsp;3 (2005)</p></td>
+	<td>170&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-004-3538-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-004-3538-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-004-3538-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-004-3538-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-004-3605-y">Book Reviews, Ingrid Piller.Bilingual couples talk: The discursive construction of hybridity(Studies in Bilingualism, 25). Amsterdam and Philadelphia: John Benjamins, 2002. Pp. xii, 315. Hb $90.00.</a></p>
+		<p>DOI: 10.1007/s10993-004-3605-y</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;4, issue&nbsp;2 (2005)</p></td>
+	<td>304&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-004-3605-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-004-3605-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-004-3605-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-004-3605-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-004-3606-x">Book Reviews, François Grin.Language policy evaluation and the European charter for regional or minority languages. New York: Palgrave MacMillan, 2003. Pp. xii, 281. Hb$75.00</a></p>
+		<p>DOI: 10.1007/s10993-004-3606-x</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;4, issue&nbsp;2 (2005)</p></td>
+	<td>304&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-004-3606-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-004-3606-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-004-3606-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-004-3606-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L Oladipo Salami</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-004-3817-1">‘Other Tongue’ Policy and Ethnic Nationalism In Nigeria</a></p>
+		<p>DOI: 10.1007/s10993-004-3817-1</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;3, issue&nbsp;3 (2005)</p></td>
+	<td>119&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-004-3817-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-004-3817-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-004-3817-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-004-3817-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-004-6004-5">Editorial</a></p>
+		<p>DOI: 10.1007/s10993-004-6004-5</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;3, issue&nbsp;3 (2005)</p></td>
+	<td>27&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-004-6004-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-004-6004-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-004-6004-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-004-6004-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-004-6543-9">Editorial</a></p>
+		<p>DOI: 10.1007/s10993-004-6543-9</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;4, issue&nbsp;1 (2005)</p></td>
+	<td>37&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-004-6543-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-004-6543-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-004-6543-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-004-6543-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rita Elaine Silver</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-004-6545-7">Guest Editorial</a></p>
+		<p>DOI: 10.1007/s10993-004-6545-7</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;4, issue&nbsp;1 (2005)</p></td>
+	<td>77&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-004-6545-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-004-6545-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-004-6545-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-004-6545-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Guangwei Hu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-004-6561-7">English Language Education in China: Policies, Progress, and Problems</a></p>
+		<p>DOI: 10.1007/s10993-004-6561-7</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;4, issue&nbsp;1 (2005)</p></td>
+	<td>167&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-004-6561-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-004-6561-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-004-6561-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-004-6561-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yuko Goto Butler; Masakazu Iino</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-004-6563-5">Current Japanese Reforms In English Language Education: The 2003 “Action Plan”</a></p>
+		<p>DOI: 10.1007/s10993-004-6563-5</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;4, issue&nbsp;1 (2005)</p></td>
+	<td>163&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-004-6563-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-004-6563-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-004-6563-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-004-6563-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rita Elaine Silver</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-004-6564-4">The Discourse Of Linguistic Capital: Language And Economic Policy Planning In Singapore</a></p>
+		<p>DOI: 10.1007/s10993-004-6564-4</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;4, issue&nbsp;1 (2005)</p></td>
+	<td>158&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-004-6564-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-004-6564-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-004-6564-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-004-6564-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>François Grin; Britta Korth</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-004-6565-3">On the reciprocal influence of language politics and language education: The case of English in Switzerland</a></p>
+		<p>DOI: 10.1007/s10993-004-6565-3</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;4, issue&nbsp;1 (2005)</p></td>
+	<td>159&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-004-6565-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-004-6565-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-004-6565-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-004-6565-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bruce A. Evans; Nancy H. Hornberger</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-004-6566-2">No child left behind: repealing and Unpeeling federal language education policy in the united states</a></p>
+		<p>DOI: 10.1007/s10993-004-6566-2</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;4, issue&nbsp;1 (2005)</p></td>
+	<td>188&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-004-6566-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-004-6566-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-004-6566-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-004-6566-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rita Elaine Silver; Rita Skuja Steele</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-004-6567-1">Priorities in english language education Policy and classroom implementation</a></p>
+		<p>DOI: 10.1007/s10993-004-6567-1</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;4, issue&nbsp;1 (2005)</p></td>
+	<td>187&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-004-6567-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-004-6567-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-004-6567-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-004-6567-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-005-0885-9">Instructions for Authors</a></p>
+		<p>DOI: 10.1007/s10993-005-0885-9</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;4, issue&nbsp;1 (2005)</p></td>
+	<td>152&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-005-0885-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-005-0885-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-005-0885-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-005-0885-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-005-1493-4">Books Received January 2004–December 2004</a></p>
+		<p>DOI: 10.1007/s10993-005-1493-4</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;4, issue&nbsp;1 (2005)</p></td>
+	<td>88&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-005-1493-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-005-1493-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-005-1493-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-005-1493-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. Anthony Brown</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-005-2274-9">Language and Identity in Belarus</a></p>
+		<p>DOI: 10.1007/s10993-005-2274-9</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;4, issue&nbsp;3 (2005)</p></td>
+	<td>259&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-005-2274-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-005-2274-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-005-2274-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-005-2274-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tim Mcnamara</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-005-2886-0">21st Century Shibboleth: Language Tests, Identity and Intergroup Conflict</a></p>
+		<p>DOI: 10.1007/s10993-005-2886-0</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;4, issue&nbsp;4 (2005)</p></td>
+	<td>197&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-005-2886-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-005-2886-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-005-2886-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-005-2886-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vivien Berry; Arthur McNeill</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-005-2887-z">Raising English Language Standards in Hong Kong</a></p>
+		<p>DOI: 10.1007/s10993-005-2887-z</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;4, issue&nbsp;4 (2005)</p></td>
+	<td>196&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-005-2887-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-005-2887-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-005-2887-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-005-2887-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John E. Petrovic</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-005-2888-y">The Conservative Restoration and Neoliberal Defenses of Bilingual Education</a></p>
+		<p>DOI: 10.1007/s10993-005-2888-y</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;4, issue&nbsp;4 (2005)</p></td>
+	<td>199&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-005-2888-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-005-2888-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-005-2888-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-005-2888-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Maciej Czerwiński</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-005-3178-4">Book Review: Helen, Kelly-Holmes and Brigitta, Busch (Eds).Language, Discourse and Borders in the Yugoslav Successor States. Clevedon, UK: Multilingual Matters Ltd., 2004. Pp. v + 87. Hbk. USD $44.95</a></p>
+		<p>DOI: 10.1007/s10993-005-3178-4</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;5, issue&nbsp;1 (2006)</p></td>
+	<td>173&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-005-3178-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-005-3178-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-005-3178-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-005-3178-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Oladipo Salami</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-005-3183-7">Book Review: Alamin M. Mazrui,English in Africa After the Cold War. Clevedon, UK: Multilingual Matters, 2004. Pp. vii + 144 Pbk US$ 29.95</a></p>
+		<p>DOI: 10.1007/s10993-005-3183-7</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;5, issue&nbsp;1 (2006)</p></td>
+	<td>173&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-005-3183-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-005-3183-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-005-3183-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-005-3183-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dawn Marley</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-005-3191-7">Book Review: PHILIPPE BLANCHET and DIDIER DE ROBILLARD (Eds).Langues, contacts, complexité. Perspectives théoriques en sociolinguistique(Cahiers de Sociolinguistique no. 8), Rennes: Presses Universitaires de Rennes, 2003, pp. 320. ISBN2-86847-930-8. €8.00.</a></p>
+		<p>DOI: 10.1007/s10993-005-3191-7</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;4, issue&nbsp;4 (2005)</p></td>
+	<td>143&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-005-3191-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-005-3191-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-005-3191-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-005-3191-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas Ricento</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-005-3200-x">Book Review: Bernard SpolskyLanguage Policy(Key Topics in Sociolinguistics). Cambridge: Cambridge University Press, 2004. Pp. vii, 250. Pb US$ 27.99.</a></p>
+		<p>DOI: 10.1007/s10993-005-3200-x</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;5, issue&nbsp;1 (2006)</p></td>
+	<td>173&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-005-3200-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-005-3200-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-005-3200-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-005-3200-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nancy H. Hornberger</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10993-005-3203-7">Book Review: TERESA L. MCCARTY.A Place to Be Navajo-Rough Rock and the Struggle for Self-Determination in Indigenous Schooling.Mahwah, NJ: Lawrence Erlbaum, 2002. Pp. xxi, 227. Pb US$27.50.</a></p>
+		<p>DOI: 10.1007/s10993-005-3203-7</p>	</td>
+	<td><p><a href="/scimag/journals/16447">Language Policy</a><p>volume&nbsp;4, issue&nbsp;4 (2005)</p></td>
+	<td>143&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10993-005-3203-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10993-005-3203-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10993-005-3203-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10993-005-3203-7">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">703 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 29</span>
+	 <a href="/scimag/?journal=16447&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

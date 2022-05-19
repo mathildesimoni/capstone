@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer US</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1384-5810</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-756X</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 35; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 35');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=5618&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">854 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 35</span>
+	 <a href="/scimag/?journal=5618&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Jianlin Cheng; Michael J. Sweredoski; Pierre Baldi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0001-y">Accurate Prediction of Protein Disordered Regions by Mining Protein Structure Data</a></p>
+		<p>DOI: 10.1007/s10618-005-0001-y</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;11, issue&nbsp;3 (2005)</p></td>
+	<td>223&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0001-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0001-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0001-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0001-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Karam Gouda; Mohammed J. Zaki</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0002-x">GenMax: An Efficient Algorithm for Mining Maximal Frequent Itemsets</a></p>
+		<p>DOI: 10.1007/s10618-005-0002-x</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;11, issue&nbsp;3 (2005)</p></td>
+	<td>421&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0002-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0002-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0002-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0002-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michihiro Kuramochi; George Karypis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0003-9">Finding Frequent Patterns in a Large Sparse Graph*</a></p>
+		<p>DOI: 10.1007/s10618-005-0003-9</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;11, issue&nbsp;3 (2005)</p></td>
+	<td>877&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0003-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0003-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0003-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0003-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Seong Keon Lee; Hyun-Cheol Kang; Sang-Tae Han; Kwang-Hwan Kim</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0004-8">Using Generalized Estimating Equation to Learn Decision Tree with Multivariate Responses</a></p>
+		<p>DOI: 10.1007/s10618-005-0004-8</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;11, issue&nbsp;3 (2005)</p></td>
+	<td>317&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0004-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0004-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0004-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0004-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hwanjo Yu; Jiong Yang; Jiawei Han; Xiaolei Li</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0005-7">Making SVMs Scalable to Large Data Sets using Hierarchical Cluster Indexing</a></p>
+		<p>DOI: 10.1007/s10618-005-0005-7</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;11, issue&nbsp;3 (2005)</p></td>
+	<td>603&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0005-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0005-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0005-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0005-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Elisa Bertino; Igor Nai Fovino; Loredana Parasiliti Provenza</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0006-6">A Framework for Evaluating Privacy Preserving Data Mining Algorithms*</a></p>
+		<p>DOI: 10.1007/s10618-005-0006-6</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;11, issue&nbsp;2 (2005)</p></td>
+	<td>642&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0006-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0006-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0006-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0006-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Josep Domingo-Ferrer; Vicenç Torra</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0007-5">Ordinal, Continuous and Heterogeneousk-Anonymity Through Microaggregation</a></p>
+		<p>DOI: 10.1007/s10618-005-0007-5</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;11, issue&nbsp;2 (2005)</p></td>
+	<td>287&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0007-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0007-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0007-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0007-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Josep Domingo-Ferrer; Vicenç Torra</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0009-3">Privacy in Data Mining</a></p>
+		<p>DOI: 10.1007/s10618-005-0009-3</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;11, issue&nbsp;2 (2005)</p></td>
+	<td>111&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0009-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0009-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0009-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0009-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen E. Fienberg; Aleksandra B. Slavkovic</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0010-x">Preserving the Confidentiality of Categorical Statistical Data Bases When Releasing Information for Association Rules*</a></p>
+		<p>DOI: 10.1007/s10618-005-0010-x</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;11, issue&nbsp;2 (2005)</p></td>
+	<td>378&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0010-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0010-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0010-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0010-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Josep M. Mateo-Sanz; Josep Domingo-Ferrer; Francesc Sebé</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0011-9">Probabilistic Information Loss Measures in Confidentiality Protection of Continuous Microdata</a></p>
+		<p>DOI: 10.1007/s10618-005-0011-9</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;11, issue&nbsp;2 (2005)</p></td>
+	<td>227&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0011-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0011-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0011-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0011-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>XINGQUAN ZHU; XINDONG WU; QIJUN CHEN</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0012-8">Bridging Local and Global Data Cleansing: Identifying Class Noise in Large, Distributed Data Datasets</a></p>
+		<p>DOI: 10.1007/s10618-005-0012-8</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;12, issue&nbsp;2-3 (2006)</p></td>
+	<td>556&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0012-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0012-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0012-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0012-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Charles X. Ling; Qiang Yang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0013-7">Discovering Classification from Data of Multiple Sources</a></p>
+		<p>DOI: 10.1007/s10618-005-0013-7</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;12, issue&nbsp;2-3 (2006)</p></td>
+	<td>327&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0013-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0013-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0013-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0013-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Matthew Eric Otey; Amol Ghoting; Srinivasan Parthasarathy</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0014-6">Fast Distributed Outlier Detection in Mixed-Attribute Data Sets</a></p>
+		<p>DOI: 10.1007/s10618-005-0014-6</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;12, issue&nbsp;2-3 (2006)</p></td>
+	<td>608&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0014-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0014-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0014-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0014-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>GUI-RONG XUE; YONG YU; DOU SHEN; QIANG YANG; HUA-JUN ZENG; ZHENG CHEN</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0015-5">Reinforcing Web-object Categorization Through Interrelationships</a></p>
+		<p>DOI: 10.1007/s10618-005-0015-5</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;12, issue&nbsp;2-3 (2006)</p></td>
+	<td>410&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0015-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0015-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0015-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0015-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michail Vlachos; Philip S. Yu; Vittorio Castelli; Christopher Meek</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0016-4">Structural Periodic Measures for Time-Series Data</a></p>
+		<p>DOI: 10.1007/s10618-005-0016-4</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;12, issue&nbsp;1 (2006)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0016-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0016-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0016-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0016-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hye-Chung Kum; Joong Hyuk Chang; Wei Wang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0017-3">Sequential Pattern Mining in Multi-Databases via Multiple Alignment</a></p>
+		<p>DOI: 10.1007/s10618-005-0017-3</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;12, issue&nbsp;2-3 (2006)</p></td>
+	<td>644&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0017-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0017-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0017-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0017-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jia Hu; Ning Zhong</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0018-2">Organizing Multiple Data Sources for Developing Intelligent e-Business Portals</a></p>
+		<p>DOI: 10.1007/s10618-005-0018-2</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;12, issue&nbsp;2-3 (2006)</p></td>
+	<td>604&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0018-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0018-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0018-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0018-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>ABDELHAMID BOUCHACHIA; WITOLD PEDRYCZ</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0019-1">Data Clustering with Partial Supervision</a></p>
+		<p>DOI: 10.1007/s10618-005-0019-1</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;12, issue&nbsp;1 (2006)</p></td>
+	<td>884&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0019-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0019-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0019-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0019-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Bouchaffra; J. Tan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0020-8">Structural Hidden Markov Models Using a Relation of Equivalence: Application to Automotive Designs</a></p>
+		<p>DOI: 10.1007/s10618-005-0020-8</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;12, issue&nbsp;1 (2006)</p></td>
+	<td>906&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0020-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0020-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0020-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0020-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Min Wang; Yee Leung; Chenhu Zhou; Tao Pei; Jiancheng Luo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0021-7">A Mathematical Morphology Based Scale Space Method for the Mining of Linear Features in Geographic Data</a></p>
+		<p>DOI: 10.1007/s10618-005-0021-7</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;12, issue&nbsp;1 (2006)</p></td>
+	<td>541&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0021-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0021-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0021-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0021-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jian Pei; Jiawei Han; Laks V. S. Lakshmanan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0022-6">An Erratum on #x201C;Pushing Convertible Constraints in Frequent Itemset Mining#x201D;</a></p>
+		<p>DOI: 10.1007/s10618-005-0022-6</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;12, issue&nbsp;1 (2006)</p></td>
+	<td>81&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0022-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0022-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0022-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0022-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jianlin Cheng; Michael J. Sweredoski; Pierre Baldi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0023-5">DOMpro: Protein Domain Prediction Using Profiles, Secondary Structure, Relative Solvent Accessibility, and Recursive Neural Networks</a></p>
+		<p>DOI: 10.1007/s10618-005-0023-5</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;13, issue&nbsp;1 (2006)</p></td>
+	<td>203&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0023-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0023-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0023-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0023-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>PETER J. ROUSSEEUW; KATRIEN VAN DRIESSEN</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0024-4">Computing LTS Regression for Large Data Sets</a></p>
+		<p>DOI: 10.1007/s10618-005-0024-4</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;12, issue&nbsp;1 (2006)</p></td>
+	<td>383&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0024-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0024-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0024-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0024-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Hahsler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0026-2">A Model-Based Frequency Constraint for Mining Associations from Transaction Data</a></p>
+		<p>DOI: 10.1007/s10618-005-0026-2</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;13, issue&nbsp;2 (2006)</p></td>
+	<td>430&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0026-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0026-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0026-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0026-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jun Yan; Ning Liu; Qiang Yang; Benyu Zhang; Qiansheng Cheng; Zheng Chen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10618-005-0027-1">Mining Adaptive Ratio Rules from Distributed Data Sources</a></p>
+		<p>DOI: 10.1007/s10618-005-0027-1</p>	</td>
+	<td><p><a href="/scimag/journals/5618">Data Mining and Knowledge Discovery</a><p>volume&nbsp;12, issue&nbsp;2-3 (2006)</p></td>
+	<td>384&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10618-005-0027-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10618-005-0027-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10618-005-0027-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10618-005-0027-1">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">854 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 35</span>
+	 <a href="/scimag/?journal=5618&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

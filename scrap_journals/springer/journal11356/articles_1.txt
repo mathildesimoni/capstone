@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/11356">International Journal on Digital Libraries</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1432-5012</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1432-1300</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 19; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 19');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=11356&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">451 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 19</span>
+	 <a href="/scimag/?journal=11356&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>C. Nikolaou; C. Stephanidis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010717">In the tradition of Alexandrian Scholars¶Special Issue of the International Journal on Digital Libraries</a></p>
+		<p>DOI: 10.1007/pl00010717</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;3, issue&nbsp;1 (2000)</p></td>
+	<td>52&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010717" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010717">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010717">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010717">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hugh E. Williams; Justin Zobel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0050-z">Searchable words on the Web</a></p>
+		<p>DOI: 10.1007/s00799-003-0050-z</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;5, issue&nbsp;2 (2005)</p></td>
+	<td>205&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0050-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0050-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0050-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0050-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Erich Neuhold; Ingo Frommholz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0051-y">Digital libraries as experienced by the editors of the journal</a></p>
+		<p>DOI: 10.1007/s00799-003-0051-y</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;1 (2004)</p></td>
+	<td>47&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0051-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0051-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0051-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0051-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Brian F. Cooper; Hector Garcia-Molina</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0052-x">InfoMonitor: unobtrusively archiving a World Wide Web server</a></p>
+		<p>DOI: 10.1007/s00799-003-0052-x</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;5, issue&nbsp;2 (2005)</p></td>
+	<td>520&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0052-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0052-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0052-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0052-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patrick Wolf; Wolfgang Putz; Avare’ Stewart; Arnd Steinmetz; Matthias Hemmje; Erich Neuhold</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0053-9">LectureLounge – experience education beyond the borders of the classroom</a></p>
+		<p>DOI: 10.1007/s00799-003-0053-9</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;1 (2004)</p></td>
+	<td>153&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0053-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0053-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0053-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0053-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yanyan Yang; Omer F. Rana; David W. Walker; Roy Williams; Christos Georgousopoulos; Massimo Caffaro; Giovanni Aloisio</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0054-8">An agent infrastructure for on-demand processing of remote-sensing archives</a></p>
+		<p>DOI: 10.1007/s00799-003-0054-8</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;5, issue&nbsp;2 (2005)</p></td>
+	<td>1.72&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0054-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0054-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0054-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0054-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rudi Schmiede</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0056-6">Advancing digital libraries in Germany and creating distributed scientific resources – the telos working group at Darmstadt University of Technology</a></p>
+		<p>DOI: 10.1007/s00799-003-0056-6</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;1 (2004)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0056-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0056-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0056-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0056-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tapan Kamdar; Anupam Joshi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0057-5">Using incremental Web log mining to create adaptive web servers</a></p>
+		<p>DOI: 10.1007/s00799-003-0057-5</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;5, issue&nbsp;2 (2005)</p></td>
+	<td>936&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0057-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0057-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0057-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0057-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gary Marchionini</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0058-4">A briefing on the evolution and status of the Open Video digital library</a></p>
+		<p>DOI: 10.1007/s00799-003-0058-4</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;1 (2004)</p></td>
+	<td>79&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0058-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0058-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0058-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0058-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jen-Shin Hong; Bai-Hsuan Chen; Sheng-Hao Hung</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0059-3">Toward intelligent styling for digital museum exhibitions: modularization framework for aesthetic hypermedia presentations</a></p>
+		<p>DOI: 10.1007/s00799-003-0059-3</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;1 (2004)</p></td>
+	<td>167&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0059-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0059-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0059-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0059-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Fuchs; C. Muscogiuri; C. Niederée; M. Hemmje</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0060-x">Digital libraries in knowledge management: an e-learning case study</a></p>
+		<p>DOI: 10.1007/s00799-003-0060-x</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;1 (2004)</p></td>
+	<td>133&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0060-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0060-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0060-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0060-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Donatella Castelli; Pasquale Pagano; Costantino Thanos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0061-9">OpenDLib: an infrastructure for new generation digital libraries</a></p>
+		<p>DOI: 10.1007/s00799-003-0061-9</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;1 (2004)</p></td>
+	<td>77&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0061-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0061-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0061-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0061-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pasquale Savino; Carol Peters</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0062-8">ECHO: a digital library for historical film archives</a></p>
+		<p>DOI: 10.1007/s00799-003-0062-8</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;1 (2004)</p></td>
+	<td>177&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0062-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0062-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0062-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0062-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Umberto Straccia; Costantino Thanos</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0063-7">An open collaborative virtual archive environment</a></p>
+		<p>DOI: 10.1007/s00799-003-0063-7</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;1 (2004)</p></td>
+	<td>160&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0063-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0063-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0063-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0063-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Unmil P. Karadkar; Luis Francisco-Revilla; Richard Furuta; Frank Shipman; Avital Arora; Suvendu Dash; Pratik Dave; Emily Luke</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0064-6">Metadocuments supporting digital library information discovery</a></p>
+		<p>DOI: 10.1007/s00799-003-0064-6</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;1 (2004)</p></td>
+	<td>278&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0064-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0064-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0064-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0064-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alan F. Smeaton; Hyowon Lee; Kieran McDonald</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0065-5">Experiences of creating four video library collections with the Físchlár system</a></p>
+		<p>DOI: 10.1007/s00799-003-0065-5</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;1 (2004)</p></td>
+	<td>114&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0065-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0065-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0065-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0065-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ian H. Witten; Katherine J. Don; Michael Dewsnip; Valentin Tablan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0066-4">Text mining in a digital library</a></p>
+		<p>DOI: 10.1007/s00799-003-0066-4</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;1 (2004)</p></td>
+	<td>318&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0066-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0066-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0066-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0066-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>José Luis Borbinha</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0067-3">An approach to creating a national digital library</a></p>
+		<p>DOI: 10.1007/s00799-003-0067-3</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;1 (2004)</p></td>
+	<td>86&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0067-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0067-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0067-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0067-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Georgia Koutrika; Yannis Ioannidis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0068-2">Rule-based query personalization in digital libraries</a></p>
+		<p>DOI: 10.1007/s00799-003-0068-2</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;1 (2004)</p></td>
+	<td>143&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0068-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0068-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0068-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0068-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ulrich Thiel; Holger Brocks; Ingo Frommholz; Andrea Dirsch-Weigand; Jürgen Keiper; Adelheit Stein; Erich J. Neuhold</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0069-1">COLLATE – A collaboratory supporting research on historic European films</a></p>
+		<p>DOI: 10.1007/s00799-003-0069-1</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;1 (2004)</p></td>
+	<td>411&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0069-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0069-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0069-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0069-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ann Blandford; George Buchanan; Matt Jones</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0070-8">Usability of digital libraries</a></p>
+		<p>DOI: 10.1007/s00799-003-0070-8</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;2 (2004)</p></td>
+	<td>61&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0070-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0070-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0070-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0070-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anne Adams; Ann Blandford</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0071-7">The unseen and unacceptable face of digital libraries</a></p>
+		<p>DOI: 10.1007/s00799-003-0071-7</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;2 (2004)</p></td>
+	<td>220&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0071-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0071-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0071-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0071-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hanna Stelmaszewska; Ann Blandford</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0072-6">From physical to digital: a case study of computer scientists’ behaviour in physical libraries</a></p>
+		<p>DOI: 10.1007/s00799-003-0072-6</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;2 (2004)</p></td>
+	<td>171&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0072-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0072-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0072-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0072-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sherry Y. Chen; George D. Magoulas; Robert D. Macredie</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0073-5">Cognitive styles and users’ responses to structured information representation</a></p>
+		<p>DOI: 10.1007/s00799-003-0073-5</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;2 (2004)</p></td>
+	<td>489&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0073-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0073-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0073-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0073-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Rex Hartson; Priya Shivakumar; Manuel A. Pérez-Quiñones</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00799-003-0074-4">Usability inspection of digital libraries: a case study</a></p>
+		<p>DOI: 10.1007/s00799-003-0074-4</p>	</td>
+	<td><p><a href="/scimag/journals/11356">International Journal on Digital Libraries</a><p>volume&nbsp;4, issue&nbsp;2 (2004)</p></td>
+	<td>660&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00799-003-0074-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00799-003-0074-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00799-003-0074-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00799-003-0074-4">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">451 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 19</span>
+	 <a href="/scimag/?journal=11356&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

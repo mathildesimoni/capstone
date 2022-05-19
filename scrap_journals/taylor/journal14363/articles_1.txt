@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Taylor and Francis Group</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1754-6559</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1754-6567</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 9; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 9');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=14363&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">219 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 9</span>
+	 <a href="/scimag/?journal=14363&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Soifer, Maya</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546550802700335">Beyond <i>convivencia</i>: critical reflections on the historiography of interfaith relations in Christian Spain</a></p>
+		<p>DOI: 10.1080/17546550802700335</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;1, issue&nbsp;1 (2009)</p></td>
+	<td>118&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546550802700335" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546550802700335">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546550802700335">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546550802700335">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fierro, Maribel</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546559.2010.495289">Conversion, ancestry and universal religion: the case of the Almohads in the Islamic West (sixth/twelfth–seventh/thirteenth centuries)</a></p>
+		<p>DOI: 10.1080/17546559.2010.495289</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;2, issue&nbsp;2 (2010)</p></td>
+	<td>175&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546559.2010.495289" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546559.2010.495289">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546559.2010.495289">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546559.2010.495289">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Decter, Jonathan</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546559.2011.610176">A Hebrew “sodomite” tale from thirteenth-century Toledo: Jacob Ben El‘azar's story of Sapir, Shapir, and Birsha</a></p>
+		<p>DOI: 10.1080/17546559.2011.610176</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;3, issue&nbsp;2 (2011)</p></td>
+	<td>177&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546559.2011.610176" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546559.2011.610176">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546559.2011.610176">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546559.2011.610176">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cabrer, Martín Alvira</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546559.2012.677172">Las Navas de Tolosa: the beginning of the end of the “Reconquista”? The battle and its consequences according to the Christian sources of the thirteenth century</a></p>
+		<p>DOI: 10.1080/17546559.2012.677172</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;4, issue&nbsp;1 (2012)</p></td>
+	<td>109&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546559.2012.677172" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546559.2012.677172">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546559.2012.677172">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546559.2012.677172">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tartakoff, Paola</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546559.2011.556701">Christian kings and Jewish conversion in the medieval Crown of Aragon</a></p>
+		<p>DOI: 10.1080/17546559.2011.556701</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;3, issue&nbsp;1 (2011)</p></td>
+	<td>153&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546559.2011.556701" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546559.2011.556701">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546559.2011.556701">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546559.2011.556701">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Moreno, Aaron M.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546559.2012.728072">What's in a name or signature? The anthroponymy, autography, and communal identification of Christian communities in early Castilian Toledo and Norman Sicily</a></p>
+		<p>DOI: 10.1080/17546559.2012.728072</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;4, issue&nbsp;2 (2012)</p></td>
+	<td>325&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546559.2012.728072" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546559.2012.728072">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546559.2012.728072">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546559.2012.728072">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wacks, David</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546559.2012.727237">Vernacular anxiety and the Semitic imaginary: Shem Tov Isaac ibn Ardutiel de Carrión and his critics</a></p>
+		<p>DOI: 10.1080/17546559.2012.727237</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;4, issue&nbsp;2 (2012)</p></td>
+	<td>181&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546559.2012.727237" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546559.2012.727237">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546559.2012.727237">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546559.2012.727237">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Diana Kelley, Emily</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546559.2012.727239">Servant of God and protector of the faithful: St. Nicholas as saint and redeemer in late medieval Burgos</a></p>
+		<p>DOI: 10.1080/17546559.2012.727239</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;4, issue&nbsp;2 (2012)</p></td>
+	<td>2.51&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546559.2012.727239" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546559.2012.727239">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546559.2012.727239">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546559.2012.727239">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alfonso, Esperanza</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546559.2011.610171">Medieval portrayals of the ideal woman</a></p>
+		<p>DOI: 10.1080/17546559.2011.610171</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;3, issue&nbsp;2 (2011)</p></td>
+	<td>195&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546559.2011.610171" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546559.2011.610171">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546559.2011.610171">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546559.2011.610171">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gutiérrez, Eva Lapiedra</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546559.2010.502667">Christian participation in Almohad armies and personal guards</a></p>
+		<p>DOI: 10.1080/17546559.2010.502667</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;2, issue&nbsp;2 (2010)</p></td>
+	<td>158&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546559.2010.502667" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546559.2010.502667">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546559.2010.502667">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546559.2010.502667">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bauer, Doron</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546550903171998">Castus castor (the chaste beaver): some reflections on the iconography of the southern portal of Santa María de Uncastillo</a></p>
+		<p>DOI: 10.1080/17546550903171998</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;1, issue&nbsp;2 (2009)</p></td>
+	<td>1.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546550903171998" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546550903171998">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546550903171998">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546550903171998">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Smith, Damian J.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546559.2012.677171">Las Navas and the restoration of Spain</a></p>
+		<p>DOI: 10.1080/17546559.2012.677171</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;4, issue&nbsp;1 (2012)</p></td>
+	<td>98&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546559.2012.677171" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546559.2012.677171">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546559.2012.677171">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546559.2012.677171">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hamilton, Michelle</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546550903136082">Hispanism and Sephardic studies</a></p>
+		<p>DOI: 10.1080/17546550903136082</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;1, issue&nbsp;2 (2009)</p></td>
+	<td>115&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546550903136082" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546550903136082">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546550903136082">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546550903136082">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Novikoff, Alex J.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546559.2012.677194">From dialogue to disputation in the age of Archbishop Rodrigo Jiménez de Rada</a></p>
+		<p>DOI: 10.1080/17546559.2012.677194</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;4, issue&nbsp;1 (2012)</p></td>
+	<td>95&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546559.2012.677194" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546559.2012.677194">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546559.2012.677194">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546559.2012.677194">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Szpiech, Ryan</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546559.2011.610182">Converting the Queen: gender and polemic in the              <i>Book of ‘Aḥiṭub and Ṣalmon</i></a></p>
+		<p>DOI: 10.1080/17546559.2011.610182</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;3, issue&nbsp;2 (2011)</p></td>
+	<td>174&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546559.2011.610182" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546559.2011.610182">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546559.2011.610182">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546559.2011.610182">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ray, Jonathan</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546550903136132">Images of the Jewish community in medieval Iberia</a></p>
+		<p>DOI: 10.1080/17546550903136132</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;1, issue&nbsp;2 (2009)</p></td>
+	<td>117&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546550903136132" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546550903136132">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546550903136132">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546550903136132">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rouighi, Ramzi</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546551003619647">The Andalusi origins of the Berbers?</a></p>
+		<p>DOI: 10.1080/17546551003619647</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;2, issue&nbsp;1 (2010)</p></td>
+	<td>142&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546551003619647" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546551003619647">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546551003619647">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546551003619647">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Torró, Josep</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546559.2012.677178">Was the Christian conquest of al-Andalus irreversible?</a></p>
+		<p>DOI: 10.1080/17546559.2012.677178</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;4, issue&nbsp;1 (2012)</p></td>
+	<td>116&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546559.2012.677178" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546559.2012.677178">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546559.2012.677178">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546559.2012.677178">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Reilly, Bernard F.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546559.2012.677192">Las Navas de Tolosa and the changing balance of power</a></p>
+		<p>DOI: 10.1080/17546559.2012.677192</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;4, issue&nbsp;1 (2012)</p></td>
+	<td>92&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546559.2012.677192" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546559.2012.677192">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546559.2012.677192">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546559.2012.677192">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Escalona, Julio; Velázquez Soriano, Isabel; Juárez Benítez, Paloma </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546559.2012.732441">Identification of the sole extant original charter issued by Fernán González, Count of Castile (932–970)</a></p>
+		<p>DOI: 10.1080/17546559.2012.732441</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;4, issue&nbsp;2 (2012)</p></td>
+	<td>1.44&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546559.2012.732441" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546559.2012.732441">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546559.2012.732441">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546559.2012.732441">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546559.2012.740977">Editorial Board</a></p>
+		<p>DOI: 10.1080/17546559.2012.740977</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;4, issue&nbsp;2 (2012)</p></td>
+	<td>66&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546559.2012.740977" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546559.2012.740977">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546559.2012.740977">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546559.2012.740977">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Corcos, David</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546559.2010.495295">The nature of the Almohad rulers’ treatment of the Jews</a></p>
+		<p>DOI: 10.1080/17546559.2010.495295</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;2, issue&nbsp;2 (2010)</p></td>
+	<td>219&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546559.2010.495295" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546559.2010.495295">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546559.2010.495295">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546559.2010.495295">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Brown, Peter Scott</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546550802700616">The verse inscription from the deposition relief at Santo Domingo de Silos: word, image, and act in medieval art</a></p>
+		<p>DOI: 10.1080/17546550802700616</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;1, issue&nbsp;1 (2009)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546550802700616" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546550802700616">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546550802700616">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546550802700616">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vann, Theresa M.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546559.2011.556706">“Our father has won a great victory”: the authorship of Berenguela's account of the battle of Las Navas de Tolosa, 1212</a></p>
+		<p>DOI: 10.1080/17546559.2011.556706</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;3, issue&nbsp;1 (2011)</p></td>
+	<td>165&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546559.2011.556706" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546559.2011.556706">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546559.2011.556706">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546559.2011.556706">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1080%2F17546559.2011.556780">Notes on contributors</a></p>
+		<p>DOI: 10.1080/17546559.2011.556780</p>	</td>
+	<td><p><a href="/scimag/journals/14363">Journal of Medieval Iberian Studies</a><p>volume&nbsp;3, issue&nbsp;1 (2011)</p></td>
+	<td>73&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F17546559.2011.556780" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/17546559.2011.556780">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/17546559.2011.556780">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/17546559.2011.556780">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">219 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 9</span>
+	 <a href="/scimag/?journal=14363&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

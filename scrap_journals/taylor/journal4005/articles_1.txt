@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Taylor and Francis Group</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0009-1383</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1939-9146</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 425; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 425');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4005&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">10&nbsp;604 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 425</span>
+	 <a href="/scimag/?journal=4005&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Merisotis, Jamie P.; Phipps, Ronald A. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091389909602685">What's the Difference?:              <i>Outcomes of Distance vs. Traditional Classroom-Based Learning</i></a></p>
+		<p>DOI: 10.1080/00091389909602685</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;31, issue&nbsp;3 (1999)</p></td>
+	<td>907&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091389909602685" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091389909602685">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091389909602685">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091389909602685">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pascarella, Ernest T.; Blaich, Charles; Martin, Georgianna L.; Hanson, Jana M. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091383.2011.568898">How Robust Are the Findings of              <i>Academically Adrift?</i></a></p>
+		<p>DOI: 10.1080/00091383.2011.568898</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;43, issue&nbsp;3 (2011)</p></td>
+	<td>491&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091383.2011.568898" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091383.2011.568898">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091383.2011.568898">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091383.2011.568898">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Smith, Burck</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091383.2013.749145">Perspectives: Unconventional Wisdom</a></p>
+		<p>DOI: 10.1080/00091383.2013.749145</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;45, issue&nbsp;1 (2013)</p></td>
+	<td>220&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091383.2013.749145" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091383.2013.749145">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091383.2013.749145">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091383.2013.749145">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Felten, Peter</td>
+	<td>
+		<p><a href="/scimag/10.3200%2FCHNG.40.6.60-64">Visual Literacy</a></p>
+		<p>DOI: 10.3200/CHNG.40.6.60-64</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;40, issue&nbsp;6 (2008)</p></td>
+	<td>2.37&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.3200%2FCHNG.40.6.60-64" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3200/CHNG.40.6.60-64">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3200/CHNG.40.6.60-64">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3200/CHNG.40.6.60-64">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Massy, William F.; Sullivan, Teresa A.; Mackie, Christopher </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091383.2013.749140">Improving Measurement of Productivity in Higher Education</a></p>
+		<p>DOI: 10.1080/00091383.2013.749140</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;45, issue&nbsp;1 (2013)</p></td>
+	<td>3.27&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091383.2013.749140" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091383.2013.749140">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091383.2013.749140">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091383.2013.749140">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bruffee, Kenneth A.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091383.1995.9937722">Sharing Our Toys:              <i>Cooperative Learning Versus Collaborative Learning</i></a></p>
+		<p>DOI: 10.1080/00091383.1995.9937722</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;27, issue&nbsp;1 (1995)</p></td>
+	<td>1.33&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091383.1995.9937722" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091383.1995.9937722">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091383.1995.9937722">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091383.1995.9937722">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stein, Barry; Haynes, Ada </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091383.2011.550254">Engaging Faculty in the Assessment and Improvement of Students' Critical Thinking Using the Critical Thinking Assessment Test</a></p>
+		<p>DOI: 10.1080/00091383.2011.550254</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;43, issue&nbsp;2 (2011)</p></td>
+	<td>1.62&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091383.2011.550254" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091383.2011.550254">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091383.2011.550254">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091383.2011.550254">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chun, Marc</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091383.2012.712869">Performance Tasks and the Pedagogy of Broadway</a></p>
+		<p>DOI: 10.1080/00091383.2012.712869</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;44, issue&nbsp;5 (2012)</p></td>
+	<td>1.31&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091383.2012.712869" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091383.2012.712869">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091383.2012.712869">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091383.2012.712869">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Schmeltekopf, Donald D.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091383.1983.10570021">General Education in Two-Year Colleges edited by B. Lamar Johnson</a></p>
+		<p>DOI: 10.1080/00091383.1983.10570021</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;15, issue&nbsp;7 (1983)</p></td>
+	<td>1.74&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091383.1983.10570021" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091383.1983.10570021">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091383.1983.10570021">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091383.1983.10570021">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Johnson, David W.; Johnson, Roger T.; Smith, Karl A. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091389809602629">Cooperative Learning Returns To College What Evidence Is There That It Works?</a></p>
+		<p>DOI: 10.1080/00091389809602629</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;30, issue&nbsp;4 (1998)</p></td>
+	<td>1.42&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091389809602629" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091389809602629">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091389809602629">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091389809602629">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kuh, George D.; Kinzie, Jillian; Schuh, John H.; Whitt, Elizabeth J. </td>
+	<td>
+		<p><a href="/scimag/10.3200%2FCHNG.37.4.44-51">Never let it rest lessons about student success from high-performing colleges and universities</a></p>
+		<p>DOI: 10.3200/CHNG.37.4.44-51</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;37, issue&nbsp;4 (2005)</p></td>
+	<td>256&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3200%2FCHNG.37.4.44-51" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3200/CHNG.37.4.44-51">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3200/CHNG.37.4.44-51">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3200/CHNG.37.4.44-51">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marchese, Ted</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091389909602672">The Certificates Phenomenon</a></p>
+		<p>DOI: 10.1080/00091389909602672</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;31, issue&nbsp;2 (1999)</p></td>
+	<td>190&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091389909602672" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091389909602672">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091389909602672">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091389909602672">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Foster, Charles R.</td>
+	<td>
+		<p><a href="/scimag/10.3200%2FCHNG.39.3.38-42">Teaching and Learning in the Service of Transformation</a></p>
+		<p>DOI: 10.3200/CHNG.39.3.38-42</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;39, issue&nbsp;3 (2007)</p></td>
+	<td>418&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3200%2FCHNG.39.3.38-42" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3200/CHNG.39.3.38-42">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3200/CHNG.39.3.38-42">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3200/CHNG.39.3.38-42">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bruffee, Kenneth A.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091383.1992.9937125">Science in a Postmodern World</a></p>
+		<p>DOI: 10.1080/00091383.1992.9937125</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;24, issue&nbsp;5 (1992)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091383.1992.9937125" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091383.1992.9937125">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091383.1992.9937125">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091383.1992.9937125">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Massy, William F.; Wilger, Andrea K. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091383.1995.9936431">Improving Productivity:              <i>What Faculty Think About It—And It's Effect on Quality</i></a></p>
+		<p>DOI: 10.1080/00091383.1995.9936431</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;27, issue&nbsp;4 (1995)</p></td>
+	<td>1.65&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091383.1995.9936431" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091383.1995.9936431">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091383.1995.9936431">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091383.1995.9936431">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hansen, Edmund J.; Stephens, James A. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091380009605739">The Ethics of Learner-Centered Education: Dynamics That Impede the Process</a></p>
+		<p>DOI: 10.1080/00091380009605739</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;32, issue&nbsp;5 (2000)</p></td>
+	<td>4.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091380009605739" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091380009605739">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091380009605739">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091380009605739">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pascarella, Ernest T.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091380109601796">Identifying Excellence in Undergraduate Education              <i>Are We Even Close?</i></a></p>
+		<p>DOI: 10.1080/00091380109601796</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;33, issue&nbsp;3 (2001)</p></td>
+	<td>2.31&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091380109601796" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091380109601796">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091380109601796">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091380109601796">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Budwig, Nancy</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091383.2013.787271">The Learning Sciences and Liberal Education</a></p>
+		<p>DOI: 10.1080/00091383.2013.787271</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;45, issue&nbsp;3 (2013)</p></td>
+	<td>7.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091383.2013.787271" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091383.2013.787271">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091383.2013.787271">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091383.2013.787271">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Winston, Gordon C.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091383.1992.9937115">Hostility, Maximization, & the Public Trust</a></p>
+		<p>DOI: 10.1080/00091383.1992.9937115</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;24, issue&nbsp;4 (1992)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091383.1992.9937115" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091383.1992.9937115">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091383.1992.9937115">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091383.1992.9937115">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Adelman, Clifford</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091380009601732">A Parallel Universe: Certification in the Information Technology Guild</a></p>
+		<p>DOI: 10.1080/00091380009601732</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;32, issue&nbsp;3 (2000)</p></td>
+	<td>1.27&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091380009601732" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091380009601732">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091380009601732">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091380009601732">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Altbach, Philip G.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091383.2012.636001">The Globalization of College and University Rankings</a></p>
+		<p>DOI: 10.1080/00091383.2012.636001</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;44, issue&nbsp;1 (2012)</p></td>
+	<td>2.42&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091383.2012.636001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091383.2012.636001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091383.2012.636001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091383.2012.636001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carolyn Mulford</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F40164080">Brazil's Project Rondon: Providing a "Realistic" Education, Helping the Country</a></p>
+		<p>DOI: 10.2307/40164080</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;15, issue&nbsp;2 (1983)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F40164080" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/40164080">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/40164080">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/40164080">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Radosh, Ronald</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091383.1976.10568931">: The CIA and the Academy</a></p>
+		<p>DOI: 10.1080/00091383.1976.10568931</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;8, issue&nbsp;7 (1976)</p></td>
+	<td>5.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091383.1976.10568931" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091383.1976.10568931">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091383.1976.10568931">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091383.1976.10568931">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kehm, Barbara M.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091381003704677">Quality in European Higher Education: The Influence of the Bologna Process</a></p>
+		<p>DOI: 10.1080/00091381003704677</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;42, issue&nbsp;3 (2010)</p></td>
+	<td>1.28&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091381003704677" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091381003704677">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091381003704677">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091381003704677">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Keller, George</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00091383.1985.9940513">Trees without Fruit</a></p>
+		<p>DOI: 10.1080/00091383.1985.9940513</p>	</td>
+	<td><p><a href="/scimag/journals/4005">Change The Magazine of Higher Learning</a><p>volume&nbsp;17, issue&nbsp;1 (1985)</p></td>
+	<td>754&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00091383.1985.9940513" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00091383.1985.9940513">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00091383.1985.9940513">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00091383.1985.9940513">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">10&nbsp;604 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 425</span>
+	 <a href="/scimag/?journal=4005&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

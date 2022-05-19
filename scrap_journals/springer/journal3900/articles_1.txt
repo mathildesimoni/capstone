@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/3900">Cell and Tissue Research</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0302-766X</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1432-0878</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 752; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 752');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=3900&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">18&nbsp;780 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 752</span>
+	 <a href="/scimag/?journal=3900&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Matthew S. Kalo; E. B. Pasquale</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00008807">Signal transfer by Eph receptors</a></p>
+		<p>DOI: 10.1007/pl00008807</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;298, issue&nbsp;1 (1999)</p></td>
+	<td>159&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00008807" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00008807">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00008807">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00008807">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Arai; David M. Jacobowitz; Takehiko Hida</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00008808">Calbindin D28k and calretinin in oxytocin and vasopressin neurons of the rat supraoptic nucleus</a></p>
+		<p>DOI: 10.1007/pl00008808</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;298, issue&nbsp;1 (1999)</p></td>
+	<td>813&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00008808" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00008808">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00008808">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00008808">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Reiko Kurotani; Shigeyuki Tahara; Naoko Sanno; Akira Teramoto; Pamela L. Mellon; Kinji Inoue; Shinichi Yoshimura; R. Y. Osamura</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00008809">Expression of Ptx1 in the adult rat pituitary glands and pituitary cell lines: hormone-secreting cells and folliculo-stellate cells</a></p>
+		<p>DOI: 10.1007/pl00008809</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;298, issue&nbsp;1 (1999)</p></td>
+	<td>510&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00008809" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00008809">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00008809">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00008809">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. Langley; N. J. Grant</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00008810">Molecular markers of sympathoadrenal cells</a></p>
+		<p>DOI: 10.1007/pl00008810</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;298, issue&nbsp;2 (1999)</p></td>
+	<td>885&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00008810" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00008810">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00008810">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00008810">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Man-Yeon Choi; Ada Rafaeli; Russell A. Jurenka</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0467-x">Pyrokinin/PBAN-like peptides in the central nervous system ofDrosophila melanogaster</a></p>
+		<p>DOI: 10.1007/s00441-001-0467-x</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;306, issue&nbsp;3 (2001)</p></td>
+	<td>110&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0467-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0467-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0467-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0467-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Matthias Dettloff; Daniela Wittwer; Christoph Weise; Andreas Wiesner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0468-9">Lipophorin of lower density is formed during immune responses in the lepidopteran insectGalleria mellonella</a></p>
+		<p>DOI: 10.1007/s00441-001-0468-9</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;306, issue&nbsp;3 (2001)</p></td>
+	<td>248&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0468-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0468-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0468-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0468-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David C. Wilcockson; Sook J. Chung; Simon G. Webster</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0469-8">Is crustacean hyperglycaemic hormone precursor-related peptide a circulating neurohormone in crabs?</a></p>
+		<p>DOI: 10.1007/s00441-001-0469-8</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;307, issue&nbsp;1 (2002)</p></td>
+	<td>274&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0469-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0469-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0469-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0469-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Keisuke Seki; Terumasa Komuro</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0470-2">Immunocytochemical demonstration of the gap junction proteins connexin 43 and connexin 45 in the musculature of the rat small intestine</a></p>
+		<p>DOI: 10.1007/s00441-001-0470-2</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;306, issue&nbsp;3 (2001)</p></td>
+	<td>314&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0470-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0470-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0470-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0470-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paolo Peretto; Claudio Giachino; GianCarlo Panzica; Aldo Fasolo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0471-1">Sexually dimorphic neurogenesis is topographically matched with the anterior accessory olfactory bulb of the adult rat</a></p>
+		<p>DOI: 10.1007/s00441-001-0471-1</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;306, issue&nbsp;3 (2001)</p></td>
+	<td>98&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0471-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0471-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0471-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0471-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bruno Antonsson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0472-0">Bax and other pro-apoptotic Bcl-2 family "killer-proteins" and their victim the mitochondrion</a></p>
+		<p>DOI: 10.1007/s00441-001-0472-0</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;306, issue&nbsp;3 (2001)</p></td>
+	<td>192&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0472-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0472-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0472-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0472-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. Hussain; G. Kellett; J. Affleck; E. Shepherd; C. Boyd</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0473-z">Expression and cellular distribution during development of the peptide transporter (PepT1) in the small intestinal epithelium of the rat</a></p>
+		<p>DOI: 10.1007/s00441-001-0473-z</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;307, issue&nbsp;1 (2002)</p></td>
+	<td>240&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0473-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0473-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0473-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0473-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. Belzer; T. Kobilo; A. Rich; M. Hanani</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0474-y">Intercellular coupling among interstitial cells of Cajal in the guinea pig small intestine</a></p>
+		<p>DOI: 10.1007/s00441-001-0474-y</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;307, issue&nbsp;1 (2002)</p></td>
+	<td>270&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0474-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0474-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0474-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0474-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Rehfeldt; G. Kuhn; J. Vanselow; R. Fürbass; I. Fiedler; G. Nürnberg; A. Clelland; N. Stickland; K. Ender</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0475-x">Maternal treatment with somatotropin during early gestation affects basic events of myogenesis in pigs</a></p>
+		<p>DOI: 10.1007/s00441-001-0475-x</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;306, issue&nbsp;3 (2001)</p></td>
+	<td>218&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0475-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0475-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0475-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0475-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lene Malerød; Lene Juvet; Tor Gjøen; Trond Berg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0476-9">The expression of scavenger receptor class B, type I (SR-BI) and caveolin-1 in parenchymal and nonparenchymal liver cells</a></p>
+		<p>DOI: 10.1007/s00441-001-0476-9</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;307, issue&nbsp;2 (2002)</p></td>
+	<td>109&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0476-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0476-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0476-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0476-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter G. Smith; Manxi Liu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0477-8">Impaired cutaneous wound healing after sensory denervation in developing rats: effects on cell proliferation and apoptosis</a></p>
+		<p>DOI: 10.1007/s00441-001-0477-8</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;307, issue&nbsp;3 (2002)</p></td>
+	<td>248&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0477-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0477-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0477-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0477-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Karen Wild; Jacques Paysan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0478-7">Single amino acid residue influences the distribution pattern of an inwardly rectifying potassium channel in polarized cells</a></p>
+		<p>DOI: 10.1007/s00441-001-0478-7</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;307, issue&nbsp;1 (2002)</p></td>
+	<td>278&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0478-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0478-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0478-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0478-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Norbert Schuster; Kerstin Krieglstein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0479-6">Mechanisms of TGF-β-mediated apoptosis</a></p>
+		<p>DOI: 10.1007/s00441-001-0479-6</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;307, issue&nbsp;1 (2002)</p></td>
+	<td>175&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0479-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0479-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0479-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0479-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sutthasinee Poonyachoti; Anjali Kulkarni-Narla; David R. Brown</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0480-0">Chemical coding of neurons expressing δ- and κ-opioid receptor and type I vanilloid receptor immunoreactivities in the porcine ileum</a></p>
+		<p>DOI: 10.1007/s00441-001-0480-0</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;307, issue&nbsp;1 (2002)</p></td>
+	<td>815&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0480-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0480-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0480-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0480-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shuji Koike; Yuji Takeda; Yasukazu Hozumi; Shinichi Okazaki; Masaru Aoyagi; Fujirou Sendo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0481-z">Immunohistochemical localization in human tissues of GPI-80, a novel glycosylphosphatidyl inositol-anchored protein that may regulate neutrophil extravasation</a></p>
+		<p>DOI: 10.1007/s00441-001-0481-z</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;307, issue&nbsp;1 (2002)</p></td>
+	<td>387&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0481-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0481-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0481-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0481-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H.-J. Wagner; U. Mattheus</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0482-y">Pineal organs in deep demersal fish</a></p>
+		<p>DOI: 10.1007/s00441-001-0482-y</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;307, issue&nbsp;1 (2002)</p></td>
+	<td>669&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0482-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0482-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0482-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0482-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Brian C. Bane; Thomas H. MacRae; Hui Xiang; Jack Bateman; Norma B. Slepecky</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0483-x">Microtubule cold stability in supporting cells of the gerbil auditory sensory epithelium: correlation with tubulin post-translational modifications</a></p>
+		<p>DOI: 10.1007/s00441-001-0483-x</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;307, issue&nbsp;1 (2002)</p></td>
+	<td>252&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0483-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0483-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0483-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0483-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Giulianini; N. Pandolfelli; S. Lorenzon; E. Ferrero; P. Edomi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0484-9">An antibody to recombinant crustacean hyperglycaemic hormone ofNephrops norvegicuscross-reacts with neuroendocrine organs of several taxa of malacostracan Crustacea</a></p>
+		<p>DOI: 10.1007/s00441-001-0484-9</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;307, issue&nbsp;2 (2002)</p></td>
+	<td>346&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0484-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0484-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0484-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0484-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chaya Kalcheim</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0485-8">Klaus Unsicker In celebration of his sixtieth birthday</a></p>
+		<p>DOI: 10.1007/s00441-001-0485-8</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;307, issue&nbsp;2 (2002)</p></td>
+	<td>29&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0485-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0485-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0485-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0485-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0486-7">Acknowledgement to Reviewers</a></p>
+		<p>DOI: 10.1007/s00441-001-0486-7</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;306, issue&nbsp;3 (2001)</p></td>
+	<td>9&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0486-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0486-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0486-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0486-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mario A. Restelli; Cristina L. de Villalobos; Zanca Fernanda</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs00441-001-0487-6">U0ltrastructural description of the musculature, the intraepidermal nervous system, and their interrelation inPseudochordodes bedriagae(Nematomorpha)</a></p>
+		<p>DOI: 10.1007/s00441-001-0487-6</p>	</td>
+	<td><p><a href="/scimag/journals/3900">Cell and Tissue Research</a><p>volume&nbsp;308, issue&nbsp;2 (2002)</p></td>
+	<td>403&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs00441-001-0487-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s00441-001-0487-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s00441-001-0487-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s00441-001-0487-6">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">18&nbsp;780 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 752</span>
+	 <a href="/scimag/?journal=3900&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

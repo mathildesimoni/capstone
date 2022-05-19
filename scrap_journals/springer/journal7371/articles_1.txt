@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/7371">Experimental Economics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1386-4157</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-6938</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 30; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 30');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=7371&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">732 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 30</span>
+	 <a href="/scimag/?journal=7371&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Charles A. Holt; Arthur J. H. C. Schram</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01426211">Editors' preface</a></p>
+		<p>DOI: 10.1007/bf01426211</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;1, issue&nbsp;1 (1998)</p></td>
+	<td>93&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01426211" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01426211">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01426211">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01426211">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James C. Cox</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01426212">Introduction</a></p>
+		<p>DOI: 10.1007/bf01426212</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;1, issue&nbsp;1 (1998)</p></td>
+	<td>39&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01426212" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01426212">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01426212">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01426212">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard D. Mckelvey; Thomas R. Palfrey</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01426213">Quantal response equilibria for extensive form games</a></p>
+		<p>DOI: 10.1007/bf01426213</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;1, issue&nbsp;1 (1998)</p></td>
+	<td>1.90&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01426213" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01426213">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01426213">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01426213">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Reinhard Selten</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01426214">Axiomatic characterization of the quadratic scoring rule</a></p>
+		<p>DOI: 10.1007/bf01426214</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;1, issue&nbsp;1 (1998)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01426214" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01426214">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01426214">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01426214">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John D. Hey; Daniela Di Cagno</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01426215">Sequential markets: An experimental investigation of Clower's dual-decision hypothesis</a></p>
+		<p>DOI: 10.1007/bf01426215</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;1, issue&nbsp;1 (1998)</p></td>
+	<td>1.41&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01426215" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01426215">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01426215">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01426215">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert Moir</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01426216">A Monte Carlo analysis of the fisher randomization technique: Reviving randomization for experimental economists</a></p>
+		<p>DOI: 10.1007/bf01426216</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;1, issue&nbsp;1 (1998)</p></td>
+	<td>914&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01426216" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01426216">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01426216">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01426216">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gary Bornstein; Ilan Yaniv</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01426217">Individual and group behavior in the ultimatum game: Are groups more “rational” players?</a></p>
+		<p>DOI: 10.1007/bf01426217</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;1, issue&nbsp;1 (1998)</p></td>
+	<td>621&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01426217" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01426217">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01426217">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01426217">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kenneth S. Chan; Stuart Mestelman; Robert Moir; R. Andrew Muller</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01669132">Heterogeneity and the voluntary provision of public goods</a></p>
+		<p>DOI: 10.1007/bf01669132</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;2, issue&nbsp;1 (1999)</p></td>
+	<td>1.57&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01669132" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01669132">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01669132">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01669132">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kaisa Herne</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01669133">The effects of decoy gambles on individual choice</a></p>
+		<p>DOI: 10.1007/bf01669133</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;2, issue&nbsp;1 (1999)</p></td>
+	<td>642&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01669133" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01669133">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01669133">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01669133">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Siegfried K. Berninghaus; Karl-Martin Ehrhart; Claudia Keser</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01669134">Continuous-time strategy selection in linear population games</a></p>
+		<p>DOI: 10.1007/bf01669134</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;2, issue&nbsp;1 (1999)</p></td>
+	<td>1004&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01669134" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01669134">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01669134">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01669134">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Katerina Sherstyuk</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01669135">Collusion without conspiracy: An experimental study of one-sided auctions</a></p>
+		<p>DOI: 10.1007/bf01669135</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;2, issue&nbsp;1 (1999)</p></td>
+	<td>1.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01669135" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01669135">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01669135">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01669135">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Timothy N. Cason; Daniel Friedman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01669136">Learning in a laboratory market with random supply and demand</a></p>
+		<p>DOI: 10.1007/bf01669136</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;2, issue&nbsp;1 (1999)</p></td>
+	<td>1.42&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01669136" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01669136">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01669136">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01669136">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Ledyard; David Porter; Randii Wessen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01669195">A market-based mechanism for allocating space Shuttle secondary payload priority</a></p>
+		<p>DOI: 10.1007/bf01669195</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;2, issue&nbsp;3 (2000)</p></td>
+	<td>1.47&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01669195" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01669195">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01669195">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01669195">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James C. Cox; Ronald L. Oaxaca</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01669196">Good news and bad news: Search from unknown wage offer distributions</a></p>
+		<p>DOI: 10.1007/bf01669196</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;2, issue&nbsp;3 (2000)</p></td>
+	<td>1.69&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01669196" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01669196">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01669196">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01669196">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jordi Brandts; Gary Charness</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01669197">Hot vs. cold: Sequential responses and preference stability in experimental games</a></p>
+		<p>DOI: 10.1007/bf01669197</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;2, issue&nbsp;3 (2000)</p></td>
+	<td>838&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01669197" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01669197">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01669197">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01669197">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rachel T. A. Croson; Melanie Beth Marks</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01669198">Step returns in threshold public goods: A meta- and experimental analysis</a></p>
+		<p>DOI: 10.1007/bf01669198</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;2, issue&nbsp;3 (2000)</p></td>
+	<td>1.35&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01669198" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01669198">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01669198">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01669198">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Elizabeth Hoffman; Kevin McCabe; Vernon Smith</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01669204">The impact of exchange context on the activation of equity in ultimatum games</a></p>
+		<p>DOI: 10.1007/bf01669204</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;3, issue&nbsp;1 (2000)</p></td>
+	<td>300&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01669204" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01669204">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01669204">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01669204">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John A. List; Todd L. Cherry</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01669205">Learning to accept in ultimatum games: Evidence from an experimental design that generates low offers</a></p>
+		<p>DOI: 10.1007/bf01669205</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;3, issue&nbsp;1 (2000)</p></td>
+	<td>1.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01669205" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01669205">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01669205">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01669205">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Mark Isaac; Duncan James</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01669206">Robustness of the incentive compatible combinatorial auction</a></p>
+		<p>DOI: 10.1007/bf01669206</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;3, issue&nbsp;1 (2000)</p></td>
+	<td>1.43&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01669206" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01669206">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01669206">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01669206">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Cookson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01669207">Framing effects in public goods experiments</a></p>
+		<p>DOI: 10.1007/bf01669207</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;3, issue&nbsp;1 (2000)</p></td>
+	<td>1.62&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01669207" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01669207">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01669207">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01669207">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andreas Ortmann; John Fitzgerald; Carl Boeing</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01669208">Trust, reciprocity, and social history: A re-examination</a></p>
+		<p>DOI: 10.1007/bf01669208</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;3, issue&nbsp;1 (2000)</p></td>
+	<td>1.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01669208" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01669208">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01669208">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01669208">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John D. Hey</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01669272">Does repetition improve consistency?</a></p>
+		<p>DOI: 10.1007/bf01669272</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;4, issue&nbsp;1 (2001)</p></td>
+	<td>2.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01669272" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01669272">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01669272">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01669272">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jan Pieter Krahnen; Martin Weber</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01669273">Marketmaking in the laboratory: Does competition matter?</a></p>
+		<p>DOI: 10.1007/bf01669273</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;4, issue&nbsp;1 (2001)</p></td>
+	<td>2.33&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01669273" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01669273">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01669273">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01669273">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Charles Noussair; Stephane Robin; Bernard Ruffieux</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01669274">Price bubbles in laboratory asset markets with constant fundamental values</a></p>
+		<p>DOI: 10.1007/bf01669274</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;4, issue&nbsp;1 (2001)</p></td>
+	<td>1.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01669274" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01669274">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01669274">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01669274">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David L. Dickinson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01669275">The carrot vs. the stick in work team motivation</a></p>
+		<p>DOI: 10.1007/bf01669275</p>	</td>
+	<td><p><a href="/scimag/journals/7371">Experimental Economics</a><p>volume&nbsp;4, issue&nbsp;1 (2001)</p></td>
+	<td>1.32&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01669275" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01669275">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01669275">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01669275">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">732 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 30</span>
+	 <a href="/scimag/?journal=7371&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

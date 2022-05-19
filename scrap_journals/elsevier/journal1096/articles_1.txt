@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Elsevier Science</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0002-9378</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1097-6868</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 3411; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 3411');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1096&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">85&nbsp;263 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 3411</span>
+	 <a href="/scimag/?journal=1096&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Torri D. Metz; Lesa M. Nelson; Gregory J. Stoddard; Robert M. Silver</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2011.09.005">FOXP3 gene polymorphisms in preeclampsia</a></p>
+		<p>DOI: 10.1016/j.ajog.2011.09.005</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;206, issue&nbsp;2 (2012)</p></td>
+	<td>245&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2011.09.005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2011.09.005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2011.09.005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2011.09.005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lidia R. Medeiros; Luciana B. Freitas; Daniela D. Rosa; Fábio R. Silva; Loraine S. Silva; Lisiane T. Birtencourt; Maria I. Edelweiss; Maria I. Rosa</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2010.08.031">Accuracy of magnetic resonance imaging in ovarian tumor: a systematic quantitative review</a></p>
+		<p>DOI: 10.1016/j.ajog.2010.08.031</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;204, issue&nbsp;1 (2011)</p></td>
+	<td>711&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2010.08.031" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2010.08.031">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2010.08.031">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2010.08.031">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Heuser, Cara C.; Knight, Stacey; Esplin, M. Sean; Eller, Alexandra G.; Holmgren, Calla M.; Richards, Douglas; Henry, Erick; Jackson, G. Marc </td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2013.04.004">Tachysystole in term labor: incidence, risk factors, outcomes, and effect on fetal heart tracings</a></p>
+		<p>DOI: 10.1016/j.ajog.2013.04.004</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;209, issue&nbsp;1 (2013)</p></td>
+	<td>543&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2013.04.004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2013.04.004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2013.04.004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2013.04.004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Visser, Gerard H.A.; de Valk, Harold W. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2012.10.881">Is the evidence strong enough to change the diagnostic criteria for gestational diabetes now?</a></p>
+		<p>DOI: 10.1016/j.ajog.2012.10.881</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;208, issue&nbsp;4 (2013)</p></td>
+	<td>227&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2012.10.881" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2012.10.881">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2012.10.881">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2012.10.881">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Esra Bulgan Kilicdag; Haluk Yavuz; Tayfun Bagis; Ebru Tarim; Alper Nabi Erkan; Ferah Kazanci</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.06.001">Effects of estrogen therapy on hearing in postmenopausal women</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.06.001</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>296&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.06.001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.06.001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.06.001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.06.001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Elizabeth A Howell; John Concato</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.06.006">Obstetric patient satisfaction: Asking patients what they like</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.06.006</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>289&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.06.006" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.06.006">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.06.006">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.06.006">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Angela L Heider; Robert A Strauss; Jeffrey A Kuller</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.06.007">Omphalocele: Clinical outcomes in cases with normal karyotypes</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.06.007</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>141&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.06.007" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.06.007">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.06.007">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.06.007">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard P Porreco</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.07.001">Percutaneous ultrasonographically guided ablation of an acardiac twin</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.07.001</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;2 (2004)</p></td>
+	<td>152&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.07.001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.07.001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.07.001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.07.001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Amal S Aly; Meena Khandelwal; Jing Zhao; Agar H Mehmet; Mary D Sammel; Samuel Parry</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.07.003">Neutrophils are stimulated by syncytiotrophoblast microvillous membranes to generate superoxide radicals in women with preeclampsia</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.07.003</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>185&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.07.003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.07.003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.07.003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.07.003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Adedayo L Adegbite; Shirley Castille; Stuart Ward; Rekha Bajoria</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.07.004">Neuromorbidity in preterm twins in relation to chorionicity and discordant birth weight</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.07.004</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>152&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.07.004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.07.004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.07.004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.07.004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shlomit Riskin-Mashiah; Michael A Belfort; George R Saade; Alan J Herd</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.07.005">Side-to-side differences in transcranial Doppler parameters in normotensive and preeclamptic pregnant women</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.07.005</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>143&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.07.005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.07.005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.07.005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.07.005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Catalin S Buhimschi; Robert E Garfield; Carl P Weiner; Irina A Buhimschi</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.07.006">The presence and function of phosphodiesterase type 5 in the rat myometrium</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.07.006</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>282&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.07.006" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.07.006">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.07.006">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.07.006">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sarah Hamilton Boyles; Anne M Weber; Leslie Meyn</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.07.007">Ambulatory procedures for urinary incontinence in the United States, 1994-1996</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.07.007</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>132&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.07.007" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.07.007">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.07.007">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.07.007">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Azad A Kabir; William C Steinmann; Leann Myers; M.M Khan; Eduardo A Herrera; Shenkang Yu; Nuruddin Jooma</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.07.009">Unnecessary cesarean delivery in Louisiana: an analysis of birth certificate data</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.07.009</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>213&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.07.009" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.07.009">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.07.009">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.07.009">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anniina Laurema; Kari Vanamo; Annaleena Heikkilä; Mervi Riekkinen; Seppo Heinonen; Seppo Ylä-Herttuala</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.07.010">Fetal membranes act as a barrier for adenoviruses: gene transfer into exocoelomic cavity of rat fetuses does not affect cells in the fetus</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.07.010</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>223&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.07.010" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.07.010">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.07.010">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.07.010">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Grozdana Bilic; Nicole Ochsenbein-Kölble; Heike Hall; Renate Huch; Roland Zimmermann</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.07.011">In vitro lesion repair by human amnion epithelial and mesenchymal cells</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.07.011</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>397&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.07.011" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.07.011">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.07.011">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.07.011">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Monica M Lahra; Heather E Jeffery</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.07.012">A fetal response to chorioamnionitis is associated with early survival after preterm birth</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.07.012</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>131&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.07.012" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.07.012">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.07.012">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.07.012">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael C Dennedy; Ann M Friel; Diarmaid D Houlihan; Venita M Broderick; Terry Smith; John J Morrison</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.07.013">Cannabinoids and the human uterus during pregnancy</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.07.013</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>436&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.07.013" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.07.013">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.07.013">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.07.013">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hiroshi Sameshima; Tsuyomu Ikenoue; Tomoaki Ikeda; Masato Kamitomo; Satoshi Ibara</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.07.014">Unselected low-risk pregnancies and the effect of continuous intrapartum fetal heart rate monitoring on umbilical blood gases and cerebral palsy</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.07.014</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>128&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.07.014" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.07.014">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.07.014">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.07.014">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hamisu M Salihu; Aisha T Williams; TaTisha N McCainey; Russell S Kirby; Greg R Alexander</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.07.016">Early mortality among triplets in the United States: Black-white disparity</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.07.016</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;2 (2004)</p></td>
+	<td>168&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.07.016" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.07.016">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.07.016">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.07.016">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Victoria L Handa; Elizabeth Garrett; Susan Hendrix; Ellen Gold; John Robbins</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.07.017">Progression and remission of pelvic organ prolapse: A longitudinal study of menopausal women</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.07.017</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>132&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.07.017" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.07.017">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.07.017">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.07.017">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D.Heather Watts; Rajalakshmi Balasubramanian; Robert T Maupin Jr.; Isaac Delke; Alejandro Dorenbaum; Simone Fiore; Marie-Louise Newell; Jean-Francois Delfraissy; Richard D Gelber; Lynne M Mofenson; Mary Culnane; Coleen K Cunningham; for the PACTG 316 Study Team</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.07.018">Maternal toxicity and pregnancy complications in human immunodeficiency virus–infected women receiving antiretroviral therapy: PACTG 316</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.07.018</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;2 (2004)</p></td>
+	<td>177&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.07.018" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.07.018">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.07.018">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.07.018">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joseph R. Wax; Nina Flaherty; Michael G. Pinette; Jacquelyn Blackstone; Angelina Cartin</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.07.019">Small-volume amnioinfusion:: A potential stimulus of intrapartum fetal heart rate accelerations</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.07.019</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;2 (2004)</p></td>
+	<td>236&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.07.019" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.07.019">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.07.019">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.07.019">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stefania Cane&#039;; Eliana Bignotti; Stefania Bellone; Michela Palmieri; Luis De Las Casas; Juan J Roman; Sergio Pecorelli; Martin J Cannon; Timothy O&#039;Brien; Alessandro D Santin</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.07.020">The novel serine protease tumor-associated differentially expressed gene-14 (KLK8/Neuropsin/Ovasin) is highly overexpressed in cervical cancer</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.07.020</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>324&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.07.020" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.07.020">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.07.020">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.07.020">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tiina Backman; Ilkka Rauramo; Sakke Huhtala; Markku Koskenvuo</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.ajog.2003.07.021">Pregnancy during the use of levonorgestrel intrauterine system</a></p>
+		<p>DOI: 10.1016/j.ajog.2003.07.021</p>	</td>
+	<td><p><a href="/scimag/journals/1096">American Journal of Obstetrics and Gynecology</a><p>volume&nbsp;190, issue&nbsp;1 (2004)</p></td>
+	<td>155&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.ajog.2003.07.021" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.ajog.2003.07.021">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.ajog.2003.07.021">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.ajog.2003.07.021">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">85&nbsp;263 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 3411</span>
+	 <a href="/scimag/?journal=1096&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

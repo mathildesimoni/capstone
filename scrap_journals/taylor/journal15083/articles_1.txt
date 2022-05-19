@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Taylor and Francis Group</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0929-6174</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1744-5035</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 25; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 25');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=15083&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">609 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 25</span>
+	 <a href="/scimag/?journal=15083&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Harris, Martyn; Melka, Tomi S.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296174.2011.556003">The <i>Rongorongo</i> Script: On a Listed Sequence in the <i>Recto</i> of Tablet “<i>Mamari</i>”</a></p>
+		<p>DOI: 10.1080/09296174.2011.556003</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;18, issue&nbsp;2 (2011)</p></td>
+	<td>687&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296174.2011.556003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296174.2011.556003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296174.2011.556003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296174.2011.556003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Liu, Haitao</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296174.2011.581849">Quantitative Properties of English Verb Valency</a></p>
+		<p>DOI: 10.1080/09296174.2011.581849</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;18, issue&nbsp;3 (2011)</p></td>
+	<td>913&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296174.2011.581849" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296174.2011.581849">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296174.2011.581849">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296174.2011.581849">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Savoy, Jacques</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296171003643205">Lexical Analysis of US Political Speeches</a></p>
+		<p>DOI: 10.1080/09296171003643205</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;17, issue&nbsp;2 (2010)</p></td>
+	<td>531&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296171003643205" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296171003643205">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296171003643205">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296171003643205">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Popescu, Ioan-Iovitz; Altmann, Gabriel</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296170802326699">Hapax Legomena and Language Typology</a></p>
+		<p>DOI: 10.1080/09296170802326699</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;15, issue&nbsp;4 (2008)</p></td>
+	<td>371&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296170802326699" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296170802326699">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296170802326699">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296170802326699">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wichmann, Søren; Holman, Eric W.; Müller, André; Velupillai, Viveka; List, Johann-Mattis; Belyaev, Oleg; Urban, Matthias; Bakker, Dik </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296174.2010.512166">Glottochronology as a Heuristic for Genealogical Language Relationships</a></p>
+		<p>DOI: 10.1080/09296174.2010.512166</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;17, issue&nbsp;4 (2010)</p></td>
+	<td>221&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296174.2010.512166" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296174.2010.512166">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296174.2010.512166">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296174.2010.512166">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kelih, Emmerich</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296174.2012.685304">Systematic Interrelations Between Grapheme Frequencies and Word Length: Empirical Evidence from Slovene*</a></p>
+		<p>DOI: 10.1080/09296174.2012.685304</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;19, issue&nbsp;3 (2012)</p></td>
+	<td>781&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296174.2012.685304" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296174.2012.685304">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296174.2012.685304">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296174.2012.685304">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lansey, Jonathan C.; Bukiet, Bruce </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296170802514153">Internet Search Result Probabilities: Heaps' Law and Word Associativity*</a></p>
+		<p>DOI: 10.1080/09296170802514153</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;16, issue&nbsp;1 (2009)</p></td>
+	<td>897&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296170802514153" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296170802514153">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296170802514153">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296170802514153">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ben Hamed, Mahé; Darlu, Pierre; Vallée, Nathalie </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296170500055467">On Cladistic Reconstruction of Linguistic Trees through Vowel Data</a></p>
+		<p>DOI: 10.1080/09296170500055467</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;12, issue&nbsp;1 (2005)</p></td>
+	<td>1.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296170500055467" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296170500055467">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296170500055467">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296170500055467">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gale, William A.; Sampson, Geoffrey </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296179508590051">Good‐turing frequency estimation without tears*</a></p>
+		<p>DOI: 10.1080/09296179508590051</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;2, issue&nbsp;3 (1995)</p></td>
+	<td>1.45&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296179508590051" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296179508590051">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296179508590051">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296179508590051">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Covington, Michael A.; McFall, Joe D. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296171003643098">Cutting the Gordian Knot: The Moving-Average Type–Token Ratio (MATTR)</a></p>
+		<p>DOI: 10.1080/09296171003643098</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;17, issue&nbsp;2 (2010)</p></td>
+	<td>169&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296171003643098" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296171003643098">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296171003643098">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296171003643098">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chen, Qinghua; Guo, Jinzhong; Liu, Yufan </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296174.2012.685305">A Statistical Study on Chinese Word and Character Usage in Literatures from the Tang Dynasty to the Present</a></p>
+		<p>DOI: 10.1080/09296174.2012.685305</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;19, issue&nbsp;3 (2012)</p></td>
+	<td>1.60&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296174.2012.685305" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296174.2012.685305">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296174.2012.685305">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296174.2012.685305">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Naranan, S.; Balasubrahmanyan, V.K. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296179808590110">Models for power law relations in linguistics and information science</a></p>
+		<p>DOI: 10.1080/09296179808590110</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;5, issue&nbsp;1-2 (1998)</p></td>
+	<td>1.93&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296179808590110" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296179808590110">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296179808590110">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296179808590110">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eftekhari, Ali</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296170600850106">Fractal geometry of texts: An initial application to the works of Shakespeare</a></p>
+		<p>DOI: 10.1080/09296170600850106</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;13, issue&nbsp;2-3 (2006)</p></td>
+	<td>592&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296170600850106" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296170600850106">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296170600850106">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296170600850106">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Baixeries, Jaume; Hernández-Fernández, Antoni; Forns, Núria; Ferrer-i-Cancho, Ramon </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296174.2013.773141">The Parameters of the Menzerath-Altmann Law in Genomes</a></p>
+		<p>DOI: 10.1080/09296174.2013.773141</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;20, issue&nbsp;2 (2013)</p></td>
+	<td>131&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296174.2013.773141" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296174.2013.773141">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296174.2013.773141">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296174.2013.773141">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kohler, Reinhard</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296179708590085">Are there fractal structures in language? Units of measurement and dimensions in linguistics</a></p>
+		<p>DOI: 10.1080/09296179708590085</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;4, issue&nbsp;1-3 (1997)</p></td>
+	<td>300&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296179708590085" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296179708590085">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296179708590085">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296179708590085">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Balasubrahmanyan, V.K.; Naranan, S. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296179608599629">Quantitative linguistics and complex system studies*</a></p>
+		<p>DOI: 10.1080/09296179608599629</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;3, issue&nbsp;3 (1996)</p></td>
+	<td>3.34&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296179608599629" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296179608599629">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296179608599629">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296179608599629">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Schiller, Niels O.; Meyer, Antje S.; Baayen, R. Harald; Levelt, Willem J. M. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296179608590060">A comparison of lexeme and speech syllables in Dutch</a></p>
+		<p>DOI: 10.1080/09296179608590060</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>1.65&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296179608590060" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296179608590060">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296179608590060">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296179608590060">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Guy, Jacques B. M.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296179408589997">An algorithm for identifying cognates in bilingual word‐lists and its applicability to machine translation*</a></p>
+		<p>DOI: 10.1080/09296179408589997</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;1, issue&nbsp;1 (1994)</p></td>
+	<td>587&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296179408589997" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296179408589997">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296179408589997">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296179408589997">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Khmelev, D.V.</td>
+	<td>
+		<p><a href="/scimag/10.1076%2Fjqul.7.3.201.4108">Disputed Authorship Resolution through Using Relative Empirical Entropy for Markov Chains of Letters in Human Language Texts</a></p>
+		<p>DOI: 10.1076/jqul.7.3.201.4108</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;7, issue&nbsp;3 (2000)</p></td>
+	<td>85&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1076%2Fjqul.7.3.201.4108" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1076/jqul.7.3.201.4108">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1076/jqul.7.3.201.4108">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1076/jqul.7.3.201.4108">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mačutek, Ján; Wimmer, Gejza </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296174.2013.799912">Evaluating goodness-of-fit of discrete distribution models in quantitative linguistics</a></p>
+		<p>DOI: 10.1080/09296174.2013.799912</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;20, issue&nbsp;3 (2013)</p></td>
+	<td>156&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296174.2013.799912" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296174.2013.799912">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296174.2013.799912">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296174.2013.799912">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Orăsan, Constantin</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296170802514187">Comparative Evaluation of Term-Weighting Methods for Automatic Summarization*</a></p>
+		<p>DOI: 10.1080/09296170802514187</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;16, issue&nbsp;1 (2009)</p></td>
+	<td>206&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296170802514187" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296170802514187">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296170802514187">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296170802514187">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wu, Jianqing</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296174.2010.485451">Evaluation in Media Discourse Analysis of a Newspaper Corpus</a></p>
+		<p>DOI: 10.1080/09296174.2010.485451</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;17, issue&nbsp;3 (2010)</p></td>
+	<td>73&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296174.2010.485451" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296174.2010.485451">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296174.2010.485451">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296174.2010.485451">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Miangah, Tayebeh Mosavi</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296170500500884">Automatic lemmatization of Persian words*</a></p>
+		<p>DOI: 10.1080/09296170500500884</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;13, issue&nbsp;1 (2006)</p></td>
+	<td>249&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296170500500884" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296170500500884">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296170500500884">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296170500500884">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Harris, Martyn; Melka, Tomi S. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296174.2011.581850">The              <i>Rongorongo</i>              Script: On a Listed Sequence in the              <i>Recto</i>              of Tablet “              <i>Mamari</i>              ”. Part II</a></p>
+		<p>DOI: 10.1080/09296174.2011.581850</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;18, issue&nbsp;3 (2011)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296174.2011.581850" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296174.2011.581850">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296174.2011.581850">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296174.2011.581850">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Voloshynovska, Iryna A.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F09296174.2011.583405">Characteristic Features of Rank-Probability Word Distribution in Scientific and Belletristic Literature</a></p>
+		<p>DOI: 10.1080/09296174.2011.583405</p>	</td>
+	<td><p><a href="/scimag/journals/15083">Journal of Quantitative Linguistics</a><p>volume&nbsp;18, issue&nbsp;3 (2011)</p></td>
+	<td>589&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F09296174.2011.583405" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/09296174.2011.583405">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/09296174.2011.583405">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/09296174.2011.583405">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">609 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 25</span>
+	 <a href="/scimag/?journal=15083&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

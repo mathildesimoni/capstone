@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/13607">Journal of Geometric Analysis</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1050-6926</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1559-002X</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 81; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 81');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=13607&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;007 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 81</span>
+	 <a href="/scimag/?journal=13607&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Akhil Ranjan; G. Santhanam</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921625">A generalization of Obata’s theorem</a></p>
+		<p>DOI: 10.1007/bf02921625</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;7, issue&nbsp;3 (1997)</p></td>
+	<td>770&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921625" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921625">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921625">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921625">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Katsuhiro Shiohama; Hongwei Xu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921626">Lower bound for Ln/2curvature norm and its application</a></p>
+		<p>DOI: 10.1007/bf02921626</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;7, issue&nbsp;3 (1997)</p></td>
+	<td>298&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921626" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921626">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921626">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921626">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mikhail Sodin; Peter Yuditskii</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921627">Almost periodic Jacobi matrices with homogeneous spectrum, infinite dimensional Jacobi inversion, and hardy spaces of character-automorphic functions</a></p>
+		<p>DOI: 10.1007/bf02921627</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;7, issue&nbsp;3 (1997)</p></td>
+	<td>1.76&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921627" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921627">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921627">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921627">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Halil Mete Saner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921628">Ginzburg-Landau equation and motion by mean curvature, I: Convergence</a></p>
+		<p>DOI: 10.1007/bf02921628</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;7, issue&nbsp;3 (1997)</p></td>
+	<td>1.53&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921628" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921628">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921628">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921628">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Halil Mete Soner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921629">Ginzburg-Landau equation and motion by mean curvature, II: Development of the initial interface</a></p>
+		<p>DOI: 10.1007/bf02921629</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;7, issue&nbsp;3 (1997)</p></td>
+	<td>422&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921629" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921629">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921629">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921629">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Guofang Wei</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921630">Ricci curvature and betti numbers</a></p>
+		<p>DOI: 10.1007/bf02921630</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;7, issue&nbsp;3 (1997)</p></td>
+	<td>641&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921630" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921630">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921630">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921630">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James A. Carlson; Domingo Toledo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921631">Correction to: Quadratic presentations and nilpotent Kähler groups</a></p>
+		<p>DOI: 10.1007/bf02921631</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;7, issue&nbsp;3 (1997)</p></td>
+	<td>148&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921631" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921631">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921631">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921631">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yuri Brudnyi; Pavel Shvartsman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921632">The Whitney problem of existence of a linear extension operator</a></p>
+		<p>DOI: 10.1007/bf02921632</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;7, issue&nbsp;4 (1997)</p></td>
+	<td>2.59&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921632" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921632">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921632">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921632">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Dini; A. Selvaggi Primicerio</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921633">Localization principle of automorphisms on generalized pseudoellipsoids</a></p>
+		<p>DOI: 10.1007/bf02921633</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;7, issue&nbsp;4 (1997)</p></td>
+	<td>474&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921633" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921633">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921633">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921633">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Frank Duzaar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921634">Boundary regularity for area minimizing currents with prescribed volume</a></p>
+		<p>DOI: 10.1007/bf02921634</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;7, issue&nbsp;4 (1997)</p></td>
+	<td>444&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921634" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921634">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921634">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921634">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Estela A. Gavosto</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921635">Hölder estimates for the(ar partial - equation)in some domains of finite typein some domains of finite type</a></p>
+		<p>DOI: 10.1007/bf02921635</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;7, issue&nbsp;4 (1997)</p></td>
+	<td>762&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921635" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921635">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921635">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921635">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert Molzon; Karen Pinney Mortensen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921636">A characterization of complex projective space up to biholomorphic isometry</a></p>
+		<p>DOI: 10.1007/bf02921636</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;7, issue&nbsp;4 (1997)</p></td>
+	<td>531&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921636" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921636">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921636">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921636">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. Oeljeklaus; E. H. Youssfi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921637">Proper holomorphic mappings and related automorphism groups</a></p>
+		<p>DOI: 10.1007/bf02921637</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;7, issue&nbsp;4 (1997)</p></td>
+	<td>660&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921637" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921637">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921637">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921637">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zbigniew Slodkowski</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921638">Natural extensions of holomorphic motions</a></p>
+		<p>DOI: 10.1007/bf02921638</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;7, issue&nbsp;4 (1997)</p></td>
+	<td>798&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921638" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921638">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921638">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921638">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Edward Stredulinsky; William P. Ziemer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921639">Area minimizing sets subject to a volume constraint in a convex set</a></p>
+		<p>DOI: 10.1007/bf02921639</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;7, issue&nbsp;4 (1997)</p></td>
+	<td>1.40&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921639" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921639">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921639">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921639">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yunmei Chen; Fang Hua Lin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921640">Evolution equations with a free boundary condition</a></p>
+		<p>DOI: 10.1007/bf02921640</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;8, issue&nbsp;2 (1998)</p></td>
+	<td>869&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921640" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921640">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921640">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921640">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Cowling; Anthony Dooley; Adam Korányi; Fulvio Ricci</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921641">An approach to symmetric spaces of rank one via groups of Heisenberg type</a></p>
+		<p>DOI: 10.1007/bf02921641</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;8, issue&nbsp;2 (1998)</p></td>
+	<td>1.80&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921641" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921641">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921641">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921641">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jordan Drachman; Brian White</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921642">Soap films bounded by non-closed curves</a></p>
+		<p>DOI: 10.1007/bf02921642</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;8, issue&nbsp;2 (1998)</p></td>
+	<td>603&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921642" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921642">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921642">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921642">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lars Hörmander; Ragnar Sigurdsson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921643">Growth properties of plurisubharmonic functions related to Fourier-Laplace transforms</a></p>
+		<p>DOI: 10.1007/bf02921643</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;8, issue&nbsp;2 (1998)</p></td>
+	<td>2.90&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921643" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921643">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921643">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921643">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marty Ross</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921644">The classification of complete orientable 2-dimensional area-minimizing mod 2 surfaces in ℝn</a></p>
+		<p>DOI: 10.1007/bf02921644</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;8, issue&nbsp;2 (1998)</p></td>
+	<td>212&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921644" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921644">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921644">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921644">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tetsuo Veda</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921645">Critical orbits of holomorphic maps on projective spaces</a></p>
+		<p>DOI: 10.1007/bf02921645</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;8, issue&nbsp;2 (1998)</p></td>
+	<td>805&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921645" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921645">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921645">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921645">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jörg Winkelmann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921646">A Mergelyan Theorem for mappings to ℂ2∖ℝ2</a></p>
+		<p>DOI: 10.1007/bf02921646</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;8, issue&nbsp;2 (1998)</p></td>
+	<td>319&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921646" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921646">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921646">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921646">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Boutet de Monvel; A. Iordan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921702">Peak curves in weakly pseudoconvex boundaries in C2</a></p>
+		<p>DOI: 10.1007/bf02921702</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;7, issue&nbsp;1 (1997)</p></td>
+	<td>674&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921702" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921702">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921702">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921702">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Bruna; J. M. Ortega</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921703">Interpolation along manifolds in Hardy-Sobolev spaces</a></p>
+		<p>DOI: 10.1007/bf02921703</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;7, issue&nbsp;1 (1997)</p></td>
+	<td>988&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921703" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921703">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921703">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921703">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jiri Dadok; Ji-Ping Sha</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02921704">On embedded flat surfaces inS3</a></p>
+		<p>DOI: 10.1007/bf02921704</p>	</td>
+	<td><p><a href="/scimag/journals/13607">Journal of Geometric Analysis</a><p>volume&nbsp;7, issue&nbsp;1 (1997)</p></td>
+	<td>436&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02921704" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02921704">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02921704">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02921704">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;007 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 81</span>
+	 <a href="/scimag/?journal=13607&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

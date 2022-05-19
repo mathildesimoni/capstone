@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0003-9519</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1432-0657</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 85; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 85');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1908&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;117 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 85</span>
+	 <a href="/scimag/?journal=1908&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>C. Webster</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00324880">The discovery of Boyle's law, and the concept of the elasticity of air in the seventeenth century</a></p>
+		<p>DOI: 10.1007/bf00324880</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;2, issue&nbsp;6 (1965)</p></td>
+	<td>4.69&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00324880" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00324880">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00324880">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00324880">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Herbert Meschkowski</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00324881">Aus den Briefbüchern Georg Cantors</a></p>
+		<p>DOI: 10.1007/bf00324881</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;2, issue&nbsp;6 (1965)</p></td>
+	<td>1.31&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00324881" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00324881">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00324881">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00324881">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. L. L. Busard</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00324882">The Practica Geometriae of Dominicus de Clavasio</a></p>
+		<p>DOI: 10.1007/bf00324882</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;2, issue&nbsp;6 (1965)</p></td>
+	<td>3.60&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00324882" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00324882">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00324882">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00324882">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Seidenberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00325159">The ritual origin of counting</a></p>
+		<p>DOI: 10.1007/bf00325159</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;2, issue&nbsp;1 (1962)</p></td>
+	<td>2.78&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00325159" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00325159">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00325159">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00325159">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sydney Chapman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00325160">Alexander von Humboldt and geomagnetic science</a></p>
+		<p>DOI: 10.1007/bf00325160</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;2, issue&nbsp;1 (1962)</p></td>
+	<td>815&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00325160" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00325160">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00325160">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00325160">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. F. Neményi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00325161">The main concepts and ideas of fluid dynamics in their historical development</a></p>
+		<p>DOI: 10.1007/bf00325161</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;2, issue&nbsp;1 (1962)</p></td>
+	<td>2.55&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00325161" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00325161">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00325161">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00325161">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. -J. Waschkies</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00327097">Eine neue Hypothese zur Entdeckung der inkommensurablen Größen durch die Griechen</a></p>
+		<p>DOI: 10.1007/bf00327097</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;7, issue&nbsp;5 (1971)</p></td>
+	<td>1.86&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00327097" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00327097">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00327097">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00327097">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ivo Schneider</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00327098">Descartes' Diskussion der Fermatschen Extremwertmethode—ein Stück Ideengeschichte der Mathematik</a></p>
+		<p>DOI: 10.1007/bf00327098</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;7, issue&nbsp;5 (1971)</p></td>
+	<td>1.44&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00327098" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00327098">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00327098">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00327098">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Freudenthal</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00327099">Did Cauchy plagiarize Bolzano?</a></p>
+		<p>DOI: 10.1007/bf00327099</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;7, issue&nbsp;5 (1971)</p></td>
+	<td>1.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00327099" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00327099">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00327099">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00327099">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David R. Topper</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00327100">Commitment to mechanism: J. J. Thomson, the early years</a></p>
+		<p>DOI: 10.1007/bf00327100</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;7, issue&nbsp;5 (1971)</p></td>
+	<td>1.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00327100" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00327100">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00327100">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00327100">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Elaine Koppelman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00327101">The calculus of operations and the rise of abstract algebra</a></p>
+		<p>DOI: 10.1007/bf00327101</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;8, issue&nbsp;3 (1971)</p></td>
+	<td>5.31&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00327101" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00327101">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00327101">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00327101">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Paiow</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00327217">Die mathematische Staatsstelle. I</a></p>
+		<p>DOI: 10.1007/bf00327217</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>461&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00327217" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00327217">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00327217">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00327217">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Edith Sylla</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00327218">Medieval quantifications of qualities: The “Merton School”</a></p>
+		<p>DOI: 10.1007/bf00327218</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>2.44&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00327218" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00327218">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00327218">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00327218">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Melvin Kiernan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00327219">The development of Galois theory from Lagrange to Artin</a></p>
+		<p>DOI: 10.1007/bf00327219</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;8, issue&nbsp;1-2 (1971)</p></td>
+	<td>7.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00327219" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00327219">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00327219">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00327219">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Truesdell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00327232">Early kinetic theories of gases</a></p>
+		<p>DOI: 10.1007/bf00327232</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;15, issue&nbsp;1 (1975)</p></td>
+	<td>4.15&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00327232" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00327232">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00327232">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00327232">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sabetai Unguru</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00327233">On the need to rewrite the history of Greek mathematics</a></p>
+		<p>DOI: 10.1007/bf00327233</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;15, issue&nbsp;1 (1975)</p></td>
+	<td>3.37&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00327233" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00327233">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00327233">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00327233">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. M. Heimann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00327234">Maxwell and the modes of consistent representation</a></p>
+		<p>DOI: 10.1007/bf00327234</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;6, issue&nbsp;3 (1970)</p></td>
+	<td>3.35&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00327234" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00327234">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00327234">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00327234">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David C. Lindberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00327235">A reconsideration of Roger Bacon's theory of pinhole images</a></p>
+		<p>DOI: 10.1007/bf00327235</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;6, issue&nbsp;3 (1970)</p></td>
+	<td>690&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00327235" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00327235">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00327235">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00327235">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bruce S. Eastwood</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00327236">Metaphysical derivations of a law of refraction: Damianos and grosseteste</a></p>
+		<p>DOI: 10.1007/bf00327236</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;6, issue&nbsp;3 (1970)</p></td>
+	<td>953&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00327236" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00327236">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00327236">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00327236">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nachum L. Rabinovitch</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00327237">Rabbi Levi Ben Gershon and the origins of mathematical induction</a></p>
+		<p>DOI: 10.1007/bf00327237</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;6, issue&nbsp;3 (1970)</p></td>
+	<td>763&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00327237" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00327237">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00327237">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00327237">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Imre Tóth</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00327247">Das Parallelenproblem im Corpus Aristotelicum</a></p>
+		<p>DOI: 10.1007/bf00327247</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;3, issue&nbsp;4-5 (1966-1967)</p></td>
+	<td>14.16&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00327247" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00327247">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00327247">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00327247">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Goetsch</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00327248">Die Algebra der Babylonier</a></p>
+		<p>DOI: 10.1007/bf00327248</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;5, issue&nbsp;2 (1968)</p></td>
+	<td>3.33&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00327248" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00327248">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00327248">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00327248">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David C. Lindberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00327249">The theory of Pinhole images from antiquity to the thirteenth century</a></p>
+		<p>DOI: 10.1007/bf00327249</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;5, issue&nbsp;2 (1968)</p></td>
+	<td>1.64&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00327249" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00327249">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00327249">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00327249">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. E. Knowles Middleton</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00327260">Paolo del Buono on the elasticity of air</a></p>
+		<p>DOI: 10.1007/bf00327260</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;6, issue&nbsp;1 (1969)</p></td>
+	<td>1.91&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00327260" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00327260">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00327260">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00327260">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Rosenfeld</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00327261">Newton's views on aether and gravitation</a></p>
+		<p>DOI: 10.1007/bf00327261</p>	</td>
+	<td><p><a href="/scimag/journals/1908">Archive for History of Exact Sciences</a><p>volume&nbsp;6, issue&nbsp;1 (1969)</p></td>
+	<td>630&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00327261" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00327261">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00327261">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00327261">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;117 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 85</span>
+	 <a href="/scimag/?journal=1908&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

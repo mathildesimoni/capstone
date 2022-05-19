@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1871">Archaeometry</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0003-813X</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1475-4754</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 97; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 97');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1871&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;415 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 97</span>
+	 <a href="/scimag/?journal=1871&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>O. Bobin; M. Schvoerer; C. Ney; M. Rammah; A. Daoulatli; B. Pannequin; R. P. Gayraud</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1475-4754.2003.00117.x">WHERE DID THE LUSTRE TILES OF THE SIDI OQBA MOSQUE (<span class="smallCaps">ad</span> 836–63) IN KAIROUAN COME FROM?</a></p>
+		<p>DOI: 10.1046/j.1475-4754.2003.00117.x</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;45, issue&nbsp;4 (2003)</p></td>
+	<td>161&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1475-4754.2003.00117.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1475-4754.2003.00117.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1475-4754.2003.00117.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1475-4754.2003.00117.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Lazzarini; F. Antonelli</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1475-4754.2003.00127.x">PETROGRAPHIC AND ISOTOPIC CHARACTERIZATION OF THE MARBLE OF THE ISLAND OF TINOS (GREECE)</a></p>
+		<p>DOI: 10.1046/j.1475-4754.2003.00127.x</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;45, issue&nbsp;4 (2003)</p></td>
+	<td>485&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1475-4754.2003.00127.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1475-4754.2003.00127.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1475-4754.2003.00127.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1475-4754.2003.00127.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Attanasio; G. De Marinis; P. Pallecchi; R. Platania; P. Rocchi</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1475-4754.2003.00128.x">AN EPR AND ISOTOPIC STUDY OF THE MARBLES OF THE TRAJAN's ARCH AT ANCONA: AN EXAMPLE OF ALLEGED HYMETTIAN PROVENANCE</a></p>
+		<p>DOI: 10.1046/j.1475-4754.2003.00128.x</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;45, issue&nbsp;4 (2003)</p></td>
+	<td>377&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1475-4754.2003.00128.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1475-4754.2003.00128.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1475-4754.2003.00128.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1475-4754.2003.00128.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>I. De Ryck; A. Adriaens; F. Adams</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1475-4754.2003.00129.x">MICROANALYTICAL METAL TECHNOLOGY STUDY OF ANCIENT NEAR EASTERN BRONZES FROM TELL BEYDAR</a></p>
+		<p>DOI: 10.1046/j.1475-4754.2003.00129.x</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;45, issue&nbsp;4 (2003)</p></td>
+	<td>271&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1475-4754.2003.00129.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1475-4754.2003.00129.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1475-4754.2003.00129.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1475-4754.2003.00129.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Ponting; J. A. Evans; V. Pashley</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1475-4754.2003.00130.x">FINGERPRINTING OF ROMAN MINTS USING LASER-ABLATION MC–ICP–MS LEAD ISOTOPE ANALYSIS</a></p>
+		<p>DOI: 10.1046/j.1475-4754.2003.00130.x</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;45, issue&nbsp;4 (2003)</p></td>
+	<td>176&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1475-4754.2003.00130.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1475-4754.2003.00130.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1475-4754.2003.00130.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1475-4754.2003.00130.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. P. Coustures; D. Béziat; F. Tollon; C. Domergue; L. Long; A. Rebiscoul</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1475-4754.2003.00131.x">THE USE OF TRACE ELEMENT ANALYSIS OF ENTRAPPED SLAG INCLUSIONS TO ESTABLISH ORE – BAR IRON LINKS: EXAMPLES FROM TWO GALLO-ROMAN IRON-MAKING SITES IN FRANCE (LES MARTYS, MONTAGNE NOIRE, AND LES FERRYS, LOIRET)</a></p>
+		<p>DOI: 10.1046/j.1475-4754.2003.00131.x</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;45, issue&nbsp;4 (2003)</p></td>
+	<td>340&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1475-4754.2003.00131.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1475-4754.2003.00131.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1475-4754.2003.00131.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1475-4754.2003.00131.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Paparazzo</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1475-4754.2003.00132.x">ORGANIC SUBSTANCES AT METAL SURFACES: ARCHAEOLOGICAL EVIDENCE AND THE ELDER PLINY's ACCOUNT</a></p>
+		<p>DOI: 10.1046/j.1475-4754.2003.00132.x</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;45, issue&nbsp;4 (2003)</p></td>
+	<td>211&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1475-4754.2003.00132.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1475-4754.2003.00132.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1475-4754.2003.00132.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1475-4754.2003.00132.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. J. H. Wanhill</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1475-4754.2003.00133.x">BRITTLE ARCHAEOLOGICAL SILVER: A FRACTURE MECHANISMS AND MECHANICS ASSESSMENT</a></p>
+		<p>DOI: 10.1046/j.1475-4754.2003.00133.x</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;45, issue&nbsp;4 (2003)</p></td>
+	<td>346&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1475-4754.2003.00133.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1475-4754.2003.00133.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1475-4754.2003.00133.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1475-4754.2003.00133.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Pagès-Camagna; S. Colinart</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1475-4754.2003.00134.x">THE EGYPTIAN GREEN PIGMENT: ITS MANUFACTURING PROCESS AND LINKS TO EGYPTIAN BLUE</a></p>
+		<p>DOI: 10.1046/j.1475-4754.2003.00134.x</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;45, issue&nbsp;4 (2003)</p></td>
+	<td>442&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1475-4754.2003.00134.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1475-4754.2003.00134.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1475-4754.2003.00134.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1475-4754.2003.00134.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. P. Colombini; G. Giachi; F. Modugno; P. Pallecchi; E. Ribechini</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1475-4754.2003.00135.x"> THE CHARACTERIZATION OF PAINTS AND WATERPROOFING MATERIALS FROM THE SHIPWRECKS FOUND AT THE ARCHAEOLOGICAL SITE OF THE ETRUSCAN AND ROMAN HARBOUR OF PISA (ITALY)</a></p>
+		<p>DOI: 10.1046/j.1475-4754.2003.00135.x</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;45, issue&nbsp;4 (2003)</p></td>
+	<td>530&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1475-4754.2003.00135.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1475-4754.2003.00135.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1475-4754.2003.00135.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1475-4754.2003.00135.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Riisager; N. Abrahamsen; J. Rytter</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1475-4754.2003.00136.x">RESEARCH REPORT: MAGNETIC INVESTIGATIONS AND THE AGE OF A MEDIEVAL KILN AT KUNGAHÄLLA (SOUTH-WEST SWEDEN)</a></p>
+		<p>DOI: 10.1046/j.1475-4754.2003.00136.x</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;45, issue&nbsp;4 (2003)</p></td>
+	<td>525&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1475-4754.2003.00136.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1475-4754.2003.00136.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1475-4754.2003.00136.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1475-4754.2003.00136.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Crowther</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1475-4754.2003.00137.x">POTENTIAL MAGNETIC SUSCEPTIBILITY AND FRACTIONAL CONVERSION STUDIES OF ARCHAEOLOGICAL SOILS AND SEDIMENTS</a></p>
+		<p>DOI: 10.1046/j.1475-4754.2003.00137.x</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;45, issue&nbsp;4 (2003)</p></td>
+	<td>260&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1475-4754.2003.00137.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1475-4754.2003.00137.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1475-4754.2003.00137.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1475-4754.2003.00137.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.1475-4754.2003.index.x">INDEX TO VOLUME 45</a></p>
+		<p>DOI: 10.1046/j.1475-4754.2003.index.x</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;45, issue&nbsp;4 (2003)</p></td>
+	<td>47&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.1475-4754.2003.index.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.1475-4754.2003.index.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.1475-4754.2003.index.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.1475-4754.2003.index.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anwu Xu; Changsui Wang; Jinqi Chi; Mingchuan Li; Maosen Zhang; L. Holmes; G. Harbottle; S. Koshimizu; K. Manabu; K. Koichi</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-4754.00003">Preliminary Provenance Research on Chinese Neolithic Pottery: Huating (Xinyi County) and Three Yellow River Valley Sites</a></p>
+		<p>DOI: 10.1111/1475-4754.00003</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;43, issue&nbsp;1 (2001)</p></td>
+	<td>505&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-4754.00003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-4754.00003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-4754.00003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-4754.00003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Van Klinken</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-4754.00004">Magnetization of Ancient Ceramics</a></p>
+		<p>DOI: 10.1111/1475-4754.00004</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;43, issue&nbsp;1 (2001)</p></td>
+	<td>602&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-4754.00004" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-4754.00004">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-4754.00004">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-4754.00004">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. E. Hall</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-4754.00005">Pottery Styles during the Early Jomon Period: Geochemical Perspectives on the Moroiso and Ukishima Pottery Styles</a></p>
+		<p>DOI: 10.1111/1475-4754.00005</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;43, issue&nbsp;1 (2001)</p></td>
+	<td>382&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-4754.00005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-4754.00005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-4754.00005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-4754.00005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. V. Sayre; E. C. Joel; M. J. Blackman; K. A. Yener; H.              Özbal</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-4754.00006">Stable Lead Isotope Studies of Black Sea Anatolian Ore Sources and Related Bronze Age and Phrygian Artefacts from Nearby Archaeological Sites. Appendix: New Central Taurus Ore Data</a></p>
+		<p>DOI: 10.1111/1475-4754.00006</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;43, issue&nbsp;1 (2001)</p></td>
+	<td>957&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-4754.00006" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-4754.00006">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-4754.00006">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-4754.00006">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. J. Wess; M. Drakopoulos; A. Snigirev; J. Wouters; O. Paris; P. Fratzl; M. Collins; J. Hillier; K. Nielsen</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-4754.00007">The Use of Small-Angle X-Ray Diffraction Studies for the Analysis of Structural Features in Archaeological Samples</a></p>
+		<p>DOI: 10.1111/1475-4754.00007</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;43, issue&nbsp;1 (2001)</p></td>
+	<td>394&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-4754.00007" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-4754.00007">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-4754.00007">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-4754.00007">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. J. Baxter</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-4754.00008">Statistical Modelling of Artefact Compositional Data</a></p>
+		<p>DOI: 10.1111/1475-4754.00008</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;43, issue&nbsp;1 (2001)</p></td>
+	<td>268&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-4754.00008" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-4754.00008">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-4754.00008">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-4754.00008">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. D. Reader</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-4754.00009">A Geomorphological Study of the Giza Necropolis, with Implications for the Development of the Site</a></p>
+		<p>DOI: 10.1111/1475-4754.00009</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;43, issue&nbsp;1 (2001)</p></td>
+	<td>908&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-4754.00009" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-4754.00009">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-4754.00009">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-4754.00009">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. J. Shortland; C. J. Doherty</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-4754.00010">Comments on ‘A Geomorphological Study of the Giza Necropolis, with Implications for the Development of the Site’</a></p>
+		<p>DOI: 10.1111/1475-4754.00010</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;43, issue&nbsp;1 (2001)</p></td>
+	<td>73&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-4754.00010" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-4754.00010">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-4754.00010">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-4754.00010">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. A. H. Wilkinson</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-4754.00011">Comment on C. D. Reader, ‘A Geomorphological Study of the Giza Necropolis, with Implications for the Development of the Site’</a></p>
+		<p>DOI: 10.1111/1475-4754.00011</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;43, issue&nbsp;1 (2001)</p></td>
+	<td>72&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-4754.00011" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-4754.00011">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-4754.00011">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-4754.00011">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. D. Reader</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-4754.00012">A Response to Comments on ‘A Geomorphological Study of the Giza Necropolis, with Implications for the Development of the Site’</a></p>
+		<p>DOI: 10.1111/1475-4754.00012</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;43, issue&nbsp;1 (2001)</p></td>
+	<td>73&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-4754.00012" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-4754.00012">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-4754.00012">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-4754.00012">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Antonelli; G. Nappi; L. Lazzarini</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-4754.00013">Roman Millstones from Orvieto (Italy): Petrographic and Geochemical Data for A New Archaeometric Contribution</a></p>
+		<p>DOI: 10.1111/1475-4754.00013</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;43, issue&nbsp;2 (2001)</p></td>
+	<td>1.25&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-4754.00013" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-4754.00013">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-4754.00013">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-4754.00013">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. B. Mason; M. S. Tite; S. Paynter; C. Salter</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F1475-4754.00014">Advances in Polychrome Ceramics in the Islamic World of the 12th Century AD</a></p>
+		<p>DOI: 10.1111/1475-4754.00014</p>	</td>
+	<td><p><a href="/scimag/journals/1871">Archaeometry</a><p>volume&nbsp;43, issue&nbsp;2 (2001)</p></td>
+	<td>398&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F1475-4754.00014" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/1475-4754.00014">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/1475-4754.00014">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/1475-4754.00014">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;415 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 97</span>
+	 <a href="/scimag/?journal=1871&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/8937">Human-Computer Interaction</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Taylor and Francis Group</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0737-0024</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1532-7051</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 18; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 18');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=8937&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">446 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 18</span>
+	 <a href="/scimag/?journal=8937&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Blattner, Meera; Sumikawa, Denise; Greenberg, Robert </td>
+	<td>
+		<p><a href="/scimag/10.1207%2Fs15327051hci0401_1">Earcons and Icons: Their Structure and Common Design Principles</a></p>
+		<p>DOI: 10.1207/s15327051hci0401_1</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;4, issue&nbsp;1 (1989)</p></td>
+	<td>1.60&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1207%2Fs15327051hci0401_1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/s15327051hci0401_1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/s15327051hci0401_1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/s15327051hci0401_1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Winograd, Terry</td>
+	<td>
+		<p><a href="/scimag/10.1207%2Fs15327051hci16234_18">Architectures for Context</a></p>
+		<p>DOI: 10.1207/s15327051hci16234_18</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;16, issue&nbsp;2 (2001)</p></td>
+	<td>118&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1207%2Fs15327051hci16234_18" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/s15327051hci16234_18">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/s15327051hci16234_18">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/s15327051hci16234_18">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ackerman, Mark</td>
+	<td>
+		<p><a href="/scimag/10.1207%2FS15327051HCI1523_5">The Intellectual Challenge of CSCW: The Gap Between Social Requirements and Technical Feasibility</a></p>
+		<p>DOI: 10.1207/S15327051HCI1523_5</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;15, issue&nbsp;2 (2000)</p></td>
+	<td>129&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1207%2FS15327051HCI1523_5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/S15327051HCI1523_5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/S15327051HCI1523_5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/S15327051HCI1523_5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bodker, Susanne</td>
+	<td>
+		<p><a href="/scimag/10.1207%2Fs15327051hci1302_1">Understanding Representation in Design</a></p>
+		<p>DOI: 10.1207/s15327051hci1302_1</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;13, issue&nbsp;2 (1998)</p></td>
+	<td>1.23&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1207%2Fs15327051hci1302_1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/s15327051hci1302_1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/s15327051hci1302_1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/s15327051hci1302_1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Moran, Thomas; Dourish, Paul </td>
+	<td>
+		<p><a href="/scimag/10.1207%2FS15327051HCI16234_01">Introduction to This Special Issue on Context-Aware Computing</a></p>
+		<p>DOI: 10.1207/S15327051HCI16234_01</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;16, issue&nbsp;2 (2001)</p></td>
+	<td>91&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1207%2FS15327051HCI16234_01" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/S15327051HCI16234_01">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/S15327051HCI16234_01">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/S15327051HCI16234_01">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fan, Xiaocong; McNeese, Michael; Yen, John </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F07370020903586720">NDM-Based Cognitive Agents for Supporting Decision-Making Teams</a></p>
+		<p>DOI: 10.1080/07370020903586720</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;25, issue&nbsp;3 (2010)</p></td>
+	<td>1.34&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F07370020903586720" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/07370020903586720">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/07370020903586720">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/07370020903586720">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Salvucci, Dario; Anderson, John </td>
+	<td>
+		<p><a href="/scimag/10.1207%2FS15327051HCI1601_2">Automated Eye-Movement Protocol Analysis</a></p>
+		<p>DOI: 10.1207/S15327051HCI1601_2</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;16, issue&nbsp;1 (2001)</p></td>
+	<td>392&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1207%2FS15327051HCI1601_2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/S15327051HCI1601_2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/S15327051HCI1601_2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/S15327051HCI1601_2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Agre, Philip</td>
+	<td>
+		<p><a href="/scimag/10.1207%2FS15327051HCI16234_04">Changing Places: Contexts of Awareness in Computing</a></p>
+		<p>DOI: 10.1207/S15327051HCI16234_04</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;16, issue&nbsp;2 (2001)</p></td>
+	<td>116&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1207%2FS15327051HCI16234_04" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/S15327051HCI16234_04">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/S15327051HCI16234_04">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/S15327051HCI16234_04">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hassenzahl, Marc</td>
+	<td>
+		<p><a href="/scimag/10.1207%2Fs15327051hci1904_2">The Interplay of Beauty, Goodness, and Usability in Interactive Products</a></p>
+		<p>DOI: 10.1207/s15327051hci1904_2</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;19, issue&nbsp;4 (2004)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1207%2Fs15327051hci1904_2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/s15327051hci1904_2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/s15327051hci1904_2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/s15327051hci1904_2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Miller, Craig; Remington, Roger </td>
+	<td>
+		<p><a href="/scimag/10.1207%2Fs15327051hci1903_2">Modeling Information Navigation: Implications for Information Architecture</a></p>
+		<p>DOI: 10.1207/s15327051hci1903_2</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;19, issue&nbsp;3 (2004)</p></td>
+	<td>896&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1207%2Fs15327051hci1903_2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/s15327051hci1903_2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/s15327051hci1903_2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/s15327051hci1903_2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hassenzahl, Marc; Monk, Andrew </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F07370024.2010.500139">The Inference of Perceived Usability From Beauty</a></p>
+		<p>DOI: 10.1080/07370024.2010.500139</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;25, issue&nbsp;3 (2010)</p></td>
+	<td>427&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F07370024.2010.500139" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/07370024.2010.500139">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/07370024.2010.500139">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/07370024.2010.500139">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hutchins, Edwin L.; Hollan, James D.; Norman, Donald A. </td>
+	<td>
+		<p><a href="/scimag/10.1207%2Fs15327051hci0104_2">Direct Manipulation Interfaces</a></p>
+		<p>DOI: 10.1207/s15327051hci0104_2</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;1, issue&nbsp;4 (1985)</p></td>
+	<td>1.52&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1207%2Fs15327051hci0104_2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/s15327051hci0104_2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/s15327051hci0104_2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/s15327051hci0104_2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kraemer, Jordan</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F07370024.2013.823821">Friend or              <i>Freund</i>              : Social Media and Transnational Connections in Berlin</a></p>
+		<p>DOI: 10.1080/07370024.2013.823821</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;29, issue&nbsp;1 (2014)</p></td>
+	<td>285&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F07370024.2013.823821" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/07370024.2013.823821">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/07370024.2013.823821">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/07370024.2013.823821">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dearden, Andy; Finlay, Janet </td>
+	<td>
+		<p><a href="/scimag/10.1207%2Fs15327051hci2101_3">Pattern Languages in HCI: A Critical Review</a></p>
+		<p>DOI: 10.1207/s15327051hci2101_3</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;21, issue&nbsp;1 (2006)</p></td>
+	<td>364&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1207%2Fs15327051hci2101_3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/s15327051hci2101_3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/s15327051hci2101_3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/s15327051hci2101_3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Payne, Stephen; Green, T. R. G. </td>
+	<td>
+		<p><a href="/scimag/10.1207%2Fs15327051hci0202_1">Task-Action Grammars: A Model of the Mental Representation of Task Languages</a></p>
+		<p>DOI: 10.1207/s15327051hci0202_1</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;2, issue&nbsp;2 (1986)</p></td>
+	<td>2.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1207%2Fs15327051hci0202_1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/s15327051hci0202_1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/s15327051hci0202_1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/s15327051hci0202_1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shklovski, Irina; Vertesi, Janet; Lindtner, Silvia </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F07370024.2013.823823">Introduction to This Special Issue on Transnational HCI</a></p>
+		<p>DOI: 10.1080/07370024.2013.823823</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;29, issue&nbsp;1 (2014)</p></td>
+	<td>273&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F07370024.2013.823823" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/07370024.2013.823823">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/07370024.2013.823823">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/07370024.2013.823823">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rouse, William; Geddes, Norman; Curry, Renwick </td>
+	<td>
+		<p><a href="/scimag/10.1207%2Fs15327051hci0302_1">An Architecture for Intelligent Interfaces: Outline of an Approach to Supporting Operators of Complex Systems</a></p>
+		<p>DOI: 10.1207/s15327051hci0302_1</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;3, issue&nbsp;2 (1987)</p></td>
+	<td>1.85&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1207%2Fs15327051hci0302_1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/s15327051hci0302_1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/s15327051hci0302_1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/s15327051hci0302_1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Newell, Allen; Card, Stuart K. </td>
+	<td>
+		<p><a href="/scimag/10.1207%2Fs15327051hci0103_1">The Prospects for Psychological Science in Human-Computer Interaction</a></p>
+		<p>DOI: 10.1207/s15327051hci0103_1</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;1, issue&nbsp;3 (1985)</p></td>
+	<td>1.88&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1207%2Fs15327051hci0103_1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/s15327051hci0103_1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/s15327051hci0103_1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/s15327051hci0103_1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dey, Anind; Abowd, Gregory; Salber, Daniel </td>
+	<td>
+		<p><a href="/scimag/10.1207%2FS15327051HCI16234_02">A Conceptual Framework and a Toolkit for Supporting the Rapid Prototyping of Context-Aware Applications</a></p>
+		<p>DOI: 10.1207/S15327051HCI16234_02</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;16, issue&nbsp;2 (2001)</p></td>
+	<td>1.79&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1207%2FS15327051HCI16234_02" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/S15327051HCI16234_02">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/S15327051HCI16234_02">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/S15327051HCI16234_02">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anderson, John R.; Matessa, Michael; Lebiere, Christian </td>
+	<td>
+		<p><a href="/scimag/10.1207%2Fs15327051hci1204_5">ACT-R: A Theory of Higher Level Cognition and Its Relation to Visual Attention</a></p>
+		<p>DOI: 10.1207/s15327051hci1204_5</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;12, issue&nbsp;4 (1997)</p></td>
+	<td>1.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1207%2Fs15327051hci1204_5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/s15327051hci1204_5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/s15327051hci1204_5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/s15327051hci1204_5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Olsen, Dan R.; Monk, Andrew F.; Curry, Martin B. </td>
+	<td>
+		<p><a href="/scimag/10.1207%2Fs15327051hci1001_2">Algorithms for Automatic Dialogue Analysis Using Propositional Production Systems</a></p>
+		<p>DOI: 10.1207/s15327051hci1001_2</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;10, issue&nbsp;1 (1995)</p></td>
+	<td>2.21&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1207%2Fs15327051hci1001_2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/s15327051hci1001_2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/s15327051hci1001_2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/s15327051hci1001_2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hornof, Anthony</td>
+	<td>
+		<p><a href="/scimag/10.1207%2Fs15327051hci1903_1">Cognitive Strategies for the Visual Search of Hierarchical Computer Displays</a></p>
+		<p>DOI: 10.1207/s15327051hci1903_1</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;19, issue&nbsp;3 (2004)</p></td>
+	<td>2.91&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1207%2Fs15327051hci1903_1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/s15327051hci1903_1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/s15327051hci1903_1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/s15327051hci1903_1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1207%2FS15327051HCI16234_19">Acknowledgment to Reviewers\</a></p>
+		<p>DOI: 10.1207/S15327051HCI16234_19</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;16, issue&nbsp;2 (2001)</p></td>
+	<td>40&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1207%2FS15327051HCI16234_19" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/S15327051HCI16234_19">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/S15327051HCI16234_19">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/S15327051HCI16234_19">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Symon, Gillian</td>
+	<td>
+		<p><a href="/scimag/10.1207%2Fs15327051hci1301_2">The Work of IT System Developers in Context: An Organizational Case Study</a></p>
+		<p>DOI: 10.1207/s15327051hci1301_2</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;13, issue&nbsp;1 (1998)</p></td>
+	<td>1.92&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1207%2Fs15327051hci1301_2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/s15327051hci1301_2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/s15327051hci1301_2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/s15327051hci1301_2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Greenberg, Saul</td>
+	<td>
+		<p><a href="/scimag/10.1207%2FS15327051HCI16234_09">Context as a Dynamic Construct</a></p>
+		<p>DOI: 10.1207/S15327051HCI16234_09</p>	</td>
+	<td><p><a href="/scimag/journals/8937">Human-Computer Interaction</a><p>volume&nbsp;16, issue&nbsp;2 (2001)</p></td>
+	<td>100&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1207%2FS15327051HCI16234_09" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1207/S15327051HCI16234_09">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1207/S15327051HCI16234_09">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1207/S15327051HCI16234_09">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">446 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 18</span>
+	 <a href="/scimag/?journal=8937&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

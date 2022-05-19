@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer US</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1064-7554</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-7055</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 30; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 30');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=14198&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">747 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 30</span>
+	 <a href="/scimag/?journal=14198&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Géraldine Veron; François M. Catzeflis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01024706">Phylogenetic relationships of the endemic malagasy carnivoreCryptoprocta ferox(Aeluroidea): DNA/DNA hybridization experiments</a></p>
+		<p>DOI: 10.1007/bf01024706</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;1, issue&nbsp;3 (1993)</p></td>
+	<td>1.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01024706" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01024706">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01024706">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01024706">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Scott Steppan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01024707">Phylogenetic relationships among the phyllotini (rodentia: Sigmodontinae) using morphological characters</a></p>
+		<p>DOI: 10.1007/bf01024707</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;1, issue&nbsp;3 (1993)</p></td>
+	<td>2.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01024707" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01024707">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01024707">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01024707">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marguerite Hugueney; Pierre Mein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01024708">A comment on the earliest spalacinae (rodentia, Muroidea)</a></p>
+		<p>DOI: 10.1007/bf01024708</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;1, issue&nbsp;3 (1993)</p></td>
+	<td>661&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01024708" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01024708">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01024708">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01024708">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01024709">Recent books of interest</a></p>
+		<p>DOI: 10.1007/bf01024709</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;1, issue&nbsp;3 (1993)</p></td>
+	<td>145&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01024709" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01024709">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01024709">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01024709">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01027596">Introductory statement</a></p>
+		<p>DOI: 10.1007/bf01027596</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>170&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01027596" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01027596">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01027596">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01027596">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael J. Novacek</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01027597">Reflections on higher mammalian phylogenetics</a></p>
+		<p>DOI: 10.1007/bf01027597</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>2.68&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01027597" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01027597">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01027597">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01027597">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>U. Zeller; J. R. Wible; M. Elsner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01027598">New ontogenetic evidence on the septomaxilla ofTamanduaandCholoepus(Mammalia, Xenarthra), with a reevaluation of the homology of the mammalian septomaxilla</a></p>
+		<p>DOI: 10.1007/bf01027598</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>1.44&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01027598" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01027598">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01027598">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01027598">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jason A. Lillegraven; Gerhard Hahn</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01027599">Evolutionary analysis of the middle and inner ear of Late Jurassic multituberculates</a></p>
+		<p>DOI: 10.1007/bf01027599</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>2.25&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01027599" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01027599">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01027599">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01027599">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John A. W. Kirsch; Robert E. Bleiweiss; Allan W. Dickerman; Osvaldo A. Reig</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01027600">DNA/DNA hybridization studies of carnivorous marsupials. III. Relationships among species ofDidelphis(Didelphidae)</a></p>
+		<p>DOI: 10.1007/bf01027600</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>1.50&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01027600" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01027600">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01027600">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01027600">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01027601">Recent books of interest</a></p>
+		<p>DOI: 10.1007/bf01027601</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>58&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01027601" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01027601">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01027601">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01027601">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01027602">Notices</a></p>
+		<p>DOI: 10.1007/bf01027602</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>94&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01027602" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01027602">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01027602">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01027602">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christine M. Janis; Patricia Brady Wilhelm</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01041590">Were there mammalian pursuit predators in the tertiary? Dances with wolf avatars</a></p>
+		<p>DOI: 10.1007/bf01041590</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;1, issue&nbsp;2 (1993)</p></td>
+	<td>1.76&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01041590" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01041590">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01041590">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01041590">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. P. Luckett; J. -L. Hartenberger</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01041591">Monophyly or polyphyly of the order Rodentia: Possible conflict between morphological and molecular interpretations</a></p>
+		<p>DOI: 10.1007/bf01041591</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;1, issue&nbsp;2 (1993)</p></td>
+	<td>1.60&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01041591" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01041591">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01041591">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01041591">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark S. Springer; John A. W. Kirsch</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01041592">A molecular perspective on the phylogeny of placental mammals based on mitochondrial 12S rDNA sequences, with special reference to the problem of the Paenungulata</a></p>
+		<p>DOI: 10.1007/bf01041592</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;1, issue&nbsp;2 (1993)</p></td>
+	<td>1.33&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01041592" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01041592">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01041592">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01041592">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01041593">Recent books of interest</a></p>
+		<p>DOI: 10.1007/bf01041593</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;1, issue&nbsp;2 (1993)</p></td>
+	<td>98&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01041593" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01041593">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01041593">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01041593">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas Martin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01041665">Early rodent incisor enamel evolution: Phylogenetic implications</a></p>
+		<p>DOI: 10.1007/bf01041665</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>6.28&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01041665" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01041665">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01041665">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01041665">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jerry W. Dragoo; Robert D. Bradley; Rodney L. Honeycutt; Joe W. Templeton</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01041666">Phylogenetic relationships among the skunks: A molecular perspective</a></p>
+		<p>DOI: 10.1007/bf01041666</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>935&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01041666" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01041666">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01041666">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01041666">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. Patrick Luckett</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01041667">Ontogenetic staging of the mammalian dentition, and its value for assessment of homology and heterochrony</a></p>
+		<p>DOI: 10.1007/bf01041667</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01041667" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01041667">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01041667">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01041667">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01041668">Recent books of interest</a></p>
+		<p>DOI: 10.1007/bf01041668</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>89&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01041668" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01041668">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01041668">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01041668">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01454251">Important announcement to subscribers</a></p>
+		<p>DOI: 10.1007/bf01454251</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>23&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01454251" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01454251">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01454251">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01454251">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James L. Patton; Sergio F. dos Reis; Maria Nazareth F. da Silva</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01454252">Relationships among didelphid marsupials based on sequence variation in the mitochondrial cytochrome B gene</a></p>
+		<p>DOI: 10.1007/bf01454252</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>1.59&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01454252" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01454252">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01454252">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01454252">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Timothy J. Gaudin; John R. Wible; James A. Hopson; William D. Turnbull</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01454253">Reexamination of the morphological evidence for the cohort Epitheria (Mammalia, Eutheria)</a></p>
+		<p>DOI: 10.1007/bf01454253</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>3.60&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01454253" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01454253">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01454253">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01454253">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carey Krajewski; Larry Buckley; Patricia A. Woolley; Michael Westerman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01454254">Phylogenetic analysis of cytochromebsequences in the dasyurid marsupial subfamily phascogalinae: Systematics and the evolution of reproductive strategies</a></p>
+		<p>DOI: 10.1007/bf01454254</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>687&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01454254" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01454254">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01454254">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01454254">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01454255">Recent books of interest</a></p>
+		<p>DOI: 10.1007/bf01454255</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;3, issue&nbsp;1 (1996)</p></td>
+	<td>156&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01454255" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01454255">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01454255">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01454255">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Warren E. Johnson; Peter A. Dratch; Janice S. Martenson; Stephen J. O&#039;Brien</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01454358">Resolution of recent radiations within three evolutionary lineages of felidae using mitochondrial restriction fragment length polymorphism variation</a></p>
+		<p>DOI: 10.1007/bf01454358</p>	</td>
+	<td><p><a href="/scimag/journals/14198">Journal of Mammalian Evolution</a><p>volume&nbsp;3, issue&nbsp;2 (1996)</p></td>
+	<td>1.50&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01454358" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01454358">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01454358">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01454358">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">747 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 30</span>
+	 <a href="/scimag/?journal=14198&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

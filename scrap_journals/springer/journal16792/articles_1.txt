@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/16792">Machine Vision and Applications</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0932-8092</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1432-1769</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 65; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 65');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=16792&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;621 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 65</span>
+	 <a href="/scimag/?journal=16792&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Alexander Toet</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211447">Hierarchical image fusion</a></p>
+		<p>DOI: 10.1007/bf01211447</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;3, issue&nbsp;1 (1990)</p></td>
+	<td>2.86&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211447" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211447">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211447">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211447">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shuwu Song; Mengyang Liao; Jamei Qin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211448">Multiresolution image dynamic thresholding</a></p>
+		<p>DOI: 10.1007/bf01211448</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;3, issue&nbsp;1 (1990)</p></td>
+	<td>434&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211448" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211448">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211448">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211448">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shuwu Song; Mengyang Liao; Jamei Qin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211449">Multiresolution image motion detection and displacement estimation</a></p>
+		<p>DOI: 10.1007/bf01211449</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;3, issue&nbsp;1 (1990)</p></td>
+	<td>413&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211449" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211449">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211449">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211449">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pascal Fua; Yvan G. Leclerc</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211451">Model driven edge detection</a></p>
+		<p>DOI: 10.1007/bf01211451</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;3, issue&nbsp;1 (1990)</p></td>
+	<td>2.87&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211451" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211451">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211451">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211451">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211452">About the authors</a></p>
+		<p>DOI: 10.1007/bf01211452</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;3, issue&nbsp;1 (1990)</p></td>
+	<td>169&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211452" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211452">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211452">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211452">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Louis J. Everett; Stephen W. Searcy; Thomas O. Binford</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211453">Dissertation abstracts</a></p>
+		<p>DOI: 10.1007/bf01211453</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;3, issue&nbsp;1 (1990)</p></td>
+	<td>107&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211453" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211453">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211453">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211453">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bill Bhanu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211657">Introduction</a></p>
+		<p>DOI: 10.1007/bf01211657</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;7, issue&nbsp;3 (1994)</p></td>
+	<td>187&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211657" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211657">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211657">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211657">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. -R. Schell; E. D. Dickmanns</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211658">Autonomous landing of airplanes by dynamic machine vision</a></p>
+		<p>DOI: 10.1007/bf01211658</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;7, issue&nbsp;3 (1994)</p></td>
+	<td>826&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211658" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211658">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211658">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211658">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Petra Perner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211659">A knowledge-based image-inspection system for automatic defect recognition, classification, and process diagnosis</a></p>
+		<p>DOI: 10.1007/bf01211659</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;7, issue&nbsp;3 (1994)</p></td>
+	<td>3.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211659" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211659">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211659">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211659">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. Ebi; B. Lauterbach; W. Anheier</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211660">An image analysis system for automatic data acquisition from colored scanned maps</a></p>
+		<p>DOI: 10.1007/bf01211660</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;7, issue&nbsp;3 (1994)</p></td>
+	<td>2.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211660" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211660">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211660">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211660">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Xie; L. Trassoudaine; J. Alizon; J. Gallice</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211661">Road obstacle detection and tracking by an active and intelligent sensing strategy</a></p>
+		<p>DOI: 10.1007/bf01211661</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;7, issue&nbsp;3 (1994)</p></td>
+	<td>4.03&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211661" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211661">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211661">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211661">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Babak H. Khalaj; Hamid K. Aghajan; Thomas Kailath</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211662">Patterned wafer inspection by high resolution spectral estimation techniques</a></p>
+		<p>DOI: 10.1007/bf01211662</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;7, issue&nbsp;3 (1994)</p></td>
+	<td>625&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211662" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211662">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211662">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211662">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lawrence Brem; N. Nandhakumar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211663">A machine vision system for enhancing the teleoperation of an industrial robot</a></p>
+		<p>DOI: 10.1007/bf01211663</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;7, issue&nbsp;3 (1994)</p></td>
+	<td>1.88&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211663" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211663">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211663">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211663">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mikihiro Ioka; Masato Kurokawa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211664">Estimation of motion vectors and their application to scene retrieval</a></p>
+		<p>DOI: 10.1007/bf01211664</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;7, issue&nbsp;3 (1994)</p></td>
+	<td>1.73&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211664" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211664">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211664">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211664">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sam C. Hwang; Hyun S. Yang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211665">A high-quality 3D multiview model-building technique based on CAD</a></p>
+		<p>DOI: 10.1007/bf01211665</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;7, issue&nbsp;3 (1994)</p></td>
+	<td>930&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211665" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211665">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211665">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211665">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211666">About the author</a></p>
+		<p>DOI: 10.1007/bf01211666</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;7, issue&nbsp;3 (1994)</p></td>
+	<td>297&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211666" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211666">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211666">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211666">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211667">Call for papers</a></p>
+		<p>DOI: 10.1007/bf01211667</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;7, issue&nbsp;3 (1994)</p></td>
+	<td>111&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211667" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211667">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211667">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211667">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wolf -Ekkehard Blanz; Jorge L. C. Sanz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211846">Editorial</a></p>
+		<p>DOI: 10.1007/bf01211846</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;3, issue&nbsp;4 (1990)</p></td>
+	<td>125&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211846" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211846">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211846">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211846">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tsugito Maruyama; Shinji Kanda; Masahiko Sato; Takashi Uchiyama</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211847">Hand-eye system with three-dimensional vision and microgripper for handling flexible wire</a></p>
+		<p>DOI: 10.1007/bf01211847</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;3, issue&nbsp;4 (1990)</p></td>
+	<td>1.56&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211847" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211847">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211847">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211847">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Niemann; H. Brünig; R. Salzbrunn; S. Schröder</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211848">A knowledge-based vision system for industrial applications</a></p>
+		<p>DOI: 10.1007/bf01211848</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;3, issue&nbsp;4 (1990)</p></td>
+	<td>3.47&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211848" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211848">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211848">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211848">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ali Kayaalp; A. Ravishankar Rao; Ramesh Jain</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211849">Scanning electron microscope-based stereo analysis</a></p>
+		<p>DOI: 10.1007/bf01211849</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;3, issue&nbsp;4 (1990)</p></td>
+	<td>2.73&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211849" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211849">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211849">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211849">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Timo Piironen; Olli Silven; Matti Pietikäinen; Toni Laitinen; Esko Strömmer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211850">Automated visual inspection of rolled metal surfaces</a></p>
+		<p>DOI: 10.1007/bf01211850</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;3, issue&nbsp;4 (1990)</p></td>
+	<td>1023&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211850" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211850">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211850">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211850">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211851">About the authors</a></p>
+		<p>DOI: 10.1007/bf01211851</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;3, issue&nbsp;4 (1990)</p></td>
+	<td>208&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211851" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211851">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211851">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211851">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211852">Announcement</a></p>
+		<p>DOI: 10.1007/bf01211852</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;3, issue&nbsp;4 (1990)</p></td>
+	<td>55&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211852" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211852">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211852">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211852">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rangachar Kasturi; Lawrence O&#039;Gorman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211931">Document image analysis techniques</a></p>
+		<p>DOI: 10.1007/bf01211931</p>	</td>
+	<td><p><a href="/scimag/journals/16792">Machine Vision and Applications</a><p>volume&nbsp;6, issue&nbsp;2-3 (1993)</p></td>
+	<td>146&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211931" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211931">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211931">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211931">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;621 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 65</span>
+	 <a href="/scimag/?journal=16792&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/8644">HEC Forum</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0956-2737</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-8498</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 47; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 47');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=8644&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;164 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 47</span>
+	 <a href="/scimag/?journal=8644&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Anita Catlin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00056549">The dilemma of Jehovah's Witness children who need blood to survive</a></p>
+		<p>DOI: 10.1007/bf00056549</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;8, issue&nbsp;4 (1996)</p></td>
+	<td>746&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00056549" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00056549">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00056549">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00056549">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eugene Rosam</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00056550">Reply to Anita Catlin</a></p>
+		<p>DOI: 10.1007/bf00056550</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;8, issue&nbsp;4 (1996)</p></td>
+	<td>217&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00056550" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00056550">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00056550">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00056550">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David C. Flagel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00056551">On second thought: A Canadian reflection informing after the fact: AIDS, confidentiality, and the duty to warn</a></p>
+		<p>DOI: 10.1007/bf00056551</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;8, issue&nbsp;4 (1996)</p></td>
+	<td>531&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00056551" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00056551">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00056551">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00056551">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00056552">Promotion of the rights of patients in Europe proceedings of a who consultation</a></p>
+		<p>DOI: 10.1007/bf00056552</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;8, issue&nbsp;4 (1996)</p></td>
+	<td>288&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00056552" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00056552">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00056552">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00056552">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00056553">Palliative Care Ethics: A good companion</a></p>
+		<p>DOI: 10.1007/bf00056553</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;8, issue&nbsp;4 (1996)</p></td>
+	<td>231&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00056553" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00056553">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00056553">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00056553">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00056554">Selected bibliography on HECs, 1994–1995</a></p>
+		<p>DOI: 10.1007/bf00056554</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;8, issue&nbsp;4 (1996)</p></td>
+	<td>670&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00056554" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00056554">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00056554">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00056554">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00056555">Notes on contributors</a></p>
+		<p>DOI: 10.1007/bf00056555</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;8, issue&nbsp;4 (1996)</p></td>
+	<td>72&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00056555" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00056555">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00056555">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00056555">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00056784">Editors' introduction</a></p>
+		<p>DOI: 10.1007/bf00056784</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;1, issue&nbsp;1 (1989)</p></td>
+	<td>273&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00056784" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00056784">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00056784">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00056784">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00056785">Procedural problems that emerge from the “inner life” of HECs: A preliminary list</a></p>
+		<p>DOI: 10.1007/bf00056785</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;1, issue&nbsp;1 (1989)</p></td>
+	<td>111&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00056785" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00056785">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00056785">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00056785">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00056786">The Hospital Ethics Committee: Who knows it exists and how to access it?</a></p>
+		<p>DOI: 10.1007/bf00056786</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;1, issue&nbsp;1 (1989)</p></td>
+	<td>835&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00056786" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00056786">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00056786">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00056786">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00056787">Addendum</a></p>
+		<p>DOI: 10.1007/bf00056787</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;1, issue&nbsp;1 (1989)</p></td>
+	<td>46&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00056787" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00056787">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00056787">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00056787">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gerald J. Mozdzierz; C. William Reiquam; Linda C. Smith</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00056788">Shaping access to Hospital Ethics Committees: Some critical issues</a></p>
+		<p>DOI: 10.1007/bf00056788</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;1, issue&nbsp;1 (1989)</p></td>
+	<td>483&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00056788" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00056788">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00056788">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00056788">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00056789">Euthanasia in the Netherlands: The legal context and the cases</a></p>
+		<p>DOI: 10.1007/bf00056789</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;1, issue&nbsp;1 (1989)</p></td>
+	<td>293&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00056789" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00056789">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00056789">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00056789">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00056790">Review</a></p>
+		<p>DOI: 10.1007/bf00056790</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;1, issue&nbsp;1 (1989)</p></td>
+	<td>114&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00056790" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00056790">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00056790">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00056790">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00056791">Critical annotations</a></p>
+		<p>DOI: 10.1007/bf00056791</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;1, issue&nbsp;1 (1989)</p></td>
+	<td>202&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00056791" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00056791">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00056791">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00056791">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00056792">Notes on contributors</a></p>
+		<p>DOI: 10.1007/bf00056792</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;1, issue&nbsp;1 (1989)</p></td>
+	<td>89&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00056792" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00056792">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00056792">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00056792">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David C. Blake</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00057623">The hospital ethics committee and moral authority</a></p>
+		<p>DOI: 10.1007/bf00057623</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;4, issue&nbsp;5 (1992)</p></td>
+	<td>202&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00057623" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00057623">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00057623">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00057623">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard E. McDaniel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00057624">The duty to promote personal well-being: A response to “nutrition and hydration: Moral considerations,” a statement by the Catholic Bishops of Pennsylvania</a></p>
+		<p>DOI: 10.1007/bf00057624</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;4, issue&nbsp;5 (1992)</p></td>
+	<td>356&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00057624" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00057624">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00057624">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00057624">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William H. Bruening</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00057625">Autonomy and futility</a></p>
+		<p>DOI: 10.1007/bf00057625</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;4, issue&nbsp;5 (1992)</p></td>
+	<td>490&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00057625" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00057625">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00057625">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00057625">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rosamond Rhodes; Lewis Burrows; Lewis Reisman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00057626">Mt. St. Anonymous the adolescent living-related donor</a></p>
+		<p>DOI: 10.1007/bf00057626</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;4, issue&nbsp;5 (1992)</p></td>
+	<td>504&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00057626" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00057626">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00057626">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00057626">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00057627">Is it beneficial for ethics committee functions to be mandated in statutes and/or regulations?</a></p>
+		<p>DOI: 10.1007/bf00057627</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;4, issue&nbsp;5 (1992)</p></td>
+	<td>107&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00057627" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00057627">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00057627">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00057627">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00057628">Is it beneficial for ethics committee functions to be mandated in statutes and/or regulations?</a></p>
+		<p>DOI: 10.1007/bf00057628</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;4, issue&nbsp;5 (1992)</p></td>
+	<td>90&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00057628" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00057628">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00057628">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00057628">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00057629">Annotations</a></p>
+		<p>DOI: 10.1007/bf00057629</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;4, issue&nbsp;5 (1992)</p></td>
+	<td>219&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00057629" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00057629">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00057629">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00057629">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00057630">Notes on contributors</a></p>
+		<p>DOI: 10.1007/bf00057630</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;4, issue&nbsp;5 (1992)</p></td>
+	<td>115&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00057630" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00057630">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00057630">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00057630">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kenneth V. Iserson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00057720">Strategic planning for bioethics committees and networks</a></p>
+		<p>DOI: 10.1007/bf00057720</p>	</td>
+	<td><p><a href="/scimag/journals/8644">HEC Forum</a><p>volume&nbsp;3, issue&nbsp;3 (1991)</p></td>
+	<td>475&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00057720" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00057720">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00057720">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00057720">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;164 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 47</span>
+	 <a href="/scimag/?journal=8644&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

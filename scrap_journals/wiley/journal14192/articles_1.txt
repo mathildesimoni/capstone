@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1053-1807</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1522-2586</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 360; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 360');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=14192&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">8&nbsp;992 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 360</span>
+	 <a href="/scimag/?journal=14192&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Jeroen van der Grond; Kaspar J. van Everdingen; Bert C. Eikelboom; József Kenéz; Willem P. Th. M. Mali</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C1%3A%3Aaid-jmri1%3E3.0.co%3B2-d">Assessment of borderzone ischemia with a combined MR imaging-MR angiography-MR spectroscopy protocol</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;1::aid-jmri1&gt;3.0.co;2-d</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>176&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C1%3A%3Aaid-jmri1%3E3.0.co%3B2-d" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C1%3A%3Aaid-jmri1%3E3.0.co%3B2-d">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C1%3A%3Aaid-jmri1%3E3.0.co%3B2-d">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C1%3A%3Aaid-jmri1%3E3.0.co%3B2-d">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Harald E. Möller; Peter Vermathen; Markus G. Lentschig; Gerhard Schuierer; Stefan Schwarz; Dirk Wiedermann; Stefan Evers; Ingo W. Husstedt</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C10%3A%3Aaid-jmri2%3E3.0.co%3B2-w">Metabolic characterization of AIDS dementia complex by spectroscopic imaging</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;10::aid-jmri2&gt;3.0.co;2-w</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>159&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C10%3A%3Aaid-jmri2%3E3.0.co%3B2-w" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C10%3A%3Aaid-jmri2%3E3.0.co%3B2-w">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C10%3A%3Aaid-jmri2%3E3.0.co%3B2-w">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C10%3A%3Aaid-jmri2%3E3.0.co%3B2-w">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Juerg Schwitter; Maythem Saeed; Michael F. Wendland; Hajime Sakuma; Jens Bremerich; Emmanuelle Canet; Charles B. Higgins</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C101%3A%3Aaid-jmri14%3E3.0.co%3B2-9">Assessment of myocardial function and perfusion in a canine model of non-occlusive coronary artery stenosis using fast magnetic resonance imaging</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;101::aid-jmri14&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>177&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C101%3A%3Aaid-jmri14%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C101%3A%3Aaid-jmri14%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C101%3A%3Aaid-jmri14%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C101%3A%3Aaid-jmri14%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yudong Zhu; Norbert J. Pelc</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C111%3A%3Aaid-jmri15%3E3.0.co%3B2-5">Three-dimensional motion tracking with volumetric phase contrast MR velocity imaging</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;111::aid-jmri15&gt;3.0.co;2-5</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>148&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C111%3A%3Aaid-jmri15%3E3.0.co%3B2-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C111%3A%3Aaid-jmri15%3E3.0.co%3B2-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C111%3A%3Aaid-jmri15%3E3.0.co%3B2-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C111%3A%3Aaid-jmri15%3E3.0.co%3B2-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chris J.G. Bakker; Romhild M. Hoogeveen; Max A. Viergever</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C119%3A%3Aaid-jmri16%3E3.0.co%3B2-f">Construction of a protocol for measuring blood flow by two-dimensional phase-contrast MRA</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;119::aid-jmri16&gt;3.0.co;2-f</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>115&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C119%3A%3Aaid-jmri16%3E3.0.co%3B2-f" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C119%3A%3Aaid-jmri16%3E3.0.co%3B2-f">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C119%3A%3Aaid-jmri16%3E3.0.co%3B2-f">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C119%3A%3Aaid-jmri16%3E3.0.co%3B2-f">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Min-Ying Su; Zhiheng Wang; Orhan Nalcioglu</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C128%3A%3Aaid-jmri17%3E3.0.co%3B2-e">Investigation of longitudinal vascular changes in control and chemotherapy-treated tumors to serve as therapeutic efficacy predictors</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;128::aid-jmri17&gt;3.0.co;2-e</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>186&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C128%3A%3Aaid-jmri17%3E3.0.co%3B2-e" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C128%3A%3Aaid-jmri17%3E3.0.co%3B2-e">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C128%3A%3Aaid-jmri17%3E3.0.co%3B2-e">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C128%3A%3Aaid-jmri17%3E3.0.co%3B2-e">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yiu-Cho Chung; Jeffrey L. Duerk; Ajit Shankaranarayanan; Monika Hampke; Elmar M. Merkle; Jonathan S. Lewin</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C138%3A%3Aaid-jmri18%3E3.0.co%3B2-a">Temperature measurement using echo-shifted FLASH at low field for interventional MRI</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;138::aid-jmri18&gt;3.0.co;2-a</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>174&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C138%3A%3Aaid-jmri18%3E3.0.co%3B2-a" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C138%3A%3Aaid-jmri18%3E3.0.co%3B2-a">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C138%3A%3Aaid-jmri18%3E3.0.co%3B2-a">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C138%3A%3Aaid-jmri18%3E3.0.co%3B2-a">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stuart S. Berr; Vu Minh Mai</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C146%3A%3Aaid-jmri19%3E3.0.co%3B2-c">Extraslice spin tagging (EST) magnetic resonance imaging for the determination of perfusion</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;146::aid-jmri19&gt;3.0.co;2-c</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>99&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C146%3A%3Aaid-jmri19%3E3.0.co%3B2-c" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C146%3A%3Aaid-jmri19%3E3.0.co%3B2-c">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C146%3A%3Aaid-jmri19%3E3.0.co%3B2-c">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C146%3A%3Aaid-jmri19%3E3.0.co%3B2-c">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Steven S. Smugar; Mark E. Schweitzer; Eric Hume</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C151%3A%3Aaid-jmri20%3E3.0.co%3B2-f">MRI in patients with intraspinal bullets</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;151::aid-jmri20&gt;3.0.co;2-f</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>34&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C151%3A%3Aaid-jmri20%3E3.0.co%3B2-f" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C151%3A%3Aaid-jmri20%3E3.0.co%3B2-f">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C151%3A%3Aaid-jmri20%3E3.0.co%3B2-f">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C151%3A%3Aaid-jmri20%3E3.0.co%3B2-f">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. Jon Shah; Lutz Jäncke; Maria-Liisa Grosse-Ruyken; Hans Wilhelm Müller-Gärtner</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C19%3A%3Aaid-jmri3%3E3.0.co%3B2-k">Influence of acoustic masking noise in fMRI of the auditory cortex during phonetic discrimination</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;19::aid-jmri3&gt;3.0.co;2-k</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>152&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C19%3A%3Aaid-jmri3%3E3.0.co%3B2-k" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C19%3A%3Aaid-jmri3%3E3.0.co%3B2-k">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C19%3A%3Aaid-jmri3%3E3.0.co%3B2-k">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C19%3A%3Aaid-jmri3%3E3.0.co%3B2-k">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christian Teissl; Christian Kremser; Erwin S. Hochmair; Ingeborg J. Hochmair-Desoyer</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C26%3A%3Aaid-jmri4%3E3.0.co%3B2-h">Magnetic resonance imaging and cochlear implants: Compatibility and safety aspects</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;26::aid-jmri4&gt;3.0.co;2-h</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>281&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C26%3A%3Aaid-jmri4%3E3.0.co%3B2-h" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C26%3A%3Aaid-jmri4%3E3.0.co%3B2-h">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C26%3A%3Aaid-jmri4%3E3.0.co%3B2-h">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C26%3A%3Aaid-jmri4%3E3.0.co%3B2-h">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Helen Petropoulos; Wilmer L. Sibbitt Jr.; William M. Brooks</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C39%3A%3Aaid-jmri5%3E3.0.co%3B2-8">Automated T2 quantitation in neuropsychiatric lupus erythematosus: A marker of active disease</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;39::aid-jmri5&gt;3.0.co;2-8</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>171&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C39%3A%3Aaid-jmri5%3E3.0.co%3B2-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C39%3A%3Aaid-jmri5%3E3.0.co%3B2-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C39%3A%3Aaid-jmri5%3E3.0.co%3B2-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C39%3A%3Aaid-jmri5%3E3.0.co%3B2-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Weili Lin; Azim Celik; Richard P. Paczynski</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C44%3A%3Aaid-jmri6%3E3.0.co%3B2-7">Regional cerebral blood volume: A comparison of the dynamic imaging and the steady state methods</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;44::aid-jmri6&gt;3.0.co;2-7</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>210&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C44%3A%3Aaid-jmri6%3E3.0.co%3B2-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C44%3A%3Aaid-jmri6%3E3.0.co%3B2-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C44%3A%3Aaid-jmri6%3E3.0.co%3B2-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C44%3A%3Aaid-jmri6%3E3.0.co%3B2-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Takeshi Sugahara; Yukunori Korogi; Masato Kochi; Ichiro Ikushima; Yoshinori Shigematu; Toshinori Hirai; Tomoko Okuda; Luxia Liang; Yulin Ge; Yasuyuki Komohara; Yukitaka Ushio; Mutsumasa Takahashi</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C53%3A%3Aaid-jmri7%3E3.0.co%3B2-2">Usefulness of diffusion-weighted MRI with echo-planar technique in the evaluation of cellularity in gliomas</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;53::aid-jmri7&gt;3.0.co;2-2</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>589&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C53%3A%3Aaid-jmri7%3E3.0.co%3B2-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C53%3A%3Aaid-jmri7%3E3.0.co%3B2-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C53%3A%3Aaid-jmri7%3E3.0.co%3B2-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C53%3A%3Aaid-jmri7%3E3.0.co%3B2-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Y. Berthezène; P. Croisille; M. Wiart; N. Howarth; C. Houzard; O. Faure; P. Douek; M. Amiel; D. Revel</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C61%3A%3Aaid-jmri8%3E3.0.co%3B2-z">Prospective comparison of MR lung perfusion and lung scintigraphy</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;61::aid-jmri8&gt;3.0.co;2-z</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>323&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C61%3A%3Aaid-jmri8%3E3.0.co%3B2-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C61%3A%3Aaid-jmri8%3E3.0.co%3B2-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C61%3A%3Aaid-jmri8%3E3.0.co%3B2-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C61%3A%3Aaid-jmri8%3E3.0.co%3B2-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andrew M. Taylor; Permi Jhooti; Jennifer Keegan; Anita K. Simonds; Dudley J. Pennell</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C69%3A%3Aaid-jmri9%3E3.0.co%3B2-o">Magnetic resonance navigator echo diaphragm monitoring in patients with suspected diaphragm paralysis</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;69::aid-jmri9&gt;3.0.co;2-o</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>144&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C69%3A%3Aaid-jmri9%3E3.0.co%3B2-o" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C69%3A%3Aaid-jmri9%3E3.0.co%3B2-o">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C69%3A%3Aaid-jmri9%3E3.0.co%3B2-o">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C69%3A%3Aaid-jmri9%3E3.0.co%3B2-o">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patrik Kunz; Christine Feinle; Werner Schwizer; Michael Fried; Peter Boesiger</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C75%3A%3Aaid-jmri10%3E3.0.co%3B2-i">Assessment of gastric motor function during the emptying of solid and liquid meals in humans by MRI</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;75::aid-jmri10&gt;3.0.co;2-i</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>166&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C75%3A%3Aaid-jmri10%3E3.0.co%3B2-i" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C75%3A%3Aaid-jmri10%3E3.0.co%3B2-i">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C75%3A%3Aaid-jmri10%3E3.0.co%3B2-i">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C75%3A%3Aaid-jmri10%3E3.0.co%3B2-i">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eric W. Olcott; King C.P. Li; Graham A. Wright; Philip P. Pattarelli; Douglas S. Katz; Ian Y. Ch&#039;en; Bruce L. Daniel</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C81%3A%3Aaid-jmri11%3E3.0.co%3B2-q">Differentiation of hepatic malignancies from hemangiomas and cysts by T2 relaxation times: Early experience with multiply refocused four-echo imaging at 1.5 T</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;81::aid-jmri11&gt;3.0.co;2-q</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>128&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C81%3A%3Aaid-jmri11%3E3.0.co%3B2-q" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C81%3A%3Aaid-jmri11%3E3.0.co%3B2-q">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C81%3A%3Aaid-jmri11%3E3.0.co%3B2-q">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C81%3A%3Aaid-jmri11%3E3.0.co%3B2-q">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James P. Earls; Neil M. Rofsky; Douglas R. DeCorato; Glenn A. Krinsky; Jeffrey C. Weinreb</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C87%3A%3Aaid-jmri12%3E3.0.co%3B2-5">Echo-train STIR MRI of the liver: Comparison of breath-hold and non-breath-hold imaging strategies</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;87::aid-jmri12&gt;3.0.co;2-5</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>279&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C87%3A%3Aaid-jmri12%3E3.0.co%3B2-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C87%3A%3Aaid-jmri12%3E3.0.co%3B2-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C87%3A%3Aaid-jmri12%3E3.0.co%3B2-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C87%3A%3Aaid-jmri12%3E3.0.co%3B2-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marc D. Häussler; Marc J. Fenstermacher; Dennis A. Johnston; Thomas S. Harle</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C93%3A%3Aaid-jmri13%3E3.0.co%3B2-d">MRI of primary lymphoma of bone: Cortical disorder as a criterion for differential diagnosis</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199901)9:1&lt;93::aid-jmri13&gt;3.0.co;2-d</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;1 (1999)</p></td>
+	<td>483&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199901%299%3A1%3C93%3A%3Aaid-jmri13%3E3.0.co%3B2-d" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199901%299%3A1%3C93%3A%3Aaid-jmri13%3E3.0.co%3B2-d">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199901%299%3A1%3C93%3A%3Aaid-jmri13%3E3.0.co%3B2-d">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199901%299%3A1%3C93%3A%3Aaid-jmri13%3E3.0.co%3B2-d">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gary D. Fullerton</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199902%299%3A2%3C155%3A%3Aaid-jmri1%3E3.0.co%3B2-s">JMRI strategy for the 21st century</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199902)9:2&lt;155::aid-jmri1&gt;3.0.co;2-s</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;2 (1999)</p></td>
+	<td>22&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199902%299%3A2%3C155%3A%3Aaid-jmri1%3E3.0.co%3B2-s" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199902%299%3A2%3C155%3A%3Aaid-jmri1%3E3.0.co%3B2-s">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199902%299%3A2%3C155%3A%3Aaid-jmri1%3E3.0.co%3B2-s">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199902%299%3A2%3C155%3A%3Aaid-jmri1%3E3.0.co%3B2-s">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fergus V. Coakley; Lawrence H. Schwartz</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199902%299%3A2%3C157%3A%3Aaid-jmri2%3E3.0.co%3B2-n">Magnetic resonance cholangiopancreatography</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199902)9:2&lt;157::aid-jmri2&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;2 (1999)</p></td>
+	<td>196&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199902%299%3A2%3C157%3A%3Aaid-jmri2%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199902%299%3A2%3C157%3A%3Aaid-jmri2%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199902%299%3A2%3C157%3A%3Aaid-jmri2%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199902%299%3A2%3C157%3A%3Aaid-jmri2%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jason A. Brookes; Thomas W. Redpath; Fiona J. Gilbert; Alison D. Murray; Roger T. Staff</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199902%299%3A2%3C163%3A%3Aaid-jmri3%3E3.0.co%3B2-l">Accuracy of T1 measurement in dynamic contrast-enhanced breast MRI using two- and three-dimensional variable flip angle fast low-angle shot</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199902)9:2&lt;163::aid-jmri3&gt;3.0.co;2-l</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;2 (1999)</p></td>
+	<td>130&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199902%299%3A2%3C163%3A%3Aaid-jmri3%3E3.0.co%3B2-l" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199902%299%3A2%3C163%3A%3Aaid-jmri3%3E3.0.co%3B2-l">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199902%299%3A2%3C163%3A%3Aaid-jmri3%3E3.0.co%3B2-l">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199902%299%3A2%3C163%3A%3Aaid-jmri3%3E3.0.co%3B2-l">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vadim Yu. Kuperman; Marcus T. Alley</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199902%299%3A2%3C172%3A%3Aaid-jmri4%3E3.0.co%3B2-g">Differentiation between the effects of T1 and T2* shortening in contrast-enhanced MRI of the breast</a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199902)9:2&lt;172::aid-jmri4&gt;3.0.co;2-g</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;2 (1999)</p></td>
+	<td>148&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199902%299%3A2%3C172%3A%3Aaid-jmri4%3E3.0.co%3B2-g" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199902%299%3A2%3C172%3A%3Aaid-jmri4%3E3.0.co%3B2-g">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199902%299%3A2%3C172%3A%3Aaid-jmri4%3E3.0.co%3B2-g">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199902%299%3A2%3C172%3A%3Aaid-jmri4%3E3.0.co%3B2-g">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Min-Ying Su; Zhiheng Wang; Philip M. Carpenter; Xiaoyan Lao; Andreas Mühler; Orhan Nalcioglu</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291522-2586%28199902%299%3A2%3C177%3A%3Aaid-jmri5%3E3.0.co%3B2-8">Characterization of N-ethyl-N-nitrosourea-induced malignant and benign breast tumors in rats by using three MR contrast agents </a></p>
+		<p>DOI: 10.1002/(sici)1522-2586(199902)9:2&lt;177::aid-jmri5&gt;3.0.co;2-8</p>	</td>
+	<td><p><a href="/scimag/journals/14192">Journal of Magnetic Resonance Imaging</a><p>volume&nbsp;9, issue&nbsp;2 (1999)</p></td>
+	<td>264&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291522-2586%28199902%299%3A2%3C177%3A%3Aaid-jmri5%3E3.0.co%3B2-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291522-2586%28199902%299%3A2%3C177%3A%3Aaid-jmri5%3E3.0.co%3B2-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291522-2586%28199902%299%3A2%3C177%3A%3Aaid-jmri5%3E3.0.co%3B2-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291522-2586%28199902%299%3A2%3C177%3A%3Aaid-jmri5%3E3.0.co%3B2-8">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">8&nbsp;992 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 360</span>
+	 <a href="/scimag/?journal=14192&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

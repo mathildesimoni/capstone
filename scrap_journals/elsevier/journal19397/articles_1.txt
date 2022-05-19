@@ -1,0 +1,379 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Elsevier Science</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0362-5478</td>
+	</tr>
+					</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 3; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 3');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=19397&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">58 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 3</span>
+	 <a href="/scimag/?journal=19397&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Harold G. Petering</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2876%2990001-2">Pharmacology and toxicology of heavy metals: Gold</a></p>
+		<p>DOI: 10.1016/0362-5478(76)90001-2</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;1, issue&nbsp;2 (1976)</p></td>
+	<td>574&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2876%2990001-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2876%2990001-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2876%2990001-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2876%2990001-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Harold G. Petering</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2876%2990002-4">Pharmacology and toxicology of heavy metals: Silver</a></p>
+		<p>DOI: 10.1016/0362-5478(76)90002-4</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;1, issue&nbsp;2 (1976)</p></td>
+	<td>320&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2876%2990002-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2876%2990002-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2876%2990002-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2876%2990002-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Harold G. Petering; Lloyd B. Tepper</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2876%2990003-6">Pharmacology and toxicology of heavy metals: Mercury</a></p>
+		<p>DOI: 10.1016/0362-5478(76)90003-6</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;1, issue&nbsp;2 (1976)</p></td>
+	<td>1.71&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2876%2990003-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2876%2990003-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2876%2990003-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2876%2990003-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Klaus L. Stemmer</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2876%2990004-8">Pharmacology and toxicology of heavy metals: bismuth</a></p>
+		<p>DOI: 10.1016/0362-5478(76)90004-8</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;1, issue&nbsp;2 (1976)</p></td>
+	<td>230&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2876%2990004-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2876%2990004-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2876%2990004-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2876%2990004-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Klaus L. Stemmer</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2876%2990005-x">Pharmacology and toxicology of heavy metals: antimony</a></p>
+		<p>DOI: 10.1016/0362-5478(76)90005-x</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;1, issue&nbsp;2 (1976)</p></td>
+	<td>343&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2876%2990005-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2876%2990005-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2876%2990005-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2876%2990005-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert A. Kehoe</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2876%2990006-1">Pharmacology and toxicology of heavy metals: Lead</a></p>
+		<p>DOI: 10.1016/0362-5478(76)90006-1</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;1, issue&nbsp;2 (1976)</p></td>
+	<td>2.35&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2876%2990006-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2876%2990006-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2876%2990006-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2876%2990006-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Leslie M. Klevay</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2876%2990007-3">Pharmacology and toxicology of heavy metals: Arsenic</a></p>
+		<p>DOI: 10.1016/0362-5478(76)90007-3</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;1, issue&nbsp;2 (1976)</p></td>
+	<td>1.78&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2876%2990007-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2876%2990007-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2876%2990007-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2876%2990007-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Leslie M. Klevay</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2876%2990008-5">Pharmacology and toxicology of heavy metals: Selenium</a></p>
+		<p>DOI: 10.1016/0362-5478(76)90008-5</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;1, issue&nbsp;2 (1976)</p></td>
+	<td>1001&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2876%2990008-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2876%2990008-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2876%2990008-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2876%2990008-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Leslie M. Klevay</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2876%2990009-7">Pharmacology and toxicology of heavy metals: Tellurium</a></p>
+		<p>DOI: 10.1016/0362-5478(76)90009-7</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;1, issue&nbsp;2 (1976)</p></td>
+	<td>523&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2876%2990009-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2876%2990009-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2876%2990009-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2876%2990009-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Howard M. Johnson; Samuel Baron</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2877%2990001-8">Evaluation of effects of interferon and interferon inducers on the immune response</a></p>
+		<p>DOI: 10.1016/0362-5478(77)90001-8</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;1, issue&nbsp;4 (1977)</p></td>
+	<td>1.58&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2877%2990001-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2877%2990001-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2877%2990001-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2877%2990001-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K.E. Mogensen; Kari Cantell</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2877%2990002-x">Production and preparation of human leukocyte interferon</a></p>
+		<p>DOI: 10.1016/0362-5478(77)90002-x</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;1, issue&nbsp;4 (1977)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2877%2990002-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2877%2990002-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2877%2990002-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2877%2990002-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shlomo Ben-Efraim</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2877%2990003-1">Methanol extraction residue: Effects and mechanisms of action</a></p>
+		<p>DOI: 10.1016/0362-5478(77)90003-1</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;1, issue&nbsp;4 (1977)</p></td>
+	<td>2.37&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2877%2990003-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2877%2990003-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2877%2990003-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2877%2990003-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F.M. Schabel Jr.; D.P. Griswold Jr.; W.R. Laster Jr.; T.H. Corbett; H.H. Lloyd</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2877%2990004-3">Quantitative evaluation of anticancer agent activity in experimental animals</a></p>
+		<p>DOI: 10.1016/0362-5478(77)90004-3</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;1, issue&nbsp;4 (1977)</p></td>
+	<td>2.57&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2877%2990004-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2877%2990004-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2877%2990004-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2877%2990004-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Neal C. Brown; George E. Wright</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2877%2990005-5">Inhibitors of bacterial DNA polymerases</a></p>
+		<p>DOI: 10.1016/0362-5478(77)90005-5</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;1, issue&nbsp;4 (1977)</p></td>
+	<td>1.38&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2877%2990005-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2877%2990005-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2877%2990005-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2877%2990005-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Werner E.G. Müller</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2877%2990006-7">Chromomycin, olivomycin and bleomycin as inhibitors of DNA and RNA polymerases</a></p>
+		<p>DOI: 10.1016/0362-5478(77)90006-7</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;1, issue&nbsp;4 (1977)</p></td>
+	<td>1.29&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2877%2990006-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2877%2990006-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2877%2990006-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2877%2990006-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fred E. Hahn</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2877%2990007-9">Distamycins and netropsin as inhibitors of RNA and DNA polymerases</a></p>
+		<p>DOI: 10.1016/0362-5478(77)90007-9</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;1, issue&nbsp;4 (1977)</p></td>
+	<td>724&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2877%2990007-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2877%2990007-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2877%2990007-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2877%2990007-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2877%2990008-0">Editorial Board</a></p>
+		<p>DOI: 10.1016/0362-5478(77)90008-0</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;2, issue&nbsp;1 (1977)</p></td>
+	<td>102&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2877%2990008-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2877%2990008-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2877%2990008-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2877%2990008-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul F. Torrence; Erik De Clercq</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2877%2990009-2">Inducers and induction of interferons</a></p>
+		<p>DOI: 10.1016/0362-5478(77)90009-2</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;2, issue&nbsp;1 (1977)</p></td>
+	<td>6.99&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2877%2990009-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2877%2990009-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2877%2990009-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2877%2990009-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert N. Taub; Varda Deutsch</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2877%2990010-9">Antilymphocytic serum</a></p>
+		<p>DOI: 10.1016/0362-5478(77)90010-9</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;2, issue&nbsp;1 (1977)</p></td>
+	<td>1.98&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2877%2990010-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2877%2990010-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2877%2990010-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2877%2990010-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Susan Solliday Rich; Robert R. Rich</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2877%2990011-0">Modulation of immunity by thymus-derived lymphocytes</a></p>
+		<p>DOI: 10.1016/0362-5478(77)90011-0</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;2, issue&nbsp;1 (1977)</p></td>
+	<td>2.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2877%2990011-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2877%2990011-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2877%2990011-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2877%2990011-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Corrado Gurgo</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2877%2990012-2">Rifamycins as inhibitors of RNA and DNA polymerases</a></p>
+		<p>DOI: 10.1016/0362-5478(77)90012-2</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;2, issue&nbsp;1 (1977)</p></td>
+	<td>2.63&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2877%2990012-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2877%2990012-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2877%2990012-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2877%2990012-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lawrence A. Loeb; Shyam S. Agarwal; Dipak K. Dube; K.P. Gopinathan; Elizabeth C. Travaglini; Gita Seal; Michael A. Sirover</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2877%2990013-4">Inhibitors of mammalian DNA polymerases: Possible chemotherapeutic approaches</a></p>
+		<p>DOI: 10.1016/0362-5478(77)90013-4</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;2, issue&nbsp;1 (1977)</p></td>
+	<td>1.73&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2877%2990013-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2877%2990013-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2877%2990013-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2877%2990013-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas J. Lindell</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2877%2990014-6">Inhibitors of mammalian RNA polymerases</a></p>
+		<p>DOI: 10.1016/0362-5478(77)90014-6</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;2, issue&nbsp;1 (1977)</p></td>
+	<td>2.50&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2877%2990014-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2877%2990014-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2877%2990014-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2877%2990014-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael R. Franklin</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2877%2990015-8">Inhibition of mixed-function oxidations by substrates forming reduced cytochrome P-450 metabolic-intermediate complexes</a></p>
+		<p>DOI: 10.1016/0362-5478(77)90015-8</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;2, issue&nbsp;1 (1977)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2877%2990015-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2877%2990015-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2877%2990015-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2877%2990015-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0362-5478%2877%2990016-x">Announcement</a></p>
+		<p>DOI: 10.1016/0362-5478(77)90016-x</p>	</td>
+	<td><p><a href="/scimag/journals/19397">Pharmacology &amp; Therapeutics. Part A: Chemotherapy, Toxicology and Metabolic Inhibitors</a><p>volume&nbsp;2, issue&nbsp;1 (1977)</p></td>
+	<td>26&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0362-5478%2877%2990016-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0362-5478%2877%2990016-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0362-5478%2877%2990016-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0362-5478%2877%2990016-x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">58 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 3</span>
+	 <a href="/scimag/?journal=19397&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

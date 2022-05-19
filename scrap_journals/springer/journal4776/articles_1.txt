@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4776">Community Mental Health Journal</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0010-3853</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-2789</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 160; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 160');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4776&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;999 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 160</span>
+	 <a href="/scimag/?journal=4776&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Charles G. Ray</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752381">Editorial comment</a></p>
+		<p>DOI: 10.1007/bf00752381</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;27, issue&nbsp;5 (1991)</p></td>
+	<td>191&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752381" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752381">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752381">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752381">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David V. Perkins; Frank Baker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752382">A Behavior Setting Assessment for community programs and residences</a></p>
+		<p>DOI: 10.1007/bf00752382</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;27, issue&nbsp;5 (1991)</p></td>
+	<td>688&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752382" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752382">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752382">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752382">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William Patrick Sullivan; Charles A. Rapp</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752383">Improving client outcomes: The Kansas technical assistance consultation project</a></p>
+		<p>DOI: 10.1007/bf00752383</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;27, issue&nbsp;5 (1991)</p></td>
+	<td>617&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752383" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752383">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752383">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752383">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Elmer F. Bertsch</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752384">Barriers to individualized community support services: The impact of some current funding and conceptual models</a></p>
+		<p>DOI: 10.1007/bf00752384</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;27, issue&nbsp;5 (1991)</p></td>
+	<td>603&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752384" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752384">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752384">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752384">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Emeline E. Homonoff; Pamela Fineman Maltz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752385">Developing and maintaining a coordinated system of community-based services to children</a></p>
+		<p>DOI: 10.1007/bf00752385</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;27, issue&nbsp;5 (1991)</p></td>
+	<td>818&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752385" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752385">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752385">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752385">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Douglas Durst</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752386">Conjugal violence: Changing attitudes in two northern native communities</a></p>
+		<p>DOI: 10.1007/bf00752386</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;27, issue&nbsp;5 (1991)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752386" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752386">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752386">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752386">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniel R. Orme; Donald Boswell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752387">The pre-intake drop-out at a community mental health center</a></p>
+		<p>DOI: 10.1007/bf00752387</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;27, issue&nbsp;5 (1991)</p></td>
+	<td>300&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752387" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752387">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752387">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752387">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James K. Boehnlein; Joyce R. Borkin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752388">The loony bin trip</a></p>
+		<p>DOI: 10.1007/bf00752388</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;27, issue&nbsp;5 (1991)</p></td>
+	<td>187&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752388" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752388">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752388">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752388">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. James Lurie</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752389">Film reviews</a></p>
+		<p>DOI: 10.1007/bf00752389</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;27, issue&nbsp;5 (1991)</p></td>
+	<td>83&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752389" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752389">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752389">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752389">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas W. Dobmeyer; Patricia A. McKee; Robert D. Miller; James S. Westcott</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752390">The effect of enrollment in a prepaid health plan on utilization of a community Crisis Intervention Center by chronically mentally ill individuals</a></p>
+		<p>DOI: 10.1007/bf00752390</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;26, issue&nbsp;2 (1990)</p></td>
+	<td>530&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752390" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752390">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752390">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752390">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hendon Chubb; Eldon L. Evans</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752391">Therapist efficiency and clinic accessibility with the mental health research institute brief therapy model</a></p>
+		<p>DOI: 10.1007/bf00752391</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;26, issue&nbsp;2 (1990)</p></td>
+	<td>624&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752391" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752391">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752391">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752391">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patrick W. Corrigan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752392">Consumer satisfaction with institutional and community care</a></p>
+		<p>DOI: 10.1007/bf00752392</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;26, issue&nbsp;2 (1990)</p></td>
+	<td>924&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752392" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752392">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752392">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752392">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Harold W. Neighbors</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752393">The prevention of psychopathology in African Americans: An epidemiologic perspective</a></p>
+		<p>DOI: 10.1007/bf00752393</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;26, issue&nbsp;2 (1990)</p></td>
+	<td>890&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752393" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752393">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752393">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752393">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Douglas L. Polcin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752394">Administrative planning in community mental health</a></p>
+		<p>DOI: 10.1007/bf00752394</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;26, issue&nbsp;2 (1990)</p></td>
+	<td>772&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752394" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752394">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752394">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752394">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lorenzo Burti; Ira D. Glick; Michele Tansella</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752395">Measuring the treatment environment of a psychiatric ward and a community mental health center after the Italian reform</a></p>
+		<p>DOI: 10.1007/bf00752395</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;26, issue&nbsp;2 (1990)</p></td>
+	<td>726&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752395" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752395">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752395">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752395">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fanny M. Cheung</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752396">People against the mentally ill: Community opposition to residential treatment facilities</a></p>
+		<p>DOI: 10.1007/bf00752396</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;26, issue&nbsp;2 (1990)</p></td>
+	<td>495&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752396" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752396">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752396">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752396">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752397">Language says it all</a></p>
+		<p>DOI: 10.1007/bf00752397</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;26, issue&nbsp;2 (1990)</p></td>
+	<td>63&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752397" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752397">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752397">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752397">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752398">Hostage negotiation training</a></p>
+		<p>DOI: 10.1007/bf00752398</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;26, issue&nbsp;2 (1990)</p></td>
+	<td>63&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752398" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752398">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752398">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752398">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752399">Fit after fifty</a></p>
+		<p>DOI: 10.1007/bf00752399</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;26, issue&nbsp;2 (1990)</p></td>
+	<td>26&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752399" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752399">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752399">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752399">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David S. Hargrove</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752418">Bringing about a balance</a></p>
+		<p>DOI: 10.1007/bf00752418</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;27, issue&nbsp;3 (1991)</p></td>
+	<td>248&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752418" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752418">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752418">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752418">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ronna Chamberlain; Charles A. Rapp</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752419">A decade of case management: A methodological review of outcome research</a></p>
+		<p>DOI: 10.1007/bf00752419</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;27, issue&nbsp;3 (1991)</p></td>
+	<td>1.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752419" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752419">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752419">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752419">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert M. Goisman; Anne B. Kent; Elizabeth C. Montgomery; Mary M. Cheevers; Stephen M. Goldfinger</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752420">AIDS education for patients with chronic mental illness</a></p>
+		<p>DOI: 10.1007/bf00752420</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;27, issue&nbsp;3 (1991)</p></td>
+	<td>559&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752420" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752420">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752420">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752420">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David S. Hargrove; Jeanne C. Fox; Charles R. Goldman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752421">Recruitment, motivation, and reinforcement of preprofessionals for public sector mental health careers</a></p>
+		<p>DOI: 10.1007/bf00752421</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;27, issue&nbsp;3 (1991)</p></td>
+	<td>617&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752421" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752421">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752421">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752421">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Claire Rabin; Chen Nardi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752422">Treating post traumatic stress disorder couples: A psychoeducational program</a></p>
+		<p>DOI: 10.1007/bf00752422</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;27, issue&nbsp;3 (1991)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752422" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752422">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752422">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752422">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul Anthony Ebben; David Bliss; Baron Perlman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00752423">Problems and issues in community mental health service delivery in the 1990s</a></p>
+		<p>DOI: 10.1007/bf00752423</p>	</td>
+	<td><p><a href="/scimag/journals/4776">Community Mental Health Journal</a><p>volume&nbsp;27, issue&nbsp;3 (1991)</p></td>
+	<td>275&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00752423" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00752423">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00752423">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00752423">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;999 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 160</span>
+	 <a href="/scimag/?journal=4776&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

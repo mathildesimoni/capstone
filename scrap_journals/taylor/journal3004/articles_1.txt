@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/3004">Bird Study</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Taylor and Francis Group</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0006-3657</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1944-6705</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 116; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 116');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=3004&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;876 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 116</span>
+	 <a href="/scimag/?journal=3004&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Walters, J.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063658209476761">Completion of primary moult in the Black-headed Gull              <i>Larus ridibundus</i></a></p>
+		<p>DOI: 10.1080/00063658209476761</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;29, issue&nbsp;3 (1982)</p></td>
+	<td>228&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063658209476761" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063658209476761">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063658209476761">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063658209476761">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Norris, C. A.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063656009475969">The Breeding Distribution of Thirty Bird Species in 1952</a></p>
+		<p>DOI: 10.1080/00063656009475969</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;7, issue&nbsp;3 (1960)</p></td>
+	<td>2.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063656009475969" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063656009475969">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063656009475969">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063656009475969">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carss, D. N.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063659309477184">Shags              <i>Phalacrocorax aristotelis</i>              at cage fish farms in Argyll, Western Scotland</a></p>
+		<p>DOI: 10.1080/00063659309477184</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;40, issue&nbsp;3 (1993)</p></td>
+	<td>543&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063659309477184" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063659309477184">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063659309477184">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063659309477184">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Branson, N. J. B. A.; Ponting, E. D.; Minton, C. D. T.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063657809476593">Turnstone Migrations in Britain and Europe</a></p>
+		<p>DOI: 10.1080/00063657809476593</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;25, issue&nbsp;3 (1978)</p></td>
+	<td>394&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063657809476593" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063657809476593">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063657809476593">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063657809476593">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yalden, D.W.; Pearce-Higgins, J.W.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063659709461058">Density-dependence and winter weather as factors affecting the size of a population of Golden Plovers <i>Pluvialis apricaria</i></a></p>
+		<p>DOI: 10.1080/00063659709461058</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;44, issue&nbsp;2 (1997)</p></td>
+	<td>132&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063659709461058" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063659709461058">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063659709461058">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063659709461058">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Branson, N. J. B. A; Minton, C. D. T.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063657609476512">Moult, Measurements and Migrations of the Grey Plover</a></p>
+		<p>DOI: 10.1080/00063657609476512</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;23, issue&nbsp;4 (1976)</p></td>
+	<td>700&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063657609476512" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063657609476512">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063657609476512">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063657609476512">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ely, Craig R.; Fox, Anthony D.; Alisauskas, Ray T.; Andreev, Alexander; Bromley, Robert G.; Degtyarev, A.G.; Ebbinge, Barwolt; Gurtovaya, E.N.; Kerbes, Richard; Kondratyev, Alexander V.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063650509461380">Circumpolar variation in morphological characteristics of Greater White-fronted Geese <i>Anser albifrons</i>: <b>Capsule</b> Greater White-fronted Geese show significant variation in body size from sampling locations throughout their circumpolar breeding range.</a></p>
+		<p>DOI: 10.1080/00063650509461380</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;52, issue&nbsp;2 (2005)</p></td>
+	<td>479&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063650509461380" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063650509461380">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063650509461380">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063650509461380">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Aebischer, Nicholas J.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063659909477228">Multi-way comparisons and generalized linear models of nest success: extensions of the Mayfield method</a></p>
+		<p>DOI: 10.1080/00063659909477228</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;46 (1999)</p></td>
+	<td>633&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063659909477228" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063659909477228">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063659909477228">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063659909477228">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Johnson, T. H.; Green, R. E.; Hawell, J.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063658709476940">Identification of predators of wader eggs from egg remains</a></p>
+		<p>DOI: 10.1080/00063658709476940</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;34, issue&nbsp;1 (1987)</p></td>
+	<td>333&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063658709476940" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063658709476940">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063658709476940">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063658709476940">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hardy, A. R.; Minton, C. D. T.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063658009476662">Dunlin migration in Britain and Ireland</a></p>
+		<p>DOI: 10.1080/00063658009476662</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;27, issue&nbsp;2 (1980)</p></td>
+	<td>747&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063658009476662" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063658009476662">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063658009476662">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063658009476662">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wilson, </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063658109476695">The migration of High Arctic shorebirds through Iceland</a></p>
+		<p>DOI: 10.1080/00063658109476695</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;28, issue&nbsp;1 (1981)</p></td>
+	<td>629&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063658109476695" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063658109476695">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063658109476695">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063658109476695">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ockendon, Nancy; Hewson, Chris M.; Johnston, Alison; Atkinson, Philip W.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063657.2011.645798">Declines in British-breeding populations of Afro-Palaearctic migrant birds are linked to bioclimatic wintering zone in Africa, possibly via constraints on arrival time advancement</a></p>
+		<p>DOI: 10.1080/00063657.2011.645798</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;59, issue&nbsp;2 (2012)</p></td>
+	<td>362&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063657.2011.645798" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063657.2011.645798">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063657.2011.645798">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063657.2011.645798">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Neubauer, Grzegorz; Zieliński, Piotr; Wojciechowski, Zbigniew; Buszkiewicz, Elżbieta; Siekiera, Joachim; Siekiera, Artur</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063657.2012.657155">Leaving on migration: estimating departure dates of Barn Swallows <i>Hirundo rustica</i> from summer roosts using a capture–mark–recapture approach</a></p>
+		<p>DOI: 10.1080/00063657.2012.657155</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;59, issue&nbsp;2 (2012)</p></td>
+	<td>349&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063657.2012.657155" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063657.2012.657155">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063657.2012.657155">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063657.2012.657155">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Copland, Alex S.; Crowe, Olivia; Wilson, Mark W.; O&#039;Halloran, John</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063657.2011.652593">Habitat associations of Eurasian Skylarks <i>Alauda arvensis</i> breeding on Irish farmland and implications for agri-environment planning</a></p>
+		<p>DOI: 10.1080/00063657.2011.652593</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;59, issue&nbsp;2 (2012)</p></td>
+	<td>364&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063657.2011.652593" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063657.2011.652593">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063657.2011.652593">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063657.2011.652593">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Moksnes, Arne; R⊘skaft, Eivin; Antonov, Anton; Stokke, Bård G.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063650809461527">Unusually high losses to nest collapse in Black-headed Buntings <i>Emberiza melanocephala</i> nesting on a preferred plant species: <b>Capsule</b> Birds select Cotton Thistles as a nesting substrate but these plants provide an unstable support.</a></p>
+		<p>DOI: 10.1080/00063650809461527</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;55, issue&nbsp;2 (2008)</p></td>
+	<td>79&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063650809461527" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063650809461527">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063650809461527">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063650809461527">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Meek, William R.; Burman, Peter J.; Sparks, Tim H.; Nowakowski, Marek; Burman, Niall J.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063657.2012.656076">The use of Barn Owl <i>Tyto alba</i> pellets to assess population change in small mammals</a></p>
+		<p>DOI: 10.1080/00063657.2012.656076</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;59, issue&nbsp;2 (2012)</p></td>
+	<td>233&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063657.2012.656076" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063657.2012.656076">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063657.2012.656076">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063657.2012.656076">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Spaans, Bernard; Van Kooten, Laurens; Cremer, Jenny; Leyrer, Jutta; Piersma, Theunis</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063657.2011.566601">Densities of individually marked migrants away from the marking site to estimate population sizes: a test with three wader populations</a></p>
+		<p>DOI: 10.1080/00063657.2011.566601</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;58, issue&nbsp;2 (2011)</p></td>
+	<td>358&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063657.2011.566601" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063657.2011.566601">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063657.2011.566601">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063657.2011.566601">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Walters, J.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063658009476665">Onset Of Moult In Avocets</a></p>
+		<p>DOI: 10.1080/00063658009476665</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;27, issue&nbsp;2 (1980)</p></td>
+	<td>100&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063658009476665" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063658009476665">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063658009476665">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063658009476665">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Porkert, Jiří; Hromádko, Miloslav </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063657.2012.683987">A record of breeding–moulting overlap in the Common Redstart              <i>Phoenicurus phoenicurus</i></a></p>
+		<p>DOI: 10.1080/00063657.2012.683987</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;59, issue&nbsp;3 (2012)</p></td>
+	<td>182&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063657.2012.683987" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063657.2012.683987">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063657.2012.683987">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063657.2012.683987">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Swann, Robert L.; Baillie, Stephen R.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063657909476617">The suspension of moult by trans-Saharan migrants in Crete</a></p>
+		<p>DOI: 10.1080/00063657909476617</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;26, issue&nbsp;1 (1979)</p></td>
+	<td>266&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063657909476617" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063657909476617">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063657909476617">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063657909476617">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Di Vittorio, Massimiliano; Sarà, Maurizio; López-López, Pascual</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063657.2012.656577">Habitat preferences of Bonelli's Eagles <i>Aquila fasciata</i> in Sicily</a></p>
+		<p>DOI: 10.1080/00063657.2012.656577</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;59, issue&nbsp;2 (2012)</p></td>
+	<td>292&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063657.2012.656577" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063657.2012.656577">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063657.2012.656577">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063657.2012.656577">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bravo, Carolina; Ponce, Carlos; Palacín, Carlos; Carlos Alonso, Juan</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063657.2012.662940">Diet of young Great Bustards <i>Otis tarda</i> in Spain: sexual and seasonal differences</a></p>
+		<p>DOI: 10.1080/00063657.2012.662940</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;59, issue&nbsp;2 (2012)</p></td>
+	<td>254&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063657.2012.662940" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063657.2012.662940">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063657.2012.662940">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063657.2012.662940">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>García-Navas, Vicente; Ferrer, Esperanza S.; Sanz, Juan José</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063657.2012.662939">Prey selectivity and parental feeding rates of Blue Tits <i>Cyanistes caeruleus</i> in relation to nestling age</a></p>
+		<p>DOI: 10.1080/00063657.2012.662939</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;59, issue&nbsp;2 (2012)</p></td>
+	<td>166&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063657.2012.662939" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063657.2012.662939">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063657.2012.662939">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063657.2012.662939">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bosè, Michela; Duriez, Olivier; Sarrazin, François</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063657.2012.658639">Intra-specific competition in foraging Griffon Vultures <i>Gyps fulvus</i>: 1. Dynamics of group feeding</a></p>
+		<p>DOI: 10.1080/00063657.2012.658639</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;59, issue&nbsp;2 (2012)</p></td>
+	<td>403&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063657.2012.658639" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063657.2012.658639">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063657.2012.658639">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063657.2012.658639">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dobson, Andrew D.M.; Clarke, Michèle; Kjellen, Nils; Clarke, Roger</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00063657.2012.664541">The size and migratory origins of the population of Hen Harriers <i>Circus cyaneus</i> wintering in England</a></p>
+		<p>DOI: 10.1080/00063657.2012.664541</p>	</td>
+	<td><p><a href="/scimag/journals/3004">Bird Study</a><p>volume&nbsp;59, issue&nbsp;2 (2012)</p></td>
+	<td>208&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00063657.2012.664541" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00063657.2012.664541">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00063657.2012.664541">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00063657.2012.664541">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;876 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 116</span>
+	 <a href="/scimag/?journal=3004&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

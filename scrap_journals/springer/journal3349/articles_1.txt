@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/3349">BT Technology Journal</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1358-3948</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-1995</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 37; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 37');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=3349&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">921 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 37</span>
+	 <a href="/scimag/?journal=3349&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Aaron McCormack</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0001-x">Foreword</a></p>
+		<p>DOI: 10.1007/s10550-005-0001-x</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>44&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0001-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0001-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0001-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0001-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Steve Rudkin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0002-9">Editorial</a></p>
+		<p>DOI: 10.1007/s10550-005-0002-9</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>63&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0002-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0002-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0002-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0002-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. J. Willis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0003-8">An introduction to quality of service</a></p>
+		<p>DOI: 10.1007/s10550-005-0003-8</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>751&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0003-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0003-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0003-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0003-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Morrison</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0004-7">QoS for applications</a></p>
+		<p>DOI: 10.1007/s10550-005-0004-7</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>222&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0004-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0004-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0004-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0004-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Hunt; P. Arden</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0005-6">QoS requirements for a voice-over-IP PSTN</a></p>
+		<p>DOI: 10.1007/s10550-005-0005-6</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>153&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0005-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0005-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0005-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0005-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Mustill; P. J. Willis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0006-5">Delivering QoS in the next generation network — a standards perspective</a></p>
+		<p>DOI: 10.1007/s10550-005-0006-5</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>155&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0006-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0006-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0006-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0006-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. F. Carter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0007-4">Quality of service in BT’s MPLS-VPN platform</a></p>
+		<p>DOI: 10.1007/s10550-005-0007-4</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>220&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0007-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0007-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0007-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0007-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Dann; J. Gillam; D. Thornhill</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0008-3">The applications-assured infrastructure</a></p>
+		<p>DOI: 10.1007/s10550-005-0008-3</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0008-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0008-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0008-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0008-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. M. Johnson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0009-2">QoS control versus generous dimensioning</a></p>
+		<p>DOI: 10.1007/s10550-005-0009-2</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>225&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0009-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0009-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0009-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0009-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. B. D. Reid</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0010-9">Economics and scalability of QoS solutions</a></p>
+		<p>DOI: 10.1007/s10550-005-0010-9</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>344&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0010-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0010-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0010-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0010-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. A. Clark; J. McDonald</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0011-8">An introduction to policy management</a></p>
+		<p>DOI: 10.1007/s10550-005-0011-8</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>945&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0011-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0011-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0011-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0011-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Cuevas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0012-7">Admission control and resource reservation for session-based applications in next generation networks</a></p>
+		<p>DOI: 10.1007/s10550-005-0012-7</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>544&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0012-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0012-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0012-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0012-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Galbraith; J. Turnbull; R. Dearnaley; J. Hart; K. Nolde</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0013-6">Do we need quality of service in the customer environment?</a></p>
+		<p>DOI: 10.1007/s10550-005-0013-6</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>603&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0013-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0013-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0013-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0013-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Hovell; R. Briscoe; G. Corliano</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0014-5">Guaranteed QoS synthesis — an example of a scalable core IP quality of service solution</a></p>
+		<p>DOI: 10.1007/s10550-005-0014-5</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>362&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0014-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0014-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0014-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0014-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Briscoe; S. Rudkin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0015-4">Commercial models for IP quality of service interconnect</a></p>
+		<p>DOI: 10.1007/s10550-005-0015-4</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>614&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0015-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0015-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0015-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0015-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A.-L. Burness</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0016-3">Mobility, wireless and QoS</a></p>
+		<p>DOI: 10.1007/s10550-005-0016-3</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>443&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0016-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0016-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0016-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0016-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Hands; A. Bourret; D. Bayart</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0017-2">Video QoS enhancement using perceptual quality metrics</a></p>
+		<p>DOI: 10.1007/s10550-005-0017-2</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>188&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0017-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0017-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0017-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0017-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. L. Adams; L. G. Roberts; A. IJsselmuiden</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0018-1">Changing the Internet to support real-time content supply from a large fraction of broadband residential users</a></p>
+		<p>DOI: 10.1007/s10550-005-0018-1</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>235&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0018-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0018-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0018-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0018-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Saffre; C. Hoile; M. Shackleton</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0019-0">Bandwidth management for the people</a></p>
+		<p>DOI: 10.1007/s10550-005-0019-0</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>328&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0019-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0019-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0019-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0019-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0020-7">List of acronyms</a></p>
+		<p>DOI: 10.1007/s10550-005-0020-7</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>63&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0020-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0020-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0020-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0020-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. D. Sergiadis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0021-6">High quality cellular communications at the Athens 2004 Olympic Games</a></p>
+		<p>DOI: 10.1007/s10550-005-0021-6</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>1017&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0021-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0021-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0021-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0021-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Gifford; N. Edwards</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0022-5">Trial of dynamic signature verification for a real-world identification solution</a></p>
+		<p>DOI: 10.1007/s10550-005-0022-5</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>251&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0022-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0022-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0022-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0022-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0023-4">Recent BT patents</a></p>
+		<p>DOI: 10.1007/s10550-005-0023-4</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;2 (2005)</p></td>
+	<td>54&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0023-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0023-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0023-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0023-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sinclair Stockman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0024-3">Foreword</a></p>
+		<p>DOI: 10.1007/s10550-005-0024-3</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;3 (2005)</p></td>
+	<td>40&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0024-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0024-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0024-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0024-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jonathan Legh-Smith; David Griffiths; John Davies</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10550-005-0025-2">Editorial</a></p>
+		<p>DOI: 10.1007/s10550-005-0025-2</p>	</td>
+	<td><p><a href="/scimag/journals/3349">BT Technology Journal</a><p>volume&nbsp;23, issue&nbsp;3 (2005)</p></td>
+	<td>74&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10550-005-0025-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10550-005-0025-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10550-005-0025-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10550-005-0025-2">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">921 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 37</span>
+	 <a href="/scimag/?journal=3349&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

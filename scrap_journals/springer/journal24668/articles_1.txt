@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/24668">Theory and Decision</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer US</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0040-5833</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-7187</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 80; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 80');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=24668&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;994 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 80</span>
+	 <a href="/scimag/?journal=24668&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>C. L. Sheng</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125654">A note on interpersonal comparisons of utility</a></p>
+		<p>DOI: 10.1007/bf00125654</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;22, issue&nbsp;1 (1987)</p></td>
+	<td>403&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125654" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125654">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125654">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125654">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Amnon Rapoport</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125655">Comparison of theories for payoff disbursement of coalition values</a></p>
+		<p>DOI: 10.1007/bf00125655</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;22, issue&nbsp;1 (1987)</p></td>
+	<td>1.56&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125655" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125655">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125655">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125655">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Domingo Castelo Joaquin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125656">The fundamental uncertainty principle and the principle of non-additive emotional states</a></p>
+		<p>DOI: 10.1007/bf00125656</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;22, issue&nbsp;1 (1987)</p></td>
+	<td>1001&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125656" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125656">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125656">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125656">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dennis J. Packard</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125657">Difference logics for preference</a></p>
+		<p>DOI: 10.1007/bf00125657</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;22, issue&nbsp;1 (1987)</p></td>
+	<td>269&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125657" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125657">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125657">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125657">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Ambarish; J. G. Kallberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125658">Multivariate risk premiums</a></p>
+		<p>DOI: 10.1007/bf00125658</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;22, issue&nbsp;1 (1987)</p></td>
+	<td>731&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125658" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125658">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125658">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125658">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125659">Announcement</a></p>
+		<p>DOI: 10.1007/bf00125659</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;22, issue&nbsp;1 (1987)</p></td>
+	<td>34&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125659" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125659">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125659">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125659">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lorenz Krüger; Wulf Gaertner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125669">Alternative libertarian claims and Sen's paradox</a></p>
+		<p>DOI: 10.1007/bf00125669</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;15, issue&nbsp;3 (1983)</p></td>
+	<td>856&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125669" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125669">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125669">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125669">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Johan K. Vree</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125670">The behavioral function: An inquiry into the relation between behavior and utility</a></p>
+		<p>DOI: 10.1007/bf00125670</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;15, issue&nbsp;3 (1983)</p></td>
+	<td>678&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125670" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125670">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125670">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125670">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Louis Narens; R. Duncan Luce</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125671">How we may have been misled into believing in the interpersonal comparability of utility</a></p>
+		<p>DOI: 10.1007/bf00125671</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;15, issue&nbsp;3 (1983)</p></td>
+	<td>665&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125671" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125671">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125671">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125671">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bernard Grofman; Guillermo Owen; Scott L. Feld</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125672">Thirteen theorems in search of the truth</a></p>
+		<p>DOI: 10.1007/bf00125672</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;15, issue&nbsp;3 (1983)</p></td>
+	<td>802&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125672" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125672">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125672">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125672">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Steven J. Brams; Marek P. Hessel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125673">Staying power in sequential games</a></p>
+		<p>DOI: 10.1007/bf00125673</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;15, issue&nbsp;3 (1983)</p></td>
+	<td>1.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125673" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125673">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125673">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125673">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carl Wagner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125674">Anscombe's paradox and the rule of three-fourths</a></p>
+		<p>DOI: 10.1007/bf00125674</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;15, issue&nbsp;3 (1983)</p></td>
+	<td>224&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125674" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125674">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125674">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125674">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. S. Sengupta</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125874">Lattices, bargaining and group decisions</a></p>
+		<p>DOI: 10.1007/bf00125874</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;16, issue&nbsp;2 (1984)</p></td>
+	<td>919&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125874" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125874">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125874">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125874">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Marc Kilgour</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125875">Equilibria for far-sighted players</a></p>
+		<p>DOI: 10.1007/bf00125875</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;16, issue&nbsp;2 (1984)</p></td>
+	<td>901&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125875" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125875">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125875">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125875">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. A. Hooker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125876">Can egalitarianism be built into rationality theory?</a></p>
+		<p>DOI: 10.1007/bf00125876</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;16, issue&nbsp;2 (1984)</p></td>
+	<td>1009&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125876" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125876">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125876">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125876">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anthony N. S. Freeling</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125877">A philosophical basis for decision aiding</a></p>
+		<p>DOI: 10.1007/bf00125877</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;16, issue&nbsp;2 (1984)</p></td>
+	<td>1.31&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125877" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125877">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125877">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125877">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125878">Announcement</a></p>
+		<p>DOI: 10.1007/bf00125878</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;16, issue&nbsp;2 (1984)</p></td>
+	<td>41&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125878" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125878">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125878">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125878">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ian I. Mitroff; Richard O. Mason</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00126172">On the structure of dialectical reasoning in the social and policy sciences</a></p>
+		<p>DOI: 10.1007/bf00126172</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;14, issue&nbsp;4 (1982)</p></td>
+	<td>794&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00126172" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00126172">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00126172">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00126172">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Craven</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00126173">Liberalism and individual preferences</a></p>
+		<p>DOI: 10.1007/bf00126173</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;14, issue&nbsp;4 (1982)</p></td>
+	<td>445&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00126173" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00126173">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00126173">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00126173">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. M. Fogarty</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00126174">A limited possibility result for social choice under majority voting</a></p>
+		<p>DOI: 10.1007/bf00126174</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;14, issue&nbsp;4 (1982)</p></td>
+	<td>437&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00126174" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00126174">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00126174">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00126174">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter J. Dolton</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00126175">The ‘Marriage Game’: An assignment problem with indivisibilities</a></p>
+		<p>DOI: 10.1007/bf00126175</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;14, issue&nbsp;4 (1982)</p></td>
+	<td>639&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00126175" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00126175">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00126175">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00126175">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Reinhard H. Schmidt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00126176">Methodology and finance</a></p>
+		<p>DOI: 10.1007/bf00126176</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;14, issue&nbsp;4 (1982)</p></td>
+	<td>1.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00126176" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00126176">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00126176">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00126176">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dennis J. Packard</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00126177">Cyclical preference logic</a></p>
+		<p>DOI: 10.1007/bf00126177</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;14, issue&nbsp;4 (1982)</p></td>
+	<td>491&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00126177" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00126177">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00126177">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00126177">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Schmid</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00126178">Prof. Opp on evolution - Some critical comments</a></p>
+		<p>DOI: 10.1007/bf00126178</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;14, issue&nbsp;4 (1982)</p></td>
+	<td>424&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00126178" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00126178">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00126178">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00126178">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Achinstein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00126280">Can there be a model of explanation?</a></p>
+		<p>DOI: 10.1007/bf00126280</p>	</td>
+	<td><p><a href="/scimag/journals/24668">Theory and Decision</a><p>volume&nbsp;13, issue&nbsp;3 (1981)</p></td>
+	<td>1.24&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00126280" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00126280">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00126280">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00126280">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;994 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 80</span>
+	 <a href="/scimag/?journal=24668&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

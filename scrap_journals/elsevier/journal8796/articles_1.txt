@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/8796">History of European Ideas</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Elsevier Science</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0191-6599</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1873-541X</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 176; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 176');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=8796&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;377 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 176</span>
+	 <a href="/scimag/?journal=8796&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Ian Hunter</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.histeuroideas.2008.11.002">Spirituality and philosophy in post-structuralist theory</a></p>
+		<p>DOI: 10.1016/j.histeuroideas.2008.11.002</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;35, issue&nbsp;2 (2009)</p></td>
+	<td>178&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.histeuroideas.2008.11.002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.histeuroideas.2008.11.002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.histeuroideas.2008.11.002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.histeuroideas.2008.11.002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Melissa Lane</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0191-6599%2802%2900005-0">Why history of ideas at all?</a></p>
+		<p>DOI: 10.1016/s0191-6599(02)00005-0</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;28, issue&nbsp;1-2 (2002)</p></td>
+	<td>120&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0191-6599%2802%2900005-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0191-6599%2802%2900005-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0191-6599%2802%2900005-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0191-6599%2802%2900005-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E.F. Biagini</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0191-6599%2802%2900083-9">Neo-roman liberalism: “republican” values and British liberalism, ca. 1860–1875</a></p>
+		<p>DOI: 10.1016/s0191-6599(02)00083-9</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;29, issue&nbsp;1 (2003)</p></td>
+	<td>187&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0191-6599%2802%2900083-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0191-6599%2802%2900083-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0191-6599%2802%2900083-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0191-6599%2802%2900083-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Niklas Olsen</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.histeuroideas.2010.11.012">Carl Schmitt, Reinhart Koselleck and the foundations of history and politics</a></p>
+		<p>DOI: 10.1016/j.histeuroideas.2010.11.012</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;37, issue&nbsp;2 (2011)</p></td>
+	<td>231&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.histeuroideas.2010.11.012" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.histeuroideas.2010.11.012">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.histeuroideas.2010.11.012">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.histeuroideas.2010.11.012">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Laurent Stern</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0191-6599%2887%2990201-4">Reconstructing aesthetics: A. Heller and F. Fehér, eds. (Oxford: Basil Blackwell, 1986), 255 pp., cloth, £22.50</a></p>
+		<p>DOI: 10.1016/0191-6599(87)90201-4</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;8, issue&nbsp;6 (1987)</p></td>
+	<td>355&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0191-6599%2887%2990201-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0191-6599%2887%2990201-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0191-6599%2887%2990201-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0191-6599%2887%2990201-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lea Campos Boralevi</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.histeuroideas.2011.01.003">James Harrington's ‘Machiavellian’ anti-Machiavellism</a></p>
+		<p>DOI: 10.1016/j.histeuroideas.2011.01.003</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;37, issue&nbsp;2 (2011)</p></td>
+	<td>272&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.histeuroideas.2011.01.003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.histeuroideas.2011.01.003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.histeuroideas.2011.01.003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.histeuroideas.2011.01.003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hammersley, Rachel</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01916599.2012.703458">Rethinking the Political Thought of James Harrington: Royalism, Republicanism and Democracy</a></p>
+		<p>DOI: 10.1080/01916599.2012.703458</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p> (2012)</p></td>
+	<td>162&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01916599.2012.703458" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01916599.2012.703458">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01916599.2012.703458">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01916599.2012.703458">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hammersley, Rachel</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01916599.2011.646636">English Republicanism and the French Revolution</a></p>
+		<p>DOI: 10.1080/01916599.2011.646636</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;38, issue&nbsp;2 (2012)</p></td>
+	<td>74&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01916599.2011.646636" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01916599.2011.646636">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01916599.2011.646636">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01916599.2011.646636">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hammersley, Rachel</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01916599.2012.674837">Introduction: The Historiography of Republicanism and Republican Exchanges</a></p>
+		<p>DOI: 10.1080/01916599.2012.674837</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;38, issue&nbsp;3 (2012)</p></td>
+	<td>150&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01916599.2012.674837" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01916599.2012.674837">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01916599.2012.674837">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01916599.2012.674837">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul A. Rahe</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.histeuroideas.2011.01.007">Montesquieu's anti-Machiavellian Machiavellianism</a></p>
+		<p>DOI: 10.1016/j.histeuroideas.2011.01.007</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;37, issue&nbsp;2 (2011)</p></td>
+	<td>217&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.histeuroideas.2011.01.007" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.histeuroideas.2011.01.007">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.histeuroideas.2011.01.007">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.histeuroideas.2011.01.007">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joshua Derman; Susan Longfield Karr</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.histeuroideas.2010.11.005">Carl Schmitt, humanity and rights: Early modern readings, contemporary appraisals</a></p>
+		<p>DOI: 10.1016/j.histeuroideas.2010.11.005</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;37, issue&nbsp;2 (2011)</p></td>
+	<td>97&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.histeuroideas.2010.11.005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.histeuroideas.2010.11.005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.histeuroideas.2010.11.005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.histeuroideas.2010.11.005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Timothy Stanton</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.histeuroideas.2010.11.007">Hobbes and Schmitt</a></p>
+		<p>DOI: 10.1016/j.histeuroideas.2010.11.007</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;37, issue&nbsp;2 (2011)</p></td>
+	<td>197&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.histeuroideas.2010.11.007" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.histeuroideas.2010.11.007">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.histeuroideas.2010.11.007">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.histeuroideas.2010.11.007">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martine Julia van Ittersum</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.histeuroideas.2010.05.003">The long goodbye: Hugo Grotius’ justification of Dutch expansion overseas, 1615–1645</a></p>
+		<p>DOI: 10.1016/j.histeuroideas.2010.05.003</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;36, issue&nbsp;4 (2010)</p></td>
+	<td>893&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.histeuroideas.2010.05.003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.histeuroideas.2010.05.003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.histeuroideas.2010.05.003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.histeuroideas.2010.05.003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J.G.A. Pocock</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.histeuroideas.2010.09.002">Historiography as a form of political thought</a></p>
+		<p>DOI: 10.1016/j.histeuroideas.2010.09.002</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;37, issue&nbsp;1 (2011)</p></td>
+	<td>123&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.histeuroideas.2010.09.002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.histeuroideas.2010.09.002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.histeuroideas.2010.09.002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.histeuroideas.2010.09.002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Ghosh</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.histeuroideas.2010.12.006">Hugh Trevor-Roper and the history of ideas</a></p>
+		<p>DOI: 10.1016/j.histeuroideas.2010.12.006</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;37, issue&nbsp;4 (2011)</p></td>
+	<td>490&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.histeuroideas.2010.12.006" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.histeuroideas.2010.12.006">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.histeuroideas.2010.12.006">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.histeuroideas.2010.12.006">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Filimon Peonidis</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.histeuroideas.2011.03.002">Jeremy Bentham's ‘unusually liberal’ representative democracy</a></p>
+		<p>DOI: 10.1016/j.histeuroideas.2011.03.002</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;37, issue&nbsp;4 (2011)</p></td>
+	<td>203&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.histeuroideas.2011.03.002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.histeuroideas.2011.03.002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.histeuroideas.2011.03.002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.histeuroideas.2011.03.002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Simmons, Dana</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01916599.2011.646673">The Weight of the              <i>Moment</i>              : J. G. A. Pocock's Politics of History</a></p>
+		<p>DOI: 10.1080/01916599.2011.646673</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;38, issue&nbsp;2 (2012)</p></td>
+	<td>175&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01916599.2011.646673" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01916599.2011.646673">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01916599.2011.646673">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01916599.2011.646673">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ioannis D. Evrigenis; Mark Somos</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.histeuroideas.2011.01.002">Wrestling with Machiavelli</a></p>
+		<p>DOI: 10.1016/j.histeuroideas.2011.01.002</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;37, issue&nbsp;2 (2011)</p></td>
+	<td>209&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.histeuroideas.2011.01.002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.histeuroideas.2011.01.002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.histeuroideas.2011.01.002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.histeuroideas.2011.01.002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Maurer, Christian; Jaffro, Laurent </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01916599.2012.679795">PART I: Reading Shaftesbury's              <i>Pathologia</i>              : An Illustration and Defence of the Stoic Account of the Emotions</a></p>
+		<p>DOI: 10.1080/01916599.2012.679795</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p> (2012)</p></td>
+	<td>272&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01916599.2012.679795" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01916599.2012.679795">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01916599.2012.679795">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01916599.2012.679795">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Spector, Céline</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F01916599.2012.714631">Who is the Author of the              <i>Abstract of Monsieur l'Abbé de Saint-Pierre's ‘Plan for Perpetual Peace’</i>              ? From Saint-Pierre to Rousseau</a></p>
+		<p>DOI: 10.1080/01916599.2012.714631</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p> (2012)</p></td>
+	<td>197&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F01916599.2012.714631" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/01916599.2012.714631">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/01916599.2012.714631">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/01916599.2012.714631">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patrick Bullard</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.histeuroideas.2003.11.016">Parliamentary rhetoric, enlightenment and the politics of secrecy: the printers’ crisis of March 1771</a></p>
+		<p>DOI: 10.1016/j.histeuroideas.2003.11.016</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;31, issue&nbsp;2 (2005)</p></td>
+	<td>237&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.histeuroideas.2003.11.016" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.histeuroideas.2003.11.016">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.histeuroideas.2003.11.016">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.histeuroideas.2003.11.016">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lee C. Rice</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0191-6599%2894%2900071-9">Spinoza's infinite extension</a></p>
+		<p>DOI: 10.1016/0191-6599(94)00071-9</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;22, issue&nbsp;1 (1996)</p></td>
+	<td>753&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0191-6599%2894%2900071-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0191-6599%2894%2900071-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0191-6599%2894%2900071-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0191-6599%2894%2900071-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Henry Frendo</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0191-6599%2894%2900111-r">Britain's European Mediterranean: Language, religion and politics in Lord Strickland's Malta (1927–1930)</a></p>
+		<p>DOI: 10.1016/0191-6599(94)00111-r</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;21, issue&nbsp;1 (1995)</p></td>
+	<td>1.18&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0191-6599%2894%2900111-r" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0191-6599%2894%2900111-r">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0191-6599%2894%2900111-r">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0191-6599%2894%2900111-r">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bernard Zelechow</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0191-6599%2894%2900128-3">Neo-Baroque: A sign of the times: Omar Calabrese (Princeton University Press, 1992), 227 pp. $15.00 cloth</a></p>
+		<p>DOI: 10.1016/0191-6599(94)00128-3</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;21, issue&nbsp;2 (1995)</p></td>
+	<td>662&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0191-6599%2894%2900128-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0191-6599%2894%2900128-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0191-6599%2894%2900128-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0191-6599%2894%2900128-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sascha Talmor</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0191-6599%2894%2900167-e">Le fou du tzar—A nail in the body of the empire</a></p>
+		<p>DOI: 10.1016/0191-6599(94)00167-e</p>	</td>
+	<td><p><a href="/scimag/journals/8796">History of European Ideas</a><p>volume&nbsp;21, issue&nbsp;4 (1995)</p></td>
+	<td>992&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0191-6599%2894%2900167-e" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0191-6599%2894%2900167-e">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0191-6599%2894%2900167-e">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0191-6599%2894%2900167-e">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;377 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 176</span>
+	 <a href="/scimag/?journal=8796&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

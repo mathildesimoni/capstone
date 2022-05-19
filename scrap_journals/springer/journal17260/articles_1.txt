@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/17260">Memetic Computing</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1865-9284</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1865-9292</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 13; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 13');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=17260&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">311 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 13</span>
+	 <a href="/scimag/?journal=17260&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>G. Gutin; D. Karapetyan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-008-0001-8">A selection of useful theoretical tools for the design and analysis of optimization heuristics</a></p>
+		<p>DOI: 10.1007/s12293-008-0001-8</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;1 (2009)</p></td>
+	<td>290&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-008-0001-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-008-0001-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-008-0001-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-008-0001-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Roberto Santana; Pedro Larrañaga; Jose A. Lozano</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-008-0002-7">Research topics in discrete estimation of distribution algorithms based on factorizations</a></p>
+		<p>DOI: 10.1007/s12293-008-0002-7</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;1 (2009)</p></td>
+	<td>395&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-008-0002-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-008-0002-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-008-0002-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-008-0002-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xin Yu; Ke Tang; Tianshi Chen; Xin Yao</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-008-0003-6">Empirical analysis of evolutionary algorithms with immigrants schemes for dynamic optimization</a></p>
+		<p>DOI: 10.1007/s12293-008-0003-6</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;1 (2009)</p></td>
+	<td>1.51&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-008-0003-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-008-0003-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-008-0003-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-008-0003-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. M. Kamrul Hasan; Ruhul Sarker; Daryl Essam; David Cornforth</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-008-0004-5">Memetic algorithms for solving job-shop scheduling problems</a></p>
+		<p>DOI: 10.1007/s12293-008-0004-5</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;1 (2009)</p></td>
+	<td>521&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-008-0004-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-008-0004-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-008-0004-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-008-0004-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jaume Bacardit; Edmund K. Burke; Natalio Krasnogor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-008-0005-4">Improving the scalability of rule-based evolutionary learning</a></p>
+		<p>DOI: 10.1007/s12293-008-0005-4</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;1 (2009)</p></td>
+	<td>506&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-008-0005-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-008-0005-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-008-0005-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-008-0005-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas Fischer; Kerstin Bauer; Peter Merz; Kerstin Bauer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-008-0006-3">Solving the routing and wavelength assignment problem with a multilevel distributed memetic algorithm</a></p>
+		<p>DOI: 10.1007/s12293-008-0006-3</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;2 (2009)</p></td>
+	<td>835&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-008-0006-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-008-0006-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-008-0006-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-008-0006-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Meng-Hiot Lim; Steven Gustafson; Natalio Krasnogor; Yew-Soon Ong</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-009-0007-x">Editorial to the first issue</a></p>
+		<p>DOI: 10.1007/s12293-009-0007-x</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;1 (2009)</p></td>
+	<td>55&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-009-0007-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-009-0007-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-009-0007-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-009-0007-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ferrante Neri; Ville Tirronen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-009-0008-9">Scale factor local search in differential evolution</a></p>
+		<p>DOI: 10.1007/s12293-009-0008-9</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;2 (2009)</p></td>
+	<td>1.65&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-009-0008-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-009-0008-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-009-0008-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-009-0008-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James M. Whitacre; Ruhul A. Sarker; Q. Tuan Pham</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-009-0009-8">Making and breaking power laws in evolutionary algorithm population dynamics</a></p>
+		<p>DOI: 10.1007/s12293-009-0009-8</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;2 (2009)</p></td>
+	<td>708&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-009-0009-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-009-0009-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-009-0009-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-009-0009-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Claus Aranha; Hitoshi Iba</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-009-0010-2">The Memetic Tree-based Genetic Algorithm and its application to Portfolio Optimization</a></p>
+		<p>DOI: 10.1007/s12293-009-0010-2</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;2 (2009)</p></td>
+	<td>446&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-009-0010-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-009-0010-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-009-0010-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-009-0010-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ryan Meuth; Meng-Hiot Lim; Yew-Soon Ong; Donald C. Wunsch</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-009-0011-1">A proposition on memes and meta-memes in computing for higher-order learning</a></p>
+		<p>DOI: 10.1007/s12293-009-0011-1</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;2 (2009)</p></td>
+	<td>861&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-009-0011-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-009-0011-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-009-0011-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-009-0011-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yu Wang; Bin Li</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-009-0012-0">Multi-strategy ensemble evolutionary algorithm for dynamic multi-objective optimization</a></p>
+		<p>DOI: 10.1007/s12293-009-0012-0</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;2, issue&nbsp;1 (2010)</p></td>
+	<td>1.56&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-009-0012-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-009-0012-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-009-0012-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-009-0012-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chuan-Kang Ting; Cheng-Feng Ko; Chih-Hui Huang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-009-0013-z">Selecting survivors in genetic algorithm using tabu search strategies</a></p>
+		<p>DOI: 10.1007/s12293-009-0013-z</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;3 (2009)</p></td>
+	<td>898&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-009-0013-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-009-0013-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-009-0013-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-009-0013-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kazuya Morikawa; Seiichi Ozawa; Shigeo Abe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-009-0014-y">Tuning membership functions of kernel fuzzy classifiers by maximizing margins</a></p>
+		<p>DOI: 10.1007/s12293-009-0014-y</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;3 (2009)</p></td>
+	<td>179&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-009-0014-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-009-0014-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-009-0014-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-009-0014-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pitoyo Hartono; Sachiko Kakita</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-009-0015-x">Fast reinforcement learning for simple physical robots</a></p>
+		<p>DOI: 10.1007/s12293-009-0015-x</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;4 (2009)</p></td>
+	<td>551&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-009-0015-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-009-0015-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-009-0015-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-009-0015-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Minh Nghia Le; Yew-Soon Ong; Yaochu Jin; Bernhard Sendhoff</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-009-0016-9">Lamarckian memetic algorithms: local optimum and connectivity structure analysis</a></p>
+		<p>DOI: 10.1007/s12293-009-0016-9</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;3 (2009)</p></td>
+	<td>851&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-009-0016-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-009-0016-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-009-0016-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-009-0016-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Petr Kadlec; Bogdan Gabrys</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-009-0017-8">Architecture for development of adaptive on-line prediction models</a></p>
+		<p>DOI: 10.1007/s12293-009-0017-8</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;4 (2009)</p></td>
+	<td>1.92&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-009-0017-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-009-0017-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-009-0017-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-009-0017-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Koichiro Yamauchi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-009-0018-7">Optimal incremental learning under covariate shift</a></p>
+		<p>DOI: 10.1007/s12293-009-0018-7</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;4 (2009)</p></td>
+	<td>348&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-009-0018-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-009-0018-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-009-0018-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-009-0018-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Malay Bhattacharyya; Sanghamitra Bandyopadhyay</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-009-0019-6">Solving maximum fuzzy clique problem with neural networks and its applications</a></p>
+		<p>DOI: 10.1007/s12293-009-0019-6</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;4 (2009)</p></td>
+	<td>608&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-009-0019-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-009-0019-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-009-0019-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-009-0019-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Heikki Ilmari Martikka; Ilkka Pöllänen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-009-0020-0">Multi-objective optimization by technical laws and heuristics</a></p>
+		<p>DOI: 10.1007/s12293-009-0020-0</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;3 (2009)</p></td>
+	<td>458&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-009-0020-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-009-0020-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-009-0020-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-009-0020-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Meng-Hiot Lim; Steven Gustafson; Natalio Krasnogor; Yew-Soon Ong</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-009-0021-z">Editorial</a></p>
+		<p>DOI: 10.1007/s12293-009-0021-z</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;3 (2009)</p></td>
+	<td>51&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-009-0021-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-009-0021-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-009-0021-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-009-0021-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mohamed Bader-El-Den; Riccardo Poli; Shaheen Fatima</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-009-0022-y">Evolving timetabling heuristics using a grammar-based genetic programming hyper-heuristic framework</a></p>
+		<p>DOI: 10.1007/s12293-009-0022-y</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;3 (2009)</p></td>
+	<td>484&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-009-0022-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-009-0022-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-009-0022-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-009-0022-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephan Kirstein; Alexander Denecke; Stephan Hasler; Heiko Wersing; Horst-Michael Gross; Edgar Körner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-009-0023-x">A vision architecture for unconstrained and incremental learning of multiple categories</a></p>
+		<p>DOI: 10.1007/s12293-009-0023-x</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;4 (2009)</p></td>
+	<td>647&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-009-0023-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-009-0023-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-009-0023-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-009-0023-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shaoning Pang; Tao Ban</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-009-0024-9">Guest editorial: Thematic issue on ‘Adaptive Soft Computing Techniques and Applications’</a></p>
+		<p>DOI: 10.1007/s12293-009-0024-9</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;1, issue&nbsp;4 (2009)</p></td>
+	<td>50&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-009-0024-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-009-0024-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-009-0024-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-009-0024-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Heesang Shin; Napoleon H. Reyes</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12293-009-0025-8">Finding near optimum colour classifiers: genetic algorithm-assisted fuzzy colour contrast fusion using variable colour depth</a></p>
+		<p>DOI: 10.1007/s12293-009-0025-8</p>	</td>
+	<td><p><a href="/scimag/journals/17260">Memetic Computing</a><p>volume&nbsp;2, issue&nbsp;3 (2010)</p></td>
+	<td>1.69&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12293-009-0025-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12293-009-0025-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12293-009-0025-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12293-009-0025-8">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">311 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 13</span>
+	 <a href="/scimag/?journal=17260&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

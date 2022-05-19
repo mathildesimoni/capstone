@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/12246">Journal of Applied Ecology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0021-8901</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1365-2664</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 370; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 370');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=12246&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">9&nbsp;226 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 370</span>
+	 <a href="/scimag/?journal=12246&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Neil McCulloch; Ken Norris</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00630.x">Diagnosing the cause of population changes: localized habitat change and the decline of the endangered St Helena wirebird</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00630.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;4 (2001)</p></td>
+	<td>680&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00630.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00630.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00630.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00630.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Geoffrey N. Tuck; Tom Polacheck; John P. Croxall; Henri Weimerskirch</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00661.x">Modelling the impact of fishery by-catches on albatross populations</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00661.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>328&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00661.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00661.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00661.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00661.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christophe Jaberg; Antoine Guisan</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00668.x">Modelling the distribution of bats in relation to landscape structure in a temperate mountain environment</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00668.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>552&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00668.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00668.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00668.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00668.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David M. Wilkinson</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00669.x">Is local provenance important in habitat creation?</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00669.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>104&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00669.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00669.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00669.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00669.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N.R. Sackville Hamilton</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00670.x">Is local provenance important in habitat creation? A reply</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00670.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>91&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00670.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00670.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00670.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00670.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas P. Sullivan; Druscilla S. Sullivan; Pontus M.F. Lindgren</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00671.x">Influence of variable retention harvests on forest ecosystems. I. Diversity of stand structure</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00671.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>839&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00671.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00671.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00671.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00671.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Karl-Olof Bergman</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00672.x">Population dynamics and the importance of habitat management for conservation of the butterfly <em>Lopinga achine</em></a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00672.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>516&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00672.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00672.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00672.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00672.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rachel J. Standish; Alastair W. Robertson;  Peter A. Williams</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00673.x">The impact of an invasive weed <em>Tradescantia fluminensis</em> on native forest regeneration</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00673.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>292&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00673.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00673.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00673.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00673.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas P. Sullivan; Druscilla S. Sullivan</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00674.x">Influence of variable retention harvests on forest ecosystems. II. Diversity and population dynamics of small mammals</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00674.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>717&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00674.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00674.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00674.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00674.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Philip Whitfield; David R.A. McLeod; Alan H. Fielding; Roger A. Broad; Richard J. Evans; Paul F. Haworth</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00675.x">The effects of forestry on golden eagles on the island of Mull, western Scotland</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00675.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>365&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00675.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00675.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00675.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00675.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Caley; Dave Ramsey</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00676.x">Estimating disease transmission in wildlife, with emphasis on leptospirosis and bovine tuberculosis in possums, and effects of fertility control</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00676.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>216&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00676.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00676.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00676.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00676.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jeffrey J. Gerwing</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00677.x">Testing liana cutting and controlled burning as silvicultural treatments for a logged forest in the eastern Amazon</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00677.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>544&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00677.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00677.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00677.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00677.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anthony P. Clevenger; Bryan Chruszcz; Kari Gunson</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00678.x">Drainage culverts as habitat linkages and factors affecting passage by mammals</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00678.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>226&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00678.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00678.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00678.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00678.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stein J. Hegland; Merijn Van Leeuwen;  J. Gerard B. Oostermeijer*</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00679.x">Population structure of <em>Salvia pratensis</em> in relation to vegetation and management of Dutch dry floodplain grasslands</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00679.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>656&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00679.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00679.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00679.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00679.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. G. O’Connor</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00680.x">Effect of small catchment dams on downstream vegetation of a seasonal river in semi-arid African savanna</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00680.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>656&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00680.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00680.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00680.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00680.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Roger W. Humphry; Martin Mortimer; Rob H. Marrs</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00681.x">The effect of plant density on the response of <em> Agrostemma githago</em> to herbicide</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00681.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>283&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00681.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00681.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00681.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00681.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ian D. Hogg; John M. Eadie; D. Dudley Williams; Dorothea Turner</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00682.x">Evaluating fluctuating asymmetry in a stream-dwelling insect as an indicator of low-level thermal stress: a large-scale field experiment</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00682.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>331&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00682.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00682.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00682.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00682.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen M. Redpath; Simon J. Thirgood; Fiona M. Leckie</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00683.x">Does supplementary feeding reduce predation of red grouse by hen harriers?</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00683.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>272&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00683.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00683.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00683.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00683.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Giacomo Tavecchia; Roger Pradel; Jean-Dominique Lebreton; Alan R. Johnson; Jean-Yves Mondain-Monval</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00684.x">The effect of lead exposure on survival of adult mallards in the Camargue, southern France</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00684.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>337&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00684.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00684.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00684.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00684.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Grant Norbury</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00685.x">Conserving dryland lizards by reducing predator-mediated apparent competition and direct competition with introduced rabbits</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00685.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>456&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00685.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00685.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00685.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00685.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00686.x">Editors’ Note</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00686.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>70&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00686.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00686.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00686.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00686.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00694.x">Editors’ Announcements</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00694.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>63&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00694.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00694.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00694.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00694.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00703.x">Erratum</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00703.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;38, issue&nbsp;6 (2001)</p></td>
+	<td>82&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00703.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00703.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00703.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00703.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. J. Ormerod; N. D. Barlow; E. J. P. Marshall; Gill Kerby</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00705.x">The uptake of applied ecology</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00705.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;39, issue&nbsp;1 (2002)</p></td>
+	<td>224&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00705.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00705.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00705.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00705.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0021-8901.2001.00708.x"><em>Journal of Applied Ecology</em>: Instructions for Authors</a></p>
+		<p>DOI: 10.1046/j.0021-8901.2001.00708.x</p>	</td>
+	<td><p><a href="/scimag/journals/12246">Journal of Applied Ecology</a><p>volume&nbsp;39, issue&nbsp;1 (2002)</p></td>
+	<td>171&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0021-8901.2001.00708.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0021-8901.2001.00708.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0021-8901.2001.00708.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0021-8901.2001.00708.x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">9&nbsp;226 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 370</span>
+	 <a href="/scimag/?journal=12246&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

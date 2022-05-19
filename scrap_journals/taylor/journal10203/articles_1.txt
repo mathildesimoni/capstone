@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Taylor and Francis Group</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0020-7160</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1029-0265</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 213; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 213');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=10203&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">5&nbsp;307 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 213</span>
+	 <a href="/scimag/?journal=10203&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Buchholz, Thomas; Klein, Andreas; Kutrib, Martin </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207169908804822">On time reduction and simulation in cellular spaces</a></p>
+		<p>DOI: 10.1080/00207169908804822</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;71, issue&nbsp;4 (1999)</p></td>
+	<td>675&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207169908804822" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207169908804822">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207169908804822">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207169908804822">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jiang, Yong; Xiao, Xiantao; Zhang, Liwei; Zhang, Jianzhong</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207160903513003">A perturbation approach for a type of inverse linear programming problems</a></p>
+		<p>DOI: 10.1080/00207160903513003</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;88, issue&nbsp;3 (2011)</p></td>
+	<td>100&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207160903513003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207160903513003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207160903513003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207160903513003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Filiz, Ali; Nesliturk, Ali; Sendur, Ali</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207160.2011.632411">A fully discrete ε-uniform method for singular perturbation problems on equidistant meshes</a></p>
+		<p>DOI: 10.1080/00207160.2011.632411</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;89, issue&nbsp;2 (2012)</p></td>
+	<td>198&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207160.2011.632411" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207160.2011.632411">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207160.2011.632411">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207160.2011.632411">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Choi, Jungmin; Gunzburger, Max</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207160902814626">Option pricing in the presence of random arbitrage return</a></p>
+		<p>DOI: 10.1080/00207160902814626</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;86, issue&nbsp;6 (2009)</p></td>
+	<td>614&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207160902814626" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207160902814626">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207160902814626">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207160902814626">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Memon, Nisar Ahmed; Gilani, S. A. M. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207161003596690">Watermarking of chest CT scan medical images for content authentication</a></p>
+		<p>DOI: 10.1080/00207161003596690</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p> (2010)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207161003596690" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207161003596690">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207161003596690">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207161003596690">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mat Deris, M.; Aznida, Z.; Saman, M. Y.; Suryani, W. A.; Zarina, M.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207160601170361">Performance modelling of asynchronous replica distribution technique on distributed database systems</a></p>
+		<p>DOI: 10.1080/00207160601170361</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;84, issue&nbsp;2 (2007)</p></td>
+	<td>170&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207160601170361" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207160601170361">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207160601170361">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207160601170361">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fellah, A.; Jürgensen, H.; Yu, S.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207169008803893">Constructions for alternating finite automata <sup>∗</sup></a></p>
+		<p>DOI: 10.1080/00207169008803893</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;35, issue&nbsp;1 (1990)</p></td>
+	<td>550&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207169008803893" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207169008803893">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207169008803893">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207169008803893">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ismail, M. S.; Alamri, S. Z. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207160410001661339">Highly accurate finite difference method for coupled nonlinear Schrödinger equation</a></p>
+		<p>DOI: 10.1080/00207160410001661339</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;81, issue&nbsp;3 (2004)</p></td>
+	<td>667&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207160410001661339" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207160410001661339">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207160410001661339">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207160410001661339">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chawla, M. M.; Evans, D. J.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207160500113082">High-accuracy finite-difference methods for the valuation of options</a></p>
+		<p>DOI: 10.1080/00207160500113082</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;82, issue&nbsp;9 (2005)</p></td>
+	<td>190&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207160500113082" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207160500113082">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207160500113082">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207160500113082">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Saib, A. A.E.F.; Tangman, D. Y.; Bhuruth, M. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207160.2012.690034">A new radial basis functions method for pricing American options under Merton's jump-diffusion model</a></p>
+		<p>DOI: 10.1080/00207160.2012.690034</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;89, issue&nbsp;9 (2012)</p></td>
+	<td>314&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207160.2012.690034" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207160.2012.690034">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207160.2012.690034">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207160.2012.690034">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Božović, Vladimir; Socek, Daniel; Steinwandt, Rainer; Villányi, Viktória I.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207160.2011.555642">Multi-authority attribute-based encryption with honest-but-curious central authority</a></p>
+		<p>DOI: 10.1080/00207160.2011.555642</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;89, issue&nbsp;3 (2012)</p></td>
+	<td>1.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207160.2011.555642" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207160.2011.555642">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207160.2011.555642">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207160.2011.555642">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sericola, B.; Parthasarathy, P. R.; Vijayashree, K. V.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207160512331329041">Exact transient solution of an <i>M</i>/<i>M</i>/1 driven fluid queue</a></p>
+		<p>DOI: 10.1080/00207160512331329041</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;82, issue&nbsp;6 (2005)</p></td>
+	<td>171&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207160512331329041" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207160512331329041">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207160512331329041">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207160512331329041">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dehghan, M.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207169908804858">Alternating direction implicit methods for two-dimensional diffusion with a non-local boundary condition</a></p>
+		<p>DOI: 10.1080/00207169908804858</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;72, issue&nbsp;3 (1999)</p></td>
+	<td>486&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207169908804858" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207169908804858">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207169908804858">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207169908804858">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sakthivel, Rathinasamy; Chun, Changbum; Bae, A-Reum</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207160802691660">A general approach to hyperbolic partial differential equations by homotopy perturbation method</a></p>
+		<p>DOI: 10.1080/00207160802691660</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;87, issue&nbsp;11 (2010)</p></td>
+	<td>76&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207160802691660" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207160802691660">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207160802691660">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207160802691660">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Batagelj, Vladimir; Pisanski, Tomaž; Sim[otilde]es-Pereira, J. M. S.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207169008803874">An algorithm for tree-realizability of distance matrices <sup>∗</sup></a></p>
+		<p>DOI: 10.1080/00207169008803874</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;34, issue&nbsp;3 (1990)</p></td>
+	<td>269&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207169008803874" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207169008803874">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207169008803874">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207169008803874">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Atici, M.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207160210954">Computational Complexity of Geodetic Set</a></p>
+		<p>DOI: 10.1080/00207160210954</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;79, issue&nbsp;5 (2002)</p></td>
+	<td>90&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207160210954" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207160210954">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207160210954">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207160210954">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mai-Duy, N.; Ho-Minh, D.; Tran-Cong, T.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207160802647365">A Galerkin approach incorporating integrated radial basis function networks for the solution of 2D biharmonic equations</a></p>
+		<p>DOI: 10.1080/00207160802647365</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;86, issue&nbsp;10 (2009)</p></td>
+	<td>610&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207160802647365" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207160802647365">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207160802647365">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207160802647365">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jódar, Lucas</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207169008803948">Computing accurate solutions for coupled systems of second order partial differential equations</a></p>
+		<p>DOI: 10.1080/00207169008803948</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;37, issue&nbsp;3-4 (1990)</p></td>
+	<td>365&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207169008803948" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207169008803948">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207169008803948">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207169008803948">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>El-Sayed, Salah M.; Ramadan, Mohamed A.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207160108805029">On the existence of a positive definite solution of the matrix equation</a></p>
+		<p>DOI: 10.1080/00207160108805029</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;76, issue&nbsp;3 (2001)</p></td>
+	<td>234&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207160108805029" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207160108805029">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207160108805029">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207160108805029">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Karasözen, B.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207169808804629">Runge-kutta methods for hamiltonian systems in non-standard symplectic two-form</a></p>
+		<p>DOI: 10.1080/00207169808804629</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;66, issue&nbsp;1 (1998)</p></td>
+	<td>366&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207169808804629" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207169808804629">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207169808804629">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207169808804629">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Inc, M.; Evans, D. J.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207160410001712314">Decomposition method for nonlinear isothermal magnetostatic atmospheres</a></p>
+		<p>DOI: 10.1080/00207160410001712314</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;82, issue&nbsp;5 (2005)</p></td>
+	<td>381&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207160410001712314" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207160410001712314">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207160410001712314">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207160410001712314">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Liu, Qiaohua; Wang, Minghui</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207160802123433">Algebraic properties and perturbation results for the indefinite least squares problem with equality constraints</a></p>
+		<p>DOI: 10.1080/00207160802123433</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;87, issue&nbsp;2 (2010)</p></td>
+	<td>115&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207160802123433" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207160802123433">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207160802123433">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207160802123433">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hussain, S.A; Sastry, V.U.K</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207169908804760">Application of genetic algorithm to stochastic single machine scheduling problem with earliness and tardiness costs</a></p>
+		<p>DOI: 10.1080/00207169908804760</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;70, issue&nbsp;3 (1999)</p></td>
+	<td>322&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207169908804760" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207169908804760">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207169908804760">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207169908804760">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wong, Yau Shu</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207168808803614">Preconditioned gradient type methods applied to nonsymmetric linear systems</a></p>
+		<p>DOI: 10.1080/00207168808803614</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;23, issue&nbsp;2 (1988)</p></td>
+	<td>764&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207168808803614" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207168808803614">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207168808803614">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207168808803614">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Day, J.D.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00207168908803771">Some minimum configuration <i>L</i>-stable rosenbrock methods with error estimators</a></p>
+		<p>DOI: 10.1080/00207168908803771</p>	</td>
+	<td><p><a href="/scimag/journals/10203">International Journal of Computer Mathematics</a><p>volume&nbsp;30, issue&nbsp;1 (1989)</p></td>
+	<td>364&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00207168908803771" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00207168908803771">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00207168908803771">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00207168908803771">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">5&nbsp;307 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 213</span>
+	 <a href="/scimag/?journal=10203&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/6672">English Studies</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Taylor and Francis Group</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0013-838X</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1744-4217</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 183; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 183');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=6672&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;557 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 183</span>
+	 <a href="/scimag/?journal=6672&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Blom, J.M.; Leavis, L.R. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00138388808598595">Current literature 1987</a></p>
+		<p>DOI: 10.1080/00138388808598595</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;69, issue&nbsp;5 (1988)</p></td>
+	<td>746&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00138388808598595" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00138388808598595">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00138388808598595">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00138388808598595">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Leavis, L.R.</td>
+	<td>
+		<p><a href="/scimag/10.1076%2Fenst.83.5.431.8681">Current Literature 2000</a></p>
+		<p>DOI: 10.1076/enst.83.5.431.8681</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;83, issue&nbsp;5 (2002)</p></td>
+	<td>68&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1076%2Fenst.83.5.431.8681" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1076/enst.83.5.431.8681">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1076/enst.83.5.431.8681">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1076/enst.83.5.431.8681">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dameron, J. Lasley</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00138389308598844">Melville and Scoresby on whiteness</a></p>
+		<p>DOI: 10.1080/00138389308598844</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;74, issue&nbsp;1 (1993)</p></td>
+	<td>574&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00138389308598844" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00138389308598844">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00138389308598844">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00138389308598844">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>van der Gaaf, W.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00138383408596619">The connection between verbs of rest <i>(lie, sit,</i> and <i>stand)</i> and another verb, viewed historically</a></p>
+		<p>DOI: 10.1080/00138383408596619</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;16, issue&nbsp;1 (1934)</p></td>
+	<td>1.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00138383408596619" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00138383408596619">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00138383408596619">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00138383408596619">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Taglicht, J.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00138387008597374">The genesis of the conventional rules for the use of <i>shall</i> and <i>will</i> (∗)</a></p>
+		<p>DOI: 10.1080/00138387008597374</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;51, issue&nbsp;3 (1970)</p></td>
+	<td>1.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00138387008597374" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00138387008597374">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00138387008597374">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00138387008597374">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Quirk, Randolph</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00138385708596993">Relative clauses in educated spoken English              <sup>1</sup></a></p>
+		<p>DOI: 10.1080/00138385708596993</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;38, issue&nbsp;1-6 (1957)</p></td>
+	<td>837&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00138385708596993" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00138385708596993">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00138385708596993">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00138385708596993">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Palacios Martínez, Ignacio M.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00138380902743153">“Quite Frankly, I'm Not Quite Sure That it is Quite the Right Colour.” A Corpus-Based Study of the Syntax and Semantics of <i>Quite</i> in Present-Day English</a></p>
+		<p>DOI: 10.1080/00138380902743153</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;90, issue&nbsp;2 (2009)</p></td>
+	<td>219&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00138380902743153" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00138380902743153">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00138380902743153">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00138380902743153">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Guzman, Mancho</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00138380412331339233">CONSIDERING <i>ORRMULUM'S<i> EXEGETICAL DISCOURSE: CANON ORRMIN'S PREACHING AND HIS AUDIENCE*</i> </i></a></p>
+		<p>DOI: 10.1080/00138380412331339233</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;85, issue&nbsp;6 (2004)</p></td>
+	<td>455&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00138380412331339233" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00138380412331339233">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00138380412331339233">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00138380412331339233">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Estes, Heide</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00138381003637575">Wonders and Wisdom: Anglo-Saxons and the East</a></p>
+		<p>DOI: 10.1080/00138381003637575</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;91, issue&nbsp;4 (2010)</p></td>
+	<td>122&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00138381003637575" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00138381003637575">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00138381003637575">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00138381003637575">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wood, Frederick T.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00138385008596846">Current literature, 1948 : II. Criticism and biography</a></p>
+		<p>DOI: 10.1080/00138385008596846</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;31, issue&nbsp;1 (1950)</p></td>
+	<td>898&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00138385008596846" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00138385008596846">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00138385008596846">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00138385008596846">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wood, Frederick T.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00138384008596712">Current literature: 1939 : I. Fiction, Drama and Poetry</a></p>
+		<p>DOI: 10.1080/00138384008596712</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;22, issue&nbsp;1 (1940)</p></td>
+	<td>843&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00138384008596712" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00138384008596712">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00138384008596712">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00138384008596712">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>de Haan, Ferdinand</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F0013838x.2012.700587">The Relevance of Constructions for the Interpretation of Modal Meaning: The Case of              <i>Must</i></a></p>
+		<p>DOI: 10.1080/0013838x.2012.700587</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;93, issue&nbsp;6 (2012)</p></td>
+	<td>186&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F0013838x.2012.700587" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/0013838x.2012.700587">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/0013838x.2012.700587">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/0013838x.2012.700587">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Koppel, Moshe; Schler, Jonathan; Argamon, Shlomo; Winter, Yaron </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F0013838x.2012.668794">The “Fundamental Problem” of Authorship Attribution</a></p>
+		<p>DOI: 10.1080/0013838x.2012.668794</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;93, issue&nbsp;3 (2012)</p></td>
+	<td>118&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F0013838x.2012.668794" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/0013838x.2012.668794">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/0013838x.2012.668794">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/0013838x.2012.668794">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Johnson, David F.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00138389308598873">The five horrors of hell: An insular homiletic motif∗</a></p>
+		<p>DOI: 10.1080/00138389308598873</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;74, issue&nbsp;5 (1993)</p></td>
+	<td>1.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00138389308598873" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00138389308598873">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00138389308598873">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00138389308598873">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mustanoja, Tauno F.; Maud, Ralph N.; Praz, M.; Funke, Otto; Bowers, R. H.; Kurath, Hans; Visser, F. Th.; George, J.; Forster, Leonard; Storms, G.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00138386008597088">Notes and news</a></p>
+		<p>DOI: 10.1080/00138386008597088</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;41, issue&nbsp;1 (1960)</p></td>
+	<td>3.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00138386008597088" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00138386008597088">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00138386008597088">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00138386008597088">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hall, Thomas N.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00138389108598757">The cross as green tree in the <i>Vindicta Salvatoris</i> and the green rod of Moses in <i>exodus</i></a></p>
+		<p>DOI: 10.1080/00138389108598757</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;72, issue&nbsp;4 (1991)</p></td>
+	<td>825&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00138389108598757" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00138389108598757">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00138389108598757">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00138389108598757">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lillo, Antonio</td>
+	<td>
+		<p><a href="/scimag/10.1076%2Fenst.82.4.336.9583">From Alsatian Dog to Wooden Shoe: Linguistic Xenophobia in Rhyming Slang</a></p>
+		<p>DOI: 10.1076/enst.82.4.336.9583</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;82, issue&nbsp;4 (2001)</p></td>
+	<td>131&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1076%2Fenst.82.4.336.9583" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1076/enst.82.4.336.9583">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1076/enst.82.4.336.9583">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1076/enst.82.4.336.9583">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Prietzel, Kathrin</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F0013838x.2012.698532">Appetite for Power: The Anglo-Saxon              <i>Regina Gratia Dei</i></a></p>
+		<p>DOI: 10.1080/0013838x.2012.698532</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;93, issue&nbsp;5 (2012)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F0013838x.2012.698532" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/0013838x.2012.698532">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/0013838x.2012.698532">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/0013838x.2012.698532">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dekker, Kees</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F0013838x.2012.698536">Aldred's Appetite for Encyclopaedic Knowledge: The Secret of Warm and Cold Breath</a></p>
+		<p>DOI: 10.1080/0013838x.2012.698536</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;93, issue&nbsp;5 (2012)</p></td>
+	<td>110&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F0013838x.2012.698536" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/0013838x.2012.698536">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/0013838x.2012.698536">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/0013838x.2012.698536">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Morrissey, Sinéad</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F0013838x.2012.698539">Peacocks and Butterflies</a></p>
+		<p>DOI: 10.1080/0013838x.2012.698539</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;93, issue&nbsp;5 (2012)</p></td>
+	<td>48&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F0013838x.2012.698539" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/0013838x.2012.698539">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/0013838x.2012.698539">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/0013838x.2012.698539">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>McGerr, Rosemarie Potz; Bellringer, Alan.; Thorpe, Michael; Klerkx, Jan; Robat, N. J. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00138388808598556">Reviews</a></p>
+		<p>DOI: 10.1080/00138388808598556</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;69, issue&nbsp;1 (1988)</p></td>
+	<td>755&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00138388808598556" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00138388808598556">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00138388808598556">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00138388808598556">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Aarts, F. G. A. M.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00138388808598565">A comprehensive grammar of the english language: The great tradition continued</a></p>
+		<p>DOI: 10.1080/00138388808598565</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;69, issue&nbsp;2 (1988)</p></td>
+	<td>725&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00138388808598565" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00138388808598565">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00138388808598565">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00138388808598565">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Blake, N. F.; Leavis, L. R.; Morgan, Peter; Hartveit, Lars; Flay, M.; Schaar, C.; Sorensen, Knud </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00138388808598566">Reviews</a></p>
+		<p>DOI: 10.1080/00138388808598566</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;69, issue&nbsp;2 (1988)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00138388808598566" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00138388808598566">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00138388808598566">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00138388808598566">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bunt, G. H. V.; Engler, Balz; Banerjee, Jacqueline; Kellerman, Eric; Aarts, Bas </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00138388808598576">Reviews</a></p>
+		<p>DOI: 10.1080/00138388808598576</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;69, issue&nbsp;3 (1988)</p></td>
+	<td>397&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00138388808598576" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00138388808598576">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00138388808598576">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00138388808598576">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J⊘rgensen, Erik</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F00138388808598586">Used to (+ infinitive)</a></p>
+		<p>DOI: 10.1080/00138388808598586</p>	</td>
+	<td><p><a href="/scimag/journals/6672">English Studies</a><p>volume&nbsp;69, issue&nbsp;4 (1988)</p></td>
+	<td>414&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F00138388808598586" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/00138388808598586">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/00138388808598586">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/00138388808598586">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;557 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 183</span>
+	 <a href="/scimag/?journal=6672&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

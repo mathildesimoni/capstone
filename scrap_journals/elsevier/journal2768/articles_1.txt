@@ -1,0 +1,379 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Elsevier Science</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0926-6550</td>
+	</tr>
+					</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 38; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 38');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=2768&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">933 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 38</span>
+	 <a href="/scimag/?journal=2768&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Freese, Ernst; Cashel, Michael </td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2864%2990171-9">Crosslinking of deoxyribonucleic acid by exposure to low pH</a></p>
+		<p>DOI: 10.1016/0926-6550(64)90171-9</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;91, issue&nbsp;1 (1964)</p></td>
+	<td>518&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2864%2990171-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2864%2990171-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2864%2990171-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2864%2990171-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rabinovitz, M.; Fisher, J.M. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2864%2990255-5">Characteristics of the inhibition of hemoglobin synthesis in rabbit reticulocytes by threo-Î±-amino-Î²-chlorobutyric acid</a></p>
+		<p>DOI: 10.1016/0926-6550(64)90255-5</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;91, issue&nbsp;2 (1964)</p></td>
+	<td>590&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2864%2990255-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2864%2990255-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2864%2990255-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2864%2990255-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Clark, M.F.; Matthews, R.E.F.; Ralph, R.K. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2864%2990253-1">Ribosomes and polyribosomes in Brassica pekinensis</a></p>
+		<p>DOI: 10.1016/0926-6550(64)90253-1</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;91, issue&nbsp;2 (1964)</p></td>
+	<td>1.75&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2864%2990253-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2864%2990253-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2864%2990253-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2864%2990253-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kepes, A.</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2863%2990043-4">Kinetic of induced enzyme synthesis determination of the mean life of galactosidase-specific messenger RNA</a></p>
+		<p>DOI: 10.1016/0926-6550(63)90043-4</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;76 (1963)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2863%2990043-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2863%2990043-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2863%2990043-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2863%2990043-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Starr, Jason L.</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2862%2990051-8">Studies on the methylation of soluble ribonucleic acid</a></p>
+		<p>DOI: 10.1016/0926-6550(62)90051-8</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;61, issue&nbsp;5 (1962)</p></td>
+	<td>291&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2862%2990051-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2862%2990051-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2862%2990051-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2862%2990051-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lewin, S.; Munroe, D.P. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2864%2990125-2">The action of guanidine hydrochloride on salmon-sperm DNA</a></p>
+		<p>DOI: 10.1016/0926-6550(64)90125-2</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;87, issue&nbsp;3 (1964)</p></td>
+	<td>172&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2864%2990125-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2864%2990125-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2864%2990125-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2864%2990125-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pollock, M.R.</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2863%2990009-4">The differential effect of actinomycin D on the biosynthesis of enzymes in Bacillus subtilis and Bacillus cereus</a></p>
+		<p>DOI: 10.1016/0926-6550(63)90009-4</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;76 (1963)</p></td>
+	<td>903&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2863%2990009-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2863%2990009-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2863%2990009-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2863%2990009-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mitsui, Hiromi; Ishihama, Akira; Osawa, Syozo</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2863%2990059-8">Some properties of newly synthesized ribosomal ribonucleic acid in Escherichia coli</a></p>
+		<p>DOI: 10.1016/0926-6550(63)90059-8</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;76 (1963)</p></td>
+	<td>512&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2863%2990059-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2863%2990059-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2863%2990059-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2863%2990059-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Midgley, J.E.M.; McCarthy, B.J.</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2862%2990053-1">The synthesis and kinetic behavior of deoxyribonucleic acid-like ribonucleic acid in bacteria</a></p>
+		<p>DOI: 10.1016/0926-6550(62)90053-1</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;61, issue&nbsp;5 (1962)</p></td>
+	<td>1.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2862%2990053-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2862%2990053-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2862%2990053-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2862%2990053-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cramer, F.; Seidel, H.</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2864%2990165-3">The selective 1-N-oxidation of nucleobases in homopolynucleotides and in nucleic acids</a></p>
+		<p>DOI: 10.1016/0926-6550(64)90165-3</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;91, issue&nbsp;1 (1964)</p></td>
+	<td>430&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2864%2990165-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2864%2990165-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2864%2990165-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2864%2990165-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Santen, Richard J.; Agranoff, Bernard W.</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2863%2990339-6">Studies on the estimation of deoxyribonucleic acid and ribonucleic acid in rat brain</a></p>
+		<p>DOI: 10.1016/0926-6550(63)90339-6</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;72 (1963)</p></td>
+	<td>666&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2863%2990339-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2863%2990339-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2863%2990339-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2863%2990339-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Krakow, Joseph S.</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2863%2990380-3">Ribonucleic acid polymerase of Azotobacter vinelandii</a></p>
+		<p>DOI: 10.1016/0926-6550(63)90380-3</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;72 (1963)</p></td>
+	<td>297&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2863%2990380-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2863%2990380-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2863%2990380-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2863%2990380-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Grunberg-Manago, M.; Michelson, A.M.</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2864%2990145-8">Polynucleotide analogues II. Stimulation of amino acid incorporation by polynucleotide analogues</a></p>
+		<p>DOI: 10.1016/0926-6550(64)90145-8</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;80, issue&nbsp;3 (1964)</p></td>
+	<td>636&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2864%2990145-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2864%2990145-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2864%2990145-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2864%2990145-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michelson, A.M.; Grunberg-Manago, M.</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2864%2990173-2">Polynucleotide analogues</a></p>
+		<p>DOI: 10.1016/0926-6550(64)90173-2</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;91, issue&nbsp;1 (1964)</p></td>
+	<td>793&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2864%2990173-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2864%2990173-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2864%2990173-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2864%2990173-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Grunberg-Manago, M.; Michelson, A.M.</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2864%2990277-4">Polynucleotide analogues</a></p>
+		<p>DOI: 10.1016/0926-6550(64)90277-4</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;87, issue&nbsp;4 (1964)</p></td>
+	<td>470&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2864%2990277-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2864%2990277-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2864%2990277-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2864%2990277-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michelson, A.M.</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2864%2990164-1">Synthesis of nucleotide anhydrides by anion exchange</a></p>
+		<p>DOI: 10.1016/0926-6550(64)90164-1</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;91, issue&nbsp;1 (1964)</p></td>
+	<td>838&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2864%2990164-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2864%2990164-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2864%2990164-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2864%2990164-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. C. Neidhardt</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2863%2990454-7">Properties of a bacterial mutant lacking amino acid control of RNA synthesis</a></p>
+		<p>DOI: 10.1016/0926-6550(63)90454-7</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;68 (1963)</p></td>
+	<td>905&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2863%2990454-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2863%2990454-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2863%2990454-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2863%2990454-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Suzuki, Sakaru; Takahashi, Noriko; Sugiyama, Minekazu; Nakanishi, Yasuo </td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2864%2990016-7">Isolation of cytidine dinucleotides from hen oviduct</a></p>
+		<p>DOI: 10.1016/0926-6550(64)90016-7</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;91, issue&nbsp;4 (1964)</p></td>
+	<td>198&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2864%2990016-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2864%2990016-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2864%2990016-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2864%2990016-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Doskočil, J.; Šorm, F. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2862%2990353-5">Distribution of 5-methylcytosine in pyrimidine sequences of deoxyribonucleic acids</a></p>
+		<p>DOI: 10.1016/0926-6550(62)90353-5</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;55, issue&nbsp;6 (1962)</p></td>
+	<td>454&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2862%2990353-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2862%2990353-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2862%2990353-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2862%2990353-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Karau, W.; Zachau, H.G. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2864%2990002-7">Isolierung von serinspezifischen transfer-ribonucleinsäure-fraktionen</a></p>
+		<p>DOI: 10.1016/0926-6550(64)90002-7</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;91, issue&nbsp;4 (1964)</p></td>
+	<td>614&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2864%2990002-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2864%2990002-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2864%2990002-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2864%2990002-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kidson, Chev; Kirby, K.S. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2864%2990011-8">Fractionation of DNA II. Partial strand separation as a basis of fractionation by countercurrent distribution</a></p>
+		<p>DOI: 10.1016/0926-6550(64)90011-8</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;91, issue&nbsp;4 (1964)</p></td>
+	<td>480&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2864%2990011-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2864%2990011-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2864%2990011-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2864%2990011-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mandel, P.; Borkowska, I. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2864%2990029-5">Présence d'hybrides naturels dans les cellules d'un hépatome ascitique</a></p>
+		<p>DOI: 10.1016/0926-6550(64)90029-5</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;91, issue&nbsp;4 (1964)</p></td>
+	<td>217&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2864%2990029-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2864%2990029-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2864%2990029-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2864%2990029-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Muramatsu, Masami; Hodnett, James L.; Busch, Harris </td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2864%2990006-4">Studies on the “independence” of nucleolar ribonucleic acid synthesis</a></p>
+		<p>DOI: 10.1016/0926-6550(64)90006-4</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;91, issue&nbsp;4 (1964)</p></td>
+	<td>351&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2864%2990006-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2864%2990006-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2864%2990006-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2864%2990006-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sauerbier, W.</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2864%2990022-2">Search for repair of ultraviolet damage in mutants of bacteriophage T4</a></p>
+		<p>DOI: 10.1016/0926-6550(64)90022-2</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;91, issue&nbsp;4 (1964)</p></td>
+	<td>184&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2864%2990022-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2864%2990022-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2864%2990022-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2864%2990022-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hsiang Ju Lin, ; Chargaff, Erwin </td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0926-6550%2864%2990032-5">Metaphase chromosomes as a source of DNA</a></p>
+		<p>DOI: 10.1016/0926-6550(64)90032-5</p>	</td>
+	<td><p><a href="/scimag/journals/2768">Biochimica et Biophysica Acta (BBA) - Specialized Section on Nucleic Acids and Related Subjects</a><p>volume&nbsp;91, issue&nbsp;4 (1964)</p></td>
+	<td>187&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0926-6550%2864%2990032-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0926-6550%2864%2990032-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0926-6550%2864%2990032-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0926-6550%2864%2990032-5">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">933 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 38</span>
+	 <a href="/scimag/?journal=2768&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/3886">CATTECH</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1384-6566</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-8811</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 6; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 6');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=3886&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">128 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 6</span>
+	 <a href="/scimag/?journal=3886&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Giuseppe Bellussi; Carlo Perego</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1011905009608">Industrial Catalytic Aspects of the Synthesis of Monomers for Nylon Production</a></p>
+		<p>DOI: 10.1023/a:1011905009608</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;4, issue&nbsp;1 (2000)</p></td>
+	<td>1.05&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1011905009608" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1011905009608">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1011905009608">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1011905009608">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alfons Baiker; Roland Wandeler</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1011915815968">Supercritical Fluids; Opportunities in Heterogeneous Catalysis</a></p>
+		<p>DOI: 10.1023/a:1011915815968</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;4, issue&nbsp;2 (2000)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1011915815968" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1011915815968">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1011915815968">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1011915815968">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rob. J. Berger; E. Hugh Stitt; Guy B. Marin; Freek Kapteijn; Jacob A. Moulijn</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1011928218694">Eurokin. Chemical Reaction Kinetics in Practice</a></p>
+		<p>DOI: 10.1023/a:1011928218694</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;5, issue&nbsp;1 (2001)</p></td>
+	<td>1.97&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1011928218694" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1011928218694">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1011928218694">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1011928218694">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Susan Barlow</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1011939126446">Catalysis for Sustainable Technologies</a></p>
+		<p>DOI: 10.1023/a:1011939126446</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;4, issue&nbsp;1 (2000)</p></td>
+	<td>116&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1011939126446" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1011939126446">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1011939126446">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1011939126446">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alfons Baiker; Roland Wandeler</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1011943227355">Supercritical Fluids; Opportunities in Heterogeneous Catalysis</a></p>
+		<p>DOI: 10.1023/a:1011943227355</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;4, issue&nbsp;1 (2000)</p></td>
+	<td>1.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1011943227355" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1011943227355">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1011943227355">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1011943227355">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-Paul Lange</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1011944622328">Fuels and Chemicals Manufacturing; Guidelines for Understanding and Minimizing the Production Costs</a></p>
+		<p>DOI: 10.1023/a:1011944622328</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;5, issue&nbsp;2 (2001)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1011944622328" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1011944622328">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1011944622328">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1011944622328">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Domenico Sanfilippo</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1011947328263">Dehydrogenation of Paraffins; Key Technology for Petrochemicals and Fuels</a></p>
+		<p>DOI: 10.1023/a:1011947328263</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;4, issue&nbsp;1 (2000)</p></td>
+	<td>1.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1011947328263" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1011947328263">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1011947328263">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1011947328263">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James E. Lyons; Paul Ratnasamy</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1011948724146">Book Reviews</a></p>
+		<p>DOI: 10.1023/a:1011948724146</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;5, issue&nbsp;2 (2001)</p></td>
+	<td>300&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1011948724146" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1011948724146">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1011948724146">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1011948724146">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shin&#039;ichi Matsumoto</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1011951415060">Catalytic Reduction of Nitrogen Oxides in Automotive Exhaust Containing Excess Oxygen by NOx Storage-Reduction Catalyst</a></p>
+		<p>DOI: 10.1023/a:1011951415060</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;4, issue&nbsp;2 (2000)</p></td>
+	<td>500&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1011951415060" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1011951415060">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1011951415060">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1011951415060">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N.M. P.N. Ross Markovic; P.N. Ross</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1011963731898">New Electrocatalysts for Fuel Cells from Model Surfaces to Commercial Catalysts</a></p>
+		<p>DOI: 10.1023/a:1011963731898</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;4, issue&nbsp;2 (2000)</p></td>
+	<td>1.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1011963731898" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1011963731898">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1011963731898">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1011963731898">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Susan Barlow</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1011967800039">2nd Taylor Conference Liverpool, September 2-7 2000</a></p>
+		<p>DOI: 10.1023/a:1011967800039</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;4, issue&nbsp;2 (2000)</p></td>
+	<td>246&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1011967800039" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1011967800039">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1011967800039">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1011967800039">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Raval</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1011975701856">Assembling Molecular Guidance Systems for Heterogeneous Enantioselective Catalysis</a></p>
+		<p>DOI: 10.1023/a:1011975701856</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;5, issue&nbsp;1 (2001)</p></td>
+	<td>2.90&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1011975701856" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1011975701856">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1011975701856">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1011975701856">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michel Boudart</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1011980205490">Guest Editorial, Quo Vadis Catalysis?</a></p>
+		<p>DOI: 10.1023/a:1011980205490</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;5, issue&nbsp;2 (2001)</p></td>
+	<td>93&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1011980205490" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1011980205490">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1011980205490">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1011980205490">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G.I. Panov</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1011991110517">Advances in Oxidation Catalysis; Oxidation of Benzene to Phenol by Nutrous Oxide</a></p>
+		<p>DOI: 10.1023/a:1011991110517</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;4, issue&nbsp;1 (2000)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1011991110517" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1011991110517">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1011991110517">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1011991110517">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marc T.M. Koper; Gregory A. Voth</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1011995211425">Molecular Dynamics of Bond-Braking Electron-Transfer Reactions at Metal-Liquid Interfaces</a></p>
+		<p>DOI: 10.1023/a:1011995211425</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;4, issue&nbsp;1 (2000)</p></td>
+	<td>629&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1011995211425" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1011995211425">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1011995211425">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1011995211425">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. N. Parmon; V. S. Zakharenko</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1011996606399">Photocatalysis and Photosorption in the Earth's Atmosphere</a></p>
+		<p>DOI: 10.1023/a:1011996606399</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;5, issue&nbsp;2 (2001)</p></td>
+	<td>1.98&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1011996606399" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1011996606399">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1011996606399">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1011996606399">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Edmund M. Carnahan; Grant B. Jacobsen</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1011999312334">Supported Metallocene Catalysts</a></p>
+		<p>DOI: 10.1023/a:1011999312334</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;4, issue&nbsp;1 (2000)</p></td>
+	<td>1.05&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1011999312334" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1011999312334">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1011999312334">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1011999312334">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bård Lindström; Rasmus Barfod; Maria Machli; Hans Niemantsverdriet; Jacques C. Vedrine; J. Armor</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1012311923237">Meeting Reports</a></p>
+		<p>DOI: 10.1023/a:1012311923237</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;5, issue&nbsp;2 (2001)</p></td>
+	<td>839&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1012311923237" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1012311923237">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1012311923237">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1012311923237">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Armor</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1014000220435">Editorial</a></p>
+		<p>DOI: 10.1023/a:1014000220435</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;5, issue&nbsp;3 (2001)</p></td>
+	<td>83&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1014000220435" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1014000220435">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1014000220435">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1014000220435">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Schlögl</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1014012505414">Theory in Heterogeneous Catalysis; an Experimentalist's View</a></p>
+		<p>DOI: 10.1023/a:1014012505414</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;5, issue&nbsp;3 (2001)</p></td>
+	<td>2.57&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1014012505414" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1014012505414">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1014012505414">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1014012505414">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jacob A. Moulijn; David Trimm; J. Armor; José Santiesteban</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1014020706322">Meeting Reports</a></p>
+		<p>DOI: 10.1023/a:1014020706322</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;5, issue&nbsp;3 (2001)</p></td>
+	<td>445&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1014020706322" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1014020706322">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1014020706322">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1014020706322">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eric G. Derouane</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1014036813345">Catalysis in the 21st Century, Lessons from the Past, Challenges for the Future</a></p>
+		<p>DOI: 10.1023/a:1014036813345</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;5, issue&nbsp;4 (2001)</p></td>
+	<td>738&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1014036813345" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1014036813345">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1014036813345">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1014036813345">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Stöcker; Eric G. Derouane</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1014045014253">Meeting Reports</a></p>
+		<p>DOI: 10.1023/a:1014045014253</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;5, issue&nbsp;4 (2001)</p></td>
+	<td>323&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1014045014253" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1014045014253">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1014045014253">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1014045014253">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C.T. O&#039;Connor; K. P. Möller; H. Manstein</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1014068622252">The Effect of Silanization on the Catalytic and Sorption Properties of Zeolites</a></p>
+		<p>DOI: 10.1023/a:1014068622252</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;5, issue&nbsp;3 (2001)</p></td>
+	<td>793&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1014068622252" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1014068622252">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1014068622252">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1014068622252">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Johan J. Heiszwolf</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1014072707231">Book Reviews</a></p>
+		<p>DOI: 10.1023/a:1014072707231</p>	</td>
+	<td><p><a href="/scimag/journals/3886">CATTECH</a><p>volume&nbsp;5, issue&nbsp;3 (2001)</p></td>
+	<td>107&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1014072707231" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1014072707231">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1014072707231">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1014072707231">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">128 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 6</span>
+	 <a href="/scimag/?journal=3886&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

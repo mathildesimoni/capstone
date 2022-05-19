@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/3180">Brain and Mind</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1389-1987</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-3300</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 5; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 5');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=3180&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">109 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 5</span>
+	 <a href="/scimag/?journal=3180&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Rodney M. J. Cotterill</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010012221641">Muscular Hyperspace and Navigation in the Theatre that Never Closed, the Cognitive Bacterium, Conscious Unity, Self-Tickling, and Computer Simulation: Reply to Marcel Kinsbourne</a></p>
+		<p>DOI: 10.1023/a:1010012221641</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>33&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010012221641" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010012221641">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010012221641">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010012221641">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Bickle</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010015620339">Editor's Note</a></p>
+		<p>DOI: 10.1023/a:1010015620339</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>6&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010015620339" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010015620339">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010015620339">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010015620339">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rodney M. J. Cotterill</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010016322550">Did Consciousness Evolve from Self-Paced Probing of the Environment, and Not from Reflexes?</a></p>
+		<p>DOI: 10.1023/a:1010016322550</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>94&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010016322550" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010016322550">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010016322550">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010016322550">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kenneth J. Sufka</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010020401730">Searching for a Common Ground: A Commentary on Resnik's Folk Psychology of Pain</a></p>
+		<p>DOI: 10.1023/a:1010020401730</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>12&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010020401730" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010020401730">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010020401730">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010020401730">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ullin T. Place</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010023129393">The Causal Potency of Qualia: Its Nature and Its Source</a></p>
+		<p>DOI: 10.1023/a:1010023129393</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>46&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010023129393" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010023129393">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010023129393">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010023129393">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David B. Resnik</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010027213464">Pain as a Folk Psychological Concept: A Clinical Perspective</a></p>
+		<p>DOI: 10.1023/a:1010027213464</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>59&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010027213464" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010027213464">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010027213464">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010027213464">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jon H. Kaas</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010028405318">Why is Brain Size so Important:Design Problems and Solutions as Neocortex Gets Biggeror Smaller</a></p>
+		<p>DOI: 10.1023/a:1010028405318</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>102&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010028405318" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010028405318">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010028405318">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010028405318">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kenneth Sufka</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010032508495">Chronic Pain Explained</a></p>
+		<p>DOI: 10.1023/a:1010032508495</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>172&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010032508495" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010032508495">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010032508495">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010032508495">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>George Graham</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010032528485">Ullin Thomas Place: 24 October 1924–2 January 2000</a></p>
+		<p>DOI: 10.1023/a:1010032528485</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>10&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010032528485" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010032528485">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010032528485">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010032528485">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David B. Resnik</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010039500260">Reply to Commentaries</a></p>
+		<p>DOI: 10.1023/a:1010039500260</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>16&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010039500260" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010039500260">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010039500260">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010039500260">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rick Grush</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010039705798">Self, World and Space: The Meaning and Mechanismsof Ego- and Allocentric Spatial Representation</a></p>
+		<p>DOI: 10.1023/a:1010039705798</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>145&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010039705798" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010039705798">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010039705798">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010039705798">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marcel Kinsbourne</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010041218568">How is Consciousness Expressed in the Cerebral Activation Manifold?</a></p>
+		<p>DOI: 10.1023/a:1010041218568</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>46&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010041218568" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010041218568">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010041218568">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010041218568">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rodney M. J. Cotterill</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010043601169">On Brain and Mind</a></p>
+		<p>DOI: 10.1023/a:1010043601169</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>33&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010043601169" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010043601169">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010043601169">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010043601169">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dan Lloyd</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010043906706">Terra Cognita: From Functional Neuroimaging tothe Map of the Mind</a></p>
+		<p>DOI: 10.1023/a:1010043906706</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>172&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010043906706" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010043906706">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010043906706">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010043906706">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jesse Prinz</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010047802986">The Ins and Outs of Consciousness</a></p>
+		<p>DOI: 10.1023/a:1010047802986</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>51&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010047802986" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010047802986">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010047802986">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010047802986">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rodney M. J. Cotterill</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010056020733">Movement, Acquisition of Novel Context-Specific Reflexes and Amyotrophic Lateral Sclerosis: Reply to Jesse Prinz</a></p>
+		<p>DOI: 10.1023/a:1010056020733</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>29&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010056020733" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010056020733">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010056020733">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010056020733">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Péter Érdi</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010076304410">On the 'Dynamic Brain' Metaphor</a></p>
+		<p>DOI: 10.1023/a:1010076304410</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>109&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010076304410" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010076304410">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010076304410">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010076304410">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Richard Chapman; Yoshio Nakamura; Christopher N. Chapman</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010079214372">Pain and Folk Theory</a></p>
+		<p>DOI: 10.1023/a:1010079214372</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>57&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010079214372" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010079214372">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010079214372">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010079214372">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Don Gustafson</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010083332119">On the Supposed Utility of a Folk Theory of Pain</a></p>
+		<p>DOI: 10.1023/a:1010083332119</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>27&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010083332119" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010083332119">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010083332119">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010083332119">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ullin T. Place</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010087621727">The Two Factor Theory of the Mind–Brain Relation</a></p>
+		<p>DOI: 10.1023/a:1010087621727</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>58&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010087621727" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010087621727">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010087621727">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010087621727">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C.B. Martin</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010091822636">A Remembrance of an Event – Foreword to “The Two Factor Theory of the Mind–Brain Relation” by Ullin T. Place</a></p>
+		<p>DOI: 10.1023/a:1010091822636</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>7&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010091822636" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010091822636">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010091822636">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010091822636">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Bickle; Gillian Einstein; Valerie Hardcastle</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010095915002">Editors' Introduction</a></p>
+		<p>DOI: 10.1023/a:1010095915002</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>26&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010095915002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010095915002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010095915002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010095915002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stephen C. Fowler</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1010098004889">Behavioral Tolerance (Contingent Tolerance) isMediated in Part by Variations in Regional Cerebral Blood Flow</a></p>
+		<p>DOI: 10.1023/a:1010098004889</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>58&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1010098004889" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1010098004889">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1010098004889">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1010098004889">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joseph S. King; Mix Xie; Bibo Zheng; Karl H. Pribram</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1011540011390">Maps of Surface Distributions of Electrical Activity in Spectrally Derived Receptive Fields of the Rat's Somatosensory Cortex</a></p>
+		<p>DOI: 10.1023/a:1011540011390</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;3 (2000)</p></td>
+	<td>175&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1011540011390" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1011540011390">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1011540011390">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1011540011390">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shaun P. Vecera</td>
+	<td>
+		<p><a href="/scimag/10.1023%2Fa%3A1011565623996">Toward a Biased Competition Account of Object-Based Segregation and Attention</a></p>
+		<p>DOI: 10.1023/a:1011565623996</p>	</td>
+	<td><p><a href="/scimag/journals/3180">Brain and Mind</a><p>volume&nbsp;1, issue&nbsp;3 (2000)</p></td>
+	<td>217&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1023%2Fa%3A1011565623996" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1023/a%3A1011565623996">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1023/a%3A1011565623996">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1023/a%3A1011565623996">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">109 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 5</span>
+	 <a href="/scimag/?journal=3180&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/8430">Group</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0362-4021</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-3386</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 86; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 86');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=8430&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;131 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 86</span>
+	 <a href="/scimag/?journal=8430&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Barbara Feld; Phyllis Urman-Klein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419599">Gender: A critical factor in a couples group</a></p>
+		<p>DOI: 10.1007/bf01419599</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;17, issue&nbsp;1 (1993)</p></td>
+	<td>814&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419599" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419599">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419599">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419599">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Theodore I. Anderson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419600">Small and unfilled psychotherapy groups: Understanding and using them effectively</a></p>
+		<p>DOI: 10.1007/bf01419600</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;17, issue&nbsp;1 (1993)</p></td>
+	<td>600&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419600" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419600">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419600">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419600">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Saul Scheidlinger</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419601">On “The Dream in Group Therapy: A Reappraisal of Unconscious Processes in Groups,” by Peter J. Schlachet</a></p>
+		<p>DOI: 10.1007/bf01419601</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;17, issue&nbsp;1 (1993)</p></td>
+	<td>139&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419601" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419601">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419601">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419601">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter J. Schlachet</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419602">Rejoinder to Dr. Scheidlinger's commentary</a></p>
+		<p>DOI: 10.1007/bf01419602</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;17, issue&nbsp;1 (1993)</p></td>
+	<td>100&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419602" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419602">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419602">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419602">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eleanor F. Counselman; Peter Gumpert</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419603">Psychotherapy supervision in small leader-led groups</a></p>
+		<p>DOI: 10.1007/bf01419603</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;17, issue&nbsp;1 (1993)</p></td>
+	<td>650&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419603" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419603">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419603">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419603">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martha A. Gabriel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419604">The cotherapy relationship: Special issues and problems in aids therapy groups</a></p>
+		<p>DOI: 10.1007/bf01419604</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;17, issue&nbsp;1 (1993)</p></td>
+	<td>783&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419604" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419604">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419604">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419604">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul V. Trad</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419605">Using the prospective approach as an adjunct to established models of group psychotherapy</a></p>
+		<p>DOI: 10.1007/bf01419605</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;17, issue&nbsp;1 (1993)</p></td>
+	<td>1.41&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419605" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419605">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419605">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419605">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dennis G. Brown</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419649">Confrontation in the group analytic matrix: Toward a classification</a></p>
+		<p>DOI: 10.1007/bf01419649</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;12, issue&nbsp;4 (1988)</p></td>
+	<td>558&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419649" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419649">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419649">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419649">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas G. Plante; Stephanie L. Pinder; David Howe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419650">Introducing the living with illness group: A specialized treatment for patients with chronic schizophrenic conditions</a></p>
+		<p>DOI: 10.1007/bf01419650</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;12, issue&nbsp;4 (1988)</p></td>
+	<td>489&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419650" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419650">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419650">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419650">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark F. Ettin; Marsha L. Heiman; Steven A. Kopel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419651">Group building: Developing protocols for psychoeducational groups</a></p>
+		<p>DOI: 10.1007/bf01419651</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;12, issue&nbsp;4 (1988)</p></td>
+	<td>1.46&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419651" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419651">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419651">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419651">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andrew Mosholder; William Burke; Wesley Carter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419652">Insight-oriented group psychotherapy of latency-age children in an acute care setting</a></p>
+		<p>DOI: 10.1007/bf01419652</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;12, issue&nbsp;4 (1988)</p></td>
+	<td>561&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419652" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419652">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419652">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419652">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William H. Barber</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419653">Inpatient adolescent group therapy as a social system</a></p>
+		<p>DOI: 10.1007/bf01419653</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;12, issue&nbsp;4 (1988)</p></td>
+	<td>620&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419653" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419653">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419653">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419653">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kevin M. Marett</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419654">A substantive and methodological review of couples group therapy outcome research</a></p>
+		<p>DOI: 10.1007/bf01419654</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;12, issue&nbsp;4 (1988)</p></td>
+	<td>392&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419654" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419654">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419654">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419654">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419655">Announcement</a></p>
+		<p>DOI: 10.1007/bf01419655</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;12, issue&nbsp;4 (1988)</p></td>
+	<td>80&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419655" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419655">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419655">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419655">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fred Wright; Jose M. Arcaya; Hugh Mullan; Bernard D. Starr</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419656">Book reviews</a></p>
+		<p>DOI: 10.1007/bf01419656</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;12, issue&nbsp;4 (1988)</p></td>
+	<td>498&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419656" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419656">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419656">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419656">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Scot W. McNary; Robert R. Dies</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419672">Cotherapist modeling in group psychotherapy: Fact or fantasy?</a></p>
+		<p>DOI: 10.1007/bf01419672</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;17, issue&nbsp;3 (1993)</p></td>
+	<td>899&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419672" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419672">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419672">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419672">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Roberta L. Slavin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419673">The significance of here- and-now disclosure in promoting cohesion in group psychotherapy</a></p>
+		<p>DOI: 10.1007/bf01419673</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;17, issue&nbsp;3 (1993)</p></td>
+	<td>575&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419673" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419673">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419673">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419673">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter J. Schlachet</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419674">The capacity to join in the group process</a></p>
+		<p>DOI: 10.1007/bf01419674</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;17, issue&nbsp;3 (1993)</p></td>
+	<td>1.08&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419674" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419674">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419674">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419674">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rachael Chazan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419675">Group analytic therapy with schizophrenic outpatients</a></p>
+		<p>DOI: 10.1007/bf01419675</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;17, issue&nbsp;3 (1993)</p></td>
+	<td>1.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419675" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419675">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419675">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419675">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joel C. Frost; Anne Alonso</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419676">Brief report: On becoming a group therapist</a></p>
+		<p>DOI: 10.1007/bf01419676</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;17, issue&nbsp;3 (1993)</p></td>
+	<td>430&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419676" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419676">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419676">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419676">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Diane Barth; Henry I. Spitz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419677">Book reviews</a></p>
+		<p>DOI: 10.1007/bf01419677</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;17, issue&nbsp;3 (1993)</p></td>
+	<td>595&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419677" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419677">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419677">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419677">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Harold S. Bernard; Kathryn L. West</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419718">Introduction</a></p>
+		<p>DOI: 10.1007/bf01419718</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;17, issue&nbsp;4 (1993)</p></td>
+	<td>168&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419718" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419718">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419718">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419718">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Edward B. Klein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419719">Large groups in treatment and training settings</a></p>
+		<p>DOI: 10.1007/bf01419719</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;17, issue&nbsp;4 (1993)</p></td>
+	<td>994&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419719" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419719">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419719">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419719">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yvonne M. Agazarian; Frances B. Carter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419720">Discussions on the large group</a></p>
+		<p>DOI: 10.1007/bf01419720</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;17, issue&nbsp;4 (1993)</p></td>
+	<td>2.03&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419720" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419720">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419720">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419720">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wesley Carr</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01419721">Some consequences of conceiving society as a large group</a></p>
+		<p>DOI: 10.1007/bf01419721</p>	</td>
+	<td><p><a href="/scimag/journals/8430">Group</a><p>volume&nbsp;17, issue&nbsp;4 (1993)</p></td>
+	<td>820&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01419721" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01419721">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01419721">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01419721">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;131 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 86</span>
+	 <a href="/scimag/?journal=8430&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

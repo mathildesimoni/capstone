@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1729">Applied Geomatics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1866-9298</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1866-928X</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 14; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 14');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1729&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">331 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 14</span>
+	 <a href="/scimag/?journal=1729&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Biswajeet Pradhan; Saro Lee; Manfred F. Buchroithner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-009-0001-5">Use of geospatial data and fuzzy algebraic operators to landslide-hazard mapping</a></p>
+		<p>DOI: 10.1007/s12518-009-0001-5</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;1, issue&nbsp;1-2 (2009)</p></td>
+	<td>795&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-009-0001-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-009-0001-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-009-0001-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-009-0001-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fabio Crosilla; Domenico Visintini; Francesco Sepic</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-009-0002-4">Reliable automatic classification and segmentation of laser point clouds by statistical analysis of surface curvature values</a></p>
+		<p>DOI: 10.1007/s12518-009-0002-4</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;1, issue&nbsp;1-2 (2009)</p></td>
+	<td>877&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-009-0002-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-009-0002-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-009-0002-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-009-0002-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Maria Antonia Brovelli; Fernando Sansò</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-009-0003-3">Geodatabase updating by new measurements; a Bayesian intermezzo</a></p>
+		<p>DOI: 10.1007/s12518-009-0003-3</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;1, issue&nbsp;1-2 (2009)</p></td>
+	<td>161&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-009-0003-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-009-0003-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-009-0003-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-009-0003-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Diofantos G. Hadjimitsis; Chris Clayton</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-009-0004-2">Determination of aerosol optical thickness through the derivation of an atmospheric correction for short-wavelength Landsat TM and ASTER image data: an application to areas located in the vicinity of airports at UK and Cyprus</a></p>
+		<p>DOI: 10.1007/s12518-009-0004-2</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;1, issue&nbsp;1-2 (2009)</p></td>
+	<td>431&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-009-0004-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-009-0004-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-009-0004-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-009-0004-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-009-0005-1">Welcome to the AG adventure</a></p>
+		<p>DOI: 10.1007/s12518-009-0005-1</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;1, issue&nbsp;1-2 (2009)</p></td>
+	<td>39&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-009-0005-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-009-0005-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-009-0005-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-009-0005-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nicolas Bozon; Bijan Mohammadi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-009-0006-0">GIS-based atmospheric dispersion modelling</a></p>
+		<p>DOI: 10.1007/s12518-009-0006-0</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;1, issue&nbsp;3 (2009)</p></td>
+	<td>881&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-009-0006-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-009-0006-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-009-0006-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-009-0006-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stefano Ferrero; Marco Pierozzi; Luca Repetti; Luciano Surace</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-009-0007-z">An algorithm for the unambiguous determination of the equidistant boundary line between two (or more) coastlines</a></p>
+		<p>DOI: 10.1007/s12518-009-0007-z</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;1, issue&nbsp;3 (2009)</p></td>
+	<td>376&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-009-0007-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-009-0007-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-009-0007-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-009-0007-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniela Carrion; Andrea Maffeis; Federica Migliaccio</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-009-0008-y">A database-oriented approach to GIS designing</a></p>
+		<p>DOI: 10.1007/s12518-009-0008-y</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;1, issue&nbsp;3 (2009)</p></td>
+	<td>389&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-009-0008-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-009-0008-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-009-0008-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-009-0008-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ugo Coppa; Alberto Guarnieri; Francesco Pirotti; Antonio Vettore</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-009-0009-x">Accuracy enhancement of unmanned helicopter positioning with low-cost system</a></p>
+		<p>DOI: 10.1007/s12518-009-0009-x</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;1, issue&nbsp;3 (2009)</p></td>
+	<td>692&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-009-0009-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-009-0009-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-009-0009-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-009-0009-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marco Roggero</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-009-0010-4">Laborde projection in Madagascar cartography and its recovery in WGS84 datum</a></p>
+		<p>DOI: 10.1007/s12518-009-0010-4</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;1, issue&nbsp;4 (2009)</p></td>
+	<td>252&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-009-0010-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-009-0010-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-009-0010-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-009-0010-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Akif Mohammed Al Fugara; Biswajeet Pradhan; Thamer Ahmed Mohamed</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-009-0011-3">Improvement of land-use classification using object-oriented and fuzzy logic approach</a></p>
+		<p>DOI: 10.1007/s12518-009-0011-3</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;1, issue&nbsp;4 (2009)</p></td>
+	<td>1.51&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-009-0011-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-009-0011-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-009-0011-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-009-0011-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rouzbeh Shad; Arefeh Shad; Mohammad Saadi Mesgari; Hossein Aghamohammadi; Damoon Molaei</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-009-0012-2">Fuzzy topological simulation for deducing in GIS</a></p>
+		<p>DOI: 10.1007/s12518-009-0012-2</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;1, issue&nbsp;4 (2009)</p></td>
+	<td>352&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-009-0012-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-009-0012-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-009-0012-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-009-0012-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ayman Rashad Elshehaby; Lamyaa Gamal El-deen Taha</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-009-0013-1">A new expert system module for building detection in urban areas using spectral information and LIDAR data</a></p>
+		<p>DOI: 10.1007/s12518-009-0013-1</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;1, issue&nbsp;4 (2009)</p></td>
+	<td>867&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-009-0013-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-009-0013-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-009-0013-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-009-0013-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Milan Onderka; Igor Melicherčik</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-009-0014-0">Fire-prone areas delineated from a combination of the Nesterov Fire-risk Rating Index with multispectral satellite data</a></p>
+		<p>DOI: 10.1007/s12518-009-0014-0</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;2, issue&nbsp;1 (2010)</p></td>
+	<td>414&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-009-0014-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-009-0014-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-009-0014-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-009-0014-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sadiq Muhammad; Ahmad Zulfiqar; Ayub Muhammad</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-010-0015-z">Vertical gravity anomaly gradient effect of innermost zone on geoid-quasigeoid separation and an optimal integration radius in planar approximation</a></p>
+		<p>DOI: 10.1007/s12518-010-0015-z</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;2, issue&nbsp;1 (2010)</p></td>
+	<td>635&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-010-0015-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-010-0015-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-010-0015-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-010-0015-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jen-Yu Han; Po-Han Li</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-010-0016-y">Utilizing 3-D topographical information for the quality assessment of a satellite surveying</a></p>
+		<p>DOI: 10.1007/s12518-010-0016-y</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;2, issue&nbsp;1 (2010)</p></td>
+	<td>608&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-010-0016-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-010-0016-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-010-0016-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-010-0016-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Abdelkader Mendas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-010-0017-x">The contribution of the digital elevation models and geographic information systems in a watershed hydrologic research</a></p>
+		<p>DOI: 10.1007/s12518-010-0017-x</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;2, issue&nbsp;1 (2010)</p></td>
+	<td>617&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-010-0017-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-010-0017-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-010-0017-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-010-0017-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Garnero Gabriele; Godone Danilo; Bacciocchi Marco</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-010-0018-9">The employment of terrestrial laser scanner in cultural heritage conservation: the case study of Vallinotto Chapel in Carignano-Italy</a></p>
+		<p>DOI: 10.1007/s12518-010-0018-9</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;2, issue&nbsp;2 (2010)</p></td>
+	<td>480&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-010-0018-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-010-0018-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-010-0018-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-010-0018-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Mendas; H. Brek; B. Lakache</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-010-0019-8">Erratum to: The contribution of the digital elevation models and geographic information systems in a watershed hydrologic research</a></p>
+		<p>DOI: 10.1007/s12518-010-0019-8</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;2, issue&nbsp;2 (2010)</p></td>
+	<td>42&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-010-0019-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-010-0019-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-010-0019-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-010-0019-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. M. Rahman; D. S. Arya; N. K. Goel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-010-0020-2">Limitation of 90</a></p>
+		<p>DOI: 10.1007/s12518-010-0020-2</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;2, issue&nbsp;2 (2010)</p></td>
+	<td>1.26&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-010-0020-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-010-0020-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-010-0020-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-010-0020-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marcelo de Carvalho Alves; Edson Ampélio Pozza</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-010-0021-1">Indicator kriging modeling epidemiology of common bean anthracnose</a></p>
+		<p>DOI: 10.1007/s12518-010-0021-1</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;2, issue&nbsp;2 (2010)</p></td>
+	<td>339&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-010-0021-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-010-0021-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-010-0021-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-010-0021-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ravish Khichar; Sai Shivanandan Upadhyay</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-010-0022-0">Wireless sensor networks and their applications in geomatics: case study on developments in developing countries</a></p>
+		<p>DOI: 10.1007/s12518-010-0022-0</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;2, issue&nbsp;2 (2010)</p></td>
+	<td>193&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-010-0022-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-010-0022-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-010-0022-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-010-0022-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rosa Nappi; Giuliana Alessio; Eliana Bellucci Sessa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-010-0023-z">A case study comparing landscape metrics to geologic and seismic data from the Ischia Island (Southern Italy)</a></p>
+		<p>DOI: 10.1007/s12518-010-0023-z</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;2, issue&nbsp;2 (2010)</p></td>
+	<td>818&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-010-0023-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-010-0023-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-010-0023-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-010-0023-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. S. Hadeel; Mushtak T. Jabbar; Xiaoling Chen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-010-0024-y">Application of remote sensing and GIS in the study of environmental sensitivity to desertification: a case study in Basrah Province, southern part of Iraq</a></p>
+		<p>DOI: 10.1007/s12518-010-0024-y</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;2, issue&nbsp;3 (2010)</p></td>
+	<td>535&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-010-0024-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-010-0024-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-010-0024-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-010-0024-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fabio Remondino; Alessandro Rizzi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12518-010-0025-x">Reality-based 3D documentation of natural and cultural heritage sites—techniques, problems, and examples</a></p>
+		<p>DOI: 10.1007/s12518-010-0025-x</p>	</td>
+	<td><p><a href="/scimag/journals/1729">Applied Geomatics</a><p>volume&nbsp;2, issue&nbsp;3 (2010)</p></td>
+	<td>1.70&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12518-010-0025-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12518-010-0025-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12518-010-0025-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12518-010-0025-x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">331 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 14</span>
+	 <a href="/scimag/?journal=1729&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

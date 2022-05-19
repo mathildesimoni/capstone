@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/16608">Lethaia</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0024-1164</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1502-3931</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 97; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 97');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=16608&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;412 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 97</span>
+	 <a href="/scimag/?journal=16608&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>RICHARD P.S. JEFFERIES</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00437.x">A defence of the calcichordates</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00437.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;1 (1997)</p></td>
+	<td>932&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00437.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00437.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00437.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00437.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>SUSAN RIGBY</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00438.x">A comparison of the colonization of the planktic realm and the land</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00438.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;1 (1997)</p></td>
+	<td>692&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00438.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00438.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00438.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00438.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>LYALL I. ANDERSON; PAUL A. SELDEN</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00440.x">Opisthosomal fusion and phylogeny of Palaeozoic Xiphosura</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00440.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;1 (1997)</p></td>
+	<td>1.59&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00440.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00440.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00440.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00440.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>OWEN E. SUTCLIFFE</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00441.x">An ophiuroid trackway from the Lower Devonian Hunsrück Slate, Germany</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00441.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;1 (1997)</p></td>
+	<td>951&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00441.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00441.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00441.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00441.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>DIETER KORN</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00442.x">A modified Balloon Model for septa of early ammonoids</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00442.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;1 (1997)</p></td>
+	<td>343&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00442.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00442.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00442.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00442.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>PETER C. DWORSCHAK; SÉRGIO DE A. RODRIGUES</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00443.x">A modern analogue for the trace fossil <em>Gyrolithes</em>: burrows of the thalassinidean shrimp <em>Axianassa australis</em></a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00443.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;1 (1997)</p></td>
+	<td>2.40&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00443.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00443.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00443.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00443.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>STEFAN MAJORAN; JOEN G.V. WIDMARK; MICHAL KUCERA</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00444.x">Palaeoecological preferences and geographical distribution of Late Maastrichtian deep-sea ostracods in the South Atlantic</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00444.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;1 (1997)</p></td>
+	<td>1.89&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00444.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00444.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00444.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00444.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>DARREN R. GRÖCKE</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00445.x">Stable-isotope studies on the collagenic and hydroxylapatite components of fossils: Palaeoecological implications</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00445.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;1 (1997)</p></td>
+	<td>1.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00445.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00445.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00445.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00445.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>SERGIO F. VIZCAÍNO; RICHARD A. FARIÑA</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00446.x">Diet and locomotion of the armadillo <em>Peltephilus</em>: a new view</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00446.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;1 (1997)</p></td>
+	<td>748&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00446.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00446.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00446.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00446.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>MICHAL KOWALEWSKI</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00447.x">The Reciprocal Taphonomic Model</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00447.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;1 (1997)</p></td>
+	<td>265&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00447.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00447.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00447.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00447.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00448.x">Errata</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00448.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;1 (1997)</p></td>
+	<td>119&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00448.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00448.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00448.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00448.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>JEAN VANNIER; PHILIPPE BOISSY; PATRICK R. RACHEBOEUF</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00449.x">Locomotion in <em>Nebalia bipes</em>: a possible model for Palaeozoic phyllocarid crustaceans</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00449.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;2 (1997)</p></td>
+	<td>4.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00449.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00449.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00449.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00449.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>RICHARD A. FORTEY; ADOLF SEILACHER</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00450.x">The trace fossil <em>Cruziana semiplicata</em> and the trilobite that made it</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00450.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;2 (1997)</p></td>
+	<td>1.46&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00450.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00450.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00450.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00450.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. GABRIELA MÁNGANO; LUIS A. BUATOIS; CHRISTOPHER G. MAPLES; WILLIAM P. LANIER</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00451.x"><em>Tonganoxichnus</em> a new insect trace from the Upper Carboniferous of eastern Kansas</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00451.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;2 (1997)</p></td>
+	<td>2.90&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00451.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00451.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00451.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00451.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>MARKUS BERTLING</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00452.x"><em>Quo vadis</em>, ichnofabric?– 4th International Ichnofabric Workshop, San Salvador, Bahamas, March 1997</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00452.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;2 (1997)</p></td>
+	<td>87&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00452.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00452.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00452.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00452.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>MARTIN ZUSCHIN; WERNER E. PILLER</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00453.x">Gastropod shells recycled – an example from a rocky tidal flat in the northern Red Sea</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00453.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;2 (1997)</p></td>
+	<td>1.61&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00453.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00453.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00453.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00453.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>GÉRARD BRETON</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00454.x">Patterns and processes of heterochrony in Mesozoic goniasterid sea-stars</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00454.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;2 (1997)</p></td>
+	<td>1.50&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00454.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00454.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00454.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00454.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>PASCAL NEIGE; DIDIER MARCHAND; BERNARD LAURIN</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00455.x">Heterochronic differentiation of sexual dimorphs among Jurassic ammonite species</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00455.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;2 (1997)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00455.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00455.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00455.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00455.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>DIETER WALOSSEK</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00456.x">Understanding fossils</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00456.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;2 (1997)</p></td>
+	<td>113&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00456.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00456.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00456.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00456.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>BRUCE S. RUBIDGE; JURI A. VAN DEN HEEVER</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00457.x">Morphology and systematic position of the dinocephalian <em>Styracocephalus platyrhynchus</em></a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00457.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;2 (1997)</p></td>
+	<td>2.73&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00457.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00457.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00457.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00457.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>JEAN VANNIER; MARK WILLIAMS; DAVID J. SIVETER</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00458.x">The Cambrian origin of the circulatory system of crustaceans</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00458.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;3 (1997)</p></td>
+	<td>5.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00458.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00458.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00458.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00458.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>SIÂN EVANS; JONATHAN A. TODD</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00459.x">Late Jurassic soft-bodied wood epibionts preserved by bioimmuration</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00459.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;3 (1997)</p></td>
+	<td>1.46&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00459.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00459.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00459.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00459.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. ROBERT DODD</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00460.x">Climate, ecology, and evolution</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00460.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;3 (1997)</p></td>
+	<td>113&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00460.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00460.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00460.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00460.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>FEDERICO OLÓRIZ; PAUL PALMQVIST; JUAN A. PÉREZ-CLAROS</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00461.x">Shell features, main colonized environments, and fractal analysis of sutures in Late Jurassic ammonites</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00461.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;3 (1997)</p></td>
+	<td>1.89&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00461.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00461.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00461.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00461.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>ROGER A. HEWITT; GERD E.G. WESTERMANN</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1502-3931.1997.tb00462.x">Mechanical significance of ammonoid septa with complex sutures</a></p>
+		<p>DOI: 10.1111/j.1502-3931.1997.tb00462.x</p>	</td>
+	<td><p><a href="/scimag/journals/16608">Lethaia</a><p>volume&nbsp;30, issue&nbsp;3 (1997)</p></td>
+	<td>871&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1502-3931.1997.tb00462.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1502-3931.1997.tb00462.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1502-3931.1997.tb00462.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1502-3931.1997.tb00462.x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;412 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 97</span>
+	 <a href="/scimag/?journal=16608&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

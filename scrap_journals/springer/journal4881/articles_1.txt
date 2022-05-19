@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4881">Computational Geosciences</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1420-0597</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-1499</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 45; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 45');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4881&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;124 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 45</span>
+	 <a href="/scimag/?journal=4881&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Y. Kuznetsov; K. Lipnikov; M. Shashkov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-004-3771-1">The mimetic finite difference method on polygonal meshes for diffusion-type problems</a></p>
+		<p>DOI: 10.1007/s10596-004-3771-1</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;8, issue&nbsp;4 (2004)</p></td>
+	<td>614&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-004-3771-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-004-3771-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-004-3771-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-004-3771-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Aadland; I. Aavatsmark; H. K. Dahle</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-004-3774-y">Performance of a flux splitting scheme when solving the single-phase pressure equation discretized by MPFA</a></p>
+		<p>DOI: 10.1007/s10596-004-3774-y</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;8, issue&nbsp;4 (2004)</p></td>
+	<td>381&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-004-3774-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-004-3774-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-004-3774-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-004-3774-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jiří Maryška; Otto Severýn; Martin Vohralík</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-0152-3">Numerical simulation of fracture flow with a mixed-hybrid FEM stochastic discrete fracture network model</a></p>
+		<p>DOI: 10.1007/s10596-005-0152-3</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;8, issue&nbsp;3 (2005)</p></td>
+	<td>622&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-0152-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-0152-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-0152-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-0152-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. A. Klausen; T. F. Russell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-1815-9">Relationships among some locally conservative discretization methods which handle discontinuous coefficients</a></p>
+		<p>DOI: 10.1007/s10596-005-1815-9</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;8, issue&nbsp;4 (2004)</p></td>
+	<td>608&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-1815-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-1815-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-1815-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-1815-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. E. Santos; C. L. Ravazzoli; P. M. Gauzellino; J. M. Carcione</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-2848-9">Numerical simulation of ultrasonic waves in reservoir rocks with patchy saturation and fractal petrophysical properties</a></p>
+		<p>DOI: 10.1007/s10596-005-2848-9</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;9, issue&nbsp;1 (2005)</p></td>
+	<td>642&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-2848-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-2848-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-2848-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-2848-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eliane Bécache; Abdelaâziz Ezziani; Patrick Joly</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-3772-8">A mixed finite element approach for viscoelastic wave propagation</a></p>
+		<p>DOI: 10.1007/s10596-005-3772-8</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;8, issue&nbsp;3 (2005)</p></td>
+	<td>842&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-3772-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-3772-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-3772-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-3772-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Miguel Angel Moreles; Rogelio Vázquez; Fernando Avila</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-3773-7">The differential system method for parameter identification; unconfined aquifer case</a></p>
+		<p>DOI: 10.1007/s10596-005-3773-7</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;8, issue&nbsp;3 (2005)</p></td>
+	<td>473&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-3773-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-3773-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-3773-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-3773-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. -A. Lie; R. Juanes</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-5663-4">A front-tracking method for the simulation of three-phase flow in porous media</a></p>
+		<p>DOI: 10.1007/s10596-005-5663-4</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;9, issue&nbsp;1 (2005)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-5663-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-5663-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-5663-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-5663-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. M. Nordbotten; I. Aavatsmark</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-5665-2">Monotonicity conditions for control volume methods on uniform parallelogram grids in homogeneous media</a></p>
+		<p>DOI: 10.1007/s10596-005-5665-2</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;9, issue&nbsp;1 (2005)</p></td>
+	<td>349&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-5665-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-5665-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-5665-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-5665-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mike Christie; Margot Gerritsen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-9000-8">Preface</a></p>
+		<p>DOI: 10.1007/s10596-005-9000-8</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;9, issue&nbsp;2-3 (2005)</p></td>
+	<td>123&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-9000-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-9000-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-9000-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-9000-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Z. Tavassoli; Jonathan N. Carter; Peter R. King</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-9001-7">An analysis of history matching errors</a></p>
+		<p>DOI: 10.1007/s10596-005-9001-7</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;9, issue&nbsp;2-3 (2005)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-9001-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-9001-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-9001-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-9001-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Inga Berre; Kenneth Hvistendal Karlsen; Knut-Andreas Lie; Jostein R. Natvig</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-9002-6">Fast computation of arrival times in heterogeneous media</a></p>
+		<p>DOI: 10.1007/s10596-005-9002-6</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;9, issue&nbsp;4 (2005)</p></td>
+	<td>1.60&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-9002-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-9002-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-9002-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-9002-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. O’Sullivan; M. Christie</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-9003-5">Introduction</a></p>
+		<p>DOI: 10.1007/s10596-005-9003-5</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;9, issue&nbsp;2-3 (2005)</p></td>
+	<td>608&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-9003-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-9003-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-9003-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-9003-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Omer Inanc Tureyen; Jef Caers</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-9004-4">A parallel, multiscale approach to reservoir modeling</a></p>
+		<p>DOI: 10.1007/s10596-005-9004-4</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;9, issue&nbsp;2-3 (2005)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-9004-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-9004-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-9004-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-9004-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gerardo Severino; Vladimir Cvetkovic; Antonio Coppola</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-9005-3">On the velocity covariance for steady flows in heterogeneous porous formations and its application to contaminants transport</a></p>
+		<p>DOI: 10.1007/s10596-005-9005-3</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;9, issue&nbsp;4 (2005)</p></td>
+	<td>673&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-9005-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-9005-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-9005-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-9005-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Baird; Clint Dawson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-9006-2">The representer method for data assimilation in single-phase Darcy flow in porous media</a></p>
+		<p>DOI: 10.1007/s10596-005-9006-2</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;9, issue&nbsp;4 (2005)</p></td>
+	<td>464&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-9006-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-9006-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-9006-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-9006-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Hontans; P. Terpolilli</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-9007-1">Taking into account general boundary conditions in upscaling absolute permeability</a></p>
+		<p>DOI: 10.1007/s10596-005-9007-1</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;9, issue&nbsp;4 (2005)</p></td>
+	<td>260&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-9007-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-9007-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-9007-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-9007-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Knabner; B. A. Igler; K. U. Totsche; P. DuChateau</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-9008-0">Unbiased identification of nonlinear sorption characteristics by soil column breakthrough experiments</a></p>
+		<p>DOI: 10.1007/s10596-005-9008-0</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;9, issue&nbsp;4 (2005)</p></td>
+	<td>364&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-9008-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-9008-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-9008-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-9008-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pallav Sarma; Louis J. Durlofsky; Khalid Aziz; Wen H. Chen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-9009-z">Efficient real-time reservoir management using adjoint-based optimal control and model updating</a></p>
+		<p>DOI: 10.1007/s10596-005-9009-z</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;10, issue&nbsp;1 (2006)</p></td>
+	<td>1.37&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-9009-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-9009-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-9009-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-9009-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Geir Nævdal; D. Roald Brouwer; Jan-Dirk Jansen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-9010-6">Waterflooding using closed-loop control</a></p>
+		<p>DOI: 10.1007/s10596-005-9010-6</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;10, issue&nbsp;1 (2006)</p></td>
+	<td>916&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-9010-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-9010-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-9010-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-9010-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Saputelli; M. Nikolaou; M. J. Economides</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-9011-5">Real-time reservoir management: A multiscale adaptive optimization and control approach</a></p>
+		<p>DOI: 10.1007/s10596-005-9011-5</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;10, issue&nbsp;1 (2006)</p></td>
+	<td>2.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-9011-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-9011-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-9011-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-9011-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sigurd Ivar Aanonsen; Dmitry Eydinov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-9012-4">A multiscale method for distributed parameter estimation with application to reservoir history matching</a></p>
+		<p>DOI: 10.1007/s10596-005-9012-4</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;10, issue&nbsp;1 (2006)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-9012-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-9012-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-9012-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-9012-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>José Roberto P. Rodrigues</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-9013-3">Calculating derivatives for automatic history matching</a></p>
+		<p>DOI: 10.1007/s10596-005-9013-3</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;10, issue&nbsp;1 (2006)</p></td>
+	<td>605&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-9013-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-9013-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-9013-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-9013-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jorn F. M. van Doren; Renato Markovinović; Jan-Dirk Jansen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-9014-2">Reduced-order optimal control of water flooding using proper orthogonal decomposition</a></p>
+		<p>DOI: 10.1007/s10596-005-9014-2</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;10, issue&nbsp;1 (2006)</p></td>
+	<td>639&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-9014-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-9014-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-9014-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-9014-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10596-005-9015-1">Preface</a></p>
+		<p>DOI: 10.1007/s10596-005-9015-1</p>	</td>
+	<td><p><a href="/scimag/journals/4881">Computational Geosciences</a><p>volume&nbsp;10, issue&nbsp;1 (2006)</p></td>
+	<td>156&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10596-005-9015-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10596-005-9015-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10596-005-9015-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10596-005-9015-1">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;124 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 45</span>
+	 <a href="/scimag/?journal=4881&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

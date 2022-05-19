@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0073-8301</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1618-1913</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 22; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 22');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=20516&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">536 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 22</span>
+	 <a href="/scimag/?journal=20516&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698537">Publications de René Thom</a></p>
+		<p>DOI: 10.1007/bf02698537</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;68, issue&nbsp;1 (1988)</p></td>
+	<td>136&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698537" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698537">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698537">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698537">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>André Haefliger</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698538">Un aperçu de l’oeuvre de Thom en topologie différentielle (jusqu’en 1957)</a></p>
+		<p>DOI: 10.1007/bf02698538</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;68, issue&nbsp;1 (1988)</p></td>
+	<td>366&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698538" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698538">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698538">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698538">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bernard Teissier</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698539">Travaux de Thom sur les singularités</a></p>
+		<p>DOI: 10.1007/bf02698539</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;68, issue&nbsp;1 (1988)</p></td>
+	<td>410&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698539" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698539">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698539">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698539">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Gromov; H. B. Lawson; W. Thurston</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698540">Hyperbolic 4-manifolds and conformally flat 3-manifolds</a></p>
+		<p>DOI: 10.1007/bf02698540</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;68, issue&nbsp;1 (1988)</p></td>
+	<td>1.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698540" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698540">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698540">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698540">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nicolaas H. Kuiper</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698541">Hyperbolic 4-manifolds and tesselations</a></p>
+		<p>DOI: 10.1007/bf02698541</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;68, issue&nbsp;1 (1988)</p></td>
+	<td>1.97&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698541" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698541">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698541">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698541">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Frédéric Pham</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698542">Résurgence d’un thème de Huygens-Fresnel</a></p>
+		<p>DOI: 10.1007/bf02698542</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;68, issue&nbsp;1 (1988)</p></td>
+	<td>763&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698542" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698542">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698542">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698542">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Simon K. Donaldson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698543">Complex curves and surgery</a></p>
+		<p>DOI: 10.1007/bf02698543</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;68, issue&nbsp;1 (1988)</p></td>
+	<td>363&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698543" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698543">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698543">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698543">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Raoul Bott</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698544">Morse theory indomitable</a></p>
+		<p>DOI: 10.1007/bf02698544</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;68, issue&nbsp;1 (1988)</p></td>
+	<td>813&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698544" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698544">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698544">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698544">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert Hardt; Dennis Sullivan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698545">Variation of the Green function on Riemann surfaces and Whitney’s holomorphic stratification conjecture</a></p>
+		<p>DOI: 10.1007/bf02698545</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;68, issue&nbsp;1 (1988)</p></td>
+	<td>1.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698545" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698545">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698545">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698545">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Daniel Quillen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698546">Algebra cochains and cyclic cohomology</a></p>
+		<p>DOI: 10.1007/bf02698546</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;68, issue&nbsp;1 (1988)</p></td>
+	<td>1.57&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698546" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698546">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698546">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698546">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Atiyah</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698547">Topological quantum field theories</a></p>
+		<p>DOI: 10.1007/bf02698547</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;68, issue&nbsp;1 (1988)</p></td>
+	<td>654&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698547" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698547">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698547">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698547">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Camacho; A. Lins Neto; P. Sad</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698548">Minimal sets of foliations on complex projective spaces</a></p>
+		<p>DOI: 10.1007/bf02698548</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;68, issue&nbsp;1 (1988)</p></td>
+	<td>718&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698548" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698548">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698548">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698548">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Łojasiewicz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698549">Sur l’adhérence d’un ensemble partiellement semi-algébrique</a></p>
+		<p>DOI: 10.1007/bf02698549</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;68, issue&nbsp;1 (1988)</p></td>
+	<td>269&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698549" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698549">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698549">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698549">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. V. Berry</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698550">Stokes’ phenomenon; smoothing a victorian discontinuity</a></p>
+		<p>DOI: 10.1007/bf02698550</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;68, issue&nbsp;1 (1988)</p></td>
+	<td>591&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698550" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698550">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698550">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698550">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. J. de Jong</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698637">Crystalline Dieudonné module theory via formal and rigid geometry</a></p>
+		<p>DOI: 10.1007/bf02698637</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;82, issue&nbsp;1 (1995)</p></td>
+	<td>4.25&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698637" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698637">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698637">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698637">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pekka Tukia</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698638">The limit map of a homomorphism of discrete Möbius groups</a></p>
+		<p>DOI: 10.1007/bf02698638</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;82, issue&nbsp;1 (1995)</p></td>
+	<td>2.18&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698638" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698638">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698638">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698638">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard Evan Schwartz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698639">The quasi-isometry classification of rank one lattices</a></p>
+		<p>DOI: 10.1007/bf02698639</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;82, issue&nbsp;1 (1995)</p></td>
+	<td>1.77&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698639" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698639">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698639">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698639">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Werner Ballmann; Michael Brin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698640">Orbihedra of nonpositive curvature</a></p>
+		<p>DOI: 10.1007/bf02698640</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;82, issue&nbsp;1 (1995)</p></td>
+	<td>2.65&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698640" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698640">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698640">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698640">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yves André</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698643">Pour une théorie inconditionnelle des motifs</a></p>
+		<p>DOI: 10.1007/bf02698643</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;83, issue&nbsp;1 (1996)</p></td>
+	<td>2.74&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698643" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698643">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698643">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698643">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. J. de Jong</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698644">Smoothness, semi-stability and alterations</a></p>
+		<p>DOI: 10.1007/bf02698644</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;83, issue&nbsp;1 (1996)</p></td>
+	<td>2.49&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698644" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698644">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698644">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698644">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marc Bourdon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698645">Sur le birapport au bord des CAT(— 1)-espaces</a></p>
+		<p>DOI: 10.1007/bf02698645</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;83, issue&nbsp;1 (1996)</p></td>
+	<td>464&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698645" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698645">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698645">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698645">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Colin J. Bushnell; Guy Henniart</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698646">Local tame lifting for GL(N) I: Simple characters</a></p>
+		<p>DOI: 10.1007/bf02698646</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;83, issue&nbsp;1 (1996)</p></td>
+	<td>6.65&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698646" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698646">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698646">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698646">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexander Lubotzky; Shahar Mozes; M. S. Raghunathan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698740">The word and Riemannian metrics on lattices of semisimple groups</a></p>
+		<p>DOI: 10.1007/bf02698740</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;91, issue&nbsp;1 (2000)</p></td>
+	<td>2.81&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698740" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698740">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698740">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698740">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Henryk Iwaniec; Wenzhi Luo; Peter Sarnak</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698741">Low lying zeros of families of L-functions</a></p>
+		<p>DOI: 10.1007/bf02698741</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;91, issue&nbsp;1 (2000)</p></td>
+	<td>2.86&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698741" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698741">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698741">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698741">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Laurent Stolovitch</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02698742">Singular complete integrability</a></p>
+		<p>DOI: 10.1007/bf02698742</p>	</td>
+	<td><p><a href="/scimag/journals/20516">Publications Mathématiques de L&#039;IHÉS</a><p>volume&nbsp;91, issue&nbsp;1 (2000)</p></td>
+	<td>3.76&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02698742" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02698742">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02698742">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02698742">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">536 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 22</span>
+	 <a href="/scimag/?journal=20516&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

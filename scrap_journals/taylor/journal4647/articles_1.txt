@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4647">College Teaching</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Taylor and Francis Group</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>8756-7555</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1930-8299</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 100; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 100');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4647&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;478 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 100</span>
+	 <a href="/scimag/?journal=4647&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Piergiovanni, Polly R.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F87567555.2014.896775">Creating a Critical Thinker</a></p>
+		<p>DOI: 10.1080/87567555.2014.896775</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;62, issue&nbsp;3 (2014)</p></td>
+	<td>168&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F87567555.2014.896775" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/87567555.2014.896775">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/87567555.2014.896775">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/87567555.2014.896775">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Youssef, Lamiaa</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F87567550903252819">A Matter of Relevance: Teaching Classics in the 21st Century</a></p>
+		<p>DOI: 10.1080/87567550903252819</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;58, issue&nbsp;1 (2009)</p></td>
+	<td>75&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F87567550903252819" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/87567550903252819">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/87567550903252819">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/87567550903252819">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Caccavo, Frank</td>
+	<td>
+		<p><a href="/scimag/10.3200%2FCTCH.57.1.9-14">Teaching Undergraduates to think Like Scientists</a></p>
+		<p>DOI: 10.3200/CTCH.57.1.9-14</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;57, issue&nbsp;1 (2009)</p></td>
+	<td>187&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3200%2FCTCH.57.1.9-14" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3200/CTCH.57.1.9-14">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3200/CTCH.57.1.9-14">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3200/CTCH.57.1.9-14">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Weltzien, O. Alan</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F87567555.1994.9926842">Two Great Professors: Formidable Intellects with Affection for Students</a></p>
+		<p>DOI: 10.1080/87567555.1994.9926842</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;42, issue&nbsp;4 (1994)</p></td>
+	<td>901&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F87567555.1994.9926842" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/87567555.1994.9926842">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/87567555.1994.9926842">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/87567555.1994.9926842">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patrick M. Scanlon</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F27559159">Student Online Plagiarism: How Do We Respond?</a></p>
+		<p>DOI: 10.2307/27559159</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;51, issue&nbsp;4 (2003)</p></td>
+	<td>1013&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F27559159" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/27559159">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/27559159">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/27559159">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kucsera, John V.; Zimmaro, Dawn M. </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F87567550903583769">Comparing the Effectiveness of Intensive and Traditional Courses</a></p>
+		<p>DOI: 10.1080/87567550903583769</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;58, issue&nbsp;2 (2010)</p></td>
+	<td>148&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F87567550903583769" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/87567550903583769">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/87567550903583769">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/87567550903583769">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jacobsen, Rhonda Hustedt</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F87567555.1993.9926801">What is Good Testing?: Perceptions of College Students</a></p>
+		<p>DOI: 10.1080/87567555.1993.9926801</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;41, issue&nbsp;4 (1993)</p></td>
+	<td>598&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F87567555.1993.9926801" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/87567555.1993.9926801">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/87567555.1993.9926801">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/87567555.1993.9926801">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gelder, Tim van</td>
+	<td>
+		<p><a href="/scimag/10.3200%2FCTCH.53.1.41-48">Teaching Critical Thinking: Some Lessons From Cognitive Science</a></p>
+		<p>DOI: 10.3200/CTCH.53.1.41-48</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;53, issue&nbsp;1 (2005)</p></td>
+	<td>126&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3200%2FCTCH.53.1.41-48" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3200/CTCH.53.1.41-48">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3200/CTCH.53.1.41-48">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3200/CTCH.53.1.41-48">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shimazoe, Junko; Aldrich, Howard </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F87567550903418594">Group Work Can Be Gratifying: Understanding & Overcoming Resistance to Cooperative Learning</a></p>
+		<p>DOI: 10.1080/87567550903418594</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;58, issue&nbsp;2 (2010)</p></td>
+	<td>94&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F87567550903418594" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/87567550903418594">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/87567550903418594">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/87567550903418594">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Houdyshell, Mara L.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F87567550309596416">Navigating the Library: What Students (and Faculty) Need to Know</a></p>
+		<p>DOI: 10.1080/87567550309596416</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;51, issue&nbsp;2 (2003)</p></td>
+	<td>1.26&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F87567550309596416" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/87567550309596416">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/87567550309596416">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/87567550309596416">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eisen, Arri; Hall, Anne; Lee, Tong Soon; Zupko, Jack </td>
+	<td>
+		<p><a href="/scimag/10.3200%2FCTCH.57.2.99-104">Teaching Water: Connecting Across Disciplines and into Daily Life to Address Complex Societal Issues</a></p>
+		<p>DOI: 10.3200/CTCH.57.2.99-104</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;57, issue&nbsp;2 (2009)</p></td>
+	<td>187&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3200%2FCTCH.57.2.99-104" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3200/CTCH.57.2.99-104">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3200/CTCH.57.2.99-104">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3200/CTCH.57.2.99-104">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Balas, Antonina</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F87567550009595827">Using Participation to Assess Students' Knowledge</a></p>
+		<p>DOI: 10.1080/87567550009595827</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;48, issue&nbsp;4 (2000)</p></td>
+	<td>108&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F87567550009595827" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/87567550009595827">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/87567550009595827">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/87567550009595827">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Grasha, Anthony F.; Yangarber-Hicks, Natalia </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F87567550009596080">Integrating Teaching Styles and Learning Styles with Instructional Technology</a></p>
+		<p>DOI: 10.1080/87567550009596080</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;48, issue&nbsp;1 (2000)</p></td>
+	<td>1020&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F87567550009596080" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/87567550009596080">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/87567550009596080">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/87567550009596080">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hutton, Patricia A.</td>
+	<td>
+		<p><a href="/scimag/10.3200%2FCTCH.54.1.171-176">Understanding Student Cheating and What Educators can do About it</a></p>
+		<p>DOI: 10.3200/CTCH.54.1.171-176</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;54, issue&nbsp;1 (2006)</p></td>
+	<td>115&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3200%2FCTCH.54.1.171-176" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3200/CTCH.54.1.171-176">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3200/CTCH.54.1.171-176">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3200/CTCH.54.1.171-176">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cerrito, Patricia B.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F87567559909596070">Teaching Statistical Literacy</a></p>
+		<p>DOI: 10.1080/87567559909596070</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;47, issue&nbsp;1 (1999)</p></td>
+	<td>544&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F87567559909596070" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/87567559909596070">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/87567559909596070">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/87567559909596070">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard Leahy</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F27558391">What the College Writing Center Is—and Isn't</a></p>
+		<p>DOI: 10.2307/27558391</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;38, issue&nbsp;2 (1990)</p></td>
+	<td>1.23&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F27558391" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/27558391">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/27558391">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/27558391">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shibley, Ivan A.</td>
+	<td>
+		<p><a href="/scimag/10.3200%2FCTCH.54.3.271-274">Interdisciplinary Team Teaching: Negotiating Pedagogical Differences</a></p>
+		<p>DOI: 10.3200/CTCH.54.3.271-274</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;54, issue&nbsp;3 (2006)</p></td>
+	<td>106&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3200%2FCTCH.54.3.271-274" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3200/CTCH.54.3.271-274">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3200/CTCH.54.3.271-274">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3200/CTCH.54.3.271-274">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Messineo, Melinda; Gaither, George; Bott, Jennifer; Ritchey, Kristin </td>
+	<td>
+		<p><a href="/scimag/10.3200%2FCTCH.55.3.125-133">Inexperienced Versus Experienced Students' Expectations For Active Learning in Large Classes</a></p>
+		<p>DOI: 10.3200/CTCH.55.3.125-133</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;55, issue&nbsp;3 (2007)</p></td>
+	<td>204&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.3200%2FCTCH.55.3.125-133" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.3200/CTCH.55.3.125-133">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.3200/CTCH.55.3.125-133">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.3200/CTCH.55.3.125-133">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fitch, Brian; Kirby, Alec </td>
+	<td>
+		<p><a href="/scimag/10.1080%2F87567550009595812">Students' Assumptions and Professors' Presumptions: Creating a Learning Community for the Whole Student</a></p>
+		<p>DOI: 10.1080/87567550009595812</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;48, issue&nbsp;2 (2000)</p></td>
+	<td>996&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F87567550009595812" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/87567550009595812">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/87567550009595812">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/87567550009595812">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bloom, Davida</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F87567550903218646">Collaborative Test Taking: Benefits for Learning and Retention</a></p>
+		<p>DOI: 10.1080/87567550903218646</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;57, issue&nbsp;4 (2009)</p></td>
+	<td>83&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F87567550903218646" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/87567550903218646">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/87567550903218646">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/87567550903218646">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Enriquez, Amelito G.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F87567550903263859">Enhancing Student Performance Using Tablet Computers</a></p>
+		<p>DOI: 10.1080/87567550903263859</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;58, issue&nbsp;3 (2010)</p></td>
+	<td>146&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F87567550903263859" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/87567550903263859">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/87567550903263859">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/87567550903263859">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sullivan, Rebecca M.</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F87567555.2012.700339">The Tablet Inscribed: Inclusive Writing Instruction With the iPad</a></p>
+		<p>DOI: 10.1080/87567555.2012.700339</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;61, issue&nbsp;1 (2013)</p></td>
+	<td>61&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F87567555.2012.700339" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/87567555.2012.700339">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/87567555.2012.700339">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/87567555.2012.700339">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lloyd Rieber</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F27558567">Paraprofessional Assessment of Students' Writing</a></p>
+		<p>DOI: 10.2307/27558567</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;41, issue&nbsp;1 (1993)</p></td>
+	<td>887&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F27558567" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/27558567">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/27558567">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/27558567">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yun, Wang</td>
+	<td>
+		<p><a href="/scimag/10.1080%2F87567550309596424">How Raters' and Writers' Perceptions of a Topic Affect the Scoring of Compositions</a></p>
+		<p>DOI: 10.1080/87567550309596424</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;51, issue&nbsp;3 (2003)</p></td>
+	<td>720&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1080%2F87567550309596424" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1080/87567550309596424">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1080/87567550309596424">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1080/87567550309596424">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alison King</td>
+	<td>
+		<p><a href="/scimag/10.2307%2F27558571">From Sage on the Stage to Guide on the Side</a></p>
+		<p>DOI: 10.2307/27558571</p>	</td>
+	<td><p><a href="/scimag/journals/4647">College Teaching</a><p>volume&nbsp;41, issue&nbsp;1 (1993)</p></td>
+	<td>1.34&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.2307%2F27558571" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.2307/27558571">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.2307/27558571">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.2307/27558571">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;478 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 100</span>
+	 <a href="/scimag/?journal=4647&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

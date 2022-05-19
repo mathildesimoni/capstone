@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1077-4866</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1099-1670</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 16; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 16');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=22440&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">400 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 16</span>
+	 <a href="/scimag/?journal=22440&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Dewayne Perry; Wilhelm Schäfer</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199603%292%3A1%3C1%3A%3Aaid-spip36%3E3.0.co%3B2-x">Editorial</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199603)2:1&lt;1::aid-spip36&gt;3.0.co;2-x</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;1 (1996)</p></td>
+	<td>135&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199603%292%3A1%3C1%3A%3Aaid-spip36%3E3.0.co%3B2-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199603%292%3A1%3C1%3A%3Aaid-spip36%3E3.0.co%3B2-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199603%292%3A1%3C1%3A%3Aaid-spip36%3E3.0.co%3B2-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199603%292%3A1%3C1%3A%3Aaid-spip36%3E3.0.co%3B2-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ashok Dandekar; Dewayne E. Perry</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199603%292%3A1%3C13%3A%3Aaid-spip34%3E3.0.co%3B2-p">Barriers to Effective Process Architecture – An Experience Report</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199603)2:1&lt;13::aid-spip34&gt;3.0.co;2-p</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;1 (1996)</p></td>
+	<td>706&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199603%292%3A1%3C13%3A%3Aaid-spip34%3E3.0.co%3B2-p" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199603%292%3A1%3C13%3A%3Aaid-spip34%3E3.0.co%3B2-p">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199603%292%3A1%3C13%3A%3Aaid-spip34%3E3.0.co%3B2-p">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199603%292%3A1%3C13%3A%3Aaid-spip34%3E3.0.co%3B2-p">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mike Konrad; Mary Beth Chrissis; Jack Ferguson; Suzanne Garcia; Bill Hefley; Dave Kitson; Mark Paulk</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199603%292%3A1%3C21%3A%3Aaid-spip31%3E3.0.co%3B2-2">Capability Maturity Modeling<span class="smallCaps">SM</span> at the SEI</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199603)2:1&lt;21::aid-spip31&gt;3.0.co;2-2</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;1 (1996)</p></td>
+	<td>1.18&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199603%292%3A1%3C21%3A%3Aaid-spip31%3E3.0.co%3B2-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199603%292%3A1%3C21%3A%3Aaid-spip31%3E3.0.co%3B2-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199603%292%3A1%3C21%3A%3Aaid-spip31%3E3.0.co%3B2-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199603%292%3A1%3C21%3A%3Aaid-spip31%3E3.0.co%3B2-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Watts S. Humphrey</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199603%292%3A1%3C3%3A%3Aaid-spip32%3E3.0.co%3B2-2">Letter</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199603)2:1&lt;3::aid-spip32&gt;3.0.co;2-2</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;1 (1996)</p></td>
+	<td>40&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199603%292%3A1%3C3%3A%3Aaid-spip32%3E3.0.co%3B2-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199603%292%3A1%3C3%3A%3Aaid-spip32%3E3.0.co%3B2-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199603%292%3A1%3C3%3A%3Aaid-spip32%3E3.0.co%3B2-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199603%292%3A1%3C3%3A%3Aaid-spip32%3E3.0.co%3B2-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Raghu Singh</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199603%292%3A1%3C35%3A%3Aaid-spip29%3E3.0.co%3B2-3">International Standard ISO/IEC 12207 Software Life Cycle Processes</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199603)2:1&lt;35::aid-spip29&gt;3.0.co;2-3</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;1 (1996)</p></td>
+	<td>1.18&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199603%292%3A1%3C35%3A%3Aaid-spip29%3E3.0.co%3B2-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199603%292%3A1%3C35%3A%3Aaid-spip29%3E3.0.co%3B2-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199603%292%3A1%3C35%3A%3Aaid-spip29%3E3.0.co%3B2-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199603%292%3A1%3C35%3A%3Aaid-spip29%3E3.0.co%3B2-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christian Steinmann; Hans Stienen</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199603%292%3A1%3C5%3A%3Aaid-spip33%3E3.0.co%3B2-u">SynQuest – Tool Support for Software Self-Assessments</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199603)2:1&lt;5::aid-spip33&gt;3.0.co;2-u</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;1 (1996)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199603%292%3A1%3C5%3A%3Aaid-spip33%3E3.0.co%3B2-u" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199603%292%3A1%3C5%3A%3Aaid-spip33%3E3.0.co%3B2-u">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199603%292%3A1%3C5%3A%3Aaid-spip33%3E3.0.co%3B2-u">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199603%292%3A1%3C5%3A%3Aaid-spip33%3E3.0.co%3B2-u">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lawrence G. Jones; Linda M. Northrop</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199603%292%3A1%3C51%3A%3Aaid-spip35%3E3.0.co%3B2-o">The Establishing Phase: Planning for Successful Improvement</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199603)2:1&lt;51::aid-spip35&gt;3.0.co;2-o</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;1 (1996)</p></td>
+	<td>297&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199603%292%3A1%3C51%3A%3Aaid-spip35%3E3.0.co%3B2-o" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199603%292%3A1%3C51%3A%3Aaid-spip35%3E3.0.co%3B2-o">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199603%292%3A1%3C51%3A%3Aaid-spip35%3E3.0.co%3B2-o">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199603%292%3A1%3C51%3A%3Aaid-spip35%3E3.0.co%3B2-o">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sergio Bandinelli</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199603%292%3A1%3C54%3A%3Aaid-spip28%3E3.0.co%3B2-7">Report on the Workshop of Software process Environment Architecture</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199603)2:1&lt;54::aid-spip28&gt;3.0.co;2-7</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;1 (1996)</p></td>
+	<td>1.35&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199603%292%3A1%3C54%3A%3Aaid-spip28%3E3.0.co%3B2-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199603%292%3A1%3C54%3A%3Aaid-spip28%3E3.0.co%3B2-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199603%292%3A1%3C54%3A%3Aaid-spip28%3E3.0.co%3B2-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199603%292%3A1%3C54%3A%3Aaid-spip28%3E3.0.co%3B2-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lionel Briand; Khaled El Emam</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199603%292%3A1%3C73%3A%3Aaid-spip30%3E3.0.co%3B2-v">Software Engineering R&D group at CRIM</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199603)2:1&lt;73::aid-spip30&gt;3.0.co;2-v</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;1 (1996)</p></td>
+	<td>140&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199603%292%3A1%3C73%3A%3Aaid-spip30%3E3.0.co%3B2-v" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199603%292%3A1%3C73%3A%3Aaid-spip30%3E3.0.co%3B2-v">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199603%292%3A1%3C73%3A%3Aaid-spip30%3E3.0.co%3B2-v">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199603%292%3A1%3C73%3A%3Aaid-spip30%3E3.0.co%3B2-v">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Subhash Chavan</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199606%292%3A2%3C111%3A%3Aaid-spip41%3E3.0.co%3B2-v">The Year 2000 Date Conversion Process</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199606)2:2&lt;111::aid-spip41&gt;3.0.co;2-v</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;2 (1996)</p></td>
+	<td>867&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199606%292%3A2%3C111%3A%3Aaid-spip41%3E3.0.co%3B2-v" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199606%292%3A2%3C111%3A%3Aaid-spip41%3E3.0.co%3B2-v">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199606%292%3A2%3C111%3A%3Aaid-spip41%3E3.0.co%3B2-v">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199606%292%3A2%3C111%3A%3Aaid-spip41%3E3.0.co%3B2-v">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Khaled El Emam; Dennis R. Goldenson</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199606%292%3A2%3C123%3A%3Aaid-spip38%3E3.0.co%3B2-4">An Empirical Evaluation of the Prospective International SPICE Standard</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199606)2:2&lt;123::aid-spip38&gt;3.0.co;2-4</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;2 (1996)</p></td>
+	<td>3.88&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199606%292%3A2%3C123%3A%3Aaid-spip38%3E3.0.co%3B2-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199606%292%3A2%3C123%3A%3Aaid-spip38%3E3.0.co%3B2-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199606%292%3A2%3C123%3A%3Aaid-spip38%3E3.0.co%3B2-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199606%292%3A2%3C123%3A%3Aaid-spip38%3E3.0.co%3B2-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lawrence G. Jones; Linda M. Northrop; James D. Hart</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199606%292%3A2%3C149%3A%3Aaid-spip44%3E3.0.co%3B2-w">Software Engineering Institute</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199606)2:2&lt;149::aid-spip44&gt;3.0.co;2-w</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;2 (1996)</p></td>
+	<td>384&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199606%292%3A2%3C149%3A%3Aaid-spip44%3E3.0.co%3B2-w" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199606%292%3A2%3C149%3A%3Aaid-spip44%3E3.0.co%3B2-w">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199606%292%3A2%3C149%3A%3Aaid-spip44%3E3.0.co%3B2-w">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199606%292%3A2%3C149%3A%3Aaid-spip44%3E3.0.co%3B2-w">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Prof. Dr. Dieter Rombach</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199606%292%3A2%3C152%3A%3Aaid-spip37%3E3.0.co%3B2-7">New Institute for Applied Software Engineering Research</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199606)2:2&lt;152::aid-spip37&gt;3.0.co;2-7</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;2 (1996)</p></td>
+	<td>323&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199606%292%3A2%3C152%3A%3Aaid-spip37%3E3.0.co%3B2-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199606%292%3A2%3C152%3A%3Aaid-spip37%3E3.0.co%3B2-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199606%292%3A2%3C152%3A%3Aaid-spip37%3E3.0.co%3B2-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199606%292%3A2%3C152%3A%3Aaid-spip37%3E3.0.co%3B2-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Khaled El Emam; Barry Shostak; Nazim H. Madhavji</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199606%292%3A2%3C155%3A%3Aaid-spip39%3E3.0.co%3B2-t">Centre de Recherche Informatique de Montreal</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199606)2:2&lt;155::aid-spip39&gt;3.0.co;2-t</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;2 (1996)</p></td>
+	<td>279&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199606%292%3A2%3C155%3A%3Aaid-spip39%3E3.0.co%3B2-t" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199606%292%3A2%3C155%3A%3Aaid-spip39%3E3.0.co%3B2-t">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199606%292%3A2%3C155%3A%3Aaid-spip39%3E3.0.co%3B2-t">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199606%292%3A2%3C155%3A%3Aaid-spip39%3E3.0.co%3B2-t">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dewayne Perry; Wilhelm Schäfer</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199606%292%3A2%3C81%3A%3Aaid-spip45%3E3.0.co%3B2-g">Editorial</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199606)2:2&lt;81::aid-spip45&gt;3.0.co;2-g</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;2 (1996)</p></td>
+	<td>131&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199606%292%3A2%3C81%3A%3Aaid-spip45%3E3.0.co%3B2-g" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199606%292%3A2%3C81%3A%3Aaid-spip45%3E3.0.co%3B2-g">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199606%292%3A2%3C81%3A%3Aaid-spip45%3E3.0.co%3B2-g">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199606%292%3A2%3C81%3A%3Aaid-spip45%3E3.0.co%3B2-g">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dr Nils Tomes</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199606%292%3A2%3C83%3A%3Aaid-spip42%3E3.0.co%3B2-j">International Quality: Software Process Improvement Approaches in Japan and the UK</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199606)2:2&lt;83::aid-spip42&gt;3.0.co;2-j</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;2 (1996)</p></td>
+	<td>1.44&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199606%292%3A2%3C83%3A%3Aaid-spip42%3E3.0.co%3B2-j" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199606%292%3A2%3C83%3A%3Aaid-spip42%3E3.0.co%3B2-j">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199606%292%3A2%3C83%3A%3Aaid-spip42%3E3.0.co%3B2-j">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199606%292%3A2%3C83%3A%3Aaid-spip42%3E3.0.co%3B2-j">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ilkka Tervonen; Harri Oinas-Kukkonen</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199606%292%3A2%3C97%3A%3Aaid-spip40%3E3.0.co%3B2-c">Reorganizing the Inspection Process: problems encountered and resolved</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199606)2:2&lt;97::aid-spip40&gt;3.0.co;2-c</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;2 (1996)</p></td>
+	<td>1.61&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199606%292%3A2%3C97%3A%3Aaid-spip40%3E3.0.co%3B2-c" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199606%292%3A2%3C97%3A%3Aaid-spip40%3E3.0.co%3B2-c">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199606%292%3A2%3C97%3A%3Aaid-spip40%3E3.0.co%3B2-c">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199606%292%3A2%3C97%3A%3Aaid-spip40%3E3.0.co%3B2-c">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dewayne Perry; Wilhelm Schäfer</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199609%292%3A3%3C163%3A%3Aaid-spip50%3E3.0.co%3B2-a">Editorial</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199609)2:3&lt;163::aid-spip50&gt;3.0.co;2-a</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;3 (1996)</p></td>
+	<td>134&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199609%292%3A3%3C163%3A%3Aaid-spip50%3E3.0.co%3B2-a" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199609%292%3A3%3C163%3A%3Aaid-spip50%3E3.0.co%3B2-a">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199609%292%3A3%3C163%3A%3Aaid-spip50%3E3.0.co%3B2-a">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199609%292%3A3%3C163%3A%3Aaid-spip50%3E3.0.co%3B2-a">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark C. Paulk</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199609%292%3A3%3C165%3A%3Aaid-spip51%3E3.0.co%3B2-1">Guest Editorial for the Special Issue of Papers from the 29th Hawaii International Conference on Systems Science</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199609)2:3&lt;165::aid-spip51&gt;3.0.co;2-1</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;3 (1996)</p></td>
+	<td>195&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199609%292%3A3%3C165%3A%3Aaid-spip51%3E3.0.co%3B2-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199609%292%3A3%3C165%3A%3Aaid-spip51%3E3.0.co%3B2-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199609%292%3A3%3C165%3A%3Aaid-spip51%3E3.0.co%3B2-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199609%292%3A3%3C165%3A%3Aaid-spip51%3E3.0.co%3B2-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ken W. Collier; James S. Collofello</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199609%292%3A3%3C167%3A%3Aaid-spip49%3E3.0.co%3B2-9">A Design-based Model for the Reduction of Software Cycle Time</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199609)2:3&lt;167::aid-spip49&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;3 (1996)</p></td>
+	<td>1.31&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199609%292%3A3%3C167%3A%3Aaid-spip49%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199609%292%3A3%3C167%3A%3Aaid-spip49%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199609%292%3A3%3C167%3A%3Aaid-spip49%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199609%292%3A3%3C167%3A%3Aaid-spip49%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark d&#039;Inverno; G.R. Ribeiro Justo; Paul Howells</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199609%292%3A3%3C181%3A%3Aaid-spip48%3E3.0.co%3B2-s">A Formal Framework For Specifying Design Methods</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199609)2:3&lt;181::aid-spip48&gt;3.0.co;2-s</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;3 (1996)</p></td>
+	<td>1.24&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199609%292%3A3%3C181%3A%3Aaid-spip48%3E3.0.co%3B2-s" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199609%292%3A3%3C181%3A%3Aaid-spip48%3E3.0.co%3B2-s">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199609%292%3A3%3C181%3A%3Aaid-spip48%3E3.0.co%3B2-s">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199609%292%3A3%3C181%3A%3Aaid-spip48%3E3.0.co%3B2-s">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dirk Stelzer; Werner Mellis; Georg Herzwurm</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199609%292%3A3%3C197%3A%3Aaid-spip47%3E3.0.co%3B2-c">Software Process Improvement via ISO 9000? Results of Two Surveys among European Software Houses</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199609)2:3&lt;197::aid-spip47&gt;3.0.co;2-c</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;3 (1996)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199609%292%3A3%3C197%3A%3Aaid-spip47%3E3.0.co%3B2-c" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199609%292%3A3%3C197%3A%3Aaid-spip47%3E3.0.co%3B2-c">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199609%292%3A3%3C197%3A%3Aaid-spip47%3E3.0.co%3B2-c">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199609%292%3A3%3C197%3A%3Aaid-spip47%3E3.0.co%3B2-c">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Takeshige Miyoshi</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199609%292%3A3%3C211%3A%3Aaid-spip46%3E3.0.co%3B2-1">Early Experience with Software Process Assessment using SPICE Framework at Software Research Associates, Inc.</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199609)2:3&lt;211::aid-spip46&gt;3.0.co;2-1</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;3 (1996)</p></td>
+	<td>1.39&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199609%292%3A3%3C211%3A%3Aaid-spip46%3E3.0.co%3B2-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199609%292%3A3%3C211%3A%3Aaid-spip46%3E3.0.co%3B2-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199609%292%3A3%3C211%3A%3Aaid-spip46%3E3.0.co%3B2-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199609%292%3A3%3C211%3A%3Aaid-spip46%3E3.0.co%3B2-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dewayne Perry; Wilhelm Shäfer</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199612%292%3A4%3C237%3A%3Aaid-spip62%3E3.0.co%3B2-8">Editorial</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199612)2:4&lt;237::aid-spip62&gt;3.0.co;2-8</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;4 (1996)</p></td>
+	<td>118&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199612%292%3A4%3C237%3A%3Aaid-spip62%3E3.0.co%3B2-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199612%292%3A4%3C237%3A%3Aaid-spip62%3E3.0.co%3B2-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199612%292%3A4%3C237%3A%3Aaid-spip62%3E3.0.co%3B2-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199612%292%3A4%3C237%3A%3Aaid-spip62%3E3.0.co%3B2-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Howard C. Nelson; Tom Nute; David J. Rodjak</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291099-1670%28199612%292%3A4%3C239%3A%3Aaid-spip55%3E3.0.co%3B2-v">Applying the spiral model: A case study in small project management</a></p>
+		<p>DOI: 10.1002/(sici)1099-1670(199612)2:4&lt;239::aid-spip55&gt;3.0.co;2-v</p>	</td>
+	<td><p><a href="/scimag/journals/22440">Software Process: Improvement and Practice</a><p>volume&nbsp;2, issue&nbsp;4 (1996)</p></td>
+	<td>1.24&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291099-1670%28199612%292%3A4%3C239%3A%3Aaid-spip55%3E3.0.co%3B2-v" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291099-1670%28199612%292%3A4%3C239%3A%3Aaid-spip55%3E3.0.co%3B2-v">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291099-1670%28199612%292%3A4%3C239%3A%3Aaid-spip55%3E3.0.co%3B2-v">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291099-1670%28199612%292%3A4%3C239%3A%3Aaid-spip55%3E3.0.co%3B2-v">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">400 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 16</span>
+	 <a href="/scimag/?journal=22440&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

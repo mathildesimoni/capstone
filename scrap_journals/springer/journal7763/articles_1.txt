@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/7763">Formal Aspects of Computing</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0934-5043</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1433-299X</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 41; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 41');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=7763&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;010 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 41</span>
+	 <a href="/scimag/?journal=7763&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Philippe Noël</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01210997">A transformation-based synthesis of temporal specifications</a></p>
+		<p>DOI: 10.1007/bf01210997</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;7, issue&nbsp;6 (1995)</p></td>
+	<td>1.82&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01210997" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01210997">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01210997">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01210997">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ian Maung</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01210998">On simulation, subtyping and substitutability in sequential object systems</a></p>
+		<p>DOI: 10.1007/bf01210998</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;7, issue&nbsp;6 (1995)</p></td>
+	<td>1.72&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01210998" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01210998">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01210998">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01210998">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David A. Naumann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01210999">Data refinement, call by value and higher order programs</a></p>
+		<p>DOI: 10.1007/bf01210999</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;7, issue&nbsp;6 (1995)</p></td>
+	<td>593&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01210999" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01210999">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01210999">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01210999">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sergei Gorlatch; Christian Lengauer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211000">Parallelization of divide-and-conquer in the Bird-Meertens formalism</a></p>
+		<p>DOI: 10.1007/bf01211000</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;7, issue&nbsp;6 (1995)</p></td>
+	<td>1.18&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211000" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211000">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211000">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211000">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rajit Manohar; K. Rustan; M. Leino</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211001">Conditional composition</a></p>
+		<p>DOI: 10.1007/bf01211001</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;7, issue&nbsp;6 (1995)</p></td>
+	<td>779&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul Mukherjee; Victoria Stavridou</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211002">A theory of Orwellian specifications with NewThink</a></p>
+		<p>DOI: 10.1007/bf01211002</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;7, issue&nbsp;6 (1995)</p></td>
+	<td>1.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Manfred Broy; Cliff Jones</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211048">Editorial</a></p>
+		<p>DOI: 10.1007/bf01211048</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;8, issue&nbsp;1 (1996)</p></td>
+	<td>122&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211048" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211048">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211048">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211048">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paulo S. C. Alencar; Carlos J. P. de Lucena</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211049">A logical framework for evolving software systems</a></p>
+		<p>DOI: 10.1007/bf01211049</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;8, issue&nbsp;1 (1996)</p></td>
+	<td>2.57&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211049" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211049">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211049">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211049">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Gorm Larsen; Bo Stig Hansen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211050">Semantics of under-determined expressions</a></p>
+		<p>DOI: 10.1007/bf01211050</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;8, issue&nbsp;1 (1996)</p></td>
+	<td>1.15&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211050" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211050">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211050">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211050">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Karen Seidel; Paul Gardiner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211051">Structured development of a virtual shared memory system</a></p>
+		<p>DOI: 10.1007/bf01211051</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;8, issue&nbsp;1 (1996)</p></td>
+	<td>969&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211051" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211051">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211051">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211051">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin Simons; Matthias Weber</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211052">An approach to literate and structured formal developments</a></p>
+		<p>DOI: 10.1007/bf01211052</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;8, issue&nbsp;1 (1996)</p></td>
+	<td>1.34&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211052" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211052">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211052">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211052">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Billington; R. Geoff Dromey</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211053">The co-invariant generator: An aid in deriving loop bodies</a></p>
+		<p>DOI: 10.1007/bf01211053</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;8, issue&nbsp;1 (1996)</p></td>
+	<td>991&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211053" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211053">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211053">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211053">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nancy Lynch; Roberto Segala</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211073">A comparison of simulation techniques and algebraic techniques for verifying concurrent systems</a></p>
+		<p>DOI: 10.1007/bf01211073</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;7, issue&nbsp;3 (1995)</p></td>
+	<td>2.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211073" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211073">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211073">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211073">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jane Sinclair; Jim Woodcock</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211074">Event refinement in state-based concurrent systems</a></p>
+		<p>DOI: 10.1007/bf01211074</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;7, issue&nbsp;3 (1995)</p></td>
+	<td>1002&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211074" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211074">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211074">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211074">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Graeme Smith</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211075">A fully abstract semantics of classes for Object-Z</a></p>
+		<p>DOI: 10.1007/bf01211075</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;7, issue&nbsp;3 (1995)</p></td>
+	<td>1.36&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211075" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211075">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211075">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211075">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lone Leth; Bent Thomsen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211076">Some facile chemistry</a></p>
+		<p>DOI: 10.1007/bf01211076</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;7, issue&nbsp;3 (1995)</p></td>
+	<td>944&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211076" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211076">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211076">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211076">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ian J. Hayes; Brendan P. Mahony</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211077">Using units of measurement in formal specifications</a></p>
+		<p>DOI: 10.1007/bf01211077</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;7, issue&nbsp;3 (1995)</p></td>
+	<td>1016&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211077" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211077">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211077">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211077">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Toby Walsh; K. J. Turner; Jan Joris Vereijken</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211078">Book reviews</a></p>
+		<p>DOI: 10.1007/bf01211078</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;7, issue&nbsp;3 (1995)</p></td>
+	<td>294&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211078" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211078">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211078">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211078">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Staples; Peter J. Robinson; Daniel Hazel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211079">A functional logic for higher level reasoning about computation</a></p>
+		<p>DOI: 10.1007/bf01211079</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;6, issue&nbsp;1 (1994)</p></td>
+	<td>1.70&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211079" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211079">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211079">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211079">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Nickolas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211080">The completeness of functional logic</a></p>
+		<p>DOI: 10.1007/bf01211080</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;6, issue&nbsp;1 (1994)</p></td>
+	<td>834&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211080" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211080">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211080">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211080">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J Strother Moore</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211081">A formal model of asynchronous communication and its use in mechanically verifying a biphase mark protocol</a></p>
+		<p>DOI: 10.1007/bf01211081</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;6, issue&nbsp;1 (1994)</p></td>
+	<td>1.74&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211081" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211081">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211081">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211081">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Glenn Bruns; Stuart Anderson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211082">The formalization and analysis of a communications protocol</a></p>
+		<p>DOI: 10.1007/bf01211082</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;6, issue&nbsp;1 (1994)</p></td>
+	<td>1.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211082" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211082">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211082">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211082">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jeannette Wing</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211083">Editorial</a></p>
+		<p>DOI: 10.1007/bf01211083</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;9, issue&nbsp;3 (1997)</p></td>
+	<td>121&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211083" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211083">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211083">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211083">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Donald Sannella; Andrzej Tarlecki</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211084">Essential concepts of algebraic specification and program development</a></p>
+		<p>DOI: 10.1007/bf01211084</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;9, issue&nbsp;3 (1997)</p></td>
+	<td>2.47&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211084" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211084">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211084">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211084">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rutger M. Dijkstra; Beverly A. Sanders</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01211085">A predicate transformer for the progress property ‘to-always’</a></p>
+		<p>DOI: 10.1007/bf01211085</p>	</td>
+	<td><p><a href="/scimag/journals/7763">Formal Aspects of Computing</a><p>volume&nbsp;9, issue&nbsp;3 (1997)</p></td>
+	<td>630&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01211085" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01211085">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01211085">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01211085">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;010 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 41</span>
+	 <a href="/scimag/?journal=7763&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

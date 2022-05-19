@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1868-5137</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1868-5145</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 102; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 102');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=12172&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;544 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 102</span>
+	 <a href="/scimag/?journal=12172&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Thabo K. R. Nkwe; Mieso K. Denko; Jason Ernst</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-009-0001-7">Data ubiquity in autonomic wireless mesh networks</a></p>
+		<p>DOI: 10.1007/s12652-009-0001-7</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;1 (2010)</p></td>
+	<td>470&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-009-0001-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-009-0001-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-009-0001-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-009-0001-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yang Yang; Naixue Xiong; Athanasios V. Vasilakos; Jintao Xue; Gaofeng Wang; Liang Zhou</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-009-0002-6">A reliable quick parasitic capacitance extraction tool for the physical layer in communication systems</a></p>
+		<p>DOI: 10.1007/s12652-009-0002-6</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;2 (2010)</p></td>
+	<td>603&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-009-0002-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-009-0002-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-009-0002-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-009-0002-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael J. O’Grady; Conor Muldoon; Mauro Dragone; Richard Tynan; Gregory M. P. O’Hare</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-009-0003-5">Towards evolutionary ambient assisted living systems</a></p>
+		<p>DOI: 10.1007/s12652-009-0003-5</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;1 (2010)</p></td>
+	<td>406&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-009-0003-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-009-0003-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-009-0003-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-009-0003-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tom Gross</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-009-0004-4">Towards a new human-centred computing methodology for cooperative ambient intelligence</a></p>
+		<p>DOI: 10.1007/s12652-009-0004-4</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;1 (2010)</p></td>
+	<td>275&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-009-0004-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-009-0004-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-009-0004-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-009-0004-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Maurits Clemens Kaptein; Panos Markopoulos; Boris de Ruyter; Emile Aarts</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-009-0005-3">Persuasion in ambient intelligence</a></p>
+		<p>DOI: 10.1007/s12652-009-0005-3</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;1 (2010)</p></td>
+	<td>276&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-009-0005-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-009-0005-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-009-0005-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-009-0005-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dante I. Tapia; Ajith Abraham; Juan M. Corchado; Ricardo S. Alonso</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-009-0006-2">Agents and ambient intelligence: case studies</a></p>
+		<p>DOI: 10.1007/s12652-009-0006-2</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;2 (2010)</p></td>
+	<td>595&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-009-0006-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-009-0006-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-009-0006-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-009-0006-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Geetika Singla; Diane J. Cook; Maureen Schmitter-Edgecombe</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-009-0007-1">Recognizing independent and joint activities among multiple residents in smart environments</a></p>
+		<p>DOI: 10.1007/s12652-009-0007-1</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;1 (2010)</p></td>
+	<td>500&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-009-0007-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-009-0007-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-009-0007-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-009-0007-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Witold Pedrycz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-009-0008-0">Human centricity in computing with fuzzy sets: an interpretability quest for higher order granular constructs</a></p>
+		<p>DOI: 10.1007/s12652-009-0008-0</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;1 (2010)</p></td>
+	<td>428&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-009-0008-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-009-0008-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-009-0008-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-009-0008-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vincenzo Loia</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-010-0009-z">Editorial to first issue</a></p>
+		<p>DOI: 10.1007/s12652-010-0009-z</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;1 (2010)</p></td>
+	<td>80&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-010-0009-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-010-0009-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-010-0009-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-010-0009-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rami Abielmona; Emil M. Petriu; Thomas E. Whalen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-010-0010-6">Distributed intelligent sensor agent system for environment mapping</a></p>
+		<p>DOI: 10.1007/s12652-010-0010-6</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;2 (2010)</p></td>
+	<td>959&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-010-0010-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-010-0010-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-010-0010-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-010-0010-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mei-Hui Wang; Chang-Shing Lee; Kuang-Liang Hsieh; Chin-Yuan Hsu; Giovanni Acampora; Chong-Ching Chang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-010-0011-5">Ontology-based multi-agents for intelligent healthcare applications</a></p>
+		<p>DOI: 10.1007/s12652-010-0011-5</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;2 (2010)</p></td>
+	<td>1.64&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-010-0011-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-010-0011-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-010-0011-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-010-0011-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chet Langin; Shahram Rahimi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-010-0012-4">Soft computing in intrusion detection: the state of the art</a></p>
+		<p>DOI: 10.1007/s12652-010-0012-4</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;2 (2010)</p></td>
+	<td>390&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-010-0012-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-010-0012-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-010-0012-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-010-0012-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marco Calabrese; Alberto Amato; Vincenzo Di Lecce; Vincenzo Piuri</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-010-0013-3">Hierarchical-granularity holonic modelling</a></p>
+		<p>DOI: 10.1007/s12652-010-0013-3</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;3 (2010)</p></td>
+	<td>460&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-010-0013-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-010-0013-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-010-0013-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-010-0013-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Julia M. Taylor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-010-0014-2">Ontology-based view of natural language meaning: the case of humor detection</a></p>
+		<p>DOI: 10.1007/s12652-010-0014-2</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;3 (2010)</p></td>
+	<td>911&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-010-0014-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-010-0014-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-010-0014-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-010-0014-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xiao-Qin Cao; Zhi-Qiang Liu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-010-0015-1">Human motion detection using Markov random fields</a></p>
+		<p>DOI: 10.1007/s12652-010-0015-1</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;3 (2010)</p></td>
+	<td>870&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-010-0015-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-010-0015-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-010-0015-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-010-0015-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Regina Frei; Giovanna Di Marzo Serugendo; Traian Florin Șerbănuță</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-010-0016-0">Ambient intelligence in self-organising assembly systems using the chemical reaction model</a></p>
+		<p>DOI: 10.1007/s12652-010-0016-0</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;3 (2010)</p></td>
+	<td>1.76&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-010-0016-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-010-0016-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-010-0016-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-010-0016-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yuhong Feng; Jiannong Cao; Yan Sun; Weigang Wu; Canfeng Chen; Jian Ma</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-010-0017-z">Reliable and efficient service composition based on smart objects’ state information</a></p>
+		<p>DOI: 10.1007/s12652-010-0017-z</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;3 (2010)</p></td>
+	<td>787&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-010-0017-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-010-0017-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-010-0017-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-010-0017-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ben Salem; Jorge Alves Lino; Matthias Rauterberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-010-0018-y">SmartEx: a case study on user profiling and adaptation in exhibition booths</a></p>
+		<p>DOI: 10.1007/s12652-010-0018-y</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;3 (2010)</p></td>
+	<td>432&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-010-0018-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-010-0018-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-010-0018-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-010-0018-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fuad Bajaber; Irfan Awan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-010-0019-x">Energy efficient clustering protocol to enhance lifetime of wireless sensor network</a></p>
+		<p>DOI: 10.1007/s12652-010-0019-x</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;4 (2010)</p></td>
+	<td>467&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-010-0019-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-010-0019-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-010-0019-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-010-0019-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yasuhiro Nose; Akimitsu Kanzaki; Takahiro Hara; Shojiro Nishio</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-010-0020-4">A route construction based on measured characteristics of radio propagation in wireless sensor networks</a></p>
+		<p>DOI: 10.1007/s12652-010-0020-4</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;4 (2010)</p></td>
+	<td>1009&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-010-0020-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-010-0020-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-010-0020-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-010-0020-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Masahiro Hiyama; Makoto Ikeda; Leonard Barolli; Makoto Takizawa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-010-0021-3">Performance analysis of multi-hop ad-hoc network using multi-flow traffic for indoor scenarios</a></p>
+		<p>DOI: 10.1007/s12652-010-0021-3</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;4 (2010)</p></td>
+	<td>621&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-010-0021-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-010-0021-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-010-0021-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-010-0021-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fatos Xhafa; Christian Sanchez; Leonard Barolli; Evjola Spaho</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-010-0022-2">Evaluation of genetic algorithms for mesh router nodes placement in wireless mesh networks</a></p>
+		<p>DOI: 10.1007/s12652-010-0022-2</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;4 (2010)</p></td>
+	<td>1.12&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-010-0022-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-010-0022-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-010-0022-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-010-0022-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jiao Feng; Chi Xuefen; Peng Li; Wang Yining; Lin Guan; Xingang Wang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-010-0023-1">Adaptive FEC algorithm based on prediction of video quality and bandwidth utilization ratio</a></p>
+		<p>DOI: 10.1007/s12652-010-0023-1</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;4 (2010)</p></td>
+	<td>436&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-010-0023-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-010-0023-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-010-0023-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-010-0023-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lukman Hakim Iwan; Maytham Safar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-010-0024-0">Pattern mining from movement of mobile users</a></p>
+		<p>DOI: 10.1007/s12652-010-0024-0</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;4 (2010)</p></td>
+	<td>829&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-010-0024-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-010-0024-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-010-0024-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-010-0024-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Noriki Uchida; Kazuo Takahata; Yoshitaka Shibata</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12652-010-0025-z">Transmission control methods with multihopped environments in cognitive wireless networks</a></p>
+		<p>DOI: 10.1007/s12652-010-0025-z</p>	</td>
+	<td><p><a href="/scimag/journals/12172">Journal of Ambient Intelligence and Humanized Computing</a><p>volume&nbsp;1, issue&nbsp;4 (2010)</p></td>
+	<td>358&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12652-010-0025-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12652-010-0025-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12652-010-0025-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12652-010-0025-z">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;544 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 102</span>
+	 <a href="/scimag/?journal=12172&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

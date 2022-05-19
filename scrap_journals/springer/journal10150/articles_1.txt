@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer Netherlands</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>2210-7703</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>2210-7711</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 192; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 192');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=10150&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;792 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 192</span>
+	 <a href="/scimag/?journal=10150&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>P. Vermeij; D. Blok</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00417755">New peptide and protein drugs</a></p>
+		<p>DOI: 10.1007/bf00417755</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;3 (1996)</p></td>
+	<td>819&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00417755" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00417755">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00417755">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00417755">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dirk Reyn</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00417756">Supplying more than the product. Is this a sensible future strategy?</a></p>
+		<p>DOI: 10.1007/bf00417756</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;3 (1996)</p></td>
+	<td>271&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00417756" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00417756">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00417756">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00417756">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. C. Perkins; M. Frier</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00417757">Nuclear medicine techniques in the evaluation of pharmaceutical formulations</a></p>
+		<p>DOI: 10.1007/bf00417757</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;3 (1996)</p></td>
+	<td>1.52&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00417757" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00417757">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00417757">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00417757">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. J. Kollöffel; F. G. W. H. M. Driessen; P. B. Goldhoorn</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00417758">Plasma concentration profiles after pre-operative rectal administration of a solution of paracetamol in children</a></p>
+		<p>DOI: 10.1007/bf00417758</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;3 (1996)</p></td>
+	<td>345&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00417758" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00417758">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00417758">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00417758">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. J. Kollöffel; L. E. A. Weekers; P. B. Goldhoorn</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00417759">Pharmacokinetics of propylene glycol after rectal administration</a></p>
+		<p>DOI: 10.1007/bf00417759</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;3 (1996)</p></td>
+	<td>451&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00417759" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00417759">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00417759">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00417759">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. M. Hanff; W. J. Rutten</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00417760">Pharmacokinetic aspects of rectal formulations of Temazepam</a></p>
+		<p>DOI: 10.1007/bf00417760</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;3 (1996)</p></td>
+	<td>610&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00417760" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00417760">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00417760">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00417760">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard M. W. Hoetelmans</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00417761">Book review</a></p>
+		<p>DOI: 10.1007/bf00417761</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;3 (1996)</p></td>
+	<td>112&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00417761" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00417761">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00417761">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00417761">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. F. Meert</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00449683">Pharmacotherapy of opioids: present and future developments</a></p>
+		<p>DOI: 10.1007/bf00449683</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;1 (1996)</p></td>
+	<td>1.96&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00449683" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00449683">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00449683">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00449683">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. H. H. Wiltink; C. E. M. Hollak</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00449684">Alglucerase (CeredaseTM)</a></p>
+		<p>DOI: 10.1007/bf00449684</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;1 (1996)</p></td>
+	<td>517&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00449684" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00449684">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00449684">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00449684">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Y. Karasulu; G. Ertan; T. Günerï</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00449685">33factorial design-based optimization of the formulation of nitrofurantoin microcapsules</a></p>
+		<p>DOI: 10.1007/bf00449685</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;1 (1996)</p></td>
+	<td>706&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00449685" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00449685">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00449685">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00449685">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. J. Kollöffel; F. G. W. H. M. Driessen; P. B. Goldhoorn</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00449686">Rectal administration of paracetamol: a comparison of a solution and suppositories in adult volunteers</a></p>
+		<p>DOI: 10.1007/bf00449686</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;1 (1996)</p></td>
+	<td>487&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00449686" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00449686">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00449686">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00449686">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Arends; E. Halteren; W. Kamp; J. Schokker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00449687">Safety of 9-(2-phosphonylmethoxyethyl)adenine (PMEA) in patients with human immunodeficiency virus infection</a></p>
+		<p>DOI: 10.1007/bf00449687</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;1 (1996)</p></td>
+	<td>687&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00449687" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00449687">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00449687">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00449687">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. Hill; C. Stam; R. A. Haselen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00449688">The efficacy of Prrrikweg®gel in the treatment of insect bites: a double-blind, placebo-controlled clinical trial</a></p>
+		<p>DOI: 10.1007/bf00449688</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;1 (1996)</p></td>
+	<td>983&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00449688" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00449688">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00449688">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00449688">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. T. C. M. Koopmans; M. A. J. H. Willekens-Bogaers; J. M. Rossum; H. J. M. Hoogen; C. Weel; Y. A. Hekster</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00449689">Psychotropic drug use in a group of Dutch nursing home patients with dementia: many users, long-term use, but low doses</a></p>
+		<p>DOI: 10.1007/bf00449689</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;1 (1996)</p></td>
+	<td>616&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00449689" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00449689">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00449689">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00449689">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00449690">Audit of antibiotic usage in a medium-sized general hospital over an 11-year period</a></p>
+		<p>DOI: 10.1007/bf00449690</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;1 (1996)</p></td>
+	<td>24&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00449690" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00449690">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00449690">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00449690">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00458163">Abstracts oral communications</a></p>
+		<p>DOI: 10.1007/bf00458163</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;5 Supplement (1996)</p></td>
+	<td>1.59&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00458163" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00458163">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00458163">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00458163">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00458164">Abstracts posters</a></p>
+		<p>DOI: 10.1007/bf00458164</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;5 Supplement (1996)</p></td>
+	<td>2.88&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00458164" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00458164">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00458164">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00458164">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. E. L. McColl</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00579705">Helicobacter pylori infection and its role in human disease — an overview</a></p>
+		<p>DOI: 10.1007/bf00579705</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;2 (1996)</p></td>
+	<td>820&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00579705" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00579705">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00579705">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00579705">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. P. Tollenaere</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00579706">The role of structure-based ligand design and molecular modelling in drug discovery</a></p>
+		<p>DOI: 10.1007/bf00579706</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;2 (1996)</p></td>
+	<td>839&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00579706" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00579706">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00579706">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00579706">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. S. Lau; K. S. Beuning; A. Boer; A. J. Porsius; E. Postma-Lim; L. Klein-Beemink</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00579707">Non-compliance in elderly people: evaluation of risk factors by longitudinal data analysis</a></p>
+		<p>DOI: 10.1007/bf00579707</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;2 (1996)</p></td>
+	<td>632&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00579707" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00579707">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00579707">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00579707">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Kalix</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00579708">Catha edulis, a plant that has amphetamine effects</a></p>
+		<p>DOI: 10.1007/bf00579708</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;2 (1996)</p></td>
+	<td>813&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00579708" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00579708">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00579708">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00579708">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. A. T. M. M. Vinks; D. J. Touw; R. C. J. M. Rossen; H. G. M. Heijerman; W. Bakker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00579709">Stability of aztreonam in a portable pump reservoir used for home intravenous antibiotic treatment (HIVAT)</a></p>
+		<p>DOI: 10.1007/bf00579709</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;2 (1996)</p></td>
+	<td>381&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00579709" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00579709">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00579709">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00579709">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Birgit Maas; Christoph Huber; Irene Krämer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00579710">Plasticizer extraction of Taxol®-infusion solution from various infusion devices</a></p>
+		<p>DOI: 10.1007/bf00579710</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;2 (1996)</p></td>
+	<td>500&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00579710" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00579710">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00579710">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00579710">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark P. Mobach; Jos J. Werf; F. J. Tromp</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00579711">APOM-project: An investigation of pharmacy organization and management</a></p>
+		<p>DOI: 10.1007/bf00579711</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;2 (1996)</p></td>
+	<td>189&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00579711" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00579711">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00579711">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00579711">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Y. Boer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00579712">Preparation and stability testing of a hydrogel for topical analgesia</a></p>
+		<p>DOI: 10.1007/bf00579712</p>	</td>
+	<td><p><a href="/scimag/journals/10150">International Journal of Clinical Pharmacy</a><p>volume&nbsp;18, issue&nbsp;2 (1996)</p></td>
+	<td>134&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00579712" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00579712">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00579712">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00579712">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;792 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 192</span>
+	 <a href="/scimag/?journal=10150&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

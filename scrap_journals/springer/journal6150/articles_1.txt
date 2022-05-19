@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/6150">East Asia</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1096-6838</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1874-6284</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 33; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 33');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=6150&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">817 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 33</span>
+	 <a href="/scimag/?journal=6150&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Peter Li</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03179519">To our readers</a></p>
+		<p>DOI: 10.1007/bf03179519</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;16, issue&nbsp;1-2 (1997)</p></td>
+	<td>270&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03179519" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03179519">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03179519">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03179519">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gilbert Rozman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03179520">Cross-national integration in Northeast Asia: Geopolitical and economic goals in conflict</a></p>
+		<p>DOI: 10.1007/bf03179520</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;16, issue&nbsp;1-2 (1997)</p></td>
+	<td>2.27&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03179520" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03179520">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03179520">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03179520">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Russell C. M. Ong</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03179521">Japan and China: Security interests in the post-Cold War era</a></p>
+		<p>DOI: 10.1007/bf03179521</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;16, issue&nbsp;1-2 (1997)</p></td>
+	<td>1.30&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03179521" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03179521">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03179521">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03179521">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sharif M. Shuja</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03179522">U.S. and Japan’s trends in attitudes toward the Korean peninsula</a></p>
+		<p>DOI: 10.1007/bf03179522</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;16, issue&nbsp;1-2 (1997)</p></td>
+	<td>1.32&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03179522" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03179522">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03179522">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03179522">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Qingxin Ken Wang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03179523">Japan’s search for influence in the Korean peninsula after the Cold War: Aspirations and constraints</a></p>
+		<p>DOI: 10.1007/bf03179523</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;16, issue&nbsp;1-2 (1997)</p></td>
+	<td>1.46&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03179523" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03179523">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03179523">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03179523">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zhang Zhongli; Huang Renwei</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03179524">China-U.S. relations: An historical perspective on trends and prospects</a></p>
+		<p>DOI: 10.1007/bf03179524</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;16, issue&nbsp;1-2 (1997)</p></td>
+	<td>1.26&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03179524" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03179524">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03179524">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03179524">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xudong Zhang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03179525">Nationalism and contemporary China</a></p>
+		<p>DOI: 10.1007/bf03179525</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;16, issue&nbsp;1-2 (1997)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03179525" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03179525">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03179525">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03179525">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chun-Chieh Huang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03179526">A confucian critique of Samuel P. Huntington’sClash of civilizations</a></p>
+		<p>DOI: 10.1007/bf03179526</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;16, issue&nbsp;1-2 (1997)</p></td>
+	<td>735&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03179526" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03179526">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03179526">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03179526">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Axèle Giroud; Hafiz Mirza</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03179657">Multinational enterprise policies towards international intra-firm technology transfer: The case of Japanese manufacturing firms in Asia</a></p>
+		<p>DOI: 10.1007/bf03179657</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;23, issue&nbsp;4 (2006)</p></td>
+	<td>1.38&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03179657" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03179657">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03179657">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03179657">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yanzhong Huang; Sheng Ding</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03179658">Dragon’s underbelly: An analysis of China’s soft power</a></p>
+		<p>DOI: 10.1007/bf03179658</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;23, issue&nbsp;4 (2006)</p></td>
+	<td>1.76&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03179658" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03179658">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03179658">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03179658">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jaeho Hwang; Kim Jasper</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03179659">Defining the limits of the North Korean Human Rights Act: A security and legal perspective</a></p>
+		<p>DOI: 10.1007/bf03179659</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;23, issue&nbsp;4 (2006)</p></td>
+	<td>1.18&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03179659" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03179659">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03179659">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03179659">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kwon Eundak</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03179660">Perceptions toward North Korea’s nuclear weapons program: Findings from a public opinion survey</a></p>
+		<p>DOI: 10.1007/bf03179660</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;23, issue&nbsp;4 (2006)</p></td>
+	<td>1.36&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03179660" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03179660">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03179660">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03179660">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Karsten Frey; David Kerr; Andrew J. Nathan; Philip Towle</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03179661">Book Reviews</a></p>
+		<p>DOI: 10.1007/bf03179661</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;23, issue&nbsp;4 (2006)</p></td>
+	<td>768&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03179661" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03179661">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03179661">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03179661">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf03179662">Notes on contributors</a></p>
+		<p>DOI: 10.1007/bf03179662</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;23, issue&nbsp;4 (2006)</p></td>
+	<td>815&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf03179662" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf03179662">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf03179662">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf03179662">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Li</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12140-000-0016-3">From the editor</a></p>
+		<p>DOI: 10.1007/s12140-000-0016-3</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;18, issue&nbsp;4 (2000)</p></td>
+	<td>172&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12140-000-0016-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12140-000-0016-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12140-000-0016-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12140-000-0016-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Louisa Schein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12140-000-0017-2">Introduction: East Asian sexualities</a></p>
+		<p>DOI: 10.1007/s12140-000-0017-2</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;18, issue&nbsp;4 (2000)</p></td>
+	<td>367&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12140-000-0017-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12140-000-0017-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12140-000-0017-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12140-000-0017-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sara L. Friedman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12140-000-0018-1">Spoken pleasures and dangerous desires: Sexuality, marriage, and the state in rural southeastern China</a></p>
+		<p>DOI: 10.1007/s12140-000-0018-1</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;18, issue&nbsp;4 (2000)</p></td>
+	<td>1.45&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12140-000-0018-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12140-000-0018-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12140-000-0018-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12140-000-0018-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cheng Sea-ling</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12140-000-0019-0">Assuming manhood: Prostitution and patriotic passions in Korea</a></p>
+		<p>DOI: 10.1007/s12140-000-0019-0</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;18, issue&nbsp;4 (2000)</p></td>
+	<td>2.38&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12140-000-0019-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12140-000-0019-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12140-000-0019-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12140-000-0019-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gretchen Jones</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12140-000-0020-7">Subversive strategies: Masochism, gender and power in Kōno Taeko’s 3 “Toddler-Hunting”</a></p>
+		<p>DOI: 10.1007/s12140-000-0020-7</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;18, issue&nbsp;4 (2000)</p></td>
+	<td>1.56&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12140-000-0020-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12140-000-0020-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12140-000-0020-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12140-000-0020-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Sandra Teresa Hyde</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12140-000-0021-6">Selling sex and sidestepping the state: Prostitutes, condoms, and HIV/AIDS prevention in Southwest China</a></p>
+		<p>DOI: 10.1007/s12140-000-0021-6</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;18, issue&nbsp;4 (2000)</p></td>
+	<td>1.62&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12140-000-0021-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12140-000-0021-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12140-000-0021-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12140-000-0021-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John A. Wiggins</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12140-000-0022-5">“May I talk to you?” ethno-sexual encounters in Taipei’s New Park—A queer ethnography</a></p>
+		<p>DOI: 10.1007/s12140-000-0022-5</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;18, issue&nbsp;4 (2000)</p></td>
+	<td>1.57&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12140-000-0022-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12140-000-0022-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12140-000-0022-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12140-000-0022-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xudong Zhang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12140-001-0001-5">Challenging the eurocentric, cold war view of China and the making of a post-tiananmen intellectual field</a></p>
+		<p>DOI: 10.1007/s12140-001-0001-5</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;19, issue&nbsp;1-2 (2001)</p></td>
+	<td>2.99&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12140-001-0001-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12140-001-0001-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12140-001-0001-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12140-001-0001-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hieyeon Keum; Joel R. Campbell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12140-001-0002-4">Devouring dragon and escaping tiger: China’s unification policy vs. Taiwan’s quasi-independence as a problem of international relations</a></p>
+		<p>DOI: 10.1007/s12140-001-0002-4</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;19, issue&nbsp;1-2 (2001)</p></td>
+	<td>1.97&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12140-001-0002-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12140-001-0002-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12140-001-0002-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12140-001-0002-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Elaine Gerbert</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12140-001-0003-3">Images of Japan in the digital age</a></p>
+		<p>DOI: 10.1007/s12140-001-0003-3</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;19, issue&nbsp;1-2 (2001)</p></td>
+	<td>1.49&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12140-001-0003-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12140-001-0003-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12140-001-0003-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12140-001-0003-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hongyan Xiao</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs12140-001-0004-2">Falun Gong and the ideological crisis of the Chinese Communist Party: Marxist atheism vs. vulgar theism</a></p>
+		<p>DOI: 10.1007/s12140-001-0004-2</p>	</td>
+	<td><p><a href="/scimag/journals/6150">East Asia</a><p>volume&nbsp;19, issue&nbsp;1-2 (2001)</p></td>
+	<td>1.03&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs12140-001-0004-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s12140-001-0004-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s12140-001-0004-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s12140-001-0004-2">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">817 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 33</span>
+	 <a href="/scimag/?journal=6150&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

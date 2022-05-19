@@ -1,0 +1,379 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Elsevier Science</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1620-7742</td>
+	</tr>
+					</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 9; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 9');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4858&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">217 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 9</span>
+	 <a href="/scimag/?journal=4858&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Pierre Vidal; Boris Khasainov</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900004-0">Condition d'explosion par impact de détonation</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00004-0</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;7 (2000)</p></td>
+	<td>217&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900004-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900004-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900004-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900004-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mourad Sini</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900005-2">Un résultat d'absence de valeurs propres plongées pour le guide topographique élastique</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00005-2</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;7 (2000)</p></td>
+	<td>120&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900005-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900005-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900005-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900005-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mahamane Kader; Michel Lenczner; Zeljko Mrcarica</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900006-4">Approximation d'un contrôle optimal distribué par un circuit électronique réparti: application au contrôle de vibrations</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00006-4</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;7 (2000)</p></td>
+	<td>371&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900006-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900006-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900006-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900006-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mohammed Hjiaj; Guillaume Bodovillé; Géry de Saxcé</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900007-6">Matériaux viscoplastiques et lois de normalité implicites</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00007-6</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;7 (2000)</p></td>
+	<td>132&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900007-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900007-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900007-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900007-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hatem Zenzri</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900008-8">Encadrement du moment extrême dans l'essai au scissomètre</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00008-8</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;8 (2000)</p></td>
+	<td>150&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900008-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900008-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900008-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900008-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pierre Waché; Xiong Wang; Gérard Maurice; Michel Lucius; Jean-François Stoltz</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900009-x">Calcul numérique de la déformation mécanique d'un modèle de cellule endothéliale</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00009-x</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;8 (2000)</p></td>
+	<td>168&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900009-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900009-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900009-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900009-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Imen Kallel-Kamoun; François Sidoroff</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900010-6">Effets de plaques dans l'essai de flexion 3 points</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00010-6</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;8 (2000)</p></td>
+	<td>133&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900010-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900010-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900010-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900010-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Giovanni Alessandrini; Elena Beretta; Edi Rosset; Sergio Vessella</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900011-8">Inverse boundary value problems with unknown boundaries: Optimal stability</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00011-8</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;8 (2000)</p></td>
+	<td>133&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900011-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900011-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900011-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900011-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Radomir Askovic</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900013-1">Calcul approché de la trainée d'une bulle sphérique de gaz mise brusquement en ascension dans un liquide</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00013-1</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;8 (2000)</p></td>
+	<td>131&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900013-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900013-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900013-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900013-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Luc Dormieux; Samir Maghous</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900014-3">Évolution des propriétés élastiques en poroplasticité finie</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00014-3</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;8 (2000)</p></td>
+	<td>189&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900014-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900014-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900014-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900014-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Youcef Amirat; Blanca Climent; Enrique Fernandez-Cara; Jacques Simon</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900016-7">Effet de la rugosité sur un fluide laminaire avec conditions de Fourier</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00016-7</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;8 (2000)</p></td>
+	<td>136&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900016-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900016-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900016-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900016-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Laetitia Doris; Christian Tenaud; Loc Ta Phuoc</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900020-9">LES of spatially developing 3D compressible mixing layer</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00020-9</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;7 (2000)</p></td>
+	<td>171&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900020-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900020-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900020-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900020-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Maurizio Grasselli; Masaru Ikehata; Masahiro Yamamoto</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900021-0">Direct and inverse inequalities for the isotropic Lamé system with variable coefficients</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00021-0</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;7 (2000)</p></td>
+	<td>148&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900021-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900021-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900021-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900021-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jalel Ben Abdallah; Marc Bonnet</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900022-2">Une approche non destructive pour l'identification de contraintes de contact</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00022-2</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;7 (2000)</p></td>
+	<td>161&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900022-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900022-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900022-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900022-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patrick De Buhan; Bruno Sudret</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900023-4">Un modèle de comportement macroscopique des matériaux renforcés par inclusions linéaires, avec prise en compte des effets de flexion</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00023-4</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;7 (2000)</p></td>
+	<td>158&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900023-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900023-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900023-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900023-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Diogo Queiros-Conde</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900024-6">Le modèle des peaux entropiques en turbulence développée</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00024-6</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;7 (2000)</p></td>
+	<td>139&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900024-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900024-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900024-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900024-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mélanie Choteau; Philippe Quaegebeur; Suzanne Degallaix</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900028-3">Prise en compte de l'effet Bauschinger dans l'acier X2CrNiMo17-12-2 par deux lois de comportement</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00028-3</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;6 (2000)</p></td>
+	<td>143&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900028-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900028-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900028-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900028-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rodrigue Desmorat</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900029-5">Dissymétrie de comportement élastique anisotrope couplé ou non à l'endommagement</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00029-5</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;6 (2000)</p></td>
+	<td>123&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900029-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900029-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900029-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900029-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ahmad Pouya</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900030-1">Une transformation du problème d'élasticité linéaire en vue d'application au problème de l'inclusion et aux fonctions de Green</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00030-1</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;6 (2000)</p></td>
+	<td>153&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900030-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900030-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900030-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900030-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Houman Borouchaki; Paul-Louis George</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900031-3">Quality mesh generation</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00031-3</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;6 (2000)</p></td>
+	<td>499&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900031-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900031-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900031-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900031-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cosette Bec</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900032-5">Suivi d'interface en maillages non structurés</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00032-5</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;6 (2000)</p></td>
+	<td>136&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900032-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900032-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900032-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900032-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Delfina Gómez; Miguel Lobo; Eugenia Pérez</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900033-7">On a vibrating plate with a concentrated mass</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00033-7</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;6 (2000)</p></td>
+	<td>155&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900033-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900033-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900033-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900033-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jacky Tartarin; Stéphane Renault</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900034-9">Contrôle actif multi-actionneur des nuisances en écoulements internes</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00034-9</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;6 (2000)</p></td>
+	<td>157&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900034-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900034-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900034-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900034-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Adil Ridha</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900035-0">On laminar natural convection in a vertical corner</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00035-0</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;6 (2000)</p></td>
+	<td>148&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900035-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900035-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900035-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900035-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kamal Gueraoui; Abderrahim Mrabti; Abdellah Hammoumi; Gamal Zeggwagh</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs1620-7742%2800%2900036-2">Modélisation numérique bidimensionnelle des processus de transport de soluté dans un milieu poreux non saturé</a></p>
+		<p>DOI: 10.1016/s1620-7742(00)00036-2</p>	</td>
+	<td><p><a href="/scimag/journals/4858">Comptes Rendus de l&#039;Académie des Sciences - Series IIB - Mechanics</a><p>volume&nbsp;328, issue&nbsp;6 (2000)</p></td>
+	<td>158&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs1620-7742%2800%2900036-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s1620-7742%2800%2900036-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s1620-7742%2800%2900036-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s1620-7742%2800%2900036-2">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">217 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 9</span>
+	 <a href="/scimag/?journal=4858&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

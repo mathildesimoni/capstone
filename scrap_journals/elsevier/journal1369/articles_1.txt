@@ -1,0 +1,379 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Elsevier Science</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0750-7658</td>
+	</tr>
+					</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 457; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 457');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1369&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">11&nbsp;422 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 457</span>
+	 <a href="/scimag/?journal=1369&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Ponsonnard, S.; Duvoid, T.; Gagnoud, R.; Dalmay, F.; Cros, J.; Nathan, N. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.annfar.2014.05.011">Utilisation du masque laryngé : une enquête nationale de pratique professionnelle</a></p>
+		<p>DOI: 10.1016/j.annfar.2014.05.011</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;33, issue&nbsp;6 (2014)</p></td>
+	<td>978&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.annfar.2014.05.011" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.annfar.2014.05.011">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.annfar.2014.05.011">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.annfar.2014.05.011">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Bohec; M. Collet</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fj.annfar.2010.03.011">Hématome rétroplacentaire</a></p>
+		<p>DOI: 10.1016/j.annfar.2010.03.011</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;29, issue&nbsp;5 (2010)</p></td>
+	<td>219&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fj.annfar.2010.03.011" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/j.annfar.2010.03.011">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/j.annfar.2010.03.011">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/j.annfar.2010.03.011">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J Marty; G François</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982120-4">À la recherche d'un indicateur optimal de l'activité anesthésique</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82120-4</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>181&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982120-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982120-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982120-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982120-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G Janvier</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982121-6">Nouvelles réglementations de la transfusion en France</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82121-6</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>172&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982121-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982121-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982121-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982121-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D Bendahan; G Kozak-Ribbens; S Confort-Gouny; PJ Cozzone</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982122-8">Définition d'un score diagnostique de l'hyperthermie maligne par spectroscopie de résonance magnétique du P-31</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82122-8</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>532&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982122-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982122-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982122-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982122-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>JP Pertek; K Chaoui; E Junke; M Artis; A Coissard; A Frisoni; C Meistelman</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982123-x">Effets du propofol sur les concentrations sanguines de ciclosporine</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82123-x</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>624&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982123-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982123-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982123-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982123-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T Le Rolle; ML Bidet; JC Granry; JP Monrigal; A Delhumeau</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982124-1">Transfusion autologue programmée chez l'enfant. Résultats d'une enquête nationale</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82124-1</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>366&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982124-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982124-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982124-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982124-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R Cremer; P Ainaud; H Le Bever; M Fahre; H Carsin</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982125-3">Infections nosocomiales dans un service de brûlés. Résultats d'une enquête prospective d'un an</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82125-3</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>886&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982125-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982125-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982125-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982125-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B Éon; M Lehmann; G François; J du Cailar; G Goursot; G de Pouvourville</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982126-5">Évaluation de l'activité anesthésique au bloc opératoire. Utilisation de l'ICR bêta</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82126-5</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>766&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982126-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982126-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982126-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982126-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T Loeb; N Kaeffer; C Winckler</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982127-7">Enquête sur la diffusion et l'impact d'une conférence de consensus sur les infections liées aux cathéters veineux centraux au sein d'une équipe d'anesthésistes-réanimateurs</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82127-7</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>550&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982127-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982127-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982127-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982127-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S Rezaiguia; C Jayr</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982128-9">Prévention des complications respiratoires après chirurgie abdominale</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82128-9</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>2.63&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982128-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982128-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982128-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982128-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>JM Malinovsky; M Pinaud</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982129-0">Neurotoxicité des agents administrés par voie intrathécale</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82129-0</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>1.29&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982129-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982129-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982129-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982129-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B Grenier; A Mesli; J Cales; JP Castel; P Maurette</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982130-7">Hyperthermie grave liée à un sevrage brutal de baclofène administré de façon continue par voie intrathécale</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82130-7</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>416&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982130-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982130-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982130-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982130-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P Robert; JM Senard; M Fabre; C Cabot; B Cathala</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982131-9">Syndrome sérotoninergique lors d'une intoxication aiguë aux antidépresseurs</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82131-9</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>320&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982131-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982131-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982131-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982131-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C Di Roio; D Perrot; JM Védrinne; G Méllier; J Robin; J Motin</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982132-0">Traitement thrombolytique par rt-PA d'une thrombose récidivante de prothèse valvulaire tricuspidienne durant la grossesse</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82132-0</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>343&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982132-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982132-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982132-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982132-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F Pasteau; JP Graftieaux; P Gomis; D Scavarda; A Léon</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982133-2">Problèmes posés par une rachianesthésie chez un patient atteint de la maladie de Gélineau</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82133-2</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>445&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982133-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982133-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982133-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982133-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C Mestre; JM Védrinne; S Duperret; I Mohammedi; B Bui-Xuan; J Motin</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982134-4">Une cause inhabituelle de désaturation en oxygène: la dissociation auriculoventriculaire isorythmique</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82134-4</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>339&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982134-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982134-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982134-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982134-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>JF Ladagnous; JM Rousseau; A Gaucher; JM Saïssy; R Pitti</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982135-6">Néphrite interstitielle aiguë: rôle de la ceftazidime</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82135-6</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>357&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982135-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982135-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982135-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982135-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A Yazigi; F Richa; S Madi-Jebara; MC Antakly</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982136-8">Mesure comparée de la pression dans la veine cave inférieure abdominale et dans la veine cave supérieure chez l'adulte</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82136-8</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>157&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982136-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982136-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982136-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982136-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C Nicaise; C Robert; J Ancellin; JB Cazalaà</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982137-x">Erreur de branchement d'un flexible d'air médical sur une prise de protoxyde d'azote par défaillance du système détrompeur</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82137-x</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>280&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982137-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982137-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982137-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982137-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M Roos</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982138-1">Expression numérique des résultats</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82138-1</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>105&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982138-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982138-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982138-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982138-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>JP Moniatte</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982139-3">Statistique et présentation des résultats</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82139-3</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>212&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982139-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982139-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982139-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982139-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S Aldebert; JC Sleth</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982140-x">Méningite bactérienne après anesthésie rachidienne et péridurale combinée en obstétrique</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82140-x</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>233&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982140-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982140-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982140-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982140-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>FJ Mercier; D Benhamou</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982141-1">Problèmes posés par la rachianalgésie au sufentanil en fin de travail</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82141-1</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>245&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982141-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982141-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982141-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982141-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G Mahoudeau; S Fournier; E Gaertner</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0750-7658%2896%2982142-3">Analgésie après chirurgie du genou</a></p>
+		<p>DOI: 10.1016/0750-7658(96)82142-3</p>	</td>
+	<td><p><a href="/scimag/journals/1369">Annales Françaises d&#039;Anesthésie et de Réanimation</a><p>volume&nbsp;15, issue&nbsp;5 (1996)</p></td>
+	<td>230&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0750-7658%2896%2982142-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0750-7658%2896%2982142-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0750-7658%2896%2982142-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0750-7658%2896%2982142-3">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">11&nbsp;422 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 457</span>
+	 <a href="/scimag/?journal=1369&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

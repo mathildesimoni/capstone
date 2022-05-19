@@ -1,0 +1,379 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Elsevier Science</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0742-8413</td>
+	</tr>
+					</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 47; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 47');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4791&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;156 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 47</span>
+	 <a href="/scimag/?journal=4791&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Tadeusz Włostowski; Alicja Krasowska; Barbara Laszkiewicz-Tiszczenko</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0742-8413%2800%2900089-x">Dietary cadmium induces histopathological changes despite a sufficient metallothionein level in the liver and kidneys of the bank vole (Clethrionomys glareolus)</a></p>
+		<p>DOI: 10.1016/s0742-8413(00)00089-x</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;126, issue&nbsp;1 (2000)</p></td>
+	<td>606&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0742-8413%2800%2900089-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0742-8413%2800%2900089-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0742-8413%2800%2900089-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0742-8413%2800%2900089-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dekleva, M.N.; Beleslin, B.B. </td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2894%2900095-R">Neurotoxic action of some antiarrhythmic agents: comparative effects of propafenone, lidocaine and amiodarone on leech Retzius nerve cell</a></p>
+		<p>DOI: 10.1016/0742-8413(94)00095-R</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;110, issue&nbsp;2 (1995)</p></td>
+	<td>519&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2894%2900095-R" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2894%2900095-R">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2894%2900095-R">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2894%2900095-R">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pivovarov, Arkady S.</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2895%2900003-7">Regulation of neuron cholinoreceptor plasticity of Helix lucorum by second messengers and opioids</a></p>
+		<p>DOI: 10.1016/0742-8413(95)00003-7</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;110, issue&nbsp;3 (1995)</p></td>
+	<td>1.32&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2895%2900003-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2895%2900003-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2895%2900003-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2895%2900003-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Roberto G.S. Berlinck; Cláudia A. Ogawa; Adaiĺa M.P. Almeida; Marco Aurélio A. Sanchez; Elena L.A. Malpezzi; Letícia V. Costa; Eduardo Hajdu; J.C. de Freitas</td>
+	<td>
+		<p><a href="/scimag/10.1016%2Fs0742-8413%2896%2900107-7">Chemical and pharmacological characterization of halitoxin from Amphimedon viridis (Porifera) from the southeastern Brazilian coast</a></p>
+		<p>DOI: 10.1016/s0742-8413(96)00107-7</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;115, issue&nbsp;2 (1996)</p></td>
+	<td>1.15&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2Fs0742-8413%2896%2900107-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/s0742-8413%2896%2900107-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/s0742-8413%2896%2900107-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/s0742-8413%2896%2900107-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kanchan Pant; Asha Chandola-Saklani</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2894%2900072-i">T3 fails to mimic certain effects of T4 in munia birds: physiological implications for seasonal timing</a></p>
+		<p>DOI: 10.1016/0742-8413(94)00072-i</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;2 (1995)</p></td>
+	<td>802&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2894%2900072-i" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2894%2900072-i">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2894%2900072-i">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2894%2900072-i">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A.A. Juknat; M.L. Kotler; A.M. del Carmen Batlle</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2894%2900085-8">High δ-aminolevulinic acid uptake in rat cerebral cortex: effect on porphyrin biosynthesis</a></p>
+		<p>DOI: 10.1016/0742-8413(94)00085-8</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;1 (1995)</p></td>
+	<td>794&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2894%2900085-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2894%2900085-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2894%2900085-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2894%2900085-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M.-C. Tsai; Y.-H. Chen</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2894%2900097-d">Bursting firing of action potentials in central snail neurons elicited by d-amphetamine: role of the electrogenic sodium pump</a></p>
+		<p>DOI: 10.1016/0742-8413(94)00097-d</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;1 (1995)</p></td>
+	<td>1.12&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2894%2900097-d" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2894%2900097-d">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2894%2900097-d">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2894%2900097-d">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christo L. Atanassov; Hans-Ulrich Naegeli; Gerhard Zenke; Charles Schneider; Ludmila I. Kramarova; Gennadi E. Bronnikov; Marc H.V. Van Regenmortel</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2895%2900000-3">Anti-lymphoproliferative activity of brown adipose tissue of hibernating ground squirrels is mainly caused by AMP</a></p>
+		<p>DOI: 10.1016/0742-8413(95)00000-3</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;112, issue&nbsp;1 (1995)</p></td>
+	<td>817&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2895%2900000-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2895%2900000-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2895%2900000-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2895%2900000-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andreas P.A. Wöhrmann</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2895%2900007-t">Antifreeze glycopeptides of the high-Antarctic silverfish Pleuragramma antarcticum (Notothenioidei)</a></p>
+		<p>DOI: 10.1016/0742-8413(95)00007-t</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;1 (1995)</p></td>
+	<td>879&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2895%2900007-t" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2895%2900007-t">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2895%2900007-t">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2895%2900007-t">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ephraim Cohen; Shoshana Teomi</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2895%2900008-9">Enzymes associated with defence against reactive oxygen species in the bulb mite Rhizoglyphus robini</a></p>
+		<p>DOI: 10.1016/0742-8413(95)00008-9</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;3 (1995)</p></td>
+	<td>605&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2895%2900008-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2895%2900008-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2895%2900008-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2895%2900008-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Z. Machoy; E. Dėabkowska; D. Samujło; T. Ogoński; J. Raczyński; Z. Gbczynska</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2895%2900012-v">Relationship between fluoride content in bones and the age in European elk (Alces alces L.)</a></p>
+		<p>DOI: 10.1016/0742-8413(95)00012-v</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;1 (1995)</p></td>
+	<td>350&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2895%2900012-v" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2895%2900012-v">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2895%2900012-v">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2895%2900012-v">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. Van Wyk; A.W.H. Neitz; A.I. Louw; R.J. Van Aarde</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2895%2900013-e">Purification and characterization of progesterone-binding globulin in the pregnant Cape porcupine, Hystrix africaeaustralis</a></p>
+		<p>DOI: 10.1016/0742-8413(95)00013-e</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;2 (1995)</p></td>
+	<td>729&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2895%2900013-e" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2895%2900013-e">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2895%2900013-e">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2895%2900013-e">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Zaroogian; S. Anderson</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2895%2900014-x">Comparison of cadmium, nickel and benzo(a)pyrene uptake into cultured brown cells of the hard shell clam, Mercenaria mercenaria</a></p>
+		<p>DOI: 10.1016/0742-8413(95)00014-x</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;1 (1995)</p></td>
+	<td>759&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2895%2900014-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2895%2900014-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2895%2900014-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2895%2900014-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marc L. Martel; Christine A. Baumgardner; Linda K. Dybas; Billy W. Geer</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2895%2900015-y">The toxicities of short-chain primary alcohols and the accumulation of storage bodies in the larval fat body of Drosophila melanogaster</a></p>
+		<p>DOI: 10.1016/0742-8413(95)00015-y</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;1 (1995)</p></td>
+	<td>1.19&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2895%2900015-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2895%2900015-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2895%2900015-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2895%2900015-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F.G.S. de Toledo; M.C. Albuquerque; B.H. Goulart; E.N. Chini</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2895%2900017-2">Different thermostabilities of sarcoplasmic reticulum (Ca2+ + Mg2+)-ATPases from rabbit and trout muscles</a></p>
+		<p>DOI: 10.1016/0742-8413(95)00017-2</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;1 (1995)</p></td>
+	<td>889&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2895%2900017-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2895%2900017-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2895%2900017-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2895%2900017-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joan Cerdá; Silvia Zanuy; Manuel Carrillo; Jesús Ramos; Roque Serrano</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2895%2900018-3">Short- and long-term dietary effects on female sea bass (Dicentrarchus labrax): seasonal changes in plasma profiles of lipids and sex steroids in relation to reproduction</a></p>
+		<p>DOI: 10.1016/0742-8413(95)00018-3</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;1 (1995)</p></td>
+	<td>1006&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2895%2900018-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2895%2900018-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2895%2900018-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2895%2900018-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gary P. Richards; Julie Chao; Peter Chung; Lee Chao</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2895%2900019-4">Purification and characterization of tissue kallikrein-like proteinases from the black sea bass (Centropristis striata) and the Southern frog (Rana berlandieri)</a></p>
+		<p>DOI: 10.1016/0742-8413(95)00019-4</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;1 (1995)</p></td>
+	<td>1.51&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2895%2900019-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2895%2900019-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2895%2900019-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2895%2900019-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. ėscan; T. ėCoban; B.C. Eke; M. ėscan</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2895%2900020-8">Differential responses of hepatic monooxygenases and glutathione S-transferases of mice to a combination of cadmium and nickel</a></p>
+		<p>DOI: 10.1016/0742-8413(95)00020-8</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;1 (1995)</p></td>
+	<td>826&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2895%2900020-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2895%2900020-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2895%2900020-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2895%2900020-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Barak-Shalom; M. Schickler; V. Knopov; R. Shapira; S. Hurwitz; M. Pines</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2895%2900021-x">Synthesis and phosphorylation of osteopontin by avian epiphyseal growth-plate chondrocytes as affected by differentiation</a></p>
+		<p>DOI: 10.1016/0742-8413(95)00021-x</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;1 (1995)</p></td>
+	<td>1.69&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2895%2900021-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2895%2900021-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2895%2900021-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2895%2900021-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Epple; S. Porta; B. Nibbio</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2895%2900022-y">Release of conjugated catecholamines from the sinus venosus of a lamprey, Petromyzon marinus</a></p>
+		<p>DOI: 10.1016/0742-8413(95)00022-y</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;1 (1995)</p></td>
+	<td>387&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2895%2900022-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2895%2900022-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2895%2900022-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2895%2900022-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T.M. Nguyen; J.R. Wright Jr; P.F. Nielsen; J.M. Conlon</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2895%2900023-z">Characterization of the pancreatic hormones from the Brockmann body of the tilapia: implications for islet xenograft studies</a></p>
+		<p>DOI: 10.1016/0742-8413(95)00023-z</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;1 (1995)</p></td>
+	<td>1.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2895%2900023-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2895%2900023-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2895%2900023-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2895%2900023-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Y.A. Drumond; A.S. Couto; T. Moraes-Santos; A.P. Almeida; L. Freire-Maia</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2895%2900026-k">Effects of toxin Ts-γ and tityustoxin purified from Tityus serrulatus scorpion venom on isolated rat atria</a></p>
+		<p>DOI: 10.1016/0742-8413(95)00026-k</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;2 (1995)</p></td>
+	<td>820&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2895%2900026-k" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2895%2900026-k">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2895%2900026-k">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2895%2900026-k">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Shingyoji; M. Yamaguchi</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2895%2900027-5">Effects of acetylcholine, octopamine, ATP, dopamine, and electrical stimulation on the spine muscle of the sea urchin, Anthocidaris crassispina</a></p>
+		<p>DOI: 10.1016/0742-8413(95)00027-5</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;1 (1995)</p></td>
+	<td>814&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2895%2900027-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2895%2900027-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2895%2900027-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2895%2900027-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. Yamanouye; Z.P. Picarelli</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2895%2900028-m">Alpha-1 adrenoceptor subtypes involved in noradrenaline-induced contraction of snake (Bothrops jararaca) isolated aorta</a></p>
+		<p>DOI: 10.1016/0742-8413(95)00028-m</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;2 (1995)</p></td>
+	<td>723&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2895%2900028-m" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2895%2900028-m">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2895%2900028-m">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2895%2900028-m">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J.A. Oduma; E.O. Wango; D. Oduor-Okelo; D.W. Makawiti; H. Odongo</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0742-8413%2895%2900029-n">In vivo and in vitro effects of graded doses of the pesticide heptachlor on female sex steroid hormone production in rats</a></p>
+		<p>DOI: 10.1016/0742-8413(95)00029-n</p>	</td>
+	<td><p><a href="/scimag/journals/4791">Comparative Biochemistry and Physiology Part C: Pharmacology, Toxicology and Endocrinology</a><p>volume&nbsp;111, issue&nbsp;2 (1995)</p></td>
+	<td>640&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0742-8413%2895%2900029-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0742-8413%2895%2900029-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0742-8413%2895%2900029-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0742-8413%2895%2900029-n">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;156 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 47</span>
+	 <a href="/scimag/?journal=4791&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

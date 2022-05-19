@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/11899">Jewish History</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0334-701X</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-8579</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 57; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 57');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=11899&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;402 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 57</span>
+	 <a href="/scimag/?journal=11899&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335350">Summaries</a></p>
+		<p>DOI: 10.1007/bf02335350</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;11, issue&nbsp;1 (1997)</p></td>
+	<td>113&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335350" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335350">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335350">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335350">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert Bonfil</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335351">Jewish attitudes toward history and historical writing in Pre-Modern times</a></p>
+		<p>DOI: 10.1007/bf02335351</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;11, issue&nbsp;1 (1997)</p></td>
+	<td>2.34&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335351" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335351">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335351">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335351">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jacob Katz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335352">Da'at Torah—The unqualified authority claimed for halakhists</a></p>
+		<p>DOI: 10.1007/bf02335352</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;11, issue&nbsp;1 (1997)</p></td>
+	<td>685&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335352" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335352">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335352">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335352">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gad Freudenthal</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335353">Introduction</a></p>
+		<p>DOI: 10.1007/bf02335353</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;11, issue&nbsp;1 (1997)</p></td>
+	<td>159&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335353" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335353">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335353">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335353">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joseph Ben-David</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335354">The beginnings of modern Jewish society in Hungary in the first half of the nineteenth century</a></p>
+		<p>DOI: 10.1007/bf02335354</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;11, issue&nbsp;1 (1997)</p></td>
+	<td>2.76&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335354" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335354">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335354">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335354">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jacob Katz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335355">Postscript: Ben-David's study forty-five years later</a></p>
+		<p>DOI: 10.1007/bf02335355</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;11, issue&nbsp;1 (1997)</p></td>
+	<td>88&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335355" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335355">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335355">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335355">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gershon Bacon</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335356">Warsaw-Vilna-Budapest: On Joseph Ben-David's model of the modernization of jewry</a></p>
+		<p>DOI: 10.1007/bf02335356</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;11, issue&nbsp;1 (1997)</p></td>
+	<td>746&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335356" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335356">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335356">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335356">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mordechai Breuer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335357">On the Hungarian Yeshiva movement</a></p>
+		<p>DOI: 10.1007/bf02335357</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;11, issue&nbsp;1 (1997)</p></td>
+	<td>202&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335357" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335357">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335357">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335357">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shlomo Deshen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335358">A comparative studies perspective</a></p>
+		<p>DOI: 10.1007/bf02335358</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;11, issue&nbsp;1 (1997)</p></td>
+	<td>170&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335358" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335358">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335358">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335358">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Harvey E. Goldberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335359">Ben-David, Hungary, and middle eastern Jewry</a></p>
+		<p>DOI: 10.1007/bf02335359</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;11, issue&nbsp;1 (1997)</p></td>
+	<td>180&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335359" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335359">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335359">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335359">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Steven Lowenstein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335360">Joseph Ben-David's Hungary and Mendelssohn's Berlin</a></p>
+		<p>DOI: 10.1007/bf02335360</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;11, issue&nbsp;1 (1997)</p></td>
+	<td>270&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335360" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335360">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335360">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335360">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shaul Stampfer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335361">Hungarian yeshivot, Lithuanian yeshivot and Joseph Ben-David</a></p>
+		<p>DOI: 10.1007/bf02335361</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;11, issue&nbsp;1 (1997)</p></td>
+	<td>689&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335361" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335361">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335361">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335361">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335449">In memoriam: Professor Jacob Katz</a></p>
+		<p>DOI: 10.1007/bf02335449</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;12, issue&nbsp;1 (1998)</p></td>
+	<td>42&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335449" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335449">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335449">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335449">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335450">Summaries</a></p>
+		<p>DOI: 10.1007/bf02335450</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;12, issue&nbsp;1 (1998)</p></td>
+	<td>162&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335450" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335450">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335450">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335450">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert C. Stacey</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335451">From ritual crucifixion to host desecration: Jews and the body of Christ</a></p>
+		<p>DOI: 10.1007/bf02335451</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;12, issue&nbsp;1 (1998)</p></td>
+	<td>1.11&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335451" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335451">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335451">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335451">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Susan L. Einbinder</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335452">Pucellina of Blois: Romantic myths and narrative conventions</a></p>
+		<p>DOI: 10.1007/bf02335452</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;12, issue&nbsp;1 (1998)</p></td>
+	<td>1.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335452" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335452">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335452">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335452">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Denise L. Despres</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335453">Immaculate flesh and the social body: Mary and the Jews</a></p>
+		<p>DOI: 10.1007/bf02335453</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;12, issue&nbsp;1 (1998)</p></td>
+	<td>2.33&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335453" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335453">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335453">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335453">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Haym Soloveitchik</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335454">Catastrophe and Halakhic Creativity: Ashkenaz —1096, 1242, 1306 and 1298</a></p>
+		<p>DOI: 10.1007/bf02335454</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;12, issue&nbsp;1 (1998)</p></td>
+	<td>933&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335454" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335454">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335454">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335454">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335455">Forum: The Use and Abuse of the Exodus Story</a></p>
+		<p>DOI: 10.1007/bf02335455</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;12, issue&nbsp;1 (1998)</p></td>
+	<td>7&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335455" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335455">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335455">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335455">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Menahem Mor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335456">Introductory remarks</a></p>
+		<p>DOI: 10.1007/bf02335456</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;12, issue&nbsp;1 (1998)</p></td>
+	<td>116&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335456" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335456">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335456">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335456">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Erich S. Gruen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335457">The use and abuse of the exodus story</a></p>
+		<p>DOI: 10.1007/bf02335457</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;12, issue&nbsp;1 (1998)</p></td>
+	<td>1.91&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335457" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335457">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335457">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335457">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Louis H. Feldman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335458">Did Jews Reshape the tale of the exodus?</a></p>
+		<p>DOI: 10.1007/bf02335458</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;12, issue&nbsp;1 (1998)</p></td>
+	<td>304&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335458" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335458">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335458">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335458">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John G. Gager</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335459">Some thoughts on greco-roman versions of the Exodus story</a></p>
+		<p>DOI: 10.1007/bf02335459</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;12, issue&nbsp;1 (1998)</p></td>
+	<td>210&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335459" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335459">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335459">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335459">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joseph Mélèze Modrzejewski</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335460">The exodus traditions: Parody or parallel version?</a></p>
+		<p>DOI: 10.1007/bf02335460</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;12, issue&nbsp;1 (1998)</p></td>
+	<td>219&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335460" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335460">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335460">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335460">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark R. Cohen; Raphael Vago; Rochlle G. Saidel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02335461">Book reviews</a></p>
+		<p>DOI: 10.1007/bf02335461</p>	</td>
+	<td><p><a href="/scimag/journals/11899">Jewish History</a><p>volume&nbsp;12, issue&nbsp;1 (1998)</p></td>
+	<td>901&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02335461" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02335461">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02335461">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02335461">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;402 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 57</span>
+	 <a href="/scimag/?journal=11899&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

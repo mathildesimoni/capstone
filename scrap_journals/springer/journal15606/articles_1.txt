@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/15606">Journal of the History of Biology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer Netherlands</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0022-5010</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-0387</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 128; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 128');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=15606&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;181 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 128</span>
+	 <a href="/scimag/?journal=15606&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Keith R. Benson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00120109">American morphology in the late nineteenth century: The biology department at Johns Hopkins University</a></p>
+		<p>DOI: 10.1007/bf00120109</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;18, issue&nbsp;2 (1985)</p></td>
+	<td>2.27&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00120109" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00120109">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00120109">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00120109">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lily E. Kay</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00120110">Conceptual models and analytical tools: The biology of physicist Max Delbrück</a></p>
+		<p>DOI: 10.1007/bf00120110</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;18, issue&nbsp;2 (1985)</p></td>
+	<td>2.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00120110" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00120110">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00120110">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00120110">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anita Guerrini</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00120111">James Keill, George Cheyne, and Newtonian physiology, 1690–1740</a></p>
+		<p>DOI: 10.1007/bf00120111</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;18, issue&nbsp;2 (1985)</p></td>
+	<td>1.00&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00120111" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00120111">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00120111">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00120111">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ronald Rainger</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00120112">Paleontology and philosophy: A critique</a></p>
+		<p>DOI: 10.1007/bf00120112</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;18, issue&nbsp;2 (1985)</p></td>
+	<td>1.03&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00120112" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00120112">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00120112">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00120112">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00120113">The J.H. B. bookshelf</a></p>
+		<p>DOI: 10.1007/bf00120113</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;18, issue&nbsp;2 (1985)</p></td>
+	<td>299&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00120113" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00120113">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00120113">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00120113">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dov Ospovat</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00124192">Darwin after Malthus</a></p>
+		<p>DOI: 10.1007/bf00124192</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;12, issue&nbsp;2 (1979)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00124192" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00124192">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00124192">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00124192">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Gross</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00124193">The lessened locus of feelings: A transformation in French physiology in the early nineteenth century</a></p>
+		<p>DOI: 10.1007/bf00124193</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;12, issue&nbsp;2 (1979)</p></td>
+	<td>2.52&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00124193" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00124193">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00124193">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00124193">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Charlotte M. Porter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00124194">The concussion of revolution: Publications and reform at the early Academy of Natural Sciences, Philadelphia, 1812–1842</a></p>
+		<p>DOI: 10.1007/bf00124194</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;12, issue&nbsp;2 (1979)</p></td>
+	<td>1.23&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00124194" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00124194">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00124194">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00124194">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Philip F. Rehbock</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00124195">The early dredgers: “naturalizing” in British seas, 1830–1850</a></p>
+		<p>DOI: 10.1007/bf00124195</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;12, issue&nbsp;2 (1979)</p></td>
+	<td>3.98&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00124195" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00124195">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00124195">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00124195">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Edward G. Ruestow</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00124698">Images and ideas: Leeuwenhoek's perception of the spermatozoa</a></p>
+		<p>DOI: 10.1007/bf00124698</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;16, issue&nbsp;2 (1983)</p></td>
+	<td>2.39&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00124698" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00124698">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00124698">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00124698">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Barbara G. Beddall</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00124699">The isolated Spanish genius — Myth or reality? Félix de Azara and the birds of Paraguay</a></p>
+		<p>DOI: 10.1007/bf00124699</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;16, issue&nbsp;2 (1983)</p></td>
+	<td>1.91&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00124699" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00124699">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00124699">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00124699">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Frank N. Egerton</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00124700">The history of ecology: Achievements and opportunities, part one</a></p>
+		<p>DOI: 10.1007/bf00124700</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;16, issue&nbsp;2 (1983)</p></td>
+	<td>3.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00124700" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00124700">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00124700">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00124700">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>June Goodfield-Toulmin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125021">Some aspects of English physiology: 1780–1840</a></p>
+		<p>DOI: 10.1007/bf00125021</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;2, issue&nbsp;2 (1969)</p></td>
+	<td>2.15&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125021" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125021">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125021">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125021">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William P. D. Wightman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125022">Myth and method in seventeenth-century biological thought</a></p>
+		<p>DOI: 10.1007/bf00125022</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;2, issue&nbsp;2 (1969)</p></td>
+	<td>897&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125022" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125022">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125022">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125022">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kenneth M. Ludmerer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125023">American geneticists and the eugenics movement: 1905–1935</a></p>
+		<p>DOI: 10.1007/bf00125023</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;2, issue&nbsp;2 (1969)</p></td>
+	<td>1.51&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125023" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125023">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125023">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125023">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Charles F. Mullett</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125024">Multum in Parvo: Gilbert White of Selborne</a></p>
+		<p>DOI: 10.1007/bf00125024</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;2, issue&nbsp;2 (1969)</p></td>
+	<td>1.56&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125024" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125024">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125024">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125024">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Frank N. Egerton</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125025">Richard Bradley's understanding of biological productivity: A study of eighteenth-century ecological ideas</a></p>
+		<p>DOI: 10.1007/bf00125025</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;2, issue&nbsp;2 (1969)</p></td>
+	<td>998&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125025" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125025">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125025">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125025">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dennis M. McCullough</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125026">W. K. Brooks's role in the history of American biology</a></p>
+		<p>DOI: 10.1007/bf00125026</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;2, issue&nbsp;2 (1969)</p></td>
+	<td>1.51&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125026" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125026">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125026">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125026">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125027">Razvitie biologii v SSSR (Development of biology in the USSR)</a></p>
+		<p>DOI: 10.1007/bf00125027</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;2, issue&nbsp;2 (1969)</p></td>
+	<td>294&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125027" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125027">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125027">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125027">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125028">The J. H. B. bookshelf</a></p>
+		<p>DOI: 10.1007/bf00125028</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;2, issue&nbsp;2 (1969)</p></td>
+	<td>586&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125028" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125028">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125028">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125028">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Neal C. Gillespie</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125257">Natural history, natural theology, and social order: John Ray and the “Newtonian ideology”</a></p>
+		<p>DOI: 10.1007/bf00125257</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;20, issue&nbsp;1 (1987)</p></td>
+	<td>2.67&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125257" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125257">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125257">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125257">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Merriley Borell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125258">Biologists and the promotion of birth control research, 1918–1938</a></p>
+		<p>DOI: 10.1007/bf00125258</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;20, issue&nbsp;1 (1987)</p></td>
+	<td>1.98&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125258" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125258">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125258">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125258">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Edward J. Larson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125259">Before the crusade: Evolution in American secondary education before 1920</a></p>
+		<p>DOI: 10.1007/bf00125259</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;20, issue&nbsp;1 (1987)</p></td>
+	<td>1.31&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125259" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125259">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125259">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125259">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Timothy Lenoir</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125260">Essay review: The Darwin industry</a></p>
+		<p>DOI: 10.1007/bf00125260</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;20, issue&nbsp;1 (1987)</p></td>
+	<td>866&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125260" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125260">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125260">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125260">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shirley A. Roe; Keith R. Benson; Joy Harvey; Sharon E. Kingsland</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00125261">The J.H.B. bookshelf</a></p>
+		<p>DOI: 10.1007/bf00125261</p>	</td>
+	<td><p><a href="/scimag/journals/15606">Journal of the History of Biology</a><p>volume&nbsp;20, issue&nbsp;1 (1987)</p></td>
+	<td>244&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00125261" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00125261">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00125261">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00125261">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;181 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 128</span>
+	 <a href="/scimag/?journal=15606&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

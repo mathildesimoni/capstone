@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4242">Chromosome Research</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0967-3849</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-6849</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 84; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 84');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4242&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;085 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 84</span>
+	 <a href="/scimag/?journal=4242&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>T. Schmidt; S. Kubis; J. S. Heslop-Harrison</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710014">Analysis and chromosomal localization of retrotransposons in sugar beet (Beta vulgarisL.): LINEs andTy1-copia-like elements as major components of the genome</a></p>
+		<p>DOI: 10.1007/bf00710014</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;3, issue&nbsp;6 (1995)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710014" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710014">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710014">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710014">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Kenton; A. Khashoggi; A. Parokonny; M. D. Bennett; C. Lichtenstein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710015">Chromosomal location of endogenous geminivirus-related DNA sequences inNicotiana tabacumL.</a></p>
+		<p>DOI: 10.1007/bf00710015</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;3, issue&nbsp;6 (1995)</p></td>
+	<td>433&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710015" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710015">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710015">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710015">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Axel Franke; Sabine Messmer; Renato Paro</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710016">Mapping functional domains of the Polycomb protein ofDrosophila melanogaster</a></p>
+		<p>DOI: 10.1007/bf00710016</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;3, issue&nbsp;6 (1995)</p></td>
+	<td>997&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710016" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710016">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710016">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710016">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andrés Zambelli; Lidia Vidal-Rioja</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710017">Molecular analysis of chromosomal polymorphism in the South American cricetid,Graomys griseoflavus</a></p>
+		<p>DOI: 10.1007/bf00710017</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;3, issue&nbsp;6 (1995)</p></td>
+	<td>703&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710017" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710017">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710017">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710017">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. Wanner; H. Formanek</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710018">Imaging of DNA in human and plant chromosomes by high-resolution scanning electron microscopy</a></p>
+		<p>DOI: 10.1007/bf00710018</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;3, issue&nbsp;6 (1995)</p></td>
+	<td>615&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710018" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710018">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710018">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710018">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Julianne Meyne; Edwin H. Goodwin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710019">Direction of DNA sequences within chromatids determined using strand-specific FISH</a></p>
+		<p>DOI: 10.1007/bf00710019</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;3, issue&nbsp;6 (1995)</p></td>
+	<td>393&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710019" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710019">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710019">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710019">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>María Abuín; Paulino Martínez; Laura Sánchez</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710020">Restriction endonuclease/nick translation procedure on fixed chromosomes of the Atlantic salmon fish cell line</a></p>
+		<p>DOI: 10.1007/bf00710020</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;3, issue&nbsp;6 (1995)</p></td>
+	<td>671&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710020" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710020">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710020">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710020">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Sharma; S. C. Lakhotia</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710021">In situquantification of hsp70 and alpha-beta transcripts at 87A and 87C loci in relation tohsr-omegagene activity in polytene cells ofDrosophila melanogaster</a></p>
+		<p>DOI: 10.1007/bf00710021</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;3, issue&nbsp;6 (1995)</p></td>
+	<td>750&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710021" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710021">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710021">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710021">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710022">Forthcoming meetings</a></p>
+		<p>DOI: 10.1007/bf00710022</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;3, issue&nbsp;6 (1995)</p></td>
+	<td>97&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710022" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710022">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710022">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710022">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. M. Zirbel; U. R. Mathieu; A. Kurz; T. Cremer; P. Lichter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710032">Evidence for a nuclear compartment of transcription and splicing located at chromosome domain boundaries</a></p>
+		<p>DOI: 10.1007/bf00710032</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;1, issue&nbsp;2 (1993)</p></td>
+	<td>1.48&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710032" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710032">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710032">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710032">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jiří Macas; Jaroslav Doležel; Sergio Lucretti; Uta Pich; Armin Meister; Jörg Fuchs; Ingo Schubert</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710033">Localization of seed protein genes on flow-sorted field bean chromosomes</a></p>
+		<p>DOI: 10.1007/bf00710033</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;1, issue&nbsp;2 (1993)</p></td>
+	<td>769&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710033" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710033">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710033">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710033">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Roland Toder; Sylvia Zeitler; Peter N. Goodfellow; Werner Schempp</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710034">Comparative mapping ofSRYin the great apes</a></p>
+		<p>DOI: 10.1007/bf00710034</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;1, issue&nbsp;2 (1993)</p></td>
+	<td>393&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710034" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710034">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710034">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710034">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. S. R. Coelho; N. Monesi; J. C. Almeida; F. Toledo; G. Buttin; M. L. Paçó-Larson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710035">DNA puff C4 ofBradysia hygida(Diptera: Sciaridae) contains genes unequally amplified and differentially expressed during development</a></p>
+		<p>DOI: 10.1007/bf00710035</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;1, issue&nbsp;2 (1993)</p></td>
+	<td>630&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710035" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710035">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710035">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710035">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Missag H. Parseghian; Robert F. Clark; Loren J. Hauser; Nadja Dvorkin; Debra A. Harris; Barbara A. Hamkalo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710036">Fractionation of human H1 subtypes and characterization of a subtype-specific antibody exhibiting non-uniform nuclear staining</a></p>
+		<p>DOI: 10.1007/bf00710036</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;1, issue&nbsp;2 (1993)</p></td>
+	<td>1.39&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710036" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710036">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710036">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710036">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710037">Forthcoming meetings</a></p>
+		<p>DOI: 10.1007/bf00710037</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;1, issue&nbsp;2 (1993)</p></td>
+	<td>86&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710037" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710037">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710037">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710037">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Amar Pal Singh; Sabine Maerzke; Otto Deimling; Rajiva Raman; Karl Sperling; Heidemarie Neitzel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710126">Oocytes from pachytene to dictyotene can easily be analysed in neonatal rodents</a></p>
+		<p>DOI: 10.1007/bf00710126</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>564&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710126" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710126">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710126">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710126">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Luke; R. S. Verma</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710127">The genomic synteny at DNA level between human and chimpanzee chromosomes</a></p>
+		<p>DOI: 10.1007/bf00710127</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>495&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710127" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710127">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710127">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710127">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Pelling; T. D. Allen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710128">Scanning electron microscopy of polytene chromosomes (I)</a></p>
+		<p>DOI: 10.1007/bf00710128</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>2.15&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710128" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710128">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710128">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710128">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yasushi Saitoh; Akira Ogawa; Tetsuya Hori; Ryota Kunita; Shigeki Mizuno</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710129">Identification and localization of two genes on the chicken Z chromosome: implication of evolutionary conservation of the Z chromosome among avian species</a></p>
+		<p>DOI: 10.1007/bf00710129</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710129" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710129">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710129">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710129">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Iannuzzi; D. S. Gallagher; G. P. Meo; A. M. Ryan; A. Perucatti; L. Ferrara; D. M. Irwin; J. E. Womack</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710130">Chromosomal localization of the lysozyme gene cluster in river buffalo (Bubalus bubalisL.)</a></p>
+		<p>DOI: 10.1007/bf00710130</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>211&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710130" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710130">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710130">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710130">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. V. Volpi; A. Baldini</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710131">MULTIPRINS: a method for multicolour primedin situlabelling</a></p>
+		<p>DOI: 10.1007/bf00710131</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>340&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710131" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710131">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710131">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710131">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wendy A. Bickmore</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710132">Book review</a></p>
+		<p>DOI: 10.1007/bf00710132</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>80&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710132" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710132">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710132">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710132">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710133">Forthcoming meetings</a></p>
+		<p>DOI: 10.1007/bf00710133</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;1, issue&nbsp;4 (1993)</p></td>
+	<td>80&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710133" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710133">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710133">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710133">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Herbert Macgregor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710600">Editorial</a></p>
+		<p>DOI: 10.1007/bf00710600</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>68&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710600" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710600">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710600">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710600">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Herbert C. Macgregor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00710601">Chromosome research—look forward to 2001</a></p>
+		<p>DOI: 10.1007/bf00710601</p>	</td>
+	<td><p><a href="/scimag/journals/4242">Chromosome Research</a><p>volume&nbsp;1, issue&nbsp;1 (1993)</p></td>
+	<td>346&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00710601" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00710601">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00710601">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00710601">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;085 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 84</span>
+	 <a href="/scimag/?journal=4242&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

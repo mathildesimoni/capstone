@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/20003">Probability Theory and Related Fields</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0178-8051</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1432-2064</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 189; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 189');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=20003&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;708 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 189</span>
+	 <a href="/scimag/?journal=20003&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>K. R. Parthasarathy; Kalyan B. Sinha</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00318706">Stop times in fock space stochastic calculus</a></p>
+		<p>DOI: 10.1007/bf00318706</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;75, issue&nbsp;3 (1987)</p></td>
+	<td>1.53&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00318706" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00318706">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00318706">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00318706">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kenneth S. Alexander</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00318707">Central limit theorems for stochastic processes under random entropy conditions</a></p>
+		<p>DOI: 10.1007/bf00318707</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;75, issue&nbsp;3 (1987)</p></td>
+	<td>1.27&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00318707" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00318707">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00318707">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00318707">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kenneth S. Alexander</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00318708">Rates of growth and sample moduli for weighted empirical processes indexed by sets</a></p>
+		<p>DOI: 10.1007/bf00318708</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;75, issue&nbsp;3 (1987)</p></td>
+	<td>1.84&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00318708" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00318708">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00318708">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00318708">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rolf Thrum</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00318709">A remark on almost sure convergence of weighted sums</a></p>
+		<p>DOI: 10.1007/bf00318709</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;75, issue&nbsp;3 (1987)</p></td>
+	<td>214&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00318709" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00318709">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00318709">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00318709">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andreas Greven</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00318710">Couplings of Markov chains by randomized stopping times</a></p>
+		<p>DOI: 10.1007/bf00318710</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;75, issue&nbsp;3 (1987)</p></td>
+	<td>1.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00318710" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00318710">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00318710">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00318710">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rene Carmona; David Nualart</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00318783">Random non-linear wave equations: Smoothness of the solutions</a></p>
+		<p>DOI: 10.1007/bf00318783</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;79, issue&nbsp;4 (1988)</p></td>
+	<td>1.56&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00318783" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00318783">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00318783">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00318783">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Aldous; Paul Shields</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00318784">A diffusion limit for a class of randomly-growing binary trees</a></p>
+		<p>DOI: 10.1007/bf00318784</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;79, issue&nbsp;4 (1988)</p></td>
+	<td>1.44&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00318784" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00318784">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00318784">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00318784">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin T. Barlow; Edwin A. Perkins</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00318785">Brownian motion on the Sierpinski gasket</a></p>
+		<p>DOI: 10.1007/bf00318785</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;79, issue&nbsp;4 (1988)</p></td>
+	<td>3.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00318785" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00318785">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00318785">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00318785">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-Pierre Kahane; Jacques Peyrière; Wen Zhi-ying; Wu Li-ming</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00318786">Moyennes uniformes et moyennes suivant une marche aléatoire</a></p>
+		<p>DOI: 10.1007/bf00318786</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;79, issue&nbsp;4 (1988)</p></td>
+	<td>211&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00318786" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00318786">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00318786">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00318786">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Y. Déniel; Y. Derriennic</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00318787">Sur la convergence presque sure, au sens de Cesaro d'ordre α, 0</a></p>
+		<p>DOI: 10.1007/bf00318787</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;79, issue&nbsp;4 (1988)</p></td>
+	<td>289&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00318787" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00318787">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00318787">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00318787">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Boldrighini; G. C. Cosimi; S. Frigio; A. Nogueira</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00318904">Convergence to a stationary state and diffusion for a charged particle in a standing medium</a></p>
+		<p>DOI: 10.1007/bf00318904</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;80, issue&nbsp;4 (1989)</p></td>
+	<td>886&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00318904" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00318904">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00318904">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00318904">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kiyoshi Kawazu; Yozo Tamura; Hiroshi Tanaka</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00318905">Limit theorems for one-dimensional diffusions and random walks in random environments</a></p>
+		<p>DOI: 10.1007/bf00318905</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;80, issue&nbsp;4 (1989)</p></td>
+	<td>1.43&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00318905" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00318905">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00318905">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00318905">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Arak; D. Surgailis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00318906">Markov fields with polygonal realizations</a></p>
+		<p>DOI: 10.1007/bf00318906</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;80, issue&nbsp;4 (1989)</p></td>
+	<td>1.36&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00318906" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00318906">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00318906">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00318906">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Neal Madras</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00318907">Random walks with killing</a></p>
+		<p>DOI: 10.1007/bf00318907</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;80, issue&nbsp;4 (1989)</p></td>
+	<td>879&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00318907" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00318907">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00318907">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00318907">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lesław Gajek</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00318908">Estimating a density and its derivatives via the minimum distance method</a></p>
+		<p>DOI: 10.1007/bf00318908</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;80, issue&nbsp;4 (1989)</p></td>
+	<td>654&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00318908" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00318908">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00318908">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00318908">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Deborah Nolan; J. Stephen Marron</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00318909">Uniform consistency of automatic and location-adaptive delta-sequence estimators</a></p>
+		<p>DOI: 10.1007/bf00318909</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;80, issue&nbsp;4 (1989)</p></td>
+	<td>778&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00318909" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00318909">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00318909">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00318909">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. I. Reiman; R. J. Williams</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00318910">Correction to: A boundary property of semimartingale reflecting brownian motions</a></p>
+		<p>DOI: 10.1007/bf00318910</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;80, issue&nbsp;4 (1989)</p></td>
+	<td>49&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00318910" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00318910">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00318910">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00318910">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stamatis Cambanis; Clyde D. Hardin; Aleksander Weron</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00319099">Innovations and Wold decompositions of stable sequences</a></p>
+		<p>DOI: 10.1007/bf00319099</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;79, issue&nbsp;1 (1988)</p></td>
+	<td>1.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00319099" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00319099">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00319099">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00319099">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tomasz Downarowicz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00319100">A minimal 0–1 subshift with noncompact set of ergodic measures</a></p>
+		<p>DOI: 10.1007/bf00319100</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;79, issue&nbsp;1 (1988)</p></td>
+	<td>311&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00319100" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00319100">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00319100">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00319100">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Avram</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00319101">On bilinear forms in Gaussian random variables and Toeplitz matrices</a></p>
+		<p>DOI: 10.1007/bf00319101</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;79, issue&nbsp;1 (1988)</p></td>
+	<td>323&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00319101" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00319101">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00319101">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00319101">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Affentranger</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00319102">Pairs of non-intersecting random flats</a></p>
+		<p>DOI: 10.1007/bf00319102</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;79, issue&nbsp;1 (1988)</p></td>
+	<td>120&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00319102" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00319102">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00319102">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00319102">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Murray D. Burke; Sándor Csörgő; Lajos Horváth</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00319103">A correction to and improvement of ‘Strong approximations of some biometric estimates under random censorship’</a></p>
+		<p>DOI: 10.1007/bf00319103</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;79, issue&nbsp;1 (1988)</p></td>
+	<td>250&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00319103" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00319103">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00319103">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00319103">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Helmers; P. Janssen; R. Serfling</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00319105">Glivenko-Cantelli properties of some generalized empirical DF's and strong convergence of generalizedL-statistics</a></p>
+		<p>DOI: 10.1007/bf00319105</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;79, issue&nbsp;1 (1988)</p></td>
+	<td>902&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00319105" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00319105">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00319105">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00319105">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. Dante Blassie</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00319106">Remark on exit times from cones in(mathbb{R}^n )of Brownian motion</a></p>
+		<p>DOI: 10.1007/bf00319106</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;79, issue&nbsp;1 (1988)</p></td>
+	<td>113&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00319106" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00319106">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00319106">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00319106">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wei-Shih Yang; D. Klein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00319107">A note on the critical dimension for weakly self-avoiding walks</a></p>
+		<p>DOI: 10.1007/bf00319107</p>	</td>
+	<td><p><a href="/scimag/journals/20003">Probability Theory and Related Fields</a><p>volume&nbsp;79, issue&nbsp;1 (1988)</p></td>
+	<td>600&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00319107" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00319107">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00319107">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00319107">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;708 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 189</span>
+	 <a href="/scimag/?journal=20003&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

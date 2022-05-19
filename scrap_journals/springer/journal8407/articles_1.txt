@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/8407">Granular Matter</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1434-5021</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1434-7636</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 51; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 51');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=8407&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;254 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 51</span>
+	 <a href="/scimag/?journal=8407&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010882">Editorial</a></p>
+		<p>DOI: 10.1007/pl00010882</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;3, issue&nbsp;1-2 (2001)</p></td>
+	<td>30&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010882" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010882">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010882">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010882">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>German Drazer; Horacio S. Wio; Constantino Tsallis</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010883">Exact time-dependent solutions for anomalous diffusion with absorption</a></p>
+		<p>DOI: 10.1007/pl00010883</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;3, issue&nbsp;1-2 (2001)</p></td>
+	<td>94&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010883" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010883">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010883">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010883">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. Sapag; R. L. Girón; S. Mendioroz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010884">Proper stability in porous media based in a natural clay</a></p>
+		<p>DOI: 10.1007/pl00010884</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;3, issue&nbsp;1-2 (2001)</p></td>
+	<td>158&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010884" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010884">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010884">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010884">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Zuzek; S. Perez Catán; C. P. Arciprete; M. I Dimitrijewits; M. C. Almandoz; J. Marchese</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010885">Asymmetric ceramic microporous membranes</a></p>
+		<p>DOI: 10.1007/pl00010885</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;3, issue&nbsp;1-2 (2001)</p></td>
+	<td>155&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010885" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010885">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010885">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010885">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Cristian F. Moukarzel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010886">Isostaticity in granular matter</a></p>
+		<p>DOI: 10.1007/pl00010886</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;3, issue&nbsp;1-2 (2001)</p></td>
+	<td>529&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010886" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010886">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010886">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010886">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. R. Rodríguez; F. Vaca Chávez; D. J. Pusiol; A. M Figueiredo Neto</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010887">NMR study of the slow dynamics and local structure in lyotropic micellar liquid crystals</a></p>
+		<p>DOI: 10.1007/pl00010887</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;3, issue&nbsp;1-2 (2001)</p></td>
+	<td>121&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010887" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010887">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010887">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010887">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. H. López; A. M. Vidales; G. Zgrablich</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010888">Determination of the pore size distribution of correlated mesoporous networks</a></p>
+		<p>DOI: 10.1007/pl00010888</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;3, issue&nbsp;1-2 (2001)</p></td>
+	<td>151&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010888" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010888">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010888">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010888">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. A. Aguirre; N. Nerone; I. Ippolito; A. Calvo; D. Bideau</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010889">Granular packing: influence of different parameters on its stability</a></p>
+		<p>DOI: 10.1007/pl00010889</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;3, issue&nbsp;1-2 (2001)</p></td>
+	<td>92&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010889" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010889">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010889">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010889">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alberto Becerra; Marta Dimitrijewits; Carlos Arciprete; Adolfo Castro Luna</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010890">Stable Ni/Al2O3catalysts for methane dry reforming</a></p>
+		<p>DOI: 10.1007/pl00010890</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;3, issue&nbsp;1-2 (2001)</p></td>
+	<td>98&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010890" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010890">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010890">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010890">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Luciana Bruno; Irene Ippolito; Adriana Calvo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010891">Granular mixing in a Galton board</a></p>
+		<p>DOI: 10.1007/pl00010891</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;3, issue&nbsp;1-2 (2001)</p></td>
+	<td>99&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010891" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010891">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010891">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010891">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Bulnes; A. J. Ramirez-Pastor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010892">Monte Carlo simulation of collective diffusion on heterogeneous media: Dual Site-Bond Model</a></p>
+		<p>DOI: 10.1007/pl00010892</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;3, issue&nbsp;1-2 (2001)</p></td>
+	<td>165&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010892" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010892">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010892">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010892">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Butera</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010893">Ferromagnetic films deposited on nanochannel alumina</a></p>
+		<p>DOI: 10.1007/pl00010893</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;3, issue&nbsp;1-2 (2001)</p></td>
+	<td>108&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010893" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010893">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010893">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010893">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K. Nishimura; S. Keller; J. McElwaine; Y. Nohguchi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010911">Ping-pong ball avalanche at a ski jump</a></p>
+		<p>DOI: 10.1007/pl00010911</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;1, issue&nbsp;2 (1998)</p></td>
+	<td>366&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010911" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010911">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010911">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010911">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Nouguier; C. Bohatier; J. J. Moreau; F. Radjai</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010912">Force fluctuations in a pushed granular material</a></p>
+		<p>DOI: 10.1007/pl00010912</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;2, issue&nbsp;4 (2000)</p></td>
+	<td>394&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010912" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010912">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010912">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010912">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. R. McDowell; M. D. Bolton</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010913">Effect of particle size distribution on pile tip resistance in calcareous sand in the geotechnical centrifuge</a></p>
+		<p>DOI: 10.1007/pl00010913</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;2, issue&nbsp;4 (2000)</p></td>
+	<td>316&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010913" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010913">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010913">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010913">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Emeriault; C. Claquin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010914">Micromechanical modelling of the anisotropic viscoelasticity of granular materials: statistical homogenization</a></p>
+		<p>DOI: 10.1007/pl00010914</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;2, issue&nbsp;4 (2000)</p></td>
+	<td>256&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010914" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010914">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010914">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010914">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Olaf Herbst; Martin Huthmann; Annette Zippelius</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010915">Dynamics of inelastically colliding spheres with Coulomb friction: Relaxation of translational and rotational energy</a></p>
+		<p>DOI: 10.1007/pl00010915</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;2, issue&nbsp;4 (2000)</p></td>
+	<td>254&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010915" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010915">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010915">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010915">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010916">Erratum: Granular Matter 2, 123–135</a></p>
+		<p>DOI: 10.1007/pl00010916</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;2, issue&nbsp;4 (2000)</p></td>
+	<td>28&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010916" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010916">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010916">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010916">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Tejchman; M. Klisiński</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010917">FE-studies on rapid flow of bulk solids in silos</a></p>
+		<p>DOI: 10.1007/pl00010917</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;3, issue&nbsp;4 (2001)</p></td>
+	<td>618&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010917" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010917">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010917">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010917">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Algis Džiugys; Bernhard Peters</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00010918">An approach to simulate the motion of spherical and non-spherical fuel particles in combustion chambers</a></p>
+		<p>DOI: 10.1007/pl00010918</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;3, issue&nbsp;4 (2001)</p></td>
+	<td>769&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00010918" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00010918">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00010918">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00010918">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yuri Leonenko; Oleg Vinogradov</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fpl00013575">A molecular dynamics approach in simulations of fluid-solid particles flow</a></p>
+		<p>DOI: 10.1007/pl00013575</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;3, issue&nbsp;3 (2001)</p></td>
+	<td>140&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fpl00013575" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/pl00013575">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/pl00013575">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/pl00013575">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>José María Montanero; Vicente Garzó</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10035-001-0097-8">Monte Carlo simulation of the homogeneous cooling state for a granular mixture</a></p>
+		<p>DOI: 10.1007/s10035-001-0097-8</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;4, issue&nbsp;1 (2002)</p></td>
+	<td>182&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10035-001-0097-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10035-001-0097-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10035-001-0097-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10035-001-0097-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>R. P. Behringer; E. van Doorn; R. R. Hartley; H. K. Pak</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10035-001-0098-7">Making a rough place “plane”: why heaping of vertically shaken sand must stop at low pressure</a></p>
+		<p>DOI: 10.1007/s10035-001-0098-7</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;4, issue&nbsp;1 (2002)</p></td>
+	<td>265&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10035-001-0098-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10035-001-0098-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10035-001-0098-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10035-001-0098-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jens Pfister; Peter Eberhard</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10035-001-0099-6">Frictional contact of flexible and rigid bodies</a></p>
+		<p>DOI: 10.1007/s10035-001-0099-6</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;4, issue&nbsp;1 (2002)</p></td>
+	<td>262&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10035-001-0099-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10035-001-0099-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10035-001-0099-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10035-001-0099-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs10035-001-0101-3">Announcements</a></p>
+		<p>DOI: 10.1007/s10035-001-0101-3</p>	</td>
+	<td><p><a href="/scimag/journals/8407">Granular Matter</a><p>volume&nbsp;3, issue&nbsp;4 (2001)</p></td>
+	<td>34&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs10035-001-0101-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s10035-001-0101-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s10035-001-0101-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s10035-001-0101-3">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;254 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 51</span>
+	 <a href="/scimag/?journal=8407&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

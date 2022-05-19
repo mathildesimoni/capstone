@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/5406">Current Genetics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0172-8083</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1432-0983</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 172; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 172');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=5406&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;282 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 172</span>
+	 <a href="/scimag/?journal=5406&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Miguel A. Blázquez; Carlos Gancedo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309531">Identification of extragenic suppressors of thecif1mutation inSaccharomyces cerevisiae</a></p>
+		<p>DOI: 10.1007/bf00309531</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;25, issue&nbsp;2 (1994)</p></td>
+	<td>684&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309531" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309531">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309531">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309531">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. F. Vahlensieck; L. Pridzun; H. Reichenbach; A. Hinnen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309532">Identification of the yeastACC1gene product (acetyl-CoA carboxylase) as the target of the polyketide fungicide soraphen A</a></p>
+		<p>DOI: 10.1007/bf00309532</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;25, issue&nbsp;2 (1994)</p></td>
+	<td>633&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309532" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309532">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309532">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309532">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Uta Jungehülsing; Claudia Arntz; Ralf Smit; Paul Tudzynski</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309533">TheClaviceps purpureaglyceraldehyde-3-phosphate dehydrogenase gene: cloning, characterization, and use for the improvement of a dominant selection system</a></p>
+		<p>DOI: 10.1007/bf00309533</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;25, issue&nbsp;2 (1994)</p></td>
+	<td>613&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309533" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309533">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309533">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309533">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael J. Bidochka; Melanie A. McDonald; Raymond J. St. Leger; Donald W. Roberts</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309534">Differentiation of species and strains of entomopathogenic fungi by random amplification of polymorphic DNA (RAPD)</a></p>
+		<p>DOI: 10.1007/bf00309534</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;25, issue&nbsp;2 (1994)</p></td>
+	<td>706&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309534" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309534">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309534">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309534">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Murray; Jennifer Foxon; Frank Sweeney; Elisha Orr</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309535">Identification, partial sequence and genetic analysis ofmlpA, a novel gene encoding a myosin-related protein inPhysarum polycephalum</a></p>
+		<p>DOI: 10.1007/bf00309535</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;25, issue&nbsp;2 (1994)</p></td>
+	<td>1.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309535" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309535">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309535">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309535">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gael Lecellier; Philippe Silar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309536">Rapid methods for nucleic acids extraction from Petri dish-grown mycelia</a></p>
+		<p>DOI: 10.1007/bf00309536</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;25, issue&nbsp;2 (1994)</p></td>
+	<td>291&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309536" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309536">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309536">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309536">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>U. W. Hilber; M. Bodmer; F. D. Smith; W. Köller</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309537">Biolistic transformation of conidia ofBotryotinia fuckeliana</a></p>
+		<p>DOI: 10.1007/bf00309537</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;25, issue&nbsp;2 (1994)</p></td>
+	<td>483&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309537" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309537">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309537">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309537">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Peter Romaine; Beth Schlagnhaufer; Michael M. Goodin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309538">Vesicle-associated double-stranded ribonucleic acid genetic elements inAgaricus bisporus</a></p>
+		<p>DOI: 10.1007/bf00309538</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;25, issue&nbsp;2 (1994)</p></td>
+	<td>1.16&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309538" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309538">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309538">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309538">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rita Maria Rippe; Gerd Gellissen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309539">The genes for cytochrome b, ND 4L, ND6 and two tRNAs from the mitochondrial genome of the locust,Locusta migratoria</a></p>
+		<p>DOI: 10.1007/bf00309539</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;25, issue&nbsp;2 (1994)</p></td>
+	<td>803&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309539" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309539">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309539">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309539">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hans Peter Zassenhaus; Grace Denniger</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309540">Analysis of the role of the NUC1 endo/exonuclease in yeast mitochondrial DNA recombination</a></p>
+		<p>DOI: 10.1007/bf00309540</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;25, issue&nbsp;2 (1994)</p></td>
+	<td>1.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309540" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309540">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309540">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309540">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Josef Hermanns; Heinz D. Osiewacz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309541">Three mitochondrial unassigned open reading frames ofPodospora anserinarepresent remnants of a viral-type RNA polymerase gene</a></p>
+		<p>DOI: 10.1007/bf00309541</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;25, issue&nbsp;2 (1994)</p></td>
+	<td>974&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309541" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309541">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309541">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309541">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Jardin; D. Portetelle; L. Harvengt; M. Dumont; B. Wathelet</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309542">Expression of intron-encoded maturase-like polypeptides in potato chloroplasts</a></p>
+		<p>DOI: 10.1007/bf00309542</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;25, issue&nbsp;2 (1994)</p></td>
+	<td>814&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309542" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309542">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309542">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309542">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mamoru Sugita; Yuhko Murayama; Masahiro Sugiura</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309543">Structure and differential expression of two distinct genes encoding the chloroplast elongation factor Tu in tobacco</a></p>
+		<p>DOI: 10.1007/bf00309543</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;25, issue&nbsp;2 (1994)</p></td>
+	<td>655&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309543" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309543">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309543">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309543">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bernhard Schiedlmeier; Rüdiger Schmitt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309544">Repetitious structure and transcription control of a polyubiquitin gene inVolvox carteri</a></p>
+		<p>DOI: 10.1007/bf00309544</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;25, issue&nbsp;2 (1994)</p></td>
+	<td>1.24&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309544" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309544">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309544">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309544">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Oxana G. Gerassimenko</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309545">Yeast ts secretory mutationrgs1is suppressed by theSEC4gene ofSaccharomyces cerevisiae</a></p>
+		<p>DOI: 10.1007/bf00309545</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;25, issue&nbsp;2 (1994)</p></td>
+	<td>214&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309545" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309545">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309545">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309545">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Prado; A. Aguilera</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309546">New in-vivo cloning methods by homologous recombination in yeast</a></p>
+		<p>DOI: 10.1007/bf00309546</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;25, issue&nbsp;2 (1994)</p></td>
+	<td>464&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309546" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309546">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309546">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309546">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hichem Morjane; Jörg Geistlinger; Moncef Harrabi; Kurt Weising; Günter Kahl</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309547">Oligonucleotide fingerprinting detects genetic diversity amongAscochyta rabieiisolates from a single chickpea field in Tunisia</a></p>
+		<p>DOI: 10.1007/bf00309547</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;26, issue&nbsp;3 (1994)</p></td>
+	<td>1.52&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309547" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309547">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309547">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309547">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wietse Mulder; Aaron A. Winkler; Inge H. J. M. Scholten; Ben J. M. Zonneveld; Johannes H. Winde; H. Yde Steensma; Leslie A. Grivell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309548">Centromere promoter factors (CPF1) of the yeastsSaccharomyces cerevisiaeandKluyveromyces lactisare functionally exchangeable, despite low overall homology</a></p>
+		<p>DOI: 10.1007/bf00309548</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;26, issue&nbsp;3 (1994)</p></td>
+	<td>1.40&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309548" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309548">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309548">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309548">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dietmar Becher; Steffen Schulze; Anette Kasüske; Heiko Schulze; Ida A. Samsonova; Stephen G. Oliver</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309549">Molecular analysis of aleu2−mutant ofCandida maltosademonstrates the presence of multiple alleles</a></p>
+		<p>DOI: 10.1007/bf00309549</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;26, issue&nbsp;3 (1994)</p></td>
+	<td>1.28&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309549" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309549">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309549">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309549">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rosemarie Kelly; Elizabeth Register; Margaret Sosa</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309550">Heterologous transformation ofZalerion arboricola</a></p>
+		<p>DOI: 10.1007/bf00309550</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;26, issue&nbsp;3 (1994)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309550" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309550">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309550">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309550">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xiaoling Xuei; Paul L. Skatrud</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309551">Molecular karyotype alterations induced by transformation inAspergillus nidulansare mitotically stable</a></p>
+		<p>DOI: 10.1007/bf00309551</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;26, issue&nbsp;3 (1994)</p></td>
+	<td>351&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309551" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309551">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309551">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309551">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Johanna G. M. Hessing; Co Rotterdam; John M. A. Verbakel; Martinus Roza; Jan Maat; Robert F. M. Gorcom; Cees A. M. J. J. Hondel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309552">Isolation and characterization of a 1,4-β-endoxylanase gene ofA. awamori</a></p>
+		<p>DOI: 10.1007/bf00309552</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;26, issue&nbsp;3 (1994)</p></td>
+	<td>624&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309552" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309552">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309552">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309552">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alex Coenen; Fons Debets; Rolf Hoekstra</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309553">Additive action of partial heterokaryon incompatibility (partial-het) genes inAspergillus nidulans</a></p>
+		<p>DOI: 10.1007/bf00309553</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;26, issue&nbsp;3 (1994)</p></td>
+	<td>655&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309553" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309553">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309553">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309553">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gabor Jarai; Frank Buxton</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309554">Nitrogen, carbon, and pH regulation of extracellular acidic proteases ofAspergillus niger</a></p>
+		<p>DOI: 10.1007/bf00309554</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;26, issue&nbsp;3 (1994)</p></td>
+	<td>878&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309554" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309554">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309554">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309554">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Roland Marmeisse; Guido F. J. M. Ackerveken; Theo Goosen; Pierre J. G. M. Wit; Henk W. J. Broek</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00309555">Thein-plantainducedecp2 gene of the tomato pathogenCladosporium fulvumis not essential for pathogenicity</a></p>
+		<p>DOI: 10.1007/bf00309555</p>	</td>
+	<td><p><a href="/scimag/journals/5406">Current Genetics</a><p>volume&nbsp;26, issue&nbsp;3 (1994)</p></td>
+	<td>905&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00309555" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00309555">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00309555">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00309555">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;282 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 172</span>
+	 <a href="/scimag/?journal=5406&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

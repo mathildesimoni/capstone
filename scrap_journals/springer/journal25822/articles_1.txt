@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/25822">ZDM</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1863-9690</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1863-9704</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 65; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 65');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=25822&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;610 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 65</span>
+	 <a href="/scimag/?journal=25822&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Johanna Neubrand; Michael Neubrand</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652691">Special aspects of TIMSS related to mathematical education</a></p>
+		<p>DOI: 10.1007/bf02652691</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;31, issue&nbsp;6 (1999)</p></td>
+	<td>107&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652691" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652691">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652691">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652691">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Toshio Sawada</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652692">The Japanese perspective on TIMSS</a></p>
+		<p>DOI: 10.1007/bf02652692</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;31, issue&nbsp;6 (1999)</p></td>
+	<td>155&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652692" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652692">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652692">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652692">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carol J. Kinney; Akane Zusho</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652693">From formal standards to everyday practice of mathematics learning</a></p>
+		<p>DOI: 10.1007/bf02652693</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;31, issue&nbsp;6 (1999)</p></td>
+	<td>494&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652693" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652693">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652693">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652693">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yoshinori Shimizu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652694">Studying sample lessons rather than one excellent lesson: A Japanese perspective on the TIMSS videotape classroom study</a></p>
+		<p>DOI: 10.1007/bf02652694</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;31, issue&nbsp;6 (1999)</p></td>
+	<td>68&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652694" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652694">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652694">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652694">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James Hiebert; James W. Stigler; Alfred B. Manaster</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652695">Mathematical features of lessons in the TIMSS video study</a></p>
+		<p>DOI: 10.1007/bf02652695</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;31, issue&nbsp;6 (1999)</p></td>
+	<td>174&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652695" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652695">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652695">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652695">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Brian Griffiths</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652696">Teaching undergraduate mathematics</a></p>
+		<p>DOI: 10.1007/bf02652696</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;31, issue&nbsp;6 (1999)</p></td>
+	<td>54&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652696" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652696">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652696">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652696">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652697">Information</a></p>
+		<p>DOI: 10.1007/bf02652697</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;31, issue&nbsp;6 (1999)</p></td>
+	<td>57&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652697" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652697">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652697">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652697">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hans-Georg Steiner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652727">On the occasion of Gerhard König's 60th birthday</a></p>
+		<p>DOI: 10.1007/bf02652727</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;31, issue&nbsp;3 (1999)</p></td>
+	<td>12&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652727" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652727">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652727">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652727">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>María Luisa Oliveras</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652728">Ethnomathematics and mathematical education</a></p>
+		<p>DOI: 10.1007/bf02652728</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;31, issue&nbsp;3 (1999)</p></td>
+	<td>171&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652728" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652728">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652728">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652728">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652729">Allgemeine Mathematik: Mathematik und Realität</a></p>
+		<p>DOI: 10.1007/bf02652729</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;31, issue&nbsp;3 (1999)</p></td>
+	<td>10&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652729" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652729">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652729">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652729">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jama Musse Jama</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652730">The role of ethnomathematics in mathematics education cases from the horn of Africa</a></p>
+		<p>DOI: 10.1007/bf02652730</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;31, issue&nbsp;3 (1999)</p></td>
+	<td>52&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652730" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652730">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652730">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652730">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gelsa Knijnik</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652731">Ethnomathematics and the Brazilian Landless people education</a></p>
+		<p>DOI: 10.1007/bf02652731</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;31, issue&nbsp;3 (1999)</p></td>
+	<td>58&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652731" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652731">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652731">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652731">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paulus Gerdes; Günter Graumann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652732">Book reviews</a></p>
+		<p>DOI: 10.1007/bf02652732</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;31, issue&nbsp;3 (1999)</p></td>
+	<td>101&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652732" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652732">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652732">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652732">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Neubrand; M. Neubrand; Rita Stebler; Kurt Reusser</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652733">Progressive, classical or balanced— A look at mathematical learning environments in Swiss-German lower-secondary schools</a></p>
+		<p>DOI: 10.1007/bf02652733</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;32, issue&nbsp;1 (2000)</p></td>
+	<td>300&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652733" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652733">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652733">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652733">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gila Hanna</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652734">Declining gender differences from FIMS to TIMSS</a></p>
+		<p>DOI: 10.1007/bf02652734</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;32, issue&nbsp;1 (2000)</p></td>
+	<td>165&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652734" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652734">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652734">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652734">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gabriele Kaiser; Tanja Steisel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652735">Results of an analysis of the TIMS study from a gender perspective</a></p>
+		<p>DOI: 10.1007/bf02652735</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;32, issue&nbsp;1 (2000)</p></td>
+	<td>234&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652735" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652735">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652735">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652735">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ivor Grattan-Guinness; H. Brian Griffiths</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652736">Book reviews</a></p>
+		<p>DOI: 10.1007/bf02652736</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;32, issue&nbsp;1 (2000)</p></td>
+	<td>177&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652736" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652736">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652736">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652736">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652737">International Conference Mathematics for Living</a></p>
+		<p>DOI: 10.1007/bf02652737</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;32, issue&nbsp;1 (2000)</p></td>
+	<td>34&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652737" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652737">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652737">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652737">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter Kirsche; Kristina Reiss; Norbert Matros</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652738">Book reviews</a></p>
+		<p>DOI: 10.1007/bf02652738</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;33, issue&nbsp;2 (2001)</p></td>
+	<td>256&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652738" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652738">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652738">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652738">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Neubrand; Rolf Biehler; Werner Blum; Elmar Cohors-Fresenborg; Lothar Flade; Norbert Knoche; Detlef Lind; Wolfgang Löding; Gerd Möller; Alexander Wynands</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652739">Grundlagen der Ergänzung des internationalen PISA-Mathematik-Tests in der deutschen Zusatzerhebung</a></p>
+		<p>DOI: 10.1007/bf02652739</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;33, issue&nbsp;2 (2001)</p></td>
+	<td>289&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652739" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652739">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652739">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652739">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chris Lewin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652740">The creation of actuarial science</a></p>
+		<p>DOI: 10.1007/bf02652740</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;33, issue&nbsp;2 (2001)</p></td>
+	<td>118&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652740" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652740">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652740">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652740">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Colette Laborde; Thomas Romberg; Günter Krauthausen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652741">Book reviews</a></p>
+		<p>DOI: 10.1007/bf02652741</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;31, issue&nbsp;4 (1999)</p></td>
+	<td>159&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652741" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652741">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652741">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652741">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hermann Stever; Klaus P. Wolff</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652742">Mathematik als Grundlage beruflicher Kompetenz</a></p>
+		<p>DOI: 10.1007/bf02652742</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;31, issue&nbsp;4 (1999)</p></td>
+	<td>291&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652742" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652742">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652742">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652742">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Heinz Schumann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652743">Methodenvariation mittels Dynamischer Geometrie—exemplarisch</a></p>
+		<p>DOI: 10.1007/bf02652743</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;31, issue&nbsp;4 (1999)</p></td>
+	<td>311&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652743" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652743">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652743">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652743">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lisa Hefendehl-Hebeker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02652744">Bericht über einen interdisziplinären Workshop - Perspektiven für einen künftigen Mathematikunterricht</a></p>
+		<p>DOI: 10.1007/bf02652744</p>	</td>
+	<td><p><a href="/scimag/journals/25822">ZDM</a><p>volume&nbsp;31, issue&nbsp;4 (1999)</p></td>
+	<td>64&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02652744" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02652744">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02652744">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02652744">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;610 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 65</span>
+	 <a href="/scimag/?journal=25822&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

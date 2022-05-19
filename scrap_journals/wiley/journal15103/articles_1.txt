@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1060-3999</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1745-4581</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 25; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 25');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=15103&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">606 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 25</span>
+	 <a href="/scimag/?journal=15103&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>DANIEL Y.C. FUNG</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00066.x">HISTORICAL DEVELOPMENT of RAPID METHODS and AUTOMATION IN MICROBIOLOGY</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00066.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>649&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00066.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00066.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00066.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00066.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>LINDA S.L. YU; DANIEL Y.C. FUNG</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00067.x">GROWTH KINETICS of LISTERIA IN the PRESENCE of OXYRASETM ENZYME IN A BROTH MODEL SYSTEM</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00067.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>521&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00067.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00067.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00067.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00067.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>JOSEPH L. FERREIRA; MOSTAFA K. HAMDY; STEVEN G. MCCAY; BARBARA R. BAUMSTARK</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00068.x">AN IMPROVED ASSAY FOR IDENTIFICATION of TYPE A CLOSTRIDIUM BOTULINUM USING the POLYMERASE CHAIN REACTION</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00068.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>847&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00068.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00068.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00068.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00068.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M.T. MANNINEN; D.Y.C. FUNG</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00069.x">ESTIMATION of MICROBIAL NUMBERS FROM PURE BACTERIAL CULTURES and FROM MINCED BEEF SAMPLES BY REFLECTANCE COLORIMETRY WITH OMNISPECTM 4000</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00069.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>864&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00069.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00069.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00069.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00069.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>PAMELA J. BLORE; MICHAEL F. SLAVIK</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00070.x">A NEW RAPID TECHNIQUE FOR <em>SALMONELLA</em> ANTIGEN DETECTION USING A PARTICLE CONCENTRATION FLUORESCENCE IMMUNOASSAY (PCFIA)</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00070.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>326&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00070.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00070.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00070.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00070.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>ARUN K. BHUNIA; PETER H. BALL; MICHAEL G. JOHNSON</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00071.x">A 20–24 H MICROCOLONY-IMMUNOBLOT TECHNIQUE to DIRECTLY DETECT and ENUMERATE LISTERIA MONOCYTOGENES INOCULATED INTO FOODS</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00071.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>862&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00071.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00071.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00071.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00071.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>RONG-FU WANG; MICHAEL F. SLAVIK; WEI-WEN CAO; P.J. BLORE</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00072.x">DEVELOPMENT of DNA PROBES SPECIFIC FOR CAMPYLOBACTER JEJUNI</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00072.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;1 (1992)</p></td>
+	<td>852&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00072.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00072.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00072.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00072.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J.S. BAILEY; M.D. PRATT; D.A. BLANK; L.E. MANIS; O.A. SOTO; P.A. WHITE</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00073.x">RECOVERY and SPECIATION of <em>LISTERIA</em> FROM RAW and COOKED MEAT and POULTRY PRODUCTS</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00073.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;2 (1992)</p></td>
+	<td>419&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00073.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00073.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00073.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00073.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>RONG-FU WANG; MICHAEL F. SLAVIK; WEL-WEN CAO</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00074.x">A RAPID PCR METHOD FOR DIRECT DETECTION of LOW NUMBERS of <em>CAMPYLOBACTER JEJUNI</em></a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00074.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;2 (1992)</p></td>
+	<td>589&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00074.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00074.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00074.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00074.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>SAUMYA BHADURI; PINA M. FRATAMICO</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00075.x">A SIMPLIFIED METHOD of COLONY HYBRIDIZATION USING RADIOLABELED PROBES IN SEALED PETRI DISHES</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00075.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;2 (1992)</p></td>
+	<td>1.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00075.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00075.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00075.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00075.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M.T. MANNINEN; D.Y.C. FUNG</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00076.x">USE of SPIRAL PLATER and LASER COLONY SCANNER FOR ENUMERATION of MICROORGANISMS IN MEAT</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00076.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;2 (1992)</p></td>
+	<td>522&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00076.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00076.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00076.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00076.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>TSUNG C. CHANG; STEVEN H.C. DING</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00077.x">RAPID DETECTION of <em>STAPHYLOCOCCUS AUREUS</em> IN FOOD BY FLOW CYTOMETRY</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00077.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;2 (1992)</p></td>
+	<td>765&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00077.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00077.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00077.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00077.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. SMITH; M.K. HAMDY</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00078.x">IMMUNOENZYME FOR RAPID SCREENING of <em>CLOSTRIDIUM BOTULINUM</em> TYPE A CELLS</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00078.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;2 (1992)</p></td>
+	<td>1.37&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00078.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00078.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00078.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00078.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>MOHAMMAD S. ALI; DANIEL Y.C. FUNG</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00079.x">DETECTION of ENTEROTOXIGENIC <em>CLOSTRIDIUM PERFRINGENS</em> IN GROUND BEEF</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00079.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;2 (1992)</p></td>
+	<td>322&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00079.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00079.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00079.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00079.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00080.x">BOOK REVIEW</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00080.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;2 (1992)</p></td>
+	<td>121&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00080.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00080.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00080.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00080.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00081.x">EDITOR'S CORNER</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00081.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;3 (1992)</p></td>
+	<td>63&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00081.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00081.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00081.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00081.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00082.x">INTERNATIONAL RAPID METHODS AND AUTOMATION IN MICROBIOLOGY WORKSHOP Xm AGENDA*</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00082.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;3 (1992)</p></td>
+	<td>61&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00082.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00082.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00082.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00082.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P.I. PETERKIN; C.F. LANGFORD; J.R. CHAMBERS; A.N. SHARPE</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00083.x">USE of an ELECTRONIC HGMF INTERPRETER SYSTEM FOR ENUMERATION of NALIDIXIC ACID RESISTANT SALMONELLAE IN CHICKEN CAECA</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00083.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;3 (1992)</p></td>
+	<td>288&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00083.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00083.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00083.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00083.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>DERRICK A. BAUTISTA; LYNN MCINTYRE; LOUIS LALEYE; MANSEL W. GRIFFITHS</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00084.x">THE APPLICATION of ATP BIOLUMINESCENCE FOR the ASSESSMENT of MILK QUALITY and FACTORY HYGIENE</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00084.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;3 (1992)</p></td>
+	<td>611&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00084.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00084.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00084.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00084.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>RONG-FU WANG; MICHAEL F. SLAVIK; WEI-WEN CAO</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00085.x">DEVELOPMENT and USE of MONOCLONAL ANTIBODIES SPECIFIC FOR <em>MYCOPLASMA GALLISEPTICUM</em></a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00085.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;3 (1992)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00085.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00085.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00085.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00085.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>PING-CHENG YI; PAUL A. HARTMAN</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00086.x">RAPID GM1 GANGLIOSIDE LATEX AGGLUTINATION SLIDE TEST FOR CHOLERA TOXIN</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00086.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;3 (1992)</p></td>
+	<td>202&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00086.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00086.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00086.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00086.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S.A. PALUMBO; A.C. WILLIAMS</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00087.x">TELLURITE REDUCTION BY FOODBORNE BACTERIA</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00087.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;3 (1992)</p></td>
+	<td>306&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00087.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00087.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00087.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00087.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. SALVAT; F. HUMBERT; F. LALANDE; P. COLIN; C. LAHELLEC</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00088.x">A MINIATURIZED ENRICHMENT SEROLOGY METHOD FOR RAPID DETECTION of <em>SALMONELLA</em> FROM POULTRY MEAT and REARING FARMS ENVIRONMENT</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00088.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;3 (1992)</p></td>
+	<td>364&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00088.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00088.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00088.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00088.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>K.H. NIELSEN; R.S.W. TSANG</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00089.x">COMPARISON of ANALYTICAL SENSITIVITIES of THREE ENZYME IMMUNOASSAY PROCEDURES FOR the DETECTION of <em>SALMONELLA</em> LIPOPOLYSACCHARIDE</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00089.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;3 (1992)</p></td>
+	<td>593&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00089.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00089.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00089.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00089.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>FAHIMEH NIROOMAND; DANIEL Y.C. FUNG</td>
+	<td>
+		<p><a href="/scimag/10.1111%2Fj.1745-4581.1992.tb00090.x">EFFECT of OXYRASE ON GROWTH of <em>SALMONELLA</em> spp. and <em>LISTERIA MONOCYTOGENES</em> IN the “UNIVERSAL PREENRICHMENT MEDIUM”</a></p>
+		<p>DOI: 10.1111/j.1745-4581.1992.tb00090.x</p>	</td>
+	<td><p><a href="/scimag/journals/15103">Journal of Rapid Methods &amp; Automation in Microbiology</a><p>volume&nbsp;1, issue&nbsp;3 (1992)</p></td>
+	<td>178&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2Fj.1745-4581.1992.tb00090.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/j.1745-4581.1992.tb00090.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/j.1745-4581.1992.tb00090.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/j.1745-4581.1992.tb00090.x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">606 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 25</span>
+	 <a href="/scimag/?journal=15103&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

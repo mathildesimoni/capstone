@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1000-9000</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1860-4749</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 109; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 109');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=12884&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;725 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 109</span>
+	 <a href="/scimag/?journal=12884&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Lihong Zhi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943139">Optimal algorithm for algebraic factoring</a></p>
+		<p>DOI: 10.1007/bf02943139</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;1 (1997)</p></td>
+	<td>475&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943139" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943139">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943139">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943139">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jinzhao Wu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943140">Mechanical geometry theorem proving based on groebner bases</a></p>
+		<p>DOI: 10.1007/bf02943140</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;1 (1997)</p></td>
+	<td>394&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943140" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943140">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943140">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943140">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ningchuan Shen; Wei Li</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943141">R-calculus for ELP: An operational approach to knowledge base maintenance</a></p>
+		<p>DOI: 10.1007/bf02943141</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;1 (1997)</p></td>
+	<td>550&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943141" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943141">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943141">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943141">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Linpeng Huang; Weiqin Tong; Wing Ng Kam; Yongqiang Sun</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943142">Implementation of GAMMA on a massively parallel computer</a></p>
+		<p>DOI: 10.1007/bf02943142</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;1 (1997)</p></td>
+	<td>570&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943142" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943142">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943142">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943142">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hao Wang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943143">RaRbtransformation of compound finite automata over commutative rings</a></p>
+		<p>DOI: 10.1007/bf02943143</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;1 (1997)</p></td>
+	<td>416&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943143" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943143">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943143">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943143">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zhanyi Hu; Songde Ma</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943144">Performance prediction of the hough transform</a></p>
+		<p>DOI: 10.1007/bf02943144</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;1 (1997)</p></td>
+	<td>596&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943144" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943144">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943144">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943144">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yanping Deng; Jiegu Li</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943145">Existence and uniqueness in shape from shading</a></p>
+		<p>DOI: 10.1007/bf02943145</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;1 (1997)</p></td>
+	<td>347&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943145" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943145">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943145">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943145">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Qingyi Hua</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943146">An approach to user interface specification with attribute grammars</a></p>
+		<p>DOI: 10.1007/bf02943146</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;1 (1997)</p></td>
+	<td>634&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943146" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943146">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943146">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943146">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kaihuai Qin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943147">Neural network methods for NURBS curve and surface interpolation</a></p>
+		<p>DOI: 10.1007/bf02943147</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;1 (1997)</p></td>
+	<td>668&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943147" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943147">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943147">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943147">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chengqing Zong; Zhaoxiong Chen; Heyan Huang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943148">Parsing with dynamic rule selection</a></p>
+		<p>DOI: 10.1007/bf02943148</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;1 (1997)</p></td>
+	<td>360&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943148" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943148">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943148">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943148">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Renji Tao; Shihua Chen; Xuemei Chen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943149">FAPKC3: A new finite automaton public key cryptosystem</a></p>
+		<p>DOI: 10.1007/bf02943149</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;4 (1997)</p></td>
+	<td>969&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943149" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943149">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943149">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943149">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Qi Cheng; Hong Zhu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943150">MNP: A class of NP optimization problems</a></p>
+		<p>DOI: 10.1007/bf02943150</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;4 (1997)</p></td>
+	<td>403&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943150" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943150">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943150">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943150">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jinyun Xue</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943151">A unified approach for developing efficient algorithmic programs</a></p>
+		<p>DOI: 10.1007/bf02943151</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;4 (1997)</p></td>
+	<td>1.02&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943151" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943151">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943151">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943151">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dianxun Shuai</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943152">Asynchronous superimposition mechanisms of concurrent competitve waves for hyper-distributed hyper-parallel heuristic problem solving</a></p>
+		<p>DOI: 10.1007/bf02943152</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;4 (1997)</p></td>
+	<td>557&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943152" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943152">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943152">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943152">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chenghong Zhang; Yunfa Hu; Baile Shi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943153">A reasoning mechanism for deductive object-oriented databases</a></p>
+		<p>DOI: 10.1007/bf02943153</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;4 (1997)</p></td>
+	<td>571&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943153" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943153">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943153">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943153">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yangjun Chen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943154">Magic sets revisited</a></p>
+		<p>DOI: 10.1007/bf02943154</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;4 (1997)</p></td>
+	<td>1.31&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943154" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943154">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943154">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943154">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wangning Long; Yinghua Min; Shiyuan Yang; Shibai Tong</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943155">Short-time scaling of variable ordering of OBDDs</a></p>
+		<p>DOI: 10.1007/bf02943155</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;4 (1997)</p></td>
+	<td>386&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943155" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943155">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943155">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943155">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Schubert Foo; Cheung Hui Siu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943156">System architectural design for delivering video mail over the World-Wide-Web</a></p>
+		<p>DOI: 10.1007/bf02943156</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;4 (1997)</p></td>
+	<td>1.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943156" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943156">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943156">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943156">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wen Gao; Xilin Chen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943171">A stochastic approach for blurred image restoration and optical flow computation on field image sequence</a></p>
+		<p>DOI: 10.1007/bf02943171</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;5 (1997)</p></td>
+	<td>1.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943171" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943171">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943171">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943171">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yongyue Zhang; Zhenyun Peng; Suya You; Guangyou Xu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943172">A multi-view face recognition system</a></p>
+		<p>DOI: 10.1007/bf02943172</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;5 (1997)</p></td>
+	<td>579&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943172" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943172">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943172">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943172">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yingqing Xu; Cheng Su; Dongxu Qi; Hua Li; Shenquan Liu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943173">Simulation of waters</a></p>
+		<p>DOI: 10.1007/bf02943173</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;5 (1997)</p></td>
+	<td>421&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943173" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943173">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943173">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943173">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jizhou Sun; Grimsdale Richard L.</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943174">A radiosity solution for curved surface environments</a></p>
+		<p>DOI: 10.1007/bf02943174</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;5 (1997)</p></td>
+	<td>669&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943174" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943174">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943174">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943174">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yuxi Fu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943175">Constructive sets in computable sets</a></p>
+		<p>DOI: 10.1007/bf02943175</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;5 (1997)</p></td>
+	<td>893&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943175" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943175">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943175">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943175">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hairong Kuang; Yongqiang Sun; Kai Lin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943176">A partial evaluator for a parallel lambda language</a></p>
+		<p>DOI: 10.1007/bf02943176</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;5 (1997)</p></td>
+	<td>1008&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943176" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943176">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943176">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943176">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Genjiang Zhu; Li Xie; Zhongxiu Sun</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02943177">NUAPC: A parallelizing compiler for C++</a></p>
+		<p>DOI: 10.1007/bf02943177</p>	</td>
+	<td><p><a href="/scimag/journals/12884">Journal of Computer Science and Technology</a><p>volume&nbsp;12, issue&nbsp;5 (1997)</p></td>
+	<td>696&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02943177" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02943177">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02943177">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02943177">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;725 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 109</span>
+	 <a href="/scimag/?journal=12884&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0371-0459</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1600-0692</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 12; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 12');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=21831&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">277 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 12</span>
+	 <a href="/scimag/?journal=21831&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Ilija Ilić; Srećko Stopić; Katarina Cerović; Željko Kamberović</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-1.x">Study of chlorination of nickel ferrite by gaseous chlorine and calcium chloride in the presence of active additives</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-1.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;1 (2000)</p></td>
+	<td>193&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-1.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-1.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-1.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-1.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ralph Nyström; Wolfgang Reichelt; Mathias Dubke</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-10.x">Strip casting experiences at MEFOS</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-10.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;3 (2000)</p></td>
+	<td>393&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-10.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-10.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-10.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-10.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xuexing Yao; Stanislaw Zajac</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-11.x">The strain-rate dependence of flow stress and work-hardening rate in three Al-Mg alloys</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-11.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;3 (2000)</p></td>
+	<td>184&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-11.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-11.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-11.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-11.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Onuralp Yücel; M. Abdülnafi Özçelebi</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-12.x">Reduction smelting of bursa-uludağ tungsten concentrates by the aluminothermic process</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-12.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;3 (2000)</p></td>
+	<td>157&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-12.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-12.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-12.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-12.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. Sahajwalla; R. Khanna</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-13.x">Dissolution behavior of particulate graphite in Fe-C melts : A Monte Carlo simulation study</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-13.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;3 (2000)</p></td>
+	<td>243&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-13.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-13.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-13.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-13.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-138.x">Editorial</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-138.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;6 (2000)</p></td>
+	<td>72&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-138.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-138.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-138.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-138.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jorge Madías; Cristian Genzano</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-14.x">Industrial application of a thermodynamical modelto predict inclusion composition</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-14.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;3 (2000)</p></td>
+	<td>347&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-14.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-14.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-14.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-14.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Henrik Solhed; Jonas Alexis; Ulf Sjöström; Sheng Dong Yuan; Lage Jonsson</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-15.x">Application of mathematical modelling at MEFOS to improve metallurgical processes</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-15.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;3 (2000)</p></td>
+	<td>733&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-15.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-15.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-15.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-15.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. Paul; N. Pradhan; A. K. Ray; P. K. Bhor; S. Mazumdar; J. M. Korath</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-16.x">Assessment of heat extraction through slab caster mould</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-16.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;4 (2000)</p></td>
+	<td>243&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-16.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-16.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-16.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-16.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. V. S. Narayana Murty; B. Nageswara Rao</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-17.x">On the hot working characteristics of INCONEL alloy MA 754 using processing maps</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-17.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;4 (2000)</p></td>
+	<td>189&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-17.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-17.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-17.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-17.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. A. Bustnes; Du Sichen; S. Seetharaman</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-18.x">Investigation of the kinetics of reductionof manganese tungstate by hydrogen</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-18.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;4 (2000)</p></td>
+	<td>159&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-18.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-18.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-18.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-18.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Veikko Manninen; Tomi Lano; Lauri E. K. Holappa</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-19.x">Low reoxidation tundish metallurgy at Fundia Koverhar steel plant</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-19.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;4 (2000)</p></td>
+	<td>534&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-19.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-19.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-19.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-19.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ilija Ilić; Srećko Stopić; Katarina Cerović; Željko Kamberović</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-2.x">Study of chlorination of nickel silicate by gaseous chlorine and calcium chloride in the presence of active additives</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-2.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;1 (2000)</p></td>
+	<td>186&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-2.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-2.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-2.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-2.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. Gittler; R. Kickinger; S. Pirker; E. Fuhrmann; J. Lehner; J. Steins</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-20.x">Application of computational fluid dynamics in the development and improvement of steelmaking processes</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-20.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;4 (2000)</p></td>
+	<td>988&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-20.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-20.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-20.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-20.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. M. Nzotta; M. Andreasson; P. Jönsson; S. Seetharaman</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-21.x">A study on the sulphide capacities of steelmaking slags</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-21.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;4 (2000)</p></td>
+	<td>233&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-21.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-21.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-21.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-21.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Toshihiko Emi; Seshadri Seetharaman</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-22.x">Future steelmaking plant with minimized energy consumption and waste evolution</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-22.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;5 (2000)</p></td>
+	<td>330&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-22.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-22.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-22.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-22.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Kleimt; S. Köhle; K. P. Johann; A. Jungreithmeier; Joseba Molinero</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-23.x">Dynamic process model for denitrogenation and dehydrogenation by vacuum degassing</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-23.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;5 (2000)</p></td>
+	<td>202&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-23.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-23.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-23.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-23.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fabienne Ruby-Meyer; Jean Lehmann; Henri Gaye</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-24.x">Thermodynamic analysis of inclusions in Ti-deoxidised steels</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-24.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;5 (2000)</p></td>
+	<td>289&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-24.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-24.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-24.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-24.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. K. Banerjee; D. Ghosh; S. Datta</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-25.x">Effect of composition and thermomechanical processing on the ageing characteristic of copper-bearing HSLA steel</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-25.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;5 (2000)</p></td>
+	<td>554&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-25.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-25.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-25.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-25.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Çınar Şahin; B. Derin; O. Yücel</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-26.x">Chloride removal from zinc ash</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-26.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;5 (2000)</p></td>
+	<td>294&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-26.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-26.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-26.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-26.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tom P. Fredman</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-28.x">Heat transfer in steelmaking ladle refractories and steel temperature : A literature review</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-28.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;6 (2000)</p></td>
+	<td>688&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-28.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-28.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-28.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-28.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Satish C. Koria; Rajiv Dutta</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-29.x">Study of the effect of some process parameters on powder injection refining by a mathematical model</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-29.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;6 (2000)</p></td>
+	<td>209&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-29.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-29.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-29.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-29.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. S. Mehta; V. Sahajwalla</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-3.x">Influence of composition of slag and carbonaceous materials on the wettability at the slag/carbon interface during pulverised coal injection in a blast furnace</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-3.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;1 (2000)</p></td>
+	<td>325&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-3.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-3.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-3.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-3.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Young Jae Lee; Chong Min Cho</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-30.x">High-temperature meltdown characteristics of DRI-flux mixture in a melter-gasifier</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-30.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;6 (2000)</p></td>
+	<td>399&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-30.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-30.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-30.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-30.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Carl Erik Grip; Kjell Olof Jonsson; Sven Eriksson; Lage Jonsson; Pär Jönsson; Yuhua Pan</td>
+	<td>
+		<p><a href="/scimag/10.1034%2Fj.1600-0692.2000.d01-4.x">Theoretical and practical study of thermal stratification and drainage in ladles of different geometry</a></p>
+		<p>DOI: 10.1034/j.1600-0692.2000.d01-4.x</p>	</td>
+	<td><p><a href="/scimag/journals/21831">Scandinavian Journal of Metallurgy</a><p>volume&nbsp;29, issue&nbsp;1 (2000)</p></td>
+	<td>534&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1034%2Fj.1600-0692.2000.d01-4.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1034/j.1600-0692.2000.d01-4.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1034/j.1600-0692.2000.d01-4.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1034/j.1600-0692.2000.d01-4.x">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">277 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 12</span>
+	 <a href="/scimag/?journal=21831&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

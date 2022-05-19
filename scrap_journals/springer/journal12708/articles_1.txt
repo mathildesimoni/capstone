@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/12708">Journal of Classification</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0176-4268</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1432-1343</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 34; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 34');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=12708&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">849 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 34</span>
+	 <a href="/scimag/?journal=12708&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01195674">Special reviewers for volume eleven</a></p>
+		<p>DOI: 10.1007/bf01195674</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;11, issue&nbsp;2 (1994)</p></td>
+	<td>20&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01195674" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01195674">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01195674">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01195674">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01195675">Announcements</a></p>
+		<p>DOI: 10.1007/bf01195675</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;11, issue&nbsp;2 (1994)</p></td>
+	<td>53&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01195675" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01195675">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01195675">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01195675">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anil Chaturvedi; J. Douglas Carroll</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01195676">An alternating combinatorial optimization approach to fitting the INDCLUS and generalized INDCLUS models</a></p>
+		<p>DOI: 10.1007/bf01195676</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;11, issue&nbsp;2 (1994)</p></td>
+	<td>716&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01195676" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01195676">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01195676">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01195676">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wolfgang Gaul; Martin Schader</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01195677">Pyramidal classification based on incomplete dissimilarity data</a></p>
+		<p>DOI: 10.1007/bf01195677</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;11, issue&nbsp;2 (1994)</p></td>
+	<td>878&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01195677" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01195677">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01195677">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01195677">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Boris Mirkin</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01195678">Erratum</a></p>
+		<p>DOI: 10.1007/bf01195678</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;11, issue&nbsp;2 (1994)</p></td>
+	<td>32&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01195678" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01195678">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01195678">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01195678">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. J. Krzanowski</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01195679">Ordination in the presence of group structure, for general multivariate data</a></p>
+		<p>DOI: 10.1007/bf01195679</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;11, issue&nbsp;2 (1994)</p></td>
+	<td>542&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01195679" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01195679">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01195679">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01195679">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Sankoff; Yvon Abel; Jotun Hein</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01195680">A tree · a window · a hill; generalization of nearest-neighbor interchange in phylogenetic optimization</a></p>
+		<p>DOI: 10.1007/bf01195680</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;11, issue&nbsp;2 (1994)</p></td>
+	<td>1.16&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01195680" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01195680">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01195680">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01195680">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William H. E. Day; F. R. McMorris</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01195681">On the consistency of the plurality rule consensus function for molecular sequences</a></p>
+		<p>DOI: 10.1007/bf01195681</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;11, issue&nbsp;2 (1994)</p></td>
+	<td>880&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01195681" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01195681">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01195681">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01195681">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. J. Hand; Ove Frank; W. Gödert; H. Bacelar-Nicolau; Sarunas Raudys; A. W. Bowman; Glenn W. Milligan; R. J. Hathaway; R. B. Ivimey-Cook; B. S. Everitt; Allan R. Wilks; B. D. Ripley; Wayne S. DeSarbo; A. D. Gordon; D. J. Hand; V. Pliner; A. Ferligoj</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01195682">Book reviews</a></p>
+		<p>DOI: 10.1007/bf01195682</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;11, issue&nbsp;2 (1994)</p></td>
+	<td>2.16&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01195682" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01195682">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01195682">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01195682">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01195683">CSNA-94 Program</a></p>
+		<p>DOI: 10.1007/bf01195683</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;11, issue&nbsp;2 (1994)</p></td>
+	<td>95&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01195683" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01195683">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01195683">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01195683">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01201019">Richard C. Dubes</a></p>
+		<p>DOI: 10.1007/bf01201019</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;11, issue&nbsp;1 (1994)</p></td>
+	<td>130&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01201019" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01201019">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01201019">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01201019">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01201020">Announcements</a></p>
+		<p>DOI: 10.1007/bf01201020</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;11, issue&nbsp;1 (1994)</p></td>
+	<td>106&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01201020" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01201020">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01201020">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01201020">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gregory Paul M. Rozál; J. A. Hartigan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01201021">The MAP test for multimodality</a></p>
+		<p>DOI: 10.1007/bf01201021</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;11, issue&nbsp;1 (1994)</p></td>
+	<td>1.47&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01201021" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01201021">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01201021">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01201021">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gildas Brossier</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01201022">Partial dissimilarities with application to clustering</a></p>
+		<p>DOI: 10.1007/bf01201022</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;11, issue&nbsp;1 (1994)</p></td>
+	<td>1.14&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01201022" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01201022">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01201022">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01201022">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. Vach</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01201023">Preserving consensus hierarchies</a></p>
+		<p>DOI: 10.1007/bf01201023</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;11, issue&nbsp;1 (1994)</p></td>
+	<td>770&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01201023" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01201023">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01201023">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01201023">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Henk A. L. Kiers; Yoshio Takane</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01201024">A generalization of GIPSCAL for the analysis of nonsymmetric data</a></p>
+		<p>DOI: 10.1007/bf01201024</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;11, issue&nbsp;1 (1994)</p></td>
+	<td>1.15&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01201024" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01201024">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01201024">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01201024">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bernhard W. Flury; Martin J. Schmid; A. Narayanan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01201025">Error rates in quadratic discrimination with constraints on the covariance matrices</a></p>
+		<p>DOI: 10.1007/bf01201025</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;11, issue&nbsp;1 (1994)</p></td>
+	<td>907&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01201025" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01201025">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01201025">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01201025">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Banks; Kathleen Carley</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01201026">Metric inference for social networks</a></p>
+		<p>DOI: 10.1007/bf01201026</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;11, issue&nbsp;1 (1994)</p></td>
+	<td>1.49&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01201026" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01201026">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01201026">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01201026">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01202263">Announcements</a></p>
+		<p>DOI: 10.1007/bf01202263</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;12, issue&nbsp;1 (1995)</p></td>
+	<td>49&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01202263" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01202263">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01202263">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01202263">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. J. Krazanowski</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01202264">Erratum</a></p>
+		<p>DOI: 10.1007/bf01202264</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;12, issue&nbsp;1 (1995)</p></td>
+	<td>34&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01202264" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01202264">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01202264">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01202264">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patrick J. F. Groenen; Rudolf Mathar; Willem J. Heiser</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01202265">The majorization approach to multidimensional scaling for Minkowski distances</a></p>
+		<p>DOI: 10.1007/bf01202265</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;12, issue&nbsp;1 (1995)</p></td>
+	<td>784&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01202265" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01202265">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01202265">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01202265">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michel Wedel; Wayne S. DeSarbo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01202266">A mixture likelihood approach for generalized linear models</a></p>
+		<p>DOI: 10.1007/bf01202266</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;12, issue&nbsp;1 (1995)</p></td>
+	<td>1.80&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01202266" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01202266">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01202266">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01202266">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Douglas Carroll; Suzanne Winsberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01202267">Fitting an extended INDSCAL model to three-way proximity data</a></p>
+		<p>DOI: 10.1007/bf01202267</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;12, issue&nbsp;1 (1995)</p></td>
+	<td>801&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01202267" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01202267">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01202267">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01202267">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vladimir Batagelj; Matevz Bren</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01202268">Comparing resemblance measures</a></p>
+		<p>DOI: 10.1007/bf01202268</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;12, issue&nbsp;1 (1995)</p></td>
+	<td>658&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01202268" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01202268">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01202268">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01202268">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ewa Kubicka; Grzegorz Kubicki; F. R. McMorris</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf01202269">An algorithm to find agreement subtrees</a></p>
+		<p>DOI: 10.1007/bf01202269</p>	</td>
+	<td><p><a href="/scimag/journals/12708">Journal of Classification</a><p>volume&nbsp;12, issue&nbsp;1 (1995)</p></td>
+	<td>339&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf01202269" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf01202269">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf01202269">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf01202269">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">849 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 34</span>
+	 <a href="/scimag/?journal=12708&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

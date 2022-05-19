@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/22439">Software Focus</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1529-7942</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1529-7950</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 2; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 2');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=22439&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">50 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 2</span>
+	 <a href="/scimag/?journal=22439&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Harry Sneed; Siegfried Göschl</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1529-7950%28200009%291%3A1%3C15%3A%3Aaid-swf3%3E3.0.co%3B2-8">Testing software for internet applications</a></p>
+		<p>DOI: 10.1002/1529-7950(200009)1:1&lt;15::aid-swf3&gt;3.0.co;2-8</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>356&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1529-7950%28200009%291%3A1%3C15%3A%3Aaid-swf3%3E3.0.co%3B2-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1529-7950%28200009%291%3A1%3C15%3A%3Aaid-swf3%3E3.0.co%3B2-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1529-7950%28200009%291%3A1%3C15%3A%3Aaid-swf3%3E3.0.co%3B2-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1529-7950%28200009%291%3A1%3C15%3A%3Aaid-swf3%3E3.0.co%3B2-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark Norris</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1529-7950%28200009%291%3A1%3C23%3A%3Aaid-swf4%3E3.0.co%3B2-a">Survival in the ebusiness jungle</a></p>
+		<p>DOI: 10.1002/1529-7950(200009)1:1&lt;23::aid-swf4&gt;3.0.co;2-a</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>152&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1529-7950%28200009%291%3A1%3C23%3A%3Aaid-swf4%3E3.0.co%3B2-a" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1529-7950%28200009%291%3A1%3C23%3A%3Aaid-swf4%3E3.0.co%3B2-a">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1529-7950%28200009%291%3A1%3C23%3A%3Aaid-swf4%3E3.0.co%3B2-a">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1529-7950%28200009%291%3A1%3C23%3A%3Aaid-swf4%3E3.0.co%3B2-a">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark Harman</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1529-7950%28200009%291%3A1%3C27%3A%3Aaid-swf5%3E3.0.co%3B2-w">Formal concept analysis — mathematical foundations Bernhard Ganter and Rudolf Wille Springer-Verlag, 1999 ISBN: 3-540-62771-5 284 pages Price: UK £22.50, US $39.95 Soft cover</a></p>
+		<p>DOI: 10.1002/1529-7950(200009)1:1&lt;27::aid-swf5&gt;3.0.co;2-w</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>70&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1529-7950%28200009%291%3A1%3C27%3A%3Aaid-swf5%3E3.0.co%3B2-w" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1529-7950%28200009%291%3A1%3C27%3A%3Aaid-swf5%3E3.0.co%3B2-w">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1529-7950%28200009%291%3A1%3C27%3A%3Aaid-swf5%3E3.0.co%3B2-w">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1529-7950%28200009%291%3A1%3C27%3A%3Aaid-swf5%3E3.0.co%3B2-w">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ed Zaluska</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1529-7950%28200009%291%3A1%3C28%3A%3Aaid-swf6%3E3.0.co%3B2-q">The essence of distributed systems Joel Crichlow Prentice-Hall, 2000 ISBN: 0130-15167-X 164 pages Price: UK £19.99 Soft Cover.</a></p>
+		<p>DOI: 10.1002/1529-7950(200009)1:1&lt;28::aid-swf6&gt;3.0.co;2-q</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>103&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1529-7950%28200009%291%3A1%3C28%3A%3Aaid-swf6%3E3.0.co%3B2-q" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1529-7950%28200009%291%3A1%3C28%3A%3Aaid-swf6%3E3.0.co%3B2-q">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1529-7950%28200009%291%3A1%3C28%3A%3Aaid-swf6%3E3.0.co%3B2-q">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1529-7950%28200009%291%3A1%3C28%3A%3Aaid-swf6%3E3.0.co%3B2-q">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark Baker</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1529-7950%28200009%291%3A1%3C29%3A%3Aaid-swf7%3E3.0.co%3B2-k">Parallel programming with Java</a></p>
+		<p>DOI: 10.1002/1529-7950(200009)1:1&lt;29::aid-swf7&gt;3.0.co;2-k</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>110&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1529-7950%28200009%291%3A1%3C29%3A%3Aaid-swf7%3E3.0.co%3B2-k" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1529-7950%28200009%291%3A1%3C29%3A%3Aaid-swf7%3E3.0.co%3B2-k">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1529-7950%28200009%291%3A1%3C29%3A%3Aaid-swf7%3E3.0.co%3B2-k">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1529-7950%28200009%291%3A1%3C29%3A%3Aaid-swf7%3E3.0.co%3B2-k">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dorothea Wagner; Karsten Weihe</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1529-7950%28200009%291%3A1%3C30%3A%3Aaid-swf8%3E3.0.co%3B2-6">Algorithm engineering</a></p>
+		<p>DOI: 10.1002/1529-7950(200009)1:1&lt;30::aid-swf8&gt;3.0.co;2-6</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>158&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1529-7950%28200009%291%3A1%3C30%3A%3Aaid-swf8%3E3.0.co%3B2-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1529-7950%28200009%291%3A1%3C30%3A%3Aaid-swf8%3E3.0.co%3B2-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1529-7950%28200009%291%3A1%3C30%3A%3Aaid-swf8%3E3.0.co%3B2-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1529-7950%28200009%291%3A1%3C30%3A%3Aaid-swf8%3E3.0.co%3B2-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Douglas Comer</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1529-7950%28200009%291%3A1%3C5%3A%3Aaid-swf1%3E3.0.co%3B2-0">Keeping up with the pace of rapid change…</a></p>
+		<p>DOI: 10.1002/1529-7950(200009)1:1&lt;5::aid-swf1&gt;3.0.co;2-0</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>49&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1529-7950%28200009%291%3A1%3C5%3A%3Aaid-swf1%3E3.0.co%3B2-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1529-7950%28200009%291%3A1%3C5%3A%3Aaid-swf1%3E3.0.co%3B2-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1529-7950%28200009%291%3A1%3C5%3A%3Aaid-swf1%3E3.0.co%3B2-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1529-7950%28200009%291%3A1%3C5%3A%3Aaid-swf1%3E3.0.co%3B2-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christian Babski; Daniel Thalmann</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1529-7950%28200009%291%3A1%3C6%3A%3Aaid-swf2%3E3.0.co%3B2-v">3D graphics define virtual humans on the web</a></p>
+		<p>DOI: 10.1002/1529-7950(200009)1:1&lt;6::aid-swf2&gt;3.0.co;2-v</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;1, issue&nbsp;1 (2000)</p></td>
+	<td>760&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1529-7950%28200009%291%3A1%3C6%3A%3Aaid-swf2%3E3.0.co%3B2-v" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1529-7950%28200009%291%3A1%3C6%3A%3Aaid-swf2%3E3.0.co%3B2-v">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1529-7950%28200009%291%3A1%3C6%3A%3Aaid-swf2%3E3.0.co%3B2-v">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1529-7950%28200009%291%3A1%3C6%3A%3Aaid-swf2%3E3.0.co%3B2-v">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Claude Petitpierre</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1529-7950%28200012%291%3A2%3C14%3A%3Aaid-swf11%3E3.0.co%3B2-r">Beyond Threads and semaphores</a></p>
+		<p>DOI: 10.1002/1529-7950(200012)1:2&lt;14::aid-swf11&gt;3.0.co;2-r</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>197&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1529-7950%28200012%291%3A2%3C14%3A%3Aaid-swf11%3E3.0.co%3B2-r" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1529-7950%28200012%291%3A2%3C14%3A%3Aaid-swf11%3E3.0.co%3B2-r">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1529-7950%28200012%291%3A2%3C14%3A%3Aaid-swf11%3E3.0.co%3B2-r">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1529-7950%28200012%291%3A2%3C14%3A%3Aaid-swf11%3E3.0.co%3B2-r">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ned Chapin</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1529-7950%28200012%291%3A2%3C19%3A%3Aaid-swf12%3E3.0.co%3B2-j">Impressions from ICSM 2000</a></p>
+		<p>DOI: 10.1002/1529-7950(200012)1:2&lt;19::aid-swf12&gt;3.0.co;2-j</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>106&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1529-7950%28200012%291%3A2%3C19%3A%3Aaid-swf12%3E3.0.co%3B2-j" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1529-7950%28200012%291%3A2%3C19%3A%3Aaid-swf12%3E3.0.co%3B2-j">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1529-7950%28200012%291%3A2%3C19%3A%3Aaid-swf12%3E3.0.co%3B2-j">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1529-7950%28200012%291%3A2%3C19%3A%3Aaid-swf12%3E3.0.co%3B2-j">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Matthew Chalmers</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1529-7950%28200012%291%3A2%3C22%3A%3Aaid-swf13%3E3.0.co%3B2-k">Information Visualization, Robert Spence, Addison-Wesley 2000 ISBN: 0-201-59626-1, 206 pages, Price: UK £34.99, Hard Cover</a></p>
+		<p>DOI: 10.1002/1529-7950(200012)1:2&lt;22::aid-swf13&gt;3.0.co;2-k</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>147&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1529-7950%28200012%291%3A2%3C22%3A%3Aaid-swf13%3E3.0.co%3B2-k" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1529-7950%28200012%291%3A2%3C22%3A%3Aaid-swf13%3E3.0.co%3B2-k">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1529-7950%28200012%291%3A2%3C22%3A%3Aaid-swf13%3E3.0.co%3B2-k">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1529-7950%28200012%291%3A2%3C22%3A%3Aaid-swf13%3E3.0.co%3B2-k">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Elizabeth Burd</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1529-7950%28200012%291%3A2%3C23%3A%3Aaid-swf14%3E3.0.co%3B2-g">Designing Maintainable Software, Dennis Smith, Springer-Verlag, 1999 ISBN: 0-387-98783-5, 169 pages Price: UK £34, US $49.95, Hard Cover.</a></p>
+		<p>DOI: 10.1002/1529-7950(200012)1:2&lt;23::aid-swf14&gt;3.0.co;2-g</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>132&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1529-7950%28200012%291%3A2%3C23%3A%3Aaid-swf14%3E3.0.co%3B2-g" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1529-7950%28200012%291%3A2%3C23%3A%3Aaid-swf14%3E3.0.co%3B2-g">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1529-7950%28200012%291%3A2%3C23%3A%3Aaid-swf14%3E3.0.co%3B2-g">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1529-7950%28200012%291%3A2%3C23%3A%3Aaid-swf14%3E3.0.co%3B2-g">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Katarina Stanoevska-Slabeva</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1529-7950%28200012%291%3A2%3C24%3A%3Aaid-swf15%3E3.0.co%3B2-c">Online Communities - Designing Usability, Supporting Sociability, Jenny Preece, John Wiley & Sons, 2000, ISBN 0-471-80599-8, 424 pages, price: US $34.99 Soft Cover</a></p>
+		<p>DOI: 10.1002/1529-7950(200012)1:2&lt;24::aid-swf15&gt;3.0.co;2-c</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>108&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1529-7950%28200012%291%3A2%3C24%3A%3Aaid-swf15%3E3.0.co%3B2-c" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1529-7950%28200012%291%3A2%3C24%3A%3Aaid-swf15%3E3.0.co%3B2-c">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1529-7950%28200012%291%3A2%3C24%3A%3Aaid-swf15%3E3.0.co%3B2-c">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1529-7950%28200012%291%3A2%3C24%3A%3Aaid-swf15%3E3.0.co%3B2-c">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Rob Hierons</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1529-7950%28200012%291%3A2%3C25%3A%3Aaid-swf16%3E3.0.co%3B2-8">Specification based testing</a></p>
+		<p>DOI: 10.1002/1529-7950(200012)1:2&lt;25::aid-swf16&gt;3.0.co;2-8</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>161&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1529-7950%28200012%291%3A2%3C25%3A%3Aaid-swf16%3E3.0.co%3B2-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1529-7950%28200012%291%3A2%3C25%3A%3Aaid-swf16%3E3.0.co%3B2-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1529-7950%28200012%291%3A2%3C25%3A%3Aaid-swf16%3E3.0.co%3B2-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1529-7950%28200012%291%3A2%3C25%3A%3Aaid-swf16%3E3.0.co%3B2-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wilhelm Schäfer</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1529-7950%28200012%291%3A2%3C27%3A%3Aaid-swf17%3E3.0.co%3B2-3">Software process improvement</a></p>
+		<p>DOI: 10.1002/1529-7950(200012)1:2&lt;27::aid-swf17&gt;3.0.co;2-3</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>145&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1529-7950%28200012%291%3A2%3C27%3A%3Aaid-swf17%3E3.0.co%3B2-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1529-7950%28200012%291%3A2%3C27%3A%3Aaid-swf17%3E3.0.co%3B2-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1529-7950%28200012%291%3A2%3C27%3A%3Aaid-swf17%3E3.0.co%3B2-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1529-7950%28200012%291%3A2%3C27%3A%3Aaid-swf17%3E3.0.co%3B2-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Simone Taylor</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1529-7950%28200012%291%3A2%3C5%3A%3Aaid-swf9%3E3.0.co%3B2-u">Delivering content via the World Wide Web</a></p>
+		<p>DOI: 10.1002/1529-7950(200012)1:2&lt;5::aid-swf9&gt;3.0.co;2-u</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>229&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1529-7950%28200012%291%3A2%3C5%3A%3Aaid-swf9%3E3.0.co%3B2-u" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1529-7950%28200012%291%3A2%3C5%3A%3Aaid-swf9%3E3.0.co%3B2-u">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1529-7950%28200012%291%3A2%3C5%3A%3Aaid-swf9%3E3.0.co%3B2-u">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1529-7950%28200012%291%3A2%3C5%3A%3Aaid-swf9%3E3.0.co%3B2-u">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nigel P. Smart</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1529-7950%28200012%291%3A2%3C6%3A%3Aaid-swf10%3E3.0.co%3B2-w">Physical side-channel attacks on cryptographic systems</a></p>
+		<p>DOI: 10.1002/1529-7950(200012)1:2&lt;6::aid-swf10&gt;3.0.co;2-w</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;1, issue&nbsp;2 (2000)</p></td>
+	<td>282&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1529-7950%28200012%291%3A2%3C6%3A%3Aaid-swf10%3E3.0.co%3B2-w" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1529-7950%28200012%291%3A2%3C6%3A%3Aaid-swf10%3E3.0.co%3B2-w">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1529-7950%28200012%291%3A2%3C6%3A%3Aaid-swf10%3E3.0.co%3B2-w">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1529-7950%28200012%291%3A2%3C6%3A%3Aaid-swf10%3E3.0.co%3B2-w">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jonathan Dale; Ebrahim Mamdani</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fswf.18">Open standards for interoperating agent-based systems</a></p>
+		<p>DOI: 10.1002/swf.18</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;2, issue&nbsp;1 (2001)</p></td>
+	<td>214&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fswf.18" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/swf.18">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/swf.18">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/swf.18">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jutta Eckstein</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fswf.19">Pedagogical patterns: capturing best practices in teaching object technology</a></p>
+		<p>DOI: 10.1002/swf.19</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;2, issue&nbsp;1 (2001)</p></td>
+	<td>155&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fswf.19" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/swf.19">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/swf.19">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/swf.19">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jeffrey Voas</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fswf.20">Why testing software under expected operational profiles is not sufficient</a></p>
+		<p>DOI: 10.1002/swf.20</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;2, issue&nbsp;1 (2001)</p></td>
+	<td>76&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fswf.20" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/swf.20">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/swf.20">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/swf.20">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Greer</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fswf.21">Evolutionary Web Development. By Arno Scharl, Published by Springer-Verlag, Berlin, 2000. ISBN: 1-85233-310-3, 302 pages. Price: UK £24.50, USA $39.95 Soft cover</a></p>
+		<p>DOI: 10.1002/swf.21</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;2, issue&nbsp;1 (2001)</p></td>
+	<td>162&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fswf.21" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/swf.21">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/swf.21">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/swf.21">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>George Ghinea</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fswf.22">Defending Your Digital Assets against Hackers, Crackers, Spies and Thieves. Randall Nichols, Daniel Ryan and Julie Ryan. McGraw-Hill, 2000. ISBN: 0072122854, 704 pages. Price: UK £32.99 Soft cover</a></p>
+		<p>DOI: 10.1002/swf.22</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;2, issue&nbsp;1 (2001)</p></td>
+	<td>145&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fswf.22" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/swf.22">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/swf.22">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/swf.22">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James Noble</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fswf.23">Aliasing in Object-Oriented Systems</a></p>
+		<p>DOI: 10.1002/swf.23</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;2, issue&nbsp;1 (2001)</p></td>
+	<td>91&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fswf.23" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/swf.23">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/swf.23">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/swf.23">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Barnes</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fswf.24">Half a century of programming and not much progress</a></p>
+		<p>DOI: 10.1002/swf.24</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;2, issue&nbsp;1 (2001)</p></td>
+	<td>133&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fswf.24" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/swf.24">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/swf.24">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/swf.24">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Geoffrey Fox</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Fswf.25">Java Grande</a></p>
+		<p>DOI: 10.1002/swf.25</p>	</td>
+	<td><p><a href="/scimag/journals/22439">Software Focus</a><p>volume&nbsp;2, issue&nbsp;1 (2001)</p></td>
+	<td>154&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Fswf.25" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/swf.25">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/swf.25">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/swf.25">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">50 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 2</span>
+	 <a href="/scimag/?journal=22439&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

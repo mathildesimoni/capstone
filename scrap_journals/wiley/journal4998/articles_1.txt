@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1532-0626</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1532-0634</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 194; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 194');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4998&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;847 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 194</span>
+	 <a href="/scimag/?journal=4998&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Lalit Kumar Jain; Mark Abbott</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199809%2F11%2910%3A11%2F13%3C1087%3A%3Aaid-cpe401%3E3.0.co%3B2-y">DOVE: distributed objects based scientific visualization environment</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199809/11)10:11/13&lt;1087::aid-cpe401&gt;3.0.co;2-y</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;10, issue&nbsp;11-13 (1998)</p></td>
+	<td>66&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199809%2F11%2910%3A11%2F13%3C1087%3A%3Aaid-cpe401%3E3.0.co%3B2-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199809/11%2910%3A11/13%3C1087%3A%3Aaid-cpe401%3E3.0.co%3B2-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199809/11%2910%3A11/13%3C1087%3A%3Aaid-cpe401%3E3.0.co%3B2-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199809/11%2910%3A11/13%3C1087%3A%3Aaid-cpe401%3E3.0.co%3B2-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Denitza T. Krasteva; Layne T. Watson; Chuck Baker; Bernard Grossman; William H. Mason; Raphael T. Haftka</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291096-9128%28199907%2911%3A8%3C435%3A%3Aaid-cpe442%3E3.0.co%3B2-b">Distributed control parallelism in multidisciplinary aircraft design</a></p>
+		<p>DOI: 10.1002/(sici)1096-9128(199907)11:8&lt;435::aid-cpe442&gt;3.0.co;2-b</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;11, issue&nbsp;8 (1999)</p></td>
+	<td>257&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291096-9128%28199907%2911%3A8%3C435%3A%3Aaid-cpe442%3E3.0.co%3B2-b" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291096-9128%28199907%2911%3A8%3C435%3A%3Aaid-cpe442%3E3.0.co%3B2-b">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291096-9128%28199907%2911%3A8%3C435%3A%3Aaid-cpe442%3E3.0.co%3B2-b">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291096-9128%28199907%2911%3A8%3C435%3A%3Aaid-cpe442%3E3.0.co%3B2-b">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Muhammed S. Al-Mulhem</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%2820000425%2912%3A5%3C281%3A%3Aaid-cpe488%3E3.0.co%3B2-5">Concurrent programming in VISO</a></p>
+		<p>DOI: 10.1002/1096-9128(20000425)12:5&lt;281::aid-cpe488&gt;3.0.co;2-5</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;5 (2000)</p></td>
+	<td>92&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%2820000425%2912%3A5%3C281%3A%3Aaid-cpe488%3E3.0.co%3B2-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%2820000425%2912%3A5%3C281%3A%3Aaid-cpe488%3E3.0.co%3B2-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%2820000425%2912%3A5%3C281%3A%3Aaid-cpe488%3E3.0.co%3B2-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%2820000425%2912%3A5%3C281%3A%3Aaid-cpe488%3E3.0.co%3B2-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Charalampos Konstantopoulos; Andreas Svolos; Christos Kaklamanis</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%2820000425%2912%3A5%3C289%3A%3Aaid-cpe489%3E3.0.co%3B2-f">An efficient parallel algorithm for motion estimation in very low bit-rate video coding systems</a></p>
+		<p>DOI: 10.1002/1096-9128(20000425)12:5&lt;289::aid-cpe489&gt;3.0.co;2-f</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;5 (2000)</p></td>
+	<td>233&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%2820000425%2912%3A5%3C289%3A%3Aaid-cpe489%3E3.0.co%3B2-f" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%2820000425%2912%3A5%3C289%3A%3Aaid-cpe489%3E3.0.co%3B2-f">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%2820000425%2912%3A5%3C289%3A%3Aaid-cpe489%3E3.0.co%3B2-f">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%2820000425%2912%3A5%3C289%3A%3Aaid-cpe489%3E3.0.co%3B2-f">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Gil; J. Ortega; M. G. Montoya</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%2820000425%2912%3A5%3C311%3A%3Aaid-cpe492%3E3.0.co%3B2-q">Parallel VLSI test in a shared-memory multiprocessor</a></p>
+		<p>DOI: 10.1002/1096-9128(20000425)12:5&lt;311::aid-cpe492&gt;3.0.co;2-q</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;5 (2000)</p></td>
+	<td>214&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%2820000425%2912%3A5%3C311%3A%3Aaid-cpe492%3E3.0.co%3B2-q" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%2820000425%2912%3A5%3C311%3A%3Aaid-cpe492%3E3.0.co%3B2-q">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%2820000425%2912%3A5%3C311%3A%3Aaid-cpe492%3E3.0.co%3B2-q">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%2820000425%2912%3A5%3C311%3A%3Aaid-cpe492%3E3.0.co%3B2-q">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. G. Montoya; C. Gil; I. Garcia</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%2820000425%2912%3A5%3C327%3A%3Aaid-cpe493%3E3.0.co%3B2-4">Parallel thinning algorithms on multicomputers: experimental study on load balancing</a></p>
+		<p>DOI: 10.1002/1096-9128(20000425)12:5&lt;327::aid-cpe493&gt;3.0.co;2-4</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;5 (2000)</p></td>
+	<td>156&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%2820000425%2912%3A5%3C327%3A%3Aaid-cpe493%3E3.0.co%3B2-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%2820000425%2912%3A5%3C327%3A%3Aaid-cpe493%3E3.0.co%3B2-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%2820000425%2912%3A5%3C327%3A%3Aaid-cpe493%3E3.0.co%3B2-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%2820000425%2912%3A5%3C327%3A%3Aaid-cpe493%3E3.0.co%3B2-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Geoffrey Fox</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%28200005%2912%3A6%3C341%3A%3Aaid-cpe509%3E3.0.co%3B2-f">Editorial: Special Issue: ACM 1999 Java Grande Conference</a></p>
+		<p>DOI: 10.1002/1096-9128(200005)12:6&lt;341::aid-cpe509&gt;3.0.co;2-f</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;6 (2000)</p></td>
+	<td>26&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%28200005%2912%3A6%3C341%3A%3Aaid-cpe509%3E3.0.co%3B2-f" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%28200005%2912%3A6%3C341%3A%3Aaid-cpe509%3E3.0.co%3B2-f">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%28200005%2912%3A6%3C341%3A%3Aaid-cpe509%3E3.0.co%3B2-f">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%28200005%2912%3A6%3C341%3A%3Aaid-cpe509%3E3.0.co%3B2-f">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tia Newhall; Barton P. Miller</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%28200005%2912%3A6%3C343%3A%3Aaid-cpe478%3E3.0.co%3B2-8">Performance measurement of dynamically compiled Java executions</a></p>
+		<p>DOI: 10.1002/1096-9128(200005)12:6&lt;343::aid-cpe478&gt;3.0.co;2-8</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;6 (2000)</p></td>
+	<td>185&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%28200005%2912%3A6%3C343%3A%3Aaid-cpe478%3E3.0.co%3B2-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%28200005%2912%3A6%3C343%3A%3Aaid-cpe478%3E3.0.co%3B2-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%28200005%2912%3A6%3C343%3A%3Aaid-cpe478%3E3.0.co%3B2-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%28200005%2912%3A6%3C343%3A%3Aaid-cpe478%3E3.0.co%3B2-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Allan Heydon; Marc Najork</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%28200005%2912%3A6%3C363%3A%3Aaid-cpe479%3E3.0.co%3B2-3">Performance limitations of the Java core libraries</a></p>
+		<p>DOI: 10.1002/1096-9128(200005)12:6&lt;363::aid-cpe479&gt;3.0.co;2-3</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;6 (2000)</p></td>
+	<td>102&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%28200005%2912%3A6%3C363%3A%3Aaid-cpe479%3E3.0.co%3B2-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%28200005%2912%3A6%3C363%3A%3Aaid-cpe479%3E3.0.co%3B2-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%28200005%2912%3A6%3C363%3A%3Aaid-cpe479%3E3.0.co%3B2-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%28200005%2912%3A6%3C363%3A%3Aaid-cpe479%3E3.0.co%3B2-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. M. Bull; L. A. Smith; M. D. Westhead; D. S. Henty; R. A. Davey</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%28200005%2912%3A6%3C375%3A%3Aaid-cpe480%3E3.0.co%3B2-m">A benchmark suite for high performance Java</a></p>
+		<p>DOI: 10.1002/1096-9128(200005)12:6&lt;375::aid-cpe480&gt;3.0.co;2-m</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;6 (2000)</p></td>
+	<td>267&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%28200005%2912%3A6%3C375%3A%3Aaid-cpe480%3E3.0.co%3B2-m" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%28200005%2912%3A6%3C375%3A%3Aaid-cpe480%3E3.0.co%3B2-m">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%28200005%2912%3A6%3C375%3A%3Aaid-cpe480%3E3.0.co%3B2-m">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%28200005%2912%3A6%3C375%3A%3Aaid-cpe480%3E3.0.co%3B2-m">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joel Jones; Samuel Kamin</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%28200005%2912%3A6%3C389%3A%3Aaid-cpe481%3E3.0.co%3B2-6">Annotating Java class files with virtual registers for performance</a></p>
+		<p>DOI: 10.1002/1096-9128(200005)12:6&lt;389::aid-cpe481&gt;3.0.co;2-6</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;6 (2000)</p></td>
+	<td>156&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%28200005%2912%3A6%3C389%3A%3Aaid-cpe481%3E3.0.co%3B2-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%28200005%2912%3A6%3C389%3A%3Aaid-cpe481%3E3.0.co%3B2-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%28200005%2912%3A6%3C389%3A%3Aaid-cpe481%3E3.0.co%3B2-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%28200005%2912%3A6%3C389%3A%3Aaid-cpe481%3E3.0.co%3B2-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Oiwa Yutaka; Kenjiro Taura; Akinori Yonezawa</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%28200005%2912%3A6%3C407%3A%3Aaid-cpe482%3E3.0.co%3B2-e">Extending Java virtual machine with integer-reference conversion</a></p>
+		<p>DOI: 10.1002/1096-9128(200005)12:6&lt;407::aid-cpe482&gt;3.0.co;2-e</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;6 (2000)</p></td>
+	<td>202&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%28200005%2912%3A6%3C407%3A%3Aaid-cpe482%3E3.0.co%3B2-e" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%28200005%2912%3A6%3C407%3A%3Aaid-cpe482%3E3.0.co%3B2-e">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%28200005%2912%3A6%3C407%3A%3Aaid-cpe482%3E3.0.co%3B2-e">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%28200005%2912%3A6%3C407%3A%3Aaid-cpe482%3E3.0.co%3B2-e">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ana Azevedo; Alex Nicolau; Joe Hummel</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%28200005%2912%3A6%3C423%3A%3Aaid-cpe483%3E3.0.co%3B2-l">An annotation-aware Java virtual machine implementation</a></p>
+		<p>DOI: 10.1002/1096-9128(200005)12:6&lt;423::aid-cpe483&gt;3.0.co;2-l</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;6 (2000)</p></td>
+	<td>186&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%28200005%2912%3A6%3C423%3A%3Aaid-cpe483%3E3.0.co%3B2-l" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%28200005%2912%3A6%3C423%3A%3Aaid-cpe483%3E3.0.co%3B2-l">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%28200005%2912%3A6%3C423%3A%3Aaid-cpe483%3E3.0.co%3B2-l">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%28200005%2912%3A6%3C423%3A%3Aaid-cpe483%3E3.0.co%3B2-l">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William Pugh</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%28200005%2912%3A6%3C445%3A%3Aaid-cpe484%3E3.0.co%3B2-a">The Java memory model is fatally flawed</a></p>
+		<p>DOI: 10.1002/1096-9128(200005)12:6&lt;445::aid-cpe484&gt;3.0.co;2-a</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;6 (2000)</p></td>
+	<td>174&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%28200005%2912%3A6%3C445%3A%3Aaid-cpe484%3E3.0.co%3B2-a" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%28200005%2912%3A6%3C445%3A%3Aaid-cpe484%3E3.0.co%3B2-a">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%28200005%2912%3A6%3C445%3A%3Aaid-cpe484%3E3.0.co%3B2-a">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%28200005%2912%3A6%3C445%3A%3Aaid-cpe484%3E3.0.co%3B2-a">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kazuaki Ishizaki; Motohiro Kawahito; Toshiaki Yasue; Mikio Takeuchi; Takeshi Ogasawara; Toshio Suganuma; Tamiya Onodera; Hideaki Komatsu; Toshio Nakatani</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%28200005%2912%3A6%3C457%3A%3Aaid-cpe485%3E3.0.co%3B2-0">Design, implementation, and evaluation of optimizations in a JavaTM Just-In-Time compiler</a></p>
+		<p>DOI: 10.1002/1096-9128(200005)12:6&lt;457::aid-cpe485&gt;3.0.co;2-0</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;6 (2000)</p></td>
+	<td>580&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%28200005%2912%3A6%3C457%3A%3Aaid-cpe485%3E3.0.co%3B2-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%28200005%2912%3A6%3C457%3A%3Aaid-cpe485%3E3.0.co%3B2-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%28200005%2912%3A6%3C457%3A%3Aaid-cpe485%3E3.0.co%3B2-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%28200005%2912%3A6%3C457%3A%3Aaid-cpe485%3E3.0.co%3B2-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Philippsen; Edwin Günthner</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%28200005%2912%3A6%3C477%3A%3Aaid-cpe486%3E3.0.co%3B2-w">Complex numbers for Java</a></p>
+		<p>DOI: 10.1002/1096-9128(200005)12:6&lt;477::aid-cpe486&gt;3.0.co;2-w</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;6 (2000)</p></td>
+	<td>146&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%28200005%2912%3A6%3C477%3A%3Aaid-cpe486%3E3.0.co%3B2-w" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%28200005%2912%3A6%3C477%3A%3Aaid-cpe486%3E3.0.co%3B2-w">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%28200005%2912%3A6%3C477%3A%3Aaid-cpe486%3E3.0.co%3B2-w">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%28200005%2912%3A6%3C477%3A%3Aaid-cpe486%3E3.0.co%3B2-w">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Geoffrey Fox</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%28200005%2912%3A7%3C493%3A%3Aaid-cpe1509%3E3.0.co%3B2-w">Editorial: Special Issue: ACM 1999 Java Grande Conference</a></p>
+		<p>DOI: 10.1002/1096-9128(200005)12:7&lt;493::aid-cpe1509&gt;3.0.co;2-w</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;7 (2000)</p></td>
+	<td>26&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%28200005%2912%3A7%3C493%3A%3Aaid-cpe1509%3E3.0.co%3B2-w" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%28200005%2912%3A7%3C493%3A%3Aaid-cpe1509%3E3.0.co%3B2-w">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%28200005%2912%3A7%3C493%3A%3Aaid-cpe1509%3E3.0.co%3B2-w">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%28200005%2912%3A7%3C493%3A%3Aaid-cpe1509%3E3.0.co%3B2-w">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Philippsen; Bernhard Haumacher; Christian Nester</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%28200005%2912%3A7%3C495%3A%3Aaid-cpe496%3E3.0.co%3B2-w">More efficient serialization and RMI for Java</a></p>
+		<p>DOI: 10.1002/1096-9128(200005)12:7&lt;495::aid-cpe496&gt;3.0.co;2-w</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;7 (2000)</p></td>
+	<td>226&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%28200005%2912%3A7%3C495%3A%3Aaid-cpe496%3E3.0.co%3B2-w" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%28200005%2912%3A7%3C495%3A%3Aaid-cpe496%3E3.0.co%3B2-w">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%28200005%2912%3A7%3C495%3A%3Aaid-cpe496%3E3.0.co%3B2-w">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%28200005%2912%3A7%3C495%3A%3Aaid-cpe496%3E3.0.co%3B2-w">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Matt Welsh; David Culler</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%28200005%2912%3A7%3C519%3A%3Aaid-cpe497%3E3.0.co%3B2-m">Jaguar: enabling efficient communication and I/O in Java</a></p>
+		<p>DOI: 10.1002/1096-9128(200005)12:7&lt;519::aid-cpe497&gt;3.0.co;2-m</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;7 (2000)</p></td>
+	<td>192&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%28200005%2912%3A7%3C519%3A%3Aaid-cpe497%3E3.0.co%3B2-m" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%28200005%2912%3A7%3C519%3A%3Aaid-cpe497%3E3.0.co%3B2-m">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%28200005%2912%3A7%3C519%3A%3Aaid-cpe497%3E3.0.co%3B2-m">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%28200005%2912%3A7%3C519%3A%3Aaid-cpe497%3E3.0.co%3B2-m">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bryan Carpenter; Geoffrey Fox; Sung Hoon Ko; Sang Lim</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%28200005%2912%3A7%3C539%3A%3Aaid-cpe498%3E3.0.co%3B2-h">Object serialization for marshaling data in a Java interface to MPI</a></p>
+		<p>DOI: 10.1002/1096-9128(200005)12:7&lt;539::aid-cpe498&gt;3.0.co;2-h</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;7 (2000)</p></td>
+	<td>163&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%28200005%2912%3A7%3C539%3A%3Aaid-cpe498%3E3.0.co%3B2-h" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%28200005%2912%3A7%3C539%3A%3Aaid-cpe498%3E3.0.co%3B2-h">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%28200005%2912%3A7%3C539%3A%3Aaid-cpe498%3E3.0.co%3B2-h">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%28200005%2912%3A7%3C539%3A%3Aaid-cpe498%3E3.0.co%3B2-h">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Maurice Herlihy; Michael P. Warres</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%28200005%2912%3A7%3C555%3A%3Aaid-cpe499%3E3.0.co%3B2-o">A tale of two directories: implementing distributed shared objects in Java</a></p>
+		<p>DOI: 10.1002/1096-9128(200005)12:7&lt;555::aid-cpe499&gt;3.0.co;2-o</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;7 (2000)</p></td>
+	<td>184&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%28200005%2912%3A7%3C555%3A%3Aaid-cpe499%3E3.0.co%3B2-o" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%28200005%2912%3A7%3C555%3A%3Aaid-cpe499%3E3.0.co%3B2-o">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%28200005%2912%3A7%3C555%3A%3Aaid-cpe499%3E3.0.co%3B2-o">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%28200005%2912%3A7%3C555%3A%3Aaid-cpe499%3E3.0.co%3B2-o">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chi-Chao Chang; Thorsten von Eicken</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%28200005%2912%3A7%3C573%3A%3Aaid-cpe500%3E3.0.co%3B2-o">Javia: A Java interface to the virtual interface architecture</a></p>
+		<p>DOI: 10.1002/1096-9128(200005)12:7&lt;573::aid-cpe500&gt;3.0.co;2-o</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;7 (2000)</p></td>
+	<td>665&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%28200005%2912%3A7%3C573%3A%3Aaid-cpe500%3E3.0.co%3B2-o" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%28200005%2912%3A7%3C573%3A%3Aaid-cpe500%3E3.0.co%3B2-o">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%28200005%2912%3A7%3C573%3A%3Aaid-cpe500%3E3.0.co%3B2-o">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%28200005%2912%3A7%3C573%3A%3Aaid-cpe500%3E3.0.co%3B2-o">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Philippsen</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%28200005%2912%3A7%3C595%3A%3Aaid-cpe501%3E3.0.co%3B2-d">Cooperating distributed garbage collectors for clusters and beyond</a></p>
+		<p>DOI: 10.1002/1096-9128(200005)12:7&lt;595::aid-cpe501&gt;3.0.co;2-d</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;7 (2000)</p></td>
+	<td>137&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%28200005%2912%3A7%3C595%3A%3Aaid-cpe501%3E3.0.co%3B2-d" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%28200005%2912%3A7%3C595%3A%3Aaid-cpe501%3E3.0.co%3B2-d">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%28200005%2912%3A7%3C595%3A%3Aaid-cpe501%3E3.0.co%3B2-d">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%28200005%2912%3A7%3C595%3A%3Aaid-cpe501%3E3.0.co%3B2-d">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Geoffrey Fox</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%28200007%2912%3A8%3C611%3A%3Aaid-cpe2509%3E3.0.co%3B2-b">Editorial: Special Issue: ACM 1999 Java Grande Conference</a></p>
+		<p>DOI: 10.1002/1096-9128(200007)12:8&lt;611::aid-cpe2509&gt;3.0.co;2-b</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;8 (2000)</p></td>
+	<td>26&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%28200007%2912%3A8%3C611%3A%3Aaid-cpe2509%3E3.0.co%3B2-b" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%28200007%2912%3A8%3C611%3A%3Aaid-cpe2509%3E3.0.co%3B2-b">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%28200007%2912%3A8%3C611%3A%3Aaid-cpe2509%3E3.0.co%3B2-b">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%28200007%2912%3A8%3C611%3A%3Aaid-cpe2509%3E3.0.co%3B2-b">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Philippsen; Bernhard Haumacher</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F1096-9128%28200007%2912%3A8%3C613%3A%3Aaid-cpe502%3E3.0.co%3B2-g">Locality optimization in JavaParty by means of static type analysis</a></p>
+		<p>DOI: 10.1002/1096-9128(200007)12:8&lt;613::aid-cpe502&gt;3.0.co;2-g</p>	</td>
+	<td><p><a href="/scimag/journals/4998">Concurrency and Computation: Practice and Experience</a><p>volume&nbsp;12, issue&nbsp;8 (2000)</p></td>
+	<td>128&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F1096-9128%28200007%2912%3A8%3C613%3A%3Aaid-cpe502%3E3.0.co%3B2-g" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/1096-9128%28200007%2912%3A8%3C613%3A%3Aaid-cpe502%3E3.0.co%3B2-g">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/1096-9128%28200007%2912%3A8%3C613%3A%3Aaid-cpe502%3E3.0.co%3B2-g">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/1096-9128%28200007%2912%3A8%3C613%3A%3Aaid-cpe502%3E3.0.co%3B2-g">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;847 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 194</span>
+	 <a href="/scimag/?journal=4998&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

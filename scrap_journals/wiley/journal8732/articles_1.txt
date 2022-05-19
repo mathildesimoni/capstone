@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/8732">Hippocampus</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1050-9631</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1098-1063</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 125; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 125');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=8732&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;115 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 125</span>
+	 <a href="/scimag/?journal=8732&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Brian R. Christie</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A1%3C1%3A%3Aaid-hipo1%3E3.0.co%3B2-u">Long-term depression (LTD) in the hippocampus</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:1&lt;1::aid-hipo1&gt;3.0.co;2-u</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>253&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A1%3C1%3A%3Aaid-hipo1%3E3.0.co%3B2-u" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A1%3C1%3A%3Aaid-hipo1%3E3.0.co%3B2-u">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A1%3C1%3A%3Aaid-hipo1%3E3.0.co%3B2-u">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A1%3C1%3A%3Aaid-hipo1%3E3.0.co%3B2-u">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Brian R. Christie; Jeffrey C. Magee; Daniel Johnston</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A1%3C17%3A%3Aaid-hipo4%3E3.0.co%3B2-4">Dendritic calcium channels and hippocampal long-term depression</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:1&lt;17::aid-hipo4&gt;3.0.co;2-4</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>947&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A1%3C17%3A%3Aaid-hipo4%3E3.0.co%3B2-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A1%3C17%3A%3Aaid-hipo4%3E3.0.co%3B2-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A1%3C17%3A%3Aaid-hipo4%3E3.0.co%3B2-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A1%3C17%3A%3Aaid-hipo4%3E3.0.co%3B2-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John J. Wagner; Bradley E. Alger</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A1%3C24%3A%3Aaid-hipo5%3E3.0.co%3B2-7">Homosynaptic LTD and depotentiation: Do they differ in name only?</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:1&lt;24::aid-hipo5&gt;3.0.co;2-7</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>604&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A1%3C24%3A%3Aaid-hipo5%3E3.0.co%3B2-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A1%3C24%3A%3Aaid-hipo5%3E3.0.co%3B2-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A1%3C24%3A%3Aaid-hipo5%3E3.0.co%3B2-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A1%3C24%3A%3Aaid-hipo5%3E3.0.co%3B2-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael F. Barry; R.M. Vickery; S.R. Bolsover; Lynn J. Bindman</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A1%3C3%3A%3Aaid-hipo2%3E3.0.co%3B2-s">Intracellular studies of heterosynaptic long-term depression (LTD) in CA1 of hippocampal slices</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:1&lt;3::aid-hipo2&gt;3.0.co;2-s</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>602&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A1%3C3%3A%3Aaid-hipo2%3E3.0.co%3B2-s" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A1%3C3%3A%3Aaid-hipo2%3E3.0.co%3B2-s">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A1%3C3%3A%3Aaid-hipo2%3E3.0.co%3B2-s">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A1%3C3%3A%3Aaid-hipo2%3E3.0.co%3B2-s">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D.S. Kerr; W.C. Abraham</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A1%3C30%3A%3Aaid-hipo6%3E3.0.co%3B2-b">LTD: Many means to how many ends?</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:1&lt;30::aid-hipo6&gt;3.0.co;2-b</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>554&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A1%3C30%3A%3Aaid-hipo6%3E3.0.co%3B2-b" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A1%3C30%3A%3Aaid-hipo6%3E3.0.co%3B2-b">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A1%3C30%3A%3Aaid-hipo6%3E3.0.co%3B2-b">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A1%3C30%3A%3Aaid-hipo6%3E3.0.co%3B2-b">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patric K. Stanton</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A1%3C35%3A%3Aaid-hipo7%3E3.0.co%3B2-6">LTD, LTP, and the sliding threshold for long-term synaptic plasticity</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:1&lt;35::aid-hipo7&gt;3.0.co;2-6</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>889&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A1%3C35%3A%3Aaid-hipo7%3E3.0.co%3B2-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A1%3C35%3A%3Aaid-hipo7%3E3.0.co%3B2-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A1%3C35%3A%3Aaid-hipo7%3E3.0.co%3B2-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A1%3C35%3A%3Aaid-hipo7%3E3.0.co%3B2-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Edda Thiels; Xiaping Xie; Mark F. Yeckel; German Barrionuevo; Theodore W. Berger</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A1%3C43%3A%3Aaid-hipo8%3E3.0.co%3B2-8">NMDA Receptor-dependent LTD in different subfields of hippocampus in vivo and in vitro</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:1&lt;43::aid-hipo8&gt;3.0.co;2-8</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>855&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A1%3C43%3A%3Aaid-hipo8%3E3.0.co%3B2-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A1%3C43%3A%3Aaid-hipo8%3E3.0.co%3B2-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A1%3C43%3A%3Aaid-hipo8%3E3.0.co%3B2-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A1%3C43%3A%3Aaid-hipo8%3E3.0.co%3B2-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. Doyère; M.L. Errington; S. Laroche; T.V.P. Bliss</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A1%3C52%3A%3Aaid-hipo9%3E3.0.co%3B2-9">Low-frequency trains of paired stimuli induce long-term depression in area CA1 but not in dentate gyrus of the intact rat</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:1&lt;52::aid-hipo9&gt;3.0.co;2-9</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>513&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A1%3C52%3A%3Aaid-hipo9%3E3.0.co%3B2-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A1%3C52%3A%3Aaid-hipo9%3E3.0.co%3B2-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A1%3C52%3A%3Aaid-hipo9%3E3.0.co%3B2-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A1%3C52%3A%3Aaid-hipo9%3E3.0.co%3B2-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patricio T. Huerta; John E. Lisman</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A1%3C58%3A%3Aaid-hipo10%3E3.0.co%3B2-j">Synaptic plasticity during the cholinergic theta-frequency oscillation in vitro</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:1&lt;58::aid-hipo10&gt;3.0.co;2-j</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>422&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A1%3C58%3A%3Aaid-hipo10%3E3.0.co%3B2-j" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A1%3C58%3A%3Aaid-hipo10%3E3.0.co%3B2-j">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A1%3C58%3A%3Aaid-hipo10%3E3.0.co%3B2-j">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A1%3C58%3A%3Aaid-hipo10%3E3.0.co%3B2-j">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Richard A. Tomasulo; Oswald Steward</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A1%3C62%3A%3Aaid-hipo11%3E3.0.co%3B2-i">Homosynaptic and heterosynaptic changes in driving of dentate gyrus interneurons after brief tetanic stimulation in vivo</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:1&lt;62::aid-hipo11&gt;3.0.co;2-i</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>984&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A1%3C62%3A%3Aaid-hipo11%3E3.0.co%3B2-i" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A1%3C62%3A%3Aaid-hipo11%3E3.0.co%3B2-i">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A1%3C62%3A%3Aaid-hipo11%3E3.0.co%3B2-i">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A1%3C62%3A%3Aaid-hipo11%3E3.0.co%3B2-i">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Marco Atzori</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A1%3C72%3A%3Aaid-hipo12%3E3.0.co%3B2-h">Pyramidal cells and stratum lacunosum-moleculare interneurons in the CA1 hippocampal region share a GABAergic spontaneous input</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:1&lt;72::aid-hipo12&gt;3.0.co;2-h</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>675&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A1%3C72%3A%3Aaid-hipo12%3E3.0.co%3B2-h" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A1%3C72%3A%3Aaid-hipo12%3E3.0.co%3B2-h">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A1%3C72%3A%3Aaid-hipo12%3E3.0.co%3B2-h">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A1%3C72%3A%3Aaid-hipo12%3E3.0.co%3B2-h">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mogens Andreasen; Steen Nedergaard</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A1%3C79%3A%3Aaid-hipo13%3E3.0.co%3B2-h">Dendritic electrogenesis in rat hippocampal CA1 pyramidal neurons: functional aspects of Na+ and Ca2+ currents in apical dendrites</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:1&lt;79::aid-hipo13&gt;3.0.co;2-h</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>1.50&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A1%3C79%3A%3Aaid-hipo13%3E3.0.co%3B2-h" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A1%3C79%3A%3Aaid-hipo13%3E3.0.co%3B2-h">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A1%3C79%3A%3Aaid-hipo13%3E3.0.co%3B2-h">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A1%3C79%3A%3Aaid-hipo13%3E3.0.co%3B2-h">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dominique Debanne; Scott M. Thompson</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A1%3C9%3A%3Aaid-hipo3%3E3.0.co%3B2-m">Associative long-term depression in the hippocampus in vitro</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:1&lt;9::aid-hipo3&gt;3.0.co;2-m</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;1 (1996)</p></td>
+	<td>714&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A1%3C9%3A%3Aaid-hipo3%3E3.0.co%3B2-m" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A1%3C9%3A%3Aaid-hipo3%3E3.0.co%3B2-m">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A1%3C9%3A%3Aaid-hipo3%3E3.0.co%3B2-m">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A1%3C9%3A%3Aaid-hipo3%3E3.0.co%3B2-m">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joseph D. Bronzino; Robert J. Austin La France; Peter J. Morgane; Janina R. Galler</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A2%3C109%3A%3Aaid-hipo2%3E3.0.co%3B2-k">Diet-induced alterations in the ontogeny of long-term potentiation</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:2&lt;109::aid-hipo2&gt;3.0.co;2-k</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;2 (1996)</p></td>
+	<td>874&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A2%3C109%3A%3Aaid-hipo2%3E3.0.co%3B2-k" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A2%3C109%3A%3Aaid-hipo2%3E3.0.co%3B2-k">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A2%3C109%3A%3Aaid-hipo2%3E3.0.co%3B2-k">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A2%3C109%3A%3Aaid-hipo2%3E3.0.co%3B2-k">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Th. Rick; Norton W. Milgram</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A2%3C118%3A%3Aaid-hipo3%3E3.0.co%3B2-l">Frequency dependence of long-term potentiation and depression in the dentate gyrus of the freely moving rat</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:2&lt;118::aid-hipo3&gt;3.0.co;2-l</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;2 (1996)</p></td>
+	<td>804&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A2%3C118%3A%3Aaid-hipo3%3E3.0.co%3B2-l" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A2%3C118%3A%3Aaid-hipo3%3E3.0.co%3B2-l">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A2%3C118%3A%3Aaid-hipo3%3E3.0.co%3B2-l">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A2%3C118%3A%3Aaid-hipo3%3E3.0.co%3B2-l">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ping Liu; David K. Bilkey</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A2%3C125%3A%3Aaid-hipo4%3E3.0.co%3B2-o">Direct connection between perirhinal cortex and hippocampus is a major constituent of the lateral perforant path</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:2&lt;125::aid-hipo4&gt;3.0.co;2-o</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;2 (1996)</p></td>
+	<td>1.46&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A2%3C125%3A%3Aaid-hipo4%3E3.0.co%3B2-o" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A2%3C125%3A%3Aaid-hipo4%3E3.0.co%3B2-o">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A2%3C125%3A%3Aaid-hipo4%3E3.0.co%3B2-o">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A2%3C125%3A%3Aaid-hipo4%3E3.0.co%3B2-o">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Herbert Schwegler; M. Boldyreva; M. Pyrlik-Göhlmann; R. Linke; J. Wu; K. Zilles</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A2%3C136%3A%3Aaid-hipo5%3E3.0.co%3B2-n">Genetic variation in the morphology of the septo-hippocampal cholinergic and GABAergic system in mice. I. Cholinergic and GABAergic markers</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:2&lt;136::aid-hipo5&gt;3.0.co;2-n</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;2 (1996)</p></td>
+	<td>2.34&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A2%3C136%3A%3Aaid-hipo5%3E3.0.co%3B2-n" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A2%3C136%3A%3Aaid-hipo5%3E3.0.co%3B2-n">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A2%3C136%3A%3Aaid-hipo5%3E3.0.co%3B2-n">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A2%3C136%3A%3Aaid-hipo5%3E3.0.co%3B2-n">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>William E. Skaggs; Bruce L. McNaughton; Matthew A. Wilson; Carol A. Barnes</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A2%3C149%3A%3Aaid-hipo6%3E3.0.co%3B2-k">Theta phase precession in hippocampal neuronal populations and the compression of temporal sequences</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:2&lt;149::aid-hipo6&gt;3.0.co;2-k</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;2 (1996)</p></td>
+	<td>5.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A2%3C149%3A%3Aaid-hipo6%3E3.0.co%3B2-k" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A2%3C149%3A%3Aaid-hipo6%3E3.0.co%3B2-k">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A2%3C149%3A%3Aaid-hipo6%3E3.0.co%3B2-k">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A2%3C149%3A%3Aaid-hipo6%3E3.0.co%3B2-k">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Mitchell; M. Gatherer; N. Best; L. Sundstrom; H.V. Wheal</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A2%3C173%3A%3Aaid-hipo7%3E3.0.co%3B2-q">Hippocampal NPY neurons project to the fascia dentata in organotypic cultures</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:2&lt;173::aid-hipo7&gt;3.0.co;2-q</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;2 (1996)</p></td>
+	<td>4.65&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A2%3C173%3A%3Aaid-hipo7%3E3.0.co%3B2-q" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A2%3C173%3A%3Aaid-hipo7%3E3.0.co%3B2-q">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A2%3C173%3A%3Aaid-hipo7%3E3.0.co%3B2-q">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A2%3C173%3A%3Aaid-hipo7%3E3.0.co%3B2-q">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kathrin L. Engisch; John J. Wagner; Bradley E. Alger</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A2%3C183%3A%3Aaid-hipo8%3E3.0.co%3B2-q">Whole-cell voltage-clamp investigation of the role of PKC in muscarinic inhibition of IAHP in rat CA1 hippocampal neurons</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:2&lt;183::aid-hipo8&gt;3.0.co;2-q</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;2 (1996)</p></td>
+	<td>969&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A2%3C183%3A%3Aaid-hipo8%3E3.0.co%3B2-q" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A2%3C183%3A%3Aaid-hipo8%3E3.0.co%3B2-q">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A2%3C183%3A%3Aaid-hipo8%3E3.0.co%3B2-q">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A2%3C183%3A%3Aaid-hipo8%3E3.0.co%3B2-q">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Craig Weiss; Michelle A. Kronforst-Collins; John F. Disterhoft</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A2%3C192%3A%3Aaid-hipo9%3E3.0.co%3B2-r">Activity of hippocampal pyramidal neurons during trace eyeblink conditioning</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:2&lt;192::aid-hipo9&gt;3.0.co;2-r</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;2 (1996)</p></td>
+	<td>1.54&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A2%3C192%3A%3Aaid-hipo9%3E3.0.co%3B2-r" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A2%3C192%3A%3Aaid-hipo9%3E3.0.co%3B2-r">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A2%3C192%3A%3Aaid-hipo9%3E3.0.co%3B2-r">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A2%3C192%3A%3Aaid-hipo9%3E3.0.co%3B2-r">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nandor Ludvig; Kenneth Chao; Bella T. Altura; Burton M. Altura; Steven E. Fox</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A2%3C97%3A%3Aaid-hipo1%3E3.0.co%3B2-4">Manipulation of pyramidal cell firing in the hippocampus of freely behaving rats by local application of K+ via microdialysis</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:2&lt;97::aid-hipo1&gt;3.0.co;2-4</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;2 (1996)</p></td>
+	<td>2.03&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A2%3C97%3A%3Aaid-hipo1%3E3.0.co%3B2-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A2%3C97%3A%3Aaid-hipo1%3E3.0.co%3B2-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A2%3C97%3A%3Aaid-hipo1%3E3.0.co%3B2-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A2%3C97%3A%3Aaid-hipo1%3E3.0.co%3B2-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alexander N. Katchman; Norman Hershkowitz</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A3%3C213%3A%3Aaid-hipo1%3E3.0.co%3B2-o">Adenosine A1 antagonism increases specific synaptic forms of glutamate release during anoxia, revealing a unique source of excitation</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:3&lt;213::aid-hipo1&gt;3.0.co;2-o</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;3 (1996)</p></td>
+	<td>1.10&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A3%3C213%3A%3Aaid-hipo1%3E3.0.co%3B2-o" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A3%3C213%3A%3Aaid-hipo1%3E3.0.co%3B2-o">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A3%3C213%3A%3Aaid-hipo1%3E3.0.co%3B2-o">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A3%3C213%3A%3Aaid-hipo1%3E3.0.co%3B2-o">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Monique Esclapez; Donald K. Chang; Carolyn R. Houser</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A3%3C225%3A%3Aaid-hipo2%3E3.0.co%3B2-m">Subpopulations of GABA neurons in the dentate gyrus express high levels of the α1 subunit of the GABAA receptor</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:3&lt;225::aid-hipo2&gt;3.0.co;2-m</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;3 (1996)</p></td>
+	<td>6.32&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A3%3C225%3A%3Aaid-hipo2%3E3.0.co%3B2-m" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A3%3C225%3A%3Aaid-hipo2%3E3.0.co%3B2-m">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A3%3C225%3A%3Aaid-hipo2%3E3.0.co%3B2-m">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A3%3C225%3A%3Aaid-hipo2%3E3.0.co%3B2-m">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jozsef Kiss; Gyorgy Buzsaki; Jon S. Morrow; Susan B. Glantz; Csaba Leranth</td>
+	<td>
+		<p><a href="/scimag/10.1002%2F%28sici%291098-1063%281996%296%3A3%3C239%3A%3Aaid-hipo3%3E3.0.co%3B2-i">Entorhinal cortical innervation of parvalbumin-containing neurons (basket and chandelier cells) in the rat ammon's horn</a></p>
+		<p>DOI: 10.1002/(sici)1098-1063(1996)6:3&lt;239::aid-hipo3&gt;3.0.co;2-i</p>	</td>
+	<td><p><a href="/scimag/journals/8732">Hippocampus</a><p>volume&nbsp;6, issue&nbsp;3 (1996)</p></td>
+	<td>4.53&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2F%28sici%291098-1063%281996%296%3A3%3C239%3A%3Aaid-hipo3%3E3.0.co%3B2-i" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/%28sici%291098-1063%281996%296%3A3%3C239%3A%3Aaid-hipo3%3E3.0.co%3B2-i">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/%28sici%291098-1063%281996%296%3A3%3C239%3A%3Aaid-hipo3%3E3.0.co%3B2-i">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/%28sici%291098-1063%281996%296%3A3%3C239%3A%3Aaid-hipo3%3E3.0.co%3B2-i">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;115 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 125</span>
+	 <a href="/scimag/?journal=8732&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

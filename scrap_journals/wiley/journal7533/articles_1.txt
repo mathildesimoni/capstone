@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0931-5985</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1521-4133</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 3; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 3');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=7533&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">74 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 3</span>
+	 <a href="/scimag/?journal=7533&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Seebach, Fritz</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450914">Untersuchungen über die Rolle der Katalysatoren bei der Herstellung von Phenol-Formaldehyd-Kondensationsprodukten</a></p>
+		<p>DOI: 10.1002/lipi.19380450914</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;9 (1938)</p></td>
+	<td>494&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450914" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450914">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450914">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450914">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Glimm, E.; Semma, A. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450912">Die Verwendung der substituierten Salicylaldehyde zur Bestimmung der Ketonranzigkeit der Fette</a></p>
+		<p>DOI: 10.1002/lipi.19380450912</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;9 (1938)</p></td>
+	<td>341&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450912" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450912">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450912">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450912">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fiedler, H.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450814">Ranziditätsschutzmittel für Fette und fetthaltige Produkte, insbesondere Seifen</a></p>
+		<p>DOI: 10.1002/lipi.19380450814</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;8 (1938)</p></td>
+	<td>629&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450814" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450814">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450814">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450814">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Schütze, W.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450815">Herstellung von Seifen aus Wollfett</a></p>
+		<p>DOI: 10.1002/lipi.19380450815</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;8 (1938)</p></td>
+	<td>324&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450815" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450815">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450815">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450815">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450818">Versammlungsberichte</a></p>
+		<p>DOI: 10.1002/lipi.19380450818</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;8 (1938)</p></td>
+	<td>130&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450818" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450818">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450818">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450818">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Schnakenbeck, W.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450903">Haifischfang u. Haifischverwertung, mit besonderer Berücksichtigung der Leberöle</a></p>
+		<p>DOI: 10.1002/lipi.19380450903</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;9 (1938)</p></td>
+	<td>927&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450903" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450903">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450903">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450903">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bömer, A.; Hagemann, B. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450906">Über das Schmelzpunktdifferenz-Verfahren zum Nachweis von Talg in Schweinefett</a></p>
+		<p>DOI: 10.1002/lipi.19380450906</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;9 (1938)</p></td>
+	<td>654&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450906" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450906">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450906">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450906">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Täufel, K.; Köchling, J. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450910">Zur Chemie des Verderbens der Fette IV: Das Verhalten des Fettanteils von Gersten- und Malzkaffee bei der Lagerung</a></p>
+		<p>DOI: 10.1002/lipi.19380450910</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;9 (1938)</p></td>
+	<td>726&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450910" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450910">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450910">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450910">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kaufmann, H. P.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450702">Adolf Welter 70 Jahre</a></p>
+		<p>DOI: 10.1002/lipi.19380450702</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;7 (1938)</p></td>
+	<td>259&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450702" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450702">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450702">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450702">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Steinmann, W.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450703">Die Verwertung von Tierkadavern unter besonderer Berücksichtigung der Herstellung von technischem Fett und Tierkörpermehl</a></p>
+		<p>DOI: 10.1002/lipi.19380450703</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;7 (1938)</p></td>
+	<td>642&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450703" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450703">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450703">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450703">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fincke, H.; Bauer, K. H.; Seber, L. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450705">Zur Gehaltsmenge und Beschaffenheit des Fettes von Kakaosamenschalen</a></p>
+		<p>DOI: 10.1002/lipi.19380450705</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;7 (1938)</p></td>
+	<td>272&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450705" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450705">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450705">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450705">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bauer, K. H.; Seber, L. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450706">Nachwort zur Mitteilung von Dr. H. Fincke</a></p>
+		<p>DOI: 10.1002/lipi.19380450706</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;7 (1938)</p></td>
+	<td>137&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450706" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450706">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450706">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450706">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450717">Versammlungsberichte</a></p>
+		<p>DOI: 10.1002/lipi.19380450717</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;7 (1938)</p></td>
+	<td>948&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450717" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450717">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450717">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450717">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kaufmann, H. P.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450720">Technologie der Fette und Öle. Von G. Hefter. Zweite Auflage. Zweiter Band: Verarbeitung und Anwendung der Fette. Chemie und Technologie der Fette und Fettprodukte. Hrsg. von Dr. H. Schönfeld. Jul. Springer, Wien 1937. Preis geh. RM. 141.-, geb. RM. 145.-</a></p>
+		<p>DOI: 10.1002/lipi.19380450720</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;7 (1938)</p></td>
+	<td>341&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450720" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450720">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450720">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450720">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450822">Mitteilungen der Deutschen Gesellschaft für Fettforschung</a></p>
+		<p>DOI: 10.1002/lipi.19380450822</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;8 (1938)</p></td>
+	<td>398&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450822" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450822">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450822">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450822">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kaufmann, H. P.; Fiedler, H. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450905">Über die selektive Oxydation ungesättigter Verbindungen I: Der Nachweis von Erukasäure in Fettsäuregemischen. (Studien auf dem Fettgebiet, 64. Mitteilung)</a></p>
+		<p>DOI: 10.1002/lipi.19380450905</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;9 (1938)</p></td>
+	<td>1.17&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450905" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450905">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450905">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450905">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Schmalfu, Hans; Schmalfu, Helene; Barthmeyer, geb. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450908">Über das Verderben von Margarine I: Der Einfluß von Milch und Salz. Zugleich ein Beitrag zur jodometrischen Säurezahl</a></p>
+		<p>DOI: 10.1002/lipi.19380450908</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;9 (1938)</p></td>
+	<td>1.04&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450908" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450908">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450908">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450908">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Krueger, G. V.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450921">Rasiermittel</a></p>
+		<p>DOI: 10.1002/lipi.19380450921</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;9 (1938)</p></td>
+	<td>436&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450921" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450921">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450921">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450921">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Meyer, Adolf</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450926">Stoff und Leben. Von Hans Schmalfuß. Mit 9 Abbildungen. Bios. Bd. 6, XVI, 203 S. J. A. Barth, Leipzig 1937</a></p>
+		<p>DOI: 10.1002/lipi.19380450926</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;9 (1938)</p></td>
+	<td>335&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450926" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450926">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450926">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450926">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bauer, K. H.; Seber, L. </td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450704">Zur Kenntnis des sog. Abfallextraktionskakaofettes</a></p>
+		<p>DOI: 10.1002/lipi.19380450704</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;7 (1938)</p></td>
+	<td>535&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450704" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450704">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450704">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450704">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Greitemann, G.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450709">Gemeinschaftsarbeit der DGF, 11. Mitteilung: Ölsaaten-Analyse</a></p>
+		<p>DOI: 10.1002/lipi.19380450709</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;7 (1938)</p></td>
+	<td>370&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450709" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450709">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450709">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450709">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450710">Gemeinschaftsarbeit der DGF. 12. Mitteilung: Arbeitsprogramm der IC für 1938/39. Vorschläge von Analysenvorschriften I</a></p>
+		<p>DOI: 10.1002/lipi.19380450710</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;7 (1938)</p></td>
+	<td>242&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450710" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450710">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450710">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450710">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kaufmann, H. P.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450719">Chemie und Technologie der Fette und Fettprodukte. Von H. Schönfeld. Zugleich zweite Auflage der Technologie der Fette und Öle von G. Hefter. In fünf Bänden mit zusammen etwa 3350 S. und etwa 1200 Abb. Erster Band: Chemie und Gewinnung der Fette. Julius S</a></p>
+		<p>DOI: 10.1002/lipi.19380450719</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;7 (1938)</p></td>
+	<td>310&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450719" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450719">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450719">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450719">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450724">Mitteilungen der Deutschen Gesellschaft für Fettforschung</a></p>
+		<p>DOI: 10.1002/lipi.19380450724</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;7 (1938)</p></td>
+	<td>142&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450724" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450724">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450724">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450724">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zilske, H.</td>
+	<td>
+		<p><a href="/scimag/10.1002%2Flipi.19380450810">Technische Probleme bei Strangpressen</a></p>
+		<p>DOI: 10.1002/lipi.19380450810</p>	</td>
+	<td><p><a href="/scimag/journals/7533">Fett Wissenschaft Technologie/Fat Science Technology</a><p>volume&nbsp;45, issue&nbsp;8 (1938)</p></td>
+	<td>421&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1002%2Flipi.19380450810" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1002/lipi.19380450810">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1002/lipi.19380450810">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1002/lipi.19380450810">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">74 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 3</span>
+	 <a href="/scimag/?journal=7533&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

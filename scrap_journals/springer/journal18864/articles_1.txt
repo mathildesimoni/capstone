@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/18864">Order</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer Netherlands</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0167-8094</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-9273</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 52; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 52');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=18864&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;280 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 52</span>
+	 <a href="/scimag/?journal=18864&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>J. B. Sidney; S. J. Sidney; Jorge Urrutia</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00143891">Circle orders,N-gon orders and the crossing number</a></p>
+		<p>DOI: 10.1007/bf00143891</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;5, issue&nbsp;1 (1988)</p></td>
+	<td>583&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00143891" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00143891">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00143891">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00143891">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Noga Alon; Edward R. Scheinerman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00143892">Degrees of freedom versus dimension for containment orders</a></p>
+		<p>DOI: 10.1007/bf00143892</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;5, issue&nbsp;1 (1988)</p></td>
+	<td>326&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00143892" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00143892">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00143892">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00143892">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zoltán Füredi; Jeff Kahn</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00143893">Dimension versus size</a></p>
+		<p>DOI: 10.1007/bf00143893</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;5, issue&nbsp;1 (1988)</p></td>
+	<td>175&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00143893" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00143893">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00143893">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00143893">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. B. Nation; D. Pickering; J. Schmerl</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00143894">Dimension may exceed width</a></p>
+		<p>DOI: 10.1007/bf00143894</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;5, issue&nbsp;1 (1988)</p></td>
+	<td>94&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00143894" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00143894">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00143894">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00143894">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul H. Edelman; Michael E. Saks</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00143895">Combinatorial representation and convex dimension of convex geometries</a></p>
+		<p>DOI: 10.1007/bf00143895</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;5, issue&nbsp;1 (1988)</p></td>
+	<td>575&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00143895" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00143895">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00143895">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00143895">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. D. Atkinson; D. T. H. Ng</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00143896">On the width of an orientation of a tree</a></p>
+		<p>DOI: 10.1007/bf00143896</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;5, issue&nbsp;1 (1988)</p></td>
+	<td>641&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00143896" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00143896">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00143896">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00143896">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Kahn; J. C. Lagarias; H. S. Witsenhausen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00143897">Single-suit two-person card play II. Dominance</a></p>
+		<p>DOI: 10.1007/bf00143897</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;5, issue&nbsp;1 (1988)</p></td>
+	<td>883&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00143897" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00143897">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00143897">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00143897">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Banaschewski; G. Bruns</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00143898">The fundamental duality of partially ordered sets</a></p>
+		<p>DOI: 10.1007/bf00143898</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;5, issue&nbsp;1 (1988)</p></td>
+	<td>969&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00143898" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00143898">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00143898">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00143898">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Henry A. Kierstead</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00143899">A minimax theorem for chain complete ordered sets</a></p>
+		<p>DOI: 10.1007/bf00143899</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;5, issue&nbsp;1 (1988)</p></td>
+	<td>513&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00143899" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00143899">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00143899">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00143899">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Alan Day; Christian Herrmann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00143900">Gluings of modular lattices</a></p>
+		<p>DOI: 10.1007/bf00143900</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;5, issue&nbsp;1 (1988)</p></td>
+	<td>1014&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00143900" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00143900">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00143900">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00143900">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00143901">Unsolved problems</a></p>
+		<p>DOI: 10.1007/bf00143901</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;5, issue&nbsp;1 (1988)</p></td>
+	<td>36&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00143901" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00143901">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00143901">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00143901">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Garrett Birkhoff; M. K. Bennett</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00333128">The convexity lattice of a poset</a></p>
+		<p>DOI: 10.1007/bf00333128</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;2, issue&nbsp;3 (1985)</p></td>
+	<td>1.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00333128" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00333128">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00333128">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00333128">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mohamed El-Zahar; Norbert Sauer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00333129">The length, the width and the cutset-number of finite ordered sets</a></p>
+		<p>DOI: 10.1007/bf00333129</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;2, issue&nbsp;3 (1985)</p></td>
+	<td>298&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00333129" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00333129">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00333129">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00333129">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kathie Cameron</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00333130">Antichain sequences</a></p>
+		<p>DOI: 10.1007/bf00333130</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;2, issue&nbsp;3 (1985)</p></td>
+	<td>378&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00333130" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00333130">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00333130">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00333130">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin Aigner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00333131">A note on merging</a></p>
+		<p>DOI: 10.1007/bf00333131</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;2, issue&nbsp;3 (1985)</p></td>
+	<td>340&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00333131" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00333131">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00333131">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00333131">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nathan Linial; Michael Saks; Peter Shor</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00333132">Largest induced suborders satisfying the chain condition</a></p>
+		<p>DOI: 10.1007/bf00333132</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;2, issue&nbsp;3 (1985)</p></td>
+	<td>238&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00333132" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00333132">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00333132">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00333132">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Dreesen; W. Poguntke; P. Winkler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00333133">Comparability invariance of the fixed point property</a></p>
+		<p>DOI: 10.1007/bf00333133</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;2, issue&nbsp;3 (1985)</p></td>
+	<td>372&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00333133" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00333133">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00333133">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00333133">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. D. Lawson; Michael Mislove; Hilary A. Priestley</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00333134">Infinite antichains in semilattices</a></p>
+		<p>DOI: 10.1007/bf00333134</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;2, issue&nbsp;3 (1985)</p></td>
+	<td>1.06&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00333134" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00333134">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00333134">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00333134">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Manfred Droste</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00333135">The normal subgroup lattice of 2-transitive automorphism groups of linearly ordered sets</a></p>
+		<p>DOI: 10.1007/bf00333135</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;2, issue&nbsp;3 (1985)</p></td>
+	<td>1.98&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00333135" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00333135">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00333135">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00333135">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pavel Holub</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00333136">A remark on covering graphs</a></p>
+		<p>DOI: 10.1007/bf00333136</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;2, issue&nbsp;3 (1985)</p></td>
+	<td>111&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00333136" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00333136">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00333136">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00333136">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Bruno Poizat</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00333137">Chaînes alternées</a></p>
+		<p>DOI: 10.1007/bf00333137</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;2, issue&nbsp;3 (1985)</p></td>
+	<td>163&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00333137" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00333137">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00333137">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00333137">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael Saks</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00333138">Unsolved problems</a></p>
+		<p>DOI: 10.1007/bf00333138</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;2, issue&nbsp;3 (1985)</p></td>
+	<td>207&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00333138" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00333138">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00333138">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00333138">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joseph P. S. Kung</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00334848">Matchings and radon transforms in lattices. I. Consistent lattices</a></p>
+		<p>DOI: 10.1007/bf00334848</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;2, issue&nbsp;2 (1985)</p></td>
+	<td>446&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00334848" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00334848">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00334848">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00334848">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gerard J. Chang; Jack Edmonds</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00334849">The poset scheduling problem</a></p>
+		<p>DOI: 10.1007/bf00334849</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;2, issue&nbsp;2 (1985)</p></td>
+	<td>303&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00334849" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00334849">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00334849">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00334849">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Vincent Bouchitté</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00334850">Chordal bipartite graphs and crowns</a></p>
+		<p>DOI: 10.1007/bf00334850</p>	</td>
+	<td><p><a href="/scimag/journals/18864">Order</a><p>volume&nbsp;2, issue&nbsp;2 (1985)</p></td>
+	<td>178&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00334850" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00334850">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00334850">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00334850">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;280 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 52</span>
+	 <a href="/scimag/?journal=18864&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

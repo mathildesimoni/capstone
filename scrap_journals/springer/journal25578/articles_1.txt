@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/25578">Wireless Networks</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>1022-0038</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1572-8196</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 126; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 126');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=25578&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;133 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 126</span>
+	 <a href="/scimag/?journal=25578&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Vaduvur Bharghavan; Andrew T. Campbell</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-004-4742-0">Guest Editorial</a></p>
+		<p>DOI: 10.1007/s11276-004-4742-0</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;1-2 (2005)</p></td>
+	<td>36&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-004-4742-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-004-4742-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-004-4742-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-004-4742-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mark D. Corner; Brian D. Noble</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-004-4743-z">Protecting File Systems with Transient Authentication</a></p>
+		<p>DOI: 10.1007/s11276-004-4743-z</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;1-2 (2005)</p></td>
+	<td>413&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-004-4743-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-004-4743-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-004-4743-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-004-4743-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yih-Chun Hu; Adrian Perrig; David B. Johnson</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-004-4744-y">Ariadne: A Secure On-Demand Routing Protocol for Ad Hoc Networks</a></p>
+		<p>DOI: 10.1007/s11276-004-4744-y</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;1-2 (2005)</p></td>
+	<td>444&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-004-4744-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-004-4744-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-004-4744-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-004-4744-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Sadeghi; V. Kanodia; A. Sabharwal; E. Knightly</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-004-4745-x">OAR: An Opportunistic Auto-Rate Media Access Protocol for Ad Hoc Networks</a></p>
+		<p>DOI: 10.1007/s11276-004-4745-x</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;1-2 (2005)</p></td>
+	<td>399&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-004-4745-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-004-4745-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-004-4745-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-004-4745-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eun-Sun Jung; Nitin H. Vaidya</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-004-4746-9">A Power Control MAC Protocol for Ad Hoc Networks</a></p>
+		<p>DOI: 10.1007/s11276-004-4746-9</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;1-2 (2005)</p></td>
+	<td>419&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-004-4746-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-004-4746-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-004-4746-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-004-4746-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lichun Bao; J. J. Garcia-Luna-Aceves</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-004-4747-8">Receiver-Oriented Multiple Access in Ad Hoc Networks with Directional Antennas</a></p>
+		<p>DOI: 10.1007/s11276-004-4747-8</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;1-2 (2005)</p></td>
+	<td>685&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-004-4747-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-004-4747-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-004-4747-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-004-4747-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mun Choon Chan; Ramachandran Ramjee</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-004-4748-7">TCP/IP Performance over 3G Wireless Links with Rate and Delay Variation</a></p>
+		<p>DOI: 10.1007/s11276-004-4748-7</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;1-2 (2005)</p></td>
+	<td>446&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-004-4748-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-004-4748-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-004-4748-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-004-4748-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hung-Yun Hsieh; Raghupathy Sivakumar</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-004-4749-6">A Transport Layer Approach for Achieving Aggregate Bandwidths on Multi-Homed Mobile Hosts</a></p>
+		<p>DOI: 10.1007/s11276-004-4749-6</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;1-2 (2005)</p></td>
+	<td>380&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-004-4749-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-004-4749-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-004-4749-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-004-4749-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Kotz; Kobby Essien</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-004-4750-0">Analysis of a Campus-Wide Wireless Network</a></p>
+		<p>DOI: 10.1007/s11276-004-4750-0</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;1-2 (2005)</p></td>
+	<td>810&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-004-4750-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-004-4750-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-004-4750-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-004-4750-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ronny Krashinsky; Hari Balakrishnan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-004-4751-z">Minimizing Energy for Wireless Web Access with Bounded Slowdown</a></p>
+		<p>DOI: 10.1007/s11276-004-4751-z</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;1-2 (2005)</p></td>
+	<td>545&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-004-4751-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-004-4751-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-004-4751-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-004-4751-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anna Scaglione; Sergio Servetto</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-004-4752-y">On the Interdependence of Routing and Data Compression in Multi-Hop Sensor Networks</a></p>
+		<p>DOI: 10.1007/s11276-004-4752-y</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;1-2 (2005)</p></td>
+	<td>469&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-004-4752-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-004-4752-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-004-4752-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-004-4752-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Haiyun Luo; Fan Ye; Jerry Cheng; Songwu Lu; Lixia Zhang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-004-4753-x">TTDD: Two-Tier Data Dissemination in Large-Scale Wireless Sensor Networks</a></p>
+		<p>DOI: 10.1007/s11276-004-4753-x</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;1-2 (2005)</p></td>
+	<td>489&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-004-4753-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-004-4753-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-004-4753-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-004-4753-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mario Čagalj; Jean-Pierre Hubaux; Christian C. Enz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-004-4754-9">Energy-Efficient Broadcasting in All-Wireless Networks</a></p>
+		<p>DOI: 10.1007/s11276-004-4754-9</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;1-2 (2005)</p></td>
+	<td>378&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-004-4754-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-004-4754-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-004-4754-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-004-4754-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Andrew M. Ladd; Kostas E. Bekris; Algis Rudys; Lydia E. Kavraki; Dan S. Wallach</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-004-4755-8">Robotics-Based Location Sensing Using Wireless Ethernet</a></p>
+		<p>DOI: 10.1007/s11276-004-4755-8</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;1-2 (2005)</p></td>
+	<td>736&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-004-4755-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-004-4755-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-004-4755-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-004-4755-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Nitin Vaidya; Anthony Joseph</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-005-1762-3">Guest Editorial</a></p>
+		<p>DOI: 10.1007/s11276-005-1762-3</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;4 (2005)</p></td>
+	<td>18&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-005-1762-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-005-1762-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-005-1762-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-005-1762-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kyu-Han Kim; Yujie Zhu; Raghupathy Sivakumar; Hung-Yun Hsieh</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-005-1763-2">A Receiver-Centric Transport Protocol for Mobile Hosts with Heterogeneous Wireless Interfaces</a></p>
+		<p>DOI: 10.1007/s11276-005-1763-2</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;4 (2005)</p></td>
+	<td>2.90&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-005-1763-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-005-1763-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-005-1763-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-005-1763-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kaixin Xu; Mario Gerla; Lantao Qi; Yantai Shu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-005-1764-1">TCP Unfairness in Ad Hoc Wireless Networks and a Neighborhood RED Solution</a></p>
+		<p>DOI: 10.1007/s11276-005-1764-1</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;4 (2005)</p></td>
+	<td>554&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-005-1764-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-005-1764-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-005-1764-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-005-1764-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anand Srinivas; Eytan Modiano</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-005-1765-0">Finding Minimum Energy Disjoint Paths in Wireless Ad-Hoc Networks</a></p>
+		<p>DOI: 10.1007/s11276-005-1765-0</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;4 (2005)</p></td>
+	<td>2.22&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-005-1765-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-005-1765-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-005-1765-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-005-1765-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Douglas S. J. De Couto; Daniel Aguayo; John Bicket; Robert Morris</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-005-1766-z">a high-throughput path metric for multi-hop wireless routing</a></p>
+		<p>DOI: 10.1007/s11276-005-1766-z</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;4 (2005)</p></td>
+	<td>1.47&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-005-1766-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-005-1766-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-005-1766-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-005-1766-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ulaş C. Kozat; Leandros Tassiulas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-005-1767-y">Throughput Scalability of Wireless Hybrid Networks over a Random Geometric Graph</a></p>
+		<p>DOI: 10.1007/s11276-005-1767-y</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;4 (2005)</p></td>
+	<td>398&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-005-1767-y" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-005-1767-y">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-005-1767-y">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-005-1767-y">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Manish Anand; Edmund B. Nightingale; Jason Flinn</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-005-1768-x">Self-Tuning Wireless Network Power Management</a></p>
+		<p>DOI: 10.1007/s11276-005-1768-x</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;4 (2005)</p></td>
+	<td>2.09&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-005-1768-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-005-1768-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-005-1768-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-005-1768-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kamal Jain; Jitendra Padhye; Venkata N. Padmanabhan; Lili Qiu</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-005-1769-9">Impact of Interference on Multi-Hop Wireless Network Performance</a></p>
+		<p>DOI: 10.1007/s11276-005-1769-9</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;4 (2005)</p></td>
+	<td>1.03&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-005-1769-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-005-1769-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-005-1769-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-005-1769-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Steven Chamberland; Samuel Pierre</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-005-1770-3">On the Design Problem of Cellular Wireless Networks</a></p>
+		<p>DOI: 10.1007/s11276-005-1770-3</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;4 (2005)</p></td>
+	<td>220&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-005-1770-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-005-1770-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-005-1770-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-005-1770-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shih-Tsung Yang; Anthony Ephremides</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-005-1771-2">Using Bandwidth-Space Partitioning to Improve Cell Coverage and Near-Far Unfair Access Problem in a Noise-Limited CDMA Cellular Network</a></p>
+		<p>DOI: 10.1007/s11276-005-1771-2</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;4 (2005)</p></td>
+	<td>231&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-005-1771-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-005-1771-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-005-1771-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-005-1771-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chao Chen; Eylem Ekici</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs11276-005-1772-1">A Routing Protocol for Hierarchical LEO/MEO Satellite IP Networks</a></p>
+		<p>DOI: 10.1007/s11276-005-1772-1</p>	</td>
+	<td><p><a href="/scimag/journals/25578">Wireless Networks</a><p>volume&nbsp;11, issue&nbsp;4 (2005)</p></td>
+	<td>725&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs11276-005-1772-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s11276-005-1772-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s11276-005-1772-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s11276-005-1772-1">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">3&nbsp;133 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 126</span>
+	 <a href="/scimag/?journal=25578&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

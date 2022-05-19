@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/21641">Risk Analysis</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0272-4332</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1539-6924</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 200; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 200');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=21641&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;997 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 200</span>
+	 <a href="/scimag/?journal=21641&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Lennart Sjöberg</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00001">Factors in Risk Perception</a></p>
+		<p>DOI: 10.1111/0272-4332.00001</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;20, issue&nbsp;1 (2000)</p></td>
+	<td>96&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00001" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00001">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00001">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00001">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michael K. Lindell; David J. Whitney</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00002">Correlates of Household Seismic Hazard Adjustment Adoption</a></p>
+		<p>DOI: 10.1111/0272-4332.00002</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;20, issue&nbsp;1 (2000)</p></td>
+	<td>149&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00002" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00002">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00002">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00002">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gunnar Grendstad; Per Selle</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00003">Cultural Myths of Human and Physical Nature: Integrated or Separated?</a></p>
+		<p>DOI: 10.1111/0272-4332.00003</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;20, issue&nbsp;1 (2000)</p></td>
+	<td>102&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00003" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00003">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00003">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00003">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Granger Morgan; H. Keith Florig; Michael L. DeKay; Paul Fischbeck</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00005">Categorizing Risks for Risk Ranking</a></p>
+		<p>DOI: 10.1111/0272-4332.00005</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;20, issue&nbsp;1 (2000)</p></td>
+	<td>133&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00005" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00005">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00005">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00005">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eberhard O. Voit; Lorelei H. Schwacke</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00006">Random Number Generation from Right-Skewed, Symmetric, and Left-Skewed Distributions</a></p>
+		<p>DOI: 10.1111/0272-4332.00006</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;20, issue&nbsp;1 (2000)</p></td>
+	<td>190&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00006" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00006">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00006">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00006">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Theodora Tsongas; Dmitrii Orlinskii; Irina Priputina; Galina Pleskachevskaya; Alexander Fetishchev; George Hinman; Walter Butcher</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00007">Risk Analysis of PCB Exposure via the Soil–Food Crop Pathway, and Alternatives for Remediation at Serpukhov, Russian Federation</a></p>
+		<p>DOI: 10.1111/0272-4332.00007</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;20, issue&nbsp;1 (2000)</p></td>
+	<td>62&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00007" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00007">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00007">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00007">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. W. Gaylor; S. J. Culp; L. S. Goldstein; F. A. Beland</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00008">Cancer Risk Estimation for Mixtures of Coal Tars</a></p>
+		<p>DOI: 10.1111/0272-4332.00008</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;20, issue&nbsp;1 (2000)</p></td>
+	<td>63&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00008" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00008">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00008">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00008">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Scott M. Bartell; Rafael A. Ponce; Timothy K. Takaro; Richard O. Zerbe; Gilbert S. Omenn; Elaine M. Faustman</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00009">Risk Estimation and Value-of-Information Analysis for Three Proposed Genetic Screening Programs for Chronic Beryllium Disease Prevention</a></p>
+		<p>DOI: 10.1111/0272-4332.00009</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;20, issue&nbsp;1 (2000)</p></td>
+	<td>143&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00009" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00009">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00009">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00009">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Eric Frohmberg; Robert Goble; Virginia Sanchez; Dianne Quigley</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00010">The Assessment of Radiation Exposures in Native American Communities from Nuclear Weapons Testing in Nevada</a></p>
+		<p>DOI: 10.1111/0272-4332.00010</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;20, issue&nbsp;1 (2000)</p></td>
+	<td>322&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00010" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00010">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00010">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00010">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hendrik I. Frohwein; James H. Lambert</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00011">Risk of Extreme Events in Multiobjective Decision Trees Part 1. Severe Events</a></p>
+		<p>DOI: 10.1111/0272-4332.00011</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;20, issue&nbsp;1 (2000)</p></td>
+	<td>189&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00011" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00011">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00011">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00011">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hendrik I. Frohwein; Yacov Y. Haimes; James H. Lambert</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00012">Risk of Extreme Events in Multiobjective Decision Trees Part 2. Rare Events</a></p>
+		<p>DOI: 10.1111/0272-4332.00012</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;20, issue&nbsp;1 (2000)</p></td>
+	<td>248&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00012" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00012">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00012">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00012">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Christopher R. Kirman; Sean M. Hays; Gregory L. Kedderis; Michael L. Gargas; Dale E. Strother</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00013">Improving Cancer Dose–Response Characterization by Using Physiologically Based Pharmacokinetic Modeling: An Analysis of Pooled Data for Acrylonitrile-Induced Brain Tumors to Assess Cancer Potency in the Rat</a></p>
+		<p>DOI: 10.1111/0272-4332.00013</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;20, issue&nbsp;1 (2000)</p></td>
+	<td>274&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00013" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00013">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00013">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00013">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Peter F. M.  Teunis; Cynthia L.  Chappell; Pablo C.  Okhuysen</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00014"><em>Cryptosporidium</em> Dose Response Studies: Variation Between Isolates</a></p>
+		<p>DOI: 10.1111/0272-4332.00014</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;22, issue&nbsp;1 (2002)</p></td>
+	<td>195&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00014" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00014">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00014">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00014">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Craig Stow</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00015">Statistics for Environmental Science and Management</a></p>
+		<p>DOI: 10.1111/0272-4332.00015</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;22, issue&nbsp;1 (2002)</p></td>
+	<td>27&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00015" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00015">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00015">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00015">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>James D. Englehardt</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00016">Scale Invariance of Incident Size Distributions in Response to Sizes of Their Causes</a></p>
+		<p>DOI: 10.1111/0272-4332.00016</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;22, issue&nbsp;2 (2002)</p></td>
+	<td>204&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00016" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00016">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00016">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00016">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robin S Gregory; Theresa A Satterfield</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00017">Beyond Perception: The Experience of Risk and Stigma in Community Contexts</a></p>
+		<p>DOI: 10.1111/0272-4332.00017</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;22, issue&nbsp;2 (2002)</p></td>
+	<td>103&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00017" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00017">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00017">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00017">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Chris Dockins; Robin R. Jenkins; Nicole Owens; Nathalie B. Simon; Lanelle Bembenek Wiggins</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00018">Valuation of Childhood Risk Reduction: The Importance of Age, Risk Preferences, and Perspective</a></p>
+		<p>DOI: 10.1111/0272-4332.00018</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;22, issue&nbsp;2 (2002)</p></td>
+	<td>159&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00018" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00018">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00018">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00018">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Shinsuke Morisawa; Atsushi Kato; Minoru Yoneda; Yoko Shimada</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00019">The Dynamic Performances of DDTs in the Environment and Japanese Exposure to Them: A Historical Perspective after the Ban</a></p>
+		<p>DOI: 10.1111/0272-4332.00019</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;22, issue&nbsp;2 (2002)</p></td>
+	<td>2.55&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00019" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00019">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00019">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00019">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yacov Y. Haimes; Stan Kaplan; James H. Lambert</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00020">Risk Filtering, Ranking, and Management Framework Using Hierarchical Holographic Modeling</a></p>
+		<p>DOI: 10.1111/0272-4332.00020</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;22, issue&nbsp;2 (2002)</p></td>
+	<td>995&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00020" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00020">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00020">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00020">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-Pierre Gauchi; Jean-Charles Leblanc</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00021">Quantitative Assessment of Exposure to the Mycotoxin Ochratoxin A in Food</a></p>
+		<p>DOI: 10.1111/0272-4332.00021</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;22, issue&nbsp;2 (2002)</p></td>
+	<td>425&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00021" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00021">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00021">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00021">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Curtis Travis</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00022">Transboundry Risk Management</a></p>
+		<p>DOI: 10.1111/0272-4332.00022</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;22, issue&nbsp;2 (2002)</p></td>
+	<td>24&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00022" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00022">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00022">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00022">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. K. Hope; A. R. Baker; E. D. Edel; A. T. Hogue; W. D. Schlosser; R. Whiting; R. M. McDowell; R. A. Morales</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00023">An Overview of the <em>Salmonella</em> Enteritidis Risk Assessment for Shell Eggs and Egg Products</a></p>
+		<p>DOI: 10.1111/0272-4332.00023</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;22, issue&nbsp;2 (2002)</p></td>
+	<td>902&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00023" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00023">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00023">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00023">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Frederick Frasch</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00024">A Random Walk Model of Skin Permeation</a></p>
+		<p>DOI: 10.1111/0272-4332.00024</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;22, issue&nbsp;2 (2002)</p></td>
+	<td>394&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00024" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00024">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00024">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00024">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Elisabeth Paté-Cornell</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00025">Finding and Fixing Systems Weaknesses: Probabilistic Methods and Applications of Engineering Risk Analysis</a></p>
+		<p>DOI: 10.1111/0272-4332.00025</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;22, issue&nbsp;2 (2002)</p></td>
+	<td>380&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00025" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00025">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00025">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00025">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ellen Raber; Joy M. Hirabayashi; Saverio P. Mancieri; Alfred L. Jin; Karen J. Folks; Tina M. Carlsen; Pete Estacio</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0272-4332.00026">Chemical and Biological Agent Incident Response and Decision Process for Civilian and Public Sector Facilities</a></p>
+		<p>DOI: 10.1111/0272-4332.00026</p>	</td>
+	<td><p><a href="/scimag/journals/21641">Risk Analysis</a><p>volume&nbsp;22, issue&nbsp;2 (2002)</p></td>
+	<td>525&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0272-4332.00026" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0272-4332.00026">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0272-4332.00026">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0272-4332.00026">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">4&nbsp;997 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 200</span>
+	 <a href="/scimag/?journal=21641&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

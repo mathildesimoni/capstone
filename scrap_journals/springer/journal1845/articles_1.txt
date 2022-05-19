@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer-Verlag</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>2193-5343</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>2193-5351</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 12; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 12');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=1845&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">296 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 12</span>
+	 <a href="/scimag/?journal=1845&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Liang, Li; Yang, Chunhua </td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0041-2">Kaplansky classes of complexes</a></p>
+		<p>DOI: 10.1007/s40065-012-0041-2</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;2, issue&nbsp;1 (2013)</p></td>
+	<td>274&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0041-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0041-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0041-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0041-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. M. Barakat</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0002-9">The maximal correlation for the generalized order statistics and dual generalized order statistics</a></p>
+		<p>DOI: 10.1007/s40065-012-0002-9</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;2 (2012)</p></td>
+	<td>343&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0002-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0002-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0002-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0002-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Filipowicz, M. Kȩpczyk</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0003-8">A note on zero-divisors of commutative rings</a></p>
+		<p>DOI: 10.1007/s40065-012-0003-8</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;2 (2012)</p></td>
+	<td>224&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0003-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0003-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0003-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0003-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>C. Pradeep, A. Vinodkumar, R. Rakkiyappan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0005-6">Delay-dependent exponential stability results for uncertain stochastic Hopfield neural networks with interval time-varying delays</a></p>
+		<p>DOI: 10.1007/s40065-012-0005-6</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;2 (2012)</p></td>
+	<td>428&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0005-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0005-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0005-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0005-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Kalidas Das</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0007-4">Slip effects on heat transfer and peristaltic pumping of a Johnson–Segalman fluid in an inclined asymmetric channel</a></p>
+		<p>DOI: 10.1007/s40065-012-0007-4</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;2 (2012)</p></td>
+	<td>1.03&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0007-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0007-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0007-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0007-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Gabriel Picavet</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0008-3">Ascending the divided and going-down properties by absolute flatness</a></p>
+		<p>DOI: 10.1007/s40065-012-0008-3</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;1 (2012)</p></td>
+	<td>432&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0008-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0008-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0008-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0008-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Kabbaj; A. Mimouni</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0009-2">Integral domains with Booleant-class semigroup</a></p>
+		<p>DOI: 10.1007/s40065-012-0009-2</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;1 (2012)</p></td>
+	<td>309&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0009-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0009-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0009-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0009-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. A. Artamonov; R. B. Mukhatov; R. Wisbauer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0010-9">On the category of modules over some semisimple bialgebras</a></p>
+		<p>DOI: 10.1007/s40065-012-0010-9</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;1 (2012)</p></td>
+	<td>332&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0010-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0010-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0010-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0010-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Patrick F. Smith</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0011-8">On injective and divisible modules</a></p>
+		<p>DOI: 10.1007/s40065-012-0011-8</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;1 (2012)</p></td>
+	<td>341&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0011-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0011-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0011-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0011-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. D. Anderson; R. M. Ortiz-Albino</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0012-7">Three frameworks for a general theory of factorization</a></p>
+		<p>DOI: 10.1007/s40065-012-0012-7</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;1 (2012)</p></td>
+	<td>549&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0012-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0012-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0012-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0012-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xueyong Zhou, Zhen Guo</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0013-6">Analysis of an influenza A (H1N1) epidemic model with vaccination</a></p>
+		<p>DOI: 10.1007/s40065-012-0013-6</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;2 (2012)</p></td>
+	<td>604&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0013-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0013-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0013-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0013-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Yanyong Hong, Fang Li</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0014-5">Weak Hopf algebras corresponding to quantum algebrasUq(f(K,H))</a></p>
+		<p>DOI: 10.1007/s40065-012-0014-5</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;2 (2012)</p></td>
+	<td>577&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0014-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0014-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0014-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0014-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dawoud Ahmadi Dastjerdi, Sanaz Lamei</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0015-4">Dimension of certain sets of regular and minus continued fractions with positive partial quotients</a></p>
+		<p>DOI: 10.1007/s40065-012-0015-4</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;2 (2012)</p></td>
+	<td>320&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0015-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0015-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0015-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0015-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. P. Santhakumaran, S. V. Ullas Chandran</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0016-3">The2-edge geodetic number and graph operations</a></p>
+		<p>DOI: 10.1007/s40065-012-0016-3</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;2 (2012)</p></td>
+	<td>483&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0016-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0016-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0016-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0016-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David F. Anderson; Jodi Fasteen; John D. LaGrange</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0018-1">The subgroup graph of a group</a></p>
+		<p>DOI: 10.1007/s40065-012-0018-1</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;1 (2012)</p></td>
+	<td>533&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0018-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0018-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0018-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0018-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. T. Chapman; P. A. García-Sánchez; D. Llena; A. Malyshev; D. Steinberg</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0019-0">On the delta set and the Betti elements of a BF-monoid</a></p>
+		<p>DOI: 10.1007/s40065-012-0019-0</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;1 (2012)</p></td>
+	<td>359&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0019-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0019-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0019-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0019-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tomasz Brzeziński; Zhengming Jiao</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0020-7">R-smash products of Hopf quasigroups</a></p>
+		<p>DOI: 10.1007/s40065-012-0020-7</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;1 (2012)</p></td>
+	<td>264&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0020-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0020-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0020-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0020-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jean-Luc Chabert</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0021-6">Does Int({(mathbb {Z})})have the stacked bases property?</a></p>
+		<p>DOI: 10.1007/s40065-012-0021-6</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;1 (2012)</p></td>
+	<td>290&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0021-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0021-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0021-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0021-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Thomas G. Lucas</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0022-5">Almost principal ideals in R[x]</a></p>
+		<p>DOI: 10.1007/s40065-012-0022-5</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;1 (2012)</p></td>
+	<td>487&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0022-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0022-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0022-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0022-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>François Couchot</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0023-4">Finitistic weak dimension of commutative arithmetical rings</a></p>
+		<p>DOI: 10.1007/s40065-012-0023-4</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;1 (2012)</p></td>
+	<td>224&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0023-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0023-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0023-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0023-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Anna Giordano Bruno; Luigi Salce</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0024-3">A soft introduction to algebraic entropy</a></p>
+		<p>DOI: 10.1007/s40065-012-0024-3</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;1 (2012)</p></td>
+	<td>526&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0024-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0024-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0024-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0024-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Dario Fasino, Domenico Freni</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0025-2">Fundamental relations in simple and 0-simple semihypergroups of small size</a></p>
+		<p>DOI: 10.1007/s40065-012-0025-2</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;2 (2012)</p></td>
+	<td>428&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0025-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0025-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0025-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0025-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Xiaotai Wu, Litan Yan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0026-1">Numerical solutions of doubly perturbed stochastic delay differential equations driven by Lèvy process</a></p>
+		<p>DOI: 10.1007/s40065-012-0026-1</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;2 (2012)</p></td>
+	<td>297&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0026-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0026-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0026-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0026-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ke Lou, Baotong Cui, Xiaojiao Zhang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0028-z">Adaptive synchronization of two complex networks with delayed and non-delayed coupling</a></p>
+		<p>DOI: 10.1007/s40065-012-0028-z</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;2 (2012)</p></td>
+	<td>351&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0028-z" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0028-z">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0028-z">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0028-z">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Magdy E. El-Adll, Saieed F. Ateya, Mohamed M. Rizk</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fs40065-012-0004-7">Prediction intervals for future lifetime of three parameters Weibull observations based on generalized order statistics</a></p>
+		<p>DOI: 10.1007/s40065-012-0004-7</p>	</td>
+	<td><p><a href="/scimag/journals/1845">Arabian Journal of Mathematics</a><p>volume&nbsp;1, issue&nbsp;3 (2012)</p></td>
+	<td>309&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fs40065-012-0004-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/s40065-012-0004-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/s40065-012-0004-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/s40065-012-0004-7">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">296 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 12</span>
+	 <a href="/scimag/?journal=1845&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

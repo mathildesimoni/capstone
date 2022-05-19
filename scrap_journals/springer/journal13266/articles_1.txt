@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0022-0833</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1573-2703</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 104; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 104');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=13266&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;595 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 104</span>
+	 <a href="/scimag/?journal=13266&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>W. D. Lakin; R. Mathon; A. Nachman</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036458">Buckling and vibration of a rotating spoke</a></p>
+		<p>DOI: 10.1007/bf00036458</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;12, issue&nbsp;3 (1978)</p></td>
+	<td>547&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036458" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036458">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036458">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036458">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. A. D. Ackroyd</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036459">On the steady flow produced by a rotating disc with either surface suction or injection</a></p>
+		<p>DOI: 10.1007/bf00036459</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;12, issue&nbsp;3 (1978)</p></td>
+	<td>749&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036459" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036459">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036459">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036459">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. K. Kapila</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036460">Homogeneous branched-chain explosion: Initiation to completion</a></p>
+		<p>DOI: 10.1007/bf00036460</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;12, issue&nbsp;3 (1978)</p></td>
+	<td>615&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036460" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036460">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036460">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036460">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Boersma</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036461">Note on an integral equation of viscous flow theory</a></p>
+		<p>DOI: 10.1007/bf00036461</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;12, issue&nbsp;3 (1978)</p></td>
+	<td>267&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036461" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036461">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036461">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036461">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Wagner; X. Hafer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036462">Note on the spanwise quadrature in lifting-wing calculations</a></p>
+		<p>DOI: 10.1007/bf00036462</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;12, issue&nbsp;3 (1978)</p></td>
+	<td>257&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036462" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036462">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036462">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036462">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>L. Klaren</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036463">On the efficiency of a ducted nonstationary actuator disk</a></p>
+		<p>DOI: 10.1007/bf00036463</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;12, issue&nbsp;3 (1978)</p></td>
+	<td>544&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036463" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036463">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036463">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036463">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. J. H. Brouwers</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036464">On compressible flow in a rotating cylinder</a></p>
+		<p>DOI: 10.1007/bf00036464</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;12, issue&nbsp;3 (1978)</p></td>
+	<td>944&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036464" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036464">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036464">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036464">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036465">Annual review of fluid mechanics, Volume 9</a></p>
+		<p>DOI: 10.1007/bf00036465</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;12, issue&nbsp;3 (1978)</p></td>
+	<td>42&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036465" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036465">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036465">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036465">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036466">Forthcoming papers</a></p>
+		<p>DOI: 10.1007/bf00036466</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;12, issue&nbsp;3 (1978)</p></td>
+	<td>29&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036466" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036466">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036466">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036466">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>V. M. Rybka; J. J. Kalker</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036594">The elastostatic approach to compression of a cracked medium with dry friction</a></p>
+		<p>DOI: 10.1007/bf00036594</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;17, issue&nbsp;2 (1983)</p></td>
+	<td>592&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036594" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036594">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036594">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036594">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. G. Daniels; P. M. Eagles</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036595">Slender channel theory in flow between two cylinders</a></p>
+		<p>DOI: 10.1007/bf00036595</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;17, issue&nbsp;2 (1983)</p></td>
+	<td>805&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036595" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036595">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036595">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036595">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>U. Schmidt; H. J. Weinitschke</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036596">Some static problems for the nonlinear elastic string</a></p>
+		<p>DOI: 10.1007/bf00036596</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;17, issue&nbsp;2 (1983)</p></td>
+	<td>1.87&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036596" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036596">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036596">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036596">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. A. Page</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036597">The low Rossby number flow of a rotating fluid past a flat plate</a></p>
+		<p>DOI: 10.1007/bf00036597</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;17, issue&nbsp;2 (1983)</p></td>
+	<td>572&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036597" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036597">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036597">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036597">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G. C. Hocking</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036598">Critical withdrawal from a two-layer fluid through a line sink</a></p>
+		<p>DOI: 10.1007/bf00036598</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;25, issue&nbsp;1 (1991)</p></td>
+	<td>538&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036598" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036598">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036598">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036598">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>W. W. Hackborn</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036599">Separation in a two-dimensional Stokes flow inside an elliptic cylinder</a></p>
+		<p>DOI: 10.1007/bf00036599</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;25, issue&nbsp;1 (1991)</p></td>
+	<td>451&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036599" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036599">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036599">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036599">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Luchini</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036600">Solution of a coupled creeping-flow problem by the Wiener-Hopf method</a></p>
+		<p>DOI: 10.1007/bf00036600</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;25, issue&nbsp;1 (1991)</p></td>
+	<td>393&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036600" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036600">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036600">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036600">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. S. Yu; W. S. Chang</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036601">Dispersion of solute in wall-bounded parallel shear flows</a></p>
+		<p>DOI: 10.1007/bf00036601</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;25, issue&nbsp;1 (1991)</p></td>
+	<td>1.29&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036601" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036601">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036601">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036601">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A. J. Hermans</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036602">Slowly moving hull forms in short waves</a></p>
+		<p>DOI: 10.1007/bf00036602</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;25, issue&nbsp;1 (1991)</p></td>
+	<td>556&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036602" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036602">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036602">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036602">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Miloh</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036603">On the oblique water-entry problem of a rigid sphere</a></p>
+		<p>DOI: 10.1007/bf00036603</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;25, issue&nbsp;1 (1991)</p></td>
+	<td>763&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036603" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036603">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036603">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036603">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>S. Godts; R. Kh. Zeytounian</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036604">Flows with variable viscosity: an asymptotic model</a></p>
+		<p>DOI: 10.1007/bf00036604</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;25, issue&nbsp;1 (1991)</p></td>
+	<td>239&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036604" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036604">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036604">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036604">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Weinstein; T. Miloh</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036614">On the travelling wave instability caused by moving planar heat sources: the rigid problem</a></p>
+		<p>DOI: 10.1007/bf00036614</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;30, issue&nbsp;5 (1996)</p></td>
+	<td>595&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036614" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036614">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036614">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036614">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Takao Sano</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036615">Unsteady forced and natural convection around a sphere immersed in a porous medium</a></p>
+		<p>DOI: 10.1007/bf00036615</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;30, issue&nbsp;5 (1996)</p></td>
+	<td>448&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036615" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036615">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036615">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036615">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Adler</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036616">Diffusion controlled smoulder propagation in a thin slab</a></p>
+		<p>DOI: 10.1007/bf00036616</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;30, issue&nbsp;5 (1996)</p></td>
+	<td>650&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036616" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036616">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036616">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036616">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hassan A. Z. Hassan</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036617">Torsion of a non-homogeneous infinite elastic cylinder slackened by a circular cut</a></p>
+		<p>DOI: 10.1007/bf00036617</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;30, issue&nbsp;5 (1996)</p></td>
+	<td>352&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036617" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036617">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036617">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036617">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hassan A. Z. Hassan; Fayez E. K. Rofaeel</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf00036618">Torsion of an elastic non-homogeneous layer by two circular discs</a></p>
+		<p>DOI: 10.1007/bf00036618</p>	</td>
+	<td><p><a href="/scimag/journals/13266">Journal of Engineering Mathematics</a><p>volume&nbsp;30, issue&nbsp;5 (1996)</p></td>
+	<td>526&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf00036618" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf00036618">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf00036618">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf00036618">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">2&nbsp;595 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 104</span>
+	 <a href="/scimag/?journal=13266&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

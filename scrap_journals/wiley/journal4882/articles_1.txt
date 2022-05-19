@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/4882">Computational Intelligence</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>John Wiley and Sons</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0824-7935</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (electronic):</td>
+		<td>1467-8640</td>
+	</tr>
+				</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 50; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 50');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=4882&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;239 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 50</span>
+	 <a href="/scimag/?journal=4882&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>Matthew Stone; Christine Doran; Bonnie Webber; Tonia Bleam; Martha Palmer</td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0824-7935.2003.00221.x">Microplanning with Communicative Intentions: The SPUD System</a></p>
+		<p>DOI: 10.1046/j.0824-7935.2003.00221.x</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;19, issue&nbsp;4 (2003)</p></td>
+	<td>553&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0824-7935.2003.00221.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0824-7935.2003.00221.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0824-7935.2003.00221.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0824-7935.2003.00221.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td></td>
+	<td>
+		<p><a href="/scimag/10.1046%2Fj.0824-7935.2003.00226.x">Title Index, Volume 19</a></p>
+		<p>DOI: 10.1046/j.0824-7935.2003.00226.x</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;19, issue&nbsp;4 (2003)</p></td>
+	<td>23&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1046%2Fj.0824-7935.2003.00226.x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1046/j.0824-7935.2003.00226.x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1046/j.0824-7935.2003.00226.x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1046/j.0824-7935.2003.00226.x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Charles Dierbach; Daniel L. Chester</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00028">Abstractional Concept Mapping: A Foundational Model for Analogical Reasoning</a></p>
+		<p>DOI: 10.1111/0824-7935.00028</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;1 (1997)</p></td>
+	<td>919&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00028" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00028">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00028">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00028">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Fernando Gomez; Carlos Segami; Richard Hull</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00032">Determining Prepositional Attachment, Prepositional Meaning, Verb Meaning, and Thematic Roles</a></p>
+		<p>DOI: 10.1111/0824-7935.00032</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;1 (1997)</p></td>
+	<td>372&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00032" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00032">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00032">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00032">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jugal K. Kalita; Joel C. Lee</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00034">An Informal Semantic Analysis of Motion Verbs Based on Physical Primitives</a></p>
+		<p>DOI: 10.1111/0824-7935.00034</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;1 (1997)</p></td>
+	<td>347&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00034" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00034">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00034">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00034">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Matthew A. F. McDonald; Philip Hingston</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00035">Discounted Reinforcement Learning Does Not Scale</a></p>
+		<p>DOI: 10.1111/0824-7935.00035</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;1 (1997)</p></td>
+	<td>145&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00035" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00035">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00035">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00035">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Joseph Y. Halpern</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00036">A Critical Reexamination of Default Logic, Autoepistemic Logic, and Only Knowing</a></p>
+		<p>DOI: 10.1111/0824-7935.00036</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;1 (1997)</p></td>
+	<td>191&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00036" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00036">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00036">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00036">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Francis Jeffry Pelletier; Renée Elio</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00037">What Should Default Reasoning be, by Default?</a></p>
+		<p>DOI: 10.1111/0824-7935.00037</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;2 (1997)</p></td>
+	<td>149&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00037" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00037">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00037">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00037">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Michel P. Féret; Janice I. Glasgow</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00038">A Formal Model for Experience–Aided Diagnosis</a></p>
+		<p>DOI: 10.1111/0824-7935.00038</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;2 (1997)</p></td>
+	<td>308&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00038" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00038">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00038">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00038">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Henry E. Kyburg</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00039">Combinatorial Semantics: Semantics for Frequent Validity</a></p>
+		<p>DOI: 10.1111/0824-7935.00039</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;2 (1997)</p></td>
+	<td>372&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00039" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00039">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00039">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00039">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Pascal Coupey; Christophe Fouqueré</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00040">Extending Conceptual Definitions with Default Knowledge</a></p>
+		<p>DOI: 10.1111/0824-7935.00040</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;2 (1997)</p></td>
+	<td>358&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00040" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00040">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00040">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00040">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lucja Iwanska; Wlodek Zadrozny</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00041">Introduction to the Special Issue on Context in Natural Language Processing</a></p>
+		<p>DOI: 10.1111/0824-7935.00041</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;3 (1997)</p></td>
+	<td>48&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00041" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00041">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00041">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00041">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Massimo Poesio; David R. Traum</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00042">Conversational Actions and Discourse Situations</a></p>
+		<p>DOI: 10.1111/0824-7935.00042</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;3 (1997)</p></td>
+	<td>255&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00042" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00042">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00042">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00042">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Lucja Iwanska</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00043">Reasoning with Intensional Negative Adjectivals: Semantics, Pragmatics, and Context</a></p>
+		<p>DOI: 10.1111/0824-7935.00043</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;3 (1997)</p></td>
+	<td>319&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00043" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00043">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00043">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00043">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John Gurney; Don Perlis; Khemdut Purang</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00044">Interpreting Presuppositions Using Active Logic: From Contexts to Utterances</a></p>
+		<p>DOI: 10.1111/0824-7935.00044</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;3 (1997)</p></td>
+	<td>123&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00044" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00044">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00044">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00044">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Giacomo Ferrari</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00045">Types of Contexts and Their Role in Multimodal Communication</a></p>
+		<p>DOI: 10.1111/0824-7935.00045</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;3 (1997)</p></td>
+	<td>86&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00045" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00045">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00045">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00045">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Varol Akman; Mehmet Surav</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00046">The Use of Situation Theory in Context Modeling</a></p>
+		<p>DOI: 10.1111/0824-7935.00046</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;3 (1997)</p></td>
+	<td>125&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00046" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00046">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00046">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00046">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Massimo Zancanaro; Oliviero Stock; Carlo Strapparava</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00047">Multimodal Interaction for Information Access: Exploiting Cohesion</a></p>
+		<p>DOI: 10.1111/0824-7935.00047</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;4 (1997)</p></td>
+	<td>1.58&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00047" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00047">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00047">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00047">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>André Trudel</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00048">A Temporal Knowledge Representation Approach Based on Elementary Calculus</a></p>
+		<p>DOI: 10.1111/0824-7935.00048</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;4 (1997)</p></td>
+	<td>157&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00048" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00048">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00048">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00048">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Amnon Meisels; Jihad Ell-sana; Ehud Gudes</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00049">Decomposing and Solving Timetabling Constraint Networks</a></p>
+		<p>DOI: 10.1111/0824-7935.00049</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;4 (1997)</p></td>
+	<td>155&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00049" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00049">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00049">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00049">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ariel Cohen</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00050">Default Reasoning and Generics</a></p>
+		<p>DOI: 10.1111/0824-7935.00050</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;4 (1997)</p></td>
+	<td>179&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00050" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00050">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00050">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00050">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jonathan Cagan; Kenneth Kotovsky</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00051">Simulated Annealing and the Generation of the Objective Function: A Model of Learning During Problem Solving</a></p>
+		<p>DOI: 10.1111/0824-7935.00051</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;4 (1997)</p></td>
+	<td>1.44&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00051" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00051">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00051">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00051">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jacob Feldman</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00052">Regularity-based Perceptual Grouping</a></p>
+		<p>DOI: 10.1111/0824-7935.00052</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;13, issue&nbsp;4 (1997)</p></td>
+	<td>461&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00052" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00052">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00052">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00052">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ronald P. Loui</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00055">Process and Policy: Resource-Bounded NonDemonstrative Reasoning</a></p>
+		<p>DOI: 10.1111/0824-7935.00055</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;14, issue&nbsp;1 (1998)</p></td>
+	<td>432&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00055" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00055">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00055">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00055">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Javier A. Pinto</td>
+	<td>
+		<p><a href="/scimag/10.1111%2F0824-7935.00056">Integrating Discrete and Continuous Change in a Logical Framework</a></p>
+		<p>DOI: 10.1111/0824-7935.00056</p>	</td>
+	<td><p><a href="/scimag/journals/4882">Computational Intelligence</a><p>volume&nbsp;14, issue&nbsp;1 (1998)</p></td>
+	<td>406&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1111%2F0824-7935.00056" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1111/0824-7935.00056">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1111/0824-7935.00056">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1111/0824-7935.00056">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">1&nbsp;239 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 50</span>
+	 <a href="/scimag/?journal=4882&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

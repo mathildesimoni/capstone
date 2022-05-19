@@ -1,0 +1,379 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Springer</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0071-8017</td>
+	</tr>
+					</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 25; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 25');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=7783&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">602 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 25</span>
+	 <a href="/scimag/?journal=7783&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>A. Dietl</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552606">Ueber die Kinetik der Sorption</a></p>
+		<p>DOI: 10.1007/bf02552606</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;6, issue&nbsp;4 (1914)</p></td>
+	<td>779&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552606" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552606">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552606">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552606">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Zbigniew Główczyński</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552607">Ueber die Löslichkeit von Chlorsilber</a></p>
+		<p>DOI: 10.1007/bf02552607</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;6, issue&nbsp;4 (1914)</p></td>
+	<td>1.34&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552607" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552607">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552607">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552607">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Hugo Morawitz</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552889">Ueber Adsorption und Kolloidfällung</a></p>
+		<p>DOI: 10.1007/bf02552889</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;1, issue&nbsp;8-9 (1910)</p></td>
+	<td>1.25&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552889" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552889">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552889">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552889">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P. P. von Weimarn</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552890">Uebersättigung und Unterkühlung als grundlegende Ursachen des dispersen Zustandes der Materie</a></p>
+		<p>DOI: 10.1007/bf02552890</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;1, issue&nbsp;8-9 (1910)</p></td>
+	<td>2.47&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552890" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552890">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552890">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552890">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Josef Spek</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552906">Differenzen im Quellungszustand der Plasmakolloide als eine Ursache der Gastrulainvagination, sowie der Einstülpungen und Faltungen von Zellplatten überhaupt</a></p>
+		<p>DOI: 10.1007/bf02552906</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;9, issue&nbsp;10-12 (1918)</p></td>
+	<td>7.48&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552906" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552906">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552906">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552906">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Rohonyi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552907">Ueber die Elektrolytpermeabilität der roten Blutkörperchen</a></p>
+		<p>DOI: 10.1007/bf02552907</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;8, issue&nbsp;11-12 (1916)</p></td>
+	<td>1.84&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552907" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552907">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552907">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552907">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Rohonyi; A. Lóránt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552908">Zur Kenntnis der Wirkung von CO2und O2auf die Elektrolytpermeabilität der roten Blutkörperchen</a></p>
+		<p>DOI: 10.1007/bf02552908</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;8, issue&nbsp;11-12 (1916)</p></td>
+	<td>619&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552908" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552908">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552908">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552908">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Rohonyi</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552909">Beobachtungen über zwei Eigentümlichkeiten der roten Blutkörperchen („Endokoagulation” und „Reversion der Hämolyse”)</a></p>
+		<p>DOI: 10.1007/bf02552909</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;8, issue&nbsp;11-12 (1916)</p></td>
+	<td>336&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552909" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552909">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552909">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552909">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>O. Herstad</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552910">Ueber die Einwirkung von Sublimat auf Goldhydrosole</a></p>
+		<p>DOI: 10.1007/bf02552910</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;8, issue&nbsp;11-12 (1916)</p></td>
+	<td>932&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552910" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552910">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552910">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552910">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Ernst Přibram</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552912">Die Bedeutung der Quellung und Entquellung für physiologische und pathologische Erscheinungen</a></p>
+		<p>DOI: 10.1007/bf02552912</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;2, issue&nbsp;1-2 (1910)</p></td>
+	<td>3.83&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552912" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552912">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552912">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552912">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John A. Gann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552913">Zusammenhang zwischen chemischer Konstitution von organischen Verbindungen und ihrer Fähigkeit, saure Goldhydrosole zu fällen</a></p>
+		<p>DOI: 10.1007/bf02552913</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;8, issue&nbsp;8-10 (1916)</p></td>
+	<td>1.98&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552913" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552913">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552913">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552913">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J. Matula</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552914">Tabellen für elektrometrische lonenkonzentrations-Bestimmungen</a></p>
+		<p>DOI: 10.1007/bf02552914</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;8, issue&nbsp;8-10 (1916)</p></td>
+	<td>1.75&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552914" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552914">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552914">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552914">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin H. Fischer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552915">Diagnose, Prognose und Behandlung bei Nephritis</a></p>
+		<p>DOI: 10.1007/bf02552915</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;9, issue&nbsp;7-9 (1917)</p></td>
+	<td>1.99&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552915" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552915">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552915">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552915">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Josef Reitstötter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552916">Ueber die Darstellung kolloider Goldlösungen nach dem Keimverfahren</a></p>
+		<p>DOI: 10.1007/bf02552916</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;9, issue&nbsp;7-9 (1917)</p></td>
+	<td>1.59&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552916" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552916">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552916">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552916">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Georg Wiegner</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552917">Ueber Emulsionskolloide (Emulsoide)</a></p>
+		<p>DOI: 10.1007/bf02552917</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;2, issue&nbsp;6-7 (1911)</p></td>
+	<td>1.20&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552917" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552917">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552917">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552917">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Henry R. Procter</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552918">Ueber die Einwirkung verdünnter Säuren und Salzlösungen auf Gelatine</a></p>
+		<p>DOI: 10.1007/bf02552918</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;2, issue&nbsp;6-7 (1911)</p></td>
+	<td>1.99&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552918" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552918">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552918">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552918">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>John A. Gann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552919">Uber die Koagulationsgeschwindigkeit des Al(OH)3-Sols</a></p>
+		<p>DOI: 10.1007/bf02552919</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;8, issue&nbsp;3-5 (1916)</p></td>
+	<td>3.13&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552919" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552919">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552919">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552919">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Walter Rickenbacher</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552920">Leitfähigkeitsmessungen in Seifelamellen</a></p>
+		<p>DOI: 10.1007/bf02552920</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;8, issue&nbsp;3-5 (1916)</p></td>
+	<td>1.07&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552920" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552920">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552920">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552920">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Wo. Ostwald</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552921">Vorbemerkung der Redaktion</a></p>
+		<p>DOI: 10.1007/bf02552921</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;8, issue&nbsp;3-5 (1916)</p></td>
+	<td>148&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552921" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552921">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552921">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552921">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Samec; S. Jencic</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552922">Studien über Pflanzenkolloide, V</a></p>
+		<p>DOI: 10.1007/bf02552922</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;7, issue&nbsp;6-12 (1915)</p></td>
+	<td>1.62&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552922" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552922">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552922">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552922">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>H. Freundlich; Walther Leonhardt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552923">Ueber negative hydroxydsole</a></p>
+		<p>DOI: 10.1007/bf02552923</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;7, issue&nbsp;6-12 (1915)</p></td>
+	<td>1.94&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552923" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552923">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552923">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552923">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Oskar Arendt</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552924">Zum zeitlichen Verlauf der Adsorption</a></p>
+		<p>DOI: 10.1007/bf02552924</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;7, issue&nbsp;6-12 (1915)</p></td>
+	<td>1.93&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552924" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552924">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552924">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552924">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Robert Wintgen</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552925">Untersuchungen über die Dichte und Lichtbrechung kolloider Lösungen</a></p>
+		<p>DOI: 10.1007/bf02552925</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;7, issue&nbsp;6-12 (1915)</p></td>
+	<td>1.31&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552925" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552925">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552925">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552925">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>E. Ramann</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552926">Kolloidstudien bei bodenkundlichen Arbeiten</a></p>
+		<p>DOI: 10.1007/bf02552926</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;2, issue&nbsp;8-9 (1911)</p></td>
+	<td>899&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552926" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552926">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552926">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552926">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Martin H. Fischer</td>
+	<td>
+		<p><a href="/scimag/10.1007%2Fbf02552927">Beiträge zur kolloidchemischen Analyse der Absorptions- und Sekretionsvorgänge. (Die Absorption aus der Bauchhöhle)</a></p>
+		<p>DOI: 10.1007/bf02552927</p>	</td>
+	<td><p><a href="/scimag/journals/7783">Fortschrittsberichte über Kolloide und Polymere / Kolloidchemische Beihefte</a><p>volume&nbsp;2, issue&nbsp;8-9 (1911)</p></td>
+	<td>2.01&nbsp;Mb<br><a href="/scimag/librarian/form.php?doi=10.1007%2Fbf02552927" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1007/bf02552927">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1007/bf02552927">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1007/bf02552927">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">602 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 25</span>
+	 <a href="/scimag/?journal=7783&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>

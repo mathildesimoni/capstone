@@ -1,0 +1,379 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Library Genesis • scientific articles</title>
+			<base href="/scimag/">
+		<link rel="stylesheet" href="/static/style.css">
+	<link rel="stylesheet" href="/static/menu.css">
+	<script type="text/javascript" src="/static/jquery-3.3.1.min.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/scimag/opensearch.xml" title="Library Genesis • scientific articles">
+	
+</head>
+<body>
+<ul id="menu">
+	<li><div class="drop">Download</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/dbdumps/">Database dumps (library's catalogue)</a></li>
+					<li><a href="/scimag/repository_torrent/">Torrents (library's content)</a></li>
+					<li><a href="https://phillm.net/libgen-stats-table.php">Torrent health tracker</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a class="drop" href="https://wiki.mhut.org/content:how_to_upload">Upload</a>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<div><a href="/scimag/librarian/">Web uploader</a></div>
+				<div style="margin:0 0 1em 0">for an anonymous access use<br>username: <em>genesis</em><br>password: <em>upload</em></div>
+				<div><a href="https://wiki.mhut.org/content:how_to_upload">A quick guide on how to upload</a></div>
+			</div>
+		</div>
+	</li>
+	<li><div class="drop">Updates</div>
+		<div class="dropdown_2columns">
+			<div class="col_2">
+				<ul>
+					<li><a href="/scimag/recent">Recently added files (last 100&nbsp;000)</a></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li><a href="/scimag/journals/" class="drop">All journals</a>
+		<div class="dropdown_3lettercolumn" style="width:290px">
+			<ul class="greybox">
+												<li><a href="/scimag/journals/?letter=A">A</a></li>
+								<li><a href="/scimag/journals/?letter=B">B</a></li>
+								<li><a href="/scimag/journals/?letter=C">C</a></li>
+								<li><a href="/scimag/journals/?letter=D">D</a></li>
+								<li><a href="/scimag/journals/?letter=E">E</a></li>
+								<li><a href="/scimag/journals/?letter=F">F</a></li>
+								<li><a href="/scimag/journals/?letter=G">G</a></li>
+								<li><a href="/scimag/journals/?letter=H">H</a></li>
+								<li><a href="/scimag/journals/?letter=I">I</a></li>
+								<li><a href="/scimag/journals/?letter=J">J</a></li>
+								<li><a href="/scimag/journals/?letter=K">K</a></li>
+								<li><a href="/scimag/journals/?letter=L">L</a></li>
+								<li><a href="/scimag/journals/?letter=M">M</a></li>
+								<li><a href="/scimag/journals/?letter=N">N</a></li>
+								<li><a href="/scimag/journals/?letter=O">O</a></li>
+								<li><a href="/scimag/journals/?letter=P">P</a></li>
+								<li><a href="/scimag/journals/?letter=Q">Q</a></li>
+								<li><a href="/scimag/journals/?letter=R">R</a></li>
+								<li><a href="/scimag/journals/?letter=S">S</a></li>
+								<li><a href="/scimag/journals/?letter=T">T</a></li>
+								<li><a href="/scimag/journals/?letter=U">U</a></li>
+								<li><a href="/scimag/journals/?letter=V">V</a></li>
+								<li><a href="/scimag/journals/?letter=W">W</a></li>
+								<li><a href="/scimag/journals/?letter=X">X</a></li>
+								<li><a href="/scimag/journals/?letter=Y">Y</a></li>
+								<li><a href="/scimag/journals/?letter=Z">Z</a></li>
+				
+				<li><a href="/scimag/journals/?letter=0-9">0-9</a></li>
+				<li><a href="/scimag/journals/?letter=other">other</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a href="https://forum.mhut.org/">Community &amp; support</a></li>
+</ul>
+
+<h1 class="header"><a href="/">Library Genesis</a>: <a href="/scimag/">Scientific articles</a></h1>
+<p style="margin:1em 0;text-align:center">
+Current alias domains are <a href="http://libgen.rs/">libgen.rs</a>, <a href="http://libgen.is/">libgen.is</a>, <a href="http://libgen.st/">libgen.st</a>. Update your bookmarks!<br>
+Try <a href="https://wiki.mhut.org/software:libgen_desktop">Libgen Desktop</a> application!
+</p>
+
+
+
+<table class="record">
+	<tr>
+		<td class="field">Journal:</td>
+		<td class="record_title"><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a></td>
+	</tr>
+		<tr>
+		<td class="field">Publisher:</td>
+		<td>Elsevier Science</td>
+	</tr>
+			<tr>
+		<td class="field">ISSN (print):</td>
+		<td>0005-2787</td>
+	</tr>
+					</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.page_selector').replaceWith('<select class="page_selector"></select>');
+	var list = $('.page_selector');
+	var options = new Array();
+	for (var i = 1; i <= 261; i++) {
+		var option = $('<option></option>').attr('value', i).text('page ' + i + ' / 261');
+		if (i == 1) option.attr('selected', 'selected');
+		options.push(option);
+	}
+	list.append(options);
+	list.on('change', function() {
+		window.location.href = "/scimag/?journal=2757&page=" + this.value;
+	});
+});
+</script>
+
+
+
+<div class="catalog_paginator">
+	<div style="float:left">6&nbsp;524 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 261</span>
+	 <a href="/scimag/?journal=2757&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+<table class="catalog">
+<thead><tr>
+	<td style="width:15em">Author(s)</td>
+	<td style="">Article</td>
+	<td style="">Journal</td>
+	<td style="">File</td>
+	<td style="width:10%">Mirrors</td>
+</tr></thead>
+<tbody>
+<tr>
+	<td>A.-L. Haenni; F. Chapeville</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2866%2990261-9">The behaviour of acetylphenylalanyl soluble ribonucleic acid in polyphenylalanine synthesis</a></p>
+		<p>DOI: 10.1016/0005-2787(66)90261-9</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;114, issue&nbsp;1 (1966)</p></td>
+	<td>849&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2866%2990261-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2866%2990261-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2866%2990261-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2866%2990261-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>P.J. Rizzo; L.D. Noodén</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2874%2990126-9">Isolation and partial characterization of dinoflagellate chromatin</a></p>
+		<p>DOI: 10.1016/0005-2787(74)90126-9</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;349, issue&nbsp;3 (1974)</p></td>
+	<td>808&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2874%2990126-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2874%2990126-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2874%2990126-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2874%2990126-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>B. Öberg; P.Å. Albertsson; L. Philipson</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990001-8">Partition studies on nucleic acids II. Countercurrent distribution of virus RNA</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90001-8</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>492&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990001-8" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990001-8">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990001-8">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990001-8">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>F. Melchers; D. Dütting; H.G. Zachau</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990002-x">Enzymatische Spaltungen von Serin-t-RNA-Fraktionen</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90002-x</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>634&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990002-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990002-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990002-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990002-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D Dütting; W Karau; F Melchers; H.G Zachau</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990003-1">Nucleotidsequenzen in serinspezifischen Transfer-Ribonucleinsäuren</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90003-1</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>521&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990003-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990003-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990003-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990003-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Paul R. Whitfeld</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990004-3">Application of the periodate method for the analysis of nucleotide sequence to tobacco mosaic virus RNA</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90004-3</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>562&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990004-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990004-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990004-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990004-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Iwabuchi; M. Kono; T. Oumi; S. Osawa</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990005-5">The RNA components in ribonucleoprotein particles occurring during the course of ribosome formation in Escherichia coli</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90005-5</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>503&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990005-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990005-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990005-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990005-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A.A. Hadjiolov; P.V. Venkov; L.B. Dolapchiev</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990006-7">Pattern of [32P]orthophosphate incorporation in vitro into ribonucleic acid nucleotides of Ehrlich ascites tumor cells</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90006-7</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>808&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990006-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990006-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990006-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990006-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Mancourt Downing; Alice Adams; Lorraine Hellenga</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990007-9">Enzymatic conversion of ribonucleotides to deoxynucleotides</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90007-9</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>584&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990007-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990007-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990007-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990007-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>J.F. Jackson; Roger D. Kornberg; Paul Berg; U.L. Rajbhandary; A. Stuart; H.G. Khorana; Arthur Kornberg</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990008-0">On the heterogeneity of the deoxyribonucleic acid associated with crystalline yeast cytochrome b2</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90008-0</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>375&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990008-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990008-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990008-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990008-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Sluyser; P.J. Thung; P. Emmelot</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990009-2">Inhibition of deoxyribonucleic acid synthesis in regenerating rat liver by the administration of histones in vivo</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90009-2</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>572&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990009-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990009-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990009-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990009-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Jane K. Setlow; M.E. Boling</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990010-9">The resistance of Micrococcus radiodurans to ultraviolet radiation II. Action spectra for killing, delay in DNA synthesis, and thymine dimerization</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90010-9</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>317&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990010-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990010-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990010-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990010-9">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M.O&#039;Neal Nicolson; W.G. Flamm</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990011-0">Properties and significance of free and bound ribosomes from cultured tobacco cells</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90011-0</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>509&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990011-0" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990011-0">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990011-0">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990011-0">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>A.M. Kroon</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990012-2">Protein synthesis in mitochondria III. On the effects of inhibitors on the incorporation of amino acids into protein by intact mitochondria and digitonin fractions</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90012-2</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>582&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990012-2" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990012-2">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990012-2">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990012-2">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>T. Hallinan; H.N. Munro</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990013-4">Protein synthesis and ribonucleic acid turnover in rat-liver microsome subfractions</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90013-4</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>716&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990013-4" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990013-4">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990013-4">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990013-4">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Stanton Segal</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990014-6">The formation of penicillinase by cysteine-starved auxotrophs of Bacillus licheniformis</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90014-6</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>535&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990014-6" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990014-6">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990014-6">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990014-6">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>N. Glansdorff; G. Sand</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990016-x">Coordination of enzyme synthesis in the arginine pathway of Escherichia coli K-12</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90016-x</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>234&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990016-x" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990016-x">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990016-x">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990016-x">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M.T.A. Behme; E.H. Cordes</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990017-1">Equilibrium constants for association of actinomycin D with several purine derivatives</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90017-1</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>125&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990017-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990017-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990017-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990017-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>D. Vazquez</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990018-3">A method for the preparation of bacterial 50-S ribosome subunits</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90018-3</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>245&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990018-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990018-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990018-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990018-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Tae Suk Ro; Harris Busch</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990019-5">Concentration of [14C]actinomycin D in various tissues following intravenous injection</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90019-5</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>111&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990019-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990019-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990019-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990019-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>David Freifelder</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990020-1">A rapid technique for the preparation of purified bacteriophage DNA or RNA from crude lysates</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90020-1</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>110&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990020-1" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990020-1">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990020-1">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990020-1">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M.R. Atkinson; Gail Eckermann; Jan Stephenson</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990021-3">Formation of 6-thioxanthosine 5′-phosphate from 6-mercaptopurine and from 6-thioxanthine in Ehrlich ascites-tumour cells</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90021-3</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>177&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990021-3" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990021-3">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990021-3">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990021-3">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>G.R. Barker; JoséA. Hollinshead</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990022-5">Ribosomes from the cotyledons of Pisum arvense</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90022-5</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>373&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990022-5" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990022-5">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990022-5">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990022-5">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>M. Arca; L. Frontali; G. Tecce</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990023-7">Lack of specificity in the formation amino-acyl-sRNA as a possible source of coding errors</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90023-7</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>170&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990023-7" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990023-7">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990023-7">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990023-7">BookSC</a></li></ul></td>
+</tr>
+<tr>
+	<td>Piero Cammarano; Marialuisa Melli; G.David Novelli</td>
+	<td>
+		<p><a href="/scimag/10.1016%2F0005-2787%2865%2990024-9">Poly-U stimulated incorporation. A comparison of normal and regenerating liver</a></p>
+		<p>DOI: 10.1016/0005-2787(65)90024-9</p>	</td>
+	<td><p><a href="/scimag/journals/2757">Biochimica et Biophysica Acta (BBA) - Nucleic Acids and Protein Synthesis</a><p>volume&nbsp;108, issue&nbsp;2 (1965)</p></td>
+	<td>212&nbsp;Kb<br><a href="/scimag/librarian/form.php?doi=10.1016%2F0005-2787%2865%2990024-9" title="edit metadata">[edit]</a></td>
+	<td><ul class="record_mirrors"><li><a href="https://sci-hub.se/10.1016/0005-2787%2865%2990024-9">Sci-Hub</a></li><li><a href="https://cdn1.booksdl.org/ads.php?doi=10.1016/0005-2787%2865%2990024-9">Libgen.gs</a></li><li><a href="https://booksc.org/s/?q=10.1016/0005-2787%2865%2990024-9">BookSC</a></li></ul></td>
+</tr>
+
+</tbody>
+</table>
+<div class="catalog_paginator">
+	<div style="float:left">6&nbsp;524 files found</div>
+		<div style="float:right">
+		<span class="page_selector">page 1 / 261</span>
+	 <a href="/scimag/?journal=2757&page=2">▶</a>	</div>
+	</div>
+<div style="clear:both"></div>
+
+
+</body>
+</html>
