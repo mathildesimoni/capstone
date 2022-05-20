@@ -45,29 +45,29 @@
     * **6 - Parsing PDFs.ipynb** : *convert PDF documents to textfiles. Implemented only for Wiley*
     * **opt - Analysis links to PDFs.ipynb** : *analysis of results from previous steps*
     * 
-    * **JournalsSpringer.csv** : *contains about journals belonging to Springer*
-    * **JournalsWiley.csv** : *contains about journals belonging to Wiley*
-    * **JournalsElsevier.csv** : *contains about journals belonging to Elsevier*
-    * **JournalsTaylor.csv** : *contains about journals belonging to Taylor*
+    * **JournalsSpringer.csv** : *dataset with info about journals belonging to Springer. Updated at every step*
+    * **JournalsWiley.csv** : *dataset with info about journals belonging to Wiley. Updated at every step*
+    * **JournalsElsevier.csv** : *dataset with info about journals belonging to Elsevier. Updated at every step*
+    * **JournalsTaylor.csv** : *dataset with info about journals belonging to Taylor. Updated at every step*
     * 
-    * **JournalsSpringerPDFs.csv** : *contains links to relevant PDF documents for journals belonging to Springer*
-    * **JournalsWileyPDFs.csv** : *contains links to relevant PDF documents for journals belonging to Wiley*
-    * **JournalsElsevierPDFs.csv** : *contains links to relevant PDF documents for  journals belonging to Elsevier*
-    * **JournalsTaylorPDFs.csv** : *contains links to relevant PDF documents for  journals belonging to Taylor*
+    * **JournalsSpringerPDFs.csv** : *dataset with links to relevant PDF documents for journals belonging to Springer. Updated at steps 4 and 5*
+    * **JournalsWileyPDFs.csv** : *dataset with links to relevant PDF documents for journals belonging to Wiley. Updated at steps 4 and 5*
+    * **JournalsElsevierPDFs.csv** : *dataset with links to relevant PDF documents for  journals belonging to Elsevier. Updated at steps 4 and 5*
+    * **JournalsTaylorPDFs.csv** : *dataset with links to relevant PDF documents for  journals belonging to Taylor. Updated at steps 4 and 5*
     * 
-    * **JournalsSpringerGotPDFs.csv** : *dataset with bool values to check if got a link to PDF for each year and each journals belonging to Springer*
-    * **JournalsWileyGotPDFs.csv** : *dataset with bool values to check if got a link to PDF for each year and each journals belonging to Wiley*
-    * **JournalsElsevierGotPDFs.csv** : *dataset with bool values to check if got a link to PDF for each year and each journals belonging to Elsevier*
-    * **JournalsTaylorGotPDFs.csv** : *dataset with bool values to check if got a link to PDF for each year and each journals belonging to Taylor*
+    * **JournalsSpringerGotPDFs.csv** : *dataset with bool values to check if I got a link to PDF for each year and each journal belonging to Springer. Updated at step 4*
+    * **JournalsWileyGotPDFs.csv** : *dataset with bool values to check if I got a link to PDF for each year and each journals belonging to Wiley. Updated at step 4*
+    * **JournalsElsevierGotPDFs.csv** : *dataset with bool values to check if I got a link to PDF for each year and each journals belonging to Elsevier. Updated at step 4*
+    * **JournalsTaylorGotPDFs.csv** : *dataset with bool values to check if got I a link to PDF for each year and each journals belonging to Taylor. Updated at step 4*
     * 
-    * **ElsevierDOIs.csv** : *contains DOIs for PDFs with relevant editorial info. Sent to Michael*
+    * **ElsevierDOIs.csv** : *contains DOIs for PDFs with relevant editorial info from journals belonging to Elsevier. Sent to Michael*
     * 
-    * **elsevier/** : *contains directories for each journal belonging to elsevier. Those directories store all scraped pages corresponding to the specific journal*
-    * **springer/** : *contains directories for each journal belonging to springer. Those directories store all scraped pages corresponding to the specific journal*
-    * **taylor/** : *contains directories for each journal belonging to taylor. Those directories store all scraped pages corresponding to the specific journal*
-    * **wiley/** : *contains directories for each journal belonging to wiley. Those directories store all scraped pages corresponding to the specific journal*
+    * **elsevier/** : *directory which contains sub-directories for each journal belonging to Elsevier. A sub-directory stores all scraped pages for a specific journal*
+    * **springer/** : *directory which contains sub-directories for each journal belonging to Springer. A sub-directory stores all scraped pages for a specific journal*
+    * **taylor/** : *directory which contains sub-directories for each journal belonging to Taylor. A sub-directory stores all scraped pages for a specific journal*
+    * **wiley/** : *directory which contains sub-directories for each journal belonging to Wiley. A sub-directory stores all scraped pages for a specific journal*
     * 
-    * **journals/** : *contains scraped pages with names of all journals on library genesis website*
+    * **journals/** : *contains scraped pages with names of all journals in library genesis*
 
 * **README.md** : *this file*
 
