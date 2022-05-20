@@ -82,13 +82,13 @@
 
 * run notebook "**4 - Parsing find PDFs.ipynb**" and don't forget to update list of publishers, start_year and end_year depending on the period of time you want to analyze: this will find links to relevant PDF documents for each issue previously selected
 
-* run part 5 (**# 5: get all PDF for Wiley info pages**) of request_module. This step was only implemented for Wiley. Need to do the same for elsevier. 
+* run part 5 (**# 5: get all PDF for Wiley info pages**) of request_module to get 1st PDF pages (not valid to download). This step was only implemented for Wiley. Need to do the same for Elsevier. 
 
-* run notebook "**5 - Parsing find PDF docs Wiley.ipynb**" (again, only implemented for Wiley) to get valid links to releant PDFs
+* run notebook "**5 - Parsing find PDF docs Wiley.ipynb**" to get VALID links (that we can download) to PDFs. This step was only implemented for Wiley. Need to do the same for Elsevier. 
 
-* run part 5.2 (**# 5.2 get actual PDFs**) of request_module. (again, only implemented for Wiley) go download the relevant PDFs
+* run part 5.2 (**# 5.2 get actual PDFs**) of request_module to download the PDFs. This step was only implemented for Wiley. Need to do the same for Elsevier. 
 
-* run notebook  "**6 - Parsing PDFs.ipynb**" to convert PDF documents to textfiles
+* run notebook  "**6 - Parsing PDFs.ipynb**" to convert PDF documents to textfiles. Need to check this code. The error rate is very high.
 
 
 
