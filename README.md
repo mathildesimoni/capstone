@@ -36,14 +36,14 @@
         * **FinalAuthorsNoEthnicity.csv** : *result of checkDataset.ipynb, final dataset to send to classifier*
 
 * **scrap_journals/** : *directory for task 3: webscraping task to get info about editorial boards*
-    * **request_module.ipynb** : *contains all scripts which download pages from internet*
+    * **request_module.ipynb** : *contains all scripts which download pages from internet (using request module in Python)*
     * **1 - parsing module journals for each editor.ipynb** : *get all journals for each editor and their link to main pages on library genesis*
     * **2 - Parsing module journals.ipynb** : *get number of pages to scrap for each journal*
-    * **3 - Parsing find issue links.ipynb** : *for each journal in each publisher, find links to issues for a specific period of time*
-    * **4 - Parsing find PDFs.ipynb** : *get the links to relevant PDF documents for the issues previously selected (based on a list of keywords)*
-    * **5 - Parsing find PDF docs Wiley.ipynb** : *get the VALID links to relevant PDF (the previous link got in step 4 are not "valid", needed to do some modifications to get links we can download). Implemented only for wiley*
-    * **6 - Parsing PDFs.ipynb** : *convert PDF documents to textfiles (implemented only for Wiley)*
-    * **opt - Analysis links to PDFs.ipynb** : *analysis of results from previous step*
+    * **3 - Parsing find issue links.ipynb** : *for each journal belonging to each publisher, find links to 1st issues of volumes corresponding to a specific period of time*
+    * **4 - Parsing find PDFs.ipynb** : *get the links to relevant PDF documents for the issues previously selected (Relevant PDF means PDF with potential information about the editorial board, the selection is based on a list of keywords)*
+    * **5 - Parsing find PDF docs Wiley.ipynb** : *get the VALID links to relevant PDF documents (the previous links from step 4 are not "valid", I needed to do some modifications to get links we can download). Implemented only for Wiley*
+    * **6 - Parsing PDFs.ipynb** : *convert PDF documents to textfiles. Implemented only for Wiley*
+    * **opt - Analysis links to PDFs.ipynb** : *analysis of results from previous steps*
     * 
     * **JournalsSpringer.csv** : *contains about journals belonging to Springer*
     * **JournalsWiley.csv** : *contains about journals belonging to Wiley*
