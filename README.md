@@ -4,7 +4,6 @@
 
 * **authors_fields/** : *directory for task 1: find disciplines of authors and journals in MAG*
     * **part1_parent_children_disciplines.ipynb** : *find highest level discipline for each lower level discipline speficied in MAG*  
-      
     * **part2_authors_disciplines.ipynb** : *sample code to link each AUTHOR in MAG with a discipline (the one with the highest score)*
     * **part3_journals_disciplines.ipynb** : *sample code to link each JOURNAL in MAG with a discipline (the one with the highest score)* 
     * 
