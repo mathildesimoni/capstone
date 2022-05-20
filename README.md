@@ -2,10 +2,11 @@
 
 ### Files
 
-* authors_fields/ : *directory for take 1: find disciplines of authors and journals in MAG*
+* authors_fields/ : *directory for task 1: find disciplines of authors and journals in MAG*
     * part1_parent_children_disciplines.ipynb : *find highest level discipline for each lower level discipline speficied in MAG*
     * part2_authors_disciplines.ipynb : *sample code to link each AUTHOR in MAG with a discipline (the one with the highest score)*
     * part3_journals_disciplines.ipynb : *sample code to link each JOURNAL in MAG with a discipline (the one with the highest score)* 
+    * 
 
     * authors_disciplines.py : *same as "part2_authors_disciplines.ipynb" file but was run on HPC*
     * journals_disciplines.py : *same as "part3_journals_disciplines.ipynb" file but was run on HPC*
@@ -21,7 +22,7 @@
     * scientists_primary_discipline_sample.csv : *resulting dataset from "part2_authors_disciplines.ipynb"*
     * journals_primary_discipline_sample.csv : *resulting dataset from "part3_journals_disciplines.ipynb"*
 
-* authors_ethnicity/ : *directory for take 2: find ethnicity of authors in MAG*
+* authors_ethnicity/ : *directory for task 2: find ethnicity of authors in MAG*
     * part1_authors_ethnicity.py : *get authors in MAG for who ethnicity wasn't identified yet*
     * part2_authors_unique_names.py : *remove duplicate names*
     * part3_count_papers_per_author.py : *count number of papers per author*
@@ -35,7 +36,7 @@
     * AuthorsPaperCount.csv : *result of part3_count_papers_per_author.py*
     * FinalAuthorsNoEthnicity.csv : *final dataset to send to classifier*
 
-* scrap_journals/ : *directory for take 3: webscraping task to get info about editorial boards*
+* scrap_journals/ : *directory for task 3: webscraping task to get info about editorial boards*
     * request_module.ipynb : *contains all scripts which download pages from internet*
     * 1 - parsing module journals for each editor : *get all journals for each editor and their link to main pages on library genesis*
     * 2 - Parsing module journals.ipynb : *get number of pages to scrap for each journal*
