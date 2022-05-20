@@ -22,18 +22,18 @@
     * **journals_primary_discipline_sample.csv** : *resulting dataset from "part3_journals_disciplines.ipynb"*
 
 * **authors_ethnicity/** : *directory for task 2: find ethnicity of authors in MAG*
-    * **part1_authors_ethnicity.py** : *get authors in MAG for who ethnicity wasn't identified yet*
-    * **part2_authors_unique_names.py** : *remove duplicate names*
-    * **part3_count_papers_per_author.py** : *count number of papers per author*
+    * **part1_authors_ethnicity.py** : *get authors in MAG for whom ethnicity wasn't identified yet*
+    * **part2_authors_unique_names.py** : *remove duplicate names from part 1 result, run on HPC*
+    * **part3_count_papers_per_author.py** : *count number of papers per author in MAG, run on HPC*
     * 
-    * **checkDataset.ipynb** : *analyze the dataset with authors for which we don't have ethnicity identified yet*
-    * 
-    * **AuthorsNoEthnicity.csv** : *result of part1_authors_ethnicity.py*
-    * **AuthorsNoEthnicityUnique.csv** : *result of part2_authors_unique_names.py*
-    * **unique_authornames_MAG.csv** : *dataset with authors for which etnicity was identified before, shared by Bedoor*
-    * **AuthorsNoEthnicityUniqueRelevant.csv** : *after removing duplicates, remove authors for who the classifier didn't return any result in the past*
-    * **AuthorsPaperCount.csv** : *result of part3_count_papers_per_author.py*
-    * **FinalAuthorsNoEthnicity.csv** : *final dataset to send to classifier*
+    * **checkDataset.ipynb** : *analyze the dataset with authors for whom we don't have ethnicity identified yet*
+    * The following files couldn't be added on Github but can be shared on HPC if requested:
+        * **AuthorsNoEthnicity.csv** : *result of part1_authors_ethnicity.py*
+        * **AuthorsNoEthnicityUnique.csv** : *result of part2_authors_unique_names.py*
+        * **unique_authornames_MAG.csv** : *dataset with authors for which etnicity was identified before, shared by Bedoor*
+        * **AuthorsNoEthnicityUniqueRelevant.csv** : *after removing duplicates, remove authors for whom the classifier didn't return any result in the past*
+        * **AuthorsPaperCount.csv** : *result of part3_count_papers_per_author.py*
+        * **FinalAuthorsNoEthnicity.csv** : *result of checkDataset.ipynb, final dataset to send to classifier*
 
 * **scrap_journals/** : *directory for task 3: webscraping task to get info about editorial boards*
     * **request_module.ipynb** : *contains all scripts which download pages from internet*
