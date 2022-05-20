@@ -89,7 +89,3 @@
 * run part 5.2 (**# 5.2 get actual PDFs**) of request_module to download the PDFs. This step was only implemented for Wiley. Need to do the same for Elsevier. 
 
 * run notebook  "**6 - Parsing PDFs.ipynb**" to convert PDF documents to textfiles. Need to check this code. The error rate is very high.
-
-
-
-
